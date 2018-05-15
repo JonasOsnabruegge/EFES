@@ -1,4 +1,5 @@
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,9 +55,9 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Dannstadt</placeName>
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0300" cert="medium">In H D D</origDate>
+                            <origDate notBefore="0150" notAfter="0300" cert="medium">In H D D</origDate>
                         </origin>
-                        <provenance type="found" notAfter="1825">#
+                        <provenance type="found" notAfter="1825">
                             <placeName ref="ph">Dannstadt-Schauernheim, Dannstadt, aus der Umfassungsmauer der Kirche</placeName>
                             <geo>49.426436 8.317211</geo>
                         </provenance>

@@ -1,4 +1,5 @@
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -53,7 +54,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Bad Bergzabern</placeName> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0300"/>
+                            <origDate notBefore="0015" notAfter="0300"/>
                         </origin>
                         <provenance type="found" notAfter="1589">
                             <placeName ref="ph">Bad Bergzabern, zwischen Blankenborn und Silz, 'Katzeneck'</placeName>
@@ -68,7 +69,6 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift?</term>
                     <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift?</term>
                 </keywords>
             </textClass>

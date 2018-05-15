@@ -1,4 +1,5 @@
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -57,7 +58,7 @@
                                 <placeName type="Legionslager" key="Tabernae" ref="https://pleiades.stoa.org/places/109362">Tabernae</placeName>
                                 <placeName type="modern">Rheinzabern</placeName> 
                             </origPlace>
-                            <origDate notBefore="0150" notAfter="0230" cert="low"/>
+                            <origDate notBefore="0170" notAfter="0230" cert="low"/>
                         </origin>
                         <provenance type="found" when="1980">
                         	<placeName ref="ph">Rheinzabern, ehemalige Gewann '24 Morgen', in einem römischen Ziegelbrunnen</placeName>
@@ -96,7 +97,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>commentary</p>
+                <p>Datierung: IOM ausgeschrieben spricht eher für die Frühzeit, Severius Severianus scheint für die severianische Zeit zu sprechen.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

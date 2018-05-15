@@ -3,47 +3,49 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift für Diana</title>
+                <title>Inschriftfragment</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">Nem092</idno>
+                <idno type="filename">Nem164</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
-                        <idno>HM 1935/5</idno>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Zwei Fragmente eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>, verwittert, ausgebrochene Stellen modern ergänzt.</p>
+                                    <p>Fragment mit der Ecke eines nicht näher identifizierten Monuments.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height>47</height>
-                                            <width/>
-                                            <depth/>
+                                            <height>(14)</height>
+                                            <width>(19)</width>
+                                            <depth>(10)</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Der untere Teil des Inschriftfeldes ist stark verwittert. Zeile 1 füllt den verfügbaren Platz gut aus. Gedrängtes, leicht unregelmäßiges Schriftbild.
+                                        Die Inschrift befindet sich auf zwei verschiedenen Seiten des Monuments, der erste auf der linken, der zweite auf der rechten Seite.
                                     </p>
-                                   <dimensions>
+                                    <dimensions>
                                         <height/>
-                                        <width/>
+                                        <depth/>
                                     </dimensions>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, unterschiedlich breite und nicht sonderlich sorgfältig ausgeführte Buchstaben ohne Serifen.</p>
+                                <p>
+                                    Regelmäßige, quadratische Buchstaben mit Serifen.
+                                </p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -53,14 +55,14 @@
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
-                                <placeName type="ancient" key="ph" ref="ph"/>
-                                <placeName type="modern">Offenbach an der Queich</placeName> 
+                                <placeName type="vicus" key="Tabernae" ref="https://pleiades.stoa.org/places/109362">Tabernae</placeName>
+                                <placeName type="modern">Rheinzabern</placeName> 
                             </origPlace>
-                            <origDate notBefore="0015" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0015" notAfter="0230" cert="low">Kontext, Neubau des Ziegelofens mit Spolien nach Alemanneneinfall (Reutti).</origDate>
                         </origin>
-                        <provenance type="found" notAfter="1937">
-                            <placeName ref="ph">Speyer</placeName>
-                            <geo>49.31743683 8.442565352</geo>
+                        <provenance type="found" when="1981">
+                        	<placeName ref="ph">Rheinzabern, ehemalige Gewann '24 Morgen', gefunden in Sekundärverwendung im Kontext eines Ziegelofens</placeName>
+                            <geo>49.1140313 8.275140827</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -71,22 +73,29 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term>unbekannt</term>
                 </keywords>
             </textClass>
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/img/26789.jpg"/>
+        <graphic url=""/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
-                <ab>
-                    <lb n="1"/><persName type="divine" key="Diana" role="god">Dian<supplied reason="omitted">a</supplied>e</persName>
-                    <lb n="2"/><gap reason="lost" extent="2" unit="character"/><orig><unclear>a</unclear></orig><gap reason="lost" extent="2" unit="character"/>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                </ab>
+                <div type="textpart" subtype="face" n="1">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>o</orig>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="2">
+                    <ab>
+                        <lb n="1"/><orig>m</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <p/>
@@ -100,12 +109,12 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD076139
                     </bibl>
                     <bibl>
-                        <ptr target="Nesselhauf1937"/>
+                        <ptr target="Wiegels1989"/>
                         <biblScope>
-                            70, Nr. 69
+                            39, Nr. 18; m. Abb.
                         </biblScope>
                     </bibl>
                 </listBibl>

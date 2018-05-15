@@ -3,36 +3,35 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule des Septimius Severus</title>
+                <title>Altar für Iuppiter Optimus Maximus und Iuno Regina</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">Nem146</idno>
+                <idno type="filename">Nem165</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
-                        <idno>A 39</idno>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, mittig vertikal sowie oben und unten abgebrochen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType></p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height>(53)</height>
-                                            <width>46</width>
-                                            <depth/>
+                                            <height>98</height>
+                                            <width>48</width>
+                                            <depth>30</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>
-                                        Inschriftfeld verwittert.
+                                    <p>O in leicht links der Mitte verschoben, um die Breite des M auszugleichen. Im ganzen ungleichmäßiges Schriftbild, da aus Platzmangel Ligaturen eingefügt werden mussten, Z. 4 dagegen mit weitem Buchstabenabstand. Letzte Zeile nicht ganz zentriert.
                                     </p>
                                     <dimensions>
                                         <height/>
@@ -43,8 +42,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig ausgeführte quadratische Buchstaben mit Serifen.</p>
-                                <height>7,0</height>
+                                <p>Leicht unregelmäßige und ungleichmäßig ausgeführte, große Buchstaben. G schneckenförmig.</p>
+                                <height min="3.5" max="7.0">7,0-3,5</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -54,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
                                 <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
-                                <placeName type="modern">Altrip</placeName> 
+                                <placeName type="modern">Altrip</placeName>
                             </origPlace>
-                            <origDate notBefore="0193" notAfter="0194" cert="low"/>
+                            <origDate when="0239-09-22" cert="high" type="consulship"/>
                         </origin>
-                        <provenance type="found" when="1842">
-                            <placeName ref="ph">Altrip, Gärten der Witwe Hook - verschleppt aus dem spätantiken Burgus?</placeName>
-                            <geo>49.4328489 8.5019498</geo>
+                        <provenance type="found" when="1835">
+                            <placeName ref="ph">Altrip, Garten der Witwe Hook; aus dem spätantiken Burgus verschleppt?</placeName>
+                            <geo>49.4328489 8.5019495</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -71,22 +70,24 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
                 </keywords>
             </textClass>
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/img/26628-1.jpg"/>
+        <graphic url="http://lupa.at/img/25541.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> </supplied><expan><abbr><supplied reason="lost">C</supplied>aes</abbr><ex>ari</ex></expan>
-                    <lb n="2"/><supplied reason="lost"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> </supplied><supplied reason="lost">Septi</supplied>mio
-                    <lb n="3"/><supplied reason="lost">Seve</supplied>ro <expan><abbr>Per<lb n="4" break="no"/><supplied reason="lost">tin</supplied>ac</abbr><ex>i</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
-                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="divine" key="IunoRegina" role="god"><expan><abbr>Iun</abbr><ex>oni</ex></expan> <expan><abbr>Reg</abbr><ex>inae</ex></expan></persName> <persName type="attested" ref="NemPers.xml#p205" role="creator"><name nymRef="Reginius" type="gentilicium">Reg<lb n="3" break="no"/><hi rend="ligature">in</hi>ius</name> <name nymRef="Potens" type="cognomen">Po<hi rend="ligature">te</hi>ns</name></persName>
+                    <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <date when-custom="0239-09-22" datingMethod="#julian" type="consulship"><num value="10">X</num> <rs type="calendar"><expan><abbr>K</abbr><ex>alendas</ex></expan></rs> <rs type="month" key="October"><expan><abbr>Oct</abbr><ex>obres</ex></expan></rs>
+                    <lb n="5"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Gordianus" type="cognomen">Gordiano</name></persName>
+                    <lb n="6"/><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan> <hi rend="ligature">et</hi> <persName type="consul" ref="persons.xml#p"><name nymRef="Aviola" type="cognomen">Aviola</name></persName>
+                    <lb n="7"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
                 </ab>
             </div>
             <div type="apparatus">
@@ -101,17 +102,20 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD075731
+                        HD024589
                     </bibl>
                     <bibl>
-                        CIL XIII 9088
+                        CIL XIII 6129
                     </bibl>
                     <bibl>
-                        CIL XVII/2, 619
+                        PIR² A 51
                     </bibl>
                     <bibl>
-                        CIRh 1945
-                    </bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            86, Nr. 3
+                        </biblScope>
+                    </bibl>   
                 </listBibl>
             </div>
         </body>
