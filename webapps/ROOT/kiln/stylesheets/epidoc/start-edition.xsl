@@ -36,6 +36,7 @@
    <xsl:include href="htm-teisupplied.xsl"/>
    <xsl:include href="htm-teiterm.xsl"/>
    <xsl:include href="htm-teiref.xsl"/>
+   <xsl:include href="htm-tpl-struct-JO.xsl"/>
 
    <!-- tei stylesheets that are also used by start-txt -->
    <xsl:include href="teiabbrandexpan.xsl"/>
@@ -83,6 +84,20 @@
    <!-- HTML FILE -->
    <xsl:template match="/">
       <xsl:choose>
+          <xsl:when test="$edn-structure = 'JO'">
+              <!-- this and other structure templates found in htm-tpl-struct-*.xsl -->
+              <xsl:call-template name="JO-structure">
+                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
+                  <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
+                  <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
+                  <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
+                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
+                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
+              </xsl:call-template>
+          </xsl:when>
          <xsl:when test="$edn-structure = 'london'">
             <!-- this and other structure templates found in htm-tpl-struct-*.xsl -->
              <xsl:call-template name="london-structure">

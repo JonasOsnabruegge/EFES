@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Achtgötterstein mit Weihinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem005</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Würfelförmiger Achtgötterstein. Die Inschrift befindet sich auf der einer der Seiten über zwei Bogennischen mit Darstellungen von Göttinen im Chiton mit unklaren Attributen. Auf den anderen Seiten je zwei Bogennischen, re. Seite: Vulcanus in Exomis und Pileos mit Zange und Hammer, Neptunus mit Delfin und Dreizack; hinten: links Göttin im Chiton mit kurzem stabartigem Attribut, rechts Genius im Mantel mit Füllhorn; li. Seite: links geflügelte Victoria im Chiton mit Stilus und Schild, Fuß auf Globus, rechts Götten in Mantel und Chiton mit Füllhorn? Victoria?</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>57</height>
+                                            <width>57</width>
+                                            <depth>58</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift verläuft auf einer Leiste oberhalb der Bogennischen. Gleichmäßiger Buchstabenabstand.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, serifenlose Buchstaben</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CN" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Dannstadt</placeName>
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0300" cert="medium">In H D D</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1825">#
+                            <placeName ref="ph">Dannstadt-Schauernheim, Dannstadt, aus der Umfassungsmauer der Kirche</placeName>
+                            <geo>49.426436 8.317211</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25525-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <persName type="divine" key="IOM" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan></supplied> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036523
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6126
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1937"/>
+                        <biblScope>
+                            Nr. 5990
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            113, Nr. 107; Taf. 11, 4
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -63,8 +63,8 @@
   
   <parameter>
     <name>external-app-style</name>
-    <value on="yes">default</value>
-    <value>iospe</value>
+    <value>default</value>
+    <value on="yes">iospe</value>
   </parameter>
   
   <parameter><!-- DEPRECATED -->
@@ -74,9 +74,9 @@
   
   <parameter><!--old paramter for local tests to be removed soon... -->
     <name>bibliography</name>
-    <value on="yes">none</value>
+    <value>none</value>
     <value>localTEI</value> <!--looks up a local TEI bibliography-->
-    <value>zotero</value> <!--looks at the api and renders the html from there-->
+    <value on="yes">zotero</value> <!--looks at the api and renders the html from there-->
   </parameter>
   
   <parameter> <!--path to local TEI XML bibliography if this is the bibliography used-->
@@ -86,14 +86,14 @@
   
   <parameter> if the zotero bibliography is used, select whether it is a group library or a user's library
     <name>ZoteroUorG</name>
-    <value on="yes">groups</value>
-    <value>users</value>
+    <value>groups</value>
+    <valueh on="yes">users</valueh>
   </parameter>
   
   
   <parameter> <!--the key of the library-->
     <name>ZoteroKey</name>
-    <value on="yes">247748</value><!--EAGLE open group bibliography-->
+    <value on="yes">4272137</value>
     <value>epidig</value> <!--sample value-->
   </parameter>
   

@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bruchstück der Stifterinschrift eines Collegiums?</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem160</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>HM 1932, 0001c</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Allseitig sekundär rechteckig abgearbeitetes Bruchstück eines nicht mehr identifizierbaren Monuments. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>? Auf der Oberseite mittig Dübelloch, auf der Rückseite Rautengitterornament.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(55,5)</height>
+                                            <width>(35,5)</width>
+                                            <depth>83</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Überwiegend regelmäßiges, teilweise etwas gedrängtes Schriftbild. Zahlreiche Ligaturen, schwankender Buchstabenabstand.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Überwiegend regelmäßige, leicht uneinheitlich und teilweise unsicher ausgeführte, quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
+                                <placeName type="modern">Altrip</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1932" cert="low">
+                        	<placeName ref="ph">
+                        		Altrip
+                        	</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                    <keywords scheme="DISS_JO">
+                        <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift?</term>
+                    </keywords>
+                
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="www.lupa.at/26480"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="1"/><persName type="attested" ref="NemPers.xml#p184" role="creator"><name nymRef="---" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="Severianus+?" type="cognomen">Se<hi rend="ligature">ve</hi>r<hi rend="small">i</hi><hi rend="ligature">an</hi><supplied reason="lost" cert="low">us</supplied></name></persName> <orig>a</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#p185" role="creator"><name nymRef="---" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="Ursio" type="cognomen">Ursio</name></persName> <persName type="attested" ref="NemPers.xml#p186" role="creator"><name nymRef="Vic---" type="gentilicium">Vic<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="3"/><persName type="attested" ref="NemPers.xml#p187" role="creator"><name nymRef="---" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="Regulus" type="cognomen">R<hi rend="small">e</hi>gulus</name></persName> <persName type="attested" ref="NemPers.xml#p188" role="creator"><name nymRef="Att---" type="gentilicium">Att<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="4"/><persName type="attested" ref="NemPers.xml#p189" role="creator"><name nymRef="---" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="Domitianus" type="cognomen">D<hi rend="small">o</hi>miti<hi rend="ligature">an</hi><hi rend="small">u</hi>s</name></persName> <persName type="attested" ref="NemPers.xml#p190" role="creator"><name nymRef="Iu---" type="gentilicium">Iu<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="5"/><persName type="attested" ref="NemPers.xml#p191" role="creator"><name nymRef="---" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="Regalis" type="cognomen">Regalis</name></persName> <persName type="attested" ref="NemPers.xml#p192" role="creator"><name nymRef="Satu---" type="gentilicium">Satu<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="6"/><persName type="attested" ref="NemPers.xml#p193" role="creator"><name nymRef="---" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="Domitianus" type="cognomen"><expan><abbr>Domi<hi rend="ligature">tian</hi></abbr><ex>us</ex></expan></name></persName> <persName type="attested" ref="NemPers.xml#p194" role="creator"><name nymRef="No---" type="gentilicium">No<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="7"/><persName type="attested" ref="NemPers.xml#p195" role="creator"><name nymRef="---ius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">iu</supplied>s</name> <name nymRef="Memor" type="gentilicium"><hi rend="ligature">Me</hi>mor</name></persName> <persName type="attested" ref="NemPers.xml#p196" role="creator"><name nymRef="No---" type="gentilicium">No<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="8"/><persName type="attested" ref="NemPers.xml#p197" role="creator"><name nymRef="---" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="Servandus" type="cognomen">Serv<hi rend="ligature">and</hi>us</name></persName> <persName type="attested" ref="NemPers.xml#p198" role="creator"><name nymRef="Pas---" type="gentilicium">Pa<unclear>s</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="9"/><persName type="attested" ref="NemPers.xml#p199"><name nymRef="---" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="Acceptus" type="cognomen">Acc<hi rend="ligature">ep</hi>t<hi rend="small">u</hi>s</name></persName> <persName type="attested" ref="NemPers.xml#p200" role="creator"><name nymRef="Man---" type="gentilicium">M<hi rend="ligature">an</hi><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="10"/><persName type="attested" ref="NemPers.xml#p201" role="creator"><name nymRef="---ius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">iu</supplied>s</name> <name nymRef="Atticus" type="cognomen">Atticus</name></persName> <persName type="attested" ref="NemPers.xml#p202"><name nymRef="Ur---" type="gentilicium">Ur<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/><orig><unclear>s</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><unclear>p</unclear><supplied reason="lost"/>
+                    <lb n="12"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sekundärverwendung im spätantiken Burgus?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        lupa 26480
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

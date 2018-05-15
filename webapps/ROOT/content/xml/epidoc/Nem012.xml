@@ -1,0 +1,137 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mithras</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem012</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Sandsteinblock</objectType>, zwischen Basis und Kultrelief eingesetzt. Auf dem Kultrelief Mithras bei der Stiertötung, mit Sol, Luna, Cautes, Cautopates.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>37</height>
+                                            <width>235</width>
+                                            <depth>20</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift nimmt das mittlere und rechte Drittel des Blocks ein und ist in zwei Kolumnen aufgeteilt. Die erste steht in einer angedeuteten tabula ansata. Beide Kolumnen sind linksbündig, sehr unregelmäßiges Schriftbild. Zeilenführung nicht eingehalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Ungleichmäßige, grobe Buchstaben von auch innerhalb der Zeilen stark schwankender Höhe und Ausrichtung. F mit schräg gestellten Hasten. Die Inschrift ist modern rot ausgemalt worden, was die Lesung erschwert.</p>
+                                <height>3,8-6,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CN" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Gimmeldingen</placeName>
+                            </origPlace>
+                            <origDate when-custom="0325-01-23" datingMethod="#julian" cert="high">Konsuln, Tagesdatierung</origDate>
+                        </origin>
+                        <provenance type="found" when="1926">
+                            <placeName ref="ph">Gimmeldingen, Kirche S. Nikolaus, bei, Hang zwischen Oberweg und Loblocherstraße; Mithraeum</placeName>
+                            <geo>49.37394 8.15728</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="column" n="I">
+                    <ab>
+                        <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                        <lb n="2"/>Deo Invi<choice><corr>c</corr><sic>h</sic></choice><supplied reason="lost">to</supplied> <expan><abbr>Mi<choice><corr>t</corr><sic>d</sic></choice></abbr><ex>h</ex><abbr>r</abbr><ex>a</ex><abbr>e</abbr></expan>
+                        <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem169" role="creator"><name nymRef="Materninius" type="gentilicium">Maternin<supplied reason="lost">i</supplied>us</name> <name nymRef="Faustinus" type="cognomen">Faustinu<supplied reason="lost">s</supplied></name></persName>
+                        <lb n="4"/>c<choice><corr>o</corr><sic>a</sic></choice>rax fan<supplied reason="lost">um</supplied> cum solo Inviht<supplied reason="lost">o</supplied>
+                        <lb n="5"/>in suo fecit c<supplied reason="lost">onsa</supplied>cratus <date when-custom="0325-01-23" datingMethod="#julian" xml:id="d1" type="consulship"><num value="10">X</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Feb</abbr><ex>ruarias</ex></expan></date>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="II">
+                    <ab>
+                        <lb n="1"/>Fanus consacra<supplied reason="lost">tus</supplied>
+                        <lb n="2"/>per <persName type="attested" ref="NemPers.xml#pNem170"><name nymRef="Potentianus" type="cognomen">Potentianum</name></persName>
+                        <lb n="3"/>patrum <expan><abbr>co</abbr><ex>nsulibus</ex></expan>
+                        <lb n="4"/><date when-custom="0325-01-23" datingMethod="julian" xml:id="d2" type="consulship"><persName type="consul" ref="NemPers.xml#pNem173"><name nymRef="Paulinus" type="cognomen">Paulino</name></persName> et <persName type="consul" ref="persons.xml#p"><name nymRef="Iulianus" type="cognomen">Iuliano</name></persName></date>
+                        <lb n="5"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    </ab>
+                </div>
+                <link target="#d1 #d2"/>
+            </div>
+            <div type="apparatus">
+                <p>CIMRM: Z. I.5: XI k(alendis).</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Faustinux carax(!) auch auf dem Altar CIMRM 1320 und einem weiteren. Gleicher Habitus der Inschrift, wohl vom selben lapicida.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075148
+                    </bibl>
+                    <bibl>
+                        CIMRM 1315
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schwertheim1974"/>
+                        <biblScope>
+                            179-180, Nr. 140a
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            52-53, Nr. 163
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -21,10 +21,20 @@
       <xsl:apply-imports />
     </add>
   </xsl:template>
+  <xsl:template match="//tei:textClass/tei:keywords/tei:term/text()" mode="facet_term">
+    <field name="term">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
 
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
        additional Solr field data (such as new facets) here. -->
-  <xsl:template name="extra_fields" />
+  <xsl:template name="extra_fields" >
+    <xsl:call-template name="field_term"/>
+  </xsl:template>
+  <xsl:template name="field_term">
+  <xsl:apply-templates mode="facet_term" select="//tei:textClass/tei:keywords/tei:term/text()"/>
+  </xsl:template>
 
 </xsl:stylesheet>

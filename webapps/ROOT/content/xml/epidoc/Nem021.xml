@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift zu Ehren des göttlichen Kaiserhauses</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem021</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hagenau/Haguenau, Musée historique de Haguenau</repository>
+                        <idno>R 195</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Annähernd quadratischer Sockel einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">Iuppitergigantensäule</objectType>. Auf den Neben- und der Rückseite mythische Figuren. Auf der linken Nebenseite Mercurius und Genius mit corona muralis und Füllhorn; auf der rechten Nebenseite Hercules, Hesione und Meeresungeheuer (Ketos); auf der Rückseite Hercules im Kampf mit Mars, im Hintergrund Mercurius.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>55</height>
+                                            <width>51</width>
+                                            <depth>50</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Inschriftfeld an den Ecken bestoßen, Oberfläche verrieben. Die Inschrift füllt im Blocksatz das gesamte Inschriftfeld aus, unterhalb der letzten Zeile ist noch etwas Platz. Geringer Zeilenabstand, geordnetes, gedrängtes Schriftbild.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäige, quadratische Vuchstaben mit Serifen, nach unten hin höher werdend. G recht schmal.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Lauterburg/Lauterbourg?</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" notAfter="1900">
+                            <placeName ref="ph">Lauterburg/Lauterbourg? Genauer Fundort unbekannt</placeName>
+                            <geo>48.9761 8.1744</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27404-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">I</supplied>n <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem165" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Severinius" type="gentilicium">Severi<hi rend="ligature">ni</hi>us</name>
+                    <lb n="3"/><name nymRef="Victorinus" type="cognomen">Victorinus</name></persName>
+                    <lb n="4"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> ex sign<supplied reason="lost">i</supplied>
+                    <lb n="5"/>fero <orgName type="legio" key="legioVIIIAugustaAntoninianaPiaFidelis+"><expan><abbr>leg</abbr><ex>ionis</ex></expan> VII<supplied reason="lost">I</supplied>
+                    <lb n="6"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> Antoni<supplied reason="lost">ni</supplied><lb n="7" break="no"/>an<supplied reason="omitted">a</supplied>e <expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan></orgName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8"/><unclear>o</unclear> dedicav<supplied reason="lost">it</supplied>
+                    <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>n</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ii</unclear></orig>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036559
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6076
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 391
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            Nr. 5566
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            158-159, Nr. 262
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

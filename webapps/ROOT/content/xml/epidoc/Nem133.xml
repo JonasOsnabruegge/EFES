@@ -1,0 +1,111 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem133</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>?</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Tabernae" ref="https://pleiades.stoa.org/places/109362">Tabernae</placeName>
+                                <placeName type="modern">Rheinzabern</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1769">
+                            <placeName ref="ph">Rheinzabern</placeName>
+                            <geo>49.11806 8.27806</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/>memoriae
+                    <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem16" role="creator"><name nymRef="Dalmatius" type="cognomen">Dalmatius</name></persName> <persName type="attested" ref="NemPers.xml#pNem17"><name nymRef="Severina" type="cognomen">Seve<lb n="4" break="no"/>rin<supplied reason="omitted">a</supplied>e</name></persName> car<supplied reason="omitted">a</supplied>e <expan><abbr>co</abbr><ex>n</ex><abbr>iu<lb n="5" break="no"/>gi</abbr></expan> posuit q<lb n="6" break="no"/>u<supplied reason="omitted">a</supplied>e <date type="age" dur="P26Y">vixit <expan><abbr>an</abbr><ex>n</ex><lb n="6" break="no"/><abbr>os</abbr></expan> <date type="age" atLeast="26"><num value="26">XXVI</num> et m<supplied reason="lost">ens</supplied><lb n="7" break="no"/>es</date> <gap reason="lost" extent="unknown" unit="character"/> et d<supplied reason="lost">ies</supplied></date><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075691
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6090
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

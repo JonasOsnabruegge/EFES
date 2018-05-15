@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für die Casses</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem118</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Einfacher <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, stilisiertes Rosettendekor in den Pulvini.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>36</height>
+                                            <width>20,5</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befindet sich auf dem Gesims der Bekrönung. Der Rest der linksbündigen Inschrift nimmt den größten Teil des Schaftes ein, mit schräg nach oben rechts laufenden Zeilen. Ungleichmäßiges Schriftbild, Zeilenführung nicht eingehalten, Buchstaben von schwankender Ausrichtung und Höhe innerhalb der Zeilen. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige, uneinheitlich ausgeführte, eher quadratische Buchstaben mit angedeuteten Serifen, nicht besonders gut gearbeitet.</p>
+                                <height min="1.5" max="2.5">1,5-2,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="ph" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Neustadt an der Weinstraße</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0300"/>
+                        </origin>
+                        <provenance type="found" when="1822">
+                            <placeName ref="ph">
+                                Neustadt an der Weinstraße
+                            </placeName>
+                            <geo>49.35018634 8.14868860</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://www.lupa.at/25543"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corona"/>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="2"/>in <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <note>!</note>
+                    <lb n="3"/>dis <persName type="divine" key="Casses" role="god">Cas<lb n="3" break="no"/><surplus>s</surplus>ibus</persName> <persName type="attested" ref="NemPers.xml#pNem41" role="creator"><name nymRef="Castus" type="cognomen">Castus</name>
+                    <lb n="4"/><persName type="attested" ref="NemPers.xml#pNem42"><name nymRef="Taluppa*" type="cognomen">Talupp<supplied reason="omitted">a</supplied>e</name></persName></persName>
+                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075758
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6116
+                    </bibl>
+                    <bibl>
+                        ILS 4736
+                    </bibl>
+                    <bibl>
+                        CIRh 1823
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            60, Nr. 203
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

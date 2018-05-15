@@ -1,0 +1,143 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Inschrift mit Namensliste</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem127</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>35</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment von einem größeren <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>, vielleicht einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, oben, rechts und unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(34)</height>
+                                            <width>(57)</width>
+                                            <depth>27</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift nimmt den ganzenverfügbaren Platz ein. Der linke Rand ist erhalten. Unterhalb der ersten Zeile ist die Inschrift in mindestens zwei Kolumnen aufgeteilt, die durch eine Reihe direkt unterinander stehender Worttrenner abgeteilt werden. Die Zeilen sind linksbündig. Geordnetes, leicht ungleichmäßigs Schriftbild. </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
+                                <placeName type="modern">Altrip</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1843">
+                            <placeName ref="ph">Altrip, Gärten der Witwe Hook - verschleppt aus dem spätantiken Burgus?</placeName>
+                            <geo>49.4328489 8.5019499</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/26269"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" n="1">
+                    <ab>
+                        <lb n="1"/><orgName type="immunes" key="immuneslibrarii">Immunes l<supplied reason="lost" cert="low">ibrarii</supplied></orgName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="i">
+                    <ab>
+                        <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem23" role="creator"><name nymRef="Lup(---)" type="gentilicium"><abbr>Lup</abbr></name> <name nymRef="Gimio" type="cognomen">Gimio</name></persName>
+                        <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem24" role="creator"><name nymRef="Paternius" type="gentilicium"><expan><abbr>Pat</abbr><ex>ernius</ex></expan></name> <name nymRef="Aprosus" type="cognomen">Aprosus</name></persName>
+                        <lb n="4"/><persName type="attested" ref="NemPers.xml#pNem25" role="creator"><name nymRef="Ver(---)" type="gentilicium"><abbr>Ver</abbr></name> <name nymRef="Vitalis" type="cognomen">Vitalis</name></persName>
+                        <lb n="5"/><persName type="attested" ref="NemPers.xml#pNem26" role="creator"><name nymRef="Aurelius*?" type="gentilicium"><expan><abbr>Au</abbr><ex cert="low">relius</ex></expan></name> <name nymRef="Nobilis" type="cognomen">Nobilis</name></persName>
+                        <lb n="6"/><persName type="attested" ref="NemPers.xml#pNem27" role="creator"><name nymRef="Septimius*?" type="gentilicium"><expan><abbr>Se</abbr><ex cert="low">ptimius</ex></expan></name> <name nymRef="Secundinus" type="cognomen">Secundinus</name></persName>
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="ii">
+                    <ab>
+                        <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem28" role="creator"><name nymRef="Ca---" type="gentilicium">Ca<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem29" role="creator"><name nymRef="Si---" type="gentilicium">Si<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <lb n="4"/><persName type="attested" ref="NemPers.xml#pNem30" role="creator"><name nymRef="T---" type="gentilicium">T<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <lb n="5"/><unclear>I</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="6"/><unclear>V</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 4, Kolumne 4: IS aufeinander stehend.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075697
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6133
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            48, Nr. 146
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Stauner2004"/>
+                        <biblScope>
+                            257, Nr. 55
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

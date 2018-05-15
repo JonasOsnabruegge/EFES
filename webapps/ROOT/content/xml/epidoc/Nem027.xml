@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilensäule des Hostilianus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem027</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno>2357</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(48)</height>
+                                            <width min="44" max="47">44-47</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Gleichmäiges, ab Z. 2 gedrängteres Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Überwiegend regelmäßige, sorgfältig auseführte, annähernd quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt. Später Schriftcharakter.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Saletio" ref="https://pleiades.stoa.org/places/109317">Saletio</placeName>
+                                <placeName type="modern">Selz/Seltz</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0250-09" notAfter="0251-06" cert="high">Titulatur</origDate>
+                        </origin>
+                        <provenance type="found" when="1964">
+                            <placeName ref="ph">Selz/Seltz, an der Straße nach Straßburg</placeName>
+                            <geo>48.891882 8.092767</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Valentius" type="gentilicium">Valenti</name>
+                    <lb n="2"/><name nymRef="Hostilianus+" type="cognomen"><supplied reason="lost">H</supplied>ostiliano</name>
+                    <lb n="3"/><name nymRef="Messius" type="gentilicium">Messio</name> <name nymRef="Quintus+" type="cognomen">Qui<lb n="4" break="no"/>nt<supplied reason="lost">o</supplied></name> nobi<lb n="5" break="no"/>l<supplied reason="lost">issim</supplied>o <expan><abbr>Ca<supplied reason="lost">es</supplied></abbr><ex>ari</ex></expan>
+</persName>                    <lb n="6"/><supplied reason="lost" evidence="parallel"><orgName type="civitas" key="civitasTribocorum" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>Trib</abbr><ex>ocorum</ex></expan></orgName> a <placeName type="ancient" nymRef="Brocomagus" ref="https://pleiades.stoa.org/places/108828"><expan><abbr>Vro</abbr><ex>comago</ex></expan></placeName></supplied>
+                    <lb n="7"/><supplied reason="lost"><expan><abbr>l</abbr><ex>eugas</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 6/7: ergänzt nach CIL XIII 9097 = XVII/2 600.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD014791
+                    </bibl>
+                    <bibl>
+                        AE 1965, 340
+                    </bibl>
+                    <bibl>
+                        AE 1967, 334
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2 603
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 599
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
