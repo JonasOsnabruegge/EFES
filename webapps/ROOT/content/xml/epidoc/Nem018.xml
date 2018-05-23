@@ -84,7 +84,7 @@
                 <ab>
                     <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
                     <lb n="2"/>Deo
-                    <lb n="3"/>invi<choice><corr>c</corr><sic>h</sic></choice>to
+                    <lb n="3"/><persName type="divine" key="Invictus" role="god">Invi<choice><corr>c</corr><sic>h</sic></choice>to</persName>
                     <lb n="4"/><persName type="attested" ref="NemPers.xml#pNem169" role="creator"><name nymRef="Materninius" type="gentilicium">Materninius</name>
                     <lb n="5"/><name nymRef="Fau(s)tinus" type="cognomen"><expan><abbr>Fau</abbr><ex>s</ex><abbr>tinus</abbr></expan></name></persName> <expan><abbr>c<choice><corr>o</corr><sic>a</sic></choice>r</abbr><ex>a</ex><abbr>x</abbr></expan>
                     <lb n="6"/>in suo posuit

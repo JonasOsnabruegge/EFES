@@ -83,7 +83,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="divine" ref="persons.xml#p"><name nymRef="Mercurius" type="cognomen">Mercurio</name></persName> voto <expan><abbr>p</abbr><ex>osuerunt</ex></expan> <persName type="attested" ref="NemPers.xml#pNem161" role="creator"><name nymRef="Matrona" type="cognomen">Matrona</name></persName> <persName type="attested" ref="NemPers.xml#pNem162" role="creator"><name nymRef="Tertio" type="cognomen">Tertio</name></persName> et <persName type="attested" ref="NemPers.xml#pNem163" role="creator"><name nymRef="Libo" type="cognomen">Libo</name></persName>
+                    <lb n="1"/><persName type="divine" key="Mercurius" role="deity">Mercurio</persName> voto <expan><abbr>p</abbr><ex>osuerunt</ex></expan> <persName type="attested" ref="NemPers.xml#pNem161" role="creator"><name nymRef="Matrona" type="cognomen">Matrona</name></persName> <persName type="attested" ref="NemPers.xml#pNem162" role="creator"><name nymRef="Tertio" type="cognomen">Tertio</name></persName> et <persName type="attested" ref="NemPers.xml#pNem163" role="creator"><name nymRef="Libo" type="cognomen">Libo</name></persName>
                 </ab>
             </div>
             <div type="apparatus">

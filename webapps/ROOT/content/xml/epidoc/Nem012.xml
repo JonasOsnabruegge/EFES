@@ -85,7 +85,7 @@
                 <div type="textpart" subtype="column" n="I">
                     <ab>
                         <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
-                        <lb n="2"/>Deo Invi<choice><corr>c</corr><sic>h</sic></choice><supplied reason="lost">to</supplied> <expan><abbr>Mi<choice><corr>t</corr><sic>d</sic></choice></abbr><ex>h</ex><abbr>r</abbr><ex>a</ex><abbr>e</abbr></expan>
+                        <lb n="2"/><persName type="divine" key="InvictusMithras" role="god">Deo Invi<choice><corr>c</corr><sic>h</sic></choice><supplied reason="lost">to</supplied> <expan><abbr>Mi<choice><corr>t</corr><sic>d</sic></choice></abbr><ex>h</ex><abbr>r</abbr><ex>a</ex><abbr>e</abbr></expan></persName>
                         <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem169" role="creator"><name nymRef="Materninius" type="gentilicium">Maternin<supplied reason="lost">i</supplied>us</name> <name nymRef="Faustinus" type="cognomen">Faustinu<supplied reason="lost">s</supplied></name></persName>
                         <lb n="4"/>c<choice><corr>o</corr><sic>a</sic></choice>rax fan<supplied reason="lost">um</supplied> cum solo Inviht<supplied reason="lost">o</supplied>
                         <lb n="5"/>in suo fecit c<supplied reason="lost">onsa</supplied>cratus <date when-custom="0325-01-23" datingMethod="#julian" xml:id="d1" type="consulship"><num value="10">X</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Feb</abbr><ex>ruarias</ex></expan></date>
