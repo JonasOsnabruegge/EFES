@@ -198,9 +198,9 @@
 
   <xsl:template match="text()" mode="facet_mentioned_people" />
 
-  <xsl:template match="tei:placeName[@ref]" mode="facet_found_provenance">
+  <xsl:template match="tei:placeName[@type='civitas']/text()" mode="facet_found_provenance">
     <field name="found_provenance">
-      <xsl:value-of select="@ref" />
+      <xsl:value-of select="." />
     </field>
   </xsl:template>
 
@@ -239,7 +239,7 @@
   </xsl:template>
 
   <xsl:template name="field_found_provenance">
-    <xsl:apply-templates mode="facet_found_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type='found']" />
+    <xsl:apply-templates mode="facet_found_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace" />
   </xsl:template>
 
   <xsl:template name="field_lemmatised_text">

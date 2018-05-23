@@ -21,9 +21,22 @@
       <xsl:apply-imports />
     </add>
   </xsl:template>
+  
   <xsl:template match="//tei:textClass/tei:keywords/tei:term/text()" mode="facet_term">
     <field name="term">
       <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:placeName[@type='civitas']/text()" mode="facet_civitas">
+    <field name="civitas">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:persName[@type='divine']" mode="facet_deity">
+    <field name="deity">
+      <xsl:value-of select="@key"/>
     </field>
   </xsl:template>
 
@@ -32,9 +45,20 @@
        additional Solr field data (such as new facets) here. -->
   <xsl:template name="extra_fields" >
     <xsl:call-template name="field_term"/>
+    <xsl:call-template name="field_civitas"/>
+    <xsl:call-template name="field_deity"/>
   </xsl:template>
+  
   <xsl:template name="field_term">
-  <xsl:apply-templates mode="facet_term" select="//tei:textClass/tei:keywords/tei:term/text()"/>
+    <xsl:apply-templates mode="facet_term" select="//tei:textClass/tei:keywords/tei:term/text()"/>
+  </xsl:template>
+  
+  <xsl:template name="field_civitas">
+    <xsl:apply-templates mode="facet_civitas" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace"/>
+  </xsl:template>
+  
+  <xsl:template name="field_deity">
+    <xsl:apply-templates mode="facet_deity" select="//tei:text/tei:body/tei:div"/>
   </xsl:template>
 
 </xsl:stylesheet>

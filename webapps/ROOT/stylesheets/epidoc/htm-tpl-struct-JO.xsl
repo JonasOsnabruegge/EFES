@@ -270,10 +270,17 @@
         </h4>
         <dl>
           <xsl:for-each select="//t:facsimile//t:graphic">
-            <dt width="150" align="left"/>
-            <dd>
-              <xsl:apply-templates select="."/>
-            </dd>
+            <xsl:choose>
+              <xsl:when test=".[@url]">
+                <dt width="150" align="left"/>
+                <dd>
+                  <xsl:apply-templates select="."/>
+                </dd>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:text>Keine Bildvorlage.</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose> 
           </xsl:for-each>
         </dl>
       </div>
