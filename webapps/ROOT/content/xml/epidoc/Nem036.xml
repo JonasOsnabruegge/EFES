@@ -82,7 +82,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr><unclear>I</unclear></abbr><ex>n</ex></expan> <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ivinae</ex></expan></supplied>
-                <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem150" role="creator"><name nymRef="Lucius+?" type="praenomen"><supplied reason="lost" cert="low"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied></name><name nymRef="Silvanius+" type="gentilicium"><supplied reason="lost"> S</supplied><unclear>i</unclear>lva<hi rend="ligature">ni</hi>us</name>
+                <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem150" role="creator"><name nymRef="Lucius+" type="praenomen"><supplied reason="lost" cert="low"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied></name><name nymRef="Silvanius+" type="gentilicium"><supplied reason="lost"> S</supplied><unclear>i</unclear>lva<hi rend="ligature">ni</hi>us</name>
                     <lb n="3"/><name nymRef="Probus" type="cognomen"><unclear>P</unclear>robus</name></persName>
                     <lb n="4"/>pontes
                     <lb n="5"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>

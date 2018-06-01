@@ -39,6 +39,37 @@
       <xsl:value-of select="@key"/>
     </field>
   </xsl:template>
+  
+  <xsl:template match="tei:placeName[@type='modern']/text()" mode="facet_modernplace">
+    <field name="modernplace">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="tei:origPlace/tei:placeName[3]/text()" mode="facet_ancientplace">
+    <field name="ancientplace">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:orgName[@type='legio' or @type='cohors' or @type='centuria' or @type='ala' or @type='vexillatio' or @type='numerus' or @type='turma']" mode="facet_milunit">
+    <field name="milunit">
+      <xsl:value-of select="@key"/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:orgName[@type!='legio' and @type!='cohors' and @type!='centuria' and @type!='ala' and @type!='vexillatio' and @type!='numerus' and @type!='turma']" mode="facet_org">
+    <field name="org">
+      <xsl:choose>
+        <xsl:when test="@key">
+          <xsl:value-of select="@key"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="@type"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
 
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
@@ -47,6 +78,10 @@
     <xsl:call-template name="field_term"/>
     <xsl:call-template name="field_civitas"/>
     <xsl:call-template name="field_deity"/>
+    <xsl:call-template name="field_modernplace"/>
+    <xsl:call-template name="field_ancientplace"/>
+    <xsl:call-template name="field_milunit"/>
+    <xsl:call-template name="field_org"></xsl:call-template>
   </xsl:template>
   
   <xsl:template name="field_term">
@@ -59,6 +94,22 @@
   
   <xsl:template name="field_deity">
     <xsl:apply-templates mode="facet_deity" select="//tei:text/tei:body/tei:div"/>
+  </xsl:template>
+  
+  <xsl:template name="field_modernplace">
+    <xsl:apply-templates mode="facet_modernplace" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace"/>
+  </xsl:template>
+  
+  <xsl:template name="field_ancientplace">
+    <xsl:apply-templates mode="facet_ancientplace" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin"/>
+  </xsl:template>
+  
+  <xsl:template name="field_milunit">
+    <xsl:apply-templates mode="facet_milunit" select="//tei:text/tei:body/tei:div"/>
+  </xsl:template>
+  
+  <xsl:template name="field_org">
+    <xsl:apply-templates mode="facet_org" select="//tei:text/tei:body/tei:div"/>
   </xsl:template>
 
 </xsl:stylesheet>

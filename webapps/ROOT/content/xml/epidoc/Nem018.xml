@@ -53,7 +53,7 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CN" ref="ph">Civitas Nemetum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern"/>
+                                <placeName type="modern">Gimmeldingen</placeName>
                             </origPlace>
                             <origDate when-custom="0325-01-23" datingMethod="#julian" cert="high">Konsuln, Tagesdatierung</origDate>
                         </origin>

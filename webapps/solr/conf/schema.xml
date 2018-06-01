@@ -120,6 +120,14 @@
      required="false" stored="true" type="string"/>
    <field indexed="true" multiValued="true" name="deity"
      required="false" stored="true" type="string"/>
+   <field indexed="true" multiValued="false" name="modernplace"
+     required="false" stored="true" type="string"/>
+   <field indexed="true" multiValued="false" name="ancientplace"
+     required="false" stored="true" type="string"/>
+   <field indexed="true" multiValued="true" name="milunit"
+     required="false" stored="true" type="string"/>
+   <field indexed="true" multiValued="true" name="org"
+     required="false" stored="true" type="string"/>
    <!-- publication_date is treated as a string, because Solr's date
         field type requires a UTC time, and we may wish to store only
         a year. -->

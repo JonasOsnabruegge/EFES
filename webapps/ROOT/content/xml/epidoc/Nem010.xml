@@ -84,7 +84,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                    <lb n="1"/><persName type="divine" key="Toutenus?" role="god">Deo
-                       <lb n="2"/>Tou<unclear>t</unclear>en<lb n="3"/>o</persName><note>(?)</note> <persName type="attested" ref="NemPers.xml#pNem173" role="creator"><name nymRef="Avento" type="cognomen">Avento</name></persName>
+                       <lb n="2"/>Tou<unclear>t</unclear>en<lb n="3"/>o</persName><note>?</note> <persName type="attested" ref="NemPers.xml#pNem173" role="creator"><name nymRef="Avento" type="cognomen">Avento</name></persName>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>

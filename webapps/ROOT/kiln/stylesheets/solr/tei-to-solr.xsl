@@ -162,9 +162,9 @@
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:material[@ref]" mode="facet_support_material">
+  <xsl:template match="tei:material/text()" mode="facet_support_material">
     <field name="support_material">
-      <xsl:value-of select="@ref" />
+      <xsl:value-of select="." />
     </field>
   </xsl:template>
 
@@ -265,7 +265,7 @@
   </xsl:template>
 
   <xsl:template name="field_support_material">
-    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material[@ref]" />
+    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support" />
   </xsl:template>
   
   <xsl:template name="field_origin_date_evidence">

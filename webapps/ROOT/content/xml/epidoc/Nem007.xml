@@ -54,7 +54,7 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CN" ref="ph">Civitas Nemetum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern"/>
+                                <placeName type="modern">Leimersheim</placeName>
                             </origPlace>
                             <origDate notBefore="0150" notAfter="0250" cert="low"/>
                         </origin>
@@ -103,7 +103,7 @@
                         HD036560
                     </bibl>
                     <bibl>
-                        <ptr target="Bauchhenß1981"/>
+                        <ptr target="Bauchhenss1981"/>
                         <biblScope>
                             159, Nr. 263
                         </biblScope>

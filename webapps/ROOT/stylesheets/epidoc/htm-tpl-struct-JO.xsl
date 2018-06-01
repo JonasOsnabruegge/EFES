@@ -62,66 +62,35 @@
           </xsl:choose>
         </dd>
         <dt width="150" align="left">
-          <i18n:text i18n:key="epidoc-xslt-iospe-description">Beschreibung,
-            Erhaltungszustand</i18n:text>
+          <i18n:text i18n:key="epidoc-xslt-iospe-description">Beschreibung</i18n:text>
         </dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:support/t:p//text()">
-              <xsl:value-of select="//t:support/t:p/text()"/>
+              <xsl:value-of select="//t:support/t:p//text()"/>
             </xsl:when>
             <xsl:otherwise>
               <i18n:text i18n:key="epidoc-xslt-iospe-not-specified">Not specified</i18n:text>
             </xsl:otherwise>
           </xsl:choose>
         </dd>
-      </dl>
-      <dl class="iospe">
         <dt width="150" align="left">
-          <i18n:text i18n:key="epidoc-xslt-iospe-find-place">Find place</i18n:text>
+          <i18n:text i18n:key="epidoc-xslt-iospe-find-place">Fundort/-kontext</i18n:text>
         </dt>
         <dd>
           <xsl:choose>
             <xsl:when
-              test="//t:provenance[@type = 'found']//t:placeName[@type = 'ancientFindspot']//text()">
+              test="//t:provenance[@type = 'found']/t:placeName/text()">
               <xsl:value-of
-                select="//t:provenance[@type = 'found']//t:placeName[@type = 'ancientFindspot']"/>
+                select="//t:provenance[@type = 'found']/t:placeName/text()"/>
             </xsl:when>
             <xsl:otherwise>
-              <i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text>
-            </xsl:otherwise>
-          </xsl:choose>
-        </dd>
-        <dt width="150" align="left">
-          <i18n:text i18n:key="epidoc-xslt-iospe-find-circumstances">Find circumstances</i18n:text>
-        </dt>
-        <dd>
-          <xsl:choose>
-            <xsl:when test="//t:provenance[@type = 'found']//t:rs[@type = 'circumstances']//text()">
-              <xsl:value-of select="//t:provenance[@type = 'found']//t:rs[@type = 'circumstances']"
-              />
-            </xsl:when>
-            <xsl:otherwise>
-              <i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text>
+              <i18n:text i18n:key="epidoc-xslt-iospe-unknown">n/a</i18n:text>
             </xsl:otherwise>
           </xsl:choose>
         </dd>
         <dt width="150" align="left">
           <i18n:text i18n:key="epidoc-xslt-iospe-modern-location">Aufbewahrungsort</i18n:text>
-        </dt>
-        <dd>
-          <xsl:choose>
-            <xsl:when test="//t:provenance[@type = 'observed']//text()">
-              <xsl:value-of select="//t:provenance[@type = 'observed']"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text>
-            </xsl:otherwise>
-          </xsl:choose>
-        </dd>
-        <dt width="150" align="right">
-          <i18n:text i18n:key="epidoc-xslt-iospe-institution-inventory">Institution and
-            inventory</i18n:text>
         </dt>
         <dd>
           <xsl:value-of select="//t:msIdentifier//t:repository"/>
@@ -135,6 +104,9 @@
         <i18n:text i18n:key="epidoc-xslt-iospe-inscribed-field">Inschriftfeld</i18n:text>
       </h3>
       <dl class="iospe">
+        <dt width="150" align="left">
+          <i18n:text>Beschreibung</i18n:text>
+        </dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:layout/text()">
@@ -183,15 +155,22 @@
           <i18n:text i18n:key="epidoc-xslt-iospe-origin">Fundort:</i18n:text>
         </dt>
         <dd>
-          
+          <xsl:choose>
+            <xsl:when test="//t:placeName[@type='ancient']/text()">
+              <xsl:value-of select="//t:placeName[@type='modern']/text()"/><xsl:text> (</xsl:text><xsl:value-of select="//t:placeName[@type='ancient']/text()"/><xsl:text>)</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="//t:placeName[@type='modern']/text()"/>
+            </xsl:otherwise>
+          </xsl:choose>
         </dd>
         <dt>
           <i18n:text i18n:key="epidoc-xslt-iospe-category">Kategorie</i18n:text>
         </dt>
         <dd>
           <xsl:choose>
-            <xsl:when test="//t:msContents/t:summary/text()">
-              <xsl:value-of select="//t:msContents/t:summary"/>
+            <xsl:when test="//t:textClass/t:keywords/t:term/text()">
+              <xsl:value-of select="//t:textClass/t:keywords/t:term/text()"/>
             </xsl:when>
             <xsl:otherwise>
               <i18n:text i18n:key="epidoc-xslt-iospe-not-specified">Not specified</i18n:text>

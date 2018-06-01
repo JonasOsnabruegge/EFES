@@ -84,7 +84,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="ApolloGrannus" role="god">Apollini Grann<supplied reason="lost">o</supplied></persName>
-                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem180" role="creator"><name nymRef="Aulius" type="gentilicium">Aulius</name> <name nymRef="Florius" type="gentilicium">Florius</name> <name nymRef="G--tus" type="cognomen">G<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><lb n="3" break="no"/>tus</name></persName> <orgName key="civTre" type="cives"><expan><abbr>c</abbr><ex>ivis</ex></expan> Trever</orgName> <expan><abbr>v</abbr><ex>ovit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem180" role="creator"><name nymRef="Aulius" type="gentilicium">Aulius</name> <name nymRef="Florius" type="gentilicium">Florius</name> <name nymRef="G--tus" type="cognomen">G<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><lb n="3" break="no"/>tus</name></persName> <orgName key="civesTrever" type="cives"><expan><abbr>c</abbr><ex>ivis</ex></expan> Trever</orgName> <expan><abbr>v</abbr><ex>ovit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
                 </ab>
             </div>
             <div type="apparatus">

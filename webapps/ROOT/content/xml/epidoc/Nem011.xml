@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Votivrelief für Iuno. In Bogennische stehende Juno, mit der Rechten an einem Altar opfernd, in der Linken Kästchen.</p>
-                                    <material/>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(73)</height>
                                             <width>30</width>
@@ -54,7 +54,7 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CN" ref="ph">Civitas Nemetum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern"/>
+                                <placeName type="modern">Dudenhofen</placeName>
                             </origPlace>
                             <origDate notBefore="0150" notAfter="0250" cert="low"/>
                         </origin>
