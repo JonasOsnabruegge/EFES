@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Schmuckloser Altar, unten abgebrochen.</p>
+                                    <p>Schmuckloser <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, unten abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(93)</height>
@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Unregelmäßiges, unruhiges Schriftbild. Die erste Zeile (ungleichmäßig) gesperrt mit größerem Zeilenabstand. Die übrigen Zilen gedrängt, Zeilenführung nicht eingehalten, nach unten zunehmend ungeordneter. Ungewöhnliche Silbentrennung an den Zeilenenden.
+                                        Unregelmäßiges, unruhiges Schriftbild. Die erste Zeile (ungleichmäßig) gesperrt mit größerem Zeilenabstand. Die übrigen Zeilen gedrängt, Zeilenführung nicht eingehalten, nach unten zunehmend ungeordneter. Ungewöhnliche Silbentrennung an den Zeilenenden.
                                     </p>
                                    <dimensions>
                                         <height/>
