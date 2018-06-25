@@ -84,7 +84,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><supplied reason="lost">In</supplied> <expan><abbr><unclear>h</unclear>o</abbr><ex>norem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr><unclear>d</unclear></abbr><ex>ivinae</ex></expan>
-                    <lb n="2"/>deo <persName type="divine" key="SolMithras">Soli
+                    <lb n="2"/><supplied reason="lost">deo</supplied> <persName type="divine" key="SolMithras">Soli
                         <lb n="3"/><expan><abbr>Mit<choice><corr>hr</corr><sic>rh</sic></choice></abbr><ex>ae</ex></expan></persName>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>
