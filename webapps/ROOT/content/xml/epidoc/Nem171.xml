@@ -60,6 +60,7 @@
                             <placeName ref="ph">
                                 Ruppertsberg, Siedlungsstelle 'Hoheburg'
                             </placeName>
+                            <geo>49.3994572 8.1977031</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

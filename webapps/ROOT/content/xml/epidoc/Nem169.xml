@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">Nem169</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -58,6 +58,9 @@
                             <origDate notBefore="0150" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1932"><placeName ref="ph">Altrip, spätantikeer Burgus, sekundär verwendet</placeName>
+                            <geo>
+                                49.44046588 8.502683758
+                            </geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
