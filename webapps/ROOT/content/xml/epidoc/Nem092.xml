@@ -59,8 +59,8 @@
                             <origDate notBefore="0015" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" notAfter="1937">
-                            <placeName ref="ph">Speyer</placeName>
-                            <geo>49.31743683 8.442565352</geo>
+                            <placeName ref="ph">Offenbach an der Queich</placeName>
+                            <geo>49.196 8.194</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
