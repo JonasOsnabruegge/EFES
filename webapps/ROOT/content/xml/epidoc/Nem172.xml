@@ -59,8 +59,9 @@
                         </origin>
                             <provenance type="found" when="1963">
                             <placeName ref="ph">
-                                Neustadt an der Weinstraße, Lachen-Speyerdorf, Molkenheimer Hof, römischer Brunnen, in 4 m Tiefe in Versturzlage. Im selben Brunnen noch anepigraphischer Altar sowie 'spätrömische Scherben' (Bernhard).
-                            </placeName>
+                                Neustadt an der Weinstraße, Lachen-Speyerdorf, Molkenheimer Hof, römischer Brunnen
+                            </placeName>, in 4 m Tiefe in Versturzlage. Im selben Brunnen noch anepigraphischer Altar sowie 'spätrömische Scherben' (Bernhard).
+                                <geo>49.3186184, 8.223696</geo>
                             </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -84,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex cert="low">eae</ex></expan> <expan><abbr>o</abbr><ex cert="low">ptimae</ex></expan> <expan><abbr>m</abbr><ex cert="low">aximae</ex></expan>
-                    <lb n="2"/><persName type="divine" key="Diana*" role="god">Dian<supplied reason="omitted">a</supplied>e</persName> ex pr<supplied reason="omitted">a</supplied>ecept<lb n="3" break="no"/>is posuit <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secundius+" type="cognomen">Sec<supplied reason="lost">u</supplied>ndio</name></persName>
+                    <lb n="2"/><persName type="divine" key="Diana*" role="god">Dian<supplied reason="omitted">a</supplied>e</persName> ex pr<supplied reason="omitted">a</supplied>ecept<lb n="3" break="no"/>is posuit <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secundio+" type="cognomen">Sec<supplied reason="lost">u</supplied>ndio</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
