@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius und Apollo</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri242</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bd 1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>59</height>
+                                            <width>66</width>
+                                            <depth>29</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Profilgerahmtes Inschriftfeld, welches fast komplett von der linksbündigen Inschrift ausgefüllt wird. Geordnetes, leicht unregelmäßiges und nach unten gedrängteres Schriftbild.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, schmale Buchstaben mit Serifen, leichte Uneinheitlichkeiten in der Ausführung.
+                                </p>
+                                <height>7,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" notBefore="1700" notAfter="1800">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Gemeindewald, 'Koenigshofen' (nicht lokalisiert, vielleicht der 'Usspann' genannte Ort, vgl. Saverne, p. 314 )
+                            </placeName>
+                            <geo>48.75655 7.32947</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27861.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Mercurius" role="god">Mercurio</persName>
+                    <lb n="2"/>et <persName type="divine" key="Apollo" role="god">Apollini</persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Magiorix" type="cognomen">Magiorix</name></persName> <hi rend="ligature">e<hi rend="tall">t</hi></hi>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="cognomen">Quintus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Secundus" type="cognomen">Secun<lb n="5" break="no"/>di</name></persName> <expan><abbr>fil</abbr><ex>i</ex></expan></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5992
+                    </bibl>
+                    <bibl>
+                        Saverne 348
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 578
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

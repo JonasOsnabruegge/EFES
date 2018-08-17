@@ -122,6 +122,8 @@
      required="false" stored="true" type="string"/>
    <field indexed="true" multiValued="false" name="modernplace"
      required="false" stored="true" type="string"/>
+   <field indexed="true" multiValued="false" name="repository"
+     required="false" stored="true" type="string"/>
    <field indexed="true" multiValued="false" name="ancientplace"
      required="false" stored="true" type="string"/>
    <field indexed="true" multiValued="true" name="milunit"

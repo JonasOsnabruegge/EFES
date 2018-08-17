@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für [---] Secundinus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem049</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>A 29</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Oberer Teil einer rechteckigen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit eingeschriebenem Deiecksgiebel, darin Blattmaske, in den Zwickelfeldern Blattornamente. Unten abgebrochen, links bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(126)</height>
+                                            <width>89</width>
+                                            <depth>16</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Das profilgerahmte Inschriftfeld befindet sich unterhalb des Giebelfeldes. Der linke Teil des Inschriftfeldes ist stark verwittert und abgerieben, die Inschrift ist dort nicht mehr lesbar, zum Teil modern ergänzt. Geordnetes, regelmäßiges Schriftbild. Erste Zeile stark gesperrt, letzte Zeile etwas weniger.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Die ursprüngliche Gestaltung der Buchstaben ist nur noch schwer erkennbar, es scheint sich jedoch um überwiegend regelmäßig konstruierte, quadratische Buchstaben mit Serifen zu handeln.</p>
+                                <height>6,8-5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Noviomagus" ref="https://pleiades.stoa.org/places/109224">Noviomagus</placeName>
+                                <placeName type="modern">Speyer</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0101" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1609">
+                            <placeName ref="ph">Speyer, ehemaliges Wormser Tor, Turm, vermauert</placeName>
+                            <geo>49.326767 8.429926</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26257-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem119"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="Secundinus+" type="cognomen"><supplied reason="lost">S</supplied><unclear>ec</unclear>undino</name></persName>
+                    <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem120" role="creator" cert="medium"><name nymRef="---ia?" type="cognomen?"><gap reason="lost" extent="unknown" unit="character"/>im<supplied reason="omitted">a</supplied>e</name></persName> <hi rend="ligature"><hi rend="reversed">e</hi>t</hi>
+                    <lb n="4"/><persName type="attested" ref="NemPers.xml#pNem121"><name nymRef="---ectus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>ecto</name></persName> fi<lb n="5" break="no"/><supplied reason="lost">lio e</supplied>orum <persName type="attested" ref="NemPers.xml#pNem122" role="creator"><name nymRef="Claudius" type="gentilicium"><expan><abbr>Cl</abbr><ex>audius</ex></expan></name> <name nymRef="Fe---" type="cognomen">Fe<lb n="6" break="no"/><gap reason="lost" extent="unknown" unit="character"/></name></persName> soceris de
+                    <lb n="7"/><supplied reason="lost">su</supplied>o <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 3: modern auf dem Stein nachgezogen ist IME</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075675
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6110
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            42, Nr. 121
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            177-178, Nr. 278
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

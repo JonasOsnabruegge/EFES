@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar für den Genius vici et canabarum</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri070</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>zerstört</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>90</height>
+                                            <width>40</width>
+                                            <depth>35</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zentrierte Inschrift, Z. 1 auf dem Gesims der Bekrönung. Hedera in Z. 10; darunter Palmzweige und Rosette oder patera.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1851">
+                            <placeName ref="ph">
+                                Straßburg/Strasbourg, Route des Romains 65a(?), früher Nr. 85
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corona"/>
+                        <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <milestone unit="section" type="corpus"/>
+                        <lb n="2"/><persName type="divine" key="Geniusvicicanabarumvicanorumcanabensium" role="god">Genio vici <expan><abbr>c<lb n="3" break="no"/>anabar</abbr><ex>um</ex></expan> et <expan><abbr>vi<lb n="4" break="no"/>canor</abbr><ex>um</ex></expan> cana<lb n="5" break="no"/>bensium</persName>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Martius" type="gentilicium">Martius</name>
+                    <lb n="7"/><name nymRef="Optatus" type="cognomen">Optatus</name></persName>
+                    <lb n="8"/>qui columnam
+                    <lb n="9"/>et statuam
+                    <lb n="10"/><expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Zerstört beim Brand der Straßburger Bibliothek während der Belagerung 1870.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5967
+                    </bibl>
+                    <bibl>
+                        ILS 7074
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 446; Abb. 486
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

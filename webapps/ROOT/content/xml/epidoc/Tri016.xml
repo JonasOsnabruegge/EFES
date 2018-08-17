@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Camulia</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri016</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit eingeschriebenem Giebel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>79</height>
+                                            <width>35</width>
+                                            <depth>65</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem Inschriftfeld mit eingeschriebenem Rahmen. Z. 1 befindet sich zwischen dem Rahmen und dem Giebelfeld mit Halbmonddekor. Die Inschrift füllt das Inschriftfeld im Blocksatz aus, letzte Zeile gesperrt.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Sehr unregelmäßige, rohe Buchstaben mit Merkmalen der Kursiven. R in einem Zug.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109041">Helvetum/Ellelum</placeName>
+                                <placeName type="modern">Benfeld, Ehl</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"></origDate>
+                        </origin>
+                        <provenance type="found" when="1959">
+                            <placeName ref="ph">
+                                Benfeld, Ehl, 'Roessler', römische Gebäudereste
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Camulilia?" type="cognomen?">Camuli<lb n="3" break="no"/>lia<certainty match=".." locus="name"/></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Domitus" type="cognomen">Do<lb n="4" break="no"/>miti</name></persName></persName> <expan><abbr>ann</abbr><ex>o</ex><lb n="5" break="no"/><abbr>r</abbr><ex>um</ex></expan> <num value="80">LXXX</num>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 5: L mit schräg ansetzender Querhaste.
+                </p>
+                <p>
+                    CAG 67, 1: Z. 2/3: CAMVLA/TIA DOMITI; Hatt 1960: CAMVNI / LIADO / MILIM(a)/R(i) IXXX; ILTG: Z. 5: IXXX.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Ähnliches Giebeldekor im Umfeld.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        ILTG 418
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 181; Abb. 53
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1960"/>
+                        <biblScope>
+                            244; Abb. 66 u. 67
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

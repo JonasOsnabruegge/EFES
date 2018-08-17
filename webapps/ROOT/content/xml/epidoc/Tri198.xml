@@ -1,0 +1,135 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift der Bellica</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri198</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bf 20</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Drei aneinanderpassende Fragmente einer rechteckigen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit eingeschriebenem Dreiecksgiebel. Kreisförmiges Ornament in Giebel- und Zwickelfeldern. Links oben abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>137</height>
+                                            <width>90</width>
+                                            <depth>25-28</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften Inschriftfeld unterhalb des Giebelfeldes. Inschriftfeld nur grob geglättet und verrieben, zum Teil kaum lesbar. Linksbündiges, unregelmäßiges, unruhiges Schriftbild, zum Teil schiefe Zeilen, Zeilenführung nicht eingehalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, uneinheitlich unf flach ausgeführte Buchstaben ohne Serifen. E mit zwei senkrechten Hasten wiedergegeben (sog. 'gallisches' E); L mit schräggestellten Querhasten.
+                                </p>
+                                <height>5,6-3,6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"></origDate>
+                        </origin>
+                        <provenance type="found" when="1908">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Rue Poincaré 17, Collège, spätantike Stadtmauer, sekundär verwendet
+                            </placeName>
+                            <geo>48.74060 7.36077</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27899-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/>perpetuae
+                    <lb n="3"/>securitati
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Bellicia*" type="gentilicium">Bell<supplied reason="omitted">i</supplied>c<supplied reason="omitted">ia</supplied>e</name> <name nymRef="Pro---" type="cognomen"><abbr>Pro</abbr></name></persName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Bellicius" type="gentilicium">Bellicius</name> <name nymRef="Somniciosus" type="cognomen">Somni<lb n="6"/>ciosus</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 3: CAG; Faust: Bell(i)c(a)e
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076217
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11650
+                    </bibl>
+                    <bibl>
+                        Saverne 046
+                    </bibl>
+                    <bibl>
+                        AE 2000, 1069
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 570
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            171-172, Nr. 257
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

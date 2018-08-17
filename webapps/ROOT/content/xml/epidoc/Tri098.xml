@@ -1,0 +1,135 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Q. Sertorius Quadratus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri098</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno>D. 11.998.1.1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Brustbild des Verstorbenen in Toga, in der Linken volumen, in einer Rundbogennische. In den Zwickeln Pflanzendekor</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>164</height>
+                                            <width>78</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld. Dieses wird im Blocksatz fast komplett ausgefüllt, die Buchstaben am Ende der Zeilen aus Platzmangel teilweise stark gedrängt. Dadurch leicht unausgewogenes Schriftbild, letzte Zeile weit nach rechts eingerückt, aber nicht zentriert. Vorgezogene Hilfslinien. Dreieckige Worttrenner.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige Buchstaben mit Serifen. Am Ende von Z. 1 V und S verschränkt, aber nicht ligiert, am Ende von Z. 2 A auf Rahmen stehend.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0017" notAfter="0042" cert="low">Stationierung</origDate>
+                        </origin>
+                        <provenance type="found" when="1994">
+                            <placeName ref="ph">
+                                Straßburg/Strasbourg, Königshofen/Koenhigshoffen, Route des Romains 24-26, Ecke Rue de la Charmille
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F023616.JPG"/>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F021679.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Sertorius" type="gentilicium">Sertorius</name>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Volt</abbr><ex>inia</ex></expan> <supplied reason="subaudible">tribu</supplied> <placeName nymRef="Vienna" ref="https://pleiades.stoa.org/places/167719">Vienna</placeName>
+                    <lb n="3"/><name nymRef="Quadratus" type="cognomen">Qu<hi rend="ligature">ad</hi>ratus</name></persName> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+                    <lb n="4"/><expan><abbr>vet</abbr><ex>e</ex><abbr>ranus</abbr></expan> ex <orgName type="legio" key="legioII"><expan><abbr>leg</abbr><ex>ione</ex></expan>
+                    <lb n="5"/><num value="2">II</num></orgName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Sertorius" type="gentilicium">Sertorius</name> <name nymRef="Soetrus" type="cognomen">Soet<lb n="6" break="no"/>rus</name></persName> <expan><abbr>l</abbr><ex cert="low">ibertus</ex></expan> ex testamento
+                    <lb n="7"/>fecit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD049078
+                    </bibl>
+                    <bibl>
+                        AE 1998, 983
+                    </bibl>
+                    <bibl>
+                        AE 2010, 1067
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 471; Abb. 519
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schnitzler1998"/>
+                        <biblScope>
+                            8; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schnitzler2010"/>
+                        <biblScope>
+                            124-125; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

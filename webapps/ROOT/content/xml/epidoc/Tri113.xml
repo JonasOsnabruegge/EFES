@@ -1,0 +1,118 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschriftfragment</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri113</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>zerstört</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Links, oben und rechts abgebrochenes Fragment eines nicht näher identifizierten Monuments. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2.html">Unbekannt</objectType>.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Bischofsheim/Bischoffsheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0001" notAfter="0300" cert="low"></origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1830">
+                            <placeName ref="ph">
+                                Bischofsheim/Bischoffsheim, alte Kirche, sekundär verwendet
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><choice><unclear>o</unclear><unclear>c</unclear></choice>t<choice><unclear>o</unclear><unclear>c</unclear></choice></orig>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>vall</orig><supplied reason="lost"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 1: v]oto?</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Zerstört beim Brand der Straßburger Bibliothek während der Belagerung 1870.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5964
+                    </bibl>
+                    <bibl>
+                        CIRh 1922a
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 191
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

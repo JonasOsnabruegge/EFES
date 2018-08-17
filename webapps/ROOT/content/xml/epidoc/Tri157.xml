@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Catto(?)</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri157</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Molsheim?</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Im Oberen Bildfeld eingeschriebener Rundgiebel mit Halbkreisförmigem Dekor, darin und darüber Kreisdekor.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>99</height>
+                                            <width>45</width>
+                                            <depth>38</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften, schief angelegten Inschriftfeld. Z. 1 und 4 zentriert, 2/3 und 5 linksbündig. Ungleichmäßiges Schriftbild, Zeilenführung nicht eingehalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Sehr unregelmäßige, unbeholfen und ungleichmäßig ausgeführte Buchtaaben, zum Teil mit Serifen. Einzelne Meißelspuren noch sichtbar. Schwankende Größe und Ausrichtung. N zweimal retrograd, einmal in richtiger Ausrichtung. E in Z. 5 mit zwei seknrechten Hasten wiedergegeben (sog. 'gallisches' E).
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Molsheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0101" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1970">
+                            <placeName ref="ph">
+                                Molsheim, Rue Victor Hugo 7, bei Kanalisierungsarbeiten.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$AE_1969_70_00435.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catto" type="cognomen">Ca<unclear>tt</unclear>o</name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Calodubnus" type="cognomen">Calodub<hi rend="reversed">n</hi>i</name></persName></persName>
+                    <lb n="4"/>fili<surplus>i</surplus>o
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Nemodlianus*" type="cognomen"><expan><abbr><hi rend="reversed">N</hi>emodlian</abbr><ex>us</ex></expan></name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 2: TT unsicher, Hatt 1970; CAG 67/1: Calio.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD013903
+                    </bibl>
+                    <bibl>
+                        AE 1969/70, 435
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 430; Abb. 313
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1970"/>
+                        <biblScope>
+                            326-327; Abb. 20
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

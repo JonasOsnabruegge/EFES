@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Bella</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri241</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bg 25</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1470">Hausförmiger Grabstein</objectType>, schmucklos, mit spitz zulaufendem Satteldach. Unten links abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>90</height>
+                                            <width>47</width>
+                                            <depth>(64)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf der Vorderseite. Erste Zeile leicht nach likns eingerückt, letzte Zeile zentriert. Ungleichmäßiges Schriftbild.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, ungleichmäßig und unsicher ausgeführte Buchstaben ohne Serifen. L mit schräggestellten Querhasten, diese auch beim G, A ohne Querhaste, M mit schrägen seitlichen Hasten. E mit zwei senkrechten Hasten wiedergegeben (sog. 'gallisches' E).
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1820">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Breitkopf, gallo-römische Nekropole
+                            </placeName>
+                            <geo>48.74740 7.31444</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27930-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Bella" type="cognomen">Bella</name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Dagomarus+" type="cognomen">Dagom<lb n="4" break="no"/><supplied reason="lost">a</supplied>ri</name></persName> <expan><abbr>fil</abbr><ex>ia</ex></expan></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5995
+                    </bibl>
+                    <bibl>
+                        Saverne 334
+                    </bibl>
+                    <bibl>
+                        CIRh 1873a
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 578
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Augusta</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri147</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>zerstört</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType></p>
+                                    <material>Sandstein?</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Ingweiler/Ingwiller?</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1900">
+                            <placeName ref="ph">
+                                Ingweiler/Ingwiller?
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Augusta*" type="cognomen">August<supplied reason="omitted">a</supplied>e</name> fili<supplied reason="omitted">a</supplied>e <persName type="attested" ref="persons.xml#p"><name nymRef="Secco" type="cognomen">Se<lb n="2" break="no"/>cconis</name></persName></persName> et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Constans" type="cognomen">Co<lb n="3"/>nstans</name></persName> <expan><abbr>uxo</abbr><ex>ri</ex></expan> <expan><abbr>pos</abbr><ex>uit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 3: 'et' ist überflüssig.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Fundort unsicher, möglicherweise auch Pfaffenhofen/Pfaffenhoffen. Zerstört beim Brand der Straßburger Bibliothek während der Belagerung 1870.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6024
+                    </bibl>
+                    <bibl>
+                        CIRh 2071
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 372
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

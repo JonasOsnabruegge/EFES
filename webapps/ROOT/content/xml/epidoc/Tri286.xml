@@ -1,0 +1,118 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabstele für Belatula</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri286</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <idno>Be 15</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Rundbogennische. Darin ganzfigurige Darstellung eines Mädchens in bodenlangem Gewand und Mantel, in der Rechten Kugel? Gesicht abgeschlagen. Zu ihren Füßen ein kleiner Hund. In sieben aneinanderpassende Fragmente zerbrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>132</height>
+                                            <width>45</width>
+                                            <depth>30</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem rechteckigen Inschriftfeld unterhalb der Bildnische. Darin gut zentrierte Inschrift mit ausgewogenem Schriftbild. Dreieckige Worttrenner, in Z. 1 u. 2 auch zu Beginn und Ende der Zeile, in Z. 5 am Ende der Zeile, wodurch auch diese Zeile zentriert wirkt.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen, in Z. 3 zum Teil etwas gedrängt. In dieser Zeile I und R sowie T und I mit einer kurzen Horizontalhaste verbunden.
+                                </p>
+                                <height>4,9-5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0200" cert="medium">Stilistisch (Faust)</origDate>
+                        </origin>
+                        <provenance type="found" when="1929-12-18">
+                            <placeName ref="ph">Lycée Leclerc, Rue Poincaré 8, spätantike Stadtmauer, sekundär verwendet</placeName>
+                            <geo>48.74075 7.36048</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/27882"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Belatula" type="cognomen">Belatul<supplied reason="omitted">a</supplied>e</name></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Virlatus" type="cognomen"></name></persName> fili<supplied reason="omitted">a</supplied>e
+                    <lb n="4"/><supplied reason="omitted">f</supplied>ecit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                  <bibl>
+                      Saverne 014
+                  </bibl>
+                  <bibl>
+                      <ptr target="Faust1998"/>
+                      <biblScope>
+                          167, Nr. 242
+                      </biblScope>
+                  </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

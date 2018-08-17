@@ -1,0 +1,111 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift für Traian</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri017</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Vier nicht aneinanderpassende Fragente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>.</p>
+                                    <material>Bronze</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0102" notAfter="0117" cert="high">Trajan</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1917"><placeName ref="ph">Straßburg/Strasbourg, rue de la Mésange 13</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69 .html">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$ILTG_00419.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr><supplied reason="lost">Imp</supplied></abbr><ex>eratori</ex></expan><expan><abbr><supplied reason="lost"> Cae</supplied>s</abbr><ex>ari</ex></expan> <name nymRef="Nerva" type="cognomen">N<supplied reason="lost">ervae</supplied></name>
+                    <lb n="2"/><name nymRef="Traianus" type="cognomen"><supplied reason="lost">Tr</supplied>aian<supplied reason="lost">o</supplied></name>
+                    <lb n="3"/><supplied reason="lost">Au</supplied>g<supplied reason="lost">usto Germanico</supplied>
+                    <lb n="4"/><supplied reason="lost">D</supplied>aci<supplied reason="lost">co</supplied></persName><supplied reason="lost"> pontifici <expan><abbr>max</abbr><ex>imo</ex></expan></supplied>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        ILTG 419
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

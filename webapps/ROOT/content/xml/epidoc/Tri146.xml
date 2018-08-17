@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Die Göttin Can---</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri146</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>zerstört</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25.html">Weihrelief</objectType>, erhalten ist der obere Teil mit rechteckiger Bildnische, unten abgebrochen. Im Bildfeld drei stehende weibliche(?) Figuren, die mittlere mit Schleier.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich mit der ertsen Zeile auf der oberen Rahmenleiste der Bildnische, Z. 2 befindet sich auf der linken und rechten Rahmenleiste.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Ingweiler/Ingwiller</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1835">
+                            <placeName ref="ph">
+                                Ingweiler/Ingwiller, beim Bau der Schule.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>eae</ex></expan> <persName type="divine" key="Can---* Regina*"><expan><abbr>C</abbr><ex>an---</ex></expan> <expan><abbr>R</abbr><ex>eginae</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Divixta" type="cognomen">Divixta</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Terentianus" type="cognomen">Teren<lb n="2" break="no"/>tiani</name></persName></persName> <milestone unit="section" type="relief" break="no"/> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 1: Can[tismertae] oder Can[didae]?</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Candida? Zerstört beim Brand der Straßburger Bibliothek während der Belagerung 1870.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6022
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 371; Abb. 249, 1
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            Nr. ?
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

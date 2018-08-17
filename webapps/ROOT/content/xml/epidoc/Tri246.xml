@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri246</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hagenau/Haguenau, Musée historique de Haguenau</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Vier Fragmente vom <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Viergötterstein einer Jupitergigantensäule</objectType>, für die sekundäre Verwendung zerteilt. Nur noch die Inschriftseite erhalten.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(67)</height>
+                                            <width>91</width>
+                                            <depth>(42)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="" ref="ph"/>
+                                <placeName type="modern">Schweighausen/Schweighouse-sur-Moder</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1899">
+                            <placeName ref="ph">
+                                Schweighausen/Schweighouse-sur-Moder, protestantische Kirche, beim Abriss
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan></supplied> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><persName type="divine" key="IOM+" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---s" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>s</name>
+                    <lb n="4"/><name nymRef="Lucius" type="cognomen">Lucius</name> </persName><expan><abbr>vet</abbr><ex>eranus</ex></expan> <orgName type="cohors" key="cohXXIIIIciviumRomanorum"><expan><abbr>c</abbr><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> <num value="24">XXIIII</num> <expan><abbr>vol</abbr><ex>untariorum</ex></expan>
+                    <lb n="5"/><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan></orgName> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036611
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11678a
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 592
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenss1981"/>
+                        <biblScope>
+                            218, Nr. 465
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Radtke1914"/>
+                        <biblScope>
+                            9-17; Abb. 1
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

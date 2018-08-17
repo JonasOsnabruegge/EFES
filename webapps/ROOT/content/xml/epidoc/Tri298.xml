@@ -1,0 +1,118 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri298</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Verschollen</repository>
+                        <idno>Bf 41 (Mus. Saverne)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Fragmente von der rechten Seite einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit vertikal geteilten Inschriftfeldern. Oben, links und unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zwei von einer vertikalen Leiste getrennte, einfach gerahmte Inschriftfelder. Die Inschrift befindet sich in dem rechten Feld, unterhalb der letzten Zeile noch Platz auf dem Inschriftfeld.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige Buchstaben mit Serifen, uneinheitliche Ausführung.</p>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"></origDate>
+                        </origin>
+                        <provenance type="found" when="1908">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Rue Poincaré 17, Collège, spätantike Stadtmauer, sekundär verwendet
+                            </placeName>
+                            <geo>48.74060 7.36077</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="field" n="I">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="field" n="II">
+                    <ab>
+                        <lb n="0"/><persName type="attested" ref="persons.xml#p"><name nymRef="---vianus" type="cognomen"><gap reason="lost" extent="unknown" unit="line"/>
+                            <lb n="1"/>viani</name> </persName><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---ptitus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/>ptitus</name></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                  <bibl>
+                      Saverne 071
+                  </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

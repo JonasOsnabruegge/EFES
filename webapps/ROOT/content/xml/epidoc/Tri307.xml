@@ -1,0 +1,112 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabstele für P. Rufrenus Modestus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri307</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit flachem Dreiecksgiebel und Pulvini, im Giebelfeld Rosette. Unterer Teil der Stele nur grob gepickt zur Einlassung.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld unterhalb des Giebels. Linksbündige Inschrift, dreieckige Worttrenner, etwas gedrängtes und leicht uneinheitlich wirkendes Schriftbild. Mangelhafte ordination, Z. 4 sehr gedrängt und am Ende nicht mit ausreichendem Platz.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, schmale und hohe Buchstaben mit Serifen.</p>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                         <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0016" notAfter="0043" cert="low">Militärhistorisch</origDate>
+                        </origin>
+                        <provenance type="found" when="2014">
+                            <placeName ref="ph">
+                                Strasbourg, Koenigshoffen, Route des Romains 8-20
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/St%C3%A8le_de_Publius_Rufrenus_Modestus_%281%29.jpg/800px-St%C3%A8le_de_Publius_Rufrenus_Modestus_%281%29.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name nymRef="Rufrenus" type="gentilicium">Rufrenus</name>
+                    <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <name nymRef="Modestus" type="cognomen">Modestus</name></persName>
+                    <lb n="3"/>anularius <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Latinaeus" type="gentilicium">Latinaeus</name> <name nymRef="Praesens" type="cognomen">Praese<lb n="5"/>ns</name></persName> eques <orgName type="legio" key="legioII"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2"><hi rend="supraline">II</hi></num></orgName>
+                    <lb n="5"/>ob pietatem
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        NN
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

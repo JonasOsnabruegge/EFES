@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar für die Suleviae</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri071</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg?</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(39,5)</height>
+                                            <width>26</width>
+                                            <depth>16</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf dem Schaft in einem gerahmten Inschriftfeld, unterhalb der letzen Zeile noch Platz für mindestens zwei weitere Zeilen. Ausgewgenes Schriftbild, die letzten beiden Zeilen zentiert.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige Buchstaben mit Serifen, leicht uneinheitliche Ausführung. S in Z. 1 am Anfang und Ende leicht höher als der Rest der Zeile; die L in Z. 5 mit ausgeprägter, nach links ausgezogener Serife.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0050" notAfter="0230" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1977">
+                            <placeName ref="ph">
+                                Straßburg/Strasbourg, Königshofen/Koenigshoffen, Rue du Schnokeloch 2, römische Gebäudereste
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Suleviae" role="god"><expan><abbr>Sule</abbr><ex>v</ex><abbr>is</abbr></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Vettius" type="cognomen">V<hi rend="ligature">et</hi>tius</name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Aventinus" type="cognomen">Ave<hi rend="ligature">nt</hi>ini</name></persName></persName>
+                    <lb n="4"/><expan><abbr>fil</abbr><ex>ius</ex></expan>
+                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD004423
+                    </bibl>
+                    <bibl>
+                        AE 1978, 564
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 447; Abb. 490
+                    </bibl>
+                    <bibl>
+                        <ptr target="Petry1978"/>
+                        <biblScope>
+                            364; Abb. 16
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

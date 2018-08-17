@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Secund[---]</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri230</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bf 34</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment mit dem linken unteren Teil des Inschriftfeldes einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Oben, rechts und unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(71)</height>
+                                            <width>(40)</width>
+                                            <depth>21</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Erste Zeile zentriert, die Zeilen darunter sind verschieden weit nach rechts eingerückt. Unruhiges und ungleichmäßiges Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, uneinheitlich konstruierte und ausgeführte Buchstaben mit Serifen, einige (teils sehr) schmal und gedrängt, andere übermäßig breit. In Z. 5 O und V (aus Platzmangel?) klein zwischen die benachbarten Buchstaben geschrieben. 
+                                </p>
+                                <height>7,9-3,7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                         <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"></origDate>
+                        </origin>
+                        <provenance type="found" when="1908">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Rue Poincaré 17, Collège, spätantike Stadtmauer, sekundär verwendet
+                            </placeName>
+                            <geo>48.74060 7.36077</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27915-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Secund---" type="cognomen">Secund<gap reason="lost" extent="unknown" unit="character"/></name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="---arus" type="cognomen"><hi rend="small">a</hi>ri</name></persName> fi<supplied reason="omitted">l</supplied>io</persName> <orig>r</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secun---" type="cognomen">Secun<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="5"/>c<hi rend="small">o</hi><choice><corr>ni</corr><sic>ii</sic></choice><hi rend="small">u</hi>x <orig>d</orig><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: Secund[inus vel sim.; Z. 4: Secun[dina vel sim.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD047811
+                    </bibl>
+                    <bibl>
+                        AE 2000, 1070
+                    </bibl>
+                    <bibl>
+                        Saverne 075
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 574-575
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

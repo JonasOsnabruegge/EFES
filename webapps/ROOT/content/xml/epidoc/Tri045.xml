@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bauinschrift der cohors VII</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri045</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno>5039</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bestoßener, unförmiger <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>17</height>
+                                            <width>48</width>
+                                            <depth>12</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Grob eingeritztes Inschriftfeld in Form einer tabula ansata. Unruhiges Schriftbild, Zeilenführung nicht eingehalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Rohe, unregelmäßige Buchstaben ohne Serifen, schmal und hoch, von ungleichmäßiger Höhe.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0001" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" notAfter="1900">
+                            <placeName ref="ph"><placeName ref="ph">Straßburg/Strasbourg, Place du Temple Neuf 15-16, sekundär verwendet</placeName></placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                            <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Opus
+                    <lb n="2"/><orgName type="cohors" key="cohVII"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="7">VII</num></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11626
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 257-258
+                    </bibl>
+                    <bibl>
+                        <ptr target="Domaszewski1903"/>
+                        <biblScope>
+                            363, Nr. 9; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

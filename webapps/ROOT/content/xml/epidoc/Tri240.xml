@@ -1,0 +1,138 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri240</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bg 32</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1470">Hausförmiger Grabstein</objectType>, zwei zusammenhängende Exemplare. Der linke davon mit spitzen Satteldach, der rechte mit einem zweigegliederten, stumpfpyramidenförmigen Aufsatz.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>96</height>
+                                            <width>91</width>
+                                            <depth min="40" max="45">45</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zwei vertiefte, grob geglättete Inschriftfelder. Eines an der Vorderseite des linken Grabmals in halber Höhe, oberer Teil stark verrieben und nicht mehr lesbar, das zweite an der Vorderseite des rechten Grabmals am unteren Rand ansetzend. Ungeordnetes, unruhiges Schriftbild, schief laufende Zeilen.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige, uneinheitlich und unsicher ausgeführte, flach eingehauene Buchstaben ohne Serifen.</p>
+                                <height>3,9-6,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1820">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Breitkopf, gallo-römische Nekropole
+                            </placeName>
+                            <geo>48.74740 7.31444</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27881-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="section" n="1">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="2"/><orig>oiiaiv</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><orig>apuiileivs</orig>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <ab>
+                        <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Camerinus" type="cognomen">Camerino</name></persName>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Ianuarius" type="cognomen">Ianuario</name></persName>
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carasius" type="cognomen">Carasio</name></persName>
+                        <lb n="4"/><orig>piterutt</orig>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                     Text 1 laut CIL in scriptura inversa, dies ist jedoch unwahrscheinlich und beruht wohl auf der Lesung des vierten Buchstaben von links in Zeile 2 als P, dies ist jedoch nicht zwingend, zu Beginn von Z. 3 ist jeden falls ein A in richtiger Orientierung deutlich zu sehen. Eine zuverlässige Lesung oder Interpretation ist bislang nicht gelungen. Die Lesung wird durch die modern rot nachgemalten Buchstaben erschwert.
+                     Text 1 nach CIL: Lubitatiata[e] / Apulio / [---] (so auch CAG).
+                     Text 2, Z. 4: CIL, CAG: P[---]ruti
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6005
+                    </bibl>
+                    <bibl>
+                        Saverne 335
+                    </bibl>
+                    <bibl>
+                        CIRh 1873
+                    </bibl>
+                    <bibl>
+                        AE 2000, 1069
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 578; Abb. 509
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

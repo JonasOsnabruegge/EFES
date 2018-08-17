@@ -1,0 +1,144 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Codo</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri238</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bg 31</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zweigeteilte <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit dachförmigem Abschluss links und rechteckigem Abschluss rechts, je mit kreisförmigem Ornament. Darunter wird die Stele durch eine vertikale Leiste in zwei Teile geteilt. Insgesamt drei aneinanderpassende Fragmente.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>96</height>
+                                            <width>69</width>
+                                            <depth>33</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die erste Zeile verläuft über die beiden vertikal unterteilten Inschriftfelder, darunter ist die Inschrift in zwei Kolumnnen geteilt.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Sehr unregelmäßige, uneinheitlich ausgeführte Buchstaben ohne Serifen. E mit zwei senkrechten Hasten wiedergegeben (sog. 'gallisches' E).
+                                </p>
+                                <height>
+                                    5,3
+                                </height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0230" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1860">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Greifenstein, Schlosserhöhe
+                            </placeName>
+                            <geo>48.7356 7.3282</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27931-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="section" n="1">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="i">
+                    <ab>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Codolna?" type="cognomen">Codo<lb n="3" break="no"/><unclear>ln</unclear><unclear>a</unclear></name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="ii">
+                  <ab>
+                      <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Senurus" type="cognomen">Senu<lb n="3" break="no"/>rus</name></persName>
+                  </ab>  
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Lesung unsicher, Buchstaben modern rot nachgezogen und daher schwer zu überprüfen.
+                    CAG: Cobo[---]na // Senurus
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5998
+                    </bibl>
+                    <bibl>
+                        Saverne 360
+                    </bibl>
+                    <bibl>
+                        CIRh 1869
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 578
+                    </bibl>
+                    <bibl>
+                        <ptr target="Scholz2012"/>
+                        <biblScope>
+                            2, 476, Nr. 3111
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

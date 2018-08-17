@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für T. Albius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri101</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno>20085</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei Fragmente einer schmucklosen rechteckigen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(87)</height>
+                                            <width>60</width>
+                                            <depth>17</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld. Linksbündige Inschrift, die Buchstaben am Zeilenende aus Platzmangel in Z. 2 u. 3 stark gedrängt, obwohl unter der Inschrift noch ein großer Teil des Inschriftfeldes frei blieb. Buchstabenabstand schwankend, unausgewogenes Schriftbild.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige Buchstaben von uneinheitlicher Ausführung mit Serifen. </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0017" notAfter="0050" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1909">
+                            <placeName ref="ph">
+                                Straßburg/Strasbourg, Königshofen/Koenigshoffen, Route des Romains 2 oder 4, bei Kellerbauarbeiten
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_11628_1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name nymRef="Albius" type="gentilicium">Albius</name> Le<lb n="2" break="no"/>monia <supplied reason="subaudible">tribu</supplied> <placeName nymRef="Bononia" ref="https://pleiades.stoa.org/places/393421"><expan><abbr>Bo</abbr><ex>no</ex><abbr>ni<lb n="3" break="no"/>a</abbr></expan></placeName></persName> <date type="age" dur="P40Y"><expan><abbr>an</abbr><ex>n</ex><abbr>o</abbr><ex>rum</ex></expan> <num value="40">XL</num></date> <date type="military-service-span" dur="P17Y"><expan><abbr>stip</abbr><ex>endiorum</ex></expan>
+                    <lb n="4"/><num value="17">XVII</num></date> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075092
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11628
+                    </bibl>
+                    <bibl>
+                        AE 2010, 1067
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 475; Abb. 529
+                    </bibl>
+                    <bibl>
+                        <ptr target="SchnitzlerKuhnle"/>
+                        <biblScope>
+                            126
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Forrer1927"/>
+                        <biblScope>
+                            277; Taf. 34, 3
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

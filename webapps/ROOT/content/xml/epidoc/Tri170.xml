@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri170</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Niederbronn/Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
+                        <idno>161</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Linker oberer Teil von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25.html">Weihrelief</objectType> mit Rundbogennische, darin stehender Merkur mit Flügelhut, Mantel über der rechten Schulter, in der rechten marsupium.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(87)</height>
+                                            <width>(48)</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich oberhalb der Bildnische, die letzte Zeile in den Bogenzwickeln. Letzte Zeile mit deutlich größerer Buchstabenhöhe. Inschriftfeld abgerieben, Teile abgeplatzt.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, quadratische Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Bad Niederbronn/Niederbronn-les-Bains</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0200" notAfter="0300" cert="low">stilistisch</origDate>
+                        </origin>
+                        <provenance type="found" notBefore="1968" notAfter="1969">
+                            <placeName ref="ph">
+                                Bad Niederbronn/Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27332-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Mercurius+*" role="god"><expan><abbr><supplied reason="lost">M</supplied>er</abbr><ex>curio</ex></expan></persName> <expan><abbr>sac</abbr><ex>rum</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---ius?" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><unclear>i</unclear>us</name> <name nymRef="Ioin---" type="cognomen">Io<unclear>i</unclear>n<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="3"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost" cert="low"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 2: zu Beginn noch eine senkrechte Haste erkennbar, statt I auch N möglich, dann cognomen mit Filiation? Ioincatus, Ioincus?</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD049728
+                    </bibl>
+                    <bibl>
+                        AE 1997, 1183
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 462
+                    </bibl>
+                    <bibl>
+                        <ptr target="Petry1972"/>
+                        <biblScope>
+                            417; Abb. 43c
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="HattPetry1972"/>
+                        <biblScope>
+                            29; Abb. 6
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

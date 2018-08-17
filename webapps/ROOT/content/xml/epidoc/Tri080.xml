@@ -1,0 +1,132 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mithras</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri080</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno>22654</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, in sechs aneinanderpassende Fragmente zerbrochen, linker unterer Teil ergänzt.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>23</height>
+                                            <width>33</width>
+                                            <depth>5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld. Linksbündig, mit wenig Plart nach rechts. Geordnetes, gleichmäßiges Schriftbild. Rasur in Z. 4/5. Dreieckige Worttrenner.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, leicht uneinheitliche Buchstaben mit z.T. ausgeprägten Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg:</placeName> Mithraeum 
+                            </origPlace>
+                            <origDate notBefore="0222" notAfter="0235" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1911">
+                            <placeName ref="ph">
+                                Straßburg/Strasbourg, Königshofen/Koenigshoffen, S. Paul, Kirche, Fundament - Mithraeum, sekundär verwendet
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Stifterinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$AE_1920_00130b.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><hi rend="tall">I</hi>n <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <persName type="divine" key="DeusInvictusMithras" role="god">Deo <expan><abbr>Inv</abbr><ex>icto</ex></expan>
+                        <lb n="2"/><expan><abbr>M</abbr><ex>ithrae</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Celsinius" type="gentilicium">Celsinius</name>
+                    <name nymRef="Matutinus" type="cognomen">Ma<lb n="3" break="no"/>tutinus</name></persName> <expan><abbr>v<hi rend="ligature">et</hi>er</abbr><ex>anus</ex></expan> 
+                    <orgName type="legio" key="legioVIIIAugustaAlexandriana"><expan><abbr>leg</abbr><ex>ionis</ex></expan> 
+                        <lb n="4"/><num value="8"><hi rend="supraline">VIII</hi></num> <expan><abbr>Aug</abbr><ex>usta</ex></expan> <del rend="erasure">Alexand<lb n="5" break="no"/><supplied reason="lost">rianae</supplied></del></orgName><supplied reason="lost">typu</supplied>m
+                    <lb n="6" break="no"/><supplied reason="lost">de suo repin</supplied>xit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Ähnlicher Text wie <!-- ref --> aus dem gleichen Kontext.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD030724
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11609
+                    </bibl>
+                    <bibl>
+                        AE 1920, 130
+                    </bibl>
+                    <bibl>
+                        CIMRM 1362
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 451
+                    </bibl>
+                    <bibl>
+                        <ptr target="Forrer1915"/>
+                        <biblScope>
+                            69-74; Taf. 25, 2
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

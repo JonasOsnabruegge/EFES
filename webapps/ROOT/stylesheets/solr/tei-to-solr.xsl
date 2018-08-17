@@ -52,6 +52,12 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="tei:repository/text()" mode="facet_repository">
+    <field name="repository">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
   <xsl:template match="//tei:orgName[@type='legio' or @type='cohors' or @type='centuria' or @type='ala' or @type='vexillatio' or @type='numerus' or @type='turma']" mode="facet_milunit">
     <field name="milunit">
       <xsl:value-of select="@key"/>
@@ -80,8 +86,11 @@
     <xsl:call-template name="field_deity"/>
     <xsl:call-template name="field_modernplace"/>
     <xsl:call-template name="field_ancientplace"/>
+    <xsl:call-template name="field_repository"/>
     <xsl:call-template name="field_milunit"/>
-    <xsl:call-template name="field_org"></xsl:call-template>
+    <xsl:call-template name="field_org">
+      
+    </xsl:call-template>
   </xsl:template>
   
   <xsl:template name="field_term">
@@ -102,6 +111,10 @@
   
   <xsl:template name="field_ancientplace">
     <xsl:apply-templates mode="facet_ancientplace" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin"/>
+  </xsl:template>
+  
+  <xsl:template name="field_repository">
+    <xsl:apply-templates mode="facet_repository" select="//tei:repository/text()"/>
   </xsl:template>
   
   <xsl:template name="field_milunit">

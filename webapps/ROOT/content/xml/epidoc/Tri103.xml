@@ -1,0 +1,125 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Terentia Augustula</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri103</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>zerstört</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>, Inschriftfeld flankiert von Peltenhenkeln, von geflügelten Eroten gehalten. Deckel fehlte.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>67</height>
+                                            <width>210</width>
+                                            <depth>67</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Ob die fehlende aber sicher zu ergänzende Zeile sich auf dem schon früher verlorenen Deckel befand, lässt sich nicht mehr sicher feststellen.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern"/> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" notAfter="1651">
+                            <placeName ref="ph">
+                                Avolsheim, Kirche Dompeter
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
+                    <lb n="2"/>et memori<hi rend="ligature">ae</hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Terentia" type="gentilicium">Ter<hi rend="ligature"><hi rend="reversed">e</hi>n</hi>ti<hi rend="ligature">ae</hi></name>
+                    <lb n="3"/><name nymRef="Augustula" type="cognomen"><hi rend="ligature">Au</hi>gustul<hi rend="ligature">ae</hi></name></persName> co<hi rend="ligature">n<hi rend="tall">i</hi></hi>ugi
+                    <lb n="4"/><expan><abbr>sanc<hi rend="ligature">t<hi rend="tall">i</hi></hi>ss<hi rend="ligature">im</hi></abbr><ex>a</ex><abbr><hi rend="ligature">e</hi></abbr></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iustius+" type="gentilicium">Iust<supplied reason="lost">i</supplied>us</name> <name nymRef="Iustinus" type="cognomen">Ius<lb n="5" break="no"/><hi rend="ligature" cert="low">ti</hi>nus</name></persName> <hi rend="ligature">ma</hi><hi rend="ligature">ri</hi>tus <hi rend="ligature">et</hi> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iustus" type="gentilicium">Iusti</name> 
+                    <lb n="6"/><name nymRef="Oceanus" type="cognomen">Oceanus</name></persName> <hi rend="ligature">et</hi> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Florida" type="cognomen">Florida</name></persName>
+                    <lb n="7"/>matri pientissim<hi rend="ligature">ae</hi>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Zerstört beim Brand der Straßburger Bibliothek während der Belagerung 1870.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5986
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 160; Abb. 31
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            213, Nr. 5631
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

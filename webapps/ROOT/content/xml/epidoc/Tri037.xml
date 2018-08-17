@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Ursio und Moriena</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri037</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique, Palais du Rhin, Garten</repository>
+                        <idno>9004</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Drei Teile vom unteren<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> eines Grabmals, der oberste mit Porträtnische mit je einer männlichen und weiblichen Büste.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>128</height>
+                                            <width>115</width>
+                                            <depth>102</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf den unteren beiden Blöcken, ohne Rahmen. Die Inschrift ist zentriert, erste und letzte Zeile gesperrt. Die buchstaben stehen gedrängt, geringer Zeilenabstand.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Weitgehend regelmäßige Buchstaben, in Z. 3 u. 4 mit zunehmenden Ungenauigkeiten.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0101" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1899">
+                            <placeName ref="ph">Straßburg/Strasbourg, Münstergasse/Rue du Dôme 2, spätantike Stadtmauer, sekundär verwendet.</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Ursio" type="cognomen">Ursioni</name></persName> patri
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Moriena*" type="cognomen"><expan><abbr>Mori<hi rend="ligature">en</hi></abbr><ex>a</ex><abbr>e</abbr></expan></name></persName> matri
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Crescens*" type="cognomen"><expan><abbr>Cresce</abbr><ex>n</ex><abbr>s</abbr></expan></name></persName> filius
+                    <lb n="5"/>pientissimus <expan><abbr>d</abbr><ex>e</ex></expan> su<lb n="6" break="no"/>o <expan><abbr>pos</abbr><ex>u</ex><abbr>it</abbr></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 3: ungewöhnliche NE-Ligatur ohne retrogrades E. Z. 4: Verletzung am Stein oder getilgtes überflüssiges S?</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11638
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 255
+                    </bibl>
+                    <bibl>
+                        <ptr target="Domaszewski1903"/>
+                        <biblScope>
+                            362, Nr. 6; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
