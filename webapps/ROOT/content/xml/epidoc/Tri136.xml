@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Hagenau/Haguenau, Musée historique de Haguenau</repository>
+                        <repository>Haguenau, Musée historique de Haguenau</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -53,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Hagenau/Haguenau, Schwenheim</placeName> 
+                                <placeName type="modern">Haguenau, Schwenheim</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1862" cert="medium">
                             <placeName ref="ph">
-                                Hagenau/Haguenau, Schwenheim, Flur Salzmatt
+                                Haguenau, Schwenheim, Flur Salzmatt
                             </placeName>
                         </provenance>
                         <provenance type="observed">

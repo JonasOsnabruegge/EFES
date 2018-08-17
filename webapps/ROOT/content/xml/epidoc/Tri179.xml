@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Reichshofen/Reichshoffen</placeName> 
+                                <placeName type="modern">Reichshoffen</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" notAfter="1742">
                             <placeName ref="ph">
-                                Reichshofen/Reichshoffen, Rue des Près, Altkirch, ehemaliges Leprosorium
+                                Reichshoffen, Rue des Près, Altkirch, ehemaliges Leprosorium
                             </placeName>
                         </provenance>
                         <provenance type="observed">

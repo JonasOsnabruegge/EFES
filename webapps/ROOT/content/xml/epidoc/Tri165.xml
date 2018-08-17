@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Bad Niederbronn/Niederbronn-les-Bains</placeName> 
+                                <placeName type="modern">Niederbronn-les-Bains</placeName> 
                             </origPlace>
                             <origDate notBefore="0130" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1583">
                             <placeName ref="ph">
-                                Bad Niederbronn/Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum, bei, in 2,4 m Höhe direkt in den Fels 9 m vom Eingang der Wasenburg gehauen
+                                Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum, bei, in 2,4 m Höhe direkt in den Fels 9 m vom Eingang der Wasenburg gehauen
                             </placeName>
                         </provenance>
                         <provenance type="observed">

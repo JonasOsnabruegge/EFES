@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno>2953</idno>
                     </msIdentifier>
                     <physDesc>
@@ -53,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1898">
                             <placeName ref="ph">
-                                Straßburg/Strasbourg, Rue Lothaire, nördlich, beim Bau der katholischen Kirche.
+                                Strasbourg, Rue Lothaire, nördlich, beim Bau der katholischen Kirche.
                             </placeName>
                         </provenance>
                         <provenance type="observed">
@@ -77,7 +77,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url=""/>
+        <graphic url="http://cil.bbaw.de/test06/bilder/datenbank/PH0010998.jpg"/>
     </facsimile>
     <text>
         <body>

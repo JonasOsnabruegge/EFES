@@ -53,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Ingweiler/Ingwiller?</placeName> 
+                                <placeName type="modern">Ingwiller?</placeName> 
                             </origPlace>
                             <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1900">
                             <placeName ref="ph">
-                                Ingweiler/Ingwiller?
+                                Ingwiller?
                             </placeName>
                         </provenance>
                         <provenance type="observed">
@@ -93,7 +93,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>Fundort unsicher, möglicherweise auch Pfaffenhofen/Pfaffenhoffen. Zerstört beim Brand der Straßburger Bibliothek während der Belagerung 1870.</p>
+                <p>Fundort unsicher, möglicherweise auch Pfaffenhoffen. Zerstört beim Brand der Straßburger Bibliothek während der Belagerung 1870.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

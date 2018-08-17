@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -52,13 +52,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0028" notAfter="0043" cert="medium">Truppengeschichte, Dienstjahre</origDate>
                         </origin>
                         <provenance type="found" when="2013-02">
                             <placeName ref="ph">
-                                Straßburg/Strasbourg, Königshofen/Koenigshoffen, Route des Romains, Nr. 8, Parzelle Nr. 118
+                                Strasbourg, Königshofen/Koenigshoffen, Route des Romains, Nr. 8, Parzelle Nr. 118
                             </placeName>
                         </provenance>
                         <provenance type="observed">
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url=""/>
+        <graphic url="https://upload.wikimedia.org/wikipedia/commons/c/cd/St%C3%A8le_fun%C3%A9raire_du_soldat_Comnisca_sept_2013_01.jpg"/>
     </facsimile>
     <text>
         <body>

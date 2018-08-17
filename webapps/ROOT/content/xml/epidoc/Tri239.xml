@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
                         <idno>Bf 3</idno>
                     </msIdentifier>
                     <physDesc>
@@ -52,13 +52,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
-                                <placeName type="modern">Zabern/Saverne</placeName> 
+                                <placeName type="modern">Saverne</placeName> 
                             </origPlace>
                             <origDate notBefore="0100" notAfter="0230" cert="low"/>
                         </origin>
                         <provenance type="found" when="1859">
                             <placeName ref="ph">
-                                Zabern/Saverne, Breitkopf, Goldenberg, gallo-römische Nekropole
+                                Saverne, Breitkopf, Goldenberg, gallo-römische Nekropole
                             </placeName>
                             <geo>48.74740 7.31444</geo>
                         </provenance>

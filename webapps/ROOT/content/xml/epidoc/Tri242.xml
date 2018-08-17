@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
                         <idno>Bd 1</idno>
                     </msIdentifier>
                     <physDesc>
@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
-                                <placeName type="modern">Zabern/Saverne</placeName> 
+                                <placeName type="modern">Saverne</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" notBefore="1700" notAfter="1800">
                             <placeName ref="ph">
-                                Zabern/Saverne, Gemeindewald, 'Koenigshofen' (nicht lokalisiert, vielleicht der 'Usspann' genannte Ort, vgl. Saverne, p. 314 )
+                                Saverne, Gemeindewald, 'Koenigshofen' (nicht lokalisiert, vielleicht der 'Usspann' genannte Ort, vgl. Saverne, p. 314 )
                             </placeName>
                             <geo>48.75655 7.32947</geo>
                         </provenance>

@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
-                                <placeName type="modern">Bischofsheim/Bischoffsheim</placeName> 
+                                <placeName type="modern">Bischoffsheim</placeName> 
                             </origPlace>
                             <origDate notBefore="0130" notAfter="0300" cert="low"></origDate>
                         </origin>
                         <provenance type="found" notAfter="1830">
                             <placeName ref="ph">
-                                Bischofsheim/Bischoffsheim, alte Kirche, sekundär verwendet
+                                Bischoffsheim, alte Kirche, sekundär verwendet
                             </placeName>
                         </provenance>
                         <provenance type="observed">

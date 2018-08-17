@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Ernolsheim/Ernolsheim-lès-Saverne, Heidenstadt, Wegkreuzung</repository>
+                        <repository>Ernolsheim-lès-Saverne, Heidenstadt, Wegkreuzung</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
-                                <placeName type="modern">Ernolsheim/Ernolsheim-lès-Saverne</placeName> 
+                                <placeName type="modern">Ernolsheim-lès-Saverne</placeName> 
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1975">
                             <placeName ref="ph">
-                                Ernolsheim/Ernolsheim-lès-Saverne, Heidenstadt, oppidum
+                                Ernolsheim-lès-Saverne, Heidenstadt, oppidum
                             </placeName>
                         </provenance>
                         <provenance type="observed">

@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Bad Niederbronn/Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
+                        <repository>Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
                         <idno>4034</idno>
                     </msIdentifier>
                     <physDesc>
@@ -52,13 +52,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Bad Niederbronn/Niederbronn-les-Bains</placeName> 
+                                <placeName type="modern">Niederbronn-les-Bains</placeName> 
                             </origPlace> 
                             <origDate notBefore="0030" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1842">
                             <placeName ref="ph">
-                                Bad Niederbronn/Niederbronn-les-Bains, Nouvelle Avenue.
+                                Niederbronn-les-Bains, Nouvelle Avenue.
                             </placeName>
                         </provenance>
                         <provenance type="observed">

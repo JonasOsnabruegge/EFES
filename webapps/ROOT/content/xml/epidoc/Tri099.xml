@@ -53,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0017" notAfter="0042" cert="low">Stationierung</origDate>
                         </origin>
                         <provenance type="found" when="1851">
                             <placeName ref="ph">
-                                Straßburg/Strasbourg, Königshofen/Koenigshoffen, Route des Romains 17(?), 10 Meter von der Straße bei Kellerbauarbeiten
+                                Strasbourg, Königshofen/Koenigshoffen, Route des Romains 17(?), 10 Meter von der Straße bei Kellerbauarbeiten
                             </placeName>
                         </provenance>
                         <provenance type="observed">

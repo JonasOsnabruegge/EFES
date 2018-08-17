@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Hagenau/Haguenau, Musée historique de Haguenau</repository>
+                        <repository>Haguenau, Musée historique de Haguenau</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -52,13 +52,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="" ref="ph"/>
-                                <placeName type="modern">Schweighausen/Schweighouse-sur-Moder</placeName> 
+                                <placeName type="modern">Schweighouse-sur-Moder</placeName> 
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1899">
                             <placeName ref="ph">
-                                Schweighausen/Schweighouse-sur-Moder, protestantische Kirche, Kirchturm, sekundär verwendet, beim Abriss
+                                Schweighouse-sur-Moder, protestantische Kirche, Kirchturm, sekundär verwendet, beim Abriss
                             </placeName>
                         </provenance>
                         <provenance type="observed">

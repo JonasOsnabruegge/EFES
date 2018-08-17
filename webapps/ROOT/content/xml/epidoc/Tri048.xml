@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno>67.41</idno>
                     </msIdentifier>
                     <physDesc>
@@ -54,12 +54,12 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0150" cert="low"/>
                         </origin>
                         <provenance type="found" when="1967">
-                            <placeName ref="ph">Straßburg/Strasbourg, Rue des Hallebardes 9, Tor der spätantiken Stadmauer, sekundär verwendet</placeName>
+                            <placeName ref="ph">Strasbourg, Rue des Hallebardes 9, Tor der spätantiken Stadmauer, sekundär verwendet</placeName>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

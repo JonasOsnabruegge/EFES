@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno>29427</idno>
                     </msIdentifier>
                     <physDesc>
@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName>
+                                <placeName type="modern">Strasbourg</placeName>
                             </origPlace>
                             <origDate notBefore="0150" notAfter="0270" cert="low">Vor der dritten Bauphase des Mithräums unter Aurelian, dort als Baumaterial verwendet</origDate>
                         </origin>
                         <provenance type="found" when="1911">
                             <placeName ref="ph">
-                                Straßburg/Strasbourg, Königshofen/Koenigshoffen, S. Paul, Kirche, Fundament - Mithraeum, sekundär verwendet
+                                Strasbourg, Königshofen/Koenigshoffen, S. Paul, Kirche, Fundament - Mithraeum, sekundär verwendet
                             </placeName>
                         </provenance>
                         <provenance type="observed">
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url=""/>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_11615a_1.jpg"/>
     </facsimile>
     <text>
         <body>

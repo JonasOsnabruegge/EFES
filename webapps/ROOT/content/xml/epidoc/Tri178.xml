@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno>38418</idno>
                     </msIdentifier>
                     <physDesc>
@@ -53,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Reichshofen/Reichshoffen</placeName> 
+                                <placeName type="modern">Reichshoffen</placeName> 
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" notBefore="1900">
                             <placeName ref="ph">
-                                Reichshofen/Reichshoffen, Rue de Gumbrechtshoffen
+                                Reichshoffen, Rue de Gumbrechtshoffen
                             </placeName>
                         </provenance>
                         <provenance type="observed">

@@ -53,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Bad Niederbronn/Niederbronn-les-Bains</placeName> 
+                                <placeName type="modern">Niederbronn-les-Bains</placeName> 
                             </origPlace>
                             <origDate when-custom="0205" datingMethod="#julian" type="consulship" cert="high">stilistisch</origDate>
                         </origin>
                         <provenance type="found" when="1755">
                             <placeName ref="ph">
-                                Bad Niederbronn/Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum, bei, Wasenburg
+                                Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum, bei, Wasenburg
                             </placeName>
                         </provenance>
                         <provenance type="observed">

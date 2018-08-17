@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -54,11 +54,11 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="vicus" key="TresTabernae" ref="ph">Tres Tabernae</placeName>
-                                <placeName type="modern">Zabern/Saverne</placeName>
+                                <placeName type="modern">Saverne</placeName>
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1922"><placeName ref="ph">Zabern/Saverne, Rue des Murs 12, spätantike Stadtmauer, sekundär verwendet. Beim Neubau der Banque de France</placeName>
+                        <provenance type="found" when="1922"><placeName ref="ph">Saverne, Rue des Murs 12, spätantike Stadtmauer, sekundär verwendet. Beim Neubau der Banque de France</placeName>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

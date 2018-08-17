@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno>2357</idno>
                     </msIdentifier>
                     <physDesc>
@@ -56,13 +56,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Saletio" ref="https://pleiades.stoa.org/places/109317">Saletio</placeName>
-                                <placeName type="modern">Selz/Seltz</placeName> 
+                                <placeName type="modern">Seltz</placeName> 
                             </origPlace>
                             <origDate notBefore="0250-09" notAfter="0251-06" cert="high">Titulatur</origDate>
                         </origin>
                         <provenance type="found" when="1964">
                             <placeName ref="ph">
-                                Selz/Seltz, an der Straße nach Straßburg
+                                Seltz, an der Straße nach Straßburg
                             </placeName>
                         </provenance>
                         <provenance type="observed">

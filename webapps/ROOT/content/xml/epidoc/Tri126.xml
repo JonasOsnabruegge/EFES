@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
-                                <placeName type="modern">Gundershofen/Gundershoffen</placeName> 
+                                <placeName type="modern">Gundershoffen</placeName> 
                             </origPlace>
                             <origDate notBefore="0100" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1832">
                             <placeName ref="ph">
-                                Gundershofen/Gundershoffen, Hardt, Merkurheiligtum, Cella
+                                Gundershoffen, Hardt, Merkurheiligtum, Cella
                             </placeName>
                         </provenance>
                         <provenance type="observed">

@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique (verschollen)</repository>
+                        <repository>Strasbourg, Musée Archéologique (verschollen)</repository>
                         <idno>34026</idno>
                     </msIdentifier>
                     <physDesc>
@@ -54,12 +54,12 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0050" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1903">
-                            <placeName ref="ph">Straßburg/Strasbourg, Place du Château, bei Kanalarbeiten</placeName>
+                            <placeName ref="ph">Strasbourg, Place du Château, bei Kanalarbeiten</placeName>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -54,11 +54,11 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1926">Straßburg/Strasburg, S. Étienne<placeName ref="ph"/>
+                        <provenance type="found" when="1926">Strasbourg, S. Étienne<placeName ref="ph"/>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Ingweiler/Ingwiller</placeName> 
+                                <placeName type="modern">Ingwiller</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1835">
                             <placeName ref="ph">
-                                Ingweiler/Ingwiller, beim Bau der Schule.
+                                Ingwiller, beim Bau der Schule.
                             </placeName>
                         </provenance>
                         <provenance type="observed">

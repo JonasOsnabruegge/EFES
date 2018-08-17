@@ -53,7 +53,7 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"></placeName>
-                                <placeName type="modern">Bad Niederbronn/Niederbronn-les-Bains</placeName> 
+                                <placeName type="modern">Niederbronn-les-Bains</placeName> 
                             </origPlace>
                             <origDate notBefore="0200" notAfter="0300" cert="low">stilistisch</origDate>
                         </origin>

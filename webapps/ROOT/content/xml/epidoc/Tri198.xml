@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
                         <idno>Bf 20</idno>
                     </msIdentifier>
                     <physDesc>
@@ -56,13 +56,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
-                                <placeName type="modern">Zabern/Saverne</placeName> 
+                                <placeName type="modern">Saverne</placeName> 
                             </origPlace>
                             <origDate notBefore="0100" notAfter="0200" cert="low"></origDate>
                         </origin>
                         <provenance type="found" when="1908">
                             <placeName ref="ph">
-                                Zabern/Saverne, Rue Poincaré 17, Collège, spätantike Stadtmauer, sekundär verwendet
+                                Saverne, Rue Poincaré 17, Collège, spätantike Stadtmauer, sekundär verwendet
                             </placeName>
                             <geo>48.74060 7.36077</geo>
                         </provenance>

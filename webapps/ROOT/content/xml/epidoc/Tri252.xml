@@ -52,13 +52,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Saletio" ref="ph"/>
-                                <placeName type="modern">Wasselnheim/Wasselonne</placeName> 
+                                <placeName type="modern">Wasselonne</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" notAfter="1759">
                             <placeName ref="ph">
-                                Wasselnheim/Wasselonne, etwa 4 Meilen (~6km) vor der Stadt
+                                Wasselonne, etwa 4 Meilen (~6km) vor der Stadt
                             </placeName>
                         </provenance>
                         <provenance type="observed">

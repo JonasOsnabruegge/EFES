@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno>D 11.986.2.1</idno>
                     </msIdentifier>
                     <physDesc>
@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0306-07" notAfter="0307-12" cert="high"/>
                         </origin>
                         <provenance type="found" when="1986">
                             <placeName ref="ph">
-                                Straßburg/Strasbourg, Poteries, Rue Charles Péguy, Heimwerkermarkt Leroy Merlin, Südosten des Geländes
+                                Strasbourg, Poteries, Rue Charles Péguy, Heimwerkermarkt Leroy Merlin, Südosten des Geländes
                             </placeName>
                         </provenance>
                         <provenance type="observed">

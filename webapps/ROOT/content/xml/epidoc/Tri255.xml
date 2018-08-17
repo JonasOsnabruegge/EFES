@@ -52,13 +52,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1753-05-19">
                             <placeName ref="ph">
-                                Straßburg/Strasbourg, Rue Brûlée, Grenier d'Abondance, Turm der spätantiken Stadtmauer, sekundär verwendet
+                                Strasbourg, Rue Brûlée, Grenier d'Abondance, Turm der spätantiken Stadtmauer, sekundär verwendet
                             </placeName>
                         </provenance>
                         <provenance type="observed">

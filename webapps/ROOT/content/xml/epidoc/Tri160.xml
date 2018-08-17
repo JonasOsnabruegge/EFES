@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Bad Niederbronn/Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
+                        <repository>Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -56,13 +56,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Bad Niederbronn/Niederbronn-les-Bains</placeName> 
+                                <placeName type="modern">Niederbronn-les-Bains</placeName> 
                             </origPlace>
                             <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1955">
                             <placeName ref="ph">
-                                Bad Niederbronn/Niederbronn-les-Bains, Place Marchi, Thermen
+                                Niederbronn-les-Bains, Place Marchi, Thermen
                             </placeName>
                         </provenance>
                         <provenance type="observed">

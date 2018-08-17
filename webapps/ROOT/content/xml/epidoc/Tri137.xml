@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="Argentorate" ref="ph"/>
-                                <placeName type="modern">Hagenau/Haguenau, Schwenheim</placeName> 
+                                <placeName type="modern">Haguenau, Schwenheim</placeName> 
                             </origPlace>
                             <origDate notBefore="0130" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" notAfter="1824" cert="medium">
                             <placeName ref="ph">
-                                Hagenau/Haguenau, Schwenheim, Flur Salzmatt, Wald
+                                Haguenau, Schwenheim, Flur Salzmatt, Wald
                             </placeName>
                         </provenance>
                         <provenance type="observed">

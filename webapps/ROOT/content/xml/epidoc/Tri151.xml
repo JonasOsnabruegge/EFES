@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Langensulzbach/Langensoultzbach, Musée de Langensoultzbach</repository>
+                        <repository>Langensoultzbach, Musée de Langensoultzbach</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Langensulzbach/Langensoultzbach</placeName> 
+                                <placeName type="modern">Langensoultzbach</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0150" cert="low"/>
                         </origin>
                         <provenance type="found" notBefore="1844" notAfter="1847">
                             <placeName ref="ph">
-                                Langensulzbach/Langensoultzbach, katholische Kapelle, im Plattenboden sekundär verwendet.
+                                Langensoultzbach, katholische Kapelle, im Plattenboden sekundär verwendet.
                             </placeName>
                         </provenance>
                         <provenance type="observed">

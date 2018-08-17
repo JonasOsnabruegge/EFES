@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Langensulzbach/Langensoultzbach, Musée de Langensoultzbach</repository>
+                        <repository>Langensoultzbach, Musée de Langensoultzbach</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -62,7 +62,7 @@
                         </origin>
                         <provenance type="found" when="1961">
                             <placeName ref="ph">
-                                Langensulzbach/Langensoultzbach, protestantische Kirche, im Plattenboden sekundör verwendet.
+                                Langensoultzbach, protestantische Kirche, im Plattenboden sekundör verwendet.
                             </placeName>
                         </provenance>
                         <provenance type="observed">

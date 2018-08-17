@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Zabern/Saverne, Musée du Château des Rohan</repository>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
                         <idno>Bd 05</idno>
                     </msIdentifier>
                     <physDesc>
@@ -56,13 +56,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Reinhardsmünster/Reinhardsmunster:</placeName> römischer Steinbruch 
+                                <placeName type="modern">Reinhardsmunster</placeName>
                             </origPlace>
                             <origDate notBefore="0070" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1875">
                             <placeName ref="ph">
-                                Reinhardsmünster/Reinhardsmunster, Champagnermühle/Moulin de Champagne, römischer Steinbruch, in der Felswand am Ende eines kurzen (3,60m) unterirdischen Ganges, in situ
+                                Reinhardsmunster, Champagnermühle/Moulin de Champagne, römischer Steinbruch, in der Felswand am Ende eines kurzen (3,60m) unterirdischen Ganges, in situ
                             </placeName>
                             <geo>48.67702 7.31743</geo>
                         </provenance>

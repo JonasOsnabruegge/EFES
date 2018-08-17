@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -54,13 +54,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Pfaffenhofen/Pfaffenhoffen - Ringeldorf, zwischen, Kalkoeffen</placeName> 
+                                <placeName type="modern">Pfaffenhoffen - Ringeldorf, zwischen, Kalkoeffen</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1845">
                             <placeName ref="ph">
-                                Pfaffenhofen/Pfaffenhoffen - Ringeldorf, zwischen, Kalkoeffen
+                                Pfaffenhoffen - Ringeldorf, zwischen, Kalkoeffen
                             </placeName>
                         </provenance>
                         <provenance type="observed">

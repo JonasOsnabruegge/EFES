@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inschriftfrag,emt</title>
+                <title>Inschriftfragment</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno>13651</idno>
                     </msIdentifier>
                     <physDesc>
@@ -53,12 +53,12 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0050" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1903">
-                            <placeName ref="ph">Straßburg/Strasbourg, Rue des Hallebardes 32, bei Kanalarbeiten</placeName>
+                            <placeName ref="ph">Strasbourg, Rue des Hallebardes 32, bei Kanalarbeiten</placeName>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -82,7 +82,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <choice><orig>l</orig><orig>e</orig></choice><choice><orig>l</orig><orig>e</orig></choice><orig>a</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <choice><unclear>l</unclear><unclear>e</unclear></choice><choice><unclear>l</unclear><unclear>e</unclear></choice><orig>a</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">c</supplied>astr<supplied reason="lost" cert="low">orum</supplied><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>

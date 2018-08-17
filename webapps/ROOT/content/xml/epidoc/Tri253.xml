@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Bad Niederbronn/Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
+                        <repository>Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
                         <idno>884</idno>
                     </msIdentifier>
                     <physDesc>
@@ -56,13 +56,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
-                                <placeName type="modern">Zinsweiler/Zinswiller</placeName> 
+                                <placeName type="modern">Zinswiller</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1868">
                             <placeName ref="ph">
-                                Zinsweiler/Zinswiller, Gerstenfeld, mittelalterliche Nekropole, sekundär verwendet
+                                Zinswiller, Gerstenfeld, mittelalterliche Nekropole, sekundär verwendet
                             </placeName>
                         </provenance>
                         <provenance type="observed">

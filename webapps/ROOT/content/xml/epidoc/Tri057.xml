@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique (verschollen)</repository>
+                        <repository>Strasbourg, Musée Archéologique (verschollen)</repository>
                         <idno>29812</idno>
                     </msIdentifier>
                     <physDesc>
@@ -53,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1900">
                             <placeName ref="ph">
-                                Straßburg/Strasbourg, Thomasschule/Ecole Saint-Thomas, Flußufer entlang der Ill, bei römischen Mauerresten.
+                                Strasbourg, Thomasschule/Ecole Saint-Thomas, Flußufer entlang der Ill, bei römischen Mauerresten.
                             </placeName>
                         </provenance>
                         <provenance type="observed">

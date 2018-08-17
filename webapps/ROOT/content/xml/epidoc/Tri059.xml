@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno>6601</idno>
                     </msIdentifier>
                     <physDesc>
@@ -53,13 +53,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
-                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                                <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0014" cert="low">Stationierung</origDate> <!-- evtl. -30 -->
                         </origin>
                         <provenance type="found" when="1904">
                             <placeName ref="ph">
-                                Straßburg/Strasbourg, Blauwolkengasse/Rue de la Nuée-Bleue 5, Keller. Legionslager, vor der porta principalis sinistra. 
+                                Strasbourg, Blauwolkengasse/Rue de la Nuée-Bleue 5, Keller. Legionslager, vor der porta principalis sinistra. 
                             </placeName>
                         </provenance>
                         <provenance type="observed">
