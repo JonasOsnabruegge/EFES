@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift des Comnisca</title>
+                <title></title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,8 +20,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Reitergrabstele</objectType>. Relief in Aediculanische mit Dreiecksgiebel mit Rosette und Löwenköpfen als Akroteren. Im Bildfeld Reiter zu Pferd (mit detailliertem Zaumzeug) mit umgegürtetem Schwert (spatha), die Lanze in der erhobenen Rechten, einen am Boden liegenden Feind niederreitend. Hinter dem Pferd calo.</p>
-                                    <material>Sandstein</material>
+                                    <p></p>
+                                    <material></material>
                                         <dimensions unit="cm">
                                             <height/>
                                             <width/>
@@ -31,8 +31,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Die Inschrift befindet sich in einem Profilgerahmten Inschriftfeld unterhalb der Bildnische. Das Schriftbild ist überwiegend gleichmäßig und liehct gedrängt , aber unausgewogen. Zeile 1 und 7 sind linksbündig, der Rest der Zeilen leicht nach rechts eingerückt. Platzmangel am Ende von Zeile 5 und 7 führte dazu, dass am Ende von Z. 5 A und N ineinander verschränkt und in Zeile 7 einige E kleiner eingehauen wurden, am Ende steht C zum Teil auf dem Rahmen. Gleichmäßiger Zeilenabstand.</p>
-                                   <dimensions>
+                                    <p></p>
+                                    <dimensions>
                                         <height/>
                                         <width/>
                                     </dimensions>
@@ -41,8 +41,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben mit Serifen, größtenteils quadratisch (capitalis Quadrata) mit uneinheitlicher Ausführung (vgl. D z. 4 oder die A und E).</p>
-                                <height min="3.0" max="6.5">6,5-3,0</height>
+                                <p></p>
+                                <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>

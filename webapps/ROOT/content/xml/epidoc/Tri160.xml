@@ -87,7 +87,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
-                    <lb n="2"/><persName type="divine" key="Fortuna" role="god">Fortun<lb n="3" break="no"/>ae</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Dentilianius+" type="gentilicium">Dentil<lb n="4" break="no"/><supplied reason="lost">ia</supplied>nius</name> <name nymRef="Divitianus" type="cognomen">Di<lb n="5" break="no"/>v<unclear>i</unclear>tianus</name></persName>
+                    <lb n="2"/><persName type="divine" key="Fortuna" role="god">Fortun<lb n="3" break="no"/>ae</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Dentilianius+" type="gentilicium">Dentil<lb n="4" break="no"/><supplied reason="lost">ia</supplied>nius</name> <name nymRef="Divicianus" type="cognomen">Di<lb n="5" break="no"/>v<unclear>ic</unclear>ianus</name></persName>
                     <lb n="6"/>ex voto
                     <lb n="7"/>posuit
                     <lb n="8"/><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>

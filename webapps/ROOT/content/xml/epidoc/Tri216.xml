@@ -89,7 +89,7 @@
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Cu---" type="cognomen?">Cu<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="3"/><orig>bli</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Firma---" type="cognomen?">Firma<gap reason="lost" extent="unknown" unit="character"/></name></persName>
-                    <lb n="5"/><persName type="attested" ref="persons.xml#p" cert="low">Mate<unclear>r</unclear><gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" cert="low"><persName type="divine" key="Mater---" role="god">Mate<unclear>r</unclear><gap reason="lost" extent="unknown" unit="character"/></persName></persName>
                     <lb n="6"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
                 </ab>
             </div>

@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg:</placeName> Mithraeum 
                             </origPlace>
-                            <origDate notBefore="0150" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0130" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1911">
                             <placeName ref="ph">

@@ -83,7 +83,7 @@
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>atus <gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">Se</supplied>cund<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" ref="persons.xml#p"><name nymRef="Secundus+" type="cognomen"><supplied reason="lost" cert="low">Se</supplied>cund<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/></name>  </persName>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>t a</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>

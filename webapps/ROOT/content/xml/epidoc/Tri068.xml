@@ -86,7 +86,7 @@
                 <ab>
                     <lb n="1"/>Deo <persName type="divine" key="Mercurius" role="god">M<lb n="2" break="no"/>ercurio</persName>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Augustus" type="cognomen">Augustus</name>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Tocissa" type="cognomen">Tocisse</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Tocissa" type="cognomen">Tociss<supplied reason="omitted">a</supplied>e</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan></persName>
                     <lb n="4"/>ex voto
                     <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>

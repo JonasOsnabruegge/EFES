@@ -87,22 +87,22 @@
                 <div type="textpart" subtype="section" n="1">
                     <ab>
                         <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="-onnus" type="cognomen"><gap reason="lost" quantity="1" unit="character"/>onnus</name>
-                        <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Om-rto?" type="cognomen">Om<gap reason="lost" quantity="1" unit="character"/>rto</name></persName></persName>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="-onnus" type="cognomen"><gap reason="lost" quantity="1" unit="character"/>onnus</name></persName>
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Om-rto?" type="cognomen">Om<gap reason="lost" quantity="1" unit="character"/>rto</name></persName>
                         <lb n="4"/><orgName type="fili" role="creator?">fili</orgName>
                     </ab>
                 </div>
                 <div type="textpart" subtype="section" n="2">
                     <ab>
                         <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carabus" type="cognomen">Cara<unclear>b</unclear>o</name></persName>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carađus" type="cognomen">Cara<unclear>đ</unclear>o</name></persName>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <p>
                     Feld 1, Z. 2: CAG; CIL: [---]ONNUR; Z. 3: CAG: [-]om[-]rto.
-                    Feld 2, Z. 2: statt B auch D oder Đ möglich.
+                    Feld 2, Z. 2: statt Đ auch D oder B möglich.
                 </p>
             </div>
             <div type="translation">
