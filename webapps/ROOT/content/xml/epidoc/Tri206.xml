@@ -91,7 +91,7 @@
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carantodia" type="gentilicium">Carantodi<supplied reason="omitted">a</supplied>e</name> <name nymRef="Ianuaria" type="cognomen">Ianuari<supplied reason="omitted">a</supplied>e</name></persName> <supplied reason="lost">f</supplied>ili<supplied reason="omitted">a</supplied>e
                     <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Maternius" type="gentilicium">Maternio</name> <name nymRef="---tianus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>tiano</name></persName> filio
                     <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Secundanus" type="cognomen">Secundano</name> <name nymRef="Felix" type="cognomen">Felici</name></persName> filio
-                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secundanus" type="cognomen">Secundanus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Carantodus" type="cognomen">Carantodi</name></persName></persName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secundanus" type="cognomen">Secundanus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Carantodius" type="cognomen">Carantodi</name></persName></persName>
                     <lb n="6"/>maritus e<supplied reason="lost">t</supplied> pater <expan><abbr>inf</abbr><ex>e</ex><abbr>lici</abbr><ex>ssimus</ex></expan>
                     <lb n="7"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
                 </ab>

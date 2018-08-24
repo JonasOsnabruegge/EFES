@@ -111,6 +111,12 @@
                         CAG 67/1, 459
                     </bibl>
                     <bibl>
+                        <ptr target="Matthis1921"/>
+                        <biblScope>
+                            1248
+                        </biblScope>
+                    </bibl>
+                    <bibl>
                         <ptr target="Bauchhenss1981"/>
                         <biblScope>
                             197, Nr. 401

@@ -84,7 +84,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Matrainnonus?" type="cognomen">Matrainnoni</name></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Matrainno?" type="cognomen">Matrainnoni</name></persName>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Mainus" type="cognomen">Mainus</name></persName> et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marullinus" type="cognomen">M<lb n="4"/>arullinus</name></persName> fili
                     <lb n="4"/>eius <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>

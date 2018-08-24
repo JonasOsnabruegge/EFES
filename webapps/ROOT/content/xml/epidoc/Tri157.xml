@@ -87,7 +87,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catto" type="cognomen">Ca<unclear>tt</unclear>o</name>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Cattus" type="cognomen">Ca<unclear>tt</unclear>o</name>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Calodubnus" type="cognomen">Calodub<hi rend="reversed">n</hi>i</name></persName></persName>
                     <lb n="4"/>fili<surplus>i</surplus>o
                     <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Nemodlianus*" type="cognomen"><expan><abbr><hi rend="reversed">N</hi>emodlian</abbr><ex>us</ex></expan></name></persName>

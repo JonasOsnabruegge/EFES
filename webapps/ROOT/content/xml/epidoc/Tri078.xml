@@ -20,8 +20,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Mehrere aneinanderpassende Fragmente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, links, rechts und unten abgebrochen.</p>
-                                    <material/>
+                                    <p>Mehrere aneinanderpassende Fragmente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, links, rechts und unten abgebrochen. Die Tafel gehörte zu dem großen Kultrelief des Mithräums von Koenigshoffen.</p>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(54,5)</height>
                                             <width>(59,5)</width>
@@ -42,7 +42,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>Regelnmäßige, sorgfältig gearbeitete Buchstaben mit Serifen, qualitätvolle Arbeit.</p>
                                 <height/>
                             </handNote>
                         </handDesc>

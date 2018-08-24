@@ -84,7 +84,7 @@
                 <ab>
                     <milestone unit="section" type="corpus"/>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Mat---" type="gentilicium">Mat<gap reason="lost" extent="unknown" unit="character"/></name></persName><orig><unclear>ens</unclear></orig><orgName type="legio" key="legVIIIAugusta+"><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Mat---" type="gentilicium">Mat<gap reason="lost" extent="unknown" unit="character"/></name></persName><orig><unclear>ens</unclear></orig><orgName type="legio" key="legVIIIAugusta+"> <supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied>
                     <lb n="2"/><num value="8"><unclear>V</unclear>III</num> <expan><abbr>A<unclear>u</unclear><supplied reason="lost">g</supplied></abbr><ex>ustae</ex></expan></orgName><gap reason="lost" extent="unknown" unit="character"/><orig>tvs</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <milestone unit="section" type="crepido"/>
                     <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
