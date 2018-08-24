@@ -84,7 +84,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/>Deo <persName type="divine" key="Mercurius" role="god">Mer<supplied reason="lost">curio</supplied></persName>
+                    <lb n="1"/><unclear>Deo</unclear> <persName type="divine" key="Mercurius" role="god"><unclear>Mer</unclear><supplied reason="lost">curio</supplied></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -94,7 +94,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>commentary</p>
+                <p>Nach Saverne, p. 256 sind die Schrifzeichen fehlgedeutete Beschädigungsspuren am Stein.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
@@ -112,6 +112,9 @@
                         <biblScope>
                             228, Nr. 5664
                         </biblScope>
+                    </bibl>
+                    <bibl>
+                        Saverne 247
                     </bibl>
                 </listBibl>
             </div>
