@@ -86,7 +86,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catullinus" type="cognomen">Cat<supplied reason="lost" evidence="#">ulli</supplied>no</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Catullus" type="cognomen">Catulli</name></persName> <supplied reason="lost">f</supplied>ili<supplied reason="lost">o</supplied></persName>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catullinus" type="cognomen">Cat<supplied reason="lost" evidence="previouseditor">ulli</supplied>no</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Catullus" type="cognomen">Catulli</name></persName> <supplied reason="lost">f</supplied>ili<supplied reason="lost">o</supplied></persName>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Capurillus" type="cognomen">Ca<supplied reason="lost" evidence="previouseditor">pur</supplied>illus</name></persName> filius <expan><abbr>po<supplied reason="lost">s</supplied></abbr><ex>uit</ex></expan>
                 </ab>
             </div>

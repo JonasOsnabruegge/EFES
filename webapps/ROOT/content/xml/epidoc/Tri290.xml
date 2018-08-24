@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="---sius?" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>ius</name></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="---ius?" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>ius</name></persName>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>i</orig> <abbr><unclear>fil</unclear></abbr>
                     <lb n="4"/><orig>ar</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
                     <lb n="5"/><orig>iusfi</orig><gap reason="lost" extent="unknown" unit="character"/>

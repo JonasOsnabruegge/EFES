@@ -92,7 +92,7 @@
                     <div type="textpart" subtype="field" n="II">
                         <ab>
                             <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                            <lb n="2"/>Sidi<unclear>m</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Sidim---" type="cognomen">Sidi<unclear>m</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                             <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
                         </ab>
                    </div>

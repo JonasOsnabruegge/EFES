@@ -89,7 +89,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
-                    <lb n="2"/><name nymRef="Caratullus+?" type="cognomen">C<supplied reason="lost" cert="low">ar</supplied><unclear>a</unclear>tu<unclear>l</unclear><supplied reason="lost">lu</supplied><lb n="3" break="no"/>s<certainty locus="name"/></name> <orig>ti</orig><gap reason="lost" exclude="1" unit="character"/><orig>vsio<unclear>n</unclear></orig>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caratullus+?" type="cognomen">C<supplied reason="lost" cert="low">ar</supplied><unclear>a</unclear>tu<unclear>l</unclear><supplied reason="lost">lu</supplied><lb n="3" break="no"/>s<certainty locus="name"/></name></persName> <orig>ti</orig><gap reason="lost" exclude="1" unit="character"/><orig>vsio<unclear>n</unclear></orig>
                     <lb n="4"/><orgName type="heredes" role="creator"><supplied reason="omitted">h</supplied>eredes</orgName> posu<supplied reason="lost">e</supplied><lb n="5" break="no"/>runt
                 </ab>
             </div>
