@@ -85,9 +85,9 @@
                 <ab>
                     <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="---cius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>cio</name> <name nymRef="Vindus" type="cognomen">Vindo</name></persName> et
-                    <lb n="3"/><name nymRef="---cius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>cio</name> <name nymRef="Divixtus" type="cognomen">Divixto</name> et
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="---cius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>cio</name> <name nymRef="Divixtus" type="cognomen">Divixto</name></persName> et
                     <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="-tossa*" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>toss<supplied reason="omitted">a</supplied>e</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Castus" type="cognomen">Casti</name></persName></persName> c<hi rend="small">o</hi>n<lb n="5" break="no"/><supplied reason="lost">iugi</supplied><gap reason="lost" extent="unknown" unit="character"/><orig>s</orig> <persName type="attested" ref="persons.xml#p"><name nymRef="Divicianus" type="cognomen">Diviciano</name></persName> <hi rend="ligature">et</hi> 
-                    <lb n="6"/><persName type="attested" ref="persons.xml#p"><name nymRef="---tus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>to</name></persName> <expan><abbr>fil</abbr><ex>i</ex></expan> eorum
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p"><name nymRef="---tus" type="cognomen"><gap reason="lost" extent="unknwn" unit="character"/>to</name></persName> <expan><abbr>fil</abbr><ex>i</ex></expan> eorum
                 </ab>
             </div>
             <div type="apparatus">

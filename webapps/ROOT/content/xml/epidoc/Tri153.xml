@@ -86,13 +86,13 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="---" type="praenomen"><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <name nymRef="Attius" type="gentilicium">Attio</name> <name nymRef="Silvinus" type="cognomen">Silvino</name> <hi rend="ligature">ve</hi>l <name nymRef="Eclectus+?" type="cognomen">Ec<supplied reason="lost" cert="low">lec</supplied>
-                            <lb n="2"/><supplied reason="lost">to</supplied></name></persName><supplied reason="lost"> e</supplied>t <persName type="attested" ref="persons.xml#p"><name nymRef="Attiola" type="cognomen">Attiol<supplied reason="omitted">a</supplied>e</name></persName> <expan><abbr>coniug</abbr><ex>i</ex></expan> <supplied reason="lost">et</supplied>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Domitius+?" type="gentilicium"><supplied reason="lost">Do</supplied><unclear>mit</unclear>io</name> <name nymRef="Silvinus" type="cognomen">Silvino</name></persName> <expan><abbr><hi rend="ligature">ve</hi></abbr><ex>teranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan>
+                            <lb n="2"/><supplied reason="lost" cert="low">VIII</supplied><supplied reason="lost"> e</supplied>t <persName type="attested" ref="persons.xml#p"><name nymRef="Attiola" type="cognomen">Attiol<supplied reason="omitted">a</supplied>e</name></persName> <expan><abbr>coniug</abbr><ex>i</ex></expan> <supplied reason="lost">et</supplied>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Silvestrus+" type="cognomen"><supplied reason="lost">Si</supplied>lvestro</name></persName> <expan><abbr>fil</abbr><ex>io</ex></expan> qui <expan><abbr>vix</abbr><ex>it</ex></expan>
                     <lb n="4"/><date type="age" dur="P16Y"><supplied reason="lost">an</supplied>nos <num value="16">XVI</num></date> <hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Lea" type="cognomen">Leae</name></persName> nurui
-                    <lb n="5"/><supplied reason="lost">et</supplied> <expan><abbr>def</abbr><ex>uncto</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Lanus" type="cognomen">Lano</name></persName> nepoti eo<supplied reason="lost">rum</supplied>
+                    <lb n="5"/><supplied reason="lost">eius</supplied> <expan><abbr>def</abbr><ex>unctae</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Lanus" type="cognomen">Iano</name></persName> nepoti eo<supplied reason="lost">rum</supplied>
                     <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---" type="praenomen"><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <name nymRef="Silvinius" type="gentilicium">Silvinius</name> <name nymRef="Victor" type="cognomen">Victor</name></persName>
-                    <lb n="7"/><supplied reason="lost">viv</supplied>us sibi et suis
+                    <lb n="7"/><supplied reason="lost">viv</supplied>us <supplied reason="omitted">s</supplied>ibi et suis
                 </ab>
             </div>
             <div type="apparatus">
@@ -119,6 +119,12 @@
                         <ptr target="Hatt1962"/>
                         <biblScope>
                             505; Abb. 47
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2017c"/>
+                        <biblScope>
+                            22-24, Nr. 7
                         </biblScope>
                     </bibl>
                 </listBibl>

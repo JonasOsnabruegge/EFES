@@ -89,7 +89,7 @@
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" extent="2" unit="character"/> <persName type="attested" ref="persons.xml#p"><name nymRef="Carantus?" type="cognomen">Carant<unclear>us</unclear><certainty locus="name"/></name></persName>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Pugnus+" type="cognomen">Pugn<supplied reason="lost">us</supplied></name></persName> curavit pone<lb n="4" break="no"/>re
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Pugnus+" type="cognomen">Pugnu<supplied reason="lost">s</supplied></name></persName> curavit pone<lb n="4" break="no"/>re
                     <lb n="5"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>
             </div>

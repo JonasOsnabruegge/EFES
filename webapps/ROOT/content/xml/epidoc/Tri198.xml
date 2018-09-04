@@ -90,7 +90,7 @@
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/>perpetuae
                     <lb n="3"/>securitati
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Bellicia*" type="gentilicium">Bell<supplied reason="omitted">i</supplied>c<supplied reason="omitted">ia</supplied>e</name> <name nymRef="Pro---" type="cognomen"><abbr>Pro</abbr></name></persName>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Bellicia*" type="gentilicium">Bell<supplied reason="omitted">i</supplied>c<supplied reason="omitted">ia</supplied>e</name> <name nymRef="Pro---" type="cognomen"><abbr><unclear>Pro</unclear></abbr></name></persName>
                     <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Bellicius" type="gentilicium">Bellicius</name> <name nymRef="Somniciosus" type="cognomen">Somni<lb n="6"/>ciosus</name></persName>
                 </ab>
             </div>

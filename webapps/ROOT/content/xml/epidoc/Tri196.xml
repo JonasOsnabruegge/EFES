@@ -90,7 +90,7 @@
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Petra?" type="cognomen">Petra<unclear>e</unclear></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Mainnus" type="cognomen">Mainni</name></persName>
-                    <lb n="3"/><expan><abbr>f<unclear>ili</unclear></abbr><ex cert="low">ae</ex></expan></persName>
+                    <lb n="3"/>f<unclear>ili</unclear>o</persName>
                     <lb n="4"/><orgName type="heres" role="creator"><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr><unclear>p</unclear></abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan></orgName>
                 </ab>
             </div>
