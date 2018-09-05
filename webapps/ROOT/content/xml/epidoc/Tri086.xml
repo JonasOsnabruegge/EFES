@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg</placeName>
                             </origPlace>
-                            <origDate notBefore="0150" notAfter="0270" cert="low">Vor der dritten Bauphase des Mithräums unter Aurelian, dort als Baumaterial verwendet</origDate>
+                            <origDate notBefore="0150" notAfter="0222" cert="low">Vor der dritten Bauphase des Mithräums unter Aurelian, dort als Baumaterial verwendet</origDate>
                         </origin>
                         <provenance type="found" when="1911">
                             <placeName ref="ph">

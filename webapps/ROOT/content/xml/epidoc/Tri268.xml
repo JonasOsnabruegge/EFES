@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Grassendorf, Bachhofen</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" notBefore="1800" notAfter="1900">
                             <placeName ref="ph">

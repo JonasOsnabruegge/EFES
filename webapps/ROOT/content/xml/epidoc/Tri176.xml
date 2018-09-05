@@ -58,7 +58,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Oberdorf-Spachbach</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200" cert="low">stilistisch (nach Hatt)</origDate>
+                            <origDate notBefore="0100" notAfter="0150" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
                         <provenance type="found" when="1913-07-31">
                             <placeName ref="ph">
@@ -127,6 +127,12 @@
                         <ptr target="Hatt1956"/><!-- RAE 7, 1956, 114-129 -->
                         <biblScope>
                             114-117
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 15
                         </biblScope>
                     </bibl>
                     <bibl>

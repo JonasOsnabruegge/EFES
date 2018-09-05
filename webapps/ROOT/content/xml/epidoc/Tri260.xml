@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Zwichensockel einer<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Jupitergigantensäule</objectType>. Beim Brand der Straßburger Bibliothek 1870 beschädigt, nur noch zwei Fragmente erhalten. Auf der linken Nebenseite Castor, auf der rechten Pollux. Auf der Rückseite Göttin. über einem Altar opfernd, daneben Genius mit patera, Füllhorn.</p>
-                                    <material>Kalkstein</material>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>36</height>
                                             <width>45</width>
@@ -55,7 +55,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/108828">Brocomagus</placeName>
                                 <placeName type="modern"/> 
                             </origPlace>
-                            <origDate notBefore="0150" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0200" notAfter="0250" cert="low">stilistisch (nach Hatt), Meister des Niedermoderner Vulcanus</origDate>
                         </origin>
                         <provenance type="found" notAfter="1736">
                             <placeName ref="ph">

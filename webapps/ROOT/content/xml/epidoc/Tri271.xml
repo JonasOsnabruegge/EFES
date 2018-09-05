@@ -55,7 +55,7 @@
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Gundershoffen</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0230" cert="low"/>
+                            <origDate notBefore="0130" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1832">
                             <placeName ref="ph">

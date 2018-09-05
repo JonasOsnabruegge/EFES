@@ -56,7 +56,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Betschdorf</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                            <origDate notBefore="0130" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1912">
                             <placeName ref="ph">

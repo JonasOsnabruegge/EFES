@@ -58,7 +58,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
-                            <origDate notBefore="0270" notAfter="0330" cert="low">stilistisch</origDate>
+                            <origDate notBefore="0270" notAfter="0400" cert="low">stilistisch</origDate>
                         </origin>
                         <provenance type="found" notBefore="1731" notAfter="1737">
                             <placeName ref="ph">
@@ -114,6 +114,12 @@
                         <ptr target="Esperandieu1918"/>
                         <biblScope>
                             Nr. 5496
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 202
                         </biblScope>
                     </bibl>
                     <bibl>

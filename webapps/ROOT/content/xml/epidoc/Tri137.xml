@@ -56,7 +56,7 @@
                                 <placeName type="ph" key="Argentorate" ref="ph"/>
                                 <placeName type="modern">Haguenau, Schwenheim</placeName> 
                             </origPlace>
-                            <origDate notBefore="0130" notAfter="0200" cert="low"/>
+                            <origDate notBefore="0130" notAfter="0250" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
                         <provenance type="found" notAfter="1824" cert="medium">
                             <placeName ref="ph">
@@ -120,6 +120,12 @@
                         <ptr target="Esperandieu1918"/>
                         <biblScope>
                             176-178, Nr. 5549
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 88
                         </biblScope>
                     </bibl>
                 </listBibl>

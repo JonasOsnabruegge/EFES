@@ -55,7 +55,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/108828">Brumath</placeName>
                                 <placeName type="modern"/> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0200" notAfter="0250" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
                         <provenance type="found" when="1800">
                             <placeName ref="ph">
@@ -125,6 +125,12 @@
                         <ptr target="Esperandieu1918"/>
                         <biblScope>
                             173-174, Nr. 5542
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 124
                         </biblScope>
                     </bibl>
                 </listBibl>

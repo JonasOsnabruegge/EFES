@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="ph" ref="ph"></placeName>
                                 <placeName type="modern">Hultehouse</placeName> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0250" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"></origDate>
                         </origin>
                         <provenance type="found" when="1858">
                             <placeName ref="ph">

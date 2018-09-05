@@ -55,7 +55,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Langensoultzbach</placeName> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0250" cert="low"/>
+                            <origDate notBefore="0030" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" notBefore="1800" notAfter="1858">
                             <placeName ref="ph">

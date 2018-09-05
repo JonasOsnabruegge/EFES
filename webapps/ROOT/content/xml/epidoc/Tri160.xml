@@ -58,7 +58,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Niederbronn-les-Bains</placeName> 
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                            <origDate notBefore="0150" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1955">
                             <placeName ref="ph">

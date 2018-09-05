@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0200" notAfter="0300" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
                         <provenance type="found" when="1899"><placeName ref="ph">Strasbourg, Place Kléber 22, hôtel Maison Rouge</placeName>
                         </provenance>
@@ -109,6 +109,12 @@
                     </bibl>
                     <bibl>
                         CAG 67/2, 346; Abb. 328
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 142
+                        </biblScope>
                     </bibl>
                     <bibl>
                         <ptr target="Eck1985"/>

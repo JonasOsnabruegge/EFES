@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="ph"/>
                                 <placeName type="modern">Hatten, Eschenbusch</placeName> 
                             </origPlace>
-                            <origDate notBefore="0130" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0130" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1850"><placeName ref="ph">Hatten, Eschenbusch</placeName>
                         </provenance>

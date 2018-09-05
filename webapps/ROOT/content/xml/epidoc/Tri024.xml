@@ -56,7 +56,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Dachstein</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                            <origDate notBefore="0170" notAfter="0230" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
                         <provenance type="found" notAfter="1946">
                             <placeName ref="ph">
@@ -117,6 +117,12 @@
                     </bibl>
                     <bibl>
                         CAG 67/1, 238
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 194
+                        </biblScope>
                     </bibl>
                     <!-- CAHAlsace 8, 39-46 p. 207 -->
                     <bibl>

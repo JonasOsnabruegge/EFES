@@ -55,7 +55,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                            <origDate notBefore="0200" notAfter="0230" cert="medium">stilistisch (nach Hatt), Meister des Straßburger Caracalla</origDate>
                         </origin>
                         <provenance type="found" when="1898">
                             <placeName ref="ph">
@@ -123,6 +123,12 @@
                         <ptr target="Esperandieu1918"/>
                         <biblScope>
                             158-159, Nr. 5518
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 78
                         </biblScope>
                     </bibl>
                 </listBibl>

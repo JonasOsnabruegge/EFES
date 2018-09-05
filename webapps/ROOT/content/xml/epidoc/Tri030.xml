@@ -55,7 +55,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0230" cert="low"/>
+                            <origDate notBefore="0200" notAfter="0250" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
                         <provenance type="found" when="1899">
                             <placeName ref="ph">Strasbourg, Place du Temple Neuf 15-16, spätantike Mauer, sekundär verwendet</placeName>
@@ -118,6 +118,12 @@
                         <ptr target="Esperandieu1918"/>
                         <biblScope>
                             Nr. 5491
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 133
                         </biblScope>
                     </bibl>
                     <bibl>

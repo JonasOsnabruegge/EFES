@@ -120,6 +120,12 @@
                         </biblScope>
                     </bibl>
                     <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 3
+                        </biblScope>
+                    </bibl>
+                    <bibl>
                         <ptr target="SchnitzlerKuhnle2010"/>
                         <biblScope>
                             124

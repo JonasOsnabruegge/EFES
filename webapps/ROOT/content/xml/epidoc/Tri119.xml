@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/108828">Brocomagus</placeName>
                                 <placeName type="modern">Brumath</placeName> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0200" cert="low"/>
+                            <origDate notBefore="0130" notAfter="0230" cert="low"/>
                         </origin>
                         <provenance type="found" when="1982">
                             <placeName ref="ph">

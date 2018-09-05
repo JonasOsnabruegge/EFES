@@ -56,7 +56,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Eckartswiller</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0300" cert="low">stilistisch</origDate>
+                            <origDate notBefore="0130" notAfter="0300" cert="low">stilistisch</origDate>
                         </origin>
                         <provenance type="found" when="2009" cert="medium">
                             <placeName ref="ph">

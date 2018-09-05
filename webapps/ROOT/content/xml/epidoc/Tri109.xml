@@ -56,7 +56,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Betschdorf</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                            <origDate notBefore="0200" notAfter="0250" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
                         <provenance type="found" when="1862">
                             <placeName ref="ph">
@@ -106,6 +106,12 @@
                     </bibl>
                     <bibl>
                         CAG 67/1, 186; Abb. 55
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1964"/>
+                        <biblScope>
+                            Nr. 101
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>
