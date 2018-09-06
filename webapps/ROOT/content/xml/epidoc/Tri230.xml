@@ -89,7 +89,7 @@
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Secund---" type="cognomen">Secund<gap reason="lost" extent="unknown" unit="character"/></name>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="---arus" type="cognomen"><hi rend="small">a</hi>ri</name></persName> fi<supplied reason="omitted">l</supplied>io</persName> <orig>r</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="---arus" type="cognomen"><hi rend="small">a</hi>ri</name></persName> fi<supplied reason="omitted">l</supplied>io</persName> <orig><hi rend="small">e</hi>r</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secun---" type="cognomen">Secun<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="5"/>c<hi rend="small">o</hi><choice><corr>ni</corr><sic>ii</sic></choice><hi rend="small">u</hi>x <orig>d</orig><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
