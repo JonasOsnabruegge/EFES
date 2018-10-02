@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0150" cert="low"/>
+                            <origDate notBefore="0122" notAfter="0134" cert="medium">Prosopographisch (nach Pflaum) - der Dedikant war Konsular 138 n. Chr. wie ausdem Senatusconsultum XXX hervorgeht.</origDate>
                         </origin>
                         <provenance type="found" when="1968">
                             <placeName ref="ph">Strasbourg, Rue du Puits 1</placeName>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url=""/>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_AE_1969-70_00434_1.jpg"/>
     </facsimile>
     <text>
         <body>
@@ -109,12 +109,27 @@
                         AE 2010, 1067
                     </bibl>
                     <bibl>
+                        PIR² O 124.
+                    </bibl>
+                    <bibl>
                         CAG 67/2, 318; Abb. 281
                     </bibl>
                     <bibl>
                         <ptr target="Hatt1970"/>
                         <biblScope>
                             319-321; Abb. 9
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Pflaum1981"/>
+                        <biblScope>
+                            
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Eck1985"/>
+                        <biblScope>
+                            247, Nr. 47
                         </biblScope>
                     </bibl>
                     <bibl>

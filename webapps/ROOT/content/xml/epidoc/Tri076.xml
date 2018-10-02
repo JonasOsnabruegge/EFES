@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>Soweit noch erkennbar, regelmäßige, quadratische Buchstaben mit Serifen.</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -111,6 +111,12 @@
                     </bibl>
                     <bibl>
                         CAG 67/2, 450
+                    </bibl>
+                    <bibl>
+                        <ptr target="Forrer1915"/>
+                        <biblScope>
+                            42-43; Taf. 14, 1
+                        </biblScope>
                     </bibl>
                     <bibl>
                         <ptr target="Esperandieu1918"/>

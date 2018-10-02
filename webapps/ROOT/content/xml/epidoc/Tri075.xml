@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment von der oberen linken Ecke einer<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType> (Monumenttyp nach CIMRM).</p>
+                                    <p>Fragment von der oberen linken Ecke einer<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType> (Monumenttyp nach CIMRM und Forrer).</p>
                                     <material>Sandstein?</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -112,6 +112,12 @@
                     </bibl>
                     <bibl>
                         CAG 67/2, 450
+                    </bibl>
+                    <bibl>
+                        <ptr target="Forrer1915"/>
+                        <biblScope>
+                            41, Abb. 40
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

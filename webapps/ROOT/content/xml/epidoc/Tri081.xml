@@ -20,19 +20,19 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>38</height>
-                                            <width>14</width>
-                                            <depth>10</depth>
+                                            <width>18</width>
+                                            <depth>14</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die letzte Zeile befindet sich auf dem Sockel.
+                                        Die letzte Zeile befindet sich auf dem Sockelprofil. Leicht ungleichmäßiges Schriftbild
                                     </p>
                                     <dimensions>
                                         <height/>
@@ -43,7 +43,9 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>
+                                    Unregelmäßige, eher schmale Buchstaben ohne Serifen.
+                                </p>
                                 <height/>
                             </handNote>
                         </handDesc>

@@ -84,14 +84,14 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><supplied reason="lost">I</supplied><hi rend="ligature" xml:id="l1">n </hi><expan><abbr><hi rend="ligature" xml:id="l2">h</hi></abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan><expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>d</abbr><ex>eo</ex></expan> <persName type="divine" key="Mars" role="god">Marti</persName> <persName type="divine" key="Biviae" role="god">Biv<supplied reason="lost">iis</supplied></persName>
+                    <lb n="1"/><supplied reason="lost">I</supplied><hi rend="ligature" xml:id="l1"><unclear>n</unclear> </hi><expan><abbr><hi rend="ligature" xml:id="l2"><unclear>h</unclear></hi></abbr><ex>onorem</ex></expan> <expan><abbr><unclear>d</unclear></abbr><ex>omus</ex></expan> <expan><abbr><unclear>d</unclear></abbr><ex>ivinae</ex></expan> <expan><abbr>d</abbr><ex>eo</ex></expan> <persName type="divine" key="Mars" role="god"><unclear>Marti</unclear></persName> <persName type="divine" key="Biviae" role="god"><unclear>Biv</unclear><supplied reason="lost">iis</supplied></persName>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Varius?" type="gentilicium">V<hi rend="ligature">ar</hi><unclear>i</unclear>us</name> <name nymRef="Iuvenis" type="cognomen">Iuvenis</name></persName>
                     <lb n="3"/><supplied reason="lost" evidence="previouseditor"><expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <milestone unit="section" type="relief" break="no"/> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied>
                 </ab>
                 <link target="#l1 #l2"/>
             </div>
             <div type="apparatus">
-                <p>Z. 2: Statt I auch T möglich. CIL XIII 6061: d(eo) Tribani / Quartus Iuvenis.</p>
+                <p>Z. 2: Statt I auch T möglich. CIL XIII 6061: d(eo) Tribanti / Quartus Iuvenis.</p>
             </div>
             <div type="translation">
                 <p/>
