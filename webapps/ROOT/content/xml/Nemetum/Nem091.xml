@@ -114,6 +114,12 @@
                         AE 1990, 757
                     </bibl>
                     <bibl>
+                        <ptr target="Bernhard1983"/>
+                        <biblScope>
+                            141, Nr. 285
+                        </biblScope>
+                    </bibl>
+                    <bibl>
                         <ptr target="Wiegels2010"/>
                         <biblScope>
                             155-167
