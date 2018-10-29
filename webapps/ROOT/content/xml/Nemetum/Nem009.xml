@@ -111,7 +111,13 @@
                     <bibl>
                         <ptr target="Bauchhenss1981"/>
                         <biblScope>
-                            222-223, Nr. 478
+                            222-223, Nr. 47
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hirte1995"/>
+                        <biblScope>
+                            328-329, Nr. ZS 2
                         </biblScope>
                     </bibl>
                 </listBibl>

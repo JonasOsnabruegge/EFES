@@ -55,7 +55,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Dannstadt</placeName>
                             </origPlace>
-                            <origDate notBefore="0150" notAfter="0300" cert="medium">In H D D</origDate>
+                            <origDate notBefore="0250" notAfter="0300" cert="medium">In H D D, stilistisch (Hirte)</origDate>
                         </origin>
                         <provenance type="found" notAfter="1825">
                             <placeName ref="ph">Dannstadt-Schauernheim, Dannstadt, aus der Umfassungsmauer der Kirche</placeName>
@@ -112,6 +112,12 @@
                         <ptr target="Bauchhenss1981"/>
                         <biblScope>
                             113, Nr. 107; Taf. 11, 4
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hirte1995"/>
+                        <biblScope>
+                            335-337, Nr. ZS 9
                         </biblScope>
                     </bibl>
                 </listBibl>

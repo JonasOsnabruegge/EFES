@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p></p>
-                                    <material></material>
+                                    <material>Kalkstein</material>
                                         <dimensions unit="cm">
                                             <height/>
                                             <width/>
@@ -116,6 +116,12 @@
                         <ptr target="HartkopfFroederJodry2016"/>
                         <biblScope>
                             341-347
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Brelaz2018"/>
+                        <biblScope>
+                            
                         </biblScope>
                     </bibl>
                 </listBibl>

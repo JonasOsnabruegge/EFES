@@ -55,9 +55,9 @@
                                 <placeName type="ancient" key="ph" ref="ph">Alta Ripa</placeName>
                                 <placeName type="modern">Altrip</placeName>
                             </origPlace>
-                            <origDate notBefore="0150" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0150" notAfter="0200" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1932"><placeName ref="ph">Altrip, spätantikeer Burgus, sekundär verwendet</placeName>
+                        <provenance type="found" when="1932"><placeName ref="ph">Altrip, spätantiker Burgus, sekundär verwendet</placeName>
                             <geo>
                                 49.44046588 8.502683758
                             </geo>
@@ -113,6 +113,12 @@
                         <ptr target="Nesselhauf1937"/>
                         <biblScope>
                             72, Nr. 76
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hirte1995"/>
+                        <biblScope>
+                            335, Nr. ZS 8
                         </biblScope>
                     </bibl>
                 </listBibl>
