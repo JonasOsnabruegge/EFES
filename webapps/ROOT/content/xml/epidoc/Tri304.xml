@@ -105,6 +105,12 @@
                   <bibl>
                       Saverne 324
                   </bibl>
+                    <bibl>
+                        <ptr target="GoubetMeyer2013"/>
+                        <biblScope>
+                            11-12
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

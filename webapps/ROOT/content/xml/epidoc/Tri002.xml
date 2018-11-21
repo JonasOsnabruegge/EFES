@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <repository>Strasbourg, Musée Archéologique</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -84,7 +84,7 @@
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>le</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Moenius+" type="gentilicium">Moeniu<supplied reason="lost">s</supplied></name></persName><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>l</unclear>us <orgName key="centuriadecima" type="centuriacollegii"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuriae</ex></expan> dec<unclear>i</unclear><supplied reason="lost">mae</supplied></orgName><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>l</unclear>us <orgName key="centuriaDeci---" type="centuria"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuriae</ex></expan> <persName type="attested" key="ph"><name nymRef="Deci---" type="cognomen">Dec<unclear>i</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName></orgName>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ex voto <expan><abbr>p</abbr><ex cert="low">osuit</ex></expan><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" ref="persons.xml#p"><name nymRef="Senecio" type="cognomen"><supplied reason="lost">S</supplied>enecio</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="6"/><persName type="attested" ref="persons.xml#p"><name nymRef="---+nus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" extent="1" unit="character"/>nus</name></persName> <gap reason="lost" extent="unknown" unit="character"/>

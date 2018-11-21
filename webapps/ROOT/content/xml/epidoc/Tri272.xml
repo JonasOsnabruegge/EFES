@@ -90,8 +90,8 @@
                     <milestone unit="section" type="Zwischenfries"/>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iulius" type="gentilicium">Iulius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Coventus" type="cognomen">Co<hi rend="ligature">ve</hi>nti</name></persName></persName> <hi rend="ligature"><hi rend="reversed">e</hi>t</hi> 
                     <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Exsuperator" type="cognomen">Exs<hi rend="ligature">up</hi>erator</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Taluppe" type="cognomen">Tal<hi rend="ligature">up</hi>pe</name></persName></persName>
-                    <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <milestone unit="section" type="relief" break="no"/> <expan><abbr>s</abbr><ex>olvit</ex></expan>
-                    <lb n="5"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <milestone unit="section" type="relief" break="no"/> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <milestone unit="section" type="relief" break="no"/> <expan><abbr>s</abbr><ex>olverunt</ex></expan>
+                    <lb n="5"/><expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>l</abbr><ex>aeti</ex></expan> <milestone unit="section" type="relief" break="no"/> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

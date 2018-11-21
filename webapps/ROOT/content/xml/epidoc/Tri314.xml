@@ -3,66 +3,64 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift für Mercurius</title>
+                <title>Sarkophagdeckel mit Grabinschrift</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">Tri309</idno>
+                <idno type="filename">Tri314</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Séléstat, Centre de conservation et d'étude archéologique</repository>
-                        <idno>5249-RLA-1000-1 u. 2</idno>
+                        <repository>Saverne, Musées du Château des Rohan</repository>
+                        <idno>Bi 120</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Zwei nicht aneinanderpassende Fragmente von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25.html">Weihrelief</objectType>. Erhalten ist noch das Inschriftfeld und der Kopf des Mercurius (grobe Arbeit).</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>. Erhalten ist die rechte Hälfte des Deckels mit gwölbter Decke, die Eckakrotere mit Gesichtern (Totenmasken?) verziert.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width>(56)</width>
-                                            <depth>(16,5)</depth>
+                                            <height>30</height>
+                                            <width>(111)</width>
+                                            <depth>106</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>
-                                        Es ist nicht mehr ersichtlich, wo sich die Inschrift relativ zum Relief befand. Ungelichmäßiges, ungeordnet wirkendes Schriftbild. Mangelhaft ordinierte Isnchrift.
-                                    </p>
+                                    <p>Der erhaltene Buchstabe befindet sich auf der Frontseite des rechten Eckakroters.</p>
                                     <dimensions>
                                         <height/>
-                                        <depth/>
+                                        <width/>
                                     </dimensions>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, uneinheitlich ausgeführte Buchstaben mit Serifen. M mit schräggestellten seitlichen Hasten.</p>
+                                <p>Soweit noch erkennbar regelmäßig gearbeiteter Buchstabe.</p>
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
-                         <origin>
+                        <origin>
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
-                                <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Eckartswiller</placeName> 
+                                <placeName type="ancient" key="TresTabernae" ref="ph"></placeName>
+                                <placeName type="modern">Saint-Jean-Saverne</placeName>
                             </origPlace>
-                            <origDate notBefore="0130" notAfter="0300" cert="low">stilistisch</origDate>
+                            <origDate notBefore="0170" notAfter="0300" cert="low"></origDate>
                         </origin>
-                        <provenance type="found" when="2009" cert="medium">
+                        <provenance type="found" when="1949">
                             <placeName ref="ph">
-                                Eckartwsiller, Rothlach, Mercurius-Heiligtum
+                                Saint-Jean-Saverne, gallo-römische Siedlung Nicklausfeld-Kleinerlenfeld
                             </placeName>
-                            <geo>48.77468 7.32256</geo>
+                            <geo>48.7705 7.3803</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -73,20 +71,20 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
                 </keywords>
             </textClass>
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/img/27950-1.jpg"/>
+        <graphic url=""/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/>Deo <persName type="divine" key="Mercurius" role="god">Me<lb n="2"/>rcurio</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caratullus" type="cognomen">Car<lb n="3"/>atullus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Carasus" type="cognomen">Car<lb n="4"/>asi</name></persName> filius</persName>
-                    <lb n="5"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> </supplied><expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr><unclear>l</unclear></abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -101,13 +99,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        <ptr target="Mischler2010"/>
+                        <ptr target="Ring2002"/>
                         <biblScope>
-                            7-8
+                            3-4
                         </biblScope>
                     </bibl>
                     <bibl>
-                        Saverne, p. 70. 
+                        Saverne 313
                     </bibl>
                 </listBibl>
             </div>

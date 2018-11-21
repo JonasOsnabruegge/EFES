@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Vier Fragmente vom <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Viergötterstein einer Jupitergigantensäule</objectType>, für die sekundäre Verwendung zerteilt. Nur noch die Inschriftseite erhalten.</p>
+                                    <p>Vier Fragmente vom <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Viergötterstein einer Jupitergigantensäule</objectType>, für die sekundäre Verwendung horizontal in vier Segmente zerteilt. Nur noch die Inschriftseite erhalten.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(67)</height>
@@ -86,7 +86,7 @@
                     <lb n="2"/><persName type="divine" key="IOM+" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---s" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>s</name>
                     <lb n="4"/><name nymRef="Lucius" type="cognomen">Lucius</name> </persName><expan><abbr>vet</abbr><ex>eranus</ex></expan> <orgName type="cohors" key="cohXXIIIIciviumRomanorum"><expan><abbr>c</abbr><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> <num value="24">XXIIII</num> <expan><abbr>vol</abbr><ex>untariorum</ex></expan>
-                    <lb n="5"/><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan></orgName> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+                    <lb n="5"/><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan></orgName> <expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
                 </ab>
             </div>
             <div type="apparatus">
