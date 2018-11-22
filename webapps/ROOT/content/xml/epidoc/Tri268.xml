@@ -87,7 +87,7 @@
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Segillius" type="cognomen">Segillius</name></persName> et <persName type="attested" ref="persons.xml#p" role="creatpr"><name nymRef="Mercatorius*?" type="cognomen"><expan><abbr>Merc</abbr><ex cert="low">atorius</ex></expan></name></persName>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Constans" type="cognomen">Constans</name></persName> <persName type="attested" ref="persons.xml#p"><name nymRef="Bellatorix" type="cognomen">Bellato<lb n="4" break="no"/>ricis</name></persName> <choice><corr>f</corr><sic>l</sic></choice>i<choice><corr>l</corr><sic>i</sic></choice>i ex voto <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Constans" type="cognomen">Constans</name></persName> <persName type="attested" ref="persons.xml#p"><name nymRef="Bellatorix" type="cognomen">Bellato<lb n="4" break="no"/>ricis</name></persName> <choice><corr>f</corr><sic>l</sic></choice>i<choice><corr>l</corr><sic>i</sic></choice>i ex iussu <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

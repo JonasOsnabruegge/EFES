@@ -82,9 +82,22 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
-                <ab>
-                    <lb n="1"/><expan><abbr>Pub<milestone unit="section" break="no"/>lic</abbr><ex cert="low">us</ex></expan> <milestone unit="section" break="no"/><orig>l p</orig> <milestone unit="section" break="no"/><orig>ar</orig>
-                </ab>
+                <div type="textpart" subtype="section" n="1">
+                    <ab>
+                        <lb n="1"/><abbr>L</abbr> <abbr>p</abbr> <abbr>ar</abbr>
+                        <lb n="2"/><abbr>ar</abbr> <gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <ab>
+                        <lb n="1"/><expan><abbr><supplied reason="lost">p</supplied>rivat</abbr><ex>um</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="3">
+                    <ab>
+                        <lb n="1"/><expan><abbr>Pub<milestone unit="section" type="textpart" n="4" break="no"/>lic</abbr><ex>um</ex></expan>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <p/>
