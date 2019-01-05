@@ -87,7 +87,7 @@
                     <lb n="3"/><date type="age" atLeast="18"><supplied reason="lost" cert="low"><expan><abbr>ann</abbr><ex>orum</ex></expan></supplied><num atLeast="18"><supplied reason="lost" cert="low"> XX</supplied>VIII</num></date> <expan><abbr>stip</abbr><ex>endiorum</ex></expan>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> her</supplied>es ex
                     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> eius</supplied><expan><abbr><supplied reason="lost">vo</supplied>lunt</abbr><ex>ate</ex></expan> et
-                    <lb n="6"/><supplied reason="lost">testame</supplied>nto cau<lb n="7" break="no"/><supplied reason="lost" cert="low">tum</supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" extent="1" unit="character"/><orig>i</orig> qum sta<lb n="8" break="no"/><orig>vit</orig> nomen
+                    <lb n="6"/><supplied reason="lost">testame</supplied>nto cau<lb n="7" break="no"/><supplied reason="lost" cert="low">tum</supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" extent="1" unit="character"/><orig>i</orig> quem sta<lb n="8" break="no"/><orig>vit</orig> nomen
                 </ab>
             </div>
             <div type="apparatus">

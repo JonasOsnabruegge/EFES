@@ -92,7 +92,7 @@
                     <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Vitalis+?" type="cognomen">Vita<surplus>i</surplus>l<supplied reason="lost">is</supplied></name>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Firmanus+?" type="cognomen"><hi rend="tall">F</hi>i<unclear>r</unclear>ma<supplied reason="lost" cert="low">ni</supplied></name></persName></persName><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="4"/><orig><hi rend="tall">r</hi>ispr</orig>
+                    <lb n="4"/><orig><hi rend="tall">r</hi>ispr</orig><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">

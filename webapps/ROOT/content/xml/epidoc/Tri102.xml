@@ -84,12 +84,13 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Flavius*" type="gentilicium"><expan><abbr>Flav</abbr><ex>io</ex></expan></name> <name nymRef="Valerius*" type="gentilicium"><expan><abbr>Val</abbr><ex>erio</ex></expan></name>
-                    <lb n="2"/><name nymRef="Constantinus" type="cognomen">Constantino</name></persName>
-                    <lb n="3"/>Pio <expan><abbr>nob</abbr><ex>ilissimo</ex></expan>
-                    <lb n="4"/>Caesari
-                    <lb n="5"/>divi <persName type="emperor" ref="persons.xml#p"><name nymRef="Constantius" type="gentilicium"><expan><abbr>Constanti</abbr><ex>i</ex></expan></name></persName> Pii <expan><abbr>Aug</abbr><ex>usti</ex></expan>
-                    <lb n="6"/>filio
+                    <lb n="1"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan>
+                    <lb n="2"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Flavius*" type="gentilicium"><expan><abbr>Flav</abbr><ex>io</ex></expan></name> <name nymRef="Valerius*" type="gentilicium"><expan><abbr>Val</abbr><ex>erio</ex></expan></name>
+                    <lb n="3"/><name nymRef="Constantinus" type="cognomen">Constantino</name></persName>
+                    <lb n="4"/>Pio <expan><abbr>nob</abbr><ex>ilissimo</ex></expan>
+                    <lb n="5"/>Caesari
+                    <lb n="6"/>divi <persName type="emperor" ref="persons.xml#p"><name nymRef="Constantius" type="gentilicium"><expan><abbr>Constanti</abbr><ex>i</ex></expan></name></persName> Pii <expan><abbr>Aug</abbr><ex>usti</ex></expan>
+                    <lb n="7"/>filio
                 </ab>
             </div>
             <div type="apparatus">
@@ -116,6 +117,13 @@
                         <ptr target="DardaineWaton1986"/>
                         <biblScope>
                             35-43
+                        </biblScope>
+                    </bibl>
+                    
+                    <bibl>
+                        <ptr target="Christol2010"/>
+                        <biblScope>
+                            102, Nr. 5
                         </biblScope>
                     </bibl>
                 </listBibl>

@@ -55,7 +55,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
-                            <origDate notBefore="0001" notAfter="0014" cert="low">Stationierung</origDate> <!-- evtl. -30 -->
+                            <origDate notBefore="0001" notAfter="0043" cert="low">Stationierung</origDate> <!-- evtl. -30 -->
                         </origin>
                         <provenance type="found" when="1904">
                             <placeName ref="ph">

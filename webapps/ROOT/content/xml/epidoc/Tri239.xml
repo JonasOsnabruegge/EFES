@@ -86,7 +86,7 @@
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Laetus" type="cognomen">Laeto</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Catulinus+" type="cognomen">Ca<supplied reason="lost">t</supplied>u<lb n="3" break="no"/>li<supplied reason="lost" cert="low">ni</supplied></name></persName></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cintussa" type="cognomen">Cintussa</name></persName>
                     <lb n="4"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cintusmus" type="cognomen">Cintus<lb n="5" break="no"/>mus</name></persName> fili
-                    <lb n="5"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                    <lb n="6"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

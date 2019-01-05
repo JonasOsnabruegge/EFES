@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrifr des Secundinius An[---]us</title>
+                <title>Sarkophagdeckel mit Grabinschrift</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -13,37 +13,36 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Haguenau, Musée historique de Haguenau</repository>
-                        <idno/>
+                        <repository>Saverne, Musées du Château des Rohan</repository>
+                        <idno>Bi 120</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Bildnische, darin zwei Büsten.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>. Erhalten ist die rechte Hälfte des Deckels mit gwölbter Decke, die Eckakrotere mit Gesichtern (Totenmasken?) verziert.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height>(22)</height>
-                                            <width>51</width>
-                                            <depth>17</depth>
+                                            <height>30</height>
+                                            <width>(111)</width>
+                                            <depth>106</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>
-                                    </p>
+                                    <p>Der erhaltene Buchstabe befindet sich auf der Frontseite des rechten Eckakroters.</p>
                                     <dimensions>
                                         <height/>
-                                        <depth/>
+                                        <width/>
                                     </dimensions>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
-                                <height/>
+                                <p>Soweit noch erkennbar regelmäßig gearbeiteter Buchstabe.</p>
+                                <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -52,15 +51,16 @@
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
-                                <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern">Haguenau, Schwenheim</placeName> 
+                                <placeName type="ancient" key="TresTabernae" ref="ph"></placeName>
+                                <placeName type="modern">Saint-Jean-Saverne</placeName>
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0250" cert="low"/>
+                            <origDate notBefore="0170" notAfter="0300" cert="low"></origDate>
                         </origin>
-                        <provenance type="found" when="1862" cert="medium">
+                        <provenance type="found" when="1949">
                             <placeName ref="ph">
-                                Haguenau, Schwenheim, Flur Salzmatt
+                                Saint-Jean-Saverne, gallo-römische Siedlung Nicklausfeld-Kleinerlenfeld
                             </placeName>
+                            <geo>48.7705 7.3803</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -71,7 +71,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term><term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term></term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -83,9 +83,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="0"/><gap reason="lost" quantity="1" unit="line" cert="low"/>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested" ref="persons.xml#p">S<name nymRef="Secundinius" type="gentilicium">ecundinius</name> <name nymRef="An---us" type="cognomen">An<gap reason="lost" extent="unknown" unit="character"/>us</name></persName>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -100,19 +99,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD047818
-                    </bibl>
-                    <bibl>
-                        AE 2000, 1076
-                    </bibl>
-                    <bibl>
-                        CAG 67/1, 340
-                    </bibl>
-                    <bibl>
-                        <ptr target="Esperandieu1918"/>
+                        <ptr target="Ring2002"/>
                         <biblScope>
-                            179, Nr. 5553; m. Abb.
+                            3-4
                         </biblScope>
+                    </bibl>
+                    <bibl>
+                        Saverne 313
                     </bibl>
                 </listBibl>
             </div>

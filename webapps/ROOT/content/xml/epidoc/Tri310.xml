@@ -85,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Vera---" type="gentilicium">Vera<gap reason="lost" quantity="4" unit="character"/></name>
-                    <lb n="2"/><expan><abbr>Q</abbr><ex>unit</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> <name nymRef="Seranus+" type="cognomen">Sera<supplied reason="lost">nus</supplied></name></persName>
+                    <lb n="2"/><expan><abbr>Q</abbr><ex>unti</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> <name nymRef="Seranus+" type="cognomen">Sera<supplied reason="lost">nus</supplied></name></persName>
                     <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <orgName type="legio" key="legioII"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2">II</num></orgName> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
                     <lb n="4"/><orgName type="heres" role="creator"><expan><abbr>h</abbr><ex>eres?</ex></expan></orgName> <expan><abbr>e</abbr><ex>x</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan>
                 </ab>

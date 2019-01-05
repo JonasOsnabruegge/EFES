@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, unten abgebrochen. Im oberen Teil rechteckiges Bildfeld, darin Brustbilder eines Mannes und eines Jungen, dieser Hält in der Rechten einen Gegenstand (nach Goubet u. a. eine ascia).</p>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, unten abgebrochen. Im oberen Teil rechteckiges Bildfeld, darin Brustbilder eines Mannes und eines Jungen, dieser hält in der Rechten einen Gegenstand (nach Goubet u. a. eine ascia).</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(96)</height>
@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift befindet sich auf einem einfach vertieften Inschriftfeld, welches oben den unteren Rand des Bildfeldes bildet. Leicht ungleichmäßiges Schriftbild, Z. 1-3 bilden einen einheitlichen Block, Z. 4 klein darunter eingeschoben. Uneinheitlicher Buchstabenabstand.
+                                        D M befindet sich auf der linken und rehcten Rahmenleiste. Die Inschrift befindet sich auf einem einfach vertieften Inschriftfeld, welches oben den unteren Rand des Bildfeldes bildet. Leicht ungleichmäßiges Schriftbild, Z. 2-4 bilden einen einheitlichen Block, Z. 5 klein darunter eingeschoben. Uneinheitlicher Buchstabenabstand.
                                     </p>
                                     <dimensions>
                                         <height/>
@@ -84,12 +84,16 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
-                <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catulianus" type="cognomen">Catulianus</name>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Connucus" type="cognomen">Connuci</name></persName></persName> et
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Africanus" type="cognomen">Africanus</name>
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catulianus" type="cognomen">Catuliani</name></persName></persName>
-                </ab>
+                <div type="textpart" subtype="section" n="1">
+                    <lb n="1"/><ab><expan><abbr>D</abbr><ex>is</ex></expan> <milestone type="section" subtype="relief" break="no"/><expan><abbr>M</abbr><ex>anibus</ex></expan></ab>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <ab>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catulianus" type="cognomen">Catulianus</name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Connucus" type="cognomen">Connuci</name></persName></persName> et
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Africanus" type="cognomen">Africanus</name>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catulianus" type="cognomen">Catuliani</name></persName></persName>
+                </ab></div>
             </div>
             <div type="apparatus">
                 <p/>

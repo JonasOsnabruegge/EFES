@@ -87,8 +87,8 @@
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name nymRef="Rufrenus" type="gentilicium">Rufrenus</name>
                     <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <name nymRef="Modestus" type="cognomen">Modestus</name></persName>
                     <lb n="3"/>anularius <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Latinaeus" type="gentilicium">Latinaeus</name> <name nymRef="Praesens" type="cognomen">Praese<lb n="5"/>ns</name></persName> eques <orgName type="legio" key="legioII"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2"><hi rend="supraline">II</hi></num></orgName>
-                    <lb n="5"/>ob pietatem
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Latinaeus" type="gentilicium">Latinaeus</name> <name nymRef="Praesens" type="cognomen">Praese<lb n="6" break="no"/>ns</name></persName> eques <orgName type="legio" key="legioII"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2"><hi rend="supraline">II</hi></num></orgName>
+                    <lb n="7"/>ob pietatem
                 </ab>
             </div>
             <div type="apparatus">

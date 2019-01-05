@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>unbekannt</repository>
+                        <repository>Brumath, Musée archéologique</repository>
                         <idno></idno>
                     </msIdentifier>
                     <physDesc>
@@ -54,7 +54,7 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph">Brocomagus</placeName>
-                                <placeName type="modern"></placeName> 
+                                <placeName type="modern">Brumath</placeName> 
                             </origPlace>
                             <origDate notBefore="0014" notAfter="0050" cert="low"></origDate>
                         </origin>

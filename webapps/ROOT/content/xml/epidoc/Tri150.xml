@@ -54,7 +54,7 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
                                 <placeName type="ph" key="ph" ref="ph"/>
-                                <placeName type="modern"/> 
+                                <placeName type="modern">Kintzheim</placeName> 
                             </origPlace>
                             <origDate notBefore="0030" notAfter="0100" cert="low"/>
                         </origin>

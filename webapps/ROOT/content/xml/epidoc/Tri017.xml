@@ -104,6 +104,12 @@
                     <bibl>
                         ILTG 419
                     </bibl>
+                    <bibl>
+                        <ptr target="Hojte2005"/>
+                        <biblScope>
+                            380, Nr. Trajan 52
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
