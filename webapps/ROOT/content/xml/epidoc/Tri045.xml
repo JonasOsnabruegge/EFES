@@ -58,7 +58,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
-                        <provenance type="found" notAfter="1900">
+                        <provenance type="found" when="1901">
                             <placeName ref="ph"><placeName ref="ph">Strasbourg, Place du Temple Neuf 15-16, sekundär verwendet</placeName></placeName>
                         </provenance>
                         <provenance type="observed">
@@ -98,7 +98,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079070
                     </bibl>
                     <bibl>
                         CIL XIII 11626
@@ -107,7 +107,7 @@
                         CAG 67/2, 257-258
                     </bibl>
                     <bibl>
-                        <ptr target="Domaszewski1903"/>
+                        <ptr target="Domaszewski1906"/>
                         <biblScope>
                             363, Nr. 9; m. Abb.
                         </biblScope>

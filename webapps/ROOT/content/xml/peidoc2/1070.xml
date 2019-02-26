@@ -1,0 +1,114 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bauinschrift des Kohortenkastells Neckarburken</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum?</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType></p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(21)</height>
+                                            <width>(41)</width>
+                                            <depth>15</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p></p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Neckarburken</placeName> 
+                            <origDate notBefore="0138" notAfter="0161">Antoninus Pius</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1892">
+                            <placeName ref="ph">
+                               Neckarburken, Kohortenkastell, bei der Westmauer
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="https://www.wikidata.org/wiki/Q1429"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> </supplied><expan><abbr><supplied reason="lost">Cae</supplied>s</abbr><ex>ari</ex></expan> <name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name nymRef="Aelius" type="gentilicium">Ae<lb break="no" n="2"/><supplied reason="lost">lio</supplied></name> <name nymRef="Hadrianus" type="cognomen"><supplied reason="lost">Ha</supplied><expan><abbr>dr</abbr><ex>iano</ex></expan></name> <name nymRef="Antoninus" type="cognomen">A<supplied reason="lost"><expan><abbr>nt</abbr><ex>onino</ex></expan></supplied></name>
+                    <lb n="3"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio</supplied></persName> <gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036557
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6492
+                    </bibl>
+                    <bibl>
+                        RSO 68
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

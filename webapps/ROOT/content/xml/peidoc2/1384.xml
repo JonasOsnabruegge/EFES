@@ -1,0 +1,115 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Magna Mater und die vires des Patricius Cybelicus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alzey, Museum, Steinsaal</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Bekrönung und Sockel abgearbeitet. Auf der linken Nebenseite Schild mit durch Schildbuckel geführtem Stab; auf der Rückseite phrygischer Helm, Rinderkopf und gekreuzte Auloi. </p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(111)</height>
+                                            <width>57,5</width>
+                                            <depth>40</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+~)</p>
+                                <height>4,9-4,1</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="Altiaia" ref="https://pleiades.stoa.org/places/108736">Altiaia</placeName>
+                                <placeName type="modern">Alzey</placeName>
+                            <origDate when="0237-11-11" datingMethod="#julian">Konsuln</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="2004">
+                            <placeName ref="ph">
+                                <geo>49.74434 8.1185</geo>
+                                Alzey, Römerstraße 36, sekundär verwendet
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25518-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Mater Magna" role="god"><expan><abbr>M</abbr><ex>atri</ex></expan> <expan><abbr>D</abbr><ex>eum</ex></expan> <expan><abbr>M</abbr><ex>agnae</ex></expan></persName><supplied reason="lost"> et v</supplied>iribus
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Patricius" type="gentilicium">Patrici</name> <name nymRef="Cybelicus" type="cognomen">Cybeli<lb n="3" break="no"/>ci</name></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Pacatia" type="gentilicium">Pacatia</name> <name nymRef="Pacata" type="cognomen">Paca<lb n="4" break="no"/>ta</name></persName> filia <persName type="attested" ref="persons.xml#p"><name nymRef="Pacatius" type="gentilicium">Pacati</name>
+                    <lb n="5"/><name nymRef="Pacatinus" type="cognomen">Pacatini</name></persName> <expan><abbr>d</abbr><ex>ecurionis</ex></expan> <orgName type="civitas" key="civitas Treverorum"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>Tr</abbr><ex>everorum</ex></expan></orgName> consummata per
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p"><name nymRef="Servandius" type="gentilicium">Servandium</name> <name nymRef="Maternus" type="cognomen">Ma<lb n="7" break="no"/>ternum</name></persName> <expan><abbr>s</abbr><ex>acerdotum</ex></expan> <expan><abbr>d</abbr><ex>eum</ex></expan> <expan><abbr>M</abbr><ex>atris</ex></expan>
+                    <lb n="8"/><date when="0237-11-11"><num value="3">III</num> Idum Novembri<lb n="9" break="no"/>um <persName type="consul" ref="PIR² M 312"><name nymRef="Perpetuus" type="cognomen">Perpetuo</name></persName> et <persName type="consul" ref="PIR² M 703"><name nymRef="Cornelianus" type="cognomen">C<supplied reason="lost">or</supplied>ne<supplied reason="lost">li</supplied>an<supplied reason="lost">o</supplied></name></persName><supplied reason="lost"> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied></date> 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD010825
+                    </bibl>
+                    <bibl>
+                        AE 2007, 1047
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

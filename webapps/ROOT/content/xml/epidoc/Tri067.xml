@@ -60,6 +60,7 @@
                         </origin>
                         <provenance type="found" when="1866">
                             <placeName ref="ph">
+                                <geo>48.5785 7.71005</geo>
                                 Strasbourg, Koenigshoffen, Römerstraße 125/Route des Romains 91, beim Bau aines Kellers
                             </placeName>
                         </provenance>
@@ -101,7 +102,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079130
                     </bibl>
                     <bibl>
                         CIL XIII 5968

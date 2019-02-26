@@ -1,0 +1,132 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg am Main, Römermuseum</repository>
+                        <idno>R 1954, 17</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, auf der Bekrönung vorn Adler zwischen Capricornen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>128</height>
+                                            <width>74</width>
+                                            <depth>48</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld auf dem Schaft, teilweise verwittert. Erste Zeile gesperrt und zentriert. Linksbündige Inschrift. Leicht ungleichmäßiges, gedrängtes Schriftbild. In Zeile 9 L und M weit auseinander, wegen einer bereits antiken Verletzung des Steins.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen, schwankende Breite. A ohne Querhasten, Z und G eher schmal.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg am Main:</placeName> Kastell, porta principalis dextra, bei 
+                            </origPlace>
+                            <origDate notBefore="0212" notAfter="0250"/>
+                        </origin>
+                        <provenance type="found" when="1954">
+                            <placeName ref="ph">
+                               Obernburg am Main, südlich der Stadt; 110 m von der porta principalis dextra an einer römischen Straße
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6928.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/>et <persName type="divine" key="Geniusloci" role="god">Genio loc<lb n="3" break="no"/>i</persName> ceterisque
+                    <lb n="4"/>Diis Deabus<lb n="5" break="no"/>que immorta<lb n="6" break="no"/>libus sacrum
+                    <lb n="7"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Aurelius*" type="gentilicium"><expan><abbr>Au<unclear>r</unclear></abbr><ex>elius</ex></expan></name> <name nymRef="Superinius" type="gentilicium">Superi<lb n="8" break="no"/>nius</name> <name nymRef="Lectus" type="cognomen">Lectus</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan>
+                    <lb n="9"/><expan><abbr>c<hi rend="small">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD017042
+                    </bibl>
+                    <bibl>
+                        AE 1957, 51
+                    </bibl>
+                    <bibl>
+                        RSO 88
+                    </bibl>
+                    <bibl>
+                        CBI 144
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 173
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            178, Nr. 149
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

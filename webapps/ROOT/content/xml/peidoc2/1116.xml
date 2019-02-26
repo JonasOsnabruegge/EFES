@@ -1,0 +1,115 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für eine Statue der Fortuna</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Neuenstein, Schlossmuseum</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, allseitig bestoßen und abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(56)</height>
+                                            <width>(45)</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(o)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurG" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="Vicus Aurelianus" ref="https://pleiades.stoa.org/places/119026">Vicus Aurelianus</placeName>
+                                <placeName type="modern">Öhringen</placeName> 
+                            <origDate notBefore="0150" notAfter="0250"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1881">
+                            <placeName ref="ph">
+                               Öhringen, West-Kastell, bei, 'bei der unteren Bürg'
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">S</supplied>ig<supplied reason="lost" cert="low">num </supplied><persName type="divine" key="Fortuna Redux" role="god"><supplied reason="lost">Fortunae</supplied> Re<lb break="no" n="2"/><supplied reason="lost">d</supplied><expan><abbr>ucis</abbr><ex cert="low"/></expan></persName> <supplied reason="lost">et</supplied>
+                    <lb n="3"/><persName type="divine" key="Genius" role="god"><supplied reason="lost">G</supplied>enium</persName> c<supplied reason="lost">um</supplied> bas<supplied reason="lost">i </supplied> <orgName type="group" key="veteranis peregrinis heredes"><supplied reason="lost">ve</supplied><lb break="no" n="4"/><supplied reason="lost">te</supplied>ranis et per<supplied reason="lost">eg</supplied><lb break="no" n="5"/>rinis herede<supplied reason="lost">s</supplied></orgName><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/><expan><abbr>VN</abbr><ex cert="low"/>ARIS</expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="cognomen"><abbr>Luc</abbr></name></persName> iu<supplied reason="lost" cert="low">ssu</supplied>
+                    <lb n="7"/><supplied reason="lost">p</supplied>atris <supplied reason="lost">p</supplied>osue<supplied reason="lost">runt</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD022922
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6540 (add. CIL XIII/4, p. 100)
+                    </bibl>
+                    <bibl>
+                        AE 1897, 149
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

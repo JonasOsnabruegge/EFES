@@ -23,8 +23,8 @@
                                     <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele?</objectType></p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height>(40)</height>
-                                            <width>(20)</width>
+                                            <height>(20)</height>
+                                            <width>(40)</width>
                                             <depth>26</depth>
                                         </dimensions>
                                     </support>
@@ -82,7 +82,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Viduc---" type="cognomen?">Viduc<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Viduc---" type="cognomen">Viduc<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
@@ -98,10 +98,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079169
                     </bibl>
                     <bibl>
                         ILTG 429
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 276
                     </bibl>
                 </listBibl>
             </div>

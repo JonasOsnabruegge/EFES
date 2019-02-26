@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Museen</repository>
+                        <idno>B 65</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Bildnische, darin nackter Mercurius, Mantel üner der linken Schulter, in der Linken Caduceus. Unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(50)</height>
+                                            <width>42</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich zum größten Teil auf der oberen Rahmenleiste. Zeile 2 beginnt, um 90° nach links gedreht, auf der linken Rahmenleiste (AEDEM) und läuft dann unterhalb von Zeile 1 auf der oberen Rahmenleiste zu beiden Seiten der flachen Bogennische für Mercurius.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, eher flach und sorgfältig eingehauene quadratische Buchstaben mit Serifen, M mit schräggestellten seitlichen Hasten.</p>
+                                <height>2,4-2,2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="vicus" key="Buconica" ref="https://pleiades.stoa.org/places/108835">Buconica</placeName>
+                                <placeName type="modern">Nierstein</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" notAfter="1863">
+                            <placeName ref="ph">
+                                Nierstein, Flur 'Auf der Glöck', von Herding'sches Gut
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06276_4.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <persName type="divine" key="Mercurius+" role="god"><supplied reason="lost">Mercur</supplied>io</persName> d<supplied reason="lost">eo</supplied>
+                    <lb n="2"/><hi rend="inverted"><supplied reason="lost">a</supplied>edem</hi> c<hi rend="ligature">um</hi> <milestone unit="section" type="relief" break="no"/>sign<hi rend="small">o</hi>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 3: Möglicherweise befand sich der Name des Stifters und eine Weiheformel auf der verlorenen  unteren Rahmenleiste.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075254
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6276
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/4, Nr. 74
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/14, Nr. 90
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

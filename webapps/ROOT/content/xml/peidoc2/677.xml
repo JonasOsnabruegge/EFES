@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar mit Namensliste</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brumath?</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Bekrönung und Sockel für die sekundäre Verwendung als Bauteil abgearbeitet.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>80</height>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die linksbündige Inschrift nimmt fast das gesamete Inschriftfeld in der horizontalen und vertikalen Ausdehnung ein. Gedrängt stehende Buchstaben und enger Zeilenabstand. Inschriftfeld teilweise stark verrieben.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige Buchtaben mit Serifen, uneinheitliche Ausführung.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="https://pleiades.stoa.org/places/108828">Brocomagus</placeName>
+                                <placeName type="modern">Brumath</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0230" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1866-09">
+                            <placeName ref="ph">
+                                Brumath
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Stifterinschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06013_1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Legitimus" type="cognomen">Legitimus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Cossatio" type="cognomen">Cossatio<hi rend="ligature">n<supplied reason="lost" cert="low">i</supplied></hi>s</name></persName></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Conteddius" type="cognomen">Conteddius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Teddillus" type="cognomen">Teddilli</name></persName></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Carantus" type="cognomen">Carantus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Victor" type="cognomen">Victo<hi rend="ligature">ri</hi>s</name></persName></persName>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Clementinius" type="gentilicium">Cleme<hi rend="ligature">nt</hi><hi rend="ligature">in</hi>ius</name> <name nymRef="Carantus" type="cognomen">Carantus</name></persName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Paterio?" type="cognomen">Pater<unclear>io</unclear></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Atessas" type="cognomen">Atessatis</name></persName></persName>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Primus" type="cognomen">Primus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Legitimus" type="cognomen">Legitimi</name></persName></persName>
+                    <lb n="7"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Sollemnis" type="cognomen">Sollemnis</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Apagante" type="cognomen">Apagan<hi rend="ligature">te</hi></name></persName></persName>
+                    <lb n="8"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius" type="gentilicium">Iulius</name> <name nymRef="Spatalus?" type="cognomen"><unclear>S</unclear>patalus</name></persName>
+                    <lb n="9"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Martius" type="cognomen">Martius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Domitus" type="cognomen">Domiti</name></persName></persName>
+                    <lb n="10"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iuventius" type="gentilicium">Iuve<hi rend="ligature">nt</hi>ius</name> <name nymRef="Iuvenis" type="cognomen">Iuvenis</name></persName>
+                    <lb n="11"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Aelius" type="gentilicium"><unclear>Ae</unclear>lius</name> <name nymRef="Segillius" type="cognomen">Segillius</name></persName>
+                    <lb n="12"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Nonnus+" type="cognomen"><supplied reason="lost" evidence="previouseditor">N</supplied>onnus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Tata" type="cognomen">Tatae</name></persName></persName>
+                    <lb n="13"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Maturus" type="cognomen">Maturus</name></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Peregrinus" type="cognomen">P<hi rend="ligature">er</hi>e<hi rend="ligature">gri</hi>nus</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6013
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 232; Abb. 116
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

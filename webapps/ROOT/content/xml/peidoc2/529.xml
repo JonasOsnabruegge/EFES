@@ -1,0 +1,134 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment der Weihinschrift eines Benefiziariers</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>HM o/18214</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück vom unteren Teil eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType> mit Ansatz des Sockels. Allseitig abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(39)</height>
+                                            <width>(29)</width>
+                                            <depth>(6)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Gleichmäßiges, etwas gedrängtes Schriftbild. Buchstabenhöhe nach unten hin abnehmend. Die letzte Zeile befindet sich auf dem Sockel.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, flach eingehauene, quadratische Buchstaben mit Serifen. Q mit waagerechter Querhaste, Schräghaste des N nicht mit der rechten Vertikahlhaste verbunden.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="AltaRipa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
+                                <placeName type="modern">Altrip</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0201-01-13" notAfter="0201-07-15" cert="medium">Konsuldatierung, übliches Dedikationsdatum von Benefiziarierweihninschriften aus Obergermanien</origDate>
+                        </origin>
+                        <provenance type="found" when="1926">
+                            <placeName ref="ph">
+                                Altrip, Waldsee, sekundär verwendet als Teil eines fränkischen Plattengrabes.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26881-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Q--n--?" type="cognomen">Q<gap reason="illegible" extent="1-2" unit="character"/>n<gap reason="illegible" extent="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></name></persName><supplied reason="lost"><expan><abbr>mil</abbr><ex>es</ex></expan></supplied>
+                    <lb n="2"/><orgName type="legio" key="legioVIIIAugusta+"><expan><abbr><unclear>l</unclear>eg</abbr><ex>ionis</ex></expan> <num value="8">VIII</num> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied></orgName>
+                    <lb n="3"/><expan><abbr><supplied reason="lost">b</supplied></abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <date when-custom="0201" datingMethod="#julian" type="consulship"><expan><abbr>id</abbr><ex>ibus</ex></expan><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><persName type="consul" ref="pPIR² N 114"><name nymRef="Mucianus+" type="cognomen"><supplied reason="lost">M</supplied>uciano</name></persName> e<supplied reason="lost">t </supplied><persName type="consul" ref="PIR² A 644"><name nymRef="Fabianus+" type="cognomen"><supplied reason="lost">Fabiano</supplied></name></persName>
+                    <milestone unit="section" type="crepido"/>
+                    <lb n="5"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date> <expan><abbr><unclear>v</unclear></abbr><ex>otum</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 1: Nesselhauf; Sprater: QVINT; CBI: Q++RIO+. Der neben dem Q zweite sicher noch zu erkennende Buchstabe ist jedoch, wie der Vergleich mit dem N in Z. 4 zeigt, auch ein N und kein RI.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CBI 97
+                    </bibl>
+                    <bibl>
+                        <ptr target="Sprater1929"/>
+                        <biblScope>
+                            37; Abb. 29
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            71-72, Nr. 74
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -20,11 +20,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Allseitig abgebrochenes Fragment eines nicht näher identifizierten Monuments. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>?</p>
+                                    <p>Allseitig abgebrochenes Fragment von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
                                     <material/>
                                         <dimensions unit="cm">
-                                            <height/>
-                                            <width/>
+                                            <height>(8)</height>
+                                            <width>(15)</width>
                                             <depth/>
                                         </dimensions>
                                     </support>
@@ -100,7 +100,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079065
                     </bibl>
                     <bibl>
                         CIL XIII 6037

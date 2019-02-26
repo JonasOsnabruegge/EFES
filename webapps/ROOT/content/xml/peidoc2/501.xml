@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift für einen decurio der civitas Nemetum</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>A 33</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment vom Mittelteil einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, oben, links und unten abgebrochen. Unterer Teil eines Bildfeldes mit nicht mehr identifizierbaren Reliefresten.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(54)</height>
+                                            <width>(30)</width>
+                                            <depth>31</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften Inschriftfeld unterhalb des Bildfeldes, der untere Rand der Inschrift scheint erhalten zu sein. Oben ist die Rahmung abgeschlagen. Leicht unregemäßige Schriftbilt mit schwankender Buchstabenhöhe, letzte Zeile deutlich höher.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige Buchstaben mit Serifen von unterschiedlicher Breite.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Noviomagus" ref="https://pleiades.stoa.org/places/109224">Noviomagus</placeName>
+                                <placeName type="modern">Speyer</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1855">
+                            <placeName ref="ph">
+                                Speyer, Dom, im Schutt der alten Umfassungsmauer.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26596-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="---ius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>io</name>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/></persName> <expan><abbr>d</abbr><ex>ecurio</ex></expan> <expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>N</abbr><ex>emetum</ex></expan>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested" ref="persons.xml#p"><name nymRef="Fatalis" type="cognomen"><unclear>F</unclear>atalis</name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <orgName type="heres/heredes" role="creator"><expan><abbr>her</abbr><ex cert="low">es</ex></expan></orgName>
+                    <lb n="5"/><supplied reason="lost"><expan><abbr>f</abbr><ex>aciendum</ex></expan></supplied> <expan><abbr>c</abbr><ex>urav-</ex></expan>
+                    
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6106
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ditsch2011"/>
+                        <biblScope>
+                            186-187, Speyer 07
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -83,8 +83,8 @@
                 <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
                     <lb n="2"/><orig>ri</orig><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="3"/><orig>ta</orig><gap reason="illegible" quantity="2" unit="character"/>
-                    <lb n="4"/><expan><abbr>d</abbr><ex>ono</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>edit</ex></expan></supplied>
+                    <lb n="3"/><orig>ta</orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><expan><abbr>d</abbr><ex>ono</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>edit</ex></expan> </supplied><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="5"/>dedi<unclear>k</unclear><supplied reason="lost" cert="low">ante</supplied><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="6"/><persName type="attested" ref="persons.xml#p"><name nymRef="Pon---" type="unknown">Pon<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="7"/><gap reason="lost" quantity="1" unit="line" cert="low"/>
@@ -102,7 +102,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079205
                     </bibl>
                     <bibl>
                         CIL XIII 11620

@@ -1,0 +1,138 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für den Genius praepositorum und Genius secutorum</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, horizontal gebrochen, bestoßen, unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(32)</height>
+                                            <width>(24)</width>
+                                            <depth>12</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(o-)</p>
+                                <height>4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Osterburken</placeName>
+                            <origDate notBefore="0150" notAfter="0250"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1908">
+                            <placeName ref="ph">
+                                Osterburken, Kohortenkastell, bei der porta praetoria
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25621.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Genius praepositorum" role="god">Genio pr<supplied reason="lost">aep</supplied><lb n="2"/>ositorum</persName>
+                    <lb n="3"/>et <persName type="divine" key="Genius conlegi secutorum" role="god">Genio con<lb n="4" break="no"/>legi<supplied reason="omitted">i</supplied><surplus>s</surplus> secutor<lb n="5" break="no"/>um eorum</persName> sub <expan><abbr>cur</abbr><ex>a</ex></expan>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p"><name nymRef="Veranius" type="gentilicium">Verani</name> <name nymRef="Saturninus" type="cognomen">Saturnini</name></persName>
+                    <lb n="7"/><expan><am><g type="centurio"/></am><ex>centurionis</ex></expan> <orgName type="legio" key="legio VIII Augusa"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8">V<supplied reason="lost">III </supplied></num><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>ustae</ex></expan></orgName><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD004736
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11766
+                    </bibl>
+                    <bibl>
+                        AE 1978, 531
+                    </bibl>
+                    <bibl>
+                        AE 1981, 693
+                    </bibl>
+                    <bibl>
+                        AE 1986, 524
+                    </bibl>
+                    <bibl>
+                        AE 2004, 1007
+                    </bibl>
+                    <bibl>
+                        RSO 14
+                    </bibl>
+                    <bibl>
+                        RSO 17
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schillinger-Häfele1977"/>
+                        <biblScope>
+                            484, Nr. 50
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Beneficiarier-Weihinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno>104, 105</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Mehrere aneinanderpassende Fragmente eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType> mit zugehöriger Plinthe.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(45)</height>
+                                            <width>74</width>
+                                            <depth>37</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Erhalten ist der untere Rand des Inschriftfeldes. Letzte Zeile gesperrt und zentriert.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Soweit noch erkennbar regelmäßige, sorgfältig eingehauene Buchstaben mit Serifen.
+                                </p>
+                                <height min="3.5" max="5.5">3,5-5,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate when-custom="0205-07-15"/>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihebezirk, Befund XII/4 u. XII/5, Nr. 104 u. 105.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25701"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><gap reason="lost" extent="unknown" unit="character"/></persName><supplied reason="lost"><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan></supplied> <expan><abbr><unclear>co</unclear></abbr><ex>n</ex><abbr><unclear>s</unclear></abbr><ex>ularis</ex></expan> <supplied reason="lost">pro se et</supplied>
+                    <lb n="2"/><supplied reason="lost">s</supplied>uis posuit <date when-custom="0205-07-15" datingMethod="#julian" type="consulship"><expan><abbr>Id</abbr><ex>ibus</ex></expan> <expan><abbr>I<supplied reason="lost">ul</supplied></abbr><ex>iis</ex></expan>
+                    <lb n="3"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <name nymRef="Antoninus" type="cognomen">Antoni<unclear>no</unclear></name></persName> <num value="2">II</num> <unclear>et</unclear>
+                    <lb n="4"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Geta++" type="cognomen"><del rend="erasure">Geta</del></name></persName> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036886
+                    </bibl>
+                    <bibl>
+                        AE 1996, 1153
+                    </bibl>
+                    <bibl>
+                        CBI 158
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihrelief für Mercurius mit Stifterinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ettlingen, Museum der Stadt Ettlingen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Weihrelief mit Mercurius. Oberhalb der Schultern abgebrochen, rechter Arm fehlt. Den Mantel über der linken Schulter, Widder im Arm.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(73)</height>
+                                            <width>39</width>
+                                            <depth>20</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf der Standleiste unterhalb des Kultbildes und fült den verfügbaren Platz fast vollständig aus. Linke und rechte Ecke des Inschriftfeldes ausgebrochen.
+                                    </p>
+                                   <dimensions>
+                                        <height>10</height>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Große, leicht unregelmäßige Buchstaben mit schmalen, flach eingehauenen Hasten und Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Ettlingen</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1957">
+                            <placeName ref="ph">
+                               Ettlingen, Firmengelände der Ettlingen-Maxauer Papier- und Zellstoffwerke.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27407.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="line" cert="low"/>
+                    <milestone unit="section" type="Relief"/>
+                    <lb n="2"/>
+                    <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Tar(---)" type="gentilicium"><abbr>Tar</abbr></name> <name nymRef="Tiber(---)" type="cognomen"><abbr>Tiber</abbr></name><gap reason="lost" extent="1" unit="character" cert="low"/></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Möglicherweise befand sich ein weiterer Teil der Inschrift oberhalb des Reliefs.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036866
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            167, Nr. 120
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

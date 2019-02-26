@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>A 9</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Schmuckloser <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(47)</height>
+                                            <width>39</width>
+                                            <depth>33</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Sehr unregelmäßiges Schriftbild, Zeilenführung nicht eingehalten, Buchstabenhöhe, -abstand und -ausrichtung schwanken auch innerhalb der Zeilen stark. Die erste Zwileist etwas größer und weist einen höheren Zeilenabstand auf. </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Sehr unregelmäßige, im Ganzen eher schmale, uneinheitlich und roh ausgeführte Buchstaben ohne Serifen. E mit zwei senkrechten Hasten wiedergegeben (sog. 'galisches' E).</p>
+                                <height>5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="üh" ref="ph"/>
+                                <placeName type="modern">Meisenheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0200" notAfter="0350" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1753-05-19">
+                            <placeName ref="ph">
+                                Meisenheim, Becherbach, auf dem Gipfel des Rossbergs
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26495-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Mercurius" role="god"><hi rend="ligature">Me</hi>rc<hi rend="ligature">uri</hi>o</persName>
+                    <lb n="2"/>ex v<supplied reason="omitted">o</supplied>to <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Masuinnus" type="cognomen">Ma<lb n="3" break="no"/>suinnus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Irdutus" type="cognomen">Ir<lb n="4" break="no"/>duti</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>c</abbr><ex>ustos</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> ex
+                    <lb n="5"/><orgName type="numerus" key="numerusEROVI---"><expan><abbr>num</abbr><ex>ero</ex></expan> <orig>erovi</orig>
+                    <lb n="6"/><orig>rgin cvm</orig></orgName>
+                    <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075640
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6156
+                    </bibl>
+                    <bibl>
+                        CSIR D II/9, Nr. 53
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            23, Nr. 6
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabstele für den Legionär Titus Flavius Peregrinus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno>2422N</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Grabstele</objectType> mit eingeschriebenem Giebel, Akanthusdekor.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>140</height>
+                                            <width>60</width>
+                                            <depth>20</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieftn Inschriftfeld, der Zeichnung nach im Blocksatz mit zentrierter letzter Zeile.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="Legionslager" key="Argentorate" ref="ph">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0080" notAfter="0120" cert="low"/>
+                        </origin>
+                        <provenance type="found" notBefore="1766" notAfter="1767">
+                            <placeName ref="ph">
+                                Straßburg/Strasbourg, Michelsbühl/Butte Saint-Michel, Rue du Faubourg-National 29
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name nymRef="Flavius" type="gentilicium">Fl<hi rend="ligature">av</hi>ius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>iti</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan>
+                    <lb n="2"/>O<choice><corr>u</corr><sic>f</sic></choice>fentina <supplied reason="subaudible">tribu</supplied>
+                    <lb n="3"/><name nymRef="Peregrinus" type="cognomen">Peregrinus</name>
+                    <lb n="4"/><placeName nymRef="Mediolanum" ref="https://pleiades.stoa.org/places/383706">Mediola<surplus>n</surplus>ni</placeName></persName>
+                    <lb n="5"/><expan><abbr>mil</abbr><ex>es</ex></expan> <orgName type="legio" key="legioVIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <hi rend="supraline">VIII</hi>
+                    <lb n="6"/><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>ustae</ex></expan></orgName> <orgName type="centuria" key="centuriaMarciPostumiCelerini"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuriae</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name nymRef="Postumius" type="gentilicium">Postu<lb n="7" break="no"/>mi</name> <name nymRef="Celerinus" type="cognomen">Celerini</name></persName></orgName>
+                    <lb n="8"/><date type="age" dur="P25Y"><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <num value="25">XXV</num></date>
+                    <lb n="9"/><date type="military-service-span" dur="P4Y"><expan><abbr>stipendio</abbr><ex>rum</ex></expan> <num value="4">IIII</num></date>
+                    <lb n="10"/><expan><abbr>f</abbr><ex cert="low">rater</ex></expan> <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5979
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 414; Abb. 436
+                    </bibl>
+                    <bibl>
+                        <ptr target="Richier2001"/>
+                        <biblScope>
+                            255, Nr. 177
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

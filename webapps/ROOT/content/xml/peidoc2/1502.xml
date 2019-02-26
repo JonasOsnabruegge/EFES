@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für C. Iulius Aquinus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rastatt, zentrales Fundarchiv</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Dreiecksgiebel, darin stilisierte Rosette, darunter rechteckiges Bildfeld mit Dreifachdreieck, darin je stilisierter Akanthusdreipass mit Rosette.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(107)</height>
+                                            <width>68</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="Aquae" ref="https://pleiades.stoa.org/places/108748">Aquae</placeName>
+                                <placeName type="modern">Baden-Baden</placeName>
+                            <origDate notBefore="0100" notAfter="0200"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1980">
+                            <placeName ref="ph">
+                                <geo>48.7649 8.2368</geo>
+                                Baden-Baden, Hindenburgplatz, römisches Gräberfeld
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="lupa.at/img/8306.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>io</ex></expan></name> <name nymRef="Aquinus" type="cognomen">Aqui<lb n="3" break="no"/>no</name></persName> <expan><abbr>vet</abbr><ex>eranus</ex></expan> <orgName type="legio" key="legio VIII Augusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan>
+                    <lb n="4"/><num value="8"><hi rend="supraline">VIII</hi></num> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName> <persName type="attested" ref="persons.xml#p"><name nymRef="Iulius/a" type="gentilicium"><abbr>Iul</abbr></name>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD078572
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nuber1995"/>
+                        <biblScope>
+                            144-145
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

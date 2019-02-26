@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und Iuno Regina</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmuseum</repository>
+                        <idno>RL 360</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Bekrönung stark bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>108</height>
+                                            <width>55</width>
+                                            <depth>25</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft. Lecht unausgewogenes und etwas ungleichmäßiges Schriftbild.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height>5-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Jagsthausen</placeName>
+                            <origDate notBefore="0160" notAfter="0200"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1750">
+                            <placeName ref="ph">
+                               Jagsthausen, Olnhausen, Kirche St. Johannes, sekundär verwendet
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/10353.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="divine" key="Iuno Regina" role="god">Iuno<hi rend="ligature">ni</hi> <expan><abbr>Reg</abbr><ex>inae</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Petronius" type="gentilicium">Petro<hi rend="ligature">ni</hi>us</name>
+                    <lb n="4"/><name nymRef="Tertius" type="cognomen">Tertius</name></persName> <expan><am><g type="centurio"/></am><ex>centurio</ex></expan> <orgName type="cohors" key="cohors I Germanorum"><expan><abbr>c<hi rend="small">o</hi>h</abbr><ex>ortis</ex></expan>
+                    <lb n="5"/><num value="1"><hi rend="supraline">I</hi></num> <expan><abbr>Ger</abbr><ex>manorum</ex></expan></orgName> ex voto
+                    <lb n="6"/>suscepto <hi rend="ligature"><hi rend="reversed">p</hi>r</hi>o
+                    <lb n="7"/>se et suis pos<lb n="8" break="no"/>uit <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036713
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6555 (add. CIL XIII/4, p. 101)
+                    </bibl>
+                    <bibl>
+                        RSO 35
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

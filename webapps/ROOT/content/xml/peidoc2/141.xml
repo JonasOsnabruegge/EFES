@@ -1,0 +1,149 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wehinschrift für Mithras</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dieburg, Museum Schloss Fechenbach</repository>
+                        <idno>220/52</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Nahezu quadratisches, zweiseitiges Weihrelief mit mythologischen Szenen. Vorderseite: Im Kreisförmigen Bildfeld mittig thronender Gott vor Tempelfassade, zwischen mythischen Figuren. Unten gelagerter Flussgott, auftauchender, bärtiger Gott. In den Ecken Windgötter als Büsten (oben rechts ausgebrochen). Rückseite: rechteckiges Bildfeld in der Mitte, mit je vier kleineren Bildfeldern an den Seiten, einem weiteren Bildfeld oben und zweien unten. Im Hauptbildfeld jagender Mithras zu Pferd mit Hunden, Cautes und Cautopates in den oberen Ecken. Die umgebenden Bildfelder zeigen Szenen aus dem Mythos des Mithras. Im Uhrzeigersinn links vom Hauptinschriftfeld: Zwei Pferde übereinander als Sinnbild der Schöpfung; Saturn mit Schwert auf einem Felsen sitzend; Felsgeburt des Mithras; Mithras mit Schwert (Wasser aus dem Felsen schlagend?) Mithras auf einen Baum steigens; Erdstier in einem Tempel liegend, in dessen Giebel der Rabe flankiert von Luna und Sol, links vom Tempel Mithras, rechts stiertragender Mithras; Mithras fängt den fliehenden Stier; stiertragender Mithras; Baumkrone mit den Köpfen von Mithras, Cautes, Cautopates; Mithras und Sol mit Trinkhörnern beim Kultmahl über der Haut des Stieres; Sol auf Quadriga und Mithras.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>90</height>
+                                            <width>86</width>
+                                            <depth>12</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                       Die Inschrift besteht aus drei Teilen. Text 1 befindet sich auf der Vorderseite auf der Rahmenleiste des Medaillons, im unteren linken Viertel (etwa 135° von oben) beginnend gegen den Uhrzeigersinn umlaufend. Text 2 befindet sich auf der Rückseite, beginnend auf dem unteren Rahmen des mittleren Bildfeldes und setzt sich auf der breiten Leiste mittig zwischen den mittleren unteren Bildfeldern fort. Der Text läuft dann auf der unteren Rahmenleiste, in der linken Ecke beginnend bis an die untere rechte Ecke und endet mit der Weihformel, die sich, von unten nach oben laufend mit 90° nach links gedrehten Buchstaben, auf der Leiste zwischen den beiden linken unteren Bildfeldern befindet. Text 3 beginnte in der oberen rechten Ecke der Rahmenleiste des unteren linken Bildfeldes und läuft mit retrograden Buchstaben gegen den Uhrzeigersinn bis an die untere linke Ecke. Der Text setzt sich dann in der unteren linken Ecke des rechten unteren Bildfeldes fort und läuft im Uhrzeigersinn bis an die untere rechte Ecke. Text 1 zeigt ein ausgewogenes Schriftbild mit gleichmäßigem Wort- und Buchstabenabstand, Text 2 in Z. 2-5 im Blocksatz mit kleineren Buchstaben am Zeilenende aufgrund von Platzmangel, unausgewogener als Text 1; Text 3 mit deutlichem Abfall gegenüber Text 1, ungleichmäßiges Schriftbild. Auf der Vorderseite dreieckige Worttrenner, bei denen eine der Spitzen tropfenförmig lang ausgezogen wurde, auf der Rückseite einfache dreieckige Worttrenner. Die Inschrift der Vorderseite ist deutlich sorgäfltiger ordiniert worden.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Text 1: regelmäßige, sorgfältig eingehauene Buchstaben. Leicht ungleichmäßige Ausführung, besonders bei den auf dem Kopf stehenden Buchstaben.
+                                Text 2 mit größeren Schwankungen in Z. 1 und ab Z. 6; Text 3 mit deutlich unregelmäßigeren Buchstaben.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph"/>
+                                <placeName type="modern">Dieburg:</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1926"><placeName ref="ph"/>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                       <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/24880-01.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" n="1">
+                    <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>eo</ex></expan> <persName type="divine" key="SolInvictusMithras" role="god"><expan><abbr>S</abbr><ex>oli</ex></expan> <expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Silvestrius" type="gentilicium">Sil<hi rend="ligature">ve</hi>strius</name> <name nymRef="Silvinus" type="cognomen">Sil<supplied reason="omitted">v</supplied>inus</name></persName> et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Silvestrius" type="gentilicium">Silvestrius</name> <name nymRef="Perpetuus" type="cognomen"><expan><abbr>Perpetu</abbr><ex>u</ex><abbr>s</abbr></expan></name></persName> et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Silvinius" type="gentilicium">Si<choice><corr>lvi</corr><sic>m</sic></choice>nius</name> <name nymRef="Aurelius" type="cognomen">Aurelius</name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" n="2">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>eo</ex></expan> <persName type="divine" key="InvictusMithras" role="god"><expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan></persName>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Silvestrius" type="gentilicium">Sil<hi rend="ligature">ve</hi><hi rend="small">s</hi><lb n="3" break="no"/>t<hi rend="ligature">ri</hi>u<hi rend="small">s</hi></name>
+                        <lb n="4"/><name nymRef="Silvinus" type="cognomen">Silvi<lb n="5" break="no"/>nus</name></persName>
+                        <lb n="5"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Silvestrius" type="gentilicium"><unclear>S</unclear><supplied reason="lost">i</supplied>lvest<hi rend="ligature">ri</hi>us</name> <name nymRef="Perpetuus" type="cognomen">Pe<supplied reason="lost">rpetuus</supplied></name></persName><supplied reason="lost"> et </supplied><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Silvinius" type="gentilicium"><supplied reason="lost">Silvinius</supplied></name><name nymRef="Aurelius" type="cognomen"><supplied reason="lost"> A</supplied>urelius</name></persName> nepos
+                        <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>l</abbr><ex>aeti</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" n="3">
+                    <ab>
+                        <lb n="1"/><hi rend="reversed"><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Perpetuus" type="cognomen"><expan><abbr>Perpetu</abbr><ex>u</ex><abbr>s</abbr></expan></name></persName> frate<supplied reason="lost">r</supplied> artis <expan><abbr>sutor</abbr><ex>iae</ex></expan></hi>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Silvinus" type="cognomen">Silvinus</name></persName> artis quadratariae <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Aurelius" type="cognomen">Aureli<supplied reason="lost">us</supplied></name></persName> <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Text 1; Z. 1: M fehlerhaft statt LVI, wohl Fehler aus der Vorlage. Möglicherweise nachträglich ansätzlich verbessert, ebenso wie das ausgelassene V, es ist jedoch nciht mehr sicher feststellbar.
+                   Das retrograde S weist genau die gleiche überdimensionierung an dem nach rechts gerichteten, nun oberen Bogen auf wie die übrigen S. 
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sehr eigenwillige, aber kunstfertig und konsequent ausgeführte Konzeption des Inschrifttxtes. Der zweite Textteil auf der Rückseite läuft in zwei gegenläufigen, kreisförmigen Bewegungen um die Bildfelder in den unteren Ecken herum, Die Namen der Stifter werden so kunstvoll mit wichtigen Szenen aus dem Mythos verflochten. Der Betrachter, will er die Inschrift lesen, muss sich direkt mit den Bildern des Mythos befassen, und umgekehrt wird der Betrachter der Bilderszenen des Mythos unweigerlich auch die Inschrift und somit die Namen der Stifter lesen. Die Inschrift auf der Schauseite is tdeutlich sorgfältiger gearbeitet worden und stellt die Namen der Stifter deutlich in den Vordergrund.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD042503
+                    </bibl>
+                    <bibl>
+                        RSO 150
+                    </bibl>
+                    <bibl>
+                        CIMRM 1247; fig. 323. 324
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 272
+                    </bibl>
+                    <bibl>
+                        IDieburg 7
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            60-61, Nr. 187
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            163-166, Nr. 243; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

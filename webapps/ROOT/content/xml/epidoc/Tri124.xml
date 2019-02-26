@@ -23,9 +23,9 @@
                                     <p>Bruchstück vom oberen Teil einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Weihrelief</objectType> mit rechteckiger Bildnische, links und unten abgebrochen. Von Mercurius noch der Kopf mit Flügelhut. </p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height/>
-                                            <width/>
-                                            <depth/>
+                                            <height>(31)</height>
+                                            <width>27</width>
+                                            <depth>7</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -85,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>eo</ex></expan> <persName type="divine" key="Mercurius*"><expan><abbr>M</abbr><ex>ercurio</ex></expan></persName> 
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Paternianus+" type="cognomen"><supplied reason="lost" evidence="previouseditor">Pat</supplied>ernianu<lb n="3" break="no"/>s</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Pacatus" type="cognomen">Pacati</name></persName></persName> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Paternianus+" type="cognomen"><supplied reason="lost" evidence="previouseditor">Pat</supplied>ernianu<lb n="3" break="no"/><supplied reason="lost" evidence="previouseditor">s</supplied></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Pacatus" type="cognomen"><supplied reason="lost" evidence="previouseditor">Pa</supplied>cati</name></persName></persName> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan>
                     <lb n="4"/><expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
@@ -101,7 +101,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079018
                     </bibl>
                     <bibl>
                         CIL XIII 6032

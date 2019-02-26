@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Allseitig abgebrochenes Fragment eines nicht näher identifizierten Monuments. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2.html">Unbekannt</objectType>.</p>
-                                    <material/>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
                                             <width/>
@@ -100,7 +100,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079020
                     </bibl>
                     <bibl>
                         CIL XIII 11643c

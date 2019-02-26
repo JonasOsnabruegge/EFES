@@ -60,6 +60,7 @@
                         </origin>
                         <provenance type="found" when="1912">
                             <placeName ref="ph">
+                                <geo>48.8841 7.9281</geo>
                                 Betschdorf, Oberbetschdorf, Wald, sog. Ziegelviertel
                             </placeName>
                         </provenance>
@@ -99,7 +100,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079025
                     </bibl>
                     <bibl>
                         CIL XIII 11687

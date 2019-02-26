@@ -82,9 +82,8 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>usi</orig><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2"/><orig>ori</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ro</orig><persName type="attested" ref="persons.xml#p"><name nymRef="---us" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>
-                        <lb n="3"/>us</name></persName> filius
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>vsi</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><orig>ori</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ro</orig><persName type="attested" ref="persons.xml#p"><name nymRef="---us" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/><lb n="3" break="no"/>us</name></persName> filius
                 </ab>
             </div>
             <div type="apparatus">
@@ -99,7 +98,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079067
                     </bibl>
                     <bibl>
                         ILTG 452

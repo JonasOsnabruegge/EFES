@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und einen Genius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg/Main, Römermuseum</repository>
+                        <idno>R 1892,19</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Fragmente von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, horizonzal gebrochen, oben, links und unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(50)</height>
+                                            <width>(30)</width>
+                                            <depth>(32)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Der rechte Rand des Inschriftfeldes ist noch erhalten</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Obernburg/Main</placeName>
+                            <origDate notBefore="0180" notAfter="0220"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1892">
+                            <placeName ref="ph">
+                               Obernburg/Main, südwestliche Stadtmauer, sekundär verwendet
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6930.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><supplied reason="lost">et </supplied><persName type="divine" key="Genius loci" role="god"><supplied reason="lost">Ge</supplied>nio
+                        <lb n="3"/><supplied reason="lost" cert="low">loci </supplied></persName><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="-ppius" type="gentilicium"><gap reason="lost" extent="c. 1-2" unit="character"/>ppius</name>
+                    <lb n="4"/><name nymRef="---s" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>s</name></persName> <expan><abbr>mil</abbr><ex>es</ex></expan>
+                    <lb n="5"/><orgName type="legio" key="legio XXII Primigenia pia fidelis"><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied><num value="22"><supplied reason="lost"> X</supplied>XII</num> <expan><abbr>Pr</abbr><ex>imigeniae</ex></expan>
+                    <lb n="6"/><supplied reason="lost"><expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied></orgName><supplied reason="lost" cert="low"> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan></supplied> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="7"/><supplied reason="lost" cert="low"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan></supplied> <expan><abbr><unclear>l</unclear></abbr><ex>aetus</ex></expan> <expan><abbr><unclear>m</unclear></abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD042524
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6624
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 174
+                    </bibl>
+                    <bibl>
+                        RSO 90
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            193, Nr. 211
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

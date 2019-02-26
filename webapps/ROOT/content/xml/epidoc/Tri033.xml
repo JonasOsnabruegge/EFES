@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
                                 <placeName type="modern">Strasbourg</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0150" cert="low"/>
+                            <origDate notBefore="0070" notAfter="0130" cert="low"/>
                         </origin>
                         <provenance type="found" when="1899">
                             <placeName ref="ph">Strasbourg, Münstergasse/Rue du Dôme 2, spätantike Stadtmauer, sekundär verwendet.</placeName>
@@ -101,7 +101,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079061
                     </bibl>
                     <bibl>
                         CIL XIII 11635
@@ -110,7 +110,7 @@
                         CAG 67/2, 255
                     </bibl>
                     <bibl>
-                        <ptr target="Domaszweski1903"/>
+                        <ptr target="Domaszweski1909"/>
                         <biblScope>
                             363, Nr. 8; m. Abb.
                         </biblScope>

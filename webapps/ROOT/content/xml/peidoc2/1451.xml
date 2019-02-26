@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilensäule des Trajan</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, bestoßen. Modern sekundär als Grenzstein verwendet und mit dem Wappen der Gemeinde Bühl (Bienenkorb) versehen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(102)</height>
+                                            <width>48</width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(o)</p>
+                                <height>9</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Bühl</placeName>
+                            <origDate when="0100" datingMethod="#julian">Kaisertitulatur</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1883">
+                            <placeName ref="ph">
+                                Bühl, Kirche, bei
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F007402"/>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F012299"/>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F012300"/>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F037968"/>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F037969"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi</supplied><lb n="2"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Nerva" type="cognomen"><supplied reason="lost">Nervae</supplied></name></persName><supplied reason="lost"> <expan><abbr>f</abbr><ex>ilius</ex></expan> </supplied><name nymRef="Nerva" type="cognomen"><supplied reason="lost">Ner</supplied><lb break="no" n="3"/><supplied reason="lost">va </supplied></name><supplied reason="lost">Traianus</supplied><supplied reason="lost"> <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied>
+                    <lb n="4"/><expan><abbr>Germ</abbr><ex>anicus</ex></expan><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifex</ex></expan></supplied><expan><abbr>m</abbr><ex>aximus</ex></expan>
+                    <lb n="5"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="4">IIII</num> 
+                    <lb n="6"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <num value="3">III</num> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></persName>
+                    <lb n="7"/>a <placeName type="ancient" nymRef="Mogontiacum" ref="https://pleiades.stoa.org/places/109169"><expan><abbr>Mog</abbr><ex>ontiaco</ex></expan></placeName> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan>
+                    <lb n="8"/><num value="120">CXX</num>
+            
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036913
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9120
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 649
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -85,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Camulilia?" type="cognomen?">Camuli<lb n="3" break="no"/>lia<certainty match=".." locus="name"/></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Domitus" type="cognomen">Do<lb n="4" break="no"/>miti</name></persName></persName> <expan><abbr>ann</abbr><ex>o</ex><lb n="5" break="no"/><abbr>r</abbr><ex>um</ex></expan> <num value="80">LXXX</num>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Camulilia?" type="cognomen">Camuli<lb n="3" break="no"/>lia<certainty match=".." locus="name"/></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Domitus" type="cognomen">Do<lb n="4" break="no"/>miti</name></persName></persName> <expan><abbr>ann</abbr><ex>o</ex><lb n="5" break="no"/><abbr>r</abbr><ex>um</ex></expan> <num value="80">LXXX</num>
                 </ab>
             </div>
             <div type="apparatus">
@@ -105,7 +105,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079161
                     </bibl>
                     <bibl>
                         ILTG 418

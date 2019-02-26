@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Zwei nicht aneinanderpassende Fragmente eines nicht identifizierten Monuments. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2.html">Unbekannt</objectType>.</p>
-                                    <material/>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(13)</height>
                                             <width>(17)</width>
@@ -57,7 +57,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0250" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1926"><placeName ref="ph">Strasbourg, rue de la Mésange 13</placeName>
+                        <provenance type="found" when="1856"><placeName ref="ph">Strasbourg, rue de la Mésange 13</placeName>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -81,8 +81,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <div type="textpart" subtype="fragment" n="1">
                     <ab>
-                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>i</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="1"/><orig>i</orig><gap reason="lost" extent="unknown" unit="character"/>
                         <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     </ab>
                 </div>
@@ -90,7 +89,6 @@
                     <ab>
                         <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                         <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><abbr>Aug</abbr> <orig>t</orig><gap reason="lost" extent="unknown" unit="character"/>
-                        <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     </ab>
                 </div>
             </div>
@@ -108,10 +106,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079177
                     </bibl>
                     <bibl>
                         ILTG 421
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 374
                     </bibl>
                     <bibl>
                         <ptr target="Forrer1927"/>
@@ -119,9 +120,8 @@
                             364 f.; Taf. 47, 1–7
                         </biblScope>
                     </bibl>
-                    <!-- CAG 67, 02, p. 374 -->
                 </listBibl>
             </div>
         </body>
     </text>
-</TEI>
+</TEI>  

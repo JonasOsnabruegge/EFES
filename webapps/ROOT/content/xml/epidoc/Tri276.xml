@@ -102,11 +102,20 @@
             </div>
             <div type="bibliography">
                 <listBibl>
-		    <bibl>
-			HD047809
-		    </bibl>
+	               <bibl>
+        			    HD047809
+	                </bibl>
+                    <bibl>
+                        AE 2015, 1000
+                    </bibl>
                     <bibl>
                         Saverne 252
+                    </bibl>
+                    <bibl>
+                        AE 2000, 1068
+                    </bibl>
+                    <bibl>
+                        AE 2015, 1000
                     </bibl>
                     <bibl>
                         CAG 67/1, 316

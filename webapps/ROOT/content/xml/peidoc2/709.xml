@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, Iuno Regina und Mars Exalbiovicus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, auf der linken Nebenseite Kanne und Griffschale, auf der rechen Nebenseite stilisiertes Blitzbündel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>145</height>
+                                            <width>63</width>
+                                            <depth>28</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften Feld, das von einem tordiertem Stab gerahmt wird. Die linksbündige Inschrift nimmt nahezu das gesamte Inschriftfeld ein.
+                                        Gleichmäßiges, geordnet erscheinendes Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Überwiegend regelmäßige, leicht uneinheitlich ausgeführte, eher schmale Buchstaben mit feinen, lang ausgezogenen Serifen. Leicht schwankende Buchstabenhöhe innerhalb der Zeilen. Dreieckige Worttrenner.
+                                </p>
+                                <height>7,0-4,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0175" notAfter="0195"/>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihebezirk, Befund III/5, Nr. 107 u. 88.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25511"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> et <persName type="divine" key="IunoRegina" role="god"><hi rend="tall">I</hi>u<lb n="2" break="no"/>no<hi rend="ligature">n<hi rend="tall">i</hi></hi> <expan><abbr>Reg<hi rend="ligature"><hi rend="tall">i</hi>n</hi></abbr><ex>ae</ex></expan></persName>
+                    <lb n="3"/>et <persName type="divine" key="MarsExalbiovix" role="god">Mar<hi rend="ligature">t<hi rend="tall">i</hi></hi> Ex<lb n="4" break="no"/>albi<hi rend="apex">o</hi>vici</persName>
+                    <lb n="5"/>d<hi rend="tall">i</hi>s <expan><abbr>deab</abbr><ex>us</ex><abbr>q</abbr><ex>ue</ex></expan>
+                    <lb n="6"/>omnibus
+                    <lb n="7"/>et <persName type="divine" key="Geniusloci" role="god">Genio l<hi rend="small">oc</hi>i</persName>
+                    <lb n="8"/>p<subst><del rend="corrected">l</del><add place="overstrike">r</add></subst>o se <del rend="erased">c</del> e<choice><corr>t</corr><sic>i</sic></choice> suis
+                    <lb n="9"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Melicius" type="gentilicium">Melici<lb n="10" break="no"/>us</name> <name nymRef="Respectus" type="cognomen">Respec<lb n="11" break="no"/>tus</name></persName> miles
+                    <lb n="12"/><orgName type="legio" key="legioVIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName>
+                    <lb n="13"/><hi rend="ligature"><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan></hi> <expan><abbr>c<hi rend="small">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 7/8: LOCI in Z. 8 zu PRO SE ET SVIS verbessert, dabei L zu R umgearbeitet, C noch sichtbar hinter SE. LOCI mit OC klein zwischen L und I am Ende von Z. 7 eingefügt.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD002072
+                    </bibl>
+                    <bibl>
+                        AE 1985, 692
+                    </bibl>
+                    <bibl>
+                        CBI 150
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

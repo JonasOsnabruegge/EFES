@@ -1,0 +1,132 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabstele mit Portraitbüsten</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno>9012</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Mehrere aneinanderpassende Fragmente <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Oberhalb des Inschriftfeldes rechteckiges Bildfeld mit drei Brustbildern. Über dem Bilfeld eingeschriebener Giebel mit Akanthus- und Rosettendekor.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(86)</height>
+                                            <width>76</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Gerahmtes Inscriftfeld. Mehrere Brüche durch den linken Teil des Inschriftfeldes, links, unten und am rechten Rand abgebrochen. Die Inschrift scheint das Inschriftfeld im Blocksatz gut ausgefällt zu haben, überwiegend gleichmäßiges Schriftbild. Zwischen Zeile 3 und 4 MI klein im Zeilenzwischenraum eingeschobem.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige Buchstaben</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="Legionslager" key="Argentorate" ref="ph">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0230" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1899">Straßburg/Strasbourg, Place du Temple Neuf 15-16, spätantike Mauer, sekundär verwendet<placeName ref="ph"/>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </supplied><expan><abbr>a</abbr><ex>eternae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan>
+                    <lb n="2"/><expan><abbr><supplied reason="lost">perpet</supplied>u</abbr><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>securita</abbr><ex>ti</ex></expan> 
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><gap reason="lost" extent="unknown" unit="character"/></persName><supplied reason="lost">f</supplied>ratri et <persName type="attested" ref="persons.xml#p"><name nymRef="Exomnius+" type="cognomen">Exo<lb n="4" break="no"/><supplied reason="lost">mnio</supplied></name></persName><supplied reason="lost"> co</supplied>niugi <expan><abbr>kar</abbr><ex>issi</ex><abbr><hi rend="superscript">mi</hi></abbr></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Primianus+" type="cognomen">Pri<lb n="5" break="no"/><supplied reason="lost">mia</supplied>nus</name></persName> et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Hibernius" type="cognomen">Hibernius</name></persName>
+                    <lb n="6"/><supplied reason="lost" cert="low"><expan><abbr>fil</abbr><ex>i</ex></expan> <expan><abbr>fec</abbr><ex>erunt</ex></expan> et</supplied> <persName type="attested" ref="persons.xml#p"><name nymRef="Kalendiola*" type="cognomen"><expan><abbr><unclear>K</unclear>alendiol</abbr><ex>a</ex><abbr>e</abbr></expan></name></persName> co<lb n="7" break="no"/><supplied reason="lost">niugi </supplied><expan><abbr><supplied reason="lost">k</supplied>arissim</abbr><ex>a</ex><abbr>e</abbr></expan>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 6: Faust: 'filii fecerunt e]t'; CAG 67/2: [--- K]alendiol(a)e; Domaszewski: 'filii fec(erunt) e]t Alendiol(a)e.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11632
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 253; Abb. 192
+                    </bibl>
+                    <bibl>
+                        <ptr target="Domaszewski1903"/>
+                        <biblScope>
+                            366, Nr. 13; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            Nr. 5491
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            179-180, Nr. 283
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

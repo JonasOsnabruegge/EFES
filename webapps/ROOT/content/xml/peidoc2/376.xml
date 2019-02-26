@@ -1,0 +1,159 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stele mit Grabinschriften des Carassounus(?), Caia, Carasus und Carasius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musées du château des Rohan</repository>
+                        <idno>Bf 26</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, durch eine horizontale und zwei vertikale Leisten in sechs rechteckige Felder aufgeteilt. Die oberen beiden Felder wiederum durch zwei schräg von der Mitte unten in die oberen Ecken laufende Leisten unterteilt, in den dreieckigen Feldern Kreisornamente. Unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(122)</height>
+                                            <width>93,5</width>
+                                            <depth>25</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die einzelnen, für sich stehenden Inschrifttexte befinden sich je in einem der vier unteren, vertieften, nur grob geglätteten Feldern. Die Inschriften nehmen je nur etwa das obere Drittel des verfügbaren Platzes ein. Die erste Zeile ist dabei grob zentriert, die übrigen Zeilen linksbündig und in der letzten Zeile oft gesperrt. Reste von roter Farbe in den Buchstaben. Zeilenführung nicht eingehalten, ungeordnetes Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, unbeholfen und uneinheitlich ausgeführte Buchstaben ohne Serifen. Ob alle Texte aus einer oder von verschiedenen Händen stammen, lässt sich aufgrund der generell uneinheitlichen Ausführung der Lettern nicht eindeutig sagen, letzteres scheint jedoch der Fall zu sein, so gibt es deutliche Unterschiede etwa in der Ausführung der M, A und S.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0230" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1908">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Square Latouche, spätantike Stadtmauer, sekundär verwendet
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27852-1-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="field" n="1">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caraisiounus* (=Carassounus?)" type="cognomen"><expan><abbr>Caraisioun</abbr><ex>us</ex></expan></name>
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Cornilus" type="cognomen">Cornili</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan></persName>
+                        <lb n="4"/><expan><abbr>fil</abbr><ex>ius</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="field" n="2">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caia" type="cognomen">Caia</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Crobus" type="cognomen">Crobi</name></persName> <expan><abbr>fil</abbr><ex>ia</ex></expan></persName>
+                        <lb n="3"/><expan><abbr>fil</abbr><ex>ius</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> 
+                    </ab>
+                </div>
+                <div type="textpart" subtype="field" n="3">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carasus" type="cognomen">Carasus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Caraddounus" type="cognomen">Cara<lb n="3" break="no"/><unclear>dd</unclear>ouni</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan></persName>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    </ab>
+                </div>    
+                <div type="textpart" subtype="field" n="4">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carasius" type="cognomen">Carasius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Caradounus" type="cognomen">Cara<lb n="3"/>douni</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan></persName>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Feld 1, Z. 2: Caraisioun ist wohl als Variante von Carassounus zu versthen. Die Inschrift ist heute modern rot nachgezogen, ob die Lesung so richtig ist, ist so schwer zu überprüfen, auf dem Stein ist heute CARAIIISOVN zu sehen, sämtliche Editionen stimmen jedoch in 'Caraisioun' überein.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11653
+                    </bibl>
+                    <bibl>
+                        AE 2000, 1069
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 572
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            239, Nr. 5688
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            167, Nr. 241
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

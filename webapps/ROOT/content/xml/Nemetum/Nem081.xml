@@ -83,7 +83,7 @@
                 <ab>
                     <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
                     <milestone unit="section" type="relief"/>
-                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem74" role="creator"><name nymRef="Dativus+" type="cognomen">Dativ<supplied reason="omitted">u</supplied>s</name> <persName type="attested" ref="NemPers.xml#pNem75"><name nymRef="Atto" type="cognomen">Attonis</name></persName></persName>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem74" role="creator"><name nymRef="Dativus+" type="cognomen">Dativ<supplied reason="omitted">u</supplied>s</name> <persName type="attested" ref="NemPers.xml#pNem75"><name nymRef="Satto" type="cognomen">Sattonis</name></persName></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -98,7 +98,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079168
                     </bibl>
                     <bibl>
                         <ptr target="NesselhaufLieb1960"/>

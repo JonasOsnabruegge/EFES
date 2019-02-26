@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschirft für einen cornicen der cohors I Biturigum</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rastatt, Zentrales Fundarchiv</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Allseitig abgebrochenes Fragment, wohl von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(31)</height>
+                                            <width>(38)</width>
+                                            <depth>(19)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+~)</p>
+                                <height>4,5-5,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Ladenburg</placeName>
+                            <origDate notBefore="0070" notAfter="0200"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="2009">
+                            <placeName ref="ph">
+                                Ladenburg, Heidelberger Straße, am Kandelbach
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F038271.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost" cert="low"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="---ius" type="gentilicium"><supplied reason="lost">i</supplied>us</name> <name nymRef="Magnus" type="cognomen">Magn<supplied reason="lost">us</supplied></name></persName>
+                    <lb n="3"/><supplied reason="lost" cert="low">miles </supplied><orgName type="cohors" key="cohors I Biturigum"><expan><abbr><supplied reason="lost">c</supplied><unclear>oh</unclear></abbr><ex>ortis</ex></expan> <num value="1">I</num> <expan><abbr>Bitur</abbr><ex>igum</ex></expan></orgName>
+                    <lb n="4"/><supplied reason="lost">c</supplied>ornicen
+                    <lb n="5"/><expan><abbr>sti</abbr><ex>pendii</ex></expan> <date type="age" dur="P25Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="25">XXV</num></date>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Castia" type="cognomen"><supplied reason="lost">C</supplied>astia</name></persName>
+                    <lb n="7"/><supplied reason="lost" cert="low">coniux <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD077400
+                    </bibl>
+                    <bibl>
+                        <ptr target="Feraudi2018"/>
+                        <biblScope>
+                            1-13
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

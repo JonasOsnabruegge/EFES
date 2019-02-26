@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilensäule des Hostilianus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Bruchstücke einer<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, sich nach unten verjüngend. Bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>115</height>
+                                            <width min="42" max="45">42-45</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zentrierte Inschrift; gleichmäßiges Schriftbild. Oberer linker Teil des Inschriftfeldes ausgebrochen.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Kauffenheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0250-09" notAfter="0251-06" cert="low"/>
+                        </origin>
+                        <provenance type="found" notBefore="1850" notAfter="1860">
+                            <placeName ref="ph">
+                                Kauffenheim
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F021669.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Caius+" type="praenomen"><supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied></name> <name nymRef="Valens" type="cognomen">Valenti</name> <name nymRef="Hostilianus+*" type="cognomen"><expan><abbr>H<lb n="2" break="no"/><supplied reason="lost">os</supplied>tilian</abbr><ex>o</ex></expan></name>
+                    <lb n="3"/><name nymRef="Messius+" type="gentilicium">Me<supplied reason="lost">s</supplied>sio</name> <name nymRef="Quintus+" type="cognomen">Q<supplied reason="lost">ui</supplied><lb n="4" break="no"/>nto</name> nobili<lb n="5" break="no"/>ssimo <expan><abbr>Caes</abbr><ex>ari</ex></expan></persName>
+                    <lb n="6"/><orgName type="civitas" key="civitasTribocorum*" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>Trib</abbr><ex>ocorum</ex></expan></orgName> a <placeName nymRef="Brocomagus" type="ancient" ref="https://pleiades.stoa.org/places/108828"><expan><abbr>Vro</abbr><ex>comago</ex></expan></placeName> <expan><abbr>l</abbr><ex>eugas</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD007857
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9097
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 600
+                    </bibl>
+                    <bibl>
+                        AE 1986, 522
+                    </bibl>
+                    <bibl>
+                        CIRh 1953
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 374-375; Abb. 252
+                    </bibl>
+                    <bibl>
+                        <ptr target="DardaineWaton1986"/>
+                        <biblScope>
+                            37-38; Abb. 3 u. 4
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

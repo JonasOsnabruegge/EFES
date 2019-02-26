@@ -82,8 +82,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><expan><abbr>Im<supplied reason="lost">p</supplied></abbr><ex>erator</ex></expan><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"> <expan><abbr>Caes</abbr><ex>ar</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/></persName>
-                    <lb n="2"/><expan><abbr>po<supplied reason="lost">nt</supplied></abbr><ex>ifex</ex></expan><supplied reason="lost"> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><expan><abbr>Im<supplied reason="lost">p</supplied></abbr><supplied reason="lost"><ex>erator</ex></supplied></expan><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"> <expan><abbr>Caes</abbr><ex>ar</ex></expan> </supplied><gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="2"/><expan><abbr>po<supplied reason="lost">nt</supplied></abbr><supplied reason="lost"><ex>ifex</ex></supplied></expan><supplied reason="lost"> <expan><abbr>max</abbr><ex>imus</ex></expan> </supplied><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><gap reason="lost" quantity="1" unit="line"/>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>
@@ -100,7 +100,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079184
                     </bibl>
                     <bibl>
                         CIL XIII 11623

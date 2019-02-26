@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Fausta</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms im Andreasstift</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>R<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Bogennische. Darin Brustbild einer Frau mit Scheitelzopffrisur, in tunica, mit Halskette, einfache Darstellung. Unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(96,5)</height>
+                                            <width>46</width>
+                                            <depth>17</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befindet sich oberhalb der Bildnische, der Rest der Inschrift darunter. Linksbündige Inschrift, Zeilenführung nicht eingehalten. Hohle Dreiecke als Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, eher flach und uneinheitlich eingehauene, quadratische Buchstaben mit grob in einem Zug mit den Querhasten gearbeiteten Serifen.</p>
+                                <height min="5.5" max="7.0">7,0-5,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0270" notAfter="0430" cert="low">Frisur der Severina und Magna Urbica</origDate>
+                        </origin>
+                        <provenance type="found" when="1885-07-27">
+                            <placeName ref="ph">
+                               Worms, südlich des ehemaligen Klosters Maria Münster
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/16790"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <milestone unit="section" type="relief"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Fausta" type="cognomen">Faustae</name></persName> <expan><abbr>iu</abbr><ex cert="low">venis</ex></expan>
+                    <lb n="3"/><expan><abbr>infeli</abbr><ex cert="low">cis</ex></expan> qu<supplied reason="omitted">a</supplied>e
+                    <lb n="4"/><date type="age" dur="P27Y4M20D"><expan><abbr>vixi</abbr><ex>t</ex></expan> annos
+                    <lb n="5"/><num value="27">XXVII</num> et <expan><abbr>m</abbr><ex>enses</ex></expan> <num value="4">IIII</num> dies <num value="20">XX</num></date>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 3: auch infeli(cissimae) möglich; Faust: in{f]eli(cis).
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075794
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6245
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 60
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            190, Nr. 312
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -89,7 +89,7 @@
                     <lb n="1"/><supplied reason="lost">Deo </supplied><persName type="divine" key="InvictusMythras+*" role="god"><supplied reason="lost">In</supplied>v<unclear>icto</unclear> Myt<supplied reason="omitted">h</supplied>r<supplied reason="omitted">a</supplied>e</persName> <persName type="attested" ref="NemPers.xml#pNem63" role="creator"><name nymRef="Pompeianius" type="gentilicium">Pom<unclear>pe</unclear>ianius</name>
                     <lb n="2"/><name nymRef="---" type="cognomen"><gap reason="lost" extent="c. 20" unit="character"/></name></persName><supplied reason="lost">har</supplied>uspex
                     <lb n="3"/><gap reason="lost" extent="c. 22" unit="character"/>ius <orig>e</orig>
-                    <lb n="4"/><gap reason="lost" extent="c. 21" unit="character"/><gap reason="illegible" extent="1" unit="character"/>ni <persName type="attested" ref="NemPers.xml#pNem64"><name nymRef="Hos---" type="cognomen?">H<hi rend="small">o</hi>s</name><certainty locus="name" match=".."/></persName>
+                    <lb n="4"/><gap reason="lost" extent="c. 21" unit="character"/><gap reason="illegible" extent="1" unit="character"/>ni <persName type="attested" ref="NemPers.xml#pNem64"><name nymRef="Hos---" type="cognomen">H<hi rend="small">o</hi>s</name><certainty locus="name" match=".."/></persName>
                     <lb n="5"/><gap reason="lost" extent="c. 24" unit="character"/><orig>t</orig>
                     <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
@@ -111,7 +111,7 @@
                         HD024681
                     </bibl>
                     <bibl>
-                        AE 1990, 757
+                        AE 1990, 756. 757
                     </bibl>
                     <bibl>
                         <ptr target="Bernhard1983"/>

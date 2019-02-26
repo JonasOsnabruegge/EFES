@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift zum Wohle des P. Petronius Caesius(?)</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stutgart, Württembergisches Landesmuseum</repository>
+                        <idno>R 65/66 L</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Bruchstücke eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>. Durch die Baggerarbeiten stark beschädigt, Gesims abgeschlagen.</p>
+                                    <material>Sandsein</material>
+                                        <dimensions unit="cm">
+                                            <height>100</height>
+                                            <width>56</width>
+                                            <depth>29</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Das Inschriftfeld wurde durch die Baggererschaufel bei der Ausgrabung beschädigt, großflächig links und rechts ausgebrochen. Geordnetes Schriftbild, letzte Zeile stark gesperrt.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, flach und sorgfältig eingehauene, quadratische Buchstaben mit Serifen. Weiter oberer Bogen beim R. In Zeile 1 O klein zwischen R und S; Zeile 7 C klein am Zeilenende. E mit zwei senkrechten Hasten wiedergegeben (sog. 'galiisches' E).</p>
+                                <height min="3.5" max="5.0">3,5-5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurGS" ref="ph">Civitas Aurelia G(---) S(---)</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Vicus Aurelianus</placeName>
+                                <placeName type="modern">Öhringen</placeName> 
+                            </origPlace>
+                            <origDate when-custom="0217-12-01" datingMethod="#julian" type="consulship" cert="high"/>
+                        </origin>
+                        <provenance type="found" when="1961">
+                            <placeName ref="ph">
+                               Öhringen, beim Bau einer Tankstelle.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_Schillinger_00038_3.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">A</supplied>ram pro salu<lb n="2" break="no"/><supplied reason="lost">t</supplied>em<note>!</note> <persName type="attested" ref="persons.xml#p"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <name nymRef="Petronius" type="gentilicium">Pet<supplied reason="lost">ro</supplied><lb n="3" break="no"/><supplied reason="lost">n</supplied>ii</name> <name nymRef="Caesius?" type="cognomen">Caesii</name></persName> <orig>r</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>io c</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><date when-custom="207-12-01" datingMethod="#julian" type="consulship"><persName type="consul" ref="PIR² A 671"><name nymRef="Aoer+" type="cognomen"><supplied reason="lost">Ap</supplied>ro</name></persName> e<supplied reason="lost">t</supplied> <persName type="consul" ref="PIR² S 489"><name nymRef="Maximus+" type="cognomen">Ma<lb n="7" break="no"/><supplied reason="lost">xim</supplied>o</name></persName> <expan><abbr>cons</abbr><ex>ulibus</ex></expan> <expan><abbr>k</abbr><ex>alendis</ex></expan>
+                    <lb n="8"/><supplied reason="lost">De</supplied>ce<choice><corr>m</corr><sic>n</sic></choice>bri<lb n="9" break="no"/>bus</date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Schillinger-Häfele: P. Pet[ron]ii Caeser[nii] als mögliche Variante; für Z. 4 vielleicht Gen]io c[ollegi- convenarum?
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD004543
+                    </bibl>
+                    <bibl>
+                        AE 1978, 521
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schillinger-Häfele1977"/>
+                        <biblScope>
+                            477-478, Nr. 38
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1967"/>
+                        <biblScope>
+                            113, Nr. 1
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

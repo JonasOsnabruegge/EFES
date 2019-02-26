@@ -1,0 +1,134 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stele mit Grabinschriften für [-]onnus und Carabus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musées du château des Rohan</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, durch je eine horizontale und vertikale Leiste in vier Felder geteilt, die oberen beiden mit eingeschirebenen Dreiecksgiebeln mit Kreisornamenten, die unteren beiden als Inschriftfelder. Unten abgebrochen, aus mehreren aneinanderpassenden Fragmenten zusammengesetzt.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die beiden eigenständigen Inschriften befinden sich in den zwei vertieften Inschriftfelder unterhalb der Giebelfelder. Feld 1: unregelmäßiges, ungeordnetes Schriftbild. Feld 2: linksbündige Inschrift, Zeilen schief nach unten rechts laufend. Etwas geordneter als Feld 1.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Feld 1: unregelmäßige Buchstaben, zum Teil mit Serifen, uneinheitliche Ausführung, gerundete Schräghasten bei V und N. Feld 2: etwas kleinere Buchstaben, eher schmal, O elliptisch.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1912">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Rue de Gottenhouse/Route de Paris, Ecke - Nekropole
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27850-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="section" n="1">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="-onnus" type="cognomen"><gap reason="lost" quantity="1" unit="character"/>onnus</name>
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Om-rto?" type="cognomen">Om<gap reason="lost" quantity="1" unit="character"/>rto</name></persName></persName>
+                        <lb n="4"/><orgName type="fili" role="creator?">fili</orgName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carabus" type="cognomen">Cara<unclear>b</unclear>o</name></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Feld 1, Z. 2: CAG; CIL: [---]ONNUR; Z. 3: CAG: [-]om[-]rto.
+                    Feld 2, Z. 2: statt B auch D oder Đ möglich.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11652b
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 577
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            257, Nr. 5717
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

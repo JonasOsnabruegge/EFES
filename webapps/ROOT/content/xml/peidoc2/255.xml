@@ -1,0 +1,141 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Tiberius Babulieus Garrulus, Pupa und Tiberia Prisca</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musée Archéologique</repository>
+                        <idno>2420</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Mehrere aneinanderpassende Fragmente eines altarförmigen Grabbaus. Stark bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>141</height>
+                                            <width>80</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift ist in zwei Kolumnen aufgeteilt, die in der Mitte durch einen eingravierten Pilaster geteilt werden. Beide Kolumnen sind linksbündig und füllen in der horizontalen nahezu den ganezn verfügbaren Raum aus, mit Hederae als Worttrennern auch am Zeilenende. Die letzte Zeile ist jeweils zentriert. Zeilenhöhe von oben nach unten kontinuierlich abnehmend. In einigen Zeilen stehen die Bucstaben sehr gedrängt, dadurch etwas unausgewogenes Schriftbild, in Kolumne 2 Z. 7 NVS am Zeilenende verschränkt, aber nicht ligiert. Das Inschrifteld bestand aus zwei übereinander gesetzten Blöcken.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, sorgfältig ausgeführte Buchstaben mit einigen Ungenauigkeiten. Vgl. e.g. B und R in Kolumne 2, Z. 3. Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="Legionslager" key="Argentorate" ref="ph">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg, Königshofen/Koenigshoffen</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0017" notAfter="0042" cert="medium">Stationierungszeitraum</origDate>
+                        </origin>
+                        <provenance type="found" when="1884">
+                            <placeName ref="ph">
+                                Straßburg/Strasbourg, Königshofen/Koenigshoffen, Route des Romains 45
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_05976_1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="column" n="I">
+                    <ab>
+                        <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Tiberius+" type="praenomen"><supplied reason="lost">Tib</supplied>erius</name>
+                        <lb n="2"/><name nymRef="Babuleius" type="gentilicium">Babuleius</name>
+                        <lb n="3"/><name nymRef="Garrulus" type="cognomen">Garrulus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Tiberius*" type="praenomen"><expan><abbr>Tib</abbr><ex>e</ex><abbr>ri</abbr></expan></name></persName> <expan><abbr>Ofent</abbr><ex>ina</ex></expan> <supplied reason="subaudible">tribu</supplied>
+                        <lb n="4"/><placeName nymRef="Mediolanum" ref="https://pleiades.stoa.org/places/383706"><supplied reason="lost">M</supplied>ed<supplied reason="omitted">i</supplied>ol<surplus>e</surplus>an<surplus>i</surplus>o</placeName></persName>
+                        <lb n="5"/><expan><abbr>mil</abbr><ex>es</ex></expan> <orgName type="legio" key="legioII"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2">II</num></orgName> <orgName type="centuria" key="centuriaScaevaePetroni"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuriae</ex></expan>
+                        <lb n="6"/><persName type="attested" ref="persons.xml#p"><name nymRef="Scaeva" type="cognomen">Scaevae</name> <name nymRef="Petronius*" type="gentilicium"><expan><abbr>Petr</abbr><ex cert="low">oni</ex></expan></name></persName></orgName>
+                        <lb n="7"/><date type="age" dur="P45Y"><expan><abbr>an</abbr><ex>n</ex><abbr>o</abbr><ex>rum</ex></expan> <num value="45"><supplied reason="lost">X</supplied>XXXV</num></date>
+                        <lb n="8"/><date type="military-service-span" dur="P22Y"><expan><abbr>stip</abbr><ex>endiorum</ex></expan> <num value="22">XXII</num></date>
+                        <lb n="9"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="II">
+                    <ab>
+                        <lb n="1"/>Pater <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Tiberius+" type="praenomen">Tib<supplied reason="lost">er</supplied><lb n="2" break="no"/>ius</name> <name nymRef="Babuleius*" type="gentilicium"><expan><abbr>Babul</abbr><ex>eius</ex></expan></name>
+                        <lb n="2"/><name nymRef="Brocus" type="cognomen">Brocus</name></persName>
+                        <lb n="3"/>materi <persName type="attested" ref="persons.xml#p"><name nymRef="Pupa" type="cognomen"><expan><abbr>Pupa</abbr><ex>e</ex></expan></name></persName>
+                        <lb n="4"/>et sorori <persName type="attested" ref="persons.xml#p"><name nymRef="Prisca" type="cognomen"><expan><abbr>Pris<lb n="5" break="no"/>ca</abbr><ex>e</ex></expan></name></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Tiberius" type="praenomen">Tiberius</name>
+                        <lb n="6"/><name nymRef="Babuleius" type="gentilicium">Babuleius</name> <name nymRef="Albanus" type="cognomen">Albanus</name></persName>
+                        <lb n="7"/><expan><abbr>lib</abbr><ex>ertus</ex></expan> <expan><ex>h</ex><abbr>eres</abbr></expan> ex <expan><abbr>test</abbr><ex>amento</ex></expan>
+                        <lb n="8"/><expan><abbr>faci</abbr><ex>endum</ex></expan> <expan><abbr><choice><corr>c</corr><sic>q</sic></choice>ura</abbr><ex>vit</ex></expan>
+                        
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5976
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 463-464; Abb. 511
+                    </bibl>
+                    <bibl>
+                        KWDZ 3, 1884, Nr. 11, 131-134
+                    </bibl>
+                    <bibl>
+                        KWDZ 3, 1884, Nr. 10, 113.
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

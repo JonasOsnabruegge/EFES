@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Fabricius und Acceptius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nierstein?</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>?</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>D und M sind links und rechts der oberen Zeile angeordnet und etwas größer.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>"Die Buchstaben sind sorgfältig eingehauen" (Zangemeister 1890)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="vicus" key="Buconica" ref="https://pleiades.stoa.org/places/108835">Buconica</placeName>
+                                <placeName type="modern">Oppenheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200"/>
+                        </origin>
+                            <provenance type="found" when="1867">
+                            <placeName ref="ph">
+                                Wörrsteiner Straße, vor dem Tor zum Kelterhaus Franz Senfter.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <milestone unit="section"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Fabricius" type="cognomen">Fabricio</name>
+                    <lb n="3"/>et <persName type="attested" ref="persons.xml#p"><name nymRef="Acceptius" type="cognomen">Acceptio</name> <persName type="attested" ref="persons.xml#p"><name nymRef="December" type="cognomen">De<lb n="4" break="no"/>cembri</name></persName></persName></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Paternia" type="gentilicium">Pa<hi rend="ligature">te</hi>rnia</name>
+                    <lb n="5"/><name nymRef="Priscilla" type="cognomen">Priscilla</name></persName> <hi rend="ligature">ma</hi>ter fi<lb n="6" break="no"/>lis de suo fecit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 3/4: Vielleicht auch Acceptius December statt Acceptius Decembri (filius).
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076537
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6280
+                    </bibl>
+                    <bibl>
+                        <ptr target="Zangemeister1890"/>
+                        <biblScope>
+                            252-253
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

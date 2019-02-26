@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugesäule des Elagabalus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno>C 73</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>140</height>
+                                            <width>35</width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p></p>
+                                <height>6-9</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Baden-Baden, bei</placeName>
+                            <origDate when="0220" datingMethod="#julian">Kaisertitulatur</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1586">
+                            <placeName ref="ph">
+                                Baden-Baden, bei, zwischen Sinzheim und Steinbach
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25565-1-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi 
+                    <lb n="2"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Severus" type="cognomen">Severi</name></persName> nepo<hi rend="ligature">ti</hi> di<lb break="no" n="3"/>vi A<hi rend="ligature">nt</hi>onini <expan><abbr>Mag</abbr><ex>ni</ex></expan>
+                    <lb n="4"/><expan><abbr>fil</abbr><ex>io</ex></expan> <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Aurelius" type="gentilicium"><expan><abbr>A<delSpan spanTo="#d1" rend="erasure"/>u<supplied reason="lost">r</supplied></abbr><ex>elio</ex></expan></name><name nymRef="Antoninus" type="cognomen"><supplied reason="lost"> Antonin</supplied>o</name>
+                    <lb n="5"/><supplied reason="lost">Pio Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan></supplied>
+                    <lb n="6"/><expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan><anchor xml:id="d1"/> <num value="3">III</num> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan>
+                    <lb n="7"/><num value="3">III</num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></persName> <orgName type="civitas" key="civitas Aurelia Aquensis" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>A</abbr><ex>urelia</ex></expan>
+                    <lb n="8"/><expan><abbr>Aq</abbr><ex>uensis</ex></expan></orgName> ab <placeName type="ancient" key="Aquae" ref="https://pleiades.stoa.org/places/108748"><expan><abbr>Aq</abbr><ex>uis</ex></expan></placeName> <expan><abbr>leug</abbr><ex>as</ex></expan>
+                    <lb n="9"/><num value="4">IIII</num>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036777
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9117
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 646
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            47
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift eines haruspex für Mithras</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Homburg, Saalburg</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>, großes zweiseitiges Kultrelief mit Darstellungen aus dem Mithrasmythos.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(50)</height>
+                                            <width>(45)</width>
+                                            <depth>12</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem unternen Rahmen des Reliefs.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+~)</p>
+                                <height>4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Stockstadt/Main</placeName>
+                            <origDate notBefore="0130" notAfter="0250"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1902">
+                            <placeName ref="ph">
+                                Stockstadt/Main, Mithräum I
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F021212.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Mithras" role="god"><expan><abbr>D</abbr><ex>eo</ex></expan> <expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Pa---" type="gentilicium">Pa<gap reason="lost" extent="unknown" unit="character"/></name><name nymRef="Perpetuus?" type="cognomen"><supplied reason="lost" cert="low">Per</supplied><lb n="2"/>pe<supplied reason="lost" cert="low">tu</supplied>us</name></persName> ha<supplied reason="lost">rus</supplied>pex <supplied reason="lost">de</supplied>
+                    <lb n="3"/>suo <supplied reason="lost">p</supplied>o<supplied reason="lost">suit</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD042521
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11788
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 77
+                    </bibl>
+                    <bibl>
+                        RSOR 68
+                    </bibl>
+                    <bibl>
+                        CIMRM 1161
+                    </bibl>
+                    <bibl>
+                        CIMRM 1162
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            182f., Nr. 283
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

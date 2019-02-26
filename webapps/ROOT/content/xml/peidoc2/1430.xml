@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule mit Ehreninschirft für Maximinus und Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <material></material>
+                                        <dimensions unit="cm">
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p></p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Heidelberg</placeName>
+                            <origDate notBefore="0236" notAfter="0238"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1878-10-22">
+                            <placeName ref="ph">
+                                Heidelberg, Bergheim, Thibautstraße, römischer Keller an der Römerstraße
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/22556-02.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>I<choice><corr>m</corr><sic>n</sic></choice>p</abbr><ex>eratori</ex></expan>  <expan><abbr>C<hi rend="ligature">ae</hi>s</abbr><ex>ari</ex></expan> <name nymRef="Gaius" type="praenomen"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Iulius" type="gentilicium">Iulio</name> 
+                    <lb n="2"/><name nymRef="Verus" type="cognomen">Vero</name> <name nymRef="Maximinus" type="cognomen">Maxim<hi rend="ligature">in</hi>o</name> 
+                    <lb n="3"/>Pio Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan>
+                    <lb n="4"/><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>tri</abbr><ex>bunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>artri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan>
+                    <lb n="5"/>proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></persName> <hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="emperor" ref="persons.xml#p"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aio</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>io</ex></expan></name>
+                    <lb n="6"/><name nymRef="Verus" type="cognomen">Vero</name> <name nymRef="Maximus" type="cognomen">Maxi<choice><corr>m</corr><sic>n</sic></choice>o</name>
+                    <lb n="7"/>nobilissimo <expan><abbr>C<hi rend="ligature">ae</hi>s</abbr><ex>ari</ex></expan></persName>
+                    <lb n="8"/><orgName type="civitas" nymRef="Civitas Ulpia Sueborum Nicrensium" key="CVSN" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName>
+                    <lb n="9"/><expan><abbr>l</abbr><ex>eugas</ex></expan> <num value="4">IIII</num>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036476
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9106
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 638
+                    </bibl>
+                    <bibl>
+                        RSO 214
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            293, Nr. 3
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

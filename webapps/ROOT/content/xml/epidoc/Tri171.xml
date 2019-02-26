@@ -84,7 +84,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><persName type="attested" ref="persons.xml#p" role="creator"><gap reason="lost" extent="unknown" unit="line"/></persName>
-                    <lb n="1"/><orgName type="legio" key="legioVIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8">VIII</num> <expan><abbr><hi rend="ligature">Au</hi><supplied reason="lost">g</supplied></abbr><ex>ustae</ex></expan></orgName>
+                    <lb n="1"/><orgName type="legio" key="legioVIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8">VIII</num> <expan><abbr><hi rend="ligature">Au</hi><supplied reason="lost">g</supplied></abbr><supplied reason="lost"><ex>ustae</ex></supplied></expan></orgName>
                     <lb n="2"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                     <lb n="3"/><date when-custom="0205" datingMethod="#julian" type="consulship"><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <name nymRef="Antoninus" type="cognomen">Antonino</name></persName>
                     <lb n="4"/><num value="2">II</num> et <persName type="emperor" ref="persons.xml#p"><name nymRef="Geta+++" type="cognomen"><del rend="erasure">G<supplied reason="lost">eta</supplied></del></name> <expan><abbr><unclear>C</unclear></abbr><ex>aesare</ex></expan></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
@@ -102,7 +102,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079056
                     </bibl>
                     <bibl>
                         CIL XIII 6057

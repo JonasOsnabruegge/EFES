@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für die perpetua quietas</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Museen</repository>
+                        <idno>B 57</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Umgearbeiteter <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> oder <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>? Auf der Oberseite befindet sich eine sekundär anbgebrachte Darstellung eines geflügelten Eros (Trauergenius) mit umgedrehter Fackel, Rosettendekor.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>73</height>
+                                            <width>70</width>
+                                            <depth>63</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem gerahmten Inschriftfeld, links ausgebrochen. Oberer, rechter und linker Rand erhalten. Inschrift im Blocksatz`? Regelmä0iges, geordnetes Schriftbild. mit gleichmäßigem Zeilenabstand und leicht uneinheitlichem Buchstabenabstand.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig aber leicht uneinheitlich gearbeitete quadratische Buchstaben mit Serifen</p>
+                                <height min="4.4" max="4.6">4,6-4,4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" key="VicusNediensis" ref="ph">Vicus Nediensis</placeName>
+                                <placeName type="modern">Mannheim: </placeName> spätantiker Burgus Neckarau, sekundär verwendet.
+                            <origDate notBefore="0100" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1882">
+                            <placeName ref="ph">
+                               Mannheim-Neckarau, im Rhein am nördlichen Ufer gegenüber von Altrip in mächtigem Mauerwerk eingefügt.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Afrania+" type="gentilicium"><supplied reason="lost">Af</supplied>rania</name> <name nymRef="Afra" type="cognomen">Afra</name></persName>
+                    <lb n="2"/><supplied reason="lost">p</supplied>erpetu<supplied reason="omitted">a</supplied>e <persName type="divine" key="Quietas" role="god">Quieti</persName>
+                    <lb n="3"/><supplied reason="lost">ex</supplied> visu monita
+                    <lb n="4"/>ob<note>!</note> salute sua et
+                    <lb n="5"/>suorum posuit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Vgl. CIL XIII 11221.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036544
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6415
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            242
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

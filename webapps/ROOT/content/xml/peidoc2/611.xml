@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bruchstück eines Altars mit Weihinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Jagsthausen, Schulhaus</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, oben abgebrochen. Auf der linken Nebenseite Futteral mit Opfermessern oder Blitzbündel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(79)</height>
+                                            <width>68</width>
+                                            <depth>36</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Linksbündige Isnchrift, letzte Zeile kleiner und zentriert. Geordnetes, aber gedrängtes Schriftbild, enger Buchstabenabstand. Zeile 2 auf Rasur stehend.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen, leichte Uneinheitlichkeiten in der Ausfühurung.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Jagsthausen</placeName> 
+                            </origPlace>
+                            <origDate when-custom="0189" datingMethod="#julian" type="consulship">Konsuldatierung</origDate>
+                        </origin>
+                        <provenance type="found" when="1958">
+                            <placeName ref="ph">
+                               Jagsthausen, Bahnhofstraße 201, hinter dem Haus, bei der Anlage einer Garage.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F030477.JPG"/>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F030479.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="2"/><persName type="emperor" ref="persons.xml#p"><subst><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del><add place="overstrike"><gap reason="lost" extent="c. 3-4"/><name nymRef="Lucius+" type="praenomen"><expan><abbr><supplied reason="lost">L</supplied></abbr><ex>uci</ex></expan></name> <name nymRef="Septimius+" type="gentilicium"><unclear>Sep</unclear><supplied reason="lost">timi</supplied></name></add></subst>
+                    <lb n="3"/><subst><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del><add place="overstrike"><name nymRef="Severus" type="cognomen">Severi</name></add></subst></persName>
+                    <lb n="4"/><orgName type="veterani" role="creator">veterani c<hi rend="small">o</hi>n<lb n="5" break="no"/>sistentes ad hi<lb n="6" break="no"/>berna <orgName type="cohors" key="cohorsIGermanorum*"><expan><abbr>cohor</abbr><ex>tis</ex></expan>
+                    <lb n="7"/><num value="1">I</num> <expan><abbr>Ger</abbr><ex>manorum</ex></expan></orgName></orgName> <date when-custom="0189" datingMethod="#julian" type="consulship">duob<hi rend="small">u</hi>s
+                    <lb n="8"/><persName type="consul" ref="PIR² D 205"><persName type="consul" ref="PIR S 429"><name nymRef="Silanus" type="cognomen">Silanis</name></persName></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036731
+                    </bibl>
+                    <bibl>
+                        RSO 54
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            176, Nr. 141
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

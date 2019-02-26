@@ -1,0 +1,137 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beneficiarier-Weihinschrift für Iuppiter Optimus Maximus, Iuno Regina und den Genius loci</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg am Main, Römermuseum</repository>
+                        <idno>R 1954, 16</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Vorne auf der Bekrönung Adler zwischen Stierprotomen; auf den Nebenseite mythologische Figuren in Bogennischen. Links Victoria mit nacktem Oberkörper, auf dem Schild schreibend; rechts Mars in Helm und Panzer, in der Rechten Lanze, in der Linken Schild.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>126</height>
+                                            <width>76</width>
+                                            <depth>43</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem einfach gerahmten, vertieften Inschriftfeld auf dem Schaft. Grob zentrierte Inschrift, die unteren Zeilen stehen zunehmend schräg. Überwiegend regelmäßiges Schriftbild mit weitem Buchtabenabstand, vorletze Zeile gedrängt. Letzte Zeile wegen Platzmangels mit kleinen Buchstaben eingefügt.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Überwiegend regelmäßige, leicht uneinheitlich ausgeführte Buchstaben mit Serifen. Eher quadratisch, teilweise schmal. B und F in Zeile 5 durch eine Querhaste verbunden.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg am Main:</placeName> Kastell, porta principalis dextra, bei 
+                            </origPlace>
+                            <origDate when-custom="0206-07-15" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1954">
+                            <placeName ref="ph">
+                               Obernburg am Main, südlich der Stadt; 110 m von der porta principalis dextra an einer römischen Straße
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6929.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <persName type="divine" key="IunoRegina" role="god"><expan><abbr>Iunon</abbr><ex>i</ex></expan>
+                        <lb n="2"/>Reginae</persName> <hi rend="ligature">et</hi> <persName type="divine" key="Geniusloci" role="god">Ge<lb n="3" break="no"/>nio loci</persName>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius*" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Servandus" type="cognomen">Ser<hi rend="ligature">va</hi>n<lb n="5" break="no"/>dus</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="6"/><orgName type="legio" key="legioVIIIAugustae*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8">VIII</num> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName>
+                    <lb n="7"/>posuit <date when-custom="0206-07-15" datingMethod="#julian" type="consulship"><expan><abbr>idib</abbr><ex>us</ex></expan>
+                    <lb n="8"/><expan><abbr>Iul</abbr><ex>iis</ex></expan> <persName type="consul" ref="PIR² N 238"><name nymRef="Albinus" type="cognomen">Albino</name></persName>
+                    <lb n="9"/>et <persName type="consul" ref="PIR² F 528"><name nymRef="Aemilianus" type="cognomen">Aemiliano</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                    <lb n="10"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Nesselhauf - Lieb: Z. 9: Aem&lt;i&gt;liano; Nesselhauf - Lieb; CBI: Z. 10: nicht gelesen.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD017033
+                    </bibl>
+                    <bibl>
+                        AE 1957, 48
+                    </bibl>
+                    <bibl>
+                        RSO 87
+                    </bibl>
+                    <bibl>
+                        CBI 142
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 171
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            178, Nr. 147
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

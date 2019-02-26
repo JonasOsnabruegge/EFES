@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ladenburg, Lobdengau-Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Schmaler <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>104</height>
+                                            <width>30</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Die Inschrift befindet sich auf dem Schaft. Weitestgehend Llinksbündige Inschrift, letzte Zeile leicht eingerückt; unruhiges Schriftbild.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Das Inschriftfeld zeigt Spuren einer früheren Beschriftung, von der sich jedoch nur in der ersten Zeile eine Vertikalhaste und ein paar unleserliche Buchstabenrestee erhalten haben. Unregelmäßige und ungleichmäßige Buchstaben von schwankender Höhe, ungenaue Zelenführung. In Z. 4 T tiefgestellt aus Platzmangel mit Höhe 2,0 cm.</p>
+                                <height min="2.5" max="3.8">3,8-2,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0230" cert="medium"/>
+                        </origin>
+                        <provenance type="found" when="1973"><placeName ref="ph">Ladenburg, Trajanstraße 19a als Verfüllung in einem römischen Brunnen</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25576.jpg"/>
+        <graphic url="http://lupa.at/img/25576-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/>aram
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Augustus" type="cognomen">Augus<hi rend="subscript">t</hi>us</name></persName>
+                    <lb n="4"/>po<hi rend="ligature">su</hi>it
+                    <lb n="5"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Die endgültige Zerstörung und Verbergung in dem Brunnen erfolgte wohl um 250/260. Der Altar gehört zu der Iuppitergigantensäule vom gleichen Fundort.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD015257
+                    </bibl>     
+                    <bibl>
+                        AE 2000, 1084
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            156, Nr. 253
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            48-51, Nr. 10b; Abb. 10p u. q
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

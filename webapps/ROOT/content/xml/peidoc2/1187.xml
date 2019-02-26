@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, Silvanus conservator und Diana</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trennfurt, Kirche, Vorhalle</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, bestoßen und verrieben.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>112</height>
+                                            <width>70</width>
+                                            <depth>30</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem gerahmten Inschriftfeld auf dem Schaft, die letzte Zeile auf dem Sockelprofil. Überwiegend geordnetes, teilweise ungleichmäßiges Schriftbild.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Trennfurt</placeName>
+                            <origDate when="0212" datingMethod="#julian"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1771">
+                            <placeName ref="ph">
+                               Trennfurt, St. Maria Magdalena, Kirchturm, vermauert
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27051-1-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="divine" key="Silvano conservator" role="god">Silvano <expan><abbr>co<lb n="3" break="no"/>ns</abbr><ex>ervatori</ex></expan></persName><persName type="divine" key="Diana Augusta" role="god"> Dianae
+                        <lb n="3"/><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>ustae</ex></expan></persName> <orgName type="vexillatio" key="vexillatio legionis XXII Antoninianae Primigeniae p f"><expan><abbr>v<choice><corr>e</corr><sic>i</sic></choice>xill</abbr><ex>atio</ex></expan> <expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>ionis</ex></expan>
+                    <lb n="4"/><num value="22">XXII</num> <expan><abbr>Ant</abbr><ex>oninianae</ex></expan> <expan><abbr>P<supplied reason="lost">r</supplied></abbr><ex>imigeniae</ex></expan><supplied reason="lost"> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied></orgName>
+                    <lb n="5"/><expan><abbr>ag</abbr><ex>entium</ex></expan> in <expan><abbr>lignari</abbr><ex>is</ex></expan> sub
+                    <lb n="6"/><expan><abbr>cur</abbr><ex>a</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Mamertinius" type="gentilicium"><expan><abbr>Mamertin</abbr><ex>i</ex></expan></name>
+                    <lb n="7"/><name nymRef="Iustus" type="cognomen">Iusti</name></persName> <expan><abbr>opt</abbr><ex>ionis</ex></expan> <expan><abbr>d</abbr><ex cert="low">edicavit</ex></expan> <date when="0212" datingMethod="#julian" type="consul"><num value="2">II</num> <persName type="consul" ref="PIR² I 182"><persName type="consul" ref="PIR² I 334"><name nymRef="Asper" type="cognomen"><expan><abbr>Aspr</abbr><ex>is</ex></expan></name></persName></persName>
+                    <milestone unit="section" type="Profil"/><lb n="8"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Die Inschrift wurde modern überarbeitet.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD011586
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6618
+                    </bibl>
+                    <bibl>
+                        AE 1899, 194
+                    </bibl>
+                    <bibl>
+                        AE 2010, 1081
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 206
+                    </bibl>
+                    <bibl>
+                        RSO 37
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

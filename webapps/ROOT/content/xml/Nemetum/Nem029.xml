@@ -83,9 +83,9 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>aximo</ex></expan></supplied></persName>
                     <lb n="2"/>et <expan><abbr>Iun</abbr><ex>oni</ex></expan> <supplied reason="lost"><expan><abbr>Reg</abbr><ex>inae</ex></expan></supplied>
-                    <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem159" role="creator"><name nymRef="Stat---" type="cognomen?">Stat<gap reason="lost" extent="unknown" unit="character"/></name>
+                    <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem159" role="creator"><name nymRef="Stat---" type="cognomen">Stat<gap reason="lost" extent="unknown" unit="character"/></name>
                     <lb n="4" break="no"/><name nymRef="---ituto---" type="cognomen">ituto<gap reason="lost" extent="unknown" unit="character"/></name></persName>
-                    <lb n="5"/>et <persName type="attested" ref="NemPers.xml#pNem160" role="creator"><name nymRef="Dru---" type="cognomen?">Dru<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="5"/>et <persName type="attested" ref="NemPers.xml#pNem160" role="creator"><name nymRef="Dru---" type="cognomen">Dru<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>aeti</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
                 </ab>
             </div>

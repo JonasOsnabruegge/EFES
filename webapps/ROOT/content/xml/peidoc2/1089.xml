@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bauinschrift von Wachposten 10/33 "Auf dem kahlen Buckel"</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Architekturteil</objectType>. Die Inschrif befindet sich unter einem als Relief gearbeitetem Halbbogen (Imitation von Bauquadern), oben begrenzt von einer tordierten Leiste.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>58</height>
+                                            <width>80</width>
+                                            <depth>13,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift füllt das Inschriftfeld relativ gleichmäßig aus.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Mudau, bei</placeName> 
+                            <origDate when="0146">Konsul</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when-custom="08-1889">
+                            <placeName ref="ph">
+                               Mudau, Schloßau, Limes, Wp 10/33 "Auf dem Kahlen Buckel"
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="https://www.wikidata.org/wiki/Q1429"><expan><abbr>I<hi rend="ligature">mp</hi></abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan>
+                    <lb n="2"/><hi rend="ligature">di</hi><hi rend="ligature">vi</hi> <persName type="emperor" ref="persons.xml#p"><name nymRef="Hadrianus" type="cognomen"><expan><abbr>Hadr</abbr><ex>iani</ex></expan></name></persName> <expan><abbr>fil</abbr><ex>io</ex></expan>
+                    <lb n="3"/><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name nymRef="Aelius" type="gentilicium"><expan><abbr>Ael</abbr><ex>io</ex></expan></name> <name nymRef="Hadrianus" type="cognomen"><expan><abbr>Hadr</abbr><ex>iano</ex></expan></name> <name nymRef="Antoninus" type="cognomen">An<lb break="no" n="4"/>to<hi rend="ligature">ni</hi>no</name> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <hi rend="ligature">Pi</hi>o <expan><abbr>p</abbr><ex>ontifici</ex></expan>
+                    <lb n="5"/><expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr><hi rend="ligature">tr</hi><hi rend="ligature">ib</hi></abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>
+                    <lb n="6"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></persName> <expan><abbr>Brit</abbr><ex>tones</ex></expan> <expan><abbr>Triput</abbr><ex>ienses</ex></expan>
+                    <lb n="7"/><date when-custom="0146" calendar="#julian" type="consul"><persName type="consul" ref="PIR² E 96"><name nymRef="Clarus" type="cognomen">Clar<hi rend="small">o</hi></name></persName> <num value="2"><hi rend="supraline">II</hi></num> et <persName type="consul" ref="PIR² C 1027"><name nymRef="Severus" type="cognomen">Sever<hi rend="small">o</hi></name></persName> c<hi rend="small">o</hi><expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD037052
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6514
+                    </bibl>
+                    <bibl>
+                        AE 1889, 166
+                    </bibl>
+                    <bibl>
+                        RSO 62
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

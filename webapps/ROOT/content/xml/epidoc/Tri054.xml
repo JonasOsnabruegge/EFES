@@ -82,7 +82,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <choice><unclear>l</unclear><unclear>e</unclear></choice><choice><unclear>l</unclear><unclear>e</unclear></choice><orig>a</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <orig><unclear>l</unclear></orig><orig><unclear>l</unclear></orig><orig>a</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">c</supplied>astr<supplied reason="lost" cert="low">orum</supplied><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>
@@ -99,7 +99,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079038
                     </bibl>
                     <bibl>
                         CIL XIII 11643b

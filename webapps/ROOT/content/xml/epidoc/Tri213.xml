@@ -24,8 +24,8 @@
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(12)</height>
-                                            <width/>
-                                            <depth/>
+                                            <width>(18)</width>
+                                            <depth>9,5</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>

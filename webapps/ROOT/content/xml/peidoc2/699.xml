@@ -1,0 +1,137 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, Iuno Regina und den Genius loci</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Jagsthausen, Schulhaus</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, bestoßen. Auf der linken Nebenseite Girlande und Rosette, darunter Futteral mit drei Opfermessern und Axtm auf der rechten Nebenseite Griffschale und Opferkanne, am klinken Rand Beneficiarierlanze.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>140</height>
+                                            <width>74</width>
+                                            <depth>29</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Horizontaler Bruch durch das Inschriftfeld in Höhe von Zeile 1/2. Die Inschrift befindet sich auf dem Schaft und füllt den verfügbaren Platz fast vollständig aus. Linksbündiges Schriftbild, Zeile 5 und 6 gesperrt mit weitem Wortabstand, aber nicht ganz an den rechten Rand laufende. Leicht ungleichmäßig im unteren Teil, Zeile 9 Zeilenführung nicht eingehalten.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt.</p>
+                                <height>5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph"/>
+                                <placeName type="modern">Jagsthausen-Olnhausen</placeName>
+                            </origPlace>
+                            <origDate when-custom="0179" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" notAfter="1768">
+                            <placeName ref="ph">
+                               Jagsthausen-Olnhausen, Kirche, in der Südmauer der Kirche vermauert.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06557_5.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><persName type="divine" key="IOM+" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <persName type="divine" key="IunoRegina*" role="god"><expan><abbr>I</abbr><ex>unoni</ex></expan> <expan><abbr>R</abbr><ex>eginae</ex></expan></persName></supplied> et <persName type="divine" key="Geniusloci" role="god"><expan><abbr>G</abbr><ex>eni</ex></expan> <expan><abbr>l</abbr><ex>oci</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Pompeius" type="gentilicium">Pompeius</name>
+                    <lb n="3"/><name nymRef="Gratinus" type="cognomen">Gratinus</name></persName>
+                    <lb n="4"/>miles <orgName type="legio" key="legioVIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan>
+                    <lb n="5"/><num value="8">VIII</num> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName>
+                    <lb n="6"/><hi rend="ligature"><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan></hi> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="7"/>pro se et su<lb n="8" break="no"/>is <persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <name nymRef="Commodus" type="cognomen">Com<lb n="8" break="no"/>modo</name></persName> <num value="2">II</num> et
+                    <lb n="8"/><persName type="consul" ref="PIR² M 348"><name nymRef="Verus" type="cognomen">Vero</name></persName> <num value="2">II</num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036715
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6557
+                    </bibl>
+                    <bibl>
+                        CIL XIII/4 add. p. 101
+                    </bibl>
+                    <bibl>
+                        CBI 114
+                    </bibl>
+                    <bibl>
+                        RSO 98
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            348-349, Nr. 452; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            428-429, Nr. 680; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

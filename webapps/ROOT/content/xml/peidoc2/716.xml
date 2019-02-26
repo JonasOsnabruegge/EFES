@@ -1,0 +1,139 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar mit zwei Weihinschriften für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Römermuseum Osterburken</repository>
+                        <idno>LDA KA EV.-Nr. 84/3-10</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, auf der Vorderseite beschädigt und unten links abgebrochen. Auf der linken Nebenseite Kanne, auf der rechten Nebenseite Griffschale und Opfermesseer.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>117</height>
+                                            <width>61</width>
+                                            <depth>32</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die zwei eigenständigen Inschrifttexte verteilen sich auf die Vorder- und Hinterseite. Vorderseite: Inschriftfeld bei der Ausgrabung beschädigt, links unten abgebrochen. Das Inschriftfeld wird an den zwei Seiten von Leisten mit Volutenranken gerahmt. Zentriertes Schriftbild, leicht ungleichmäßig, In Z. 4 aus Platzgründen OC horizontal gegeneinander versschoben, in Z. 4 VN-Ligatur mit unter den oberen Bogen des C gezogener linker Schräghaste. Dreieckige Worttrenner. Rückseite: Inschriftfeld von zwei profilierten Leisten gerahmt. Zentriertes Schriftbild mit ausgewogener verteiltem Text.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Vorderseite: überwiegend gleichmäßige, leicht uneinheitlich, aber sorgfältig ausgeführte Buhstaben mit Serifen. Auf der Rückseite etwas ungenauer ausgeführte Buchstaben. BF nicht ligiert, B mit mittig durchgezogener Horizontalhaste.
+                                </p>
+                                <height min="5.0" max="6.5">5,0-6,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0200"/>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihebezirk, im Kanalgraben östlich der Grabungsfläche von 1982/83, bei einer Notbergung.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25517/"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="textfront" n="1">
+                    <ab>
+                        <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                        <lb n="2"/><hi rend="ligature">et</hi> <persName type="divine" key="IunoRegina" role="god"><hi rend="tall">I</hi>unon<hi rend="tall">i</hi>
+                            <lb n="3"/>Reg<hi rend="ligature"><hi rend="tall">i</hi>n</hi>ae</persName>
+                        <lb n="4"/><persName type="divine" key="Geniusloci" role="god"><unclear>G</unclear><hi rend="ligature"><hi rend="reversed">e</hi>n</hi>io loc<hi rend="tall">i</hi></persName>
+                        <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> </supplied></name><name nymRef="Secundinius+" type="gentilicium"><supplied reason="lost">S</supplied>ec<hi rend="ligature">un</hi>di<lb n="6" break="no"/><supplied reason="lost">ni</supplied>us</name> <name nymRef="Dignus" type="cognomen">Dig<lb n="7" break="no"/><supplied reason="lost">n</supplied>us</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>c<hi rend="small">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                        <lb n="8"/><supplied reason="lost">pr</supplied>o se <hi rend="ligature">et</hi> suis
+                        <lb n="9"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan></supplied> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="textback" n="2">
+                    <ab>
+                        <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Secundinius" type="gentilicium">Secundi<lb n="3" break="no"/>nius</name> <name nymRef="Dignus" type="cognomen">D<hi rend="tall">i</hi>gn<lb n="4" break="no"/>us</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                        <lb n="5"/>pro se e<hi rend="tall">t</hi>
+                        <lb n="6"/>su<hi rend="tall">i</hi>s
+                        <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Zweimal beschrieben zu zwei verschiedenen Stationierungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036702
+                    </bibl>
+                    <bibl>
+                        AE 1996, 1152a-b
+                    </bibl>
+                    <bibl>
+                        CBI 157
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schallmayer1984"/>
+                        <biblScope>
+                            147-149, Abb. 139-140
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

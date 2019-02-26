@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mars und die Biviae</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langensulzbach/Langensoultzbach, Musée de Langensoultzbach</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Weihrelief, unten abgebrochen, bestoßen. Das Relief ist zum Teil abgeschlagen worden, die Inschrift stark verwittert und stellenweise kaum noch lesbar. In rechteckigem Bildfeld stehender Mars mit dreizackiger Krone, in der Rechten eine Lanze, um die Schultern einen Mantel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(85)</height>
+                                            <width>57</width>
+                                            <depth>19</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Z. 1 und 2 befinden sich auf der oberen Rahmenleiste, Z. 3 auf der linken und rechten Rahmenleiste. Ligatur über die Wortgrenze hinweg in Z. 1.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Soweit noch erkennbar Buchstaben mit leichten Unregelmäßigkeiten.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Langensulzbach/Langensoultzbach</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0150" cert="low"/>
+                        </origin>
+                        <provenance type="found" notBefore="1844" notAfter="1847">
+                            <placeName ref="ph">
+                                Langensulzbach/Langensoultzbach, katholische Kapelle, im Plattenboden sekundär verwendet.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27323-4.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">I</supplied><hi rend="ligature" xml:id="l1">n </hi><expan><abbr><hi rend="ligature" xml:id="l2">h</hi></abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan><expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>d</abbr><ex>eo</ex></expan> <persName type="divine" key="Mars" role="god">Marti</persName> <persName type="divine" key="Biviae" role="god">Biv<supplied reason="lost">iis</supplied></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Varius?" type="gentilicium">V<hi rend="ligature">ar</hi><unclear>i</unclear>us</name> <name nymRef="Iuvenis" type="cognomen">Iuvenis</name></persName>
+                    <lb n="3"/><supplied reason="lost" evidence="previouseditor"><expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <milestone unit="section" type="relief" break="no"/> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied>
+                </ab>
+                <link target="#l1 #l2"/>
+            </div>
+            <div type="apparatus">
+                <p>Z. 2: Statt I auch T möglich. CIL XIII 6061: d(eo) Tribani / Quartus Iuvenis.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD021407
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6061
+                    </bibl>
+                    <bibl>
+                        AE 1914, 205
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 389; Abb. 269
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            196, Nr. 5586
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

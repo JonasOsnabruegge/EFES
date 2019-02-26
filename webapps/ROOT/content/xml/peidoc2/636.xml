@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno>R 65/66 L</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, Gesims abgebrochen, große Teile des Schafts oberflächlich zerstört.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>104</height>
+                                            <width>49</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Linksbündige Inschrift? Soweit noch erkennbar geordnetes Schriftbild. In Z. 7 O (aus Platzmangel?) klein in C eingeschrieben. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, leicht uneinheitlich ausgeführte, eher schmale Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurGS" ref="ph">Civitas Aurelia G(---) S(---)</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Vicus Aurelianus</placeName>
+                                <placeName type="modern"/> 
+                            </origPlace>
+                            <origDate notBefore="0198" notAfter="0209" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1961">
+                            <placeName ref="ph">
+                               Öhringen, beim Bau einer Tankstelle
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_Schillinger_00039_2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="2"/><expan><abbr>Imp<am>p</am></abbr><ex>eratorum</ex></expan> <persName type="emperor" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name nymRef="Septimius*" type="gentilicium"><expan><abbr>Sept</abbr><ex>imi</ex></expan></name> <name nymRef="Severus+" type="cognomen">S<supplied reason="lost">e</supplied><lb n="3" break="no"/>veri</name></persName> et <persName type="emperor" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name nymRef="Aurelius+*" type="gentilicium"><supplied reason="lost"><expan><abbr>Aur</abbr><ex>eli</ex></expan></supplied></name> 
+                    <lb n="4"/><name nymRef="Antoninus+" type="cognomen">Anton<supplied reason="lost">ini</supplied></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> et <persName type="emperor" ref="persons.xml#p"><name nymRef="Geta++" type="cognomen"><del rend="erasure">Get<lb n="6" break="no"/>ae</del></name></persName> <expan><abbr>Ca<supplied reason="lost">es</supplied></abbr><ex>aris</ex></expan><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="7"/><orig>ivm</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8"/><orig>covv</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="9"/><orig>v </orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="10"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 9: Hinter V noch Worttrenner, vielleicht bereits das Ende der Inschrift mit der Weiheformel VSLLM.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054708
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schillinger-Häfele1977"/>
+                        <biblScope>
+                            478, Nr. 39
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1967"/>
+                        <biblScope>
+                            114, Nr. 2
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule des Decius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">28</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum; Kopie in Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType></p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>(187)</height>
+                                            <width>39</width>                                           
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height>4-5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" ref="CVSN">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" ref="ph"/>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0249" notAfter="0251" cert="high"/>
+                        </origin>
+                        <provenance type="found" when="1877"><placeName ref="ph">Heidelberg, Bergheim, Thibautstraße, römischer Keller an der Römerstraße</placeName>
+                            <geo>49.409861, 8.686841</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/22559-1.jpg"/>
+        <graphic url="http://lupa.at/img/22559-3.jpg"/>
+        <graphic url="http://lupa.at/img/22559-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan>
+                    <lb n="2"/><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aio</ex></expan></name> <name nymRef="Messius" type="gentilicium">Messio</name> 
+                    <lb n="3"/><name nymRef="Quintus" type="cognomen">Quinto</name> 
+                    <lb n="4"/><name nymRef="Troianus" type="gentilicium">Troiano</name>
+                    <lb n="5"/><name nymRef="Decius" type="gentilicium">Decio</name> <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> 
+                    <lb n="6"/>Invicto <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName> 
+                    <lb n="7"/><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>tri</abbr><ex>bunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>
+                    <lb n="8"/><orgName key="CVSN" type="civitas" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName> <expan><abbr>l</abbr><ex>eugas</ex></expan> <num value="4">IIII</num> 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036482
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9109
+                    </bibl>          
+                    <bibl>
+                        CIL XVII/2, 641
+                    </bibl>
+                    <bibl>
+                        RSO 218
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            294, Nr. 6
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            25, Nr. 3
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

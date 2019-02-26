@@ -83,7 +83,7 @@
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>sl</orig><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><orig>m</orig>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ex voto
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> ex voto
                 </ab>
             </div>
             <div type="apparatus">
@@ -98,7 +98,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079219
                     </bibl>
                     <bibl>
                         CIL XIII 11622

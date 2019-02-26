@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Međđillius Carantus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen; Carl-Schweizer-Museum (Kopie)</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>(?) Die Kopie weicht in einigen Punkten deutlich von der Version im CIL ab.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p></p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurG" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Murrhardt</placeName> 
+                            <origDate notBefore="0150" notAfter="0230"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1550">
+                            <placeName ref="ph">
+                               Murrhardt, St. Walderichs-Kapelle
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Međđillius" type="gentilicium"><hi rend="ligature">Me</hi>đđillio</name>
+                    <lb n="3"/><name nymRef="Carantus" type="cognomen">C<hi rend="ligature">ar</hi><hi rend="ligature">ant</hi>o</name></persName> patri
+                    <lb n="4"/><hi rend="ligature">et</hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Victorina" type="cognomen">Victorinae</name></persName>
+                    <lb n="5"/>matri <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Carantia" type="gentilicium">Car<hi rend="ligature">an</hi>tia</name>
+                    <lb n="6"/><name nymRef="Aelia" type="cognomen">Aelia</name></persName> filia dulcis<lb n="7" break="no"/>si<hi rend="ligature">ma</hi> <hi rend="ligature">he</hi>res
+                    <lb n="8"/>ex testa<hi rend="ligature">me</hi><hi rend="ligature">nt</hi>o
+                    <lb n="9"/>pos<supplied reason="omitted">u</supplied>it
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036676
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6534
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

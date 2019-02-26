@@ -1,0 +1,139 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Weih- oder Ehreninschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ladenburg, Lobdengau-Museum (Dauerleihgabe)</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment wohl von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType> oder einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, oben, rechts und unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(78)</height>
+                                            <width>(45)</width>
+                                            <depth>54</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <dimensions>
+                                        <height>(78)</height>
+                                        <depth>(45)</depth>
+                                    </dimensions>
+                                    Die Inschrift scheint nicht ganz linksbündig gewesen zu sein, Z. 5 eingerückt (zentriert?). Gleichmäßiges Schriftbild.
+                                </layout>                             
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben mit gleichmäßigem Abstand</p>
+                                <height min="6.5" max="7.0">6,5-7,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum:</placeName>
+                                Forum?
+                                <placeName type="modern">Ladenburg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0195" notAfter="0211" cert="high">Titulatur</origDate>
+                        </origin>
+                        <provenance type="found" when="1978"><placeName ref="ph">Ladenburg, nahe der Römerstraße, Gewann Kirchfeld, in Sekundärverwendung als deckplatte eines fränkischen Plattengrabes</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25583-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Genius" role="god"><supplied reason="lost" cert="low">Genio</supplied></persName>
+                    <lb n="2"/><persName type="emperor" ref="persons.xml#p"><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan>
+                        <lb n="3"/><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name nymRef="Septimius" type="gentilicium">Septi<supplied reason="lost">mi</supplied>
+                            <lb n="4"/>Sever<supplied reason="lost">i</supplied></name><supplied reason="lost"> <name nymRef="Pius" type="cognomen">Pii</name></supplied>
+                        <lb n="5"/><name nymRef="Pertinax" type="cognomen">Perti<supplied reason="lost">nacis</supplied></name>
+                        <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
+                    <lb n="7"/><orgName key="CVSN" type="civitas">Civit<supplied reason="lost">as</supplied>
+                    <lb n="8"/><expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>S<supplied reason="lost">ueb</supplied></abbr><ex>orum</ex></expan> <expan><abbr><supplied reason="lost">N</supplied></abbr><ex>icrensium</ex></expan></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Wiedergabe nach Gräf 2015. Z. 1 fehlt in den früheren Darstellungen. CIL, ILS, Wiegels 1999, Wiegels 2000: Wiedergabe des Kaisernamens im Dativ.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Es ist unklar, ob es sich um eine Weih- oder Ehreninschrift handelt, und um welche Art von Monument. Die Rekonstruktionszeichnung bei Gräf 2015 macht jedoch die Ergänzung wahrscheinlich, vermutlich handelte es sich um eine Statuenbasis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036401
+                    </bibl>  
+                    <bibl>
+                        CIL XIII 6420
+                    </bibl>
+                    <bibl>
+                        ILS 7104
+                    </bibl>
+                    <bibl>
+                        RSOR 76
+                    </bibl>
+                    <bibl>
+                        AE 2001, 1418
+                    </bibl>
+                    <bibl>
+                        AE 2015, 1009
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            58-59, Nr. 15; Abb. 17
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Gräf2015"/>
+                        <biblScope>
+                            285-286. 292-293; Abb. 1 u. 3
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

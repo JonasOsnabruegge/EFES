@@ -1,0 +1,115 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Iumma und Atuns</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmuseum</repository>
+                        <idno>RL 359</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>64,5</height>
+                                            <width>103</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem sorgfältig gerahmten Inschriftfeld in Form einer tabula ansata. Leicht ungleichmäßiges Schriftbild mit schwankendem Buchstabenabstand, die Inschrift füllt das Feld komplett aus. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, leicht uneinheitlich ausgeführte Buchstaben mit Serifen von schwankender Breite (+).</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Brackenheim</placeName> 
+                            <origDate when="0213" calendar="#julian">Konsul</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1550">
+                            <placeName ref="ph">
+                               Brackenheim, Meimsheim, Kirche, sekundär verwendet
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/3919.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Iumma" type="cognomen"><expan><abbr>Iumma</abbr><ex>e</ex></expan></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Exobnus" type="cognomen">Exobni</name></persName></persName> <expan><abbr>fil</abbr><ex>io</ex></expan>
+                    <lb n="2"/>cive<note>!</note>  <orgName type="people" key="Mediomatrici">Medioma<hi rend="ligature">tr</hi>ico</orgName>
+                    <lb n="3"/><date type="age" dur="P100Y"><expan><abbr>a<hi rend="ligature">nn</hi>oru</abbr><ex>m</ex></expan> <num value="100">C</num></date> <persName type="attested" ref="persons.xml#p"><name nymRef="Atuns" type="cognomen">Atuns</name>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Bunna" type="cognomen">Bu<hi rend="ligature">nn</hi>ae</name></persName></persName> <expan><abbr>fi<hi rend="ligature">li</hi>a</abbr><ex>e</ex></expan> co<supplied reason="omitted">n</supplied>iugi eius
+                    <lb n="5"/><date type="age" dur="P80Y"><expan><abbr>a<hi rend="ligature">nn</hi>oru</abbr><ex>m</ex></expan> LXXX</date> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Dometius" type="gentilicium"><expan><abbr>Dome</abbr><ex>tius</ex></expan></name>
+                    <lb n="6"/><name nymRef="Iustus" type="cognomen">Iustus</name></persName> filius et <expan><ex>h</ex><abbr>ere</abbr><ex>s</ex></expan> par<lb n="7" break="no"/>entibus fecit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036957
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6460
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

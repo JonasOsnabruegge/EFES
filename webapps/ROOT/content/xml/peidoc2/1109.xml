@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Assonius Iustus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Murrhardt, 'Hexenturm', vermauert</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>stele. Im oberen Teil Bildfeld mit Totenmahlszene, auf den Nebenseiten tanzende Mänaden.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p></p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurG" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Murrhardt</placeName> 
+                            <origDate notBefore="0150" notAfter="0250"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1500">
+                            <placeName ref="ph">
+                               Murrhardt, Hexenturm, vermauert
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/22496-09.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Assonius" type="gentilicium"><expan><abbr>Asson</abbr><ex>ius</ex></expan></name> <name nymRef="Iustus" type="cognomen">Iustus</name></persName> <expan><abbr>mil</abbr><ex>es</ex></expan>
+                    <lb n="3"/><orgName type="cohors" key="cohors XXIII voluntariorum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="24">XXIIII</num> <expan><abbr>vol</abbr><ex>untariorum</ex></expan></orgName> <date type="age" dur="P50Y"><expan><abbr>vix</abbr><ex>it</ex></expan>
+                    <lb n="4"/><expan><abbr>an</abbr><ex>nos</ex></expan> <num value="40">XL</num></date> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cintusmus" type="cognomen">Cintusmus</name></persName>
+                    <lb n="5"/>s<choice><corr>e</corr><sic>i</sic></choice>cundus <expan><abbr>her</abbr><ex>es</ex></expan> sua <expan><abbr>vol</abbr><ex>untate</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036675
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6533
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            434f., Nr. 690
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

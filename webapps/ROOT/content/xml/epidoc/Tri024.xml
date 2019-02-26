@@ -23,8 +23,8 @@
                                     <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Rechtechkiges Bildfeld im oberen Drittel mit den Büsten zweier bärtiger Mäner.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height>78</height>
-                                            <width>92</width>
+                                            <height>92</height>
+                                            <width>78</width>
                                             <depth>24</depth>
                                         </dimensions>
                                     </support>
@@ -104,7 +104,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079138
                     </bibl>
                     <bibl>
                         ILTG 432

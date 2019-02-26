@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für den Genius Mercuri Alauni</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Museen, Depot E4</repository>
+                        <idno>H 88</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, oben abgebrochen, bestoßen. Oben sind noch die Füße der Statuette des Genius erhalten.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(46)</height>
+                                            <width>38</width>
+                                            <depth>17</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zeile 1 der Inschrift befindet sich vorne auf der Deckplatte, der Rest der Inschrift auf dem Schaft. Zeile 2 und 3 linksbündig, letzte Zeile etwas eingerückt und zentriert in Bezug auf Zeile 2/3, leicht ungleichmäßiges Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height>35,5</height>
+                                        <width>27</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, sorgfältig und flach eingehauene Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" key="VicusNediensis" ref="ph"/>
+                                <placeName type="modern">Mannheim</placeName> 
+                            <origDate notBefore="0070" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1844-02">
+                            <placeName ref="ph">
+                               Mannheim, beim Abbruch eines unter Kurfürst Karl Theodor erbauten Hauses.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="crepido"/>
+                    <lb n="1"/><persName type="divine" key="GeniusMercuriAlauni" role="god"><supplied reason="lost">Ge</supplied>nio <expan><abbr><hi rend="ligature">Me</hi>rcur</abbr><ex>i</ex></expan>
+                        <milestone unit="section" type="corpus"/>
+                        <lb n="2"/>Al<hi rend="ligature">au</hi>ni</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iulius*" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Acconius+" type="gentilicium">Ac<supplied reason="lost">co</supplied><lb n="3" break="no"/>nius</name> <name nymRef="Augustinus" type="cognomen"><expan><abbr><hi rend="ligature">Au</hi>gust<hi rend="ligature"><hi rend="tall">i</hi>n</hi></abbr><ex>us</ex></expan></name></persName>
+                    <lb n="3"/>ex <expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036541
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6425
+                    </bibl>
+                    <bibl>
+                        ILS 4589
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            239-240
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            275-276, Nr. 422; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

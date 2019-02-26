@@ -86,7 +86,7 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="Matresagrum" role="god">Matrabus <expan><abbr>agru</abbr><ex>m</ex></expan></persName>
                     <lb n="2"/>ex macerie circ<lb n="3" break="no"/>umductum <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Sextus" type="cognomen">Sext<lb n="4" break="no"/>us</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Clemens" type="cognomen">Clementis</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan></persName>
-                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>«
+                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
@@ -101,7 +101,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079223
                     </bibl>
                     <bibl>
                         CIL XIII 5959

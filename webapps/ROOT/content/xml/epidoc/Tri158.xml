@@ -57,7 +57,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0250" cert="low"/>
                         </origin>
-                        <provenance type="found">
+                        <provenance type="found" when="1827">
                             <placeName ref="ph">
                                 Niederbronn-les-Bains, Rue du Maréchal Leclerc 14-20, Keller
                             </placeName>
@@ -99,7 +99,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079087
                     </bibl>
                     <bibl>
                         CAG 67/1, 452

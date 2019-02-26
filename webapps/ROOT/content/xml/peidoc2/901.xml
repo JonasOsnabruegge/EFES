@@ -1,0 +1,114 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Sul</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Oberer Teil eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>, unten und rechts abgebrochen, bestoße. Ein weiteres Fragment vom unteren Teil ist heute verschollen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(63)</height>
+                                            <width>(30)</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Linksbündige Inschrift? Ungeordnet wirkendes Schriftbild, schwankender Buchstabenabstand, Zeilenührung nicht eingehalten. In Zeile 2 V klein über I hinzugefügt. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, uneinheitlich ausgeführte, zum Teil eher schmale Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="vicus" key="Altiaium" ref="https://pleiades.stoa.org/places/108736">Altiaium</placeName>
+                                <placeName type="modern">Alzey</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0300"/>
+                        </origin>
+                            <provenance type="found" notBefore="1871" notAfter="1872">
+                            <placeName ref="ph">
+                                Alzey, Drommäcker, zwischen Schloss und spätantikem Kastell.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/15574"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>Dea</abbr><ex>e</ex></expan> <persName type="divine" key="Sul" role="god"><expan><abbr>Sul</abbr><ex>i</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Attonius" type="gentilicium">Attoni<hi rend="superscript">u</hi>s</name>
+                    <lb n="3"/><supplied reason="lost" evidence="previouseditor"><name nymRef="Lucanus" type="cognomen">Lucanus</name></supplied></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054777
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6266
+                    </bibl>
+                    <bibl>
+                        CSIR D II/1, Nr. 57
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

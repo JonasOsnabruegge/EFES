@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Virtus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum, Depot</repository>
+                        <idno>RL 167</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Fragmente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, Bruch schräg durch das Inschriftfeld. Oben und hinten abgebrochen. Auf der Oberseite Reste der Füße einer Statue der Virtus.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(36)</height>
+                                            <width>58</width>
+                                            <depth>(14)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf der Vorderseite der Basis. linksbündige Inschrift. Leicht ungleichmäßiges, besonders in der ltzten Zeile sehr gedrängtes Schriftbild, in der letzen Zeile die Buchstaben am Zeilenende aus Platzgründen horizontal ineinander verschoben, In Zeile 2 I klein in C eingeschrieben. Ungleichmäßiger Buchstabenabstand. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="municipium" key="CSum" ref="oh">Civitas Sumelocennensis</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/118706">Grinario</placeName>
+                                <placeName type="modern"/> 
+                            <origDate when-custom="0217-11-05" datingMethod="#julian" type="consulship"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1862">
+                            <placeName ref="ph">
+                                Köngen, auf dem Goldäckern.               
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/7559"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> De<hi rend="ligature">ae</hi> <persName type="divine" key="Virtus" role="god">Virtuti</persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Micius" type="gentilicium">Mic<hi rend="small">i</hi>us</name> <name nymRef="Donatus" type="cognomen">Donatus</name></persName> pr<lb n="3" break="no"/>o <expan><abbr>s<hi rend="ligature">al</hi></abbr><ex>ute</ex></expan> sua et suo<supplied reason="lost">rum <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+                    <lb n="4"/><date when-custom="0217-11-05" datingMethod="#julian" type="consulship"><expan><abbr>Non</abbr><ex>is</ex></expan> <expan><abbr>Nov</abbr><ex>embribus</ex></expan> <persName type="consul" ref="PIR² B 166"><name nymRef="Praesens+" type="cognomen">P<supplied reason="lost">r</supplied>aesente</name></persName> et <persName type="consul" ref="M² 518"><name nymRef="Extricatus" type="cognomen">Extricato</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036825
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6385
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            141-142, Nr. 185
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            373-374; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

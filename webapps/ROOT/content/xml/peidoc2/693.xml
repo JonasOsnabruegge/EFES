@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum, Lapidarium</repository>
+                        <idno>R 84 Wi 4253a</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, auf der linken Nebenseite Kanne und Griffschale, auf der rechten Nebenseite Opfermesser.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>71</height>
+                                            <width>40</width>
+                                            <depth>27</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Oberfläche des Inschriftfeldes im rechten Teil ausgebrochen. Linksbündige Inschrift, oder im Blocksatz. Unterhalb der letzten Zeile ist noch Platz für eine weitere Zeile frei. Geordnetes Schriftbild.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen, O etwas schmaler.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="modern">Bad Wimpfen im Tal</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0122" cert="low">Nach CBI aufgrund des Formulars gegen Ende des Zeitraumes.</origDate>
+                        </origin>
+                        <provenance type="found" when="1986"><placeName ref="ph">Bad Wimpfen im Tal, im Schutt der Mauer eines römischen Steingebäudes am westlichen Rand des Grabunsgebietes.</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/7508"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Ibliomarus+" type="cognomen">Ibli<unclear>o</unclear><supplied reason="lost">m</supplied><lb n="3" break="no"/>arus</name></persName> <supplied reason="lost"><expan><abbr>mil</abbr><ex>es</ex></expan></supplied>
+                    <lb n="4"/><orgName type="cohors" key="cohorsIIHispanorum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="2">I<supplied reason="lost">I </supplied></num><expan><abbr><supplied reason="lost">His</supplied><lb n="5" break="no"/>pan</abbr><ex>orum</ex></expan></orgName> <expan><abbr><unclear>b</unclear></abbr><ex>ene</ex><abbr><unclear>f</unclear></abbr><ex>iciarius</ex></expan> <expan><abbr><gap reason="lost" quantity="1" unit="line"/><lb n="6" break="no"/>ef</abbr><ex>ecti</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036619
+                    </bibl>
+                    <bibl>
+                        AE 1996, 1149
+                    </bibl>
+                    <bibl>
+                        CBI 100
+                    </bibl>
+                    <bibl>
+                        <ptr target="FilgisPietsch1990"/>
+                        <biblScope>
+                            461-462; Abb. 6
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -60,7 +60,7 @@
                         </origin>
                         <provenance type="found" notAfter="1824" cert="medium">
                             <placeName ref="ph">
-                                Haguenau, Schwenheim, Flur Salzmatt, Wald
+                                Haguenau, Flur Salzmatt, Wald
                             </placeName>
                         </provenance>
                         <provenance type="observed">
@@ -99,7 +99,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079071
                     </bibl>
                     <bibl>
                         CIL XIII 6017
@@ -113,7 +113,7 @@
                     <bibl>
                         <ptr target="Forrer1915"/>
                         <biblScope>
-                            108-109; Taf. 28, 2
+                            108-109; Taf. 28, 1
                         </biblScope>
                     </bibl>
                     <bibl>

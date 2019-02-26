@@ -87,7 +87,7 @@
                     <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><persName type="attested" ref="persons.xml#p"><name nymRef="---rus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>ri</name></persName></persName> <expan><abbr>sacerd</abbr><ex>os</ex></expan>
                     <lb n="2"/><supplied reason="lost">et</supplied> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Candidius" type="gentilicium">Candidius</name>
                     <lb n="3"/><name nymRef="Euhodus+" type="cognomen"><supplied reason="lost" cert="low">Euh</supplied>odus</name></persName> <expan><abbr>pr</abbr><ex>a</ex><abbr>ef</abbr><ex>ectus</ex></expan>
-                    <lb n="4"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+                    <lb n="4"/><supplied reason="lost"><expan><abbr>d</abbr><ex>e</ex></expan></supplied> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

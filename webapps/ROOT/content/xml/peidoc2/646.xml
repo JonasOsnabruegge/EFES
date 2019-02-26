@@ -1,0 +1,139 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mars Loucetius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>
+                                        Zwei miteinander verklammerte <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Blöcke</objectType>, Teil eines nicht näher identifizierten Votivmonuments. Die Maßangabe bezieht sich auf den oberen, inschrifttragenden Block, der andere Block mit ähnlichen Ausmaßen (33 x 62 x 33)
+                                    </p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>29,3</height>
+                                            <width>59,8</width>
+                                            <depth>35</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift steht im Blocksatz, die letzte Zeile etwas kürzer. Geordnetes, gleichmäßiges, etwas gedrängtes Schrifbtild mit von oben nach unten abnehmender Buchstabenhöhe. Zeilentrennung entlang der Wortgrenzen.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, sorgfältig und tief eingehauene Buchstaben mit prominenten Serifen, leicht uneinheitlich ausgeführt. R in Zeile 4 mit deutlich geschwungener auslaufender Schräghaste. Ungewöhnliche IO-Ligatur in Zeile 3.
+                                </p>
+                                <height min="4.0" max="6.0">6,0-4,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1888-04-28">
+                            <placeName ref="ph">
+                               Worms, Klosterstraße, beim Städtischen Wasserwerk (in Richtung Mariamünster)
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/16814-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="block" n="1"/>
+                    <lb n="1"/><supplied reason="lost">In honorem</supplied>
+                    <milestone unit="section" type="block" n="2"/>
+                    <lb n="2"/><expan><abbr>domu</abbr><ex>s</ex></expan> divinae
+                    <lb n="3"/><persName type="divine" key="MarsLoucetius" role="god">Marti Loucet<hi rend="ligature">io</hi></persName>
+                    <lb n="4"/>sacrum <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Amandus" type="cognomen">Amandus</name>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Velugnus" type="cognomen">Velugni</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> <placeName type="ancient" nymRef="Devas">Devas</placeName></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 5 Cognomen oder aufgrund der Position wahrscheinlicher Herkunftsangabe, wohl nicht Deva in Britannien, sondern ein bislang nicht lokalisierter vicus im Treverergebiet, vgl. die Diskussion bei Merten 1985, 45-47 sowie den Kommentar im CSIR.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075796
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6221
+                    </bibl>
+                    <bibl>
+                        ILS 4573
+                    </bibl>
+                    <bibl>
+                        AE 1888, 121
+                    </bibl>
+                    <bibl>
+                        AE 1990, 750
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 40
+                    </bibl>
+                    <bibl>
+                        <ptr target="Merten1985"/>
+                        <biblScope>
+                            45-47
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

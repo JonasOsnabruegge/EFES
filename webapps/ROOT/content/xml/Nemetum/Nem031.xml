@@ -85,7 +85,7 @@
                     <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem155"><name nymRef="---strus?" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>stri</name></persName>
                     <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem156"><name nymRef="---linia" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>linia</name>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/></persName> <expan><abbr>f</abbr><ex cert="low">ilia</ex></expan> <date type="age" dur="P40Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="40">XL</num></date>
-                    <lb n="5"/><persName type="attested" ref="NemPers.xml#pNem157" role="creator"><name nymRef="---perius" type="cognomen?"><gap reason="lost" extent="unknown" unit="character"/>perius</name></persName> <orig>e</orig><lb n="6" break="no"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="5"/><persName type="attested" ref="NemPers.xml#pNem157" role="creator"><name nymRef="---perius" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>perius</name></persName> <orig>e</orig><lb n="6" break="no"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -100,7 +100,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079142
                     </bibl>
                     <bibl>
                         CIL XIII 6074

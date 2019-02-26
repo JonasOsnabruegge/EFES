@@ -87,7 +87,7 @@
                     <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem77" role="creator"><name nymRef="Iolkantus" type="gentilicium">Iolkantu<hi rend="tall">s</hi></name>
                     <lb n="3"/><name nymRef="Perpetuus+" type="cognomen">Perpetu<supplied reason="omitted">u</supplied>s</name></persName>
                     <lb n="4"/>pos<supplied reason="omitted">u</supplied>it
-                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>eriot</ex></expan>
+                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
@@ -106,7 +106,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079043
                     </bibl>
                     <bibl>
                         <ptr target="Hirte1995"/>

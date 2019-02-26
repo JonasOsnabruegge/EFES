@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück eines nicht näher identifizierten MOnuments, oben und rechts abgebrochen, unten abgearbeitet. Wenn die Ergänzung (nach Haug) das Richtige trifft, wohl <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, der zu einer Iuppitergigantensäule gehörte.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(53)</height>
+                                            <width>(41)</width>
+                                            <depth>(15.5)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Der linke Rand des Inschriftfeldes ist erhalten, Oberfläche stark verwittert. Soweit noch erkennbar gleichmäßiges Schriftbild, linksbündige Inschrift?
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen, soweit noch erkennbar, V etwas schmal.</p>
+                                <height>9,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="municipium" key="munAraeFlaviae" ref="oh">Municipium Arae Flaviae</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/118985">Sumelocenna</placeName>
+                                <placeName type="modern">Rottenburg am Neckar</placeName> 
+                            <origDate notBefore="0170" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1842">
+                            <placeName ref="ph">
+                                Rottenburg am Neckar, beim Kreisgefängnis, hinter dem alten Schloss.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06367_2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM+" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></supplied></persName>
+                    <lb n="2"/><supplied reason="lost">signum et</supplied>
+                    <lb n="3"/>col<supplied reason="lost">umna</supplied><lb n="4" break="no"/>m cu<supplied reason="lost">m ara</supplied>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Iulius*" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name></persName> <orig><unclear>i</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><orig>cv</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/><supplied reason="lost">posuit</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036609
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6367
+                    </bibl>
+                    <bibl>
+                        CIL XIII/4, p. 94
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            90, Nr. 120
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            213-214, Nr. 452
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

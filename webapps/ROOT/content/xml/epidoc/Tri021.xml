@@ -58,7 +58,10 @@
                             </origPlace>
                             <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1926">Strasbourg, S. Étienne<placeName ref="ph"/>
+                        <provenance type="found" when="1926">
+                            <geo>48.5830 7.75586</geo>
+                            Strasbourg, Collège S. Étienne
+                        <placeName ref="ph"/>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -94,7 +97,7 @@
             </div>
             <div type="apparatus">
                 <p>
-                    Z. 2: Zu Beginn noch unterer Ansatz einer Haste; Z. 7: Am Ende noch obere Ansatz eines Buchtaben mit oben ansetzender Querhaste oder Bogen.
+                    Z. 2: Zu Beginn noch unterer Ansatz einer Haste; Z. 7: Am Ende noch obere Ansatz eines Buchstaben mit oben ansetzender Querhaste oder Bogen.
                     Z. 3 vielleicht patr[i, -ibus vel sim.], Z. 4/5 Namen?
                 </p>
             </div>
@@ -107,10 +110,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079229
                     </bibl>
                     <bibl>
                         ILTG 428
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 275-276.
                     </bibl>
                 </listBibl>
             </div>

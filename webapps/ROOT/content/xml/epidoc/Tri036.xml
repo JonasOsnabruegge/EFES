@@ -81,9 +81,9 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><choice><unclear>m</unclear><unclear>v</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><choice><unclear>m</unclear><unclear>v</unclear></choice></orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> perpetua<supplied reason="lost">e securitati</supplied>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" ref="persons.xml#p"><name nymRef="Aurelius+*?" type="gentilicium"><expan><abbr><supplied reason="lost" cert="low">Au</supplied>r</abbr><ex>elius</ex></expan></name> <name nymRef="Super---" type="cognomen">Super<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" ref="persons.xml#p"><name nymRef="Aurelius+*?" type="gentilicium"><expan><abbr><supplied reason="lost" cert="low"> Au</supplied>r</abbr><ex>elius</ex></expan></name> <name nymRef="Super---" type="cognomen">Super<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
@@ -99,7 +99,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079221
                     </bibl>
                     <bibl>
                         CIL XIII 11637

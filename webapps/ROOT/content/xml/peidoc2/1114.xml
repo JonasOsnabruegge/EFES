@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Maximus Dasanti</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>160</height>
+                                            <width>94</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld. Stellenweise sehr stark verrieben und nicht mehr lesbar.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(o)</p>
+                                <height>7-5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurG" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Mainhardt</placeName> 
+                            <origDate notBefore="0150" notAfter="0250"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1835">
+                            <placeName ref="ph">
+                               Mainhardt, Kirche, an der Tür
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06538_9.jpg"/>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06538_10.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan><lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Maximus" type="cognomen">Maximo</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Dasa" type="cognomen">Dasan<lb break="no" n="3"/>t<supplied reason="lost">is</supplied></name></persName></persName> mensori <orgName type="cohors" key="cohors I Asturum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="1">I</num> <lb n="4"/>Asturum</orgName> <orgName type="centuria" key="centuria Coe---uni Quintini"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Coe---unius" type="gentilicium">Coe<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/>uni</name> <name nymRef="Quintinus" type="cognomen">Quin<supplied reason="lost">t</supplied>in<supplied reason="lost">i</supplied></name></persName></orgName><date type="military-service-span" dur="P18Y"><supplied reason="lost"> sti</supplied><lb break="no" n="6"/>pendiorum <num value="18">XVIII</num></date> 
+                    <lb n="7"/><date type="age" dur="P38Y">an<expan><ex>n</ex><abbr>orum</abbr></expan> <num value="38">XXXVIII</num></date> <lb n="8"/><expan><abbr>c</abbr><ex>ivis</ex></expan> Dalmata ex m<lb break="no" n="9"/>unicipio <placeName type="ancient" nymRef="Magab(---)"><abbr>Magab</abbr></placeName>
+                    <lb n="10"/>et <persName type="attested" ref="persons.xml#p"><name nymRef="Bato" type="cognomen">Batoni</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Beusans" type="cognomen"><expan><abbr>Beusanti</abbr><ex>s</ex></expan></name></persName></persName>
+                    <lb n="11"/>optioni <orgName type="cohors" key="cohors I Asturum"><expan><abbr>coh</abbr><ex>ortis</ex></expan><expan><abbr>s</abbr><ex>upra</ex></expan><expan><abbr>s</abbr><ex>criptae</ex></expan></orgName> <orgName type="centuria" key="centuria Coe---uni Quintini"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> ea<lb break="no" n="12"/>dem</orgName> <date type="military-service-span" dur="P18Y"><expan><abbr>stip</abbr><ex>endiorum</ex></expan> <num value="18">XVIII</num></date> <date type="age" dur="P40Y">an<supplied reason="lost">no</supplied><lb break="no" n="13"/>rum <num value="40">XL</num></date> ex munici<lb break="no" n="14"/>pio <placeName type="ancient" nymRef="Salvium" ref="https://pleiades.stoa.org/places/197491">Salvio</placeName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Apies" type="cognomen">Apies</name></persName> 
+                    <lb n="15"/><gap reason="lost" quantity="1" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036680
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6538 (add. CIL XIII/4, p. 100)
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            137, Nr. 152
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

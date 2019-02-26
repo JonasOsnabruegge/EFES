@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Kreuznach, Museum Römerhalle</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> von einem größeren Grabmal, links abgebrochen, in fränkischer Zeit für die Sekundärverwendung als Sarkophag auf der Inschriftseite ausgehöhlt.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(44)</height>
+                                            <width>(90)</width>
+                                            <depth>47</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Das Inschriftfeld wurde rechts von einem Volutenfries gerahmt. Blattförmige Hedera als Wortrenner in Z. 5</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++)</p>
+                                <height>8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109427">Cruciniacum</placeName>
+                                <placeName type="modern">Bad Kreuznach</placeName>
+                            <origDate notBefore="0070" notAfter="0150"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1916">
+                            <placeName ref="ph">
+                                <geo></geo>
+                                Bad Kreuznach, Kastell, zwischen Planiger und Bosenheimer Straße
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">Di</supplied>s Manibus
+                    <lb n="2"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="3"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="4"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---rtius" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>rtius</name></persName> fecit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076465
+                    </bibl>
+                    <bibl>
+                        CSIR D II/9, Nr. 98
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            77f., Nr. 234
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Willer2005"/>
+                        <biblScope>
+                            113, Nr. 5
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

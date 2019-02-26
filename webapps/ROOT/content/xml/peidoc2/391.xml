@@ -1,0 +1,152 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stele mit Grabinschriften für Carantodius, Carantodia, Caratacus und Cassius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musées du château des Rohan</repository>
+                        <idno>Bf 57</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Breite, schmucklose <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, durch vertikale Leisten in vier Felder geteilt. Oben rechts abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(71)</height>
+                                            <width>118</width>
+                                            <depth>30</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die fünf eigenständigen Inschriften befinden sich in den vier Feldern, dabei enthält Feld 2 zwei verschiedene, untereinander geschriebene Inschriften die sich auch im Schriftbild deutlich unterscheiden. Feld 1: Enges, gedrängtes Schriftbild. Zeile 1 zentriert, der Rest der Inschrift füllt die Breite voll aus (in Zeile 3 steht I auf der Rahmenleiste), etwa ein Drittel des Isnchriftfeldes bleibt unten frei. Feld 2: wie Feld 1, letzte Zeile läuft nicht über die gesamte Breite, im unteren Teil ist die erste Zeile der zweiten Inschrift ebenfalls zentriert. Feld 3: wie Feld 1, Buchstaben nach unten zunehmend größer, am Ende von Z. 4 S auf der Rahmenleiste stehend und kleiner. Feld 4: wie Feld 1, gedrängtes Schriftbild, die unteren Zeilen nach rechts unten abfallend, hier wird fast das gesamte Feld ausgenutzt. Deutlicher Bruch im Schriftbild zwischen Zeile 3 und 4.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Die Buchstaben stammen von mindestens zwei verschiedenen Händen. Die Buchstaben in Feld 1, Feld 2 oben, Feld 3 und Feld 4 oben sind unregelmäßig, schmal und hoch, ohne Serifen, zur scriptura actuaria neigend, uneinheitlich ausgeführt. A ohne Querhasten, L mit schräg abfallender Querhaste. Einzig D M in den ersten Zeilen ist mit quadratischen Buchstaben geschrieben. Die Buchstaben in Feld 2 unten sind deutlich quadratischer, aber eben so unsauber gearbeitet, in Feld 4 unten sind die Buchstaben sorgfältiger ausgeführt und tiefer eingemeißelt, an der capitalis quadrata orientiert, deutlich qualitätvoller als im Rest der Inschrift.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1923">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Lycée Leclerc, spätantike Stadtmauer, sekundär verwendet
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27916-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="section" n="1">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carantodius" type="cognomen">Carantod<lb n="3" break="no"/>io</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Caratus" type="cognomen">Carati</name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                        <lb n="4"/><expan><abbr>h</abbr><ex>eres</ex></expan> filia
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <ab>
+                        <milestone unit="section" n="i" break="no"/>
+                            <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                            <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Carantodia" type="cognomen">Carantodi<lb n="3" break="no"/>ae</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Caratacus" type="cognomen"><expan><abbr>Caratac</abbr><ex>i</ex></expan></name></persName>
+                            <lb n="4"/><expan><abbr>fil</abbr><ex>iae</ex></expan></persName>
+                        <milestone unit="section" n="ii"/>
+                            <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                            <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Divitiosa" type="cognomen">Diviti<lb n="3" break="no"/>osa</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Carantus" type="cognomen">Ca<lb n="4" break="no"/>ranti</name></persName> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="3">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caratacus" type="cognomen">Carataco</name>
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caratus" type="cognomen">Carati</name></persName> <expan><abbr>fil</abbr><ex>io</ex></expan></persName>
+                        <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caratus" type="cognomen">Caratu<hi rend="small">s</hi></name></persName>
+                        <lb n="5"/>pater
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="4">
+                    <ab>
+                        <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Cassius" type="cognomen">Cassio</name>
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caratus" type="cognomen">Carati</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName>
+                        <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caratus" type="cognomen">Cara<lb n="5" break="no"/>tus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Cantognatus" type="cognomen">C<lb n="6" break="no"/>antog<lb n="7" break="no"/>nati</name></persName></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Grabmal einer aus Zabenr bekannten Familie: Stemma: Gnatillus - Mainnus - Cantognatus - Carantus - (Carantodius - Secundanus - (Carantodia Ianuaria, Maternius, Secundanus Felix), Caratacus - Carantodia, Cassius, Divitiosa)</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD025651
+                    </bibl>
+                    <bibl>
+                        AE 1925, 37
+                    </bibl>
+                    <bibl>
+                        AE 2000, 1069
+                    </bibl>
+                    <bibl>
+                        ILTG 441
+                    </bibl>
+                    <bibl>
+                         CAG 67/1, 574
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

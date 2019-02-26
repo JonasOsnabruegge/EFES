@@ -1,0 +1,134 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Vertikal mittig in zwei Hälften zerbrochen, unten rechts ausgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>145</height>
+                                            <width>34</width>
+                                            <depth>34</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf dem Schaft und nimmt diessen fast auf der gesamten Fläche ein. Linksbündige Inschrift mit gedrängtem Schriftbild, enger Zeilenabstand. Erste Zeile höher.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte Buchstaben von schwankender Breite, mit Serifen, teilweise sehr eng und gedrängt stehend, wo dies aus Platzgründen erforderlich war (so etwa in Zeile 6 und 7).
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken:</placeName>
+                            </origPlace>
+                            <origDate when-custom="0212-07-15" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1970">
+                            <placeName ref="ph">
+                               Osterburken, Kirche St. Kilian, bei Abbrucharbeiten.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25700"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="divine" key="IunoRegina*" role="god">Iunon<supplied reason="lost">i</supplied> Regin<supplied reason="omitted">a</supplied>e</persName>
+                    <lb n="3"/><persName type="divine" key="Minerva+" role="god">M<supplied reason="lost">in</supplied>erv<supplied reason="omitted">a</supplied><supplied reason="lost">e</supplied></persName> <persName type="divine" key="BonusEventus+" role="god">Bono
+                        <lb n="4"/>E<hi rend="ligature">ve</hi>n<supplied reason="lost">tui</supplied></persName><persName type="divine" key="Geniusloci" role="god"><supplied reason="lost"> Ge</supplied>nio lo<lb n="5" break="no"/>ci</persName> deo patrio
+                    <lb n="6"/><persName type="divine" key="Marsconservator" role="god"><hi rend="ligature">Mar</hi>ti conser<hi rend="ligature">va</hi>to<hi rend="ligature">r<hi rend="tall">i</hi></hi></persName>
+                    <lb n="7"/><expan><abbr>d</abbr><ex>is</ex></expan> <expan><abbr>d</abbr><ex>eabusque</ex></expan> <expan><abbr>om</abbr><ex>nibus</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Securius" type="gentilicium">Securi<lb n="8" break="no"/>us</name> <name nymRef="Domitianus+" type="cognomen">Domit<supplied reason="lost">ia</supplied>nus</name></persName> <expan><abbr>m<lb n="9" break="no"/>il</abbr><ex>es</ex></expan> <orgName type="legio" key="legioVIIIAugustapiafidelisconstansCommodaeAntoninianae"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8">VIII</num> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied> <expan><abbr>o</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>c</abbr><ex>onstantis</ex></expan> <expan><abbr>C</abbr><ex>ommodae</ex></expan>
+                    <lb n="10"/>Antonin<supplied reason="lost">ianae</supplied></orgName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan>
+                    <lb n="11"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro <supplied reason="lost">se et suis</supplied>
+                    <lb n="12"/><supplied reason="lost">ter</supplied>tia <expan><abbr>stat</abbr><ex>ione</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied><date when-custom="0212-07-15" datingMethod="#julian" type="consulship"><supplied reason="lost"> <expan><abbr>id</abbr><ex>ibus</ex></expan></supplied>
+                    <lb n="13"/><expan><abbr>Iul</abbr><ex>iis</ex></expan> <expan><abbr>duob</abbr><ex>us</ex></expan> <persName type="consul" ref="PIR² I 182"><persName type="consul" ref="PIR² I 334"><name nymRef="Asper*" type="cognomen">A<supplied reason="lost">spris</supplied></name></persName></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD004519
+                    </bibl>
+                    <bibl>
+                        AE 1978, 525
+                    </bibl>
+                    <bibl>
+                        RSO 92
+                    </bibl>
+                    <bibl>
+                        CBI 173
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schillinger-Häfele1977"/>
+                        <biblScope>
+                            480-481, Nr. 44
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

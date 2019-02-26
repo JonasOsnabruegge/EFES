@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Lucius Ferridius Felix</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType></p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>179</height>
+                                            <width>70</width>
+                                            <depth>28</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem gerahmten Inschriftfeld, das nicht ganz ausgefüllt wird. Zentrierte Inschrift, jedoch leicht nach rechts verschoben, so dass teilweise nach rechts kein Platz mehr verfügbar war, ausgewogenes Schriftbild.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältige Buchstaben, aus Platzmangel einige am Zeilenende kleiner ausgeführt.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CN" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="Caputcivitatis" key="Noviomagus" ref="ph">Noviomagus</placeName>
+                                <placeName type="modern">Speyer</placeName>
+                            </origPlace>
+                            <origDate notBefore="0001" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1861"><placeName ref="ph"/>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/13778-3-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name nymRef="Ferridius" type="gentilicium">Fer<hi rend="ligature">r<hi rend="tall">i</hi>d</hi>i<hi rend="small">o</hi></name>
+                        <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Balbus" type="cognomen">Balbi</name></persName> <expan><abbr>lib</abbr><ex>erto</ex></expan>
+                        <lb n="3"/><name nymRef="Felix" type="cognomen">Felici</name></persName>
+                    <lb n="4"/>et <persName type="attested" ref="persons.xml#p"><name nymRef="Modestus" type="cognomen">Modest<hi rend="small">o</hi></name></persName>
+                    <lb n="5"/><expan><abbr>ser</abbr><ex>vo</ex></expan> <expan><abbr>nation</abbr><ex>e</ex></expan>
+                    <lb n="6"/><expan><abbr>Trever</abbr><ex>o</ex></expan>
+                    <lb n="7"/><expan><abbr>ann</abbr><ex>orum</ex></expan> <num value="18">XIIX</num>
+                    <lb n="8"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Wohl eher aus Zurzach/Tenedo um Vindonissa? Nicht aufnehmen?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD020347
+                    </bibl>
+                    <bibl>
+                        AE 1977, 590
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels1976"/>
+                        <biblScope>
+                            208-216
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -86,7 +86,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Virius" type="gentilicium">Virio</name> <name nymRef="Paternus" type="cognomen">Pat<hi rend="ligature"><hi rend="reversed">e</hi>r</hi><lb n="3" break="no"/>no</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Sextus" type="cognomen?">Sexti</name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <orgName type="fili" role="creator">fili</orgName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Virius" type="gentilicium">Virio</name> <name nymRef="Paternus" type="cognomen">Pat<hi rend="ligature"><hi rend="reversed">e</hi>r</hi><lb n="3" break="no"/>no</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Sextus" type="cognomen">Sexti</name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <orgName type="fili" role="creator">fili</orgName>
                     <lb n="4"/>eius <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>
             </div>

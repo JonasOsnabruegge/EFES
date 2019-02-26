@@ -1,0 +1,136 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und Iuno Regina</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ladenburg, Lobdengau-Museum; Heidelberg, Kurpfälzisches Museum (Kopie)</repository>
+                        <idno/>                    
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">Iuppitergigantensäule</objectType> von hoher Qualität, mit Sockel, Viergötterstein mit Hercules (vorne?), Mercurius (links), Iuno (hinten), Minerva (rechts); Abdeckplatte, Zwischensockel, Schuppensäule und Reitergruppe; bereits in der Antike zweimal zerstört.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>410</height>
+                                            <width>76</width>
+                                            <depth>76</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <dimensions>
+                                        <height>32</height>
+                                        <width>32</width>
+                                    </dimensions>
+                                    Die Inschrift befindet sich auf dem Zwischensockel, die erste Zeile auf der darauf befindlichen Säulenbasis. Das Inschriftfeld ist für die Zweitbeschriftung sorgfältig etwa 1 cm tief abgearbeitet worden.</layout>                               
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Die Inschrift ist, wohl nach der ersten Zerstörung der Säule durch einen Brand, mit einer zweiten Textversion erneut eingehauen worden, dabei war Z. 1 Bestandteil sowohl der alten wie der neuen Inschrift. Spuren der Alten Inschrift sind noch in der letzten Zeile erkennbar. Leicht unregelmäßige Buchstaben mit schwankender Höhe, Zeilenführung ungenau. Z. 4 deutlich kleiner mit geringem Abstand nach oben und unten. Zu Beginn von Z. 3 großer Abstand zwischen RE und G. Die S mit größer dimensioniertem oberen Bogen und dadurch leichter Rechtsneigung, E mit weit nach links ausgezogenen Querhasten.</p>
+                                <height min="2.5" max="3.8">2,8-3,8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0230" cert="medium"/>
+                        </origin>
+                        <provenance type="found" when="1973"><placeName ref="ph">Ladenburg, Trajanstraße 19a als Verfüllung in einem römischen Brunnen</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27052-6.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="later" n="1">
+                    <ab>
+                        <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                        <lb n="2"/><supplied reason="lost"><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName></supplied>
+                        <lb n="3"/>et <persName type="divine" key="IunoRegina" role="god">Iunoni
+                            <lb n="4"/><expan><abbr><hi rend="ligature">Re</hi>gin</abbr><ex>a</ex><abbr>e</abbr></expan></persName>
+                        <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Novanius" type="gentilicium">Novanius</name>
+                            <lb n="6"/><name nymRef="Augustus" type="cognomen">Augustus</name></persName>
+                        <lb n="7"/>in suo <expan><abbr>r</abbr><ex>estituit</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="earlier" n="2">
+                    <ab>
+                        <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                        <lb n="2"/><supplied reason="lost"><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName></supplied>
+                        <lb n="3"/><supplied reason="lost" cert="low">Iunoni</supplied>
+                        <lb n="4"/><supplied reason="lost"><hi rend="ligature">Re</hi>ginae</supplied>
+                        <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="6"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="7"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Die endgültige Zerstörung und Verbergung in dem Brunnen erfolgte wohl um 250/260. Zu der Gruppe gehört noch der Altar <!-- ref hier auf Ara --> </p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD006415
+                    </bibl>  
+                    <bibl>
+                        AE 2000, 1083
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            155-156, Nr. 250
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            42-48, Nr. 10a; Abb. 10a-o
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>          
+        </body>
+    </text>
+</TEI>

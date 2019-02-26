@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift des Leubius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms, Kreuzgang</repository>
+                        <idno>R 1657</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Reitergrabstele</objectType> mit eingeschriebenem Dreiecksgiebel, auf den Giebelschrägen Palmettenakrotere. Das Bildfeld mit bogenförmigem Abschluss direkt unter dem Giebel. Im Bildfeld Reiter ohne Helm im Kettenpanzer, rechts das umgegürtete Schwert (spatha), in der erhobenen Rechten die Stoßbereit nach unten gerichtete Lanze; auf einem nach rechts in der Levade dargestellten Pferd mit Zaumzeug. Unter dem Pferd niedergerittener Barbar mit schützend erhobenem, seckseckigen Schild. Links hinter dem Pferd calo in tunica mit Lanze.</p>
+                                    <material>Kalksandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>192</height>
+                                            <width>61</width>
+                                            <depth>33</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Das nicht abgegrenzte Inschriftfeld befindet sich unterhalb des Bildfeldes. Die einzelnen Zeilen sind unterschiedlich weit eingerückt, aber nicht zentriert, letzte Zeile gesperrt. Ungleichmäßiges Schirftbild, eher gedrängt, in Zeile 3 und am Ende von eile 1, 2 und 4 deutlich enger stehend.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, tief und sorgfältig, aber uneinheitlich (siehe etwa die unterschiedliche Höhe der mittleren Querhasten bei E und F) und unsicher ausgeführte Buchstaben mit breiten Hasten und Serifen, besonders die Rundungen scheinen Probleme bereitet zu haben, sichtbar etwa am G in Zeile 5 und O in Zeile 3. 
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0041" notAfter="0069" cert="low">stilistisch, Truppengeschichte</origDate>
+                        </origin>
+                        <provenance type="found" when="1899">
+                            <placeName ref="ph">
+                               Worms, Hochstraße, bei der ins Eisbachtal führenden Römerstraße.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/16780"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Leubius" type="cognomen">Leubius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Claupus" type="cognomen">Claupi</name></persName>
+                    <lb n="2"/><expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>eq</abbr><ex>ues</ex></expan> missicius
+                    <lb n="3"/><orgName type="ala" key="alaSebosiana">ala Sebosiana</orgName>
+                    <lb n="4"/><expan><abbr>an</abbr><ex>norum</ex></expan> LXXV <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gratus" type="cognomen">Gratus</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> miles
+                    <lb n="6"/>ec <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD022945
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11709
+                    </bibl>
+                    <bibl>
+                        AE 1899, 191
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 51
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

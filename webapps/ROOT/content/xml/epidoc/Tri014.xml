@@ -83,7 +83,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
                     <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator?"><name nymRef="---nus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>nus</name></persName> <expan><abbr>fil</abbr><ex>i--</ex></expan> eius
                 </ab>
             </div>

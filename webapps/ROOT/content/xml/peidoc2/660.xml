@@ -1,0 +1,132 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Valerius Maxantius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms im Andreasstift, Kreuzgang</repository>
+                        <idno>R 1645</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Reitergrabstele</objectType>. Bildnische mit bogenförmigem Abschluss, darin Reiter in knielangem Panzer(?) und Mantel mit eingelegter Lanze im Rechten Arm, auf seiner linken Seite Schild, auf stehendem Pferd nach rechts. Einfache Darstellung.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>142</height>
+                                            <width>72</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zeile 1 befindet sich in den Bogenzwickeln oberhalb der Bildnische. Die Zeile ist spiegelverkehrt geschrieben, was vielleicht aus einem Vorlagefehler herrührt. Die Inschrift steht im Blocksatz mit zentrierter und gesperrter letzter Zeile. Ungleichmäßiges, unruhiges Schriftbild, Zeilenführung nicht eingehalten. Punktförmige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, sehr uneinheitlich ausgeführte, rohe Buchstaben, zum Teil mit Serifen, eher flach eingehauen. K mit kurzen Schräghasten.
+                                </p>
+                                <height min="5.0" max="7.0">5,0-7,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0270" notAfter="0350" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1885">
+                            <placeName ref="ph">
+                               Worms, im Süden von Mariamünster.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/16784"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>M</abbr><ex>anibus</ex></expan> <hi rend="reversed"><expan><abbr>D</abbr><ex>is</ex></expan></hi>
+                    <milestone unit="section" type="relief"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Valerius*" type="gentilicium"><expan><abbr>Val</abbr><ex>erius</ex></expan></name> <name nymRef="Maxantius" type="cognomen">Maxantius</name></persName>
+                    <lb n="3"/><expan><abbr>eq</abbr><ex>ues</ex></expan> ex <orgName type="numerus" key="numeruskatafractariorum*">numeri<note>!</note>
+                    <lb n="4"/><expan><abbr>kata</abbr><ex>fractariorum</ex></expan></orgName> <expan><abbr>v<hi rend="supraline">i</hi>x</abbr><ex>it</ex></expan> <date type="age" dur="P32Y6M"><expan><abbr>a</abbr><ex>n</ex><abbr><hi rend="ligature">ni</hi>s</abbr></expan>
+                    <lb n="5"/><num value="32">XXXII</num> <expan><abbr>me</abbr><ex>n</ex><abbr>s</abbr><ex>es</ex></expan> <num value="6">VI</num></date>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Valerius*" type="gentilicium"><expan><abbr>Val</abbr><ex>erius</ex></expan></name> <name nymRef="Dacus" type="cognomen">Dacus</name></persName> <expan><abbr>fr</abbr><ex>ater</ex></expan>
+                    <lb n="7"/><expan><abbr>fec</abbr><ex>it</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075804
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6238
+                    </bibl>
+                    <bibl>
+                        ILS 9208
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 55
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            189, Nr. 310; Taf. 18, 1
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

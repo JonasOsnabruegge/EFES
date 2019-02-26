@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar für Mars Loucetius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Straßburg/Strasbourg, Musé Archéologique</repository>
+                        <idno>6601</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Bekrönung und Sockel abgeschlagen.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(57)</height>
+                                            <width>30</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft. Z. 1 linksbünfig, Z. 2/3 rechtsbündig, der REst der Inschrift füllt das Inschriftfeld auf ganzer Breite aus. Ungleichmäßiges Schriftbild. Vorgezeichnete Hilfslinien.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige z.T. serifenlose Buchstaben von ungleichmäßiger Ausführung. Schwankende Buchstabenhöhe. A ohne Querhaste. Die recht Schräghaste des A in Z. 1 geht ansatzlos in die linke Schräghaste des V in Z. 2 über.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="Legionslager" key="Argentorate" ref="ph">Argentorate</placeName>
+                                <placeName type="modern">Straßburg/Strasbourg:</placeName> Legionslager, vor der porta principalis sinistra. 
+                            </origPlace>
+                            <origDate notBefore="-0030" notAfter="0014" cert="low">Stationierung</origDate>
+                        </origin>
+                        <provenance type="found" when="1904">
+                            <placeName ref="ph">
+                                Straßburg/Strasbourg, Blauwolkengasse/Rue de la Nuée-Bleue 5, Keller
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F021682.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="MarsLoucetius" role="god"><hi rend="ligature">Ma</hi>rt<hi rend="tall">i</hi>
+                    <lb n="2"/><expan><abbr>Louce<hi rend="superscript">t</hi></abbr><ex>io</ex></expan></persName>
+                    <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Fittio" type="cognomen">Fittio</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Condollus" type="cognomen">Cond<lb n="5" break="no"/>olli</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>eq</abbr><ex>ues</ex></expan> <orgName type="ala" key="alaPetrianaTreverorum">al<lb n="6" break="no"/>a <expan><abbr>Petri</abbr><ex>ana</ex></expan> <expan><abbr>Treve</abbr><ex>rorum</ex></expan></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11605
+                    </bibl>
+                    <bibl>
+                        ILS 9136
+                    </bibl>
+                    <bibl>
+                        AE 1907, 77
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 370; Abb. 368
+                    </bibl>
+                    <bibl>
+                        <ptr target="Domaszewski1903"/>
+                        <biblScope>
+                            364-365, Nr. 10; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

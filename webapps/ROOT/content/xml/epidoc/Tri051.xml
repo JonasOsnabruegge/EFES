@@ -88,7 +88,7 @@
                     <lb n="4"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>itus</ex></expan></name> <gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap><name nymRef="Celsius" type="gentilicium">Celsius</name> <name nymRef="Victorinus" type="cognomen">Victorinus</name></persName>
                     <lb n="5"/><expan><abbr>libr</abbr><ex>arius</ex></expan> principis refecer<hi rend="ligature">unt</hi>
                     <lb n="6"/><date when-custom="0201" datingMethod="#julian" type="consul"><persName type="consul" ref="PIR² N 114"><name nymRef="Mucianus" type="cognomen">Muciano</name></persName> et <persName type="consul" ref="http://pir.bbaw.de/addenda/A/0644.html"><name nymRef="Fabianus" type="cognomen">Fabiano</name></persName> <expan><abbr>c<hi rend="supraline">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
-                    <lb n="7"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Quintius*" type="gentilicium"><expan><abbr>Q</abbr><ex>uintius</ex></expan></name> <name nymRef="Catilius" type="cognomen">Ca<hi rend="ligature">til</hi>us</name></persName> <expan><abbr>o<hi rend="ligature">pt</hi></abbr><ex>io</ex></expan> <expan><abbr>pr</abbr><ex>incipis</ex></expan> incho<hi rend="ligature">at</hi><hi rend="ligature">um</hi> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> perfec<hi rend="ligature">it</hi> <date when-custom="0202" datingMethod="#julian" type="consul"><expan><abbr>duob</abbr><ex>us</ex></expan>
+                    <lb n="7"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Quintius*" type="gentilicium"><expan><abbr>Q</abbr><ex>uintius</ex></expan></name> <name nymRef="Catilus" type="cognomen">Ca<hi rend="ligature">til</hi>us</name></persName> <expan><abbr>o<hi rend="ligature">pt</hi></abbr><ex>io</ex></expan> <expan><abbr>pr</abbr><ex>incipis</ex></expan> incho<hi rend="ligature">at</hi><hi rend="ligature">um</hi> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> perfec<hi rend="ligature">it</hi> <date when-custom="0202" datingMethod="#julian" type="consul"><expan><abbr>duob</abbr><ex>us</ex></expan>
                     <lb n="8"/><expan><abbr>Aug</abbr><am>g</am><ex>ustis</ex></expan> <persName type="emperor" ref="persons.xml#p"><name nymRef="Severus" type="cognomen">Seve<unclear>r</unclear>o</name></persName> <num value="3">III</num> et <persName type="emperor" ref="persons.xml#p"><name nymRef="Antoninus+" type="cognomen"><supplied reason="lost">Ant</supplied>o<hi rend="ligature">ni</hi>n<supplied reason="lost">o</supplied></name></persName> <expan><abbr>c<hi rend="supraline">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
                 </ab>
             </div>
@@ -104,7 +104,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079145
                     </bibl>
                     <bibl>
                         CIL XIII 5970

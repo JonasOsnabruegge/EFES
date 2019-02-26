@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Aldvaluhus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Mittelhreinisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, bestoßen.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>45</height>
+                                            <width>30</width>
+                                            <depth>13</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem von einer einfachen Ritzlinie gerahmten Inschriftfeld, die einzelnen Zeilen sind durch mit dem Rahmen verbundene horizontale Ritzlinien getrennt. Dreieckige Worttrenner. Ungleichmäßiges und uneinheitliches Schriftbild durch die Verwendung zahlreicher unterschiedlicher Glyphen.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Einzigartige Komposition unterschiedlicher Glyphen, an die Capitalis, frühe Unziale und Minuskel angelehnte Buchstaben mit Serifen. Vgl. den Kommentar dazu bei Boppert. Uneinheitliche Ausführung, schwankende Breite und Höhe.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0600" notAfter="0750" cert="low">Nach Boppert, Paläografie.</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1734">
+                            <placeName ref="ph">
+                               Worms, Bergkloster.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$OS_CIL_13_06256.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Hic pau<lb n="2" break="no"/>sat cor<lb n="3" break="no"/>pus <persName type="attested" ref="persons.xml#p"><name nymRef="Aldvaluhus" type="cognomen">Ald<lb n="4" break="no"/>valuhi</name></persName> cu<lb n="5" break="no"/>ius anima
+                    <lb n="6"/>gaud<hi rend="ligature">et</hi> in
+                    <lb n="7"/>caelo
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD078459
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6256
+                    </bibl>
+                    <bibl>
+                        ILCV 3417
+                    </bibl>
+                    <bibl>
+                        <ptr target="Boppert1971"/>
+                        <biblScope>
+                            155-159; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

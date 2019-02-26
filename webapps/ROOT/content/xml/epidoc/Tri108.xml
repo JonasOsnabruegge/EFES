@@ -57,7 +57,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0100" cert="low"/>
                         </origin>
-                        <provenance type="found" notAfter="1822">
+                        <provenance type="found" when="1822">
                             <placeName ref="ph">
                                 Betschdorf, Niederbetschdorf, am Waldrand
                             </placeName>
@@ -99,7 +99,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079078
                     </bibl>
                     <bibl>
                         CIL XIII 6071

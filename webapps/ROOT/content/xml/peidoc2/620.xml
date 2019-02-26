@@ -1,0 +1,133 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Honoratianus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg am Main, Römermuseum</repository>
+                        <idno>1954, 33</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Giebelstele</objectType> mit dreieckigem Abschluss. Im Giebelfeld Halbmondornament, in den runden Eckakroteren Rosetten.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>91</height>
+                                            <width>41</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Das vertiefte Inschriftfeld wird von Rankenornamenten gerahmt. Stellenweise ausgebrochen. Linksbündige Inschrift, die das Inschriftfeld nahezu vollständig ausfüllt, erste Zeile gesperrt und fast zentriert. Gedrängtes, leicht ujngleichmäßiges Schriftbild. Dreieckige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte, teils breite, teils eher schmale Buchstaben.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg am Main: </placeName> Gräberstraße
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                        </origin>
+                        <provenance type="found" when="1937">
+                            <placeName ref="ph">
+                               Obernburg am Main, beim Krankenhaus, römische Gräberstraße
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6974.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Honoratianus" type="cognomen">Honoratia<lb n="3" break="no"/>no</name></persName> filio
+                    <lb n="4"/>hic iacet exa<lb n="5" break="no"/>nimis fatis pr<hi rend="small">o</hi><lb n="6" break="no"/>perantibus i<supplied reason="omitted">n</supplied>f<hi rend="ligature">an</hi>s
+                    <lb n="7"/><date type="age" dur="P10M">bis quinis tantum
+                    <lb n="8"/>qui vixit <hi rend="ligature">me</hi>nsib<hi rend="small">u</hi>s</date>
+                    <lb n="9"/>idem congesta
+                    <lb n="10"/>tegitur nunc hic
+                    <lb n="11"/>tellure sepultus
+                    <lb n="12"/>huic pater <hi rend="ligature">ae</hi><hi rend="ligature">te</hi>rn<lb n="13" break="no"/><hi rend="ligature">um</hi> ti<choice><corr>t</corr><sic>i</sic></choice>u<supplied reason="lost">lo</supplied> <expan><abbr>c<hi rend="small">o</hi>nscribsi</abbr><ex>t</ex></expan>
+                    <lb n="14"/>hon<hi rend="small">o</hi>r<unclear>em</unclear> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Flavius*" type="gentilicium"><expan><abbr>Fl</abbr><ex>avius</ex></expan></name> <name nymRef="Florentinus" type="cognomen">Fl<hi rend="small">o</hi>ren<lb n="15" break="no"/>tinus</name></persName> pa<hi rend="ligature">te</hi>r <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Metrische Inschrift. Hexameter. Z. 8: Nesselhauf - Lieb: mensib&lt;u&gt;s.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075841
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 156
+                    </bibl>
+                    <bibl>
+                        RSO 198
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            179, Nr. 152
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

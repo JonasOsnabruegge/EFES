@@ -84,7 +84,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><choice><unclear>o</unclear><unclear>c</unclear></choice>t<choice><unclear>o</unclear><unclear>c</unclear></choice></orig>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><choice><unclear>o</unclear><unclear>c</unclear></choice>t<choice><unclear>o</unclear><unclear>c</unclear></choice></orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>vall</orig><supplied reason="lost"/>
                 </ab>
             </div>
@@ -100,7 +100,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079006
                     </bibl>
                     <bibl>
                         CIL XIII 5964

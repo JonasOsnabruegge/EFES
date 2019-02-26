@@ -80,7 +80,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr><supplied reason="lost">Imp</supplied></abbr><ex>eratori</ex></expan><expan><abbr><supplied reason="lost"> Cae</supplied>s</abbr><ex>ari</ex></expan> <name nymRef="Nerva" type="cognomen">N<supplied reason="lost">ervae</supplied></name>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> </supplied><expan><abbr><supplied reason="lost">Cae</supplied>s</abbr><ex>ari</ex></expan> <name nymRef="Nerva" type="cognomen">N<supplied reason="lost">ervae</supplied></name>
                     <lb n="2"/><name nymRef="Traianus" type="cognomen"><supplied reason="lost">Tr</supplied>aian<supplied reason="lost">o</supplied></name>
                     <lb n="3"/><supplied reason="lost">Au</supplied>g<supplied reason="lost">usto Germanico</supplied>
                     <lb n="4"/><supplied reason="lost">D</supplied>aci<supplied reason="lost">co</supplied></persName><supplied reason="lost"> pontifici <expan><abbr>max</abbr><ex>imo</ex></expan></supplied>
@@ -99,10 +99,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079022
                     </bibl>
                     <bibl>
                         ILTG 419
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 375
                     </bibl>
                     <bibl>
                         <ptr target="Hojte2005"/>

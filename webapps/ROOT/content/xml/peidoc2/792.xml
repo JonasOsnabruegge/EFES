@@ -1,0 +1,162 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mehrere Weihinschriftfragmente</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Mehrere nicht aneinanderpassende Fragmente, aufgrund des Fundortes wohl zu einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> gehörig, ob alle Fragmente zu dem selben Monument gehörten, ist nicht sicher.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(10)</height>
+                                            <width>(17)</width>
+                                            <depth>(3)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Sowei nocht erkennbar geordnetes Schriftbild, bei Fragment b Zeile 2 O klein im Winkel des L stehend.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig und tief eingehauene, quadratische Buchstaben mit Serifen. S auf Fragment a leicht unsicher (nicht zugehörig?). P mt weit geöffnetem Bogen.
+                                </p>
+                                <height min="4.5" max="5.5">5,5-4,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="ph" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihbezirk, Fläche 12, Nr. 164.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>a</unclear>n</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="consul" ref="persons.xml#p"><name nymRef="Asper?" type="cognomen"><expan><abbr>Asp</abbr><ex cert="low">ro</ex></expan></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                        <dimensions unit="cm">
+                            <height>(9)</height>
+                            <width>(4,5)</width>
+                            <depth>(4,5)</depth>
+                        </dimensions>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>iv</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>l<hi rend="small">o</hi></orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="c">
+                    <ab>
+                        <dimensions unit="cm">
+                            <height>(10)</height>
+                            <width>(11)</width>
+                            <depth>(3,5)</depth>
+                        </dimensions>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>a sp</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="d">
+                    <ab>
+                        <dimensions unit="cm">
+                            <height>(29,5)</height>
+                            <width>(15,5)</width>
+                            <depth>(7,5)</depth>
+                        </dimensions>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>n<unclear>o</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>oca</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>va t</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ct<unclear>o</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Fragment b: vielleicht Iu[noni Reginae ---] / [--- Genio] lo[ci ---]?
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD078431. HD078432. HD078433. HD078434
+                    </bibl>
+                    <bibl>
+                        <ptr target="SchallmayerPreuss1994"/>
+                        <biblScope>
+                            58, Nr. 111; Taf. 13, Kat. 111
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

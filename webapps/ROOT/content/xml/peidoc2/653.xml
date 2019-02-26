@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Partus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms</repository>
+                        <idno>R 1660</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Oberer Teil einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, bei der Auffindung in zwei Teile zerbrochen, der untere Teil ist heute verloren. Bekrönung abgebrochen, im Giebelfeld Rosette, von Muscheln flankiert. Im rechteckigen Bildfeld Reiter in lorica hamata(?), Helm und umgegürtetem Schwert (spatha), auf nach rechts gewendetem Pferd mit Zaumzeug und phalerae, in der erhobenen Rechten die stoßbereit nach unten gerichtete Lanze. Hinter dem Pferd zwei calones, übereinander dargestellt. Linker Rand des Reliefs abgebrochen, Relief verwittert.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(93)</height>
+                                            <width>72</width>
+                                            <depth>20</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0014" notAfter="0041" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1666">
+                            <placeName ref="ph">
+                               Worms, vor der Martinspforte
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/16779-1-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Partus" type="cognomen">Partus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Mutius" type="cognomen">Mutii</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan>
+                    <lb n="2"/>eques <orgName type="ala" key="alaAgrippiana">ala Agrippi<lb n="3" break="no"/>ana</orgName> <orgName type="ethnic" key="natioTrever">natione Trever</orgName></persName>
+                    <lb n="4"/><date type="age" dur="P25Y"><expan><abbr>annoru</abbr><ex>m</ex></expan> <num value="25">XXV</num></date> <date type="military-service-span" dur="P14Y"><expan><abbr>stip</abbr><ex>endiorum</ex></expan>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><num value="14"><supplied reason="lost">X</supplied>IIII</num></date> hic <expan><abbr>sit</abbr><ex>us</ex></expan> est
+                    <lb n="6"/><orgName type="fratres" role="creator">fratres</orgName> posuerunt
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075803
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6235
+                    </bibl>
+                    <bibl>
+                        CIRh 893
+                    </bibl>
+                    <bibl>
+                        ILS 2503
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 50
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            Nr. 6020
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und alle übrigen Götter</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno>50-4885 (ZFA Rastatt); 108, 5 (Osterburken)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit zugehöriger Plinthe. Bekrönung abgeschlagen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>105</height>
+                                            <width>45</width>
+                                            <depth>28</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf dem Schaft. Die eher grob zentrierte Inschrift nimmt den gesamten verfügbaren Platz ein. Leicht ungleichmäßiges Schriftbild, im unteren Teil sehr gedrängt, mit einigen aus Platzgründen klein geschriebenen Buchstaben. Flach vorgerissene Hilfslinien. Auf dem Altar befand sich ursprünglich eine im Kontext gefundene Geniusstatue.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig ausgeführt.
+                                </p>
+                                <height min="3.5" max="5.0">5,0-3,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate when-custom="0182-01-13" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihebezirk, Befund III/1-3, Nr. 108, 5.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/8534/"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/>dis deab<lb n="3" break="no"/>usque
+                    <lb n="4"/>omn<hi rend="ligature">ib</hi>us
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Titus" type="praenomen"><expan><abbr><hi rend="tall">T</hi></abbr><ex>itus</ex></expan></name> <name nymRef="Ianuarinius" type="gentilicium">Ian<hi rend="ligature">ua</hi>r<hi rend="small">i</hi><lb n="6" break="no"/><hi rend="ligature">ni</hi><hi rend="small">u</hi>s</name> <name nymRef="Tertius" type="cognomen"><hi rend="ligature"><hi rend="tall">T</hi>e</hi>rt<hi rend="small"><hi rend="superscript">i</hi>u</hi>s</name></persName>
+                    <lb n="7"/><expan><abbr>m<hi rend="ligature">il</hi></abbr><ex>es</ex></expan> <orgName type="legio" key="legioVIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num> <expan><abbr><hi rend="ligature">Aug</hi></abbr><ex>ustae</ex></expan></orgName>
+                    <lb n="8"/><expan><abbr>b</abbr><ex>ene</ex><abbr><hi rend="small">f</hi></abbr><ex>iciarius</ex></expan> <expan><abbr>c<hi rend="small">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="9"/><date when-custom="0182-01-13"><expan><abbr><hi rend="ligature"><hi rend="tall">I</hi>d</hi></abbr><ex>ibus</ex></expan> <expan><abbr>I<hi rend="small">a</hi>n</abbr><ex>uariis</ex></expan> <persName type="consul" ref="PIR² P 311"><name nymRef="Mamertinus" type="cognomen">M<hi rend="small">a</hi>m<lb n="10" break="no"/>ertino</name></persName> et <persName type="consul" ref="PIR T 169"><name nymRef="Rufus" type="cognomen">R<hi rend="small">u</hi>f<hi rend="small">o</hi></name></persName> <expan><abbr>c</abbr><ex>onsulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Ungewöhnliche Ligaturformen. Z. 4: I klein am linken Ende der oberen Serife des B ansetzend, ebenso wie bei der NI-Ligatur in Z. 6. TE-Ligatur mit T-longa, I und V klein übereinander zwischen T und S.
+                    Z. 10: CBI; AE 1985: c[o(n)s(ulibus)]
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD002057
+                    </bibl>
+                    <bibl>
+                        AE 1985, 686
+                    </bibl>
+                    <bibl>
+                        CBI 156
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Terminalcippus mit Grenzinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musées du château des Rohan</repository>
+                        <idno>Bi 07</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckiger <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/92">Terminalcippus</objectType>, oben seitlich abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>191</height>
+                                            <width>48</width>
+                                            <depth>67</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift verteilt sich auf alle vier Seiten. Oberfläche verwittert und verrieben.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" notAfter="1869">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Greifenstein, Schlosserhöhe
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/293.html">Grenzmarkierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27826-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="section" n="1">
+                    <ab>
+                        <lb n="1"/><placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389"><expan><abbr>Tab</abbr><ex>ernae</ex></expan></placeName>
+                        <lb n="2"/><num value="2">II</num> <expan><abbr>s</abbr><ex>emis</ex></expan> <expan><abbr><am><g type="dodrans"/></am></abbr><ex>dodrans</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <ab>
+                        <lb n="1"/><abbr>It</abbr>
+                        <lb n="2"/><expan><abbr>pri<hi rend="ligature">va</hi>t</abbr><ex>um</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="3">
+                    <ab>
+                        <lb n="1"/><orig>l p</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ar</orig>
+                        <lb n="2"/><num value="20">XX</num> <expan><abbr><am><g type="triens"/></am></abbr><ex>triens</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="4">
+                    <ab>
+                        <lb n="1"/><orig>ii</orig>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Text 2, Z. 1: It(er)?
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11645
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 578-579
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

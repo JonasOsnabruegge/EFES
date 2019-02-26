@@ -60,6 +60,7 @@
                         </origin>
                         <provenance type="found" when="1862">
                             <placeName ref="ph">
+                                <geo>48.8858 7.9343</geo>
                                 Betschdorf, Spechtensee
                             </placeName>
                         </provenance>
@@ -99,7 +100,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079105
                     </bibl>
                     <bibl>
                         CIL XIII 6072

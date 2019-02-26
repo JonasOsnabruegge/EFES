@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dieburg, Museum Schloss Fechenbach</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwischensockel einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">Iuppiter(giganten?)säule</objectType>(Gesamthöhe 240 cm) mit daraufgesetzter Schuppensäule, darunter Viergötterstein mit: Iuno in Chiton und Mantel, verschleiert, mit der Rechten über einem Altar opfernd, in der Linken Acerra, Pfau; Minerva in Chiton und Aegis mit Gorgoneion, behelmt, in der Rechten den Speer, mit der Linken auf den Schild gestützt, auf der Schulter Eule; nackter Hercules im Kampf mit dem nemeischen Löwen, Keule rechts von ihm angelehnt; Mercurius in Mantel und Flügehut, in der Linken Caduceus, in der Rechten Marsupium, zwischen seinen Füßen Widder.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>35</height>
+                                            <width>34</width>
+                                            <depth>31.5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf dem Zwischensockel. Die erste Zeile auf dem Gesims, Z. 2-5 auf dem Korpus. Das Inschriftfeld wird im Blocksatz ausgefüllt, in Z. 3 aus Platzmangel O klein am Zeilenende. Gleichmäßiges Schriftbild.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, weitgehend sorgfältig eingeschlagene Buchstaben, mit kleinen Unsicherheiten (sichtbar bei den S und bei den ligierten Buchstaben), unterschiedlich tief, aber eher flach eingehauen. Z. 1 O schmaler als in Z. 4. Bemerkenswert ist die gespiegelte RR-Ligatur in Z. 3, bei der das retrograde R deutlich flacher und mit kleinerem Bogen und Schräghaste (nachträglich?) eingehauen wurde. Die RE-Ligatur in Zeile 1 allerdings auch flacher.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph"/>
+                                <placeName type="modern">Dieburg:</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0160" notAfter="0220" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1998">
+                            <placeName ref="ph">
+                                Dieburg, Kettelerstraße 4, in einem römischen Brunnen.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/24724"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corona"/>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="2"/>et <persName type="divine" key="IunoRegina" role="god"><expan><abbr>Iun</abbr><ex>oni</ex></expan> <expan><abbr><hi rend="ligature">Re</hi>g</abbr><ex>inae</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ver---" type="gentilicium"><abbr>Ver</abbr></name> <name nymRef="Verrinus" type="cognomen">Ve<hi rend="ligature"><hi rend="reversed">r</hi>r</hi><hi rend="small">i</hi>n<hi rend="small">us</hi></name></persName>
+                    <lb n="4"/>in suo v<hi rend="small">o</hi><lb n="5" break="no"/>tum <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                Z. 3: VS ist sehr klein und schräggestellt an das letzte V am Zeilenende angefügt, die Buchstaben sind eher klein und unscheinbar, so dass sie auf den ersten Blick as Beschädigung des Steines erscheinen, sind aber nicht kleiner als das klein hinzugefüte I in der selben Zeile.
+                CSIR: Verrnius.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sorgfältig ausgeführte Buchstaben, eigenwillige Ligaturen, die etwas flacher (unsicherer) ausgeführt wurden. Die gut und sauber, aber nicht ausgeprägt qualitätvoll gearbeitete Inschrift korrespondiert mit der Qualität der Reliefs, ebenso wie bei der in beiden Belangen kunstvolleren Darstellung auf der Säule des Licinius OB (tiefer, breiter und sorgfältiger ausgearbeitete Hasten).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD045013
+                    </bibl>
+                    <bibl>
+                        AE 2003, 1272
+                    </bibl>
+                    <bibl>
+                        AE 2005, 1110
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 266
+                    </bibl>
+                    <bibl>
+                        IDieburg 9
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

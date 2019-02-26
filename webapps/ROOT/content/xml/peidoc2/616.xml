@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beneficiarier-Weihinschrift für Iuppiter Optimus Maximus und den Genius Loci</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg am Main, Römermuseum</repository>
+                        <idno>R 1954, 18</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, auf der linken Nebenseite geometrisch stilisiertes Blitzbündel; auf der rechten Nebenseite zwei helixartig um einen Globus verdrehte Füllhörner.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>124</height>
+                                            <width>72</width>
+                                            <depth>40</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften, einfach gerahmten Inschriftfeld auf dem Schaft. Erste Zeile gesperrt und zentriert. Der Rest der Inschrift im Blocksatz, überwiegend gleichmäßiges, geordnetes Schriftbild, in Zeile 2 neben den Ligaturen aus Platzmangel am Zeilenende O und C einander überlagernd, die Querhaste des L wird vom O berührt. In Zeile 3 S klein in den Winkel des V eingeschrieben. In Zeile 5 sind B und F durch eine Querhaste verbunden. Dreieckige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig gearbeitete quadratische Buchstaben mit Serifen (capitalis Quadrata). E und F mit gleich langen Querhasten.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg am Main:</placeName> Kastell, porta principalis dextra, bei 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250"/>
+                        </origin>
+                        <provenance type="found" when="1954">
+                            <placeName ref="ph">
+                               Obernburg am Main, südlich der Stadt; 110 m von der porta principalis dextra an einer römischen Straße
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6927.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="divine" key="Geniusloci*" role="god"><expan><abbr>G<hi rend="ligature"><hi rend="reversed">e</hi>n</hi></abbr><ex>io</ex></expan> <expan><abbr>loc</abbr><ex>i</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Bellius" type="gentilicium">Belliu<hi rend="tall"><hi rend="superscript">s</hi></hi></name>
+                    <lb n="4"/><name nymRef="Marcelllinus" type="cognomen">Marcel<lb n="5" break="no"/>linus</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>c<hi rend="small">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>«
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD017036
+                    </bibl>
+                    <bibl>
+                        AE 1957, 49
+                    </bibl>
+                    <bibl>
+                        RSO 89
+                    </bibl>
+                    <bibl>
+                        CBI 143
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 172
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            178, Nr. 148
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

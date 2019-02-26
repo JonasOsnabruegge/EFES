@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugensäule des Maximinus Thrax</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Darmstadt, Hessisches Landesmuseum</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, oben und unten abgebrochen, bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(55)</height>
+                                            <width>38</width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+~)</p>
+                                <height>5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Groß-Umstadt</placeName>
+                            <origDate notBefore="0235" notAfter="0238"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notBefore="1831" notAfter="1832">
+                            <placeName ref="ph">
+                                Groß-Umstadt, zwischen Kleestadt und Altheim, 'Hohe Straße' von Dieburg nach Stockstadt
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/8582-1.jpg"/>
+        <graphic url="http://lupa.at/img/8582-3.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aio</ex></expan></name> <name nymRef="Iulius" type="gentilicium">Iul<supplied reason="lost">io</supplied></name>
+                    <lb n="2"/><name nymRef="Verus" type="cognomen"><supplied reason="lost">V</supplied>ero</name> <name nymRef="Maximinus" type="cognomen">Max<surplus>s</surplus>imin<supplied reason="lost">o</supplied><note>!</note></name>
+                    <lb n="3"/><supplied reason="lost">Pi</supplied>o Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName> et <persName type="emperor" ref="persons.xml#p"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aio</ex></expan></name>
+                    <lb n="4"/><name nymRef="Iulius" type="gentilicium"><supplied reason="lost">I</supplied>ulio</name> <name nymRef="Verus" type="cognomen">Vero</name> <name nymRef="Maximus" type="cognomen">Max<surplus>s</surplus>i<supplied reason="lost">mo</supplied><note>!</note></name>
+                    <lb n="5"/><expan><abbr><supplied reason="lost">C</supplied>aes</abbr><ex>ari</ex></expan> nobilissimo </persName>
+                    <lb n="6"/>a <placeName type="ancient" key="Mogontiacum" ref="https://pleiades.stoa.org/places/109169"><expan><abbr>M</abbr><ex>ogontiaco</ex></expan></placeName><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075936
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9121
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 630
+                    </bibl>
+                    <bibl>
+                        RSO 215
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

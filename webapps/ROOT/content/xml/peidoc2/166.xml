@@ -1,0 +1,118 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschrift der cohors III Aquitanorum</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Sammlung Hofmann?</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück eines nicht näher identifizierten Monuments.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(26)</height>
+                                            <width>(25)</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken:</placeName> Kastell, nahe der porta principalis sinistra 
+                            </origPlace>
+                            <origDate when-custom="0229" datingMethod="#julian" cert="high">Konsuln</origDate>
+                        </origin>
+                        <provenance type="found" when="1923"><placeName ref="ph">Osterburken, Anwesendes Ludwig Walzenbach</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term>unbekannt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <orig>i</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <orgName type="cohors" key="coh[IIIAquitanorum?]"><expan><abbr>coh</abbr><ex>ors</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></orgName>
+                    <lb n="4"/><date when-custom="0229" datingMethod="#julian" type="consulship"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></supplied><persName type="emperor" ref="persons.xml#p"><name nymRef="Severus+" type="cognomen"><supplied reason="lost"> Severo</supplied></name><name nymRef="Alexander+" type="cognomen"><supplied reason="lost">Alex</supplied>andro</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><supplied reason="lost">III </supplied><persName type="consul" ref="PIR² C 492"><name nymRef="Cassius" type="gentilicium"><supplied reason="lost">Cassio </supplied></name><name nymRef="Dio" type="cognomen"><supplied reason="lost">D</supplied>ione</name> </persName><expan><abbr>c<supplied reason="lost">o</supplied></abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 3: Es dürfte sich hier um die cohors III Aquitanorum handeln.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036651
+                    </bibl>
+                    <bibl>
+                        RSO 118
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            64-65, Nr. 197
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

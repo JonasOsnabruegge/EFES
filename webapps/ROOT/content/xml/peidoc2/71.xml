@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschrift auf Sitzstufe des römischen Theaters, gestiftet vom magister pagi Titus Flavius Ianuarius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Museen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Vier aneinanderpassende Bruchstücke einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sitzstufe</objectType> des römischen Theaters.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>37</height>
+                                            <width>272</width>
+                                            <depth min="21" max="27">27</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich mittig auf der Vorderseite der Sitzstufe. Großer Abstand zwischen dem ersten und zweiten Namensbestandteil, wohl aufgrund einer antiken Verletzung des Steins.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Grobe, unregelmäßige Buchstaben von ungleichmäßiger Ausführung. Nach rechts nimmt die Qualität der Ausführung bei zunehmender Buchstabenhähe ab. Lang ausgezogene Serifen am unteren Rand von T und F, die anderen Buchstaben mit kaum vorhandenen Serifen, möglicherweise ab IAN von zweiter Hand.</p>
+                                <height min="21" max="26">21-26</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg:</placeName> römisches Theater
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0170" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1895"><placeName ref="ph">Ladenburg, Gewann Burgäcker, Grundstück Kaschuge, im bereich des römischen Theaters</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                     <term ref="https://www.eagle-network.eu/voc/typeins/lod/111">Sitzinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25962.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name nymRef="Flavius" type="gentilicium"><expan><abbr>Fl</abbr><ex>avius</ex></expan></name> <name nymRef="Ianuarius" type="cognomen"><expan><abbr>Ian</abbr><ex>uarius</ex></expan></name></persName> <expan><abbr>m</abbr><ex>agister</ex></expan> <expan><abbr>p</abbr><ex>agi</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036408
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6422a
+                    </bibl>
+                    <bibl>
+                        RSOR 78
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            229-230
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            66-67, Nr. 22; Abb. 24
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

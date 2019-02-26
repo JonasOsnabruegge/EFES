@@ -85,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Tor---" type="cognomen?">Tor<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Tor---" type="cognomen">Tor<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="3"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
@@ -102,10 +102,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079214
                     </bibl>
                     <bibl>
                         ILTG 431
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 283
                     </bibl>
                     <bibl>
                         <ptr target="Nesselhauf1937"/>

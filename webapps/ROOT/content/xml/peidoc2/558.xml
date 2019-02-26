@@ -1,0 +1,149 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alzey, Museum Alzey</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Zwischensockel einer Juppitergigantensäule</objectType> mit dazugehörigem Viergötterstein. Auf der linken Nebenseite Fortuna in Chiton und Mantel, im linken Arm das Füllhorn, in der Rechten ein Steuerruder; hinten Victoria im Chiton, in der Rechten Kranz, in der Linken Palmzweig, auf der rechten Nebenseite Mars im Muskelpanzer ohne Helm mit Lanze und Schild. Auf dem Viergötterstein Juno, Mercurius, Hercules, Minerva.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>173,5</height>
+                                            <width>66</width>
+                                            <depth>63,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf der Vorderseite des Zwischensokels. Linksbündige Inschrift, erste Zeile gesperrt und eingrückt, letzte Zeile gesperrt. Regelmäßiges Schriftbild mit gleichmäßigem Buchstaben- und Zeilenabstand. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, überwiegend sorgfältig ausgeführt.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="Altiaium" ref="https://pleiades.stoa.org/places/108736">Altiaium</placeName>
+                                <placeName type="modern">Alzey</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1929">
+                            <placeName ref="ph">
+                                Alzey, spätrömisches Lager, Fundament, sekundär verwendet.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/15476/"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Misionius" type="gentilicium">Misionius</name>
+                    <lb n="3"/><name nymRef="Victor" type="cognomen">Victor</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Carmanius" type="gentilicium">Car<lb n="4" break="no"/>m<hi rend="ligature">an</hi>i</name> <name nymRef="Lugunnesus" type="cognomen">Lug<hi rend="small">u</hi>n<hi rend="ligature">ne</hi>si</name></persName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Cassius" type="gentilicium">Cassi</name> <name nymRef="Martialis" type="cognomen"><hi rend="ligature">Ma</hi>r<hi rend="ligature">ti</hi>al<hi rend="small">i</hi>s</name></persName></persName>
+                    <lb n="6"/>de suo pos<supplied reason="omitted">u</supplied>it
+                    <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD024012
+                    </bibl>
+                    <bibl>
+                        AE 1933, 142
+                    </bibl>
+                    <bibl>
+                        AE 1934, 130
+                    </bibl>
+                    <bibl>
+                        AE 1940, 121
+                    </bibl>
+                    <bibl>
+                        CSIR D II/3, Nr. 3
+                    </bibl>
+                    <bibl>
+                        <ptr target="Behn1929/1930"/>
+                        <biblScope>
+                            94
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Behrens1938"/>
+                        <biblScope>
+                            39-40, Nr. 50; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            77-78, Nr. 87
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            88-89, Nr. 11-13
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

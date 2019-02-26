@@ -101,13 +101,19 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079055
                     </bibl>
                     <bibl>
                         CIL XIII 11686
                     </bibl>
                     <bibl>
                         CAG 67/1, 393
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            191, Nr. 5576
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

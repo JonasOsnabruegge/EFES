@@ -1,0 +1,137 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für den Genius der civitas Ulpia Sueborum Nicrensium</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit figürlichen Darstellungen in vier Bogennischen. In der oberen, mittigen Bogennische aufrecht stehender Genius mit Blumenkranz, in der Linken ein Füllhorn, in der Rechten patera. Darunter in drei nebeneinander angeordneten Bogennischen je eine stehende weibliche Figur. Die mittlere Bogennische ist durch Säulen mit Kapitellen abgegrenzt.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>145</height>
+                                            <width>76</width>
+                                            <depth min="36" max="39">36-39</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in den ersten Zeilen rechts und links der oberen mittleren Bogennische, die letzte Zeile unter den unter den unteren Nischen. Der Buchstabenabstand in der letzten Zeile ist sehr unregelmäßig.</p>
+                                    <dimensions>
+                                        <height>73</height>
+                                        <width>63,5</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige Buchstaben, in Z. 1 O aus Platzgründen kleiner ausgeführt.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0200" cert="medium"/>
+                        </origin>
+                        <provenance type="found" when="1867"><placeName ref="ph">Ladenburg, nahe der südöstlichen Ecke der Stadtmauer beim antiken Theater, ehemaliges Gewann Burgäcker</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/13782-4-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="section" n="1">
+                    <ab>
+                        <lb n="1"/><persName type="divine" key="GeniusCVSN" role="god">Genio <figure><figDesc>Genius</figDesc></figure> <orgName type="civitas" key="CVSN"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>U</abbr><ex>lpia</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName></persName>
+                        <lb n="2"/><supplied reason="lost">Dis</supplied> <expan><abbr><supplied reason="lost">Dea</supplied><figure><figDesc>Genius</figDesc></figure><supplied reason="lost">bu</supplied><unclear>sq</unclear>u</abbr><ex>e</ex></expan><certainty match=".." locus="name"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><figure><figDesc>Genius</figDesc></figure><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><figure><figDesc>Genius</figDesc></figure>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <ab>
+                        <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>«
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>Z. 2/3 auch [et deabus] Qu/[adrubis] möglich, so zuletzt RSOR, was von Wiegels jedoch unter Verweis auf die lediglich drei dargestellten Frauendarstellungen zurückgwiesen wurde.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036396
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6417
+                    </bibl>          
+                    <bibl>
+                        RSOR 58
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            228-229; Abb. 196
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            203-204, Nr. 327
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            33-34, Nr. 1; Abb. 3
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

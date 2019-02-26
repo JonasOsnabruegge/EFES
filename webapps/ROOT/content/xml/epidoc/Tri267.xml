@@ -85,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="VosegusSilvestris">Vosego Sil<supplied reason="lost">vestri</supplied></persName>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Car(---)" type="gentilicium?"><abbr>Car</abbr></name> <name nymRef="Vin---" type="cognomen?">Vin<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Car(---)" type="gentilicium?"><abbr>Car</abbr></name> <name nymRef="Vin---" type="cognomen">Vin<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
                 </ab>
             </div>

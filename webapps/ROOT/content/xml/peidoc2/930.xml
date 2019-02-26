@@ -1,0 +1,133 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für L. Aemilius Crescens</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno>C 65</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit eingeschriebenem Dreiecksgiebel. Im Giebelfeld und den Zwickeln Akanthusornament mit Rosettendekor. Im unteren Teil der Stele rechteckiges Bildfeld mit von zwei Pferden gezogenem Wagen, darauf Kutscher, in der Rechten Peitsche, auf der Ladefläche Fässer.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>192</height>
+                                            <width>77</width>
+                                            <depth>20</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld unterhalb des Giebelfeldes. Linksbündige Inschrift, erste und die letzten beiden Zeilen eingerückt. Geordnetes, teilweise stark gedrängtes und ungleichmäßiges Schriftbild. Zeilenführung nicht immer eingehalten.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, leicht uneinheitlich und zum Teil unsicher ausgeführte, quadratische bis schmale Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="Aquae" ref="https://pleiades.stoa.org/places/108748">Aquae</placeName>
+                                <placeName type="modern">Baden-Baden</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0070" notAfter="0100"/>
+                        </origin>
+                            <provenance type="found" notAfter="1626">
+                            <placeName ref="ph">
+                                Baden-Baden, Ooser Vorstadt.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/3896"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Dis Manibus
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Aemilius" type="gentilicium">Aemilius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Cla</abbr><ex>udia</ex></expan> <supplied reason="subaudible">tribu</supplied>
+                    <lb n="3"/><name nymRef="Crescens" type="cognomen">Crescens</name> <placeName type="ancient" nymRef="Ara" ref="https://pleiades.stoa.org/places/108751">Ara</placeName></persName>
+                    <lb n="4"/><expan><abbr>mil</abbr><ex>es</ex></expan> <orgName type="legio" key="legioXIIIIGeminaMartiavictrix"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="14"><hi rend="supraline">XIIII</hi></num> <expan><abbr>G</abbr><ex>eminae</ex></expan> <expan><abbr>M</abbr><ex>artiae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> </orgName><orgName type="centuria" key="centuriaValeriBassi"><supplied reason="subaudible">centuriae</supplied> <persName type="attested" ref="persons.xml#p"><name nymRef="Valerius" type="gentilicium"><hi rend="ligature">Va</hi>l<hi rend="ligature">er</hi>i</name>
+                    <lb n="5"/><name nymRef="Bassus" type="cognomen">Bassi</name></persName></orgName> <date type="age" dur="P34Y"><expan><abbr>ann</abbr><ex>orum</ex></expan> <num value="34">XXXIIII</num></date> <date type="military-service-span" dur="P14Y"><expan><abbr>st<hi rend="ligature"><hi rend="tall">i</hi>p</hi></abbr><ex>endiorum</ex></expan> <num value="14">XIIII</num></date>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Aemilius" type="gentilicium">Aemilius</name> <name nymRef="Mansuetus" type="cognomen">Mansuetus</name></persName>
+                    <lb n="7"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Aemilius" type="gentilicium">Aemilius</name> <name nymRef="Albanus" type="cognomen">Albanus</name></persName>
+                    <lb n="8"/>fratres idemque
+                    <lb n="9"/>heredes <expan><abbr>f</abbr><ex>aciendum</ex></expan>
+                    <lb n="10"/>curaverunt
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036765
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6304
+                    </bibl>
+                    <bibl>
+                        CIL XIII/4 6304 add. p. 92
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            28-29; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            297-298, Nr. 455; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

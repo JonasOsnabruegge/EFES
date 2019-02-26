@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule des Severus Alexander</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno>C 76</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType> mit Basis.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>194</height>
+                                            <width>42</width>
+                                            <depth></depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+~)</p>
+                                <height>5,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Remchingen</placeName>
+                            <origDate notBefore="0222" notAfter="0235"></origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1747">
+                            <placeName ref="ph">
+                                Remchingen, Nöttingen
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/22562-2.jpg"/>
+        <graphic url="http://lupa.at/img/22562-3.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr><supplied reason="lost">Cae</supplied>s</abbr><ex>ari</ex></expan> <hi rend="ligature">di</hi><hi rend="ligature">vi</hi> <persName type="emperor" ref="persons.xml#p"><name nymRef="Severus" type="cognomen">Sev<hi rend="ligature">er</hi>i</name></persName> Pii
+                    <lb n="2"/><expan><abbr><hi rend="ligature">ne</hi>pot</abbr><ex>i</ex></expan> d<hi rend="small">i</hi>v<hi rend="superscript">i</hi> <persName type="emperor" ref="persons.xml#p"><name nymRef="Antoninus" type="cognomen">A<hi rend="ligature">nt</hi>o<hi rend="ligature">nini</hi></name> Pii
+                    <lb n="3"/><expan><abbr><hi rend="ligature">Ma</hi>g</abbr><ex>ni</ex></expan></persName> filio <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Aurelius" type="gentilicium"><expan><abbr><hi rend="ligature">Aur</hi></abbr><ex>elio</ex></expan></name> <name nymRef="Severus" type="cognomen">Sev<hi rend="ligature"><hi rend="reversed">e</hi>r</hi>o</name>
+                    <lb n="4"/><name nymRef="Alexander" type="cognomen">Alexa<hi rend="ligature">nd</hi>ro</name> Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan>
+                    <lb n="5"/>po<hi rend="ligature" xml:id="l1">nt</hi>i<hi rend="ligature" xml:id="l2">f</hi>ici <expan><abbr><hi rend="ligature">ma</hi>x</abbr><ex>imo</ex></expan> <hi rend="ligature">tri</hi>bunic<hi rend="small">i</hi><supplied reason="omitted">a</supplied>e <expan><abbr>po<hi rend="ligature">te</hi>s</abbr><ex>tatis</ex></expan>
+                    <lb n="6"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> pa<hi rend="ligature">tri</hi> pa<hi rend="ligature">tri</hi><supplied reason="omitted">a</supplied>e</persName> <orgName type="civitas" key="civitas Aurelia Aquensis" role="creator"><expan><abbr>civ</abbr><ex>itas</ex></expan> <expan><abbr><hi rend="ligature">Aur</hi></abbr><ex>elia</ex></expan> <expan><abbr>Aq</abbr><ex>uensis</ex></expan></orgName>
+                    <lb n="7"/>ab <placeName type="ancient" key="Aquae" ref="https://pleiades.stoa.org/places/108748">Aquis</placeName> <expan><abbr>leug</abbr><ex>as</ex></expan>
+                    <lb n="8"/><num value="17">XVII</num>
+                </ab>
+            </div>
+            <link target="#l1 #l2"/>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036872
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9113
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 650
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            141
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -56,7 +56,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Lembach</placeName> 
                             </origPlace>
-                            <origDate notBefore="0015" notAfter="0250" cert="low"/>
+                            <origDate notBefore="0015" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1885">
                             <placeName ref="ph">Lembach</placeName>
@@ -98,13 +98,19 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079015
                     </bibl>
                     <bibl>
                         CIL XIII 11685
                     </bibl>
                     <bibl>
                         CAG 67/1, 393
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            192, Nr. 5578
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

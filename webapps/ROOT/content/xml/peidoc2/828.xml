@@ -1,0 +1,113 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musées du chateau des Rohan</repository>
+                        <idno>Bd 02</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Blocks</objectType>, vielleicht Teil einer Juppitergigantensäule. </p>
+                                    <material>Sandsstein</material>
+                                        <dimensions unit="cm">
+                                            <height>26,5</height>
+                                            <width>(68,5)</width>
+                                            <depth>(70)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf einem erhabenen Inschriftfeld, das in Form einer tabula ansata ausgeführt ist. Leicht ungleichmäßiges Schriftbild, Zeilenführung nicht eingehalten. VIR F befindet sich auf der rechten ansa.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend unregelmäßige, leicht uneinheitlich ausgeführte, schmale und hohe Buchstaben mit Serifen. Buchstaben modern mit roter Farbe nachgezogen, bis auf erstes L in Z. 2.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Eckartswiller</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0300"/>
+                        </origin>
+                            <provenance type="found" notBefore="1850" notAfter="1862">
+                            <placeName ref="ph">
+                                Eckartsweiler/Eckartswiller.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/27858"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god">Iovi <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Liberalis*" type="cognomen"><expan><abbr>Liber</abbr><ex>alis</ex></expan></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Virillio*" type="cognomen"><expan><abbr><hi rend="small">Vir</hi></abbr><ex cert="low">illionis</ex></expan></name></persName> <expan><abbr><hi rend="small">f</hi></abbr><ex>ilius</ex></expan></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 5990
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 295
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

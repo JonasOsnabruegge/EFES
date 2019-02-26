@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Silius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmuseum</repository>
+                        <idno>S 50</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Muschelnische, in den Zwickeln Akanthusornamente. Im Haupbildfeld Totenmahlszene: Auf Kline gelagerter Mann in tunica und Mantel, in seiner Rechten Becher. Links Diener, vor der Kline dreibeiniger Tisch mit Gefäßen. In einem weiteren rechteckigen Bildfeld unterhalb des Inschriftfeldes Pferd mit Zaumzeug, geführt von calo in Rüstung rechts. Gute Qualität. Relief bestoßen, oben verbrochen.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>248</height>
+                                            <width>85</width>
+                                            <depth>34</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem sorgfältig geglätteten Inschriftfeld zwischen den beiden Bildfeldern. Linksbündige Inschrift mit geordnetem Schriftbild, letzte Zeile etwas kleiner und gut zentriert, gesperrt. Teilweise etwas eng stehende Buchstaben. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Große, regelmäßige, sorgfältig und tief mit breiten Hasten ausgeführte, quadratische Buchstaben mit Serifen. Qualitätvolle Arbeit.
+                                </p>
+                                <height min="4.5" max="8.0">8,0-4,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="vicus" key="Buconica" ref="https://pleiades.stoa.org/places/108835">Buconica, bei</placeName>
+                                <placeName type="modern">Dienheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0070" notAfter="0100"/>
+                        </origin>
+                            <provenance type="found" when="1834">
+                            <placeName ref="ph">
+                                Dienheim, an der Straße nach Worms 'am Tafelstein'.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/15874"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Silius" type="cognomen">Silius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Atto" type="cognomen">Attonis</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>eq</abbr><ex>ues</ex></expan> <orgName type="ala" key="alaPicentina">alae <expan><abbr>Pice<hi rend="ligature">nt</hi></abbr><ex>inae</ex></expan></orgName>
+                    <lb n="3"/><date type="age" dur="P45Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="45">XLV</num></date> <date type="military-service-span" dur="P24Y"><expan><abbr>stip</abbr><ex>endiorum</ex></expan> <num value="24">XXIV</num></date>
+                    <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054782
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6277
+                    </bibl>
+                    <bibl>
+                        ILS 2497
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/5, Nr. 52
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/14, Nr. 100
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            344-345, Nr. 5838
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

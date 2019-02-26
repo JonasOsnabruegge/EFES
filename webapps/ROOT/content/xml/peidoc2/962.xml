@@ -1,0 +1,138 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für die Quadruviae</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Museen</repository>
+                        <idno>B 22</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit ornamentierte Brkrönung.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>105 (ergänzt)</height>
+                                            <width>40</width>
+                                            <depth>19,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft, unterhalb der Inschrift noch etwa ein Drittel frei. Die Inschrift steht bis auf Zeile 8 und 9 im Blocksatz, mit varriierten und teilweise stark gesperrten Buchstabenabständen, um eine gleichmäßige Zeilenbreite zu erreichen, wodurch das Schriftbild etwas unausgewogen wirkt.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig, aber bei einzelnen Buchstaben unsicher ausgeführte, quadratische Buchstaben mit Serifen, leicht schwankende Höhe innerhalb der Zeilen. R mit lang ausgezogener Schräghaste, Q mit geschwungener Schräghaste.
+                                </p>
+                                <height min="2.3" max="2.8">2,3-2,8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium?</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Ubstadt-Weiher</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" when="1866">
+                            <placeName ref="ph">
+                                Ubstadt-Weiher, Stettfeld, Schönbornstraße, im Haus des Daniel Müller.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/21613"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/>deabus <persName type="divine" key="Quadruves" role="god">Qu<lb n="3" break="no"/>adru<lb n="4" break="no"/><choice><corr>v</corr><sic>b</sic></choice>i<supplied reason="omitted">i</supplied>s</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ursinus" type="cognomen">Ursinus</name>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Cocceius" type="cognomen">Coccei</name></persName></persName>
+                    <lb n="6"/>et <persName type="attested" ref="persons.xml#p"><name nymRef="Cassius" type="gentilicium">Cassi</name>
+                    <lb n="7"/>coniunx <persName type="attested" ref="persons.xml#p" role="creator">Ursi<lb n="8" break="no"/>nia</persName> <name nymRef="Gaianus" type="cognomen">Gaiani</name></persName>
+                    <lb n="9"/>ex voto
+                    <lb n="10"/>posuerunt
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036518
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6343
+                    </bibl>
+                    <bibl>
+                        CIL XIII/4, p. 94
+                    </bibl>
+                    <bibl>
+                        <ptr target="Baumann1890"/>
+                        <biblScope>
+                            16-17, Nr. 22
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            178
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2017c"/>
+                        <biblScope>
+                            9-12; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

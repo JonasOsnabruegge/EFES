@@ -1,0 +1,116 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift für Caracalla und Iulia Domna</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum, Lapidarium</repository>
+                        <idno>RL 425</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>61,5</height>
+                                            <width>90,5</width>
+                                            <depth>52</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, etwas uneinheitlich ausgeführte, quadratische Buchstaben mit schwach ausgeprägten Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Brackenheim</placeName> 
+                            <origDate when="0213" calendar="#julian">Konsul</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1838">
+                            <placeName ref="ph">
+                               Brackenheim, Meimsheim, Kirche, sekundär verwendet
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69 .html">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/7400-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>I<hi rend="ligature">mp</hi></abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Aurelius" type="gentilicium"><expan><abbr>A<supplied reason="lost">ur</supplied></abbr><ex>elio</ex></expan></name> <name nymRef="Antoninus" type="cognomen"><expan><abbr><supplied reason="lost">A</supplied>n<supplied reason="lost">ton</supplied></abbr><ex>ino</ex></expan></name>
+                    <lb n="2"/>Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <supplied reason="lost"><expan><abbr>Par</abbr><ex>thico</ex></expan></supplied> <expan><abbr>B<supplied reason="lost">r</supplied>it</abbr><ex>annico</ex></expan>
+                    <lb n="3"/><expan><abbr>Germ</abbr><ex>anico</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> maximo</persName>
+                    <lb n="4"/>et <persName type="emperor" ref="persons.xml#p"><name nymRef="Iulia" type="gentilicium">Iuliae</name> <name nymRef="Augusta" type="cognomen"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name> matri
+                    <lb n="5"/>castroru<surplus>u</surplus>m</persName>
+                    <lb n="6"/>ob victoriam
+                    <lb n="7"/>Germanicam
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036956
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6459
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

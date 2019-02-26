@@ -1,0 +1,137 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg am Main, Römermuseum</repository>
+                        <idno>R 1937, 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, links oben abgebrochen. Vorn auf der Bekrönung Adler zwischen Capricornes; auf der linken Nebenseite Patera und Axt, auf der rechten Nebenseite Blitzbündel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften Inschriftfeld auf dem Schaft. Linksbündige Inschrift. Die vorletzte Zeile befindet sich zwischen Inschriftfeld und Sockel, die letzte Zeile steht auf dem Sockel. Linksbündige Inschrift, erste Zeile gesperrt. Überwiegend geordnetes, gleichmäßiges Schriftbild, in den unteren 4 Zeilen Zeilenführung nicht mehr eingehalten, schräg stehend.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg am Main: </placeName>Kastell, bei
+                            </origPlace>
+                            <origDate when-custom="0206" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1937">
+                            <placeName ref="ph">
+                               Obernburg am Main, Mainstraße 6, Gelände der Gerberei Wörn, in einen Brunnen; außerhalb des Kastellsb.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6931.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                     <milestone unit="section" type="field"/>
+                    <lb n="1"/><persName type="divine" key="IOMDolicheno*" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan>
+                        <lb n="2"/><expan><abbr>Dolic<hi rend="ligature">he</hi>n</abbr><ex>o</ex></expan>pr<supplied reason="lost">o</supplied></persName>
+                    <lb n="3"/>salute <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan>
+                    <lb n="4"/><expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <orgName type="vexillarii" key="vexillariilegXXIIPpfagentesinlignariis"><expan><abbr>vexill</abbr><ex>arii</ex></expan> <orgName type="legio" key="legioXXIIPrimigeniapiafidelis"><expan><abbr>leg</abbr><ex>ionis</ex></expan>
+                    <lb n="5"/><num value="22">XXII</num> <expan><abbr>P</abbr><ex>rimigeniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></orgName> <expan><abbr>age<hi rend="ligature">nt</hi></abbr><ex>es</ex></expan>
+                    <lb n="6"/>in <expan><abbr>lignar</abbr><ex>iis</ex></expan></orgName> sub
+                    <lb n="7"/><persName type="attested" ref="persons.xml#p"><name nymRef="Clodius*" type="gentilicium"><expan><abbr>Clod</abbr><ex>io</ex></expan></name> <name nymRef="Caerellius" type="cognomen">C<hi rend="ligature">ae</hi>r<hi rend="ligature"><hi rend="reversed">e</hi>l</hi>lio</name></persName>
+                    <lb n="8"/><expan><abbr><am><g type="centurio"/></am></abbr><ex>centurione</ex></expan> <orgName type="legio" key="legioIParthica*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>Part</abbr><ex>hicae</ex></expan></orgName> cu<lb n="9" break="no"/>ram ag<hi rend="ligature"><hi rend="reversed">e</hi>nt</hi> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Maiorius*" type="gentilicium"><expan><abbr><hi rend="ligature">Ma</hi>i<hi rend="ligature">or</hi></abbr><ex>io</ex></expan></name>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="10"/><name nymRef="Urbanus" type="cognomen">Urbano</name></persName> optione
+                    <milestone unit="section" type="crepido"/>
+                    <lb n="11"/><date when-custom="0206" datingMethod="#julian" type="consulship"><persName type="consul" ref="PIR² N 238"><name nymRef="Albinus+" type="cognomen"><supplied reason="lost">A</supplied>lb<supplied reason="lost">in</supplied>o</name></persName> et <persName type="consul" ref="PIR² F 528"><name nymRef="Aemilianus" type="cognomen">Aemil<supplied reason="lost">iano</supplied></name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075844
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 189
+                    </bibl>
+                    <bibl>
+                        RSO 28
+                    </bibl>
+                    <bibl>
+                        CCID 537
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            179, Nr. 151
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

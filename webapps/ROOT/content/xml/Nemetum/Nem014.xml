@@ -20,8 +20,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück mit Oberteil und Bekrönung eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>. Auf der linken Nebenseite Krug, Kelle; auf der rechten Nebenseite Pfanne.</p>
-                                    <material/>
+                                    <p>Bruchstück mit Oberteil und Bekrönung von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Auf der linken Nebenseite Krug, Kelle; auf der rechten Nebenseite Pfanne.</p>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(46)</height>
                                             <width/>
@@ -101,7 +101,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079075
                     </bibl>
                     <bibl>
                         <ptr target="Finke1927"/>

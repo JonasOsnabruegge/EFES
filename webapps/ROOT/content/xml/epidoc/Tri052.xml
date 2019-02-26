@@ -81,8 +81,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Po</supplied>m<supplied reason="lost">pt</supplied>ina <supplied reason="subaudible">tribu</supplied> <gap reason="lost" extent="unknown" unit="character"/> C<gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><name nymRef="Severus+" type="cognomen"><supplied reason="lost">S</supplied>everus</name></persName> <abbr/><expan><abbr><am><g type="centurio"/></am></abbr><ex>centurio</ex></expan><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Po</supplied>m<supplied reason="lost">pt</supplied>ina <supplied reason="subaudible">tribu</supplied>  C<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><name nymRef="Severus+" type="cognomen"><supplied reason="lost">S</supplied>everus</name></persName> <expan><abbr><am><g type="centurio"/></am></abbr><ex>centurio</ex></expan><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" extent="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>
@@ -99,7 +99,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD078995
                     </bibl>
                     <bibl>
                         CIL XIII 11627
@@ -108,7 +108,7 @@
                         CAG 67/2, 298
                     </bibl>
                     <bibl>
-                        <ptr target="Domaszewski1903"/>
+                        <ptr target="Domaszewski1906"/>
                         <biblScope>
                             365, Nr. 11; m. Abb.
                         </biblScope>

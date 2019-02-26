@@ -1,0 +1,132 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bauinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei zusammengehörige Fragmente eines<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Blocks</objectType>.</p>
+                                    <material>Weißer Marmor</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth>43</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Der obere und untere Rand des Inschriftfeldes sind erhalten. Gleichmäßiges Schriftbeld. Erste und letzte Zeile je 4,5 cm hoch, die dazwischenliegenden 3,2-3,0.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben</p>
+                                <height min="3.0" max="4.5">4,5-3,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph">Aquae</placeName>
+                                <placeName type="modern">Baden-Baden:</placeName> römische Thermen, Nordwestseite
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1848"><placeName ref="ph">Baden-Baden</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                            <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan></supplied> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <persName type="emperor" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Aurelius+" type="gentilicium">A<supplied reason="lost"><expan><abbr>ur</abbr><ex>elius</ex></expan></supplied></name>
+                        <lb n="2"/><name nymRef="Antoninus+" type="cognomen"><supplied reason="lost">Anto</supplied>ninus</name></persName> Pi<supplied reason="lost">us Fe</supplied><lb break="no" n="3"/><supplied reason="lost">lix Invi</supplied>ctus <expan><abbr>Aug</abbr><ex>ustus</ex></expan><supplied reason="lost"><expan><abbr>Parth</abbr><ex>icus</ex></expan><expan><abbr>max</abbr><ex>imus</ex></expan></supplied>
+                    <lb n="4"/><supplied reason="lost"><expan><abbr>Brit</abbr><ex>annicus</ex></expan> m</supplied><expan><abbr>ax</abbr><ex>imus</ex></expan> Ger<supplied reason="lost"><expan><abbr>m</abbr><ex>anicus</ex></expan><expan><abbr>max</abbr><ex>imus</ex></expan><expan><abbr>pont</abbr><ex>ifex</ex></expan></supplied>
+                    <lb n="5"/><supplied reason="lost"><expan><abbr>max</abbr><ex>imus</ex></expan></supplied><expan><abbr>trib</abbr><ex>unicia</ex></expan> po<supplied reason="lost"><expan><abbr>t</abbr><ex>estate</ex></expan> <num value="17">XVII</num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII</supplied>
+                    <lb n="6"/><expan><abbr><supplied reason="lost">pro</supplied>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan><supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">pro</supplied>
+                    <lb n="7"/><supplied reason="lost">libe</supplied>ralita<supplied reason="lost">te sua</supplied>
+                    <lb n="8"/><supplied reason="lost">rem</supplied>otis <supplied reason="lost">saxis</supplied>
+                    <lb n="9"/><supplied reason="lost">baline</supplied>um pe<supplied reason="lost">rfecit</supplied>
+                    <lb n="10"/><supplied reason="lost">caldar</supplied>ia res<supplied reason="lost">tituit</supplied>
+                    <lb n="11"/><supplied reason="lost">et aba</supplied>cis mar<supplied reason="lost">moreis</supplied>
+                    <lb n="12"/>exor<supplied reason="lost">navit</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD023618
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6301
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6312
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            15; Abb. 10
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            202, Nr. 337
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

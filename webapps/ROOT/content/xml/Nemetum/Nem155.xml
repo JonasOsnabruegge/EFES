@@ -85,7 +85,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="IOM" role="god">Iovi opt<lb n="2" break="no"/>imo ma<lb n="3" break="no"/>ximo</persName> <persName type="attested" ref="NemPers.xml#pNem1" role="creator"><name nymRef="Severius" type="gentilicium">Se<lb n="4" break="no"/>verius</name> <name nymRef="Severianus" type="cognomen">S<lb n="5" break="no"/>e<hi rend="ligature">ve</hi>ri<hi rend="ligature">an</hi>us</name></persName>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god">Iovi Opt<lb n="2" break="no"/>imo Ma<lb n="3" break="no"/>ximo</persName> <persName type="attested" ref="NemPers.xml#pNem1" role="creator"><name nymRef="Severius" type="gentilicium">Se<lb n="4" break="no"/>verius</name> <name nymRef="Severianus" type="cognomen">S<lb n="5" break="no"/>e<hi rend="ligature">ve</hi>ri<hi rend="ligature">an</hi>us</name></persName>
                     <lb n="6"/>ex voto
                     <lb n="7"/><expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>

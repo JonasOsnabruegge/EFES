@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Abnoba</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Altarstele</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>145</height>
+                                            <width>47</width>
+                                            <depth>31</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Vertieftes Inschriftfeld. Die Inschrift fürllt den größten Teil des Inchriftfeldes aus, unten bleiben noch etwa 4-5 Zeilen frei. Linksbündige Inschrift, Zeilenbreite fast überall ganz ausgenutzt. Ungleichmäßiges Schriftbild, Zeilenführung nicht eingehalten.</p>
+                                   <dimensions>
+                                        <height>96</height>
+                                        <width>37</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige, uneinheitlich ausgeführte, überwiegend quadratische Buchstaben, schwankende Breite und Höhe, teilweise sehr schmal.</p>
+                                <height min="3.5" max="6.5">3,5-6,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="municipium" key="munAraeFlaviae" ref="oh">Municipium Arae Flaviae</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Oberndorf</placeName> 
+                            <origDate notBefore="0089" notAfter="0096">Truppen</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1825-07">
+                            <placeName ref="ph">
+                                Oberndorf, Röthenberg, auf dem sog. "Schänzle".
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder.php?bild=$H-S_00100.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Abnoba" role="god">Abnobae</persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Antonius" type="gentilicium">Antonius</name>
+                    <lb n="3"/><name nymRef="Silo" type="cognomen">Silo</name></persName> <expan><abbr><am><g type="centurio"/></am></abbr><ex>centurio</ex></expan> <orgName type="legio" key="legioIadiutrix*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="1">I</num> a<lb n="4" break="no"/>diutricis</orgName> et
+                    <lb n="5"/><orgName type="legio" key="legioIIadiutrix*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2">II</num> adiutri<lb n="6" break="no"/>cis</orgName> et <orgName type="legio" key="legioIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="3">III</num> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName>
+                    <lb n="7"/>et <orgName type="legio" key="legioIIIIFlaviafelix*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="4">IIII</num> <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>f</abbr><ex>elicis</ex></expan></orgName>
+                    <lb n="8"/>et <orgName type="legio" key="legioXIClaudiapiafidelis*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="11">XI</num> <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></orgName>
+                    <lb n="9"/>et <orgName type="legio" key="legioXXIIpiafidelisDomitiana*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="22">XXII</num> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>D</abbr><ex>omitianae</ex></expan></orgName>
+                    <lb n="10"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036911
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6357
+                    </bibl>
+                    <bibl>
+                        ILS 3914
+                    </bibl>
+                    <bibl>
+                        AE 1984, 701
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            68-70, Nr. 100; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        AE 2001, 1529
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

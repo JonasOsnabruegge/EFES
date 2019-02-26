@@ -86,7 +86,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem102"><name nymRef="B---" type="cognomen?">B<gap reason="lost" extent="unknown" unit="character"/></name></persName><orig>li</orig>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem102"><name nymRef="B---" type="cognomen">B<gap reason="lost" extent="unknown" unit="character"/></name></persName><orig>li</orig>
                     <lb n="3"/><orig>c</orig>
                     <lb n="4"/><gap reason="lost" quantity="1" unit="line"/>
                     <lb n="5"/><orig>iv</orig><gap reason="lost" extent="unknown" unit="character"/>

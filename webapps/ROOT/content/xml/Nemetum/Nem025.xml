@@ -85,7 +85,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Im<supplied reason="lost">p</supplied></abbr><ex>eratori</ex></expan><supplied reason="lost"> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <name nymRef="Publius+" type="gentilicium">Pu<lb n="2"/>b<supplied reason="lost">lio</supplied></name><name nymRef="Licinius+" type="gentilicium"><supplied reason="lost"> Lici</supplied>nio</name>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Im<supplied reason="lost">p</supplied></abbr><supplied reason="lost"><ex>eratori</ex></supplied></expan><supplied reason="lost"> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <name nymRef="Publius+" type="gentilicium">Pu<lb n="2"/>b<supplied reason="lost">lio</supplied></name><name nymRef="Licinius+" type="gentilicium"><supplied reason="lost"> Lici</supplied>nio</name>
                     <lb n="3"/><name nymRef="Valerianus+" type="cognomen">Val<supplied reason="lost">eria</supplied>no</name>
                     <lb n="4"/><supplied reason="lost">pio </supplied><expan><abbr><supplied reason="lost">fe</supplied>l</abbr><ex>ici</ex></expan> in<lb n="5" break="no"/>v<supplied reason="lost">icto</supplied><supplied reason="lost"> Augu</supplied>sto</persName>
                     <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
@@ -103,7 +103,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079174
                     </bibl>
                     <bibl>
                         CIL XIII 12087

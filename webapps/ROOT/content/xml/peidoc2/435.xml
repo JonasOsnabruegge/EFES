@@ -1,0 +1,134 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>A 1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Schmuckloser Altar, unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(93)</height>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Unregelmäßiges, unruhiges Schriftbild. Die erste Zeile (ungleichmäßig) gesperrt mit größerem Zeilenabstand. Die übrigen Zilen gedrängt, Zeilenführung nicht eingehalten, nach unten zunehmend ungeordneter. Ungewöhnliche Silbentrennung an den Zeilenenden.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, uneinheitlich und unsicher ausgeführte Buchstaben ohne Serifen. Schwankende Höhe und Breite auch innerhalb der Zeilen. A zu Beginn von Z. 2 deutlich höher als der Rest. N aus einem umgedrehten V und nicht verbundener Vertikalhaste konstruiert.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
+                                <placeName type="modern">Altrip</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0050" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1835">
+                            <placeName ref="ph">
+                                Altrip, Gärten der Witwe Hook - verschleppt aus dem spätantiken Burgus?
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26246.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Addo" type="cognomen"><hi rend="tall">A</hi>ddo</name></persName> ex
+                    <lb n="3"/>voto po<lb n="4" break="no"/>suit
+                    <lb n="4"/>pro s<lb n="5" break="no"/>alute sua
+                    <lb n="6"/><expan><abbr>suorumq</abbr><ex>ue</ex></expan>
+                    <lb n="7"/><orig>manno</orig>
+                    <lb n="8"/>diem<note>?</note> <orig>co<unclear>n</unclear></orig>
+                    <lb n="9"/><orig>soloaktvv</orig>
+                    <lb n="10"/><orig>poso ii</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="11"/><orig><unclear>omes</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="12"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Lesung ab Z. 7 unsicher und kaum zu deuten. Vielleicht handelt es sich hierbei um eine von dem lapicida missverstandene und schlecht umgesetzte Konsuldatierung, wenn 'diem' in Z. 8 richtig gelesen ist - das folgende CON könnte ein weiterer Hinweis darauf sein. CIL; ILS; Hildenbrand: abweichende Lesung der letzten Zeilen.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075682
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6128
+                    </bibl>
+                    <bibl>
+                        ILS 4617
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            45, Nr. 128
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

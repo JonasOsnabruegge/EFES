@@ -59,7 +59,7 @@
                         </origin>
                         <provenance type="found" when="1899-09">
                         	<placeName ref="ph">
-                        		Strasbourg, spätantike Stadtmauer, sekundär verwendet
+                        		Strasbourg, Rue du Dôme/Münstergasse 2, spätantike Stadtmauer, sekundär verwendet
                         	</placeName>
                         </provenance>
                         <provenance type="observed">
@@ -87,7 +87,7 @@
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>s</orig>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>s</orig>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>v</orig>
-                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orgName type="legio" key="legVIIIAugusta+?"><supplied reason="lost" cert="low"><expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII</supplied> <expan><abbr>Aug</abbr><ex cert="low">ustae</ex></expan></orgName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orgName type="legio" key="legVIIIAugusta+?"><supplied reason="lost" cert="low"> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII</supplied> <expan><abbr>Aug</abbr><ex cert="low">ustae</ex></expan></orgName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -102,7 +102,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079093
                     </bibl>
                     <bibl>
                         CIL XIII 11624

@@ -84,7 +84,7 @@
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>san<unclear>f</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2"/><orig>ciare</orig>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ciare</orig><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -99,7 +99,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079107
                     </bibl>
                     <bibl>
                         <ptr target="Finke1927"/>

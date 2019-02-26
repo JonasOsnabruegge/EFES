@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Niederbronn/Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
+                        <idno>119</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Rundbogennische, darin stehender Mercurius, auf dem Kopf Flügelhut, in der Linken marsupium, in der Rechten den Caduceus, über der rechten Schulter Mantel. Links zu seinen Füßen Hahn. Bestoßen und abgerieben.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>116</height>
+                                            <width>57</width>
+                                            <depth>26</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf der unteren Rahmenleiste. Zeilenführung nicht eingehalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, ungleichmäßig und unsicher ausgeführte, flach eingehauene Buchstaben ohne Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Bad Niederbronn/Niederbronn-les-Bains</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0130" cert="low">stilistisch</origDate>
+                        </origin>
+                        <provenance type="found" notBefore="1968" notAfter="1969">
+                            <placeName ref="ph">
+                                Bad Niederbronn/Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27333-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Mercurius" role="god">Mercurio</persName> <expan><abbr>sac</abbr><ex>rum</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Adnamus" type="cognomen">Adna<unclear>mus</unclear></name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>CAG 67/1; AE 1997: Adna[mus].</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD049729
+                    </bibl>
+                    <bibl>
+                        AE 1997, 1184
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 462; Abb. 362
+                    </bibl>
+                    <bibl>
+                        <ptr target="Petry1972"/>
+                        <biblScope>
+                            417; Abb. 43a
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="HattPetry1972"/>
+                        <biblScope>
+                            29; Abb. 10
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

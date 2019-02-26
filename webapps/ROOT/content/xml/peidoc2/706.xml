@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und Iuno Regina</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, rechteckiger Aufsatz mit fünf durch Halbsäulen getrennten, rechteckigen Nischen, die mittlere mit dreieckigem oberen Abschluss. Darin männliche Porträtbüsten, die mittlere größer. Auf dem mittleren Spitzgiebel Adler, flankiert von Widderköpfen. Auf der linken Nebenseite Griffschale und Kanne, auf dem Aufsatz Stier; auf der rechten Nebenseite stilisiertes Blitzbündel, auf dem Aufsatz Capricorn.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>179</height>
+                                            <width>71,5</width>
+                                            <depth>35</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften Inschriftfeld auf dem Schaft, links, rechts und oben von Weinranken eingerahmt, welche aus Gefäßen in den unteren Ecken wachsen. Linksbündige Inschrift mit leicht ungleichmäßigem Schriftbild, Zeilenführung nicht ganz eingehalten, erste Zeile gesperrt. Dreieckige Worttrenner. Der zweite Teil der Inschrift befindet sich auf der Rückseite der Plinthe.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig, aber leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen. Unsicherheiten bei den Buchstaben mit Rundungen. BF-Ligatur mit mittig durchgezogener Querhaste.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0190">Kontext</origDate>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihebezirk, Befund IV/2 u. IV/35, Nr. 213 u. 237.
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25508"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="field" n="1">
+                    <ab>
+                        <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                        <lb n="2"/><persName type="divine" key="IunoRegina" role="god">et Iuno<hi rend="ligature">n<hi rend="tall">i</hi></hi>
+                            <lb n="3"/>Reginae</persName>
+                        <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name nymRef="Essimnnius" type="gentilicium">Essimni<lb n="5" break="no"/>us</name> <name nymRef="Tertius" type="cognomen">Tertius</name></persName>
+                        <lb n="6"/><hi rend="ligature"><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan></hi> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro
+                        <lb n="7"/>se et su<choice><corr>i</corr><sic>o</sic></choice>s
+                        <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="plinth" n="2">
+                    <ab>
+                        <persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Vorkennzeichnung auf der Rückseite der Plinthe?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD002063
+                    </bibl>
+                    <bibl>
+                        AE 1985, 689
+                    </bibl>
+                    <bibl>
+                        CBI 147
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -23,9 +23,9 @@
                                     <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele?</objectType> Allseitig abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height/>
-                                            <width/>
-                                            <depth/>
+                                            <height>(50)</height>
+                                            <width>(78)</width>
+                                            <depth>24</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -100,7 +100,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD
+                        HD079115
                     </bibl>
                     <bibl>
                         Saverne 092

@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für die Quadruviae</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zabern/Saverne, Musée du château des Rohan</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Bekrönung bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>89</height>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift füllt das Inschriftfeld in ganzer Breite aus, die Zeilen sind jedoch nicht gut ausgerichtet und unterschiedlich eingerückt. Unrhiges Schriftbild, Zeilenführung nicht eingehalten, schwankende Buchstabenhöhe, -ausrichtung und -Abstand, besonders in Z. 7 wohl wegen Platzmangels. Dreieckige Worttrenner.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, ungleichmäßig ausgeführte Buchstaben mit Serifen, eher schmal. Reste von roter Farbe in den Buchstaben.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Zabern/Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0200" notAfter="0250" cert="low">Schrift, Namen</origDate>
+                        </origin>
+                        <provenance type="found" when="1908">
+                            <placeName ref="ph">
+                                Zabern/Saverne, Square Latouche, spätantike Stadtmauer, sekundär verwendet
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27829-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>ho</abbr><ex>norem</ex></expan> do<hi rend="ligature">mu</hi><hi rend="small">s</hi>
+                    <lb n="2"/>divi<hi rend="ligature">n<supplied reason="omitted">a</supplied>e</hi> deabus
+                    <lb n="3"/><persName type="divine" key="Quadriviae" role="god">Quadrubis</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcianius" type="gentilicium">M<lb n="4" break="no"/>arcianius</name> <name nymRef="Avitianus" type="cognomen">Avi<lb n="5" break="no"/>tianus</name></persName> <expan><abbr>m</abbr><ex>iles</ex></expan> <orgName type="legio" key="legioVIIIAugusta*"><expan><abbr>l</abbr><ex>egionis</ex></expan> <num value="8">VIII</num>
+                    <lb n="6"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName> ex <expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>e</ex><abbr>r</abbr><ex>ito</ex></expan>
+                    <lb n="7"/>pro salute <persName type="attested" ref="persons.xml#p"><name nymRef="Iassa" type="cognomen">Ia<hi rend="superscript">s</hi>s<hi rend="ligature">ae</hi></name> <name nymRef="Titiola" type="cognomen">Ti<lb n="8" break="no"/>tiol<supplied reason="omitted">a</supplied>e</name></persName> coniguis
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Ungewöhnliches Formular und Abkürzungen.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11647
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 567; Abb. 491
+                    </bibl>
+                    
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

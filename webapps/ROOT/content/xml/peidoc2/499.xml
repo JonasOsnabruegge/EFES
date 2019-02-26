@@ -1,0 +1,125 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>D 104</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> oder vielleicht einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType> (nach Ditsch Stele?), oben, links und unten abgebrochen, rechts Rahmenleiste mit Akanthusornament.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(60)</height>
+                                            <width>(58)</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Der rechte Rand des Inschriftfeldes ist erhalten, die Inschrift reicht bis an den rechten Rand. Geordnetes, in den unteren beiden Zeilen eher gedrängtes Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, eher schmale und hohe, sorgfältig und tief eingehauene Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Noviomagus" ref="https://pleiades.stoa.org/places/109224">Noviomagus</placeName>
+                                <placeName type="modern">Speyer</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0205" cert="low"/>
+                        </origin>
+                        <provenance type="found" notBefore="1957" notAfter="1958">
+                            <placeName ref="ph">
+                                Speyer, Dom, im südlichen Seitenschiff an der Innenseite des Ostjoches vermauert.
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26538-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>vi</unclear></orig><gap reason="lost" extent="1" unit="character" cert="low"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>civli</orig>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>rnoam</orig>
+                    <lb n="4"/><supplied reason="lost">bene me</supplied>renti
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 1: Ditsch: M. Wenn es sich bei den erkennbaren zwei Schräg- und einer Vertikalhaste nicht um V und I, sondern um ein M handelte, dann wäre dieses mit der gedachten Verlängerung der Hasten aussergewöhnlich hoch und schmal. Die Lesung als M und die Interpretation als Teil der Einleitungsformel D M, die hier auch wie so oft gesperrt stünde, entbehrt nicht der Attraktivität, der Stein spricht jedoch eher dagegen.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        AE 2011, 824
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ditsch2011"/>
+                        <biblScope>
+                            185-186, Speyer 05; Taf. 57, 3-4
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
