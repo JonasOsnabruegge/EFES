@@ -63,7 +63,7 @@
                         <provenance type="found" when="1899">
                             <placeName ref="ph">
                                 Schweighouse-sur-Moder, protestantische Kirche, Fundament der Sakristei, sekundär verwendet, beim Abriss
-                            </placeName>
+                            </placeName><geo>48.8207 7.7409</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -58,7 +58,7 @@
                             <origDate notBefore="0200" notAfter="0250" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
                         <provenance type="found" when="1899">
-                            <placeName ref="ph">Strasbourg, Rue du Dôme 2, spätantike Mauer, sekundär verwendet</placeName>
+                            <placeName ref="ph">Strasbourg, Rue du Dôme 2, spätantike Mauer, sekundär verwendet</placeName><geo>48.5833 7.7476</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -23,9 +23,9 @@
                                     <p>Fragment vom oberen Teil einer rechteckigen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Im oberen Teil eingeschriebener dreieckiger Giebel mit Halbmond im Giebelfeld und kreisförmigen Ornamenten in den Zwickelfeldern. Unten und rechts abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
                                 <placeName type="modern">Saverne</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1908">
                             <placeName ref="ph">

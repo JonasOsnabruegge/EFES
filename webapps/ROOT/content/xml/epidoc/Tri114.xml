@@ -55,12 +55,12 @@
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Bischoffsheim</placeName> 
                             </origPlace>
-                            <origDate notBefore="0130" notAfter="0300" cert="low"></origDate>
+                            <origDate notBefore="0130" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" notAfter="1830">
                             <placeName ref="ph">
                                 Bischoffsheim, alte Kirche, sekundär verwendet
-                            </placeName>
+                            </placeName><geo>48.4869 7.4883</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

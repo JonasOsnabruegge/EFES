@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>Unregelmäßige, uneinheitlich und eher roh ausgeführte, quadratische Buchstaben ohne Serifen. Schwankende Buchstabenhöhe. E mit zwei senkrechten Hasten wiedergegeben.</p>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -53,10 +53,10 @@
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
-                                <placeName type="ancient" key="ph" ref="ph"></placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Hultehouse</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0250" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1858">
                             <placeName ref="ph">

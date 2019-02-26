@@ -59,7 +59,7 @@
                         <provenance type="found" notAfter="1884">
                             <placeName ref="ph">
                                 Niederbronn-les-Bains, Haus des Karl Matthis.
-                            </placeName>
+                            </placeName><geo>48.95109 7.64269</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

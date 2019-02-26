@@ -60,7 +60,7 @@
                         <provenance type="found" when="1898">
                             <placeName ref="ph">
                                 Strasbourg, Rue Lothaire, nördlich, beim Bau der katholischen Kirche.
-                            </placeName>
+                            </placeName><geo>48.5795 7.7127</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

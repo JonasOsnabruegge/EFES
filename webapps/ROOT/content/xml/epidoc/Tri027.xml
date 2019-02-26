@@ -60,7 +60,7 @@
                         <provenance type="found" when="1899-09">
                         	<placeName ref="ph">
                         		Strasbourg, Rue du Dôme/Münstergasse 2, spätantike Stadtmauer, sekundär verwendet
-                        	</placeName>
+                        	</placeName><geo>48.5785 7.71</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

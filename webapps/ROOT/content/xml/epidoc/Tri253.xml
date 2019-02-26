@@ -63,7 +63,7 @@
                         <provenance type="found" when="1868">
                             <placeName ref="ph">
                                 Zinswiller, Gerstenfeld, mittelalterliche Nekropole, sekundär verwendet
-                            </placeName>
+                            </placeName><geo>48.9198 7.5901</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -23,9 +23,9 @@
                                     <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1470">Hausförmiger Grabstein</objectType>, zwei nicht aneinanderpassende Fragmente.  Nur als Zeichnung überliefert. Erhalten war wohl ein Fragment mit dem linken oberen Rand des Inschriftfeldes und der rechten unteren Ecke des Monuments.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p></p>
+                                <p/>
                                 <height/>
                             </handNote>
                         </handDesc>

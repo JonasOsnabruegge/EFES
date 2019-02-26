@@ -57,7 +57,7 @@
                             </origPlace>
                             <origDate notBefore="0102" notAfter="0117" cert="high">Trajan</origDate>
                         </origin>
-                        <provenance type="found" notAfter="1917"><placeName ref="ph">Strasbourg, rue de la Mésange 13</placeName>
+                        <provenance type="found" notAfter="1917"><placeName ref="ph">Strasbourg, rue de la Mésange 13</placeName><geo>48.5844 7.7478</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

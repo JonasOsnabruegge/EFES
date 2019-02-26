@@ -59,7 +59,7 @@
                         </origin>
                         <provenance type="found" when="1900">
                             <placeName ref="ph">Strasbourg, spätantike Stadtmauer, Fundament, sekundär verwendet (genauer Fundort unbekannt)
-</placeName>
+</placeName><geo>48.5833 7.75</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -59,7 +59,7 @@
                             <origDate notBefore="0200" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1909-05">
-                            <placeName ref="ph">Strasbourg, Rue des Échasses, ehemaliges Kloster St. Arbogast</placeName>
+                            <placeName ref="ph">Strasbourg, Rue des Échasses, ehemaliges Kloster St. Arbogast</placeName><geo>48.5835 7.7515</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

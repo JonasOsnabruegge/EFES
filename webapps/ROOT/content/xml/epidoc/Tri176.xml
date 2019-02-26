@@ -63,7 +63,7 @@
                         <provenance type="found" when="1913-07-31">
                             <placeName ref="ph">
                                 Oberdorf-Spachbach, 1,5 km NW des Dorfes, Fuchshübel, bei
-                            </placeName>
+                            </placeName><geo>48.9239 7.7593</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

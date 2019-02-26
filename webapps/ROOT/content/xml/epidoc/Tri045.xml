@@ -59,7 +59,7 @@
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1901">
-                            <placeName ref="ph"><placeName ref="ph">Strasbourg, Place du Temple Neuf 15-16, sekundär verwendet</placeName></placeName>
+                            <placeName ref="ph"><placeName ref="ph">Strasbourg, Place du Temple Neuf 15-16, sekundär verwendet</placeName></placeName><geo>48.5833 7.7476</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

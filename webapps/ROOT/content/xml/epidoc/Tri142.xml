@@ -58,7 +58,7 @@
                             </origPlace>
                             <origDate notBefore="0130" notAfter="0300" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1850"><placeName ref="ph">Hatten, Eschenbusch</placeName>
+                        <provenance type="found" when="1850"><placeName ref="ph">Hatten, Eschenbusch</placeName><geo>48.8983 8.0205</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

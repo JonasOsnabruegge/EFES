@@ -61,7 +61,7 @@
                         <provenance type="found" when="1986">
                             <placeName ref="ph">
                                 Strasbourg, Poteries, Rue Charles Péguy, Heimwerkermarkt Leroy Merlin, Südosten des Geländes
-                            </placeName>
+                            </placeName><geo>48.5893 7.6937</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

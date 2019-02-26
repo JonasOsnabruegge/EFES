@@ -23,9 +23,9 @@
                                     <p>Zwei aneinanderpassende Fragmente von der rechten Seite einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit vertikal geteilten Inschriftfeldern. Oben, links und unten abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>Leicht unregelmäßige Buchstaben mit Serifen, uneinheitliche Ausführung.</p>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
                                 <placeName type="modern">Saverne</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0250" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1908">
                             <placeName ref="ph">

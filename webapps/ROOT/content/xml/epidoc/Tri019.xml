@@ -58,7 +58,7 @@
                             </origPlace>
                             <origDate notBefore="0071" notAfter="0150" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1926"><placeName ref="ph">Strasbourg, place Broglie</placeName>
+                        <provenance type="found" when="1926"><placeName ref="ph">Strasbourg, place Broglie</placeName><geo>48.5850 7.7501</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -60,7 +60,7 @@
                         <provenance type="found" notAfter="1745">
                             <placeName ref="ph">
                                 Brumath
-                            </placeName>
+                            </placeName><geo>48.733 7.717</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

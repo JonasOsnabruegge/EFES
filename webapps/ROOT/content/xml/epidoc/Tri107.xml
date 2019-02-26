@@ -60,7 +60,7 @@
                         <provenance type="found" notAfter="1909">
                             <placeName ref="ph">
                                 Benfeld
-                            </placeName>
+                            </placeName><geo>48.7355 7.7073</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

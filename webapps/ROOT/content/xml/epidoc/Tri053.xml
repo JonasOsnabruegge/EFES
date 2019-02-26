@@ -58,7 +58,7 @@
                             <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" notBefore="1996" notAfter="1997">
-                            <placeName ref="ph">Strasbourg, Rue des Hallebardes 17, Keller, sekundär verwendet</placeName>
+                            <placeName ref="ph">Strasbourg, Rue des Hallebardes 17, Keller, sekundär verwendet</placeName><geo>48.5822 7.7495</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

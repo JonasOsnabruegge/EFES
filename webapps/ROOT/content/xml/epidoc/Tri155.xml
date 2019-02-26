@@ -61,7 +61,7 @@
                         <provenance type="found" when="1844">
                             <placeName ref="ph">
                                 Mertzwiller, Zinseltal, Breitenbrüchel
-                            </placeName>
+                            </placeName><geo>49.6709 7.5308</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

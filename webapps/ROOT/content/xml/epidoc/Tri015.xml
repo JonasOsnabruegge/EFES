@@ -58,7 +58,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
-                        <provenance type="found" notAfter="1918"><placeName ref="ph">Brumath</placeName>
+                        <provenance type="found" notAfter="1918"><placeName ref="ph">Brumath</placeName><geo>48.7336 7.7126</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

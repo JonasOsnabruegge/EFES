@@ -58,7 +58,7 @@
                             </origPlace>
                             <origDate notBefore="0200" notAfter="0300" cert="low">stilistisch (nach Hatt)</origDate>
                         </origin>
-                        <provenance type="found" when="1899"><placeName ref="ph">Strasbourg, Place Kléber 22, hôtel Maison Rouge</placeName>
+                        <provenance type="found" when="1899"><placeName ref="ph">Strasbourg, Place Kléber 22, hôtel Maison Rouge</placeName><geo>48.5834 7.7446</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

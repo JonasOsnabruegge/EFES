@@ -60,7 +60,7 @@
                         <provenance type="found" when="1978">
                             <placeName ref="ph">
                                 Grandfontaine
-                            </placeName>
+                            </placeName><geo>48.5108 7.1617</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

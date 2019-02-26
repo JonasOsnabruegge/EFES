@@ -21,11 +21,11 @@
                             <supportDesc>
                                 <support>
                                     <p>Allseitig abgebrochenes Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>.</p>
-                                    <material></material>
+                                    <material/>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -43,7 +43,7 @@
                         <handDesc>
                             <handNote>
                                 <p>Soweit noch erkennbar leicht unregelmäßige Buchstaben.</p>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -55,7 +55,7 @@
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
                                 <placeName type="modern">Saverne</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0250" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1908">
                             <placeName ref="ph">

@@ -61,7 +61,7 @@
                         <provenance type="found" notAfter="1742">
                             <placeName ref="ph">
                                 Reichshoffen, Rue des Près, Altkirch, ehemaliges Leprosorium
-                            </placeName>
+                            </placeName><geo>48.9333 7.6718</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

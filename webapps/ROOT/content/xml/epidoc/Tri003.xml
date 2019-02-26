@@ -57,7 +57,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0350" cert="low">Im Fundkontext konstantinische Nummi</origDate>
                         </origin>
-                        <provenance type="found" notAfter="1876"><placeName ref="ph">Straßburg, Temple Neuf; Wiedergefunden Anfang des 20. Jhs. in der Stadtbibliothek</placeName>
+                        <provenance type="found" notAfter="1876"><placeName ref="ph">Straßburg, Temple Neuf; Wiedergefunden Anfang des 20. Jhs. in der Stadtbibliothek</placeName><geo>48.5832 7.7485</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

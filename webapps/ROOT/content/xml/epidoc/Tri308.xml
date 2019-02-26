@@ -23,9 +23,9 @@
                                     <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>.</p>
                                     <material>Sandstein?</material>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -42,8 +42,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p></p>
-                                <height></height>
+                                <p/>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -52,7 +52,7 @@
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
-                                <placeName type="ph" key="ph" ref="ph"></placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Niederbronn-les-Bains</placeName> 
                             </origPlace>
                             <origDate notBefore="0200" notAfter="0300" cert="low">stilistisch</origDate>

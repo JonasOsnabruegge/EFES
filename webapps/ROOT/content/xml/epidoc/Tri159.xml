@@ -61,7 +61,7 @@
                         <provenance type="found" when="1886">
                             <placeName ref="ph">
                                 Niederbronn-les-Bains, 1904 wiedergefunden in der Impaasse de la Fontaine
-                            </placeName>
+                            </placeName><geo>48.94874 7.64351</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

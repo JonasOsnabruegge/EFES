@@ -59,7 +59,7 @@
                             <origDate notBefore="0050" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1903">
-                            <placeName ref="ph">Strasbourg, Place du Château, bei Kanalarbeiten</placeName>
+                            <placeName ref="ph">Strasbourg, Place du Château, bei Kanalarbeiten</placeName><geo>48.5814 7.7515</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

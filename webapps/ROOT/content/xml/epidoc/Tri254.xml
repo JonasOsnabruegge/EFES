@@ -61,7 +61,7 @@
                         <provenance type="found" when="1753-05-19">
                             <placeName ref="ph">
                                 Strasbourg, Rue Brûlée, Grenier d'Abondance, Turm der spätantiken Stadtmauer, sekundär verwendet
-                            </placeName>
+                            </placeName><geo>48.5853 7.7525</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

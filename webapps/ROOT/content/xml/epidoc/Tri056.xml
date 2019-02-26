@@ -59,7 +59,7 @@
                             <origDate notBefore="0122" notAfter="0134" cert="medium">Prosopographisch (nach Pflaum) - der Dedikant war Konsular 138 n. Chr. wie ausdem Senatusconsultum XXX hervorgeht.</origDate>
                         </origin>
                         <provenance type="found" when="1968">
-                            <placeName ref="ph">Strasbourg, Rue du Puits 1</placeName>
+                            <placeName ref="ph">Strasbourg, Rue du Puits 1</placeName><geo>48.5799 7.7467</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

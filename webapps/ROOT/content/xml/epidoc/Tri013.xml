@@ -58,7 +58,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1922"><placeName ref="ph">Saverne, Rue des Murs 12, spätantike Stadtmauer, sekundär verwendet. Beim Neubau der Banque de France</placeName>
+                        <provenance type="found" when="1922"><placeName ref="ph">Saverne, Rue des Murs 12, spätantike Stadtmauer, sekundär verwendet. Beim Neubau der Banque de France</placeName><geo>48.73992 7.36238</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

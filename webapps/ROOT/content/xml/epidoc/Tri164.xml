@@ -61,7 +61,7 @@
                         <provenance type="found" notAfter="1866">
                             <placeName ref="ph">
                                 Niederbronn-les-Bains, Parc du Casino, Quelle, bei
-                            </placeName>
+                            </placeName><geo>48.9499 7.6431</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

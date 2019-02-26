@@ -55,7 +55,7 @@
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
                                 <placeName type="modern">Saverne</placeName> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0250" cert="low"></origDate>
+                            <origDate notBefore="0030" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1908">
                             <placeName ref="ph">

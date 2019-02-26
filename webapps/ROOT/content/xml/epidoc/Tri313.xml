@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>Soweit noch erkennbar regelmäßig gearbeiteter Buchstabe.</p>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -54,7 +54,7 @@
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
                                 <placeName type="modern">Saverne</placeName>
                             </origPlace>
-                            <origDate notBefore="0130" notAfter="0300" cert="low"></origDate>
+                            <origDate notBefore="0130" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1998">
                             <placeName ref="ph">
