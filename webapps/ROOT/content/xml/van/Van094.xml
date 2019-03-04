@@ -1,0 +1,144 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Aurelius Dizza</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van094</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms im Andreasstift, Kreuzgang</repository>
+                        <idno>R 1663</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Meherere zum Teil aneinanderpassende Fragmente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Oben abgebrochen. Im oberen Teil rundes Medaillon, darin Adler mit ausgebreiteten Schwingen, in Höhe der Brust abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(131)</height>
+                                            <width>74</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befindet sich oberhalb des profilgerahmten Inschriftfeldes links und rechts des Medaillons. Der Rest der Inschrift ist linksbündig, ausgewogenem, geordnetem Schriftbild, letzte Zeile gut zentriert. Gleichmäßiger Zeilenabstand. Qualitätvolle Komposition von Inschrift und Reliefdarstellung.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig und tief ausgeführte, quadratische Buchstaben mi feinen Serifen. Qualitätvolle Inschrift.
+                                </p>
+                                <height>5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0212" notAfter="0235" cert="low">Während eines Germanienfeldzugs unter Caracalla oder Maximinus Thrax?</origDate>
+                        </origin>
+                        <provenance type="found" when="1883">
+                            <placeName ref="ph">
+                               Worms, an der Schillerstraße, in Sekundärverwendung als Teil eines fränkischen Plattengrabes.
+                            </placeName><geo>49.6361 8.3613</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/16788"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <milestone unit="section" type="field"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Aurelius*" type="gentilicium"><expan><abbr>Aur</abbr><ex>elio</ex></expan></name> <name nymRef="Dizza" type="cognomen">Dizza</name></persName> <expan><abbr>c</abbr><ex>ustodi</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan>
+                    <lb n="3"/><orgName type="legio" key="legioIIParthica*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>Part</abbr><ex>hicae</ex></expan></orgName> <orgName type="centuria" key="centuriaIIIIpiliposteriori*?"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> IIII <choice><expan><abbr>p</abbr><ex>ili</ex></expan> <expan><abbr>p<supplied reason="lost">r</supplied></abbr><ex>incipi</ex></expan></choice></orgName>
+                    <lb n="4"/><expan><abbr>post</abbr><ex>erioris</ex></expan> <date type="age" dur="P36Y2D"><supplied reason="lost">vi</supplied>xi<supplied reason="lost">t</supplied> <expan><abbr>ann</abbr><ex>os</ex></expan>
+                    <lb n="5"/><num value="36">XXXVI</num> <supplied reason="lost">di</supplied>es <num atLeast="2"><gap reason="lost" extent="1-2" unit="character"/>II</num></date> <date type="military-service-span" dur="P14Y"><expan><abbr>mi<supplied reason="lost">l</supplied></abbr><ex>itavit</ex></expan>
+                    <lb n="6"/><expan><abbr>ann</abbr><ex>os</ex></expan> <num value="14"><supplied reason="lost">X</supplied>IIII</num></date> <persName type="attested" ref="persons.xml#p" role="creator"><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="7"/><name nymRef="Muc---" type="cognomen">Muc<gap reason="lost" extent="unknown" unit="character"/></name></persName><supplied reason="lost"><expan><abbr>mil</abbr><ex>es</ex></expan></supplied>
+                    <lb n="8"/><orgName type="legio" key="legioIIParthica*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan></orgName> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="9"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Aurelius*" type="gentilicium"><expan><abbr>Aurel</abbr><ex>ius</ex></expan></name> <name nymRef="Pyrrhus+" type="cognomen">Pyrr<supplied reason="lost">hus</supplied></name></persName>
+                    <lb n="10"/>heredes <expan><abbr>fr<supplied reason="lost">at</supplied></abbr><ex>ri</ex></expan>
+                    <lb n="11"/>posuerunt
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 3: ILS: post[er.] v[ix.] ann.
+                    Z. 4: Faure: [vi]x[it a]nn(os).
+                    Z. 10: ILS; CIL: frat.; Boppert; Faust; Faure: frat(ri).
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075789
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6231
+                    </bibl>
+                    <bibl>
+                        ILS 2360
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 59
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            190-191, Nr. 314
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faure2013"/>
+                        <biblScope>
+                            58, Nr. A 52
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

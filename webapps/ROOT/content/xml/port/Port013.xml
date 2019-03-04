@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift der Sulpicia Severa</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Port013</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pforzheim, Archäologischer Schauplatz Kappelhof</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> (Teil eines größeren Grabmonuments?) oder <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, linker Teil abgeschlagen, unten verbrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>132</height>
+                                            <width>71</width>
+                                            <depth>19</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Inschriftfeld abgerieben. Linksbündige Inschrift? Leicht ungeordnetes Schriftbild, schwankender Buchstabenabstand.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige Buchstaben, uneinheitlich und unsicher ausgeführt, mit Serifen. Schwankende Breite und Ausrichtung.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Eutingen</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1936">
+                            <placeName ref="ph">
+                               Eutingen, am Igelbach, beim Bau der Autobahn Karlsruhe-Stuttgart, südlich der Bundesstraße 10
+                            </placeName><geo>48.912 8.764</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26981-02.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Sulpicia+" type="gentilicium"><supplied reason="lost">Sul</supplied>piciae</name> <name nymRef="Severa+" type="cognomen">Seve<lb n="3" break="no"/><supplied reason="lost">rae</supplied></name></persName><supplied reason="lost"> et</supplied> <persName type="attested" ref="persons.xml#p"><name nymRef="Vegetius" type="gentilicium">Vegeti</name> <name nymRef="Paternus+" type="cognomen">Pate<lb n="4" break="no"/><supplied reason="lost">rni</supplied></name></persName> <expan><abbr>parent</abbr><ex>um</ex></expan> et
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Sulpicia+" type="gentilicium"><supplied reason="lost">Sulp</supplied>ici<supplied reason="omitted">a</supplied>e</name> <name nymRef="Pattua" type="cognomen">Pattu<supplied reason="omitted">a</supplied>e</name></persName>
+                    <lb n="6"/><expan><abbr><supplied reason="lost">sor</supplied>ori</abbr><ex>s</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Vegetius" type="gentilicium"><expan><abbr>Ve</abbr><ex>getius</ex></expan></name>
+                    <lb n="7"/><name nymRef="Severus+" type="cognomen"><supplied reason="lost">Sev</supplied>erus</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan>
+                    <lb n="8"/><supplied reason="lost"><expan><abbr>f</abbr><ex>aciendum</ex></expan></supplied> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Nesselhauf - Lieb: Z. 6: ...ORIVE (vac.).
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036500
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            168-169, Nr. 124
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kortum1995"/>
+                        <biblScope>
+                            150-153, Nr. 77; Taf. 132
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

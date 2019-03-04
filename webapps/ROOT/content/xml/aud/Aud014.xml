@@ -1,0 +1,145 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Diadumenus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud014</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg/Main, Römermuseum</repository>
+                        <idno>R 1928,9</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Giebelstele</objectType> mit dreieckigem Abschluss. Im Giebelfeld Roettendekor.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>169</height>
+                                            <width>78</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Das Inschriftfeld wird von zwei Halbsäulen gerahmt. Die Inschrift erstreckt sich über etwas mehr als zwei Drittel des Inschriftfeldes, der untere Teil der Stele blieb frei. Linksbündig. Gleichmäßiges, geordnetes Schriftbild. Zeile 1 zentriert und größer als der REst der Inschrift.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig gearbeitet.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg/Main</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low">Faust: 2. Hälfte 2. Jh. n. Chr.</origDate>
+                        </origin>
+                        <provenance type="found" when="1928">
+                            <placeName ref="ph">
+                                Obernburg/Main, Römerstraße, römische Gräberstraße, beim Neubau der Reichsbahnverwaltung
+                            </placeName><geo>49.8452 9.1497</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6973-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibua</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Diadumenus" type="cognomen">Diadu<hi rend="ligature">me</hi>no</name>
+                    <lb n="3"/>alumno ver<lb n="4" break="no"/>nae delicato
+                    <lb n="5"/>suo <expan><abbr>ann</abbr><ex>orum</ex></expan> XVI
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p"><name nymRef="Felicio" type="cognomen">Felicionis</name></persName> <expan><abbr>lib</abbr><ex>erti</ex></expan>
+                    <lb n="7"/>sui filio</persName>
+                    <lb n="8"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Ulpius" type="gentilicium">Ulpius</name> <name nymRef="Vannius" type="cognomen">Van<lb n="9" break="no"/>nius</name></persName> <expan><abbr><am><g type="centurio"/></am></abbr><ex>centurio</ex></expan> <orgName type="legio" key="legioVIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num>
+                    <lb n="10"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName> patronus <expan><abbr>fec</abbr><ex>it</ex></expan>
+                    <lb n="11"/><expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>h</abbr><ex>eredem</ex></expan> <expan><abbr>n</abbr><ex>on</ex></expan> <expan><abbr>s</abbr><ex>equetur</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD024412
+                    </bibl>
+                    <bibl>
+                        AE 1929, 106
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 158
+                    </bibl>
+                    <bibl>
+                        RSO 112
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hock1929"/>
+                        <biblScope>
+                            64-65; Abb. 4
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            83-84, Nr. 110
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            152-153, Nr. 194; Taf. 13, 2
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

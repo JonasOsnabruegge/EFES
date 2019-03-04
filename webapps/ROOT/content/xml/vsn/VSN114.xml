@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift(?) für T. Valerius Valens und Constantia Constituta</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN114</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Museen, Depot E4</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType> (Teil eines größeren Monuments?) links und unten abgebrochen, rechts oben ausgebrochen, verwittert.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(34)</height>
+                                            <width>(44)</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Linksbündige Inschrift? Gleichmäßiges Schriftbild mit konstantem Zeilensabstand.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen. O etwas schmaler.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" key="VicusNediensis" ref="ph">Vicus Nediensis</placeName>
+                                <placeName type="modern">Mannheim</placeName> 
+                            <origDate notBefore="0100" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1880-04">
+                            <placeName ref="ph">
+                               Mannheim-Neckarau, Flur 'Kasterfeld' auf dem Johanniskirchhof, beim Bau eines Gemeindeweges in den Fundamenten eines römischen Gebäudes.
+                            </placeName><geo>49.4438 8.5178</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Titus+?" type="praenomen"><supplied reason="lost" cert="low"><expan><abbr>T</abbr><ex>ito</ex></expan> </supplied></name><name nymRef="Valerius+" type="gentilicium"><supplied reason="lost">Valer</supplied>io</name> <name nymRef="Valens+" type="cognomen">Valen<supplied reason="lost">ti</supplied></name></persName>
+                    <lb n="2"/><supplied reason="lost"><expan><abbr>dec</abbr><ex>urioni</ex></expan> </supplied> <orgName type="civitas" key="civitasSueborumNicrensium+*"><supplied reason="lost"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan></supplied> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName> et <persName type="attested" ref="persons.xml#p"><name nymRef="Constantia+?" type="gentilicium">Cons<lb n="3" break="no"/><supplied reason="lost" cert="low">tantiae</supplied></name> <name nymRef="Constituta+" type="cognomen">Consti<lb n="4" break="no"/><supplied reason="lost">tutae</supplied></name></persName><persName type="attested" ref="persons.xml#p" role="creator?"><name nymRef="Titus+?" type="praenomen"><supplied reason="lost" cert="low"> <expan><abbr>T</abbr><ex>itus</ex></expan></supplied></name><name nymRef="Valerius" type="gentilicium"><supplied reason="lost"> V</supplied>alerius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>iti</ex></expan></name></persName></persName>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036543
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6416
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            241, Nr. 1
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

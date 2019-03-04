@@ -1,0 +1,140 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Deus Invictus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Rieg001</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Freiburg, Museum für Ur- und Frühgeschichte</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>120</height>
+                                            <width>35</width>
+                                            <depth>32</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zeile 1 befindet sich auf dem Gesims der Bekrönung, der Rest der Inschrift steht auf dem Schaft. Das Inschriftfeld ist, besonders im unteren Teil, beschädigt und schwer lesbar. Zeile 5 leicht eingerückt, Zeile 6 zentriert. Unregelmäßiges Schriftbild, Zeilenführung nicht eingehalten.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige Buchstaben, uneinheitlich und zum Teil unsicher ausgeführt, ohne Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CRiegel" ref="ph">Civitas von Riegel?</placeName>
+                                <placeName type="ancient" key="" ref="ph"/>
+                                <placeName type="modern">Riegel</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0260" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1932">
+                            <placeName ref="ph">
+                                Riegel, bei der Michaelskapelle, Mithraeum
+                            </placeName><geo>48.15 7.7465</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/digilib/Scaler/IIIF/f004122.tif"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corona"/>
+                    <lb n="1"/><persName type="divine" key="DeusInvictus" role="god">Deo <expan><abbr>Invict</abbr><ex>o</ex></expan></persName>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Victor" type="cognomen">Victor</name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Abascantus" type="cognomen">Abascan<lb n="4"/>ti</name> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
+                    <lb n="5"/><expan><abbr>d</abbr><ex>ispensatoris</ex></expan></persName> <expan><abbr>v</abbr><ex>icarius</ex></expan>
+                    <lb n="6"/><expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Zu früheren Lesungen Alföldy, 433-436. Victor war Sklave des kaiserlichen Sklaven Abascantus (Alföldy).</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD023934
+                    </bibl>
+                    <bibl>
+                        AE 1933, 116
+                    </bibl>
+                    <bibl>
+                        AE 1986, 525
+                    </bibl>
+                    <bibl>
+                        AE 2005, 1107
+                    </bibl>
+                    <bibl>
+                        AE 2007, 1043
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            69-70, Nr. 66
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Alföldy1986"/>
+                        <biblScope>
+                            433-440; Abb. 1
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

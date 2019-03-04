@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Relief mit Rest einer Weihinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Port012</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pforzheim, Archäologischer Schauplatz Kappelhof</repository>
+                        <idno>ASK 27</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>
+                                       Thronende Statue der Fortuna, qualitätvolle Arbeit. Kopf, Arme, Unterschenkel abgeschlagen, linke vordere und rechte obere Ecke abgebrochen. Neben dem linken Bein Füllhorn.
+                                    </p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(60)</height>
+                                            <width>40</width>
+                                            <depth>30</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf dem Sockel, erhalten ist noch der rechte Rand des Inschriftfeldes. Soweit noch erkennbar geordnetes, regelmäßiges Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen. P geöffnet.</p>
+                                <height>3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/118912">Portus?</placeName>
+                                <placeName type="modern">Pforzheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1937">
+                            <placeName ref="ph">
+                               Pforzheim, Kanzlerstraße/Gesellstraße, hinter dem städtischen Krankenhaus bei Tiefbauarbeiten.
+                            </placeName><geo>48.8910 8.7169</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26980-1.jpg"/>
+        <graphic url="http://lupa.at/img/26980-4.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Aprilius+" type="gentilicium"><supplied reason="lost">A</supplied>pri<hi rend="ligature">l<hi rend="ligature">i</hi></hi>us</name></persName>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036481
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            168, Nr. 123
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kortum1995"/>
+                        <biblScope>
+                            130-132, Nr. 18; Taf. 14
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

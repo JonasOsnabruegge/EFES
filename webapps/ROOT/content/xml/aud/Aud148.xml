@@ -1,0 +1,116 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mars Loucetius zu Ehren des Kaisers</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud148</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Groß-Gerau, Heimatmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Allseitig abgebrochenes Fragment vom oberen Teil von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit Resten der ornamentierten Bekrönung.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(33)</height>
+                                            <width>(34)</width>
+                                            <depth>23,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die ersten beiden Zeilen befinden sich auf der Bekrönung.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++)</p>
+                                <height>2,5-3,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Groß-Gerau</placeName>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1979">
+                            <placeName ref="ph">
+                                <geo>49.9056 8.4547</geo>
+                                Groß-Gerau, Wallerstädten, römische Straße
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F030666.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">In</supplied> <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><supplied reason="lost">pro s</supplied>a<supplied reason="omitted">l</supplied>ute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan>
+                    <milestone unit="section" type="corpus"/><lb n="3"/><persName type="divine" key="Mars Loucetius" role="god"><supplied reason="lost">Marti</supplied> Louc<lb n="4"/><supplied reason="lost">etio</supplied></persName><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD055401
+                    </bibl>
+                    <bibl>
+                        AE 1991, 1272
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 320
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

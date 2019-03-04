@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabstele des Ammonius Mogetius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN038</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Rundbogennische. Darin stehende männliche Figur, in der linken längliches Werkzeug.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>300</height>
+                                            <width>84</width>
+                                            <depth>30</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Die Inschrift befindet sich unterhalb der Bogennische. Rahmenloses Inschriftfeld. Linksbündige Inschrift.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßig konstruierte Buchstaben mit schwankender Höhe innerhalb der Zeile.</p>
+                                <height min="6.5" max="9.0">9,0-6,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" key="ph" ref="ph"/>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0070" notAfter="0130" cert="medium"/>
+                        </origin>
+                        <provenance type="found" when="1968"><placeName ref="ph">Heidelberg, Neuenheim, Berliner Straße</placeName><geo>49.419 8.676</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27115-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p52"><name nymRef="Ammonius" type="gentilicium">Ammonio</name> <name nymRef="Mogetius" type="cognomen"> Mo<lb n="2" break="no"/>getio</name> </persName> <persName type="attested" ref="persons.xml#p53"><name nymRef="Mogetius" type="gentilicium">Mog<supplied reason="lost">e</supplied>tius</name> <lb n="3"/> <name nymRef="Do---" type="cognomen">Do<gap reason="lost" extent="unknown" unit="character"/></name> <expan><abbr><supplied reason="lost">li</supplied>b</abbr><ex cert="low">ertus</ex></expan></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD038669
+                    </bibl>
+                    <bibl>
+                        AE 2012, 1009
+                    </bibl>          
+                    <bibl>
+                        <ptr target="Ludwig1997"/><!-- noch einpflegen -->
+                        <biblScope>
+                            99
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2009"/>
+                        <biblScope>
+                            67-68, Nr. 11; Taf. 531
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            89, Nr. 50
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

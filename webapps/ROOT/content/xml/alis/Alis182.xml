@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, die Casses und die übrigen unsterblichen Götter</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis182</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Archäologische Staatssammlung, Depot</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(54)</height>
+                                            <width>46</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die erste Zeile der Inschrift befindet sich auf dem oberen Rahmen, der Rest der Inschrift in einem einfach eingetieften Inschriftfeld.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(-)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="Seiopa" ref="https://pleiades.stoa.org/places/123117">Seiopa</placeName>
+                                <placeName type="modern">Miltenberg</placeName>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1911">
+                            <placeName ref="ph">
+                                Miltenberg, Numeruskastell, Lagergraben bei der porta decumana
+                            </placeName><geo>49.7052 9.2613</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6947.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <milestone unit="section" type="corpus"/><lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> et 
+                    <lb n="3"/><persName type="divine" key="Casses" role="god">Cassibus</persName> <expan><abbr>c<hi rend="small">e</hi>t<hi rend="small">e</hi>r</abbr><ex>is</ex></expan> 
+                    <lb n="4"/><supplied reason="lost">di</supplied>s <expan><abbr>deabusq</abbr><ex>ue</ex></expan> <expan><abbr>im<choice><corr>m</corr><sic>n</sic></choice>ort</abbr><ex>alibus</ex></expan>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---us" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>us</name> <name nymRef="Cupitus" type="cognomen">Cupitus</name></persName> <gap reason="lost" extent="unknown" unit="character"/><orig>pi</orig>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075847
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11770
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 223
+                    </bibl>
+                    <bibl>
+                        RSO 168
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

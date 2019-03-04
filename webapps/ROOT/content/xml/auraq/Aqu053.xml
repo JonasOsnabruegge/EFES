@@ -1,0 +1,118 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aqu053</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Rundbogennische, darin Standbilder eines Mannes, in der Linken einen Becher haltend, und eines Jungen. Rechts abgebrochen. Maße aus alten Angeben umgerechten (5 1/2 Fuß hoch, 2 1/2 Fuß breit, 1/2 Fuß tief).</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>165</height>
+                                            <width>(75)</width>
+                                            <depth>15</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befand sich oberhalb der Bildnische.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAqu" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Ellmendingen</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" notAfter="1758">
+                            <placeName ref="ph">
+                                Ellmendingen, am Eingang der Kirche eingemauert.
+                            </placeName><geo>48.901 8.576</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <milestone unit="section" type="relief"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>cav</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>amor</orig><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036876
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6330
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            134
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

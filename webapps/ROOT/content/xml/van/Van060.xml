@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Flaolius(?)</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van060</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, rechts und unten abgebrochen, verwittert.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(38)</height>
+                                            <width>(51,5)</width>
+                                            <depth>13,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zeile 1 und 2 befinden sich zwischen vorgezeichneten Zeilenlinien, die jedoch nicht von den Buchstaben erreicht werden. Zwischen den beiden Zeilen Schraffur. Unterhalb mittig Staurogramm in Kreis, Zeile 3 befindet sich links und rechts davon. Rechts Schraffur. Ungleichmäßiges Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, uneinheitlich und eher flach ausgeführte Buchstaben. A mit gebrochener Querhaste, Q geschlossen Rund mit lang ausgezogener Querhaste.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="Borbetomagus" ref="https://pleiades.stoa.org/places/108820">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0400" notAfter="0600" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1937">
+                            <placeName ref="ph">
+                                Worms, westlich der Mainzer Landstraße, bei einer Regulierung des Pfrimmbachs
+                            </placeName><geo>49.6522 8.3588</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_Ness-Lieb_00118_2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Hic quiescot in pace
+                    <lb n="2"/><expan><abbr>cas</abbr><ex cert="low">tus</ex></expan> nom<choice><corr>i</corr><sic>e</sic></choice>ne <persName type="divine" key="Flaolius?" role="god"><unclear>F</unclear>l<unclear>a</unclear>oliu<supplied reason="lost">s</supplied></persName>
+                    <lb n="3"/><orig>tt</orig><g type="chi-rho"/><orig>pr</orig>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: F ohne obere Querhaste. Boppert: ///(as nomine FL//OLIV, nach Boppert zu Finolfus(?) ergänzbar; Z. 3: Boppert: in der Transkription nicht wiedergegeben; Nesselhauf - Lieb: PP. Vielleicht t(i)t(ulum) p(osue)r(unt)? Nesselhauf - Lieb schlagen p(osuit) p(ater) oder p(osuerunt) p(arentes) vor. 
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD078393
+                    </bibl>
+                    <bibl>
+                        <ptr target="Boppert1971"/>
+                        <biblScope>
+                            159-160; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            167, Nr. 118
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

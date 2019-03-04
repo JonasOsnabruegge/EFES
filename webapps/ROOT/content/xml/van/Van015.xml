@@ -1,0 +1,134 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Visionius Iasus und seine Ehefrau</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van015</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno>HM 164</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>
+                                        Oberer Teil einer rechteckigen(?) Stele mit eingeschriebenem Bogen. Oben, unten abgebrochen, an den Seiten bestoßen.
+                                    </p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(41)</height>
+                                            <width>61</width>
+                                            <depth>27</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem profilgerahmten, oben bogenförmig abschließenden Inschriftfeld. Die Inschrift ist linksbündig, Zeile 1 befindet sich im oberen Teil des Bogens und ist zentriert, überwiegend gleichmäßiges, unausgewogenes Schriftbild, die Zeilen stehen steas schräg.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, eher schmale Buchstaben mit kurzen, teilweise nicht mehr erkennbaren oder nie vorhandenen, Serifen, schräg stehend, uneinheitlich ausgeführt, V in Zeile 3 und 4 mit in den Winkel eingeschriebenen, nach oben gerichteten Winkel.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Oberstaufenbach</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1886">
+                            <placeName ref="ph">
+                                Oberstaufenbach, Burgruine Heidenburg (sekundär verwendet?)
+                            </placeName><geo>49.51807 7.5164</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26562.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Visionius" type="gentilicium">Visionio</name> <name nymRef="Iasus" type="cognomen">Ia<lb n="3" break="no"/>so</name></persName> et coniu<lb n="4" break="no"/>gi <orgName type="fili" role="creator">fili</orgName> eius fe<lb n="5" break="no"/>cereunt
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075661
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6190
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            33, Nr. 65
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            154-155, Nr. 198
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ditsch2011"/>
+                        <biblScope>
+                            152, Oberstaufenbach 12; Taf. 42, 4 u. 5
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

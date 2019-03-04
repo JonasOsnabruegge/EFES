@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Bauinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Öhringen, Weygandmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück von der oberen rechten Ecke einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, links und unten abgebrochen, bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(23)</height>
+                                            <width>(56)</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Geordnetes, gleichmäßiges Schriftbild, soweit noch erkennbar. Dreiarmige Hakenkreuze mit gebogenen Armen als Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig ausgeführte, quadratische Buchstaben mit Serifen. P fast geschlossen. Qualitätvolle Arbeit.
+                                </p>
+                                <height>4,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurGS" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="vicusAurelianus" ref="https://pleiades.stoa.org/places/119026">Vicus Aurelianus</placeName>
+                                <placeName type="modern">Öhringen</placeName>
+                            </origPlace>
+                            <origDate notBefore="0193" notAfter="0211" cert="medium">Septimius Severus</origDate>
+                        </origin>
+                        <provenance type="found" when="1955">
+                            <placeName ref="ph">
+                               Öhringen, Eythstraße, Nordrand des Ostkastells
+                            </placeName><geo>49.20002 9.51325</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_Ness-Lieb_00140_2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> </supplied><expan><abbr><supplied reason="lost">Cae</supplied>s</abbr><ex>ar</ex></expan> <name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Septimius+" type="gentilicium">Septimi<lb n="2" break="no"/><supplied reason="lost">us</supplied></name><name nymRef="Severus+" type="cognomen"><supplied reason="lost"> Sev</supplied><unclear>er</unclear>us</name> P<supplied reason="lost">i</supplied>us <name nymRef="Pertinax+" type="cognomen">Pe<lb n="3" break="no"/><supplied reason="lost">rtinax</supplied></name>&gt;</persName><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: Nesselhauf-Lieb: Seve]rus.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD037114
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            175, Nr. 140
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

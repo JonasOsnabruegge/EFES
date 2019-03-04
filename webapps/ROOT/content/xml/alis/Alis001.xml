@@ -1,0 +1,174 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Fortuna</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis001</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                       Die Inschrift füllt durch sorgfältige Ordination das gesamte Inschriftfeld im Blocksatz aus, hierzu wurde auf zahlreiche Ligaturen sowie kleine und hochgestellte Buchstaben zurückgegriffen, die eher Resultat von Vorausplanung als von plötzlich erkanntem Platzmangel sein dürften, auch wenn an einigen Stellen dem Steinmetz zunächst Fehler passierten. Gleichmäßiges, geordnetes Schriftbild.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben. Z. 1 irrtümliche TF-Ligatur; Z. 5 zunächst irrig mit N begonnen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CALI" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Walldürn</placeName>
+                            </origPlace>
+                            <origDate when-custom="0232-08-13" datingMethod="#julian" cert="high">Konsuldatierung</origDate>
+                        </origin>
+                        <provenance type="found" when="1861"><placeName ref="ph">Walldürn, Numeruskastell, vor dem Badegebäude, in situ?</placeName><geo>49.5792 9.385</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="1"/>De<hi rend="ligature">ae</hi> <persName type="divine" key="Fortuna" role="god">Fortunae</persName>
+                    <lb n="2"/>sanct<hi rend="ligature">ae</hi> b<hi rend="ligature">al</hi><hi rend="ligature">ine</hi>u<supplied reason="lost">m</supplied>
+                    <lb n="3"/>v<hi rend="ligature"><hi rend="reversed">e</hi>t</hi>usta<hi rend="ligature">te</hi> <hi rend="ligature">c<hi rend="small">o</hi></hi>nlap<lb n="4" break="no"/>sum <orgName key="exploratoresSturi?" type="exploratores" role="creator"><expan><abbr>expl</abbr><ex>oratores</ex></expan> Stu<supplied reason="lost">ri</supplied></orgName>
+                    <lb n="4"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <orgName key="Brittonesgentile" type="gentiles" role="creator"><expan><abbr>Brit</abbr><ex>tones</ex></expan> ge<hi rend="ligature">nt</hi>iles</orgName> <supplied reason="lost">et</supplied>
+                    <orgName key="officialesBritl" type="offiiales" role="creator"><lb n="5"/>offici<hi rend="ligature">al</hi>es <abbr>Bri<hi rend="ligature">tl</hi></abbr></orgName>
+                    <lb n="6"/><orgName key="dediticiAlexandrianorum" type="deditici" role="creator"><expan><abbr>ded<hi rend="ligature">it</hi>ic</abbr><ex>iorum</ex></expan> <del rend="erasure">Alexan<lb n="7" break="no"/>drianorum</del></orgName> de
+                    <lb n="7"/>suo <expan><abbr>res<hi rend="ligature">ti</hi>t<hi rend="ligature">ue</hi>r</abbr><ex>unt</ex></expan> <expan><abbr><hi rend="ligature">c<hi rend="small">u</hi></hi><lb n="8" break="no"/>ra</abbr><ex>m</ex></expan> age<hi rend="ligature">nte</hi> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name nymRef="Flavius" type="gentilicium"><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <name nymRef="Romanus" type="cognomen">Ro<lb n="9" break="no"/><hi rend="ligature">ma</hi>no</name></persName> <expan><abbr><am><g type="centurio"/></am></abbr><ex>centurione</ex></expan> <orgName key="legXXIIPrimigeniapf" type="legio"><expan><abbr><hi rend="ligature"><hi rend="reversed">l</hi>e</hi>g</abbr><ex>ionis</ex></expan> XXII <expan><abbr>P</abbr><ex>rimigeniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr><hi rend="subscript"><hi rend="small">f</hi></hi></abbr><ex>idelis</ex></expan></orgName>
+                    <lb n="10"/> <date when-custom="0232-08-13" datingMethod="#julian"><expan><abbr>Id</abbr><ex>ibus</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan> <persName type="consul" ref="persons.xml#p"><name nymRef="Lupus" type="cognomen">Lupo</name></persName> <hi rend="ligature">et</hi> <persName type="consul" ref="persons.xml#p"><name nymRef="Maximus" type="cognomen"><hi rend="ligature">Ma</hi>x<hi rend="ligature">im</hi>o</name></persName> 
+                    <milestone unit="section" type="crepido"/><lb n="11"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Böhm: Z. 6/7: BRI() ET / DEDITI C() ALEXAN/DRIANORUM. Z. 6: TL-Ligatur fraglich, auch Ligatur TE/ET oder Schreibfehler möglich.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD000364
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6592
+                    </bibl>
+                    <bibl>
+                        AE 1897, 118
+                    </bibl>
+                    <bibl>
+                        AE 1983, 729
+                    </bibl>
+                    <bibl>
+                        ILS 9184
+                    </bibl>
+                    <bibl>
+                        RSO 7
+                    </bibl>
+                    <bibl>
+                        RGA V, 292-294
+                    </bibl>
+                    <bibl>
+                        <ptr target="Conrady1897"/>
+                        <biblScope>
+                            658-660
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Conrady1929"/>
+                        <biblScope>
+                            15, Nr. 1
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Rowell1939"/>
+                        <biblScope>
+                            87-108
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Böhm1963"/>
+                        <biblScope>
+                            320-355
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wolff1976"/>
+                        <biblScope>
+                            226-232
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Baatz1978"/>
+                        <biblScope>
+                            94-95
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Lemosse1981"/>
+                        <biblScope>
+                            349-358
+                        </biblScope>
+                    </bibl>                  
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

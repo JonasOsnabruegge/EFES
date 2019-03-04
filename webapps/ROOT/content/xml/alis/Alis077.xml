@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stifterinschrift für eine Statue des Genius Civitatis Alisinensium</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis077</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>82</height>
+                                            <width>53</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befindet sich auf dem Gesims, der Rest der Inschrift auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, quadratische Buchstaben mit Serifen (++).</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Bad Rappenau</placeName> 
+                            <origDate notBefore="0100" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1852">
+                            <placeName ref="ph">
+                               Bad Rappenau, Bonfeld, Eichhäuser Hof, Breitloch
+                            </placeName><geo>49.2019 9.1022</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$H-S_00364.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan></supplied>
+                    <milestone unit="section" type="corpus"/><lb n="2"/><persName type="divine" key="Genius civitatis Alisinensium" role="god">genium <orgName type="civitas" key="civitas Alisinensium"><expan><abbr>c</abbr><ex>ivitatis</ex></expan>
+                        <lb n="3"/><expan><abbr>Alisin</abbr><ex>ensium</ex></expan></orgName></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Aventinius" type="gentilicium">Ave<lb n="4" break="no"/>ntinius</name> <name nymRef="Maternus" type="cognomen">M<lb n="5" break="no"/>aternus</name></persName>
+                    <lb n="6"/><expan><abbr>d</abbr><ex>ecurio</ex></expan> <orgName type="civitas" key="civitas S(---) T(---)"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <abbr>S</abbr> <abbr>T</abbr></orgName>
+                    <lb n="7"/><expan><abbr>don</abbr><ex>avit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036603
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6482
+                    </bibl>
+                    <bibl>
+                        ILS 7103
+                    </bibl>
+                    <bibl>
+                        AE 2010, 1074
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für die Nymphen</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van164</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alzey, Museum Alzey</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, bestoßen und leicht verwittert.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>105</height>
+                                            <width>56</width>
+                                            <depth>44</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befindet sich auf dem Gesims der Bekrönung, Zeile 9 auf dem Sockel. Der Rest der inschirft nimmt linksbündig den gesamten Schaft ein. Leicht ungleichmäßiges Schriftbild mit gedrängem Buchstabenabstand, aus Platzgründen I klein in Zeile 2; A und O klein in Zeile 7, CV und OC in Zeile 6 ineinander verschoben. Letzte Zeile deutlich ungeordneter. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, uneinheitlich ausgeführte, quadratische Buchstaben mit kurzen oder keinen Serifen. Schwankende Höhe.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="vicus" key="Altiaium" ref="https://pleiades.stoa.org/places/108736">Altiaium</placeName>
+                                <placeName type="modern">Alzey</placeName> 
+                            </origPlace>
+                            <origDate when-custom="0223-11-22" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                            <provenance type="found" when="1783">
+                            <placeName ref="ph">
+                                Alzey, Pfarracker hinter dem reformierten Friedhof, Fundamente, sekundär verwendet.
+                            </placeName><geo>49.7511 8.115</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/15483"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corona"/>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="2"/><expan><abbr>d</abbr><ex>eabus</ex></expan> <persName type="divine" key="Nymphes" role="god">Nymph<hi rend="small">i</hi>s</persName>
+                    <lb n="3"/><orgName type="vicani" key="vicaniAltiaienses" role="creator">vicani <placeName type="ancient" nymRef="Altiaium" ref="https://pleiades.stoa.org/places/108736">Al<lb n="4" break="no"/>tiaienses</placeName></orgName>
+                    <lb n="5"/>ar<hi rend="ligature">am</hi> <expan><abbr>pos<hi rend="ligature">ue</hi>r</abbr><ex>unt</ex></expan>
+                    <lb n="6"/>cura <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Octonius" type="gentilicium">Octo<hi rend="ligature">n<hi rend="tall">i</hi></hi></name>
+                    <lb n="7"/><name nymRef="Tertius" type="cognomen">Ter<hi rend="ligature">t<hi rend="tall">i</hi></hi></name></persName> et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Castonius" type="gentilicium">C<hi rend="small">a</hi>st<hi rend="small">o</hi><hi rend="ligature">n<hi rend="tall">i</hi></hi></name>
+                    <lb n="8"/><name nymRef="Cassus" type="cognomen">Cassi</name></persName> <date when-custom="0223-11-22" datingMethod="#julian" type="consulship"><num value="10">X</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Dec</abbr><ex>embres</ex></expan></date>
+                    <milestone unit="section" type="sockel"/>
+                    <lb n="9"/><persName type="consul" ref="persons.xml#p"><name nymRef="Maximus" type="cognomen"><hi rend="ligature">Ma</hi>xim<hi rend="small">o</hi></name></persName> <hi rend="ligature">et</hi> <persName type="consul" ref="persons.xml#p"><name nymRef="Aelianus" type="cognomen">Ael<hi rend="small">i</hi><hi rend="ligature">an</hi><hi rend="small">o</hi></name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076331
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6265
+                    </bibl>
+                    <bibl>
+                        ILS 7075
+                    </bibl>
+                    <bibl>
+                        CIRh 877
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/1, Nr. 27
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

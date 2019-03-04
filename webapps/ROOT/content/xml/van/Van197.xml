@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius und Maia</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van197</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Kreuznach, Museum Römerhalle</repository>
+                        <idno>10</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Gesims der ornamentierten Bekrönung und Sockel ringsherum abgeschlagen. Auf der linken Nebenseite Laubwerk mit Früchten, auf der rechten Nebenseite Baum.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>120</height>
+                                            <width>(56)</width>
+                                            <depth>(43,8)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+~)</p>
+                                <height>7-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109427">Cruciniacum</placeName>
+                                <placeName type="modern">Bad Kreuznach</placeName>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1858">
+                            <placeName ref="ph">
+                                <geo>49.8483 7.867</geo>
+                                Bad Kreuznach, Kastell, Nordwestecke
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F027933.JPG"/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F027934.JPG"/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F027936.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>ho</abbr><ex>norem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><persName type="divine" key="Mercurius" role="god">Mercurio</persName>
+                    <lb n="3"/>et <persName type="divine" key="Maia" role="god">Mai<surplus>i</surplus>ae</persName> ca<lb n="4" break="no"/>ducium et
+                    <lb n="5"/>aram <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Masclius" type="gentilicium">Masc<lb n="6" break="no"/>lius</name> <name nymRef="Satto" type="cognomen">Satto</name></persName>
+                    <lb n="7"/><supplied reason="lost">f</supplied>aber ex vo<lb n="8" break="no"/><supplied reason="lost">t</supplied>o <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan>
+                    <lb n="9"/><expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076256
+                    </bibl>
+                    <bibl>
+                        CIL XIII 7532
+                    </bibl>
+                    <bibl>
+                        CSIR D II/9, Nr. 51
+                    </bibl>
+                    <bibl>
+                        ILS 3209
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

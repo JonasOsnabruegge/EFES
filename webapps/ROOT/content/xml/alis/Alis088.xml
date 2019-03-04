@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bauinschrift des Kohortenkastells Neckarburken</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis088</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>58</height>
+                                            <width>150</width>
+                                            <depth>13</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Das Inschriftfeld wird von tordierten Leisten in Form einer tabula ansata gerahmt.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht ungleichmäßige, quadratische Buchstaben mit Serifen (+).</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Neckarburken</placeName> 
+                            <origDate notBefore="0134" notAfter="0164"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1811">
+                            <placeName ref="ph">
+                               Neckarburken, Kohortenkastell, bei der Westmauer
+                            </placeName><geo>49.377 9.1696</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25627.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><orgName type="cohors" key="cohorsIIIAquitanorumequitatacR"><expan><abbr>coh</abbr><ex>ors</ex></expan> <num value="3"><hi rend="supraline">III</hi></num>
+                    <lb n="2"/><expan><abbr>Aquit</abbr><ex>anorum</ex></expan> <expan><abbr><supplied reason="lost">e</supplied>q</abbr><ex>uitata</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036548
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6494
+                    </bibl>
+                    <bibl>
+                        AE 1893, 46. 75
+                    </bibl>
+                    <bibl>
+                        RSO 79
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            385
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

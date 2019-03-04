@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilensäule des Vespasianus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aqu072</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Hälfte einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(123)</height>
+                                            <width>45</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(o-)</p>
+                                <height>3-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Offenburg</placeName>
+                            <origDate when="0074" datingMethod="#julian">Kaisertitulatur</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1840">
+                            <placeName ref="ph">
+                                Offenburg, Schwabentor, bei
+                            </placeName><geo>48.4833 7.9333</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F024383.JPG"/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F037313.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <name nymRef="Vespasianus" type="cognomen">Vespasiano</name> Caesare</supplied>
+                    <lb n="2"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pontif</abbr><ex>ice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="5">V</num> <expan><abbr>imp</abbr><ex>eratore</ex></expan></supplied>
+                    <lb n="3"/><supplied reason="lost"><num value="13">XIII</num> <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <num value="5">V</num> <expan><abbr>design</abbr><ex>ato</ex></expan> <num value="6">VI</num></supplied></persName>
+                    <lb n="4"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>ito</ex></expan></name> Caesare <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied>
+                    <lb n="5"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <num value="3">III</num> <expan><abbr>design</abbr><ex>ato</ex></expan> <num value="4">IV</num></supplied></persName>
+                    <lb n="6"/><persName type="emperor" ref="persons.xml#p">Caesar<supplied reason="lost">e <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> </supplied><name nymRef="Domitianus" type="cognomen"><supplied reason="lost">Domitia</supplied>no</name> 
+                    <lb n="7"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan><supplied reason="lost"><num value="2">II</num> <expan><abbr>design</abbr><ex>ato</ex></expan> <num value="3">III</num></supplied></persName>
+                    <lb n="8"/><persName type="attested" ref="PIR² C 1341"><name nymRef="Cnaeus" type="praenomen"><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <name nymRef="Cornelius" type="gentilicium">Cor<supplied reason="lost">nelio</supplied></name><name nymRef="Clemens" type="cognomen"><supplied reason="lost"> Clemen</supplied>te</name></persName>
+                    <lb n="9"/><expan><abbr>leg</abbr><ex>ato</ex></expan><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied>
+                    <lb n="10"/>iter de<supplied reason="lost">rectum ab </supplied><placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754"><supplied reason="lost">Arge</supplied>ntorate</placeName> 
+                    <lb n="11"/>in <placeName type="ancient" nymRef="Raetia" ref="https://pleiades.stoa.org/places/981547">R<supplied reason="lost">aetiam</supplied></placeName>
+                    <lb n="12"/><placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">A<supplied reason="lost">rgentorate</supplied></placeName>
+                    <lb n="13"/><supplied reason="lost"><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036910
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9082
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 654
+                    </bibl>
+                    <bibl>
+                        IBR 495
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

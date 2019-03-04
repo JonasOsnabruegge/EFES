@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Speratius Servandus und Speratia Ammossa</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van005</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno>HM 1924/51</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Vorderwand einer Aschenkiste. Vermutlich war unterhalb noch ein weiterer Block angefügt.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Das Inschriftfeld ist verwittert. Z. 2-4 verlaufen bis an den rechten Rand. Gleichmäßiges Schriftbild, enger Buchstabenabstand.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige Buchstaben mit kaum ausgeprägten Serifen, bei dem P Z. 3 allerdings unten deutlich nach rechts ausgezogene Serife oder fehlerhaft eingehauene Haste.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Lauterecken</placeName>
+                            </origPlace>
+                            <origDate notBefore="0201" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1920"><placeName ref="ph">Lauterecken, Haus des A. Busch (Schuhmachermeister), vermauert</placeName><geo>49.65 7.59</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26517.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Speratius" type="gentilicium">Speratio</name> <name nymRef="Servandus" type="cognomen">Servan<lb n="3" break="no"/>do</name></persName> et <persName type="attested" ref="persons.xml#p"><name nymRef="Servatia" type="gentilicium">Servatiae</name> <name nymRef="Ammossa+" type="cognomen"><expan><abbr>Am<lb n="4"/>moss</abbr><ex>a</ex><abbr>e</abbr></expan></name></persName> et <persName type="attested" ref="persons.xml#p"><name nymRef="Speratia" type="cognomen">Sperati<unclear>ae</unclear></name></persName>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Finke: Z. 3/4: AN[d]OSSE; Ditsch: Z. 4: Speratia(e); Kakoschke: Z. 4: Sperati[ae].
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076113
+                    </bibl>
+                    <bibl>
+                        AE 2014, 942
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            55, Nr. 171
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ditsch2009"/>
+                        <biblScope>
+                            185-186
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2014"/>
+                        <biblScope>
+                            291-292; Abb. 1
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für den Genius loci</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud036</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aschaffenburg, Stiftsmuseum</repository>
+                        <idno>192</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>, oben und links abgebrochen. Auf der rechten Nebenseite Kanne und Griffschale.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(87)</height>
+                                            <width>(32)</width>
+                                            <depth>27</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Das Inschriftfeld ist von einer breiten Leiste mit Efeuranke gerahmt, die sich auch auf die Nebenseite erstreckt. Die Inschrift scheint sich über das gesamte Inschriftfeld erstreckt zu haben. Soweit noch erkennbar leicht ungleichmäßiges, ungeordnetes Schriftbild.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Stockstadt/Main</placeName> 
+                            </origPlace>
+                            <origDate when-custom="0191" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1886">
+                            <placeName ref="ph">
+                                Stockstadt/Main, Beneficiarier-Weihbezirk.
+                            </placeName><geo>49.9781 9.0687</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/6915"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> e<supplied reason="lost">t</supplied>
+                    <lb n="2"/><supplied reason="lost">Genio lo</supplied>ci
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Mansuetus+*?" type="cognomen">Ma<supplied reason="omitted">n</supplied>s<hi rend="small">u</hi><lb n="4" break="no"/><supplied reason="lost" cert="low">etu</supplied>s</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="5"/><date when-custom="0191" datingMethod="#julian" type="consulship"><persName type="consul" ref="PIR² O 109"><name nymRef="Apronianus+*" type="cognomen"><expan><abbr><supplied reason="lost">Apro</supplied>nia<hi rend="ligature" xml:id="l1">n</hi></abbr><ex>o</ex></expan></name></persName> <hi rend="ligature" xml:id="l2">e</hi>t
+                    <lb n="6"/><persName type="consul" ref="PIR V 31"><name nymRef="Bradua+" type="cognomen"><supplied reason="lost">Brad</supplied>ua</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                    <lb n="7"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+                <join target="#l1, #l2"/>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD042511
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6647
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 13
+                    </bibl>
+                    <bibl>
+                        CBI 187
+                    </bibl>
+                    <bibl>
+                        RSOR 36
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            174, Nr. 260
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

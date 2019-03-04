@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Sitzinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van063</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alzey, Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>
+                                        
+                                    </p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(37)</height>
+                                            <width>(129)</width>
+                                            <depth>43</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>7,0</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="Altiaium" ref="https://pleiades.stoa.org/places/108736">Altiaium</placeName>
+                                <placeName type="modern">Alzey:</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1963">
+                            <placeName ref="ph">
+                               Alzey, Kastell, in der Nordwange des westlichen Kastelltores.
+                            </placeName><geo>49.7462 8.11685</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                     <term ref="https://www.eagle-network.eu/voc/typeins/lod/111">Sitzinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><orig>lo<choice><unclear>g</unclear><unclear>c</unclear></choice>abis</orig> <persName type="attested" ref="persons.xml#p"><name nymRef="Secundius" type="gentilicium">Secundius</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Mögliche Lesungen: 'Locabis', 'Lo(cum habet) Ga(ius) Bis(ius) Secundius', 'Lo(ca) Bis(ius) Secundius'?
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076336
+                    </bibl>
+                    <bibl>
+                        CSIR D II/1, Nr. 39
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schillinger-Haefele1977"/>
+                        <biblScope>
+                            473-474, Nr. 29
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mithras Invictus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Sum010</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum, Lapidarium</repository>
+                        <idno>RL 163</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType></p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>64</height>
+                                            <width>35</width>
+                                            <depth>31</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift nimmt im Blocksatz den gesamten Schaft ein, Zeile 6 befindet sich mit einem Buchstaben auf dem Sockel, daraus resultiert ein unausgewogenes, nicht gut geplant wirkendes Schriftbild.  In den oberen Zeilen Zeilenführung nicht ganz eingehalten, teilweise recht gedrängt stehende Buchstaben.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, teilweise unsicher ausgeführte quadratische Buchstaben mit Serifen. Y mit über die benachbarten Buchstaben ausladenden, gebogenen Querhasten.</p>
+                                <height min="3.5" max="4.5">4,5.3,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CSum" ref="ph">Civitas Sumelocennensis</placeName>
+                                <placeName type="ancient" key="Sumelocenna" ref="https://pleiades.stoa.org/places/118985">Sumelocenna</placeName>
+                                <placeName type="modern">Rottenburg/Neckar</placeName> 
+                            <origDate notBefore="0150" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1881-11-04">
+                            <placeName ref="ph">
+                                Rottenburg/Neckar, links der Landstraße nach Seebronn auf einem Acker am Stadtausgang, bei Kellerbauarbeiten.
+                            </placeName><geo>48.482 8.9399</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/7415"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="InvictusMithras*" role="god">Invic<hi rend="tall">t</hi>o
+                        <lb n="2"/>M<choice><corr>i</corr><sic>y</sic></choice>t<supplied reason="omitted">h</supplied>rae</persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name nymRef="Aelius*" type="gentilicium"><expan><abbr>A<hi rend="ligature"><hi rend="reversed">e</hi>l</hi></abbr><ex>ius</ex></expan></name> <name nymRef="Vocco" type="cognomen">Voc<lb n="4" break="no"/>co</name></persName> <expan><abbr>m<hi rend="ligature"><hi rend="tall">i</hi>l</hi></abbr><ex>es</ex></expan> <orgName type="legio" key="legioXXIIPrimigeniapiafidelis"><expan><abbr>l</abbr><ex>egionis</ex></expan> <num value="22">XXII</num>
+                    <lb n="5"/><expan><abbr>P</abbr><ex>rimigeniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></orgName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> 
+                    <milestone unit="section" type="sockel"/>
+                    <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036785
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6362
+                    </bibl>
+                    <bibl>
+                        CIMRM 1308
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            91-92, Nr. 122
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

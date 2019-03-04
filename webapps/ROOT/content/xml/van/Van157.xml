@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Grutilo</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van157</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Mittelrheinisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, bestoßen und oben und seitlich abgebrochen. Unterhalb der Inschrift Staurogramm in Form eines Labarums, flankiert von schlicht eingeritzten Tauben. Um Inschrift und Ritzzeichnung quadratisches eingeritztes Feld.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(33)</height>
+                                            <width>(31)</width>
+                                            <depth>4</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich zwischen vorgeritzten Hilfslinien. Linksbündige Inschrift mit überwiegend gleichmäßigem, teilweise gedrängtem Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Späte Buchstaben mit Serifen, A mit gebrochener Querhaste, schneckenförmiges Q, G bestehend aus zwei nicht verbundenen, gegeneinander versetzten Bögen, Hasten der V nicht verbunden, Bogen des R nicht geschlossen, Schräghaste am Stamm ansetzend, L mit schräger Querhaste. T und I in Umzeichnung dargestellt.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0400" notAfter="0500" cert="low">Nach Boppert, Paläografie.</origDate>
+                        </origin>
+                        <provenance type="found" when="1842">
+                            <placeName ref="ph">
+                               Worms, bei der Liebfrauenkirche.
+                            </placeName><geo>49.639 8.3689</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$OS_CIL_13_06259.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Hic in pace
+                    <lb n="2"/>quiescet <persName type="attested" ref="persons.xml#p"><name nymRef="Grutilo" type="cognomen">G<lb n="3" break="no"/>rutilo</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD078465
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6259
+                    </bibl>
+                    <bibl>
+                        CIL XIII/4 6259 add. p. 91
+                    </bibl>
+                    <bibl>
+                        ILCV 3112b (em)
+                    </bibl>
+                    <bibl>
+                        <ptr target="Boppert1971"/>
+                        <biblScope>
+                            161-162; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

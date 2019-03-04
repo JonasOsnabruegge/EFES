@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Victoria</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van102</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen, in Worms nicht gessehen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType></p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="https://pleiades.stoa.org/places/108820">Civitas Vangionum</placeName>
+                                <placeName type="ph" key="Borbetomagus" ref="ph">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0300"/>
+                        </origin>
+                        <provenance type="found" notAfter="1535">
+                            <placeName ref="ph">
+                                Worms, früher im Bischofshof aufbewahrt.
+                            </placeName><geo>49.6307 8.3596</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Victoria+" role="god">Victo<supplied reason="lost">riae</supplied></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Romanius+" type="gentilicium">Roman<supplied reason="lost">ius</supplied></name>
+                    <lb n="3"/><name nymRef="Respectus+" type="cognomen">Respec<supplied reason="lost">tus</supplied></name></persName>
+                    <lb n="4"/><expan><abbr>dec</abbr><ex>urio</ex></expan> <orgName type="civitas" key="civitasVangionum*"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>Van</abbr><ex>gionum</ex></expan></orgName>
+                    <lb n="5"/><supplied reason="lost">l</supplied>i<supplied reason="lost">be</supplied>ns ex <expan><abbr>v</abbr><ex>oto</ex></expan>
+                    <lb n="6"/><supplied reason="lost">i</supplied>n suo <expan><abbr>p</abbr><ex>osuit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6225
+                    </bibl>
+                    <bibl>
+                        <ptr target="Weckerling1885"/>
+                        <biblScope>
+                            86-87, Nr. 13
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

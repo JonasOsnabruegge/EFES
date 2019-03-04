@@ -1,0 +1,113 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, den Genius loci, die Nymphen und Fortuna Melior</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud144</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg/Main, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Verkleidung von einem <Term>Brunnen</Term>. Dreieckiger Giebel mit Muschelnische und Rosetten im Giebelfeld, das Inschriftfeld flankiert von ornamentierten Peltenhenkeln.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>70</height>
+                                            <width>90</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+~)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg/Main</placeName>
+                            <origDate when="0223-07-15" datingMethod="#julian">Konsuln</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1930">
+                            <placeName ref="ph">
+                                <geo>49.8399 9.1447</geo>
+                                Obernburg/Main, Beneficiarier-Weihbezirk, im Hof
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/13624-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <persName type="divine" key="Genius loci" role="god">Genio loci</persName> <hi rend="ligature">et</hi>
+                    <lb n="2"/><persName type="divine" key="Nymphes" role="god"><expan><abbr><hi rend="ligature">Ny</hi>mf</abbr><ex>is</ex></expan></persName> <persName type="divine" key="Fortuna Melior" role="god">F<hi rend="ligature">or</hi>tun<hi rend="ligature">ae</hi> <hi rend="ligature">Me</hi><lb n="3" break="no"/>li<hi rend="ligature">or</hi>i</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aius</ex></expan></name> <name nymRef="Ianuarius" type="gentilicium">Ianuarius</name>
+                    <lb n="4"/><name nymRef="Victorinus" type="cognomen">Vict<hi rend="ligature">or</hi>inus</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>c<hi rend="small">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="5"/><date when="0223-07-15" datingMethod="#julian" type="consulship"><expan><abbr>Id</abbr><ex>ibus</ex></expan> <expan><abbr>Iul</abbr><ex>iis</ex></expan> <persName type="consul" ref="PIR² M 308"><name nymRef="Maximus" type="cognomen"><expan><abbr>Max</abbr><ex>imo</ex></expan></name></persName> et <persName type="consul" ref="PIR² R 92"><name nymRef="Aelianus" type="cognomen"><expan><abbr><hi rend="ligature">Ael</hi></abbr><ex>iano</ex></expan></name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD047090
+                    </bibl>
+                    <bibl>
+                        AE 2001, 1540
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

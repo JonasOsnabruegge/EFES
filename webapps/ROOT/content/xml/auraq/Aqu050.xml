@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Abnoba</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aqu050</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmusum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, Statuette der Abnoba in kurzm Gewand, mit der Rechten einen Pfeil aus dem Köcher ziehend, die Linke auf einem Altar abgelegt, davor liegen Hund und Hase. Kopf der Abnoba abgeschlagen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(76)</height>
+                                            <width>37,5</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf der Basis, Zeile 1 links und rechts des linken Fußes der Göttin auf der Ober-, Zeile 2 auf der Vorderseite. Leicht ungeleichmäßiges, gedrängtes Schriftbild, Zeilenführung nicht eingehalten.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte Buchstaben mit Serifen, teilweise breit, überwiegend schmal.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Karlsruhe</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" when="1850-04-09">
+                            <placeName ref="ph">
+                                Karlsruhe, Mühlburg, in der Alb, nahe der ehemaligen Militärschwimmschule.
+                            </placeName><geo>49.008 8.360</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/8314"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="top"/>
+                    <lb n="1"/>Deae <persName type="divine" key="Abnoba*" role="god">Abnob<supplied reason="omitted">a</supplied>e</persName>
+                    <milestone unit="section" type="front"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucilius" type="gentilicium">Lucilius</name> <name nymRef="Moderatus" type="cognomen">Moderatus</name></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036869
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6326
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            81, Nr. 53; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            245, Nr. 345
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

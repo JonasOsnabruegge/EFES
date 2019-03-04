@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Fortuna</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis111</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Jagsthausen, Schloss</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit ornamentierter Bekrönung, im Giebel Akanthusdreipass..</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>96</height>
+                                            <width>49</width>
+                                            <depth>28</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Z. 1 befindet sich auf dem Gesims, der Rest der Inschrift auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height>3-4,3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Jagsthausen</placeName>
+                            <origDate when="0248" datingMethod="#julian">Konsuln</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1886">
+                            <placeName ref="ph">
+                               Jagsthausen, südliches Badegebäude
+                            </placeName><geo>49.308 9.47</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06552_1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> Deae
+                    <milestone unit="section" type="corpus"/><lb n="2"/><persName type="divine" key="Fortuna balnearis redux" role="god">Fortunae <expan><abbr>sa<lb n="3" break="no"/>nct</abbr><ex>a</ex><abbr>e</abbr></expan> balinear<lb n="4" break="no"/>i reduci</persName><persName type="attested" ref="persons.xml#p" role="creator"> <name nymRef="Valerius" type="gentilicium">Va<lb n="5" break="no"/>lerius</name> <name nymRef="Valerianus" type="cognomen">Valeri<lb n="6" break="no"/>anus</name></persName> <expan><abbr>trib</abbr><ex>unus</ex></expan> <orgName type="cohors" key="cohors I Germanorum Philippiana"><expan><abbr>c<lb n="7" break="no"/>oh</abbr><ex>ortis</ex></expan> <num value="1">I</num> <choice><corr>G</corr><sic>C</sic></choice>ermano<lb n="8" break="no"/>rum Phil<supplied reason="omitted">i</supplied>ppian<lb n="9" break="no"/>ae</orgName> votum pos<lb n="10" break="no"/>uit <date when="0248" datingMethod="#julian" type="consul"><expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> <expan><abbr>dd</abbr><ex>ominis</ex></expan> <expan><abbr>n<lb n="11" break="no"/>n</abbr><ex>ostris</ex></expan> <persName type="emperor" ref="persons.xml#p"><persName type="emperor" ref="persons.xml#p"><name nymRef="Philippus" type="cognomen">Philippis</name></persName></persName> <expan><abbr>Aug<lb n="12" break="no"/>g</abbr><ex>ustis</ex></expan> <num value="3">III</num> et iterum
+                    <lb n="13"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036719
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6552
+                    </bibl>
+                    <bibl>
+                        ILS 2605
+                    </bibl>
+                    <bibl>
+                        RSO 8
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

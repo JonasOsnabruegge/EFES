@@ -1,0 +1,115 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Faustinius Faustinus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van166</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zahlreiche aneinanderpassende Fragmente von der Front eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophags</objectType>. Zum Fundzeitpunkt noch nicht fragmentiert, aber ohne Deckel, die Maßangabe bezieht sich auf den damaligen Zustand.</p>
+                                    <material>Sandstein?</material>
+                                        <dimensions unit="cm">
+                                            <height>62</height>
+                                            <width>232</width>
+                                            <depth>77</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Überwiegend regelmäßiges, teilweise sehr gedrängtes Schriftbild, Inschriftfeld zum Teil verwittert und abgerieben, erste Zeile mit größeren Buchstaben. Zahlreiche Ligaturen als gestalterisches Merkmal.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, teilweise leicht unsicher ausgeführte, quadratische Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="vicus" key="ph" ref="ph"/>
+                                <placeName type="modern">Alsheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0300"/>
+                        </origin>
+                            <provenance type="found" when="1824-03">
+                            <placeName ref="ph">
+                                Alsheim, an der Chaussee.
+                            </placeName><geo>49.7681 8.3403</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F014816.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Faustinius" type="gentilicium">Faus<hi rend="ligature">t<hi rend="tall">i</hi></hi><hi rend="ligature">n<hi rend="tall">i</hi></hi>o</name> <name nymRef="Faustinus" type="cognomen">F<hi rend="ligature">au</hi>s<hi rend="ligature">t<hi rend="tall">i</hi></hi>no</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Sennaucius" type="gentilicium">Senn<hi rend="ligature">au</hi>c<hi rend="small">i</hi></name> <name nymRef="Florio" type="cognomen">Florio<hi rend="ligature">n<hi rend="tall">i</hi></hi>s</name></persName> <expan><abbr>f<hi rend="ligature"><hi rend="tall">i</hi>l</hi></abbr><ex>io</ex></expan></persName> <expan><abbr>m<hi rend="ligature"><hi rend="tall">i</hi>l</hi></abbr><ex>iti</ex></expan>
+                    <lb n="2"/><orgName type="cohors" key="cohorsIFlaviaDamascenorum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="1">I</num> <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>D</abbr><ex>amascenorum</ex></expan></orgName> <expan><abbr>ped</abbr><ex>iti</ex></expan> <expan><abbr>sing</abbr><ex>ulari</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gemellinia" type="gentilicium">Gemel<hi rend="ligature">l<hi rend="tall">i</hi></hi><hi rend="ligature">n<hi rend="tall">i</hi></hi>a</name> <name nymRef="Faustina" type="cognomen">F<hi rend="ligature">au</hi>s<hi rend="ligature">t<hi rend="tall">i</hi></hi>na</name></persName> <expan><abbr>mat</abbr><ex>er</ex></expan>
+                    <lb n="3"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Faustinia" type="gentilicium">F<hi rend="ligature">au</hi>s<hi rend="ligature">t<hi rend="tall">i</hi></hi><hi rend="ligature">n<hi rend="tall">i</hi></hi>a</name> <name nymRef="Potentina" type="cognomen">Pot<hi rend="ligature">en</hi><hi rend="ligature">t<hi rend="tall">i</hi></hi>na</name></persName> <expan><abbr>sor</abbr><ex>or</ex></expan> <expan><abbr><hi rend="ligature">he</hi>r</abbr><ex>edes</ex></expan> secu<hi rend="ligature">nd</hi>um <expan><abbr>volu<hi rend="ligature"><choice><corr>n</corr><sic>m</sic></choice>t</hi></abbr><ex>atem</ex></expan>
+                    <lb n="4"/><hi rend="ligature">te</hi>stamen<hi rend="ligature">t<hi rend="tall">i</hi></hi> <expan><abbr>pos</abbr><ex>uerunt</ex></expan> <date type="age" dur="P25Y">vixit <expan><abbr>an</abbr><ex>nos</ex></expan> <num value="25"><supplied reason="lost">XX</supplied>V</num></date> dec<hi rend="small">i</hi>dit <hi rend="ligature"><hi rend="tall">i</hi>n</hi> flore iuvent<supplied reason="omitted">a</supplied>e
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054778
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6270
+                    </bibl>
+                    <bibl>
+                        ILS 2588
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

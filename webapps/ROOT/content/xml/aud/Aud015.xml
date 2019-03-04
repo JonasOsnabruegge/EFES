@@ -1,0 +1,136 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beneficiarier-Wehinschrift an Iuppiter Optimus Maximus.</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud015</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg/Main; Römermuseum</repository>
+                        <idno>R 1954, 13</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, auf der linken Nebenseite Blitzbündel; auf der rechen Nebenseite doppelt-S-förmig verschlungene Schlangen. Qualitätvolle Arbeit.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>128</height>
+                                            <width>66</width>
+                                            <depth>38</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befindet sich auf dem Gesims der Bekrönung; Zeile 2 auf dem Schaft oberhalb des Inschriftfeldes, der Rest der Inschrift innerhalb des profilgerahmten Inschriftfeldes. Die Inschrift füllt das gesamte verfügbare Inschriftfeld im Blocksatz aus. Geordnetes, gleichmäßiges Schriftbild, mit gleichmäßigem Buchstaben- und Zeilenabstand. Um diese zu erhalten wurde auf zahlreiche Ligaturen und klein eingehauene Buchstaben zurückggegriffen. Dreieckige Worttrenner, hederae in Zeile 1 und am Ende von Zeile 10/11.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig und qualitätvoll ausgeführt.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg/Main:</placeName> Kastell, porta principalis dextra, bei 
+                            </origPlace>
+                            <origDate when-custom="0189-07-15" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1954">
+                            <placeName ref="ph">
+                               Obernburg/Main, südlich der Stadt; 110 m von der porta principalis dextra an einer römischen Straße
+                            </placeName><geo>49.8412 9.1466</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6926.jpg"/>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F023378.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corona"/>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="2"/><persName type="divine" key="IunoRegina*" role="god">Iunoni <expan><abbr>Reg</abbr><ex>inae</ex></expan></persName> <persName type="divine" key="Minerva*" role="god"><expan><abbr>M<hi rend="ligature"><hi rend="tall">i</hi>n<hi rend="reversed">e</hi>r</hi></abbr><ex>vae</ex></expan></persName>
+                    <milestone unit="section" type="field"/>
+                    <lb n="3"/><persName type="divine" key="GeniusImperatorisCommodi" role="god">Genio <persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <name nymRef="Commodus+++" type="cognomen"><del rend="erasure"><unclear>C</unclear><supplied reason="lost">om<lb n="4" break="no"/>o</supplied><unclear>d</unclear>i</del></name> <expan><abbr>Aug</abbr><ex>usti</ex></expan> P<hi rend="ligature">i<hi rend="tall">i</hi></hi> fe<lb n="5" break="no"/><hi rend="ligature">l<hi rend="tall">i</hi></hi>cis invic<hi rend="ligature">t<hi rend="tall">i</hi></hi> <name nymRef="Britannicus" type="cognomen">Br<hi rend="ligature"><hi rend="tall">i</hi>t</hi><lb n="6" break="no"/><hi rend="ligature">an</hi><hi rend="ligature">n<hi rend="tall">i</hi></hi>ci</name></persName></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Villonius" type="gentilicium">Vill<hi rend="small">o</hi><lb n="7"/>nius</name> <name nymRef="Verecundus" type="cognomen">Verec<hi rend="ligature">un</hi><lb n="8" break="no"/>dus</name></persName> <expan><abbr>mil</abbr><ex>es</ex></expan> <orgName type="legio" key="legioVIIIAugstapiafidelisconstans"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num>
+                    <lb n="9"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>c</abbr><ex>onstantis</ex></expan></orgName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> 
+                    <lb n="10"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <date when-custom="0189-07-15" datingMethod="#julian" type="consulship">duobus
+                    <lb n="11"/><persName type="consul" ref="PIR² D 205"><persName type="consul" ref="PIR² S 600"><name nymRef="Silanus" type="cognomen">Silanis</name></persName></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                    <lb n="12"/><expan><abbr><hi rend="ligature"><hi rend="tall">i</hi>d</hi><hi rend="ligature"><hi rend="tall">i</hi>b</hi></abbr><ex>us</ex></expan> <expan><abbr>Iul</abbr><ex>iis</ex></expan></date> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD017039
+                    </bibl>
+                    <bibl>
+                        AE 1957, 50
+                    </bibl>
+                    <bibl>
+                        RSO 84
+                    </bibl>
+                    <bibl>
+                        CBI 139
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 169
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            167-177, Nr. 144
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

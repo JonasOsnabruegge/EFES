@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift des Senecius Ianuarius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN039</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment vom Inschriftfeld einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit dem oberen, rechten und linken Rand.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(74)</height>
+                                            <width>76</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Linksbündige Inschrift, erste und letzte Zeile zentriert.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Unregelmäßige Buchstaben, teilweise stark gedrängt.</p>
+                                <height>6,5-10,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" key="ph" ref="ph"/>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0230" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1965">
+                            <placeName ref="ph">Heidelberg, Wieblingen, im Flussbett des Neckar</placeName><geo>49.428 8.652</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27113-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p54"><name nymRef="Senecio" type="cognomen">Senecio</name> <persName type="attested" ref="persons.xml#p55"><name nymRef="Ianuari" type="cognomen">Ianu<lb n="3" break="no"/>ari</name> </persName> <expan><abbr>ci</abbr><ex>vis</ex></expan> Nemes</persName>
+                    <lb n="4"/><date type="age" dur="P55Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="55">LV</num></date> et <expan><abbr>comem</abbr><ex>oriae</ex></expan>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p56" role="creator"><name nymRef="Siora" type="cognomen">Siora</name> </persName> <expan><abbr>p</abbr><ex>iissimo</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan>
+                    <lb n="6"/><expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD038670
+                    </bibl>     
+                    <bibl>
+                        <ptr target="Feraudi2016a"/>
+                        <biblScope>
+                            239-242
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Feraudi2016b"/>
+                        <biblScope>
+                            233-239
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            95, Nr. 54; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

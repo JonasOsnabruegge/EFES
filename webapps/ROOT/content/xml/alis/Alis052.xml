@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WeihWeihinschrift für Iuppiter Optimus Maximus und den Genius loci</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis052</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Michelstadt, Eulbach, Englischer Garten</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Unterteil, Nebenseiten und Bekrönung für Sekundärverwendung abgeschlagen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(80)</height>
+                                            <width>(4$)</width>
+                                            <depth>29</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft, gut zentriert, mit ausgewogenem Schriftbild. Breiter Zeilenabstand, der Name des Stifters mit engem Zeilensabstand, so dass die einzelnen Sinneinheiten gut getrennt sind.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, quadratische Buchtaben mit Serifen, teilweise leicht ungenau eingehauen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250"/>
+                        </origin>
+                        <provenance type="found" notAfter="1813">
+                            <placeName ref="ph">
+                                Osterburken, in der Nähe der Kirche im Keller eines Gebäudes.
+                            </placeName><geo>49.4309 9.4273</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/26984"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><hi rend="ligature">et</hi> <persName type="divine" key="Geniusloci*" role="god"><expan><abbr>G</abbr><ex>enio</ex></expan> <expan><abbr>l</abbr><ex>oci</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Calvinius" type="gentilicium">Calvinius</name>
+                    <lb n="4"/><name nymRef="Titus" type="cognomen">Titus</name></persName>
+                    <lb n="5"/><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="6"/><gap reason="lost" quantity="1" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036624
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6570
+                    </bibl>
+                    <bibl>
+                        RSO 91
+                    </bibl>
+                    <bibl>
+                        CBI 175
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

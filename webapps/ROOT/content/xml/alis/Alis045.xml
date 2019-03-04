@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus Maximus, Iuno Regina, den Genius loci und Mars Conservator</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis045</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, mit zugehöriger Plinthe, Bekrönung seitlich bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>101,5</height>
+                                            <width>54,5</width>
+                                            <depth>27,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zeile 1/2 befinden sich auf der Bekrönung, Zeile 2 auf dem Gesims. Der Rest der Inschrift befindet sich auf dem Schaft, welcher von der Inschrift gänzlich eingenommen wird. Inschrift im Blocksatz, variierter Buchstabenabstand, um die Zeilenbreite an den verfügbaren Platz anzupassen. Zeile 1, 2 und die letzte Zeile weit gesperrt. Dreieclkige Worttrenner. In eile 11 III klein im Zeilenzwischenraum hinzugefügt.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height min="3.0" max="4.5">4,5-3,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate when-custom="0202" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihbezirk, Befund X/7, Nr. 602.
+                            </placeName><geo>49.4300 9.4255</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25691"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corona"/>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <milestone unit="section" type="gesims"/>
+                    <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="3"/><persName type="divine" key="IunoRegina*" role="god"><expan><abbr>Iun</abbr><ex>oni</ex></expan> <expan><abbr>Reg</abbr><ex>inae</ex></expan></persName> et
+                    <lb n="4"/><persName type="divine" key="Geniusloci" role="god">Genio lo</persName>ci
+                    <lb n="5"/>et <persName type="divine" key="MarscConservator*" role="god">Marti <expan><abbr>Co<supplied reason="omitted">n</supplied>s<lb n="6" break="no"/><surplus>s</surplus>erva</abbr><ex>tori</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aius</ex></expan></name> <name nymRef="Garantius" type="gentilicium">Gara<lb n="7" break="no"/><hi rend="ligature">nt</hi>ius</name> <name nymRef="Severianus" type="cognomen">Severi<hi rend="ligature">an</hi><lb n="8" break="no"/>us</name></persName> pro se <hi rend="ligature">et</hi> suis
+                    <lb n="9"/><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="10"/><date when-custom="0202" datingMethod="#julian" type="consulship"><expan><abbr>dom</abbr><ex>inis</ex></expan> <expan><hi rend="supraline"><abbr>n<am>n</am></abbr></hi><ex>ostris</ex></expan> <persName type="emperor" ref="persons.xml#p"><name nymRef="Severus" type="cognomen">Seve<lb n="11" break="no"/>r<choice><corr>o</corr><sic>i</sic></choice></name></persName> <hi rend="small"><hi rend="superscript">III</hi></hi> <hi rend="ligature">et</hi> <persName type="emperor" ref="persons.xml#p"><name nymRef="Antoninus*" type="cognomen"><expan><abbr>A<hi rend="ligature">nt</hi>oni</abbr><ex>no</ex></expan></name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                    <lb n="12"/>miles <orgName type="legio" key="legioXXIIPrimigeniapiafidelis*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="22">XXII</num> <expan><abbr>P</abbr><ex>rimigeniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></orgName> <persName type="attested" ref="persons.xml#p"><name nymRef="Iarionus" type="cognomen">Iar<lb n="13" break="no"/>ionus</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036895
+                    </bibl>
+                    <bibl>
+                        AE 1996, 1157
+                    </bibl>
+                    <bibl>
+                        CBI 163
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

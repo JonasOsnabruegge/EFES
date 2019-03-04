@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bauinschrift der Cohors XXVI vol. c. R.</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aqu034</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno>C 63</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Brunnen in Form einer Stele mit bogenförmigem Giebel, im Giebelfeld zwei gegenständige Capricornes, die zwischen ihren Vorderläufen einen Globus halten. Im Inschriftfeld Löwenkopf, in dessen Maul Auslassöffnung für das Wasser. Bestoßen, an den Kanten zum Teil abgeschlagen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>107</height>
+                                            <width>59</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich im oberen Teil des von Pilastern gerahmten Inschriftfeldes oberhalb es Löwenkopfes. Gut zentrierte Inschrift, ausgewogenes Schriftbild. O klein in Zeile 1 und 2. Hederae als Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig gearbeitete quadratische Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="Aquae" ref="https://pleiades.stoa.org/places/108748">Aquae</placeName>
+                                <placeName type="modern">Baden-Baden</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0070" notAfter="0090"/>
+                        </origin>
+                            <provenance type="found" when="1680">
+                            <placeName ref="ph">
+                                Baden-Baden, Oos-Scheuern, beim Bau des Jesuitenschlösschens.
+                            </placeName><geo>48.771 8.216</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/8299"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><orgName type="cohors" key="cohorsXXVIvoluntariorumciviumRomanorum*"><expan><abbr>C<hi rend="small">o</hi>h</abbr><ex>ortis</ex></expan> <num value="26">X<hi rend="supraline">XV</hi>I</num>
+                    <lb n="2"/><expan><abbr>v<hi rend="small">o</hi>l</abbr><ex>untariorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036823
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6307
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            37; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            302-303, Nr. 466; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

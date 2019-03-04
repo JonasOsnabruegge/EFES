@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van021</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>HM 2978</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Links, rechts und oben abgebrochenes Fragment, wohl von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(80)</height>
+                                            <width>(58)</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Linksbündige Inschrift? Unregelmäßiges, unausgewogenes Schriftbild, unterschiedlicher Buchstabenabstand, -höhe und -ausrichtung.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, schmale und hohe Buchstaben ohne Serifen, unsicher ujnd uneinheitlich ausgeführt.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Kreimbach-Kaulbach</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1893-06">
+                            <placeName ref="ph">
+                                Kreimbach-Kaulbach, Heidenburg, sekundär verwendet
+                            </placeName><geo>49.559 7.631</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26675-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" ref="persons.xml#p"><name nymRef="Rufus?" type="cognomen"> R<unclear>ufo</unclear></name></persName> <unclear>e</unclear><supplied reason="lost" cert="low">t</supplied> <gap reason="lost" extent="unknown" unit="character" cert="low"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>iisonis</orig><gap reason="lost" extent="unknown" unit="character" cert="low"/>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="---a" type="cognomen?"><gap reason="lost" extent="unknown" unit="character"/>a</name></persName> et <persName type="attested" ref="persons.xml#p"><name nymRef="Aprill---" type="cognomen">April<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="4"/>defu<supplied reason="omitted">c</supplied>toh <gap reason="lost" extent="unknown" unit="character" cert="low"/>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> s</supplied>ibi et suis su<supplied reason="lost">o</supplied><lb n="6" break="no"/><supplied reason="lost">rumque post</supplied>eris
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075655
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6162
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            28, Nr. 38
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ditsch2011"/>
+                        <biblScope>
+                            118-119, Kreimbach 15; Taf. 25, 3 u. 4
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

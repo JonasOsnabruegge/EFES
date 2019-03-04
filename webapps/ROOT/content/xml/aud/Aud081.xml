@@ -1,0 +1,118 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und den Genius numeri?</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud081</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p/>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Aschaffenburg</placeName>
+                            <origDate notBefore="0100" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1790">
+                            <placeName ref="ph">
+                               Aschaffenburg, Stadtmauer, sekundär verwendet
+                            </placeName><geo>49.98 9.14</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <supplied reason="lost" cert="low">et </supplied><persName type="divine" key="Genius numeri Brittonum et exploratorum Nemaningensium" role="god"><supplied reason="lost">Genio</supplied>
+                        <lb n="2"/><orgName type="numerus" key="numerus Brittonum et exploratorum Nemaningensium"><expan><abbr>n</abbr><ex>umeri</ex></expan> <expan><abbr>Brit</abbr><ex>tonum</ex></expan> et <expan><abbr>expl</abbr><ex>oratorum</ex></expan>
+                        <lb n="3"/><expan><abbr>Neman<supplied reason="lost">in</supplied>g</abbr><ex>ensium</ex></expan></orgName></persName>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus?" type="praenomen"><expan><abbr><unclear>Q</unclear></abbr><ex>uintus</ex></expan></name> <name nymRef="B---ius" type="gentilicium">B<gap reason="lost" extent="unknown" unit="character"/>ius</name>
+                    <lb n="5"/><name nymRef="Br---us" type="cognomen">Br<gap reason="lost" extent="unknown" unit="character"/>us</name></persName> <expan><am><g type="centurio"/></am><ex>centurio</ex></expan>
+                    <lb n="6"/><orgName type="legio" key="legio XXII Primigenia p f"><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <num value="22">XXII</num> <expan><abbr>Pr</abbr><ex>imigeniae</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied></orgName>
+                    <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD060185
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6642
+                    </bibl>
+                    <bibl>
+                        RSO 33
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

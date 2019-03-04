@@ -1,0 +1,116 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule des Gordian</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aqu067</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>188</height>
+                                            <width>40</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(o)</p>
+                                <height>5-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Baden-Baden, bei</placeName>
+                            <origDate notBefore="0238" notAfter="0244" datingMethod="#julian">Kaisertitulatur</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1894">
+                            <placeName ref="ph">
+                                Baden-Baden, bei, zwischen Sinzheim und Steinbach
+                            </placeName><geo>48.756 8.152</geo>
+                            </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25564-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>C<hi rend="ligature">ae</hi>s</abbr><ex>ari</ex></expan> <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Antonius" type="gentilicium"><expan><abbr>A<hi rend="ligature">nt</hi></abbr><ex>onio</ex></expan></name>
+                    <lb n="2"/><name nymRef="Gordianus" type="cognomen">Gordiano</name> Pio <expan><abbr>Fe</abbr><ex>lici</ex></expan>
+                    <lb n="3"/><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan> <expan><abbr>po<hi rend="ligature">nt</hi></abbr><ex>ifici</ex></expan> <expan><abbr>tri</abbr><ex>bunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan>
+                    <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <hi rend="ligature"><hi rend="reversed">p</hi>r</hi>oco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>rest</abbr><ex>itutori</ex></expan>
+                    <lb n="5"/>orbis</persName> <expan><abbr>a</abbr><ex>b</ex></expan> <placeName type="ancient" key="Aquae" ref="https://pleiades.stoa.org/places/108748"><expan><abbr>Aq</abbr><ex>uis</ex></expan></placeName>
+                    <lb n="6"/><expan><abbr>l</abbr><ex>eugas</ex></expan> <num value="4">IIII</num>
+            
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036780
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9119
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 648
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

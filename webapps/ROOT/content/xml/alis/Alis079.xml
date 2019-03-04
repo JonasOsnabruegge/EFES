@@ -1,0 +1,132 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Fortuna eines Collegiums</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis079</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p/>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Bad Wimpfen</placeName> 
+                            <origDate notBefore="0130" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1600">
+                            <placeName ref="ph">
+                               Bad Wimpfen
+                            </placeName><geo>49.2312 9.1803</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Deae <choice><sic>G</sic><corr>F</corr></choice>ort<choice><corr>unae</corr><sic>iai</sic></choice>
+                    <lb n="2"/><orig>ogl</orig> sunt aquibus
+                    <lb n="3"/>percollectae
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Durinius" type="gentilicium">Durin<supplied reason="lost">i</supplied>us</name> <name nymRef="Ursus" type="cognomen">Ursus</name></persName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Camigenius" type="gentilicium"><expan><abbr>Camigen</abbr><ex>ius</ex></expan></name> <name nymRef="Antoninus" type="cognomen">Antoninus</name></persName>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ioincius" type="gentilicium">Ioin<supplied reason="lost">c</supplied>ius</name> <persName type="divine" key="Lupio" role="god">Lupio</persName></persName>
+                    <lb n="7"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secundinius" type="gentilicium"><expan><abbr>Secundin</abbr><ex>ius</ex></expan></name> <name nymRef="Divixtus" type="cognomen">Divixtus</name></persName>
+                    <lb n="8"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Senecionius" type="gentilicium">Se<supplied reason="lost">ne</supplied>cionius</name> <name nymRef="Ursinus" type="cognomen">Ursinus</name></persName>
+                    <lb n="9"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Senonius" type="gentilicium"><expan><abbr>Senon</abbr><ex>ius</ex></expan></name> <name nymRef="Verecundus" type="cognomen">Verecundus</name></persName>
+                    <lb n="10"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Servatius" type="gentilicium">Servat<supplied reason="lost">i</supplied>us</name> <name nymRef="Servandio" type="cognomen">Servand<supplied reason="lost">i</supplied>o</name></persName>
+                    <lb n="11"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Entionius" type="gentilicium">Ention<supplied reason="lost">i</supplied>us</name> <name nymRef="Vittio" type="cognomen">Vittio</name></persName>
+                    <lb n="12"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Moderatius" type="gentilicium"><expan><abbr>Moderat</abbr><ex>ius</ex></expan></name> <name nymRef="Aprianus" type="cognomen">Aprianus</name></persName>
+                    <lb n="13"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Sennonius" type="gentilicium"><expan><abbr>Sennon</abbr><ex>ius</ex></expan></name> <name nymRef="Augustus" type="cognomen">Augustus</name></persName>
+                    <lb n="14"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Sennonius" type="gentilicium"><expan><abbr>Sen<supplied reason="lost">n</supplied>on</abbr><ex>ius</ex></expan></name> <name nymRef="Perpetuus" type="cognomen">Perpetuus</name></persName>
+                    <lb n="15"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Censorinius" type="gentilicium">Censor<supplied reason="lost">i</supplied>n<supplied reason="lost">i</supplied>us</name> <name nymRef="Ursulus" type="cognomen">Ursulus</name></persName>
+                    <lb n="16"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Primanius" type="gentilicium">Primanius</name> <name nymRef="Potens" type="cognomen">Potens</name></persName>
+                    <lb n="17"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caradeannius?" type="gentilicium"><expan><abbr>Caradea<hi rend="ligature">nn</hi></abbr><ex>ius</ex></expan></name> <name nymRef="Cara---" type="cognomen"><abbr>Cara</abbr></name></persName>
+                    <lb n="18"/>A<supplied reason="lost">ug</supplied>us<supplied reason="lost">t</supplied>an<supplied reason="lost">i</supplied>us Apis
+                    <lb n="19"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Sennonius" type="gentilicium">Sennonius</name> <name nymRef="Severus" type="cognomen">Severus</name></persName>
+                    <lb n="20"/><persName type="attested" ref="persons.xml#p"><name nymRef="Ursinius" type="gentilicium">Ursinius</name> <name nymRef="Carius" type="cognomen">Carius</name></persName>
+                    <lb n="21"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Victorius" type="gentilicium"><expan><abbr>Victor</abbr><ex>ius</ex></expan></name> <name nymRef="Niarius" type="cognomen">Niarius</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036590
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6484 (add. CIL XIII/4, p. 99)
+                    </bibl>
+                    <bibl>
+                        RSO 126
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

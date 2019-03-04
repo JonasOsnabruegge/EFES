@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis089</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>? Allseitig abgebrochen, stark bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(45)</height>
+                                            <width>(88)</width>
+                                            <depth>39</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen (++).</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Billigheim</placeName> 
+                            <origDate notBefore="0100" notAfter="0200"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1883">
+                            <placeName ref="ph">
+                               Billigheim, Waldmühlbach, beim Abriss der alten Kirche
+                            </placeName><geo>49.362 9.282</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25676-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><orig>a<unclear>i</unclear></orig><gap reason="illegible" quantity="6" unit="character"/><orig><unclear>ii</unclear>orii<unclear>se</unclear></orig><name nymRef="---olensis?" type="cognomen"><gap reason="illegible" quantity="2" unit="character"/><lb n="3" break="no"/>o<unclear>le</unclear>nsis</name></persName> <expan><abbr>obi</abbr><ex>i</ex><abbr>t</abbr></expan> morte
+                    <lb n="4"/>sua <placeName type="ancient" ref="https://pleiades.stoa.org/places/991402">Cappadocia</placeName> <date type="age" dur="P35Y">an<lb n="5" break="no"/>norum <num value="35">XXXXV</num></date> <hi rend="ligature">et</hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Nerto---" type="gentilicium">Nerto<lb n="6" break="no"/><gap reason="lost" extent="unknown" unit="line"/></name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD037124
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6496
+                    </bibl>
+                    <bibl>
+                        AE 2010, 1079
+                    </bibl>
+                    <bibl>
+                        RSO 209
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            401 f.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

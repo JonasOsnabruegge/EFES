@@ -1,0 +1,103 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift?</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN046</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment einer Inschrift in vertieftem Inschriftfeld.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(30)</height>
+                                            <width>(32)</width>
+                                            <depth>16</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Der linke Rand des Inschriftfeldes ist erhalten. Unterhalb der Buchstaben ist eine freie Fläche, möglicherweise war hier noch eine aufgemalte Inschrift.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Regelmäßige Buchstaben</p>
+                                <height>4,8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" key="ph" ref="ph"/>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1961"><placeName ref="ph">Heidelberg, Neuenheim, Berliner Straße, römisches Gräberfeld</placeName><geo>49.419 8.676</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><unclear>Di</unclear><supplied reason="lost" cert="low">s Manibus</supplied>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Statt D wäre aufgrund der Krümmung des Bogens auch B denkbar, dann wäre auch in Erwägung zu ziehen, ob es sich hierbei um die letzte Zeile einer Inschrift handelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD078007
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2009"/>
+                        <biblScope>
+                            64, Nr. 4; Taf. 533
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugesäule des Philippus Arabs</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN080</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kriegsverlust</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei Bruchstücke einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType> mit Sockel, rechts abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>200</height>
+                                            <width>47</width>
+                                            <depth/>
+                                            <dim type="circumference" min="150" max="146">150-146</dim>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Nur der Beginn der Zeilen erhalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg:</placeName> römischer Keller innerhalb der Stadtmauern, nahe des Forums
+                            </origPlace>
+                            <origDate when="0245" cert="high">Kaisertitulatur</origDate>
+                        </origin>
+                        <provenance type="found" when="1883"><placeName ref="ph">Ladenburg, Heidelberger Straße 15</placeName><geo>49.470 8.611</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69 .html">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied>
+                        <lb n="2"/><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Iulius" type="gentilicium">Iu<unclear>l</unclear><supplied reason="lost">io</supplied></name>
+                        <lb n="3"/><name nymRef="Philippus" type="cognomen">P<unclear>h</unclear><supplied reason="lost">ilippo</supplied></name> <supplied reason="lost">pio</supplied>
+                        <lb n="4"/><expan><abbr>f</abbr><ex>elici</ex></expan> <expan><abbr>Au<supplied reason="lost">g</supplied></abbr><ex>usto</ex></expan></persName> <supplied reason="lost"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <num value="2">II</num></supplied>
+                    <lb n="5"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr><unclear>p</unclear></abbr><ex>atriae</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>
+                    <lb n="6"/>et <persName type="emperor" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><supplied reason="lost">Iulio</supplied></name>
+                        <lb n="7"/><name nymRef="Philippus" type="cognomen">Phi<unclear>li</unclear><supplied reason="lost">ppo</supplied></name></persName>
+                    <lb n="8"/><expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied>
+                    <lb n="9"/><orgName key="CVSN" type="civitas"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>U</abbr><ex>lpia</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Kriegsverlust. 1944 beim Bombenangriff auf Mannheim im Schloss zerstört.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD011850
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9100
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 632
+                    </bibl>
+                    <bibl>
+                        RSOR 86
+                    </bibl>
+                    <bibl>
+                        <ptr target="Baumann1890"/>
+                        <biblScope>
+                            23-24, Nr. 35
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            225, Nr. 2
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            75, Nr. 33; Abb. 36 a.b
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

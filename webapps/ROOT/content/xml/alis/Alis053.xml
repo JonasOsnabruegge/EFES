@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift für Antoninus Pius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis053</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rastatt, zentrales Fundarchiv</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Fragmente einer Tafel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(41)</height>
+                                            <width>(38,6)</width>
+                                            <depth>12,4</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Geordnetes, gleichmäßiges Schriftbild. Teile der oberen und unteren Rahmenleiste des Inschriftfeldes sind erhalten. Blattförmige Hederae als Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig gearbeitete, quadratische Buchstaben mit fein gearbeiteten Serifen (Capitalis quadrata). Qualitätvolle Inschrift.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Neckarburken</placeName>
+                            </origPlace>
+                            <origDate notBefore="0138" notAfter="0222"/>
+                        </origin>
+                        <provenance type="found" when="1892">
+                            <placeName ref="ph">
+                                Neckarburken, Numeruskastell, im atrium des praetoriums.
+                            </placeName><geo>49.3779 9.1739</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><name nymRef="Antoninus+*" type="cognomen"><expan><abbr><supplied reason="lost">A</supplied>nto</abbr><ex>nino</ex></expan></name> <expan><abbr>A<supplied reason="lost">ug</supplied></abbr><ex>usto</ex></expan></persName><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied>
+                    <lb n="3"/><expan><abbr><supplied reason="lost">p</supplied>ot</abbr><ex>estate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Vermutlich Antoninus Pius.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Im unteren Teil des Inschriftfeldes scheint eine Zeile eradiert worden zu sein - daher eher Caracalla mit Rasur von Getas Namen? Vgl. auc das andere Design im Vergleich zu CIL XIII 6490.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036556
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6491
+                    </bibl>
+                    <bibl>
+                        RSO 66
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

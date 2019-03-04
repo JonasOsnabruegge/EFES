@@ -1,0 +1,136 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Dolichenus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Sum004</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Sechs aneinanderpassende Fragmente eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>(69)</height>
+                                            <width>(59)</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Oberer Teil des ungerahmten Inschriftfeldes war erhalten.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CSum" ref="ph">Civitas Sumelocennensis</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/118706">Grinario</placeName>
+                                <placeName type="modern">Köngen</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100-07-15" notAfter="0250-07-15"/>
+                        </origin>
+                        <provenance type="found" when="1783">
+                            <placeName ref="ph">
+                               Köngen, südwestlich des Kastells an der via principalis, Dolichenum?
+                            </placeName><geo>48.677 9.36</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOMDolichenus+" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan></supplied> <expan><abbr><unclear>O</unclear></abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan>
+                        <lb n="2"/><unclear>D</unclear><supplied reason="lost">olich</supplied>eno</persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Bellicius+" type="gentilicium"><supplied reason="lost">Be</supplied><unclear>l</unclear><supplied reason="lost">li</supplied>ciu<supplied reason="lost">s</supplied></name>
+                    <lb n="4"/><name nymRef="Maternus+" type="cognomen">Mate<unclear>r</unclear><supplied reason="lost">n</supplied>us</name></persName>
+                    <lb n="5"/><expan><abbr>be</abbr><ex>neficiarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="6"/>ex iussu
+                    <lb n="7"/>posu<hi rend="ligature"><hi rend="tall">i</hi>t</hi> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="8"/><supplied reason="lost"><expan><abbr>kal</abbr><ex>endas</ex></expan></supplied> <expan><abbr>Iul</abbr><ex>ias</ex></expan>
+                    <lb n="9"/><date notBefore="0100-07-15" notAfter="0250-07-15" type="consulship"><persName type="consul" ref="persons.xml#p"><name nymRef="---nus" type="cognomen"><gap reason="lost" atLeast="6" atMost="7" unit="character"/>no</name></persName>
+                    <lb n="10"/><supplied reason="lost">et</supplied><persName type="consul" ref="persons.xml#p"><gap reason="lost" extent="unknown" unit="character"/></persName><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> </date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036818
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6383
+                    </bibl>
+                    <bibl>
+                        CBI 116
+                    </bibl>
+                    <bibl>
+                        CCID 540
+                    </bibl>
+                    <bibl>
+                        <ptr target="Haug1882"/>
+                        <biblScope>
+                            69
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            142-143, Nr. 186
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

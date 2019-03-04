@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Iuli- Mai---</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud030</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Weiterstadt, protestantische Kirche, gotische Sakristei, Gewände des Nordfensters, vermauert</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType> oder vielleicht einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Links, rechts und unten abgebrochen.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>(26)</height>
+                                            <width>(22)</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Der gerahmte obere Rand des Inschriftfeldes ist erhalten. Gleichmäßiges Schriftbild. Dreieckige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, leicht unsicher und uneinheitlich ausgeführte, quadratische Buchstaben mit fein geschwungenen Serifen, qualitätvolle Arbeit.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Weiterstadt</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0150" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1968">
+                            <placeName ref="ph">
+                               Weiterstadt, protestantische Kirche, im Gewände des Nordfensters der gotischen Sakristei vermauert.
+                            </placeName><geo>49.9061 8.5823</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_Schillinger_00032_1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Dis Ma<supplied reason="lost">nibus</supplied>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Iuli-*" type="gentilicium"><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>i-</ex></expan></name> <name nymRef="Mai---" type="cognomen">Ma<unclear>i</unclear><gap reason="lost" extent="unknown" unit="character"/></name>
+                    <lb n="3"/><supplied reason="lost">P</supplied><unclear>a</unclear>piria<gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: I unsicher, noch einer Vertikalhaste sichtbar, möglicherweise auch B oder R, es scheint der untere Ansatz eines oberen Bogens erkennbar zu sein; Z. 3: [P]apiria (tribu) oder weiteres cognomen? Dann Z. 2 Iul(ii).
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075909
+                    </bibl>
+                    <bibl>
+                        RSOR 83
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 397
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schillinger-Haefele1977"/>
+                        <biblScope>
+                            475, Nr. 32
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

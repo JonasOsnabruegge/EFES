@@ -1,0 +1,118 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift für Sex. [---]us?</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van146</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Birkenfeld?</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment der oberen linken Ecke <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> eines größeren Grabmonuments, oben Dübellöcher, rechts und unten abgebrochen. Oben Fries mit vegetabilen Ornamenten, links darunter Rechtecknische, darin noch ein Frauenkopf mit Ansatz des Oberkörpers.</p>
+                                    <material>Sandsein</material>
+                                        <dimensions unit="cm">
+                                            <height>(58)</height>
+                                            <width>(74)</width>
+                                            <depth>(22)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich unterhalb des Frieses in einem nicht besonders abgegrenzten Inschriftfeld. Inschriftfeld verwittert. Linksbündige Inschrift? Leicht ungleichmäßiges Schriftbild, soweit noch zu erkennen.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, etwas unsicher ausgeführte, quadratische Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum?</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Idar</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0300"/>
+                        </origin>
+                            <provenance type="found" notAfter="1887">
+                            <placeName ref="ph">
+                                Idar, bei, sogenannte 'Heidenhecke'.
+                            </placeName><geo>49.718 7.309</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06207_1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Sextus" type="praenomen"><expan><abbr>Sex</abbr><ex>tus</ex></expan></name> <name nymRef="---us" type="gentilicium?"><gap reason="lost" extent="unknown" unit="character"/><lb n="2" break="no"/>us</name></persName> <orig>pvs</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: Cognomen auf Pus-?
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076183
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6207
+                    </bibl>
+                    <bibl>
+                        <ptr target="Back1890"/>
+                        <biblScope>
+                            5-7
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

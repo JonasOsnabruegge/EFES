@@ -1,0 +1,137 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift der Septimia Restituta</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van017</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>HM 1670</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>
+                                        Drei aneinanderpassende Fragmente vom oberen Teil einer rechteckigen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, mittig vertikal ausgebrochen, unten abgebrochen. Eingeschriebender Bogengiebel mit Muschelornament.
+                                    </p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(109)</height>
+                                            <width>62</width>
+                                            <depth>15</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befindet sich mit größeren Buchstaben in den Bogenzwickeln, der REst vefindet sich in einem profilgerahmten Inschriftfeld unterhalb des Bogengiebels. Linksbündige Inschrift, gleichmäßiges Schriftbild mit gleichmäßigem Zeilenabstande. Am Ende von Zeile 5 etwas gedrängter.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig und eher flach eingehauene, überwiegend quaratische Buchstaben mit Serifen, im unteren Teil etwas schmaler.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Kirchheim an der Weinstraße</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1898">
+                            <placeName ref="ph">
+                                Kirchheim an der Weinstraße, Leininger Weg, Flur Laufer, sekundär verwendet.
+                            </placeName><geo>49.542 8.175</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26516.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section"/>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <milestone unit="section"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Septimia*" type="gentilicium"><expan><abbr>Sep</abbr><ex>timiae</ex></expan></name> <name nymRef="Restituta+" type="cognomen">Res<supplied reason="lost">ti</supplied><lb n="3"/>tu<supplied reason="lost">t</supplied>ae</name></persName>
+                    <lb n="4"/><date type="age" dur="P17Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="17">XVII</num></date>
+                    <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Septimia*" type="gentilicium"><expan><abbr>Sep</abbr><ex>timia</ex></expan></name> <name nymRef="Atuqua+?" type="cognomen"><supplied reason="lost" cert="low">At</supplied>uqua</name></persName> <supplied reason="lost">ma</supplied>ter
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 4: im ausgebrochenen Teil wäre noch Platz für einen weiteren, schmalen Buchstaben, sicher kein N (so bei Ditsch), ein L ist aufgrund der Errichtung durch die Mutter unwahrscheinlich.
+                    Faust: unter Z. 5: [f(aciendum) c(uravit)?]
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075659
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11700
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            32, Nr. 63a
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            117, Nr. 78; Taf. 5, 4
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ditsch2011"/>
+                        <biblScope>
+                            107, Taf. 20, 1 u. 2
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

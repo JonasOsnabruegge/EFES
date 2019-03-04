@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Fortuna</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis173</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Schefflenz-Oberschefflenz, kath. Kirche</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, oben abgebrochen, bestoßen. Auf der linken Nebenseite Krater mit aufwachsenden Pflanzen, darin Früchte.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(67)</height>
+                                            <width>37</width>
+                                            <depth>30</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++~)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Schefflenz</placeName>
+                            <origDate when="0193" datingMethod="#julian">Konsuln</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1904">
+                            <placeName ref="ph">
+                                Schefflenz, Oberschefflenz, Pfarrkirche St. Kilian
+                            </placeName><geo>49.4515 9.281</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/11241-3.jpg"/>
+        <graphic url="http://lupa.at/img/11241-4.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Fortuna" role="god">For<unclear>t</unclear><supplied reason="lost">unae</supplied></persName>
+                    <lb n="2"/>sacrum
+                    <lb n="3"/>ex voto
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gimillius" type="gentilicium">Gimillius</name>
+                    <lb n="5"/><name nymRef="Ianuarius" type="cognomen">Ianuar<lb n="6" break="no"/>ius</name></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> 
+                    <lb n="7"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="8"/><date when="0193" datingMethod="#julian" type="consul"><persName type="consul" ref="PIR² P 655"><name nymRef="Falco" type="cognomen">Falco<hi rend="ligature">ne</hi></name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s<surplus>s</surplus><lb n="10" break="no"/>ule</abbr></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD037125
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11753
+                    </bibl>
+                    <bibl>
+                        AE 2010, 1079
+                    </bibl>
+                    <bibl>
+                        RSO 125
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            394f.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

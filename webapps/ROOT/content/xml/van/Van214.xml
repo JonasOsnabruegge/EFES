@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van214</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Kreuznach, Museum Römerhalle</repository>
+                        <idno>25</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Bekrönung</objectType> von einenmm monumentalen Grabbau, bestehend aus zwei gekreuzten Tonnengewölben. Innen hohl. Auf den Nebenseiten Blattmotiv mit Rosette, auf der Rückseite vegetabiles Ornament mit rautenförmigem Rahmen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>60</height>
+                                            <width>83,5</width>
+                                            <depth>76</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf der Vorderseite, je ein Buchstabe in einem von einer Rundkehle gerahmten Medaillon.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109427">Cruciniacum</placeName>
+                                <placeName type="modern">Bad Kreuznach</placeName>
+                            <origDate notBefore="0100" notAfter="0300"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1834">
+                            <placeName ref="ph">
+                                <geo>49.849 7.858</geo>
+                                Bad Kreuznach, Stomberger Straße, Spielplatz
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F027893.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <milestone unit="section"/><lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076278
+                    </bibl>
+                    <bibl>
+                        CIL XIII 7547
+                    </bibl>
+                    <bibl>
+                        CIL XIII 7548
+                    </bibl>
+                    <bibl>
+                        CSIR D II/9, Nr. 109
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

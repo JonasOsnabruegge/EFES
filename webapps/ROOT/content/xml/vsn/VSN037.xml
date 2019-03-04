@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Accepta Sabini f.</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN037</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kurpfälzisches Museum Heidelberg</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Bogennische, darin Frau in Tunica und Mantel.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>298</height>
+                                            <width>81</width>
+                                            <depth>30</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Die Inschrift befindet sich in einem rahmenlosen Inschriftfeld unterhalb der Bogennische. Linksbündige Inschrift, erste Zeile weit eingerückt.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Regelmäßige, sorgfältig eingehauene Buchstaben, in Z. 1 das S mit leicht verkürzem oberen Bogen, M mit etwas schrägeren Hasten und gedrängter. Z. 3 I klein in C stehend.</p>
+                                <height>9,0-6,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" key="ph" ref="ph"/>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0070" notAfter="0130" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1968"><placeName ref="ph">Heidelberg, Neuenheim, Berliner Straße</placeName><geo>49.419 8.676</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27114-1.jpg"/>
+        <graphic url="http://lupa.at/img/27114-4.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Dis <expan><abbr>Man</abbr><ex>ibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p50"><name nymRef="Accepta" type="cognomen">Acceptae</name> 
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p51"><name nymRef="Sabinus" type="cognomen">Sabini</name> </persName> <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>c<hi rend="stacked">i</hi>v</abbr><ex>i</ex></expan> <expan><abbr>Me</abbr><ex>diomatricae</ex></expan></persName>
+                    <lb n="4"/><date type="age" dur="P25Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="25">XXV</num> </date><persName type="attested" ref="persons.xml#p52" role="creator"><name nymRef="Ammonius" type="gentilicium">Ammon<supplied reason="lost">ius</supplied></name> 
+                        <lb n="5"/><name nymRef="Mogetius" type="cognomen">Mogetius</name> </persName> coniu<supplied reason="lost">x</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD038668
+                    </bibl>
+                    <bibl>
+                        AE 2012, 1008
+                    </bibl>          
+                    <bibl>
+                        <ptr target="Ludwig1997"/>
+                        <biblScope>
+                            99
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2009"/>
+                        <biblScope>
+                            67, Nr. 10; Taf. 530
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            87f., Nr. 49
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

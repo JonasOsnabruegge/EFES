@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Vulcanus der vicani Murrenses</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Port037</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno>RL 347</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Reliefverzierter Focus, auf den Nebenseiten Kultgeräte (Futteral mit Opfermessern, Beil).</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>92</height>
+                                            <width>45</width>
+                                            <depth>23</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Gleichmäßiges Schriftbild.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, sorgfältig eingehauene, eher schmale Buchstaben mit Serifen. (+~)</p>
+                                <height>6.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Benningen/Neckar</placeName> 
+                            <origDate notBefore="0150" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1583">
+                            <placeName ref="ph">
+                               Benningen/Neckar, Flur Bürg
+                            </placeName><geo>48.944 9.246</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/7307-1.jpg"/>
+        <graphic url="http://lupa.at/img/7307-2.jpg"/>
+        <graphic url="http://lupa.at/img/7307-3.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><persName type="divine" key="Vulcanus" role="god">Volkan<hi rend="small">o</hi></persName>
+                    <lb n="3"/>sacrum
+                    <lb n="4"/><orgName type="vicani" key="vicani Murrenses">vicani
+                    <lb n="5"/>Murren<lb n="6" break="no"/>ses</orgName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan>  <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036881
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6454
+                    </bibl>
+                    <bibl>
+                        ILS 3303
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            342, Nr. 532
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

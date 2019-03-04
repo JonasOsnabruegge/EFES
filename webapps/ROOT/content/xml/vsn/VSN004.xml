@@ -1,0 +1,147 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift der Suationia Iustina</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN004</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwischengesims vom <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Viergötterstein einer Juppitergigantensäule</objectType></p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>25</height>
+                                            <width>92</width>
+                                            <depth>88</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Die Inschrift befindet sich auf einer Seite der profilierten Abdeckplatte auf zwei untereinander liegenden Leisten.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Modern mit weißer Farbe ausgemalt. Unregelmäßige Buchstaben, schwankende Buchstabenhöhe, die I durchweg kleiner, O kleiner ausgeführt.
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" ref="CVSN">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" ref="ph"/>
+                                <placeName type="modern">Gaiberg, Baden-Württemberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200" cert="medium"/>
+                        </origin>
+                        <provenance type="found" when="1912"><placeName ref="http://edh-www.adw.uni-heidelberg.de/edh/geographie/8087">Gaiberg, Pfarrgasse 6</placeName>
+                            <geo>49.3666315 8.7498158</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://www.lupa.at/27024"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"> 
+                <div type="textpart" subtype="section" n="1">
+                    <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="2">                   
+                    <ab>
+                        <lb n="2"/>
+                        <persName ref="persons.xml#p4" type="attested" xml:id="pn1">
+                        <name nymRef="Suationia" type="gentilicium">
+                            Suationia
+                        </name> 
+                        <name nymRef="Iustina" type="cognomen">
+                            Iustina
+                        </name>
+                        <persName ref="persons.xml#p5" type="attested" xml:id="pn3"><name nymRef="Restitutus?" type="cognomen">
+                            Resti
+                        </name></persName>
+                    </persName></ab>
+                </div>
+                <div type="textpart" subtype="section" n="3">
+                   <ab>
+                       <persName ref="persons.xml#p4" type="attested" xml:id="pn2">
+                           <persName ref="persons.xml#p5" type="attested" xml:id="pn4"><name nymRef="Restitutus?" type="cognomen">
+                               <supplied reason="lost" cert="low">tuti</supplied>
+                           </name></persName>
+                       </persName>
+                       <supplied reason="lost"><expan><abbr>f</abbr><ex cert="low">ilia</ex></expan></supplied><gap reason="lost" extent="unknown" unit="line"/>
+                   </ab>
+                </div>
+                <join result="persName" scope="root" target="#pn1 #pn2"/>
+                <join result="persName" scope="root" target="#pn3 #pn4"/>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD023922
+                    </bibl>
+                    <bibl>
+                        AE 1933, 112
+                    </bibl>
+                    <bibl xml:id="Nesselhauf1937">
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>80, Nr. 99</biblScope>
+                    </bibl>
+                    <bibl xml:id="Wahle1932">
+                        <ptr target="Wahle1932"/>
+                        <biblScope>309; Abb. 1</biblScope>
+                    </bibl>
+                    <bibl xml:id="Bauchhenß1981">
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>133, Nr. 180</biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            38, Nr. 13
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

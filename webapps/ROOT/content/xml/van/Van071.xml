@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius und Rosmerta</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van071</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmuseum</repository>
+                        <idno>S 1191</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, Gesims oben rechts abgeschlagen, unten und hinten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(79)</height>
+                                            <width>41</width>
+                                            <depth>21</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Zeile 1 befindet sich auf der Deckplatte. Der Rest der Inschrift befindet sich auf dem Schaft. Ein doppelt vorgeritztes Inschriftfeld, welches bis zur oberen Zeilenlinie von Zeile 6 reicht, stammt wohl von einer früheren Inschrift oder einer fehlerhaft zu klein durchgeführten ordinatio. Vorgezeichente Hilfslinien. Zwischen Zeile 2 und 3 sind noch Spuren der früheren Inschrift bzw. einer früheren Bearbeitungsphase zu sehen. Zeile 1 gesperrt und zentriert. Der rest der Inschrift ist linksbündig, mit gleichmäßigem, geordnetem Schriftbild, in Z. 6 ungleichmäßiger Buchstabenabstand. In Zeile 7 die O kleiner, um die Zeilenbreite einzuhalten.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmßige, sorgfältig eingehauene quadratische Buchstaben mit Serifen (capitalis quadrata). R und Q mit lang geschwungen ausgezogener Schräghaste.</p>
+                                <height min="3.0" max="5.0">3,0-5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0230" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1844">
+                            <placeName ref="ph">
+                               Worms, bei der Liebfrauenkirche oder am äußeren Speyerertor.
+                            </placeName><geo>49.639 8.3689</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/16810-3.jpg"/>
+        <graphic url="http://lupa.at/img/16810-4.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" n="1">
+                    <ab>
+                        <lb n="1"/><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                        <lb n="2"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                        <lb n="3"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap></del>
+                    </ab>
+                </div>
+                <div type="textpart" n="2">
+                    <ab>
+                        <milestone unit="section" type="corona"/>
+                        <lb n="1"/>Deo
+                        <milestone unit="section" type="corpus"/>
+                        <lb n="2"/><persName type="divine" key="Mercurius*" role="god"><expan><abbr>Merc<hi rend="ligature">ur</hi><hi rend="small">i</hi></abbr><ex>o</ex></expan></persName>
+                        <lb n="3"/>et <persName type="divine" key="Rosmerta*" role="god">Rosm<lb n="4" break="no"/>er<hi rend="ligature">t<supplied reason="omitted">a</supplied>e</hi></persName>
+                        <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Servandius" type="gentilicium">S<hi rend="ligature"><hi rend="reversed">e</hi>r</hi>van<hi rend="ligature">d<hi rend="tall">i</hi></hi><lb n="6" break="no"/>us</name> <name nymRef="Quietus" type="cognomen">Quiet<lb n="7" break="no"/>us</name></persName> ex v<hi rend="small">o</hi>t<hi rend="small">o</hi>
+                            <lb n="8"/>in <expan><abbr>su</abbr><ex>o</ex></expan> <expan><abbr><hi rend="tall">p</hi></abbr><ex>osuit</ex></expan>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054740
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6222
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 28
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschirft für Sextinus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van042</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>1806a, b</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpasende Bruchstücke der Abdeckung einer Aschenkiste, horizontal gebrochen, vom Oberteil noch die vordere Hälfte. Auf den Nebenseiten Reliefdekor: Krater und Akanthusornamente.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(68)</height>
+                                            <width>92</width>
+                                            <depth>92</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Der Bruch verläuft horizonal mittig durch die dritte Zeile der Inschrift. Diese befindet sich in einem bogenförmig abgeschlossenen, profilgerahmten Inschriftfeld. Erste und zweite Zeile gut zentriert, der Rest nimmt mit gleichmäßigem Buchstabenabstand die gesamte Breite ein. Gleichmäßiges Schriftbild.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig und tief eingehauene, qualitätvolle quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Sankt Julian</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200">Ditsch: typologisch nach Mitte 2. Jh.</origDate>
+                        </origin>
+                        <provenance type="found" when="1879">
+                            <placeName ref="ph">
+                                Sankt Julian, protestantische Kirche
+                            </placeName><geo>49.60785 7.51054</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26587-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Sextinus" type="cognomen">Sextino</name></persName>
+                    <lb n="3"/>filio <expan><abbr>def</abbr><ex>uncto</ex></expan>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Perpetuia" type="cognomen">Perpetuia</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076000
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6178
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6179
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11706
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            62, Nr. 220
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ditsch2011"/>
+                        <biblScope>
+                            198-199, St Julian12; Taf. 66
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

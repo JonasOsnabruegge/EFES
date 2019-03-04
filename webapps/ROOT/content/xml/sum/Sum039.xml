@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilensäule für Hadrian</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Sum039</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>(115)</height>
+                                            <width>45</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Geordnetes Schriftbild.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height>10-7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CSum" ref="ph">Civitas Sumelocennensis</placeName>
+                                <placeName type="ancient" key="Grinario" ref="https://pleiades.stoa.org/places/118706">Grinario</placeName>
+                                <placeName type="modern">Köngen</placeName>
+                            <origDate when="0129" datingMethod="#julian">Kaisertitulatur</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1900-01">
+                            <placeName ref="ph">
+                                Köngen, Kastell, unmittelbar an der porta dextra
+                            </placeName><geo>48.677 9.36</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/7387-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar 
+                    <lb n="2"/>divi <persName type="emperor" ref="persons.xml#p"><name nymRef="Traianus" type="cognomen"><expan><abbr>Traian</abbr><ex>i</ex></expan></name>
+                    <lb n="3"/><expan><abbr>Parth</abbr><ex>ici</ex></expan></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> divi 
+                    <lb n="4"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Nerva" type="cognomen">Nervae</name></persName> <expan><abbr>nep</abbr><ex>os</ex></expan>
+                    <lb n="5"/><name nymRef="Traianus" type="cognomen"><expan><abbr>Traian</abbr><ex>us</ex></expan></name> <name nymRef="Hadrianus" type="cognomen"><expan><abbr>Hadri</abbr><ex>anus</ex></expan></name>
+                    <lb n="6"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>ma</abbr><ex>ximus</ex></expan>
+                    <lb n="7"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="13">XIII</num> <expan><abbr>c</abbr><ex>onsul</ex></expan>
+                    <lb n="8"/><num value="3">III</num> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></persName> a <placeName type="ancient" nymRef="Sumelocenna" ref="https://pleiades.stoa.org/places/118985"><expan><abbr>Sumel</abbr><ex>ocenna</ex></expan></placeName>
+                    <lb n="9"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <num value="29">XXVIIII</num>
+            
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD028237
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9084
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 656
+                    </bibl>
+                    <bibl>
+                        AE 1900, 73
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1914"/>
+                        <biblScope>
+                            308f., Nr. 499
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

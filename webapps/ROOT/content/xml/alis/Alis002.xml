@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Weihinschrift?</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis002</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Allseitig abgebrochenes Fragment eines nicht identifizierten Monuments. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType></p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>(18)</height>
+                                            <width>(18)</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Regelmäßiges Schriftbild, soweit werkennbar. Der untere Rand des nicht gerahmten Inschriftfeldes scheint erhalten. Inschriftfeld leicht verwitert.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben. P mit offenem Bogen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Jagsthausen</placeName>
+                            </origPlace>
+                            <origDate notBefore="0161" notAfter="0188" cert="low">Dominis Nostris</origDate>
+                        </origin>
+                        <provenance type="found" when="1919"><placeName ref="ph">Jagsthausen, in einer Grube westlich des Kastells</placeName><geo>49.311 9.469</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="2"/><expan><abbr><supplied reason="lost" cert="low">I</supplied>m<unclear>p</unclear></abbr><ex cert="low">eratoribus</ex></expan> <expan><abbr>D<am>d</am></abbr><ex>ominis</ex></expan><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><abbr>i<hi rend="ligature">mp</hi></abbr> <num value="2"><hi rend="supraline">II</hi></num><gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <date><num value="11">XI</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <orig>i</orig><gap reason="lost" extent="unknown" unit="character"/></date> 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>MP-Ligatur in Z. 1 scheint fraglich, eher Worttrenner als Bogen des P. </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036733
+                    </bibl>
+                    <bibl>
+                        RSO 188; Taf. 7, 188
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            63, Nr. 191
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

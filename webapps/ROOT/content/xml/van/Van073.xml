@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift an Mars Camulus?</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van073</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmuseum</repository>
+                        <idno>S 1174 (S 810)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Pulvini abgeschlagen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>45</height>
+                                            <width>29</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Das Inschriftfeld ist stark verwittert, die Inschrift ist nur noch stellenweise lesbar. Letzte Zeile zentriert.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Soweit noch erkennbar leicht unregelmäßige Buchstaben, mit schwankender Höhe.
+                                </p>
+                                <height>3,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1844">
+                            <placeName ref="ph">
+                               Worms, Eulenburg, im Garten.
+                            </placeName><geo>49.6371 8.3647</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/16816-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>v<unclear>i</unclear>o</orig>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---tus" type="cognomen"><supplied reason="lost" evidence="previouseditor"><orig>iioc</orig></supplied><gap reason="lost" quantity="2" unit="character"/>tus</name></persName>
+                    <lb n="3"/><supplied reason="lost" evidence="previouseditor"><orig>i</orig></supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" evidence="previouseditor"><orig>i</orig></supplied><gap reason="lost" extent="unknown" unit="character"/>i<gap reason="lost" quantity="2" unit="character"/><orig>es</orig> ex
+                    <lb n="4"/>voto posu<lb n="5" break="no"/>it
+                 </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Wiedergabe der nicht mehr lesbaren Stellen nach CIL.
+                    Z. 1: nach CIL vielleicht [Cam]ulo
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054771
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6226
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 41
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

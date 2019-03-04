@@ -1,0 +1,135 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Ehreninschrift für Septimius Severus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN085</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ladenburg, Lobdengau-Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Allseitig abgebrochenes Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, wohl zu einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType> gehörend.</p>
+                                    <material>Marmor, graubraun</material>
+                                        <dimensions unit="cm">
+                                            <height>(28)</height>
+                                            <width>(31,5)</width>
+                                            <depth>10,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Gleichmäßiges Schriftbild, anscheinend aus Platzmangel mit Ligaturen und A klein in Z. 3.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßig konstruierte, sorgfältig gearbeitete Buchstaben. Dreieckige Worttrenner</p>
+                                <height>5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg:</placeName> Forumsplatz, Nordwestecke
+                            </origPlace>
+                            <origDate notBefore="0198" notAfter="0211" cert="medium">Kaisertitulatur, Regierungsbeginn?</origDate>
+                        </origin>
+                        <provenance type="found" when="1994"><placeName ref="ph">Ladenburg, Metzgergasse 10</placeName><geo>49.4717 8.61</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69 .html">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name nymRef="Septimius" type="gentilicium">Septimio</name>
+                        <lb n="2"/><name nymRef="Severus" type="cognomen"><supplied reason="lost">Severo</supplied></name> <supplied reason="lost">Pi</supplied>o <name nymRef="Pertinax" type="cognomen">Per<hi rend="ligature">ti</hi>n<supplied reason="lost">aci</supplied></name> <expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usto</ex></expan>
+                        <lb n="3"/><supplied reason="lost"><expan><abbr>Arab</abbr><ex>ico</ex></expan></supplied> <expan><abbr>Adiab</abbr><ex>enico</ex></expan> <expan><abbr>P<hi rend="small">a</hi>r<supplied reason="lost">th</supplied></abbr><ex>ico</ex></expan> <expan><abbr><supplied reason="lost">Max</supplied></abbr><ex>imo</ex></expan></persName>
+                    <lb n="4"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <expan><abbr><supplied reason="lost">tri</supplied>b</abbr><ex>unicia</ex></expan> <expan><abbr>p<supplied reason="lost">otest</supplied></abbr><ex>ate</ex></expan> <supplied reason="lost" cert="low"><num value="6">VI</num></supplied>
+                    <lb n="5"/><supplied reason="lost"><expan><abbr>imp</abbr><ex>eratori</ex></expan> <num value="11">XI<certainty match=".." locus="name"/></num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="2">II<certainty match=".." locus="name"/></num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Abweichende Lesungen und Deutungen vgl. Kuhoff, Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036516
+                    </bibl>
+                    <bibl>
+                        AE 2001, 1536
+                    </bibl>
+                    <bibl>
+                        AE 2011, 828
+                    </bibl>
+                    <bibl>
+                        AE 2015, 1010
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2010"/>
+                        <biblScope>
+                            453
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kuhoff2011"/>
+                        <biblScope>
+                            165-179; Abb. 1 u. 2
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Gräf2015"/>
+                        <biblScope>
+                            286-293; Abb. 2 u. 4-5.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Port025</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pforzheim, Archäologischer Schauplatz Kappelhof</repository>
+                        <idno>ASK 0010</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Block eines mehrteiligen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Zwischensockels einer Juppitergigantensäule</objectType>. Auf den Nebenseiten Dioskuren mit Pferd, auf der Rückseite Victoria, auf einen Schild schreibend.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(38)</height>
+                                            <width>85</width>
+                                            <depth>85</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf der Vorderseite in einem profilgerahmten Inschriftfeld, welches von zwei Eroten flankiert und gehalten wird. Unten verrieben. Die Inschrift setzte sich auf dem unteren Block fort. Linksbündige Isnchrift, geordnetes Schriftbild. Interessante, gegenständige Komposition der NI/IN-Ligaturen in Zeile 3. Dreieckige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig ausgeführte quadratische Buchstaben mit Serifen. Qualitätvolle Inschrift.</p>
+                                <height>7,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ancient" key="Portus" ref="https://pleiades.stoa.org/places/118912">Portus</placeName>
+                                <placeName type="modern">Pforzheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" when="1894">
+                            <placeName ref="ph">
+                                Pforzheim, Altstadt, auf dem Krankenhausgelände, bei Bauarbeiten in Städtischen Bauhof an der Holzgartenstraße.
+                            </placeName><geo>48.8889 8.7123</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/26975"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Nigrinius*" type="gentilicium"><expan><abbr><hi rend="ligature">N<hi rend="tall">i</hi></hi>gr<hi rend="ligature"><hi rend="tall">i</hi>n</hi></abbr><ex>ius</ex></expan></name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036472
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6333
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            229-230, Nr. 262; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            202, Nr. 420
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kortum1995"/>
+                        <biblScope>
+                            125-126, Nr. 9; Taf. 6 u. 7
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

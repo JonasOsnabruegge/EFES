@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bruchstück eines Viergöttersteines.</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van055</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück vom <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Viergötterstein einer Juppitergigantensäule</objectType>. Vorne und hinten abgeschlagen. Erhalten ist noch Mercurius, auf einer der anderen seiten Minerva.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>118</height>
+                                            <width>(58,5)</width>
+                                            <depth>(41)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Der erhaltene Inschriftrest befindet sich oberhalb der Darstellung des Mercurius.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Soweit noch erkennbar, regelmäßige, quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum?</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Udenheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1933">
+                            <placeName ref="ph">
+                               Udenheim, Bergkirche, vermauert.
+                            </placeName><geo>49.8613 8.1735</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term>Beischrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$OS_Nesselhauf_00089.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Mercurius+" role="god"><supplied reason="lost">Me</supplied>rcur<supplied reason="lost">ius</supplied></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD020964
+                    </bibl>
+                    <bibl>
+                        AE 1940, 120
+                    </bibl>
+                    <bibl>
+                        <ptr target="Behrens1938"/>
+                        <biblScope>
+                            39, Nr. 4; Abb. 18
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            78, Nr. 89
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
