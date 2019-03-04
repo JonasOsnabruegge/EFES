@@ -14,7 +14,7 @@
                 <msDesc>
                     <msIdentifier>
                         <repository>Saverne, Musée du Château des Rohan</repository>
-                        <idno></idno>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
@@ -23,9 +23,9 @@
                                     <p>Zwei aneinanderpassende Fragmente vom oberen rechten Teil einer rechteckigen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Horizontal in zwei Zonen geteilt mit jeweils eigenem Giebelfeld mit eingeschriebenen Dreiecksgiebel, in den Giebelfeldern und in den Zwickeln Akanthusornament. Verwittert.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
                                 <placeName type="modern">Saverne</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1908">
                             <placeName ref="ph">

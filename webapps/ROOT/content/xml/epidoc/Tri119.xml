@@ -61,7 +61,7 @@
                         <provenance type="found" when="1982">
                             <placeName ref="ph">
                                 Brumath, Rue A. Millerand 3
-                            </placeName>
+                            </placeName><geo>48.7288 7.7169</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

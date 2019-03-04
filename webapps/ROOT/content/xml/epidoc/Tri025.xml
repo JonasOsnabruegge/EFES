@@ -59,7 +59,7 @@
                             <origDate notBefore="0170" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1899">
-                            <placeName ref="ph">Strasbourg, Münstergasse/Rue du Dôme 2, spätantike Stadtmauer, sekundär verwendet.</placeName>
+                            <placeName ref="ph">Strasbourg, Münstergasse/Rue du Dôme 2, spätantike Stadtmauer, sekundär verwendet.</placeName><geo>48.58407.7492</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

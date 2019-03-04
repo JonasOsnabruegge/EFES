@@ -61,7 +61,7 @@
                         <provenance type="found" when="1952">
                             <placeName ref="ph">
                                 Kintzheim, Kirche, bei, beim Bau eines Grabmals
-                            </placeName>
+                            </placeName><geo>48.2549 7.3949</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

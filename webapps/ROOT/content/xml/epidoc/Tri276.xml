@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
                                 <placeName type="modern">Saverne</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0300" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1908">
                             <placeName ref="ph">
@@ -88,7 +88,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="---mela" type="cognomen">mel<supplied reason="omitted">a</supplied>e</name></persName> <persName type="attested" ref="persons.xml#p"><name nymRef="Do---varus?" type="cognomen">Do<supplied reason="lost"></supplied><lb n="2" break="no"/>bari</name></persName> fili<supplied reason="lost">ae</supplied>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="---mela" type="cognomen">mel<supplied reason="omitted">a</supplied>e</name></persName> <persName type="attested" ref="persons.xml#p"><name nymRef="Do---varus?" type="cognomen">Do<supplied reason="lost"/><lb n="2" break="no"/>bari</name></persName> fili<supplied reason="lost">ae</supplied>
                 </ab>
             </div>
             <div type="apparatus">

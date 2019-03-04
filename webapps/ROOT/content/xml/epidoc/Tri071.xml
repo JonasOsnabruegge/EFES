@@ -61,7 +61,7 @@
                         <provenance type="found" when="1977">
                             <placeName ref="ph">
                                 Strasbourg, Königshofen/Koenigshoffen, Rue du Schnokeloch 2, römische Gebäudereste
-                            </placeName>
+                            </placeName><geo>48.5789 7.7140</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p></p>
+                                    <p/>
                                     <dimensions>
                                         <height/>
                                         <width/>
@@ -41,8 +41,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p></p>
-                                <height></height>
+                                <p/>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -59,7 +59,7 @@
                         <provenance type="found" when="2015">
                             <placeName ref="ph">
                                 Strasbourg, Königshofen/Koenigshoffen, Route des Romains, Nr. 8-20
-                            </placeName>
+                            </placeName><geo>48.5804 7.72</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

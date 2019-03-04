@@ -61,7 +61,7 @@
                         <provenance type="found" notAfter="1824" cert="medium">
                             <placeName ref="ph">
                                 Haguenau, Flur Salzmatt, Wald
-                            </placeName>
+                            </placeName><geo>48.7074 7.4015</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

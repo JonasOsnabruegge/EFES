@@ -61,7 +61,7 @@
                         <provenance type="found" when="1976">
                             <placeName ref="ph">
                                 Benfeld, Ehl, Institut Mertian
-                            </placeName>
+                            </placeName><geo>48.4869 7.4883</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

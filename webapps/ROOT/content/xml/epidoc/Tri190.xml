@@ -62,7 +62,7 @@
                         <provenance type="found" when="1908">
                             <placeName ref="ph">
                                 Saverne, Collège Poincaré, spätantike Stadtmauer, sekundär verwendet
-                            </placeName>
+                            </placeName><geo>48.74060 7.36077</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

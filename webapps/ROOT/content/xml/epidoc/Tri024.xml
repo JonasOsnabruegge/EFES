@@ -61,7 +61,7 @@
                         <provenance type="found" notAfter="1946">
                             <placeName ref="ph">
                                 Dachstein, Château Turckheim, Park
-                            </placeName>
+                            </placeName><geo>48.5636 7.5323</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

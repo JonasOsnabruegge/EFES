@@ -61,7 +61,7 @@
                         <provenance type="found" when="1899">
                             <placeName ref="ph">
                                 Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum, bei, im Wald am Fuss der Wasenburg
-                            </placeName>
+                            </placeName><geo>48.96024 7.61644</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

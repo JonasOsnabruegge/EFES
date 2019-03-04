@@ -61,7 +61,7 @@
                         <provenance type="found" when="1849">
                             <placeName ref="ph">
                                 Strasbourg, Rue des Frères 11, Ecke Impasse de la Bière
-                            </placeName>
+                            </placeName><geo>48.5828 7.7525</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

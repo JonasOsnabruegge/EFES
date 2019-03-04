@@ -61,7 +61,7 @@
                         <provenance type="found" when="1994">
                             <placeName ref="ph">
                                 Strasbourg, Königshofen/Koenhigshoffen, Route des Romains 24-26, Ecke Rue de la Charmille
-                            </placeName>
+                            </placeName><geo>48.5803 7.7192</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

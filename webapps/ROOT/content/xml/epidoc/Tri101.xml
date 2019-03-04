@@ -61,7 +61,7 @@
                         <provenance type="found" when="1909">
                             <placeName ref="ph">
                                 Strasbourg, Königshofen/Koenigshoffen, Route des Romains 2 oder 4, bei Kellerbauarbeiten
-                            </placeName>
+                            </placeName><geo>48.5805 7.7211</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

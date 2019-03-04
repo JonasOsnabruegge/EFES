@@ -57,7 +57,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0300" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1926"><placeName ref="ph">Strasbourg, rue des Hallebardes 23</placeName>
+                        <provenance type="found" when="1926"><placeName ref="ph">Strasbourg, rue des Hallebardes 23</placeName><geo>48.5824 7.7499</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

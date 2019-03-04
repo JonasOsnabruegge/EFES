@@ -60,7 +60,7 @@
                         <provenance type="found" when="1901">
                             <placeName ref="ph">
                                 Strasbourg, Rue des Capucins, zwischen Nr. 50 u. 60.
-                            </placeName>
+                            </placeName><geo>48.5773 7.7006</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

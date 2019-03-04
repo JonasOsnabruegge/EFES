@@ -61,7 +61,7 @@
                         <provenance type="found" notBefore="1800" notAfter="1900">
                             <placeName ref="ph">
                                 Grassendorf, Bachhofen, Ruinen der Kapelle
-                            </placeName>
+                            </placeName><geo>48.8158 7.6250</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -60,7 +60,7 @@
                         <provenance type="found" when="1735">
                             <placeName ref="ph">
                                 Brumath, Weinkeller
-                            </placeName>
+                            </placeName><geo>48.7336 7.7126</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -56,12 +56,12 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109041">Helvetum/Ellelum</placeName>
                                 <placeName type="modern">Benfeld, Ehl</placeName>
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1959">
                             <placeName ref="ph">
                                 Benfeld, Ehl, 'Roessler', römische Gebäudereste
-                            </placeName>
+                            </placeName><geo>48.37011 7.61702</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -60,7 +60,7 @@
                         <provenance type="found" when="1832">
                             <placeName ref="ph">
                                 Gundershoffen, Hardt, Merkurheiligtum?
-                            </placeName>
+                            </placeName><geo>48.9023 7.6474</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

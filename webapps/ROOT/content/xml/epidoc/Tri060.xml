@@ -61,7 +61,7 @@
                         <provenance type="found" when="1865">
                             <placeName ref="ph">
                                 Strasbourg, Place Saint-Pierre-le-Jeune
-                            </placeName>
+                            </placeName><geo>48.5853 7.7469</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

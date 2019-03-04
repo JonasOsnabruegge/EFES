@@ -14,7 +14,7 @@
                 <msDesc>
                     <msIdentifier>
                         <repository>Strasbourg, Musée Archéologique</repository>
-                        <idno></idno>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
@@ -23,9 +23,9 @@
                                     <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit flachem Dreiecksgiebel und Pulvini, im Giebelfeld Rosette. Unterer Teil der Stele nur grob gepickt zur Einlassung.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>Leicht unregelmäßige, schmale und hohe Buchstaben mit Serifen.</p>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -61,7 +61,7 @@
                         <provenance type="found" when="2014">
                             <placeName ref="ph">
                                 Strasbourg, Koenigshoffen, Route des Romains 8-20
-                            </placeName>
+                            </placeName><geo>48.5803 7.7199</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

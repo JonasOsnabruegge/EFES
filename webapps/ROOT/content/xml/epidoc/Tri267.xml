@@ -61,7 +61,7 @@
                         <provenance type="found" when="1880">
                             <placeName ref="ph">
                                 Benfeld, Ehl
-                            </placeName>
+                            </placeName><geo>48.37281 7.51683</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

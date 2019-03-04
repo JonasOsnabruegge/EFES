@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p></p>
+                                    <p/>
                                     <material>Kalkstein</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p></p>
+                                    <p/>
                                     <dimensions>
                                         <height/>
                                         <width/>
@@ -41,8 +41,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p></p>
-                                <height></height>
+                                <p/>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -59,7 +59,7 @@
                         <provenance type="found" when="2013-02">
                             <placeName ref="ph">
                                 Strasbourg, Königshofen/Koenigshoffen, Route des Romains, Nr. 8, Parzelle Nr. 118
-                            </placeName>
+                            </placeName><geo>48.5804 7.7206</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -60,7 +60,7 @@
                         <provenance type="found" notAfter="1912">
                             <placeName ref="ph">
                                 Saverne, Stadtwald, Wagnerberg
-                            </placeName>
+                            </placeName><geo>48.76050 7.7315</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

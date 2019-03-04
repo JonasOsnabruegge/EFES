@@ -14,7 +14,7 @@
                 <msDesc>
                     <msIdentifier>
                         <repository>unbekannt</repository>
-                        <idno></idno>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>Soweit noch erkennbar leicht unregelmäßige Buchstaben ohne Serifen. M mit schräggestellten seitlichen Hasten.</p>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -61,7 +61,7 @@
                             <provenance type="found" when="1964">
                             <placeName ref="ph">
                                 Hultehouse, Bannwald-Limmersberg, gallo-römische Siedlung
-                            </placeName>
+                            </placeName><geo>48.72044 7.27648</geo>
                             </provenance>
                         <provenance type="observed">
                         </provenance>

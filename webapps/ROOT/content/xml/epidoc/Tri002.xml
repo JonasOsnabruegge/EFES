@@ -58,7 +58,7 @@
                             </origPlace>
                             <origDate notBefore="0050" notAfter="0300" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1906"><placeName ref="ph">Straßburg, Neuer Markt/Place du Marché Neuf 10/11</placeName>
+                        <provenance type="found" when="1906"><placeName ref="ph">Straßburg, Neuer Markt/Place du Marché Neuf 10/11</placeName><geo>48.58274 7.74795</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -61,7 +61,7 @@
                         <provenance type="found" when="1851">
                             <placeName ref="ph">
                                 Strasbourg, Route des Romains 65a(?), früher Nr. 85
-                            </placeName>
+                            </placeName><geo>48.5791 7.7139</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

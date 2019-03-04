@@ -61,7 +61,7 @@
                         <provenance type="found" when="1998">
                             <placeName ref="ph">
                                 Strasbourg, Königshofen/Koenigshoffen, Rue de Donon
-                            </placeName>
+                            </placeName><geo>48.5794 7.7179</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -59,7 +59,7 @@
                             </origPlace>
                             <origDate notBefore="0001" notAfter="0250" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1919-11"><placeName ref="ph">Straßburg, Brandgasse / Rue Brûlée 3-7, spätantike (jüngere) Stadtmauer, sekundär verwendet</placeName>
+                        <provenance type="found" when="1919-11"><placeName ref="ph">Straßburg, Brandgasse / Rue Brûlée 3-7, spätantike (jüngere) Stadtmauer, sekundär verwendet</placeName><geo>48.58434 7.7507</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

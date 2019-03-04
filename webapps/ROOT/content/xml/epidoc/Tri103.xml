@@ -61,7 +61,7 @@
                         <provenance type="found" notAfter="1651">
                             <placeName ref="ph">
                                 Avolsheim, Kirche Dompeter
-                            </placeName>
+                            </placeName><geo>48.4869 7.4883</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

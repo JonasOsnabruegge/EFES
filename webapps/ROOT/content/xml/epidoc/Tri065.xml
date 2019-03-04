@@ -61,7 +61,7 @@
                         <provenance type="found" notBefore="1766" notAfter="1767">
                             <placeName ref="ph">
                                 Strasbourg, Michelsbühl/Butte Saint-Michel, Rue du Faubourg-National 29
-                            </placeName>
+                            </placeName><geo>48.5822 7.7355</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

@@ -60,7 +60,7 @@
                         <provenance type="found" when="1851">
                             <placeName ref="ph">
                                 Strasbourg, Königshofen/Koenigshoffen, Route des Romains 17(?), 10 Meter von der Straße bei Kellerbauarbeiten
-                            </placeName>
+                            </placeName><geo>48.5800 7.7196</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

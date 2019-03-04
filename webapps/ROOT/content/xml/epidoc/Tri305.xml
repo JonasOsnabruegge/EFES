@@ -14,7 +14,7 @@
                 <msDesc>
                     <msIdentifier>
                         <repository>Brumath, Musée archéologique</repository>
-                        <idno></idno>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
@@ -23,9 +23,9 @@
                                     <p>Zahlreiche, zum Teil aneinanderpassende Fragmente eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1890.html">Mausoleum</objectType>s mit Schuppendach. In der von kanellierten Pilastern flankierten Nische im oberen Geschoss ganzfigurige Darstellung des Verstorbenen als togatus (22 Fragmente). Auf den Nebenseiten Relief mit Eroten. Qualitätvolle Ausführung des Reliefdekors.</p>
                                     <material>Kalkstein</material>
                                         <dimensions unit="cm">
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>Große, regelmäßig konstruierte, tief und sorgfältig eingehauene, quadratische Buchstaben mit Serifen. Qualitätvolle Arbeit.</p>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="ph" ref="ph">Brocomagus</placeName>
                                 <placeName type="modern">Brumath</placeName> 
                             </origPlace>
-                            <origDate notBefore="0014" notAfter="0050" cert="low"></origDate>
+                            <origDate notBefore="0014" notAfter="0050" cert="low"/>
                         </origin>
                         <provenance type="found" when="2003">
                             <placeName ref="ph">

@@ -60,7 +60,7 @@
                         <provenance type="found" when="1841">
                             <placeName ref="ph">
                                 Mietesheim, beim Abbruch des Kirchturms, sekundär verwendet
-                            </placeName>
+                            </placeName><geo>48.8793 7.6403</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

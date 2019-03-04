@@ -58,7 +58,7 @@
                             <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1926">
-                            <placeName ref="ph">Strasbourg, S. Étienne</placeName>
+                            <placeName ref="ph">Strasbourg, S. Étienne</placeName><geo>48.5834 7.7558</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

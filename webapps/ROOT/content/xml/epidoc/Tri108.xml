@@ -60,7 +60,7 @@
                         <provenance type="found" when="1822">
                             <placeName ref="ph">
                                 Betschdorf, Niederbetschdorf, am Waldrand
-                            </placeName>
+                            </placeName><geo>48.7296 7.7089</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

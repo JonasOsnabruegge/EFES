@@ -60,7 +60,7 @@
                         <provenance type="found" when="1827">
                             <placeName ref="ph">
                                 Niederbronn-les-Bains, Rue du Maréchal Leclerc 14-20, Keller
-                            </placeName>
+                            </placeName><geo>48.94992 7.64244</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

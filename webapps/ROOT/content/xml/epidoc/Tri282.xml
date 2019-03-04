@@ -59,7 +59,7 @@
                         <provenance type="found" when="1842">
                             <placeName ref="ph">
                                 Niederbronn-les-Bains, Nouvelle Avenue.
-                            </placeName>
+                            </placeName><geo>48.95109 7.64269</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

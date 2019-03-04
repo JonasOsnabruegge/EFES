@@ -55,7 +55,7 @@
                                 <placeName type="vicus" key="TresTabernae" ref="ph">Tres Tabernae</placeName>
                                 <placeName type="modern">Saverne</placeName> römische Stadtmauer, sekundär verwendet
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0250" cert="low"></origDate>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1922">
                             <placeName ref="ph">Saverne, Rue des Murs 12, spätantike Stadtmauer, sekundär verwendet. Beim Neubau der Banque de France, hinter dem Herrenbrünnlein</placeName>

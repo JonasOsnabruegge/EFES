@@ -63,7 +63,7 @@
                         <provenance type="found" when="1964">
                             <placeName ref="ph">
                                 Seltz, an der Straße nach Straßburg
-                            </placeName>
+                            </placeName><geo>48.8883 8.0913</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

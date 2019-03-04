@@ -61,7 +61,7 @@
                         <provenance type="found" notBefore="1844" notAfter="1847">
                             <placeName ref="ph">
                                 Langensoultzbach, katholische Kapelle, im Plattenboden sekundär verwendet.
-                            </placeName>
+                            </placeName><geo>48.9679 7.7329</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -91,7 +91,7 @@
                 <link target="#l1 #l2"/>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">
                 <p/>

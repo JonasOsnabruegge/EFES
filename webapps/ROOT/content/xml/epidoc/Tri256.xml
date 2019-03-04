@@ -63,7 +63,7 @@
                         <provenance type="found" notBefore="1731" notAfter="1737">
                             <placeName ref="ph">
                                 Strasbourg, Rue Brûlée, Hôtel de Ville, beim Abriss zweier Türme der spätantiken Stadtmauer
-                            </placeName>
+                            </placeName><geo>48.5846 7.7507</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

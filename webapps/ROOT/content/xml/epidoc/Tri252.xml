@@ -59,7 +59,7 @@
                         <provenance type="found" notAfter="1759">
                             <placeName ref="ph">
                                 Wasselonne, etwa 4 Meilen (~6km) vor der Stadt
-                            </placeName>
+                            </placeName><geo>48.64 7.74</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
