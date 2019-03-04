@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>Caesar<supplied reason="lost">i</supplied><supplied reason="lost"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Caes</abbr><ex>ar-</ex></expan> <expan><abbr>A<supplied reason="lost">ug</supplied></abbr><supplied reason="lost"><ex>ust-</ex></supplied></expan><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>eivki</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>

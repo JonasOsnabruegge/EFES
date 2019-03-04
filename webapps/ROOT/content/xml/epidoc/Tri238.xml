@@ -98,7 +98,7 @@
                 </div>
                 <div type="textpart" subtype="column" n="ii">
                   <ab>
-                      <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Senurus" type="cognomen">Senu<lb n="3" break="no"/>rus</name></persName>
+                      <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Senurus" type="cognomen"><unclear>Se</unclear>n<unclear>u</unclear><lb n="3" break="no"/><unclear>rus</unclear></name></persName>
                   </ab>  
                 </div>
             </div>

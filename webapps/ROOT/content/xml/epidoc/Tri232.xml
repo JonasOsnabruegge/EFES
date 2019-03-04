@@ -89,7 +89,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><choice><orig>i</orig><orig>n</orig></choice><orig>ae</orig>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>i</unclear>ae</orig>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> curator
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>onis
                 </ab>
