@@ -92,7 +92,7 @@
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catulianus" type="cognomen">Catulianus</name>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Connucus" type="cognomen">Connuci</name></persName></persName> et
                     <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Africanus" type="cognomen">Africanus</name>
-                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catulianus" type="cognomen">Catuliani</name></persName></persName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Catulianus" type="cognomen">C<supplied reason="omitted">a</supplied>tuliani</name></persName></persName>
                 </ab></div>
             </div>
             <div type="apparatus">

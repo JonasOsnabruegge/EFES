@@ -82,7 +82,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Crati---" type="cognomen">Crati<gap reason="illegible" extent="1" unit="character"/><gap reason="lost" extent="c. 1-2" unit="character"/></name></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Crati---" type="cognomen">Crati<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></name></persName>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Amania" type="cognomen">Amani<lb n="4" break="no"/>ae</name></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caratus" type="cognomen">Cara<lb n="5"/>tus</name></persName> <expan><abbr>mar</abbr><ex>itus</ex></expan>
                     <lb n="6"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>

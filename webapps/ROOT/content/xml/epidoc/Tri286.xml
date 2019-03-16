@@ -88,7 +88,8 @@
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Belatula" type="cognomen">Belatul<supplied reason="omitted">a</supplied>e</name></persName>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Virlatus" type="cognomen">Virlati</name></persName> fili<supplied reason="omitted">a</supplied>e
-                    <lb n="4"/><supplied reason="omitted">f</supplied>ecit
+                    <lb n="4"/><expan><abbr>faci</abbr><ex>endum</ex></expan> <expan><abbr>cu<supplied reason="lost">r</supplied></abbr><supplied reason="lost"><ex>avit</ex></supplied></expan>
+                    <lb n="5"/><supplied reason="omitted">f</supplied>ecit
                 </ab>
             </div>
             <div type="apparatus">
