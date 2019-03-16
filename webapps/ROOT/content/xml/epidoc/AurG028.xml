@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG028</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -85,7 +85,7 @@
                 <ab>
                     <lb n="1"/><supplied reason="lost"><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> et</supplied> <persName type="divine" key="Iuno Regina" role="god">Iun<supplied reason="lost">oni</supplied> 
                     <lb n="2"/><supplied reason="lost">Reg</supplied>in<supplied reason="lost">ae</supplied></persName><supplied reason="lost"> pr</supplied>o <expan><abbr>sal</abbr><ex>ute</ex></expan>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name nymRef="Dubitatus?" type="gentilicium">Dub<supplied reason="lost">it</supplied><unclear>ati</unclear></name> <name nymRef="Peregrinus" type="cognomen">Pereg<lb n="4" break="no"/>rini</name></persName> <expan><abbr>vet</abbr><ex>erani</ex></expan> ex <expan><am><g type="centuria"/></am><ex>centurione</ex></expan> <expan><abbr>vol</abbr><ex>untariorum</ex></expan>
+                    <lb n="3"/><persName type="attested" ref="persAurG.xml#pAurG73" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name nymRef="Dubitatus?" type="gentilicium">Dub<supplied reason="lost">it</supplied><unclear>ati</unclear></name> <name nymRef="Peregrinus" type="cognomen">Pereg<lb n="4" break="no"/>rini</name></persName> <expan><abbr>vet</abbr><ex>erani</ex></expan> ex <expan><am><g type="centuria"/></am><ex>centurione</ex></expan> <expan><abbr>vol</abbr><ex>untariorum</ex></expan>
                     <lb n="5"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> suorum omni<lb n="6" break="no"/>um voto susc<hi rend="ligature"><hi rend="reversed">e</hi>p</hi>it <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>

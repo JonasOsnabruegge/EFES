@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG055</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><supplied reason="lost">S</supplied>ig<supplied reason="lost" cert="low">num </supplied><persName type="divine" key="Fortuna Redux" role="god"><supplied reason="lost">Fortunae</supplied> Re<lb break="no" n="2"/><supplied reason="lost">d</supplied><expan><abbr>ucis</abbr><ex cert="low"/></expan></persName> <supplied reason="lost">et</supplied>
-                    <lb n="3"/><persName type="divine" key="Genius" role="god"><supplied reason="lost">G</supplied>enium</persName> c<supplied reason="lost">um</supplied> bas<supplied reason="lost">i </supplied> <orgName type="group" key="veteranis peregrinis heredes"><supplied reason="lost">ve</supplied><lb break="no" n="4"/><supplied reason="lost">te</supplied>ranis et per<supplied reason="lost">eg</supplied><lb break="no" n="5"/>rinis herede<supplied reason="lost">s</supplied></orgName><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/><expan><abbr>VN</abbr><ex cert="low"/>ARIS</expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="cognomen"><abbr>Luc</abbr></name></persName> iu<supplied reason="lost" cert="low">ssu</supplied>
+                    <lb n="3"/><persName type="divine" key="Genius" role="god"><supplied reason="lost">G</supplied>enium</persName> c<supplied reason="lost">um</supplied> bas<supplied reason="lost">i </supplied> <orgName type="group" key="veteranis peregrinis heredes"><supplied reason="lost">ve</supplied><lb break="no" n="4"/><supplied reason="lost">te</supplied>ranis et per<supplied reason="lost">eg</supplied><lb break="no" n="5"/>rinis herede<supplied reason="lost">s</supplied></orgName><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/><expan><abbr>VN</abbr><ex cert="low"/>ARIS</expan> <persName type="attested" ref="persAurG.xml#pAurG28"><name nymRef="Lucius" type="cognomen"><abbr>Luc</abbr></name></persName> iu<supplied reason="lost" cert="low">ssu</supplied>
                     <lb n="7"/><supplied reason="lost">p</supplied>atris <supplied reason="lost">p</supplied>osue<supplied reason="lost">runt</supplied>
                 </ab>
             </div>

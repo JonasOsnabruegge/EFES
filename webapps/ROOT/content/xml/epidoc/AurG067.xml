@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG067</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Attia---" type="cognomen">Attia<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="1"/><persName type="attested" ref="persAurG.xml#pAurG37"><name nymRef="Attia---" type="cognomen">Attia<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb n="2"/><orig>pat</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><hi rend="ligature">ma</hi><hi rend="ligature">nt</hi>id<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><orig>ania</orig><gap reason="lost" extent="unknown" unit="character"/>

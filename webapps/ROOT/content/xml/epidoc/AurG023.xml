@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG023</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -84,7 +84,7 @@
                 <ab>
                     <lb n="1"/>Pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan>
                     <lb n="2"/><persName type="divine" key="Genius Nautarum" role="god"><expan><abbr>Gen</abbr><ex>io</ex></expan> <expan><abbr>Naut</abbr><ex>arum</ex></expan></persName>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Urbicus" type="cognomen">Urbicus</name></persName>
+                    <lb n="3"/><persName type="attested" ref="persAurG.xml#pAurG64" role="creator"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Urbicus" type="cognomen">Urbicus</name></persName>
                     <lb n="4"/><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>

@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG063</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -82,8 +82,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><expan><abbr>Ped</abbr><ex>atura</ex></expan> <orgName type="centuria" key="centuria Iulii Silvani"><expan><am><g type="centuria"/></am><ex>centuria</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ii</ex></expan></name> <name nymRef="Silvanus" type="cognomen">Silva<lb n="2" break="no"/>ni</name></persName></orgName> sub cura
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Vaterculius" type="gentilicium">Vaterculi</name> <name nymRef="Proculus" type="cognomen"><hi rend="ligature">Pr</hi>o<lb n="4" break="no"/>culi</name></persName> <expan><am><g type="centurio"/></am><ex>centurionis</ex></expan> <orgName type="legio" key="legio VIII Augusta">legio
+                    <lb n="1"/><expan><abbr>Ped</abbr><ex>atura</ex></expan> <orgName type="centuria" key="centuria Iulii Silvani"><expan><am><g type="centuria"/></am><ex>centuria</ex></expan> <persName type="attested" ref="persAurG.xml#pAurG31"><name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ii</ex></expan></name> <name nymRef="Silvanus" type="cognomen">Silva<lb n="2" break="no"/>ni</name></persName></orgName> sub cura
+                    <lb n="3"/><persName type="attested" ref="persAurG.xml#pAurG32"><name nymRef="Vaterculius" type="gentilicium">Vaterculi</name> <name nymRef="Proculus" type="cognomen"><hi rend="ligature">Pr</hi>o<lb n="4" break="no"/>culi</name></persName> <expan><am><g type="centurio"/></am><ex>centurionis</ex></expan> <orgName type="legio" key="legio VIII Augusta">legio
                     <lb n="4"/><num value="8">VIII</num> <expan><abbr>Aug</abbr><ex>usta</ex></expan></orgName> o<hi rend="reversed">p</hi>us <expan><abbr><hi rend="ligature">pe</hi>r</abbr><ex>fecit</ex></expan>
                 </ab>
             </div>

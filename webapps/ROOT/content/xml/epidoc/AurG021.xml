@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG021</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
-                    <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Viducius" type="gentilicium">Vi<lb n="3" break="no"/>ducius</name>
+                    <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <persName type="attested" ref="persAurG.xml#pAurG65" role="creator"><name nymRef="Viducius" type="gentilicium">Vi<lb n="3" break="no"/>ducius</name>
                     <lb n="4"/><name nymRef="Geminianus" type="cognomen">Geminia<lb n="5" break="no"/>nus</name></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>

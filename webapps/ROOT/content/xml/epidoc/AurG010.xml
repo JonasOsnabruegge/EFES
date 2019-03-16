@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG010</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -91,7 +91,7 @@
                     <lb n="2"/><expan><abbr>c<unclear>oh</unclear></abbr><ex>ors</ex></expan> <num value="1">I</num>
                     <lb n="3"/><expan><abbr>Astur</abbr><ex>um</ex></expan>
                     <lb n="4"/><expan><abbr>e<unclear>q</unclear></abbr><ex>uitata</ex></expan> <expan><abbr>c<hi rend="small">u</hi>r</abbr><ex>am</ex></expan> <expan><abbr><unclear>a</unclear><supplied reason="lost">g</supplied></abbr><ex>ente</ex></expan>
-                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="---c-a---us" type="cognomen"><gap reason="illegible" extent="2-3" unit="character"/><orig><unclear>c</unclear></orig><gap reason="illegible" extent="1-2" unit="character"/><orig><unclear>a</unclear></orig><gap reason="illegible" quantity="1" unit="character"/>
+                    <lb n="5"/><persName type="attested" ref="persAurG.xml#pAurG54"><name nymRef="---c-a---us" type="cognomen"><gap reason="illegible" extent="2-3" unit="character"/><orig><unclear>c</unclear></orig><gap reason="illegible" extent="1-2" unit="character"/><orig><unclear>a</unclear></orig><gap reason="illegible" quantity="1" unit="character"/>
                         <lb n="6"/><gap reason="illegible" extent="1" unit="character"/><gap reason="lost" extent="1-2"/><unclear>o</unclear></name> </persName><expan><abbr><unclear>prae</unclear><supplied reason="lost">f</supplied></abbr><ex>ecto</ex></expan>
                 </ab>
             </div>

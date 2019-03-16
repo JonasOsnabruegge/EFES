@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG037</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -82,10 +82,10 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Varucius" type="gentilicium">Varucius</name> <name nymRef="Fortio?" type="cognomen">Fo<supplied reason="lost" cert="low">rti</supplied>o</name></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Aq---" type="gentilicium">Aq<gap reason="lost" extent="unknown" unit="character"/></name>
-                    <lb n="2"/><name nymRef="Aquinus" type="cognomen">Aquinus</name></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Natalius" type="gentilicium">Nataliu<supplied reason="lost">s</supplied></name><name nymRef="---" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/></name></persName>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Victorinius" type="gentilicium">Victorinius</name> <name nymRef="Ursianus" type="cognomen">Ursia<supplied reason="lost">nus</supplied></name></persName><gap reason="lost" extent="unknown" unit="character" cert="low"/>
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Maternius" type="gentilicium">Maternius</name> <name nymRef="Aeternalis" type="cognomen">Aeterna<supplied reason="lost">lis</supplied></name></persName>
+                    <lb n="1"/><persName type="attested" ref="persAurG.xml#pAurG82" role="creator"><name nymRef="Varucius" type="gentilicium">Varucius</name> <name nymRef="Fortio?" type="cognomen">Fo<supplied reason="lost" cert="low">rti</supplied>o</name></persName> <persName type="attested" ref="persAurG.xml#pAurG83" role="creator"><name nymRef="Aq---" type="gentilicium">Aq<gap reason="lost" extent="unknown" unit="character"/></name>
+                    <lb n="2"/><name nymRef="Aquinus" type="cognomen">Aquinus</name></persName> <persName type="attested" ref="persAurG.xml#pAurG84" role="creator"><name nymRef="Natalius" type="gentilicium">Nataliu<supplied reason="lost">s</supplied></name><name nymRef="---" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="3"/><persName type="attested" ref="persAurG.xml#pAurG85" role="creator"><name nymRef="Victorinius" type="gentilicium">Victorinius</name> <name nymRef="Ursianus" type="cognomen">Ursia<supplied reason="lost">nus</supplied></name></persName><gap reason="lost" extent="unknown" unit="character" cert="low"/>
+                    <lb n="4"/><persName type="attested" ref="persAurG.xml#pAurG86" role="creator"><name nymRef="Maternius" type="gentilicium">Maternius</name> <name nymRef="Aeternalis" type="cognomen">Aeterna<supplied reason="lost">lis</supplied></name></persName>
                     <lb n="5"/><orgName type="collegium" key="collegium Iuventutis"><expan><abbr>co<supplied reason="lost">ll</supplied></abbr><ex>egio</ex></expan> iuventut<supplied reason="lost">is</supplied></orgName> <expan><abbr>d</abbr><ex>e</ex></expan> su<supplied reason="lost">o</supplied><supplied reason="lost"> <expan><abbr>d</abbr><ex>ederunt</ex></expan></supplied>
                 </ab>
             </div>

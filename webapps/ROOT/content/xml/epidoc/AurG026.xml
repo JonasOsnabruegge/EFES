@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG026</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -80,7 +80,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="Victoria" role="god"><supplied reason="lost">V</supplied>ictori<milestone unit="section" type="corpus" break="no"/><lb n="2" break="no"/>am</persName> cum b<lb n="3" break="no"/>ase <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Domitius" type="gentilicium">Do<hi rend="ligature">mi</hi><lb n="4" break="no"/>t<hi rend="small">i</hi>us</name> <name nymRef="Condollus" type="cognomen">Cond<lb n="5" break="no"/>ollus</name></persName> <orgName type="collegium" key="collegium Peregrinorum" role="creator"><expan><abbr>co<lb n="6" break="no"/>ll<choice><corr>e</corr><sic>i</sic></choice></abbr><ex>gio</ex></expan> Pere<lb n="7" break="no"/>grinoru<lb n="8" break="no"/>m</orgName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="1"/><persName type="divine" key="Victoria" role="god"><supplied reason="lost">V</supplied>ictori<milestone unit="section" type="corpus" break="no"/><lb n="2" break="no"/>am</persName> cum b<lb n="3" break="no"/>ase <persName type="attested" ref="persAurG.xml#pAurG74" role="creator"><name nymRef="Domitius" type="gentilicium">Do<hi rend="ligature">mi</hi><lb n="4" break="no"/>t<hi rend="small">i</hi>us</name> <name nymRef="Condollus" type="cognomen">Cond<lb n="5" break="no"/>ollus</name></persName> <orgName type="collegium" key="collegium Peregrinorum" role="creator"><expan><abbr>co<lb n="6" break="no"/>ll<choice><corr>e</corr><sic>i</sic></choice></abbr><ex>gio</ex></expan> Pere<lb n="7" break="no"/>grinoru<lb n="8" break="no"/>m</orgName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG058</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -84,10 +84,10 @@
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><lb n="1"/><expan><abbr><supplied reason="lost">Sarmat</supplied>ic</abbr><ex>i</ex></expan> <supplied reason="lost"><expan><abbr>max</abbr><ex>imi</ex></expan></supplied>
                     <lb n="2"/><expan><abbr><supplied reason="lost">liberoru</supplied>mq</abbr><ex>ue</ex></expan> ei<supplied reason="lost">us</supplied>
-                    <lb n="3"/><supplied reason="lost"><expan><abbr>sign</abbr><ex>um</ex></expan> de</supplied><expan><abbr>de</abbr><ex>runt</ex></expan> <persName type="attested" ref="PIR C 1322"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name nymRef="Cornelius" type="gentilicium">C<hi rend="small">o</hi>rne<supplied reason="lost"><expan><abbr>l</abbr><ex>io</ex></expan></supplied></name>
+                    <lb n="3"/><supplied reason="lost"><expan><abbr>sign</abbr><ex>um</ex></expan> de</supplied><expan><abbr>de</abbr><ex>runt</ex></expan> <persName type="attested" ref="persAurG.xml#pAurG26"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name nymRef="Cornelius" type="gentilicium">C<hi rend="small">o</hi>rne<supplied reason="lost"><expan><abbr>l</abbr><ex>io</ex></expan></supplied></name>
                     <lb n="4"/><name nymRef="Anullinus" type="cognomen"><supplied reason="lost">Anullin</supplied>o</name></persName> <expan><abbr><hi rend="ligature"><hi rend="reversed">l</hi>e</hi>g</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> p<supplied reason="lost">ro</supplied>
                     <lb n="5"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan> </supplied><orgName type="cohors" key="cohors I Helvetiorum"><supplied reason="lost"><expan><abbr>coh</abbr><ex>ors</ex></expan> <num value="1">I</num> H</supplied><expan><abbr>elve</abbr><ex>tiorum</ex></expan></orgName> et <orgName type="unit" key="Brittones Aurelianenses">Brit<supplied reason="lost"><expan><abbr>t</abbr><ex>ones</ex></expan></supplied>
-                    <lb n="6"/><supplied reason="lost"><expan><abbr>Aure</abbr><ex>lianenses</ex></expan></supplied></orgName><supplied reason="lost"> sub</supplied> <expan><abbr>cur</abbr><ex>a</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name nymRef="Valerius" type="gentilicium">V<supplied reason="lost"><expan><abbr>al</abbr><ex>eri</ex></expan></supplied></name>
+                    <lb n="6"/><supplied reason="lost"><expan><abbr>Aure</abbr><ex>lianenses</ex></expan></supplied></orgName><supplied reason="lost"> sub</supplied> <expan><abbr>cur</abbr><ex>a</ex></expan> <persName type="attested" ref="persAurG.xml#pAurG27"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name nymRef="Valerius" type="gentilicium">V<supplied reason="lost"><expan><abbr>al</abbr><ex>eri</ex></expan></supplied></name>
                     <lb n="7"/><supplied reason="lost"><name nymRef="Titus" type="cognomen">Titi</name></supplied></persName><supplied reason="lost"> <expan><am><g type="centurio"/></am><ex>centurionis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> ex c<hi rend="small">o</hi>r<supplied reason="lost"><expan><abbr>n</abbr><ex>iculario</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan></supplied>
                 </ab>
             </div>
