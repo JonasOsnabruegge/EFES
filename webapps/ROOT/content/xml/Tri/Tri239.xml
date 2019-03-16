@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Laetus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri239</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bf 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Mehrere aneinanderpassende Fragmente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Oben abgebrochen, wohl mit Giebel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(106)</height>
+                                            <width>65</width>
+                                            <depth>19</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld. Einigermaßen zentriertes Schriftbild.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige, uneinheitlich und eher roh ausgeführte Buchstaben, zum Teil ohne Serifen.</p>
+                                <height>5,3-5,8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0230" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1859">
+                            <placeName ref="ph">
+                                Saverne, Breitkopf, Goldenberg, gallo-römische Nekropole
+                            </placeName>
+                            <geo>48.74740 7.31444</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Laetus" type="cognomen">Laeto</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Catulinus+" type="cognomen">Catu<lb n="3" break="no"/>lin<supplied reason="lost" cert="low">i</supplied></name></persName></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cintussa" type="cognomen"><supplied reason="lost">Ci</supplied>ntussa</name></persName>
+                    <lb n="4"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cintusmus" type="cognomen">Cintus<lb n="5" break="no"/>mus</name></persName> fili
+                    <lb n="6"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6002
+                    </bibl>
+                    <bibl>
+                        Saverne 330
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 578
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

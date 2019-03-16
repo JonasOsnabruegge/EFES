@@ -1,0 +1,136 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beneficiarier-Weihinschrift für alle Götter und Göttinen</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud016</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg/Main, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, auf der linken Nebenseite gekreuzte Füllhörner; auf der rechten Nebenseite ineinander verschlungene Schlangen, die aus einem Gefäß aufsteigen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>119</height>
+                                            <width>70</width>
+                                            <depth>40</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem profilgerahmten Inschriftfeld auf dem Schaft, die letzte Zeile steht unterhalb des Inschriftfeldes oberhalb des Sockelprofils. Die Inschrift füllt das vorgesehene Inschriftfeld im Blocksatz vollständig aus, einzig Zeile 3 ist kürzer und zentriert. Anscheinend sollte 'SACRVM' gänzlich in Zeile 2 stehen, da dies nicht passte, musste eine weitere Zeile eingezogen werden, weshalb die letzte Zeile der Inschrif taußerhalb des Feldes stehen musste. Gleichmäßiges, geordnetes Schriftbild mit überwiegend gleichmäßigem Buchstaben- und Zeilenabstand. Punktförmige Worttrenner. Oberfläche des Inschriftfeldes verwittert.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig gearbeitet. Qualitätvolle Arbeit.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Obernburg/Main:</placeName> Kastell, porta principalis dextra, bei 
+                            </origPlace>
+                            <origDate when-custom="0191-01-13" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1954">
+                            <placeName ref="ph">
+                               Obernburg/Main, südlich der Stadt; 110 m von der porta principalis dextra an einer römischen Straße
+                            </placeName><geo>49.8412 9.1466</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6925.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="field"/>
+                    <lb n="1"/>D<hi rend="tall">i</hi>s Deabusq<hi rend="ligature">ue</hi>
+                    <lb n="2"/>omnibus sa<lb n="3" break="no"/>crum
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Sanctinius" type="gentilicium">Sanctinius</name>
+                    <lb n="5"/><name nymRef="Mercator" type="cognomen">Mercator</name></persName> <expan><abbr>mil</abbr><ex>es</ex></expan>
+                    <lb n="6"/><orgName type="legio" key="legioVIIIAugustapiafidelisconstansCommodae"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num> <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>ustae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> 
+                    <lb n="7"/><expan><abbr>c</abbr><ex>onstantis</ex></expan> <expan><abbr>C</abbr><ex>ommodae</ex></expan></orgName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro
+                    <lb n="8"/>salu<hi rend="ligature">te</hi> s<hi rend="ligature">ua</hi> <hi rend="ligature"><hi rend="reversed">e</hi>t</hi> suo<lb n="9" break="no"/>r<hi rend="ligature">um</hi> om<hi rend="ligature">n<hi rend="tall">i</hi></hi><hi rend="ligature">um</hi> pos<supplied reason="omitted">u</supplied><hi rend="ligature"><hi rend="tall">i</hi>t</hi>
+                    <lb n="10"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <date when-custom="0191-01-13" datingMethod="#julian" type="consulship"><expan><abbr>id</abbr><ex>ibus</ex></expan> <expan><abbr>Ian</abbr><ex>uariis</ex></expan>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="11"/><persName type="consul" ref="PIR² O 109"><name nymRef="Apronianus" type="cognomen">Aproniano</name></persName> <hi rend="ligature">et</hi> <persName type="consul" ref="PIR V 31"><name nymRef="Bradua" type="cognomen">Bradua</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD017045
+                    </bibl>
+                    <bibl>
+                        AE 1957, 52
+                    </bibl>
+                    <bibl>
+                        RSO 85
+                    </bibl>
+                    <bibl>
+                        CBI 140
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 182
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            177, Nr. 145
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

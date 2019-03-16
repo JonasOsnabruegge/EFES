@@ -1,0 +1,115 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschriftfragment</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis167</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Miltenberg, Museum der Stadt</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><term>Unbekannt</term>. Allseitig abgebrochenes Fragment.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(29)</height>
+                                            <width>(15)</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Geordnet wirkendes Schriftbild.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+~)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="Seiopa" ref="https://pleiades.stoa.org/places/123117">Seiopa</placeName>
+                                <placeName type="modern">Miltenberg</placeName>
+                            <origDate notBefore="0160" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1875">
+                            <placeName ref="ph">
+                               Miltenberg, Wüstung Waleshusen/Walehusen, Kirche, sekundär verwendet
+                            </placeName><geo>49.7093 9.2292</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term>Unbekannt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06614_1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/><orig>rni</orig>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="---tius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>tius</name></persName>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ma</orig>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD058732
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6614
+                    </bibl>
+                    <bibl>
+                        RSO 239
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

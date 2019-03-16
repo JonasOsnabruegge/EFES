@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und Iuno Regina</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van064</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms, Andreasstift</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Viergötterstein einer Juppitergigantensäule</objectType>, an der Rückseite beschädigt. In Bogennischen mythische Figuren. Vorne Hercules mit Löwenfell, mit der Rechten auf die Keule gelehnt, in der Linken die Äpfel der Hesperiden; rechts Mars mit Helm, in der Rechten die Lanze, in der Linken den Schild; hinten Mercurius mit dem Mantel über dem linken Arm, in der Linken Caduceus, in der Rechten marsupium; links Minerva im Chiton, mit Helm und Mantel über dem linken Arm, in der Rechten die Lanze, in der Linken Schild.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>90,5</height>
+                                            <width>44</width>
+                                            <depth>39</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die ersten beiden Zeilen befinden sich auf dem Aufsatz, die dritte Zeile auf dem Gesims. Das Inschriftfeld ist verwittert und die Inschrift kaum noch lesbar. Erste Zeile weit gesperrt, zweite Zeile leicht, dadurch ausgeglichenes Schriftbild auf dem Aufsatz.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, eher schmale, flach und unsorgfältig ausgeführte Buchstaben
+                                </p>
+                                <height min="2.8" max="5.0">5,0-2,8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/108820">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0200" notAfter="0250" cert="low">stilistisch nach CSIR</origDate>
+                        </origin>
+                        <provenance type="found" when="1989">
+                            <placeName ref="ph">
+                               Worms, Domplatz 3, auf der Südseite des Domes in einer Mauer.
+                            </placeName><geo>49.6297 8.3595</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/16819"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="Aufsatz"/>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="divine" key="IunoRegina*" role="god"><expan><abbr>Iuno</abbr><ex>ni</ex></expan> <expan><abbr>Reg</abbr><ex>inae</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---anianus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>anianus</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD055400
+                    </bibl>
+                    <bibl>
+                        AE 1991, 1269
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 2
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

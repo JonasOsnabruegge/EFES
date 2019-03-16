@@ -1,0 +1,118 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Quintus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Port022</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rastatt, zentrales Fundarchiv</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Giebelstele</objectType> mit dreieckigem Abschluss, im Giebelfeld Mondsichel und stilisierte Rosetten..</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>131</height>
+                                            <width>60</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem einfach gerahmten Feld unterhalb des Giebelfeldes. Die Inschrift selbst nimmt nur etwa ein Drittel des verfügbaren Platzes ein und befindet sich im oberen Drittel. Zentriertes, leicht ungleichmäßiges Schriftbild, die Zentrierung erfolgte jedoch ungenau. S und O klein am Ende von Zeile 2 und 3.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, leicht uneinheitlich und unsicher (so etwa beim S oder der rechten Vertikalhaste des N) ausgeführte, quadratische Buchstaben mit Serifen. D in Zeile 1 etwas schmal.</p>
+                                <height min="2.7" max="5.5">5,5-4,5 (2,7)</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/118912">Portus</placeName>
+                                <placeName type="modern">Pforzheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                        </origin>
+                        <provenance type="found" when="1754">
+                            <placeName ref="ph">
+                                Pforzheim, Arbeitsamt.
+                            </placeName><geo>48.8923 8.702</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/8533"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="cognomen">Quintu<hi rend="small">s</hi></name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Iulius" type="cognomen">Iuli</name></persName></persName> <persName type="attested" ref="persons.xml#p"><name nymRef="Autus" type="cognomen">Aut<hi rend="small">o</hi></name></persName>
+                    <lb n="4"/>filio
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Schlichte Stele mit ungewöhnlichem, schlichtem Formular.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036498
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6337
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kortum1995"/>
+                        <biblScope>
+                            146-148, Nr. 75; Taf. 131
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

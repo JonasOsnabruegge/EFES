@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem070</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Dom, Krypta, vermauert</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment eines nicht näher identifizierten Grabmonuments, links und unten abgebrochne, durch die Sekundärverwendung im Fussboden der Krypta verrieben. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> oder <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(76)</height>
+                                            <width>(40)</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Erhalten ist die obere rechte Ecke des profilgerahmten Inschriftfeldes sowie das untere Ende der Inschrift. Gleichmäßiges, geordnetes Schriftbild mit weitem Buchstabenabstand. Erste Zeile mit größeren Buchstaben.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig und tief eingehauene, quadratische Buchstaben mit Serifen, gute Qualität.
+                                </p>
+                                <height min="7.0" max="9.5">9,5-7,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Noviomagus" ref="https://pleiades.stoa.org/places/109224">Noviomagus</placeName>
+                                <placeName type="modern">Speyer</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" notAfter="1972">
+                            <placeName ref="ph">Speyer, Dom, Fußboden der Krypta, vermauert</placeName>
+                            <geo>49.317250 8.4421848</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26528.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem83"><name nymRef="---crus?" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>cro</name></persName>
+                    <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem84" role="creator?"><name nymRef="---cia?" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>cia</name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>or</orig>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 4: sor]or?
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075989
+                    </bibl>
+                    <bibl>
+                        AE 2011, 826
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kubach1972"/>
+                        <biblScope>
+                            1095, Nr. 11; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ditsch2011"/>
+                        <biblScope>
+                            187-188, Speyer 09; Taf. 58, 1
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

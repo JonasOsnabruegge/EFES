@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule des Carus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem150</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>A 42</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, unten abgebrochen, vertikal mittig abgearbeitet, linker Teil der Inschrift fehlend.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(90)</height>
+                                            <width>37</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Leicht ungleichmäßiges Schriftbild, Zeilenführung nicht eingehalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, uneinheitlich ausgeführte quadratische Buchstaben mit Serifen.</p>
+                                <height>6,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
+                                <placeName type="modern">Altrip</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0282" notAfter="0283" cert="low">Kaisertitulatur</origDate>
+                        </origin>
+                        <provenance type="found" when="1842">
+                            <placeName ref="ph">Altrip, Gärten der Witwe Hook - verschleppt aus dem spätantiken Burgus?</placeName>
+                            <geo>49.4328489 8.5019495</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26627-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> </supplied><expan><abbr><supplied reason="lost">C</supplied>aes</abbr><ex>ari</ex></expan> <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name>
+                    <lb n="2"/><name nymRef="Aurelius+" type="gentilicium"><supplied reason="lost">Aureli</supplied>o</name> <name nymRef="Carus" type="cognomen">Caro</name>
+                    <lb n="3"/><supplied reason="lost"><expan><abbr>p</abbr><ex>io</ex></expan> <expan><abbr>f</abbr><ex>elici</ex></expan> invi</supplied>cto <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
+                    <lb n="4"/><supplied reason="lost"><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> </supplied><expan><abbr><supplied reason="lost">tri</supplied>b</abbr><ex>unicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>pr<supplied reason="lost">oco</supplied></abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><ex>uli</ex></expan>
+                    <lb n="5"/><orgName type="civitas" key="civitasNemetum*" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>N</abbr><ex>emetum</ex></expan></orgName>
+                    <lb n="6"/><supplied reason="lost"><expan><abbr>l</abbr><ex>eugas</ex></expan></supplied> <num value="5">V</num>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075725
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9093
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 614
+                    </bibl>
+                    <bibl>
+                        CIRh 1949
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

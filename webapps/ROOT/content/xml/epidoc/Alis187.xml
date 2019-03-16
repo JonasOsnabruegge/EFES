@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <editor>Jonas Osnabrügge</editor>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und den Genius loci</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis187</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, nur noch die rechte Seite erhalten, Bekrönung abgeschlagen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(141)</height>
+                                            <width>(28)</width>
+                                            <depth>(22)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem von einer einfachen Leiste gerahmten Inschriftfeld auf dem Schaft, die letzte Zeile unterhalb des Inschriftfeldes.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++)</p>
+                                <height>8,5-8,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName>
+                            <origDate when="0180" datingMethod="#julian"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1971">
+                            <placeName ref="ph">
+                                <geo>49.4309 9.4273</geo>
+                                Osterburken, St. Kilian, beim Abbruch des alten Kirchengebäudes
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25697.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><supplied reason="lost">et </supplied><persName type="divine" key="Genius loci" role="god"><supplied reason="lost">Gen</supplied>io lo<lb n="3" break="no"/><supplied reason="lost">ci</supplied></persName><supplied reason="lost"> cete</supplied>r<hi rend="tall">i</hi>s
+                    <lb n="4"/><supplied reason="lost">dis d</supplied>eabus<lb n="5" break="no"/><supplied reason="lost">que </supplied><expan><abbr><supplied reason="lost">o</supplied>mn<hi rend="ligature">ib</hi></abbr><ex>us</ex></expan>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">C</supplied>ai <expan><abbr>fil</abbr><ex>ius</ex></expan>
+                    <lb n="6"/><placeName type="ancient" key="---a Ara"><gap reason="lost" extent="unknown" unit="character"/>a Ara</placeName>
+                    <lb n="7"/><name nymRef="---us" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">u</supplied>s</name></persName> mi<lb n="8" break="no"/><supplied reason="lost">les </supplied><orgName type="legio" key="legio VIII Augusta"><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <num value="8"><hi rend="supraline">VIII</hi></num>
+                    <lb n="9"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustae</ex></expan> </supplied></orgName><expan><abbr><supplied reason="lost">b</supplied></abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan>
+                    <lb n="10"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="11"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <milestone unit="section" type="Rahmen"/><lb n="12"/><date when="0180" datingMethod="#julian" type="consulship"><supplied reason="lost"><persName type="consul" ref="PIR² B 165"><name nymRef="Praesens" type="cognomen">Praesente</name></persName></supplied><supplied reason="lost"> et </supplied><persName type="consul" ref="PIR² Q 22"><name nymRef="Condianus" type="cognomen"><supplied reason="lost">Co</supplied>ndiano</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD004600
+                    </bibl>
+                    <bibl>
+                        AE 1978, 529
+                    </bibl>
+                    <bibl>
+                        CBI 170
+                    </bibl>
+                    <bibl>
+                        RSO 96
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schillinger-Haefele1977"/>
+                        <biblScope>
+                            483f., Nr. 48
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

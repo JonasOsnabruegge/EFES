@@ -1,0 +1,110 @@
+<?xml-model href="http://www.stoa.org/epidoc/shema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und Iuno Regina</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem078</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno>HM 1967/69</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, oben rechts bestoßen</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>74</height>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Geordnetes Schriftbild mit gesperrten und gut zentrierten Zeilen 1 u. 2. Zeile 3 eher gedrängt, dafür Z. 4 mit weiterem Abstand, wodurch das Schriftbild im unteren Teil schlecht ausbalanciert wirkt. Unteres Drittel des Inschriftfeldes unbeschrieben.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig (wenn auch mit leichten Unsicherheiten, so beim Bogen des R oder der unteren Querhaste des E in Z. 3, Bogen des C etwas zu kurz) ausgeführte, quadratische Buchstaben mit Serifen. A ohne Querhaste (aufgemalt?), P mit kurzem, offenem Bogen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Noviomagus" ref="https://pleiades.stoa.org/places/109224">Noviomagus</placeName>
+                                <placeName type="modern">Speyer?</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0160" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1967" cert="low">
+                            <placeName ref="ph">Speyer, Korngasse 20</placeName>
+                            <geo>49.3178 8.4342</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26594.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="divine" key="IunoRegina*" role="god"><expan><abbr>I</abbr><ex>unoni</ex></expan> <expan><abbr>R</abbr><ex>eginae</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem76" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Paternus" type="cognomen">Pate<lb n="4" break="no"/>rnus</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        lupa 26594
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

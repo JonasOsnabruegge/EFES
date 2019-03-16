@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri165</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>in situ</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210.html">Felswand</objectType>.</p>
+                                    <material>Fels</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Das Inschriftfeld ist in Form einer tabula ansata direkt in den Fels gehauen.
+                                    </p>
+                                    <dimensions>
+                                        <height>53</height>
+                                        <width>119,5</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height min="7.5" max="8.0">7,5-8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Niederbronn-les-Bains</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1583">
+                            <placeName ref="ph">
+                                Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum, bei, in 2,4 m Höhe direkt in den Fels 9 m vom Eingang der Wasenburg gehauen
+                            </placeName><geo>48.96024 7.61644</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Deo <persName type="divine" key="Mercurius" role="god">Mercurio</persName> attegi<lb n="2" break="no"/>am teguliciam comp<lb n="3" break="no"/>ositam
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Severinius" type="gentilicium">Severinius</name>
+                    <lb n="5"/><name nymRef="Satullinus" type="cognomen">Satullinus</name></persName> <expan><abbr>c</abbr><ex>ivis</ex></expan> <expan><abbr>T</abbr><ex>ribocus</ex></expan> ex vo<lb n="6" break="no"/>to posuit <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6054
+                    </bibl>
+                    <bibl>
+                        CIL XIII/4 add. p. 86 
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 461
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar für Mercurius Defensor</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van002</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, oben bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>46</height>
+                                            <width>29,5</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Inschrift im Blocksatz, letzte Zeile eingerückt. Unruhiges, unregelmäßiges Schriftbild. Zeilenführung unsicher.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, quadratische Buchstaben mit Serifen, ungleichmäßig ausgeführt.
+                                </p>
+                                <height>2,2-3,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Eisenberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0001" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1904">
+                            <placeName ref="ph">
+                                Eisenberg, in der Hochstadt
+                            </placeName><geo>49.554 8.078</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25535.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                    <ab>
+                        <milestone unit="section" type="corona"/>
+                        <persName type="divine" key="MercurDefensor" role="god"><lb n="1"/><supplied reason="lost" cert="low">Deo</supplied> Me<supplied reason="lost">rcurio</supplied>
+                            <milestone unit="section" type="corpus"/>
+                            <lb n="2"/><expan><abbr>Defensor</abbr><ex>i</ex></expan></persName> <expan><abbr>s</abbr><ex>acrum</ex></expan>
+                        <lb n="3"/><name nymRef="Maximin---" type="cognomen"><expan><abbr>Maximin</abbr><ex cert="low">us</ex></expan></name> <expan><abbr>v</abbr><ex cert="low">eteranus</ex></expan>
+                        <lb n="4"/><expan><abbr>l</abbr><ex cert="low">egionis</ex></expan> <name nymRef="Felicio" type="cognomen">Felicio</name> <expan><abbr>v</abbr><ex>eteranus</ex></expan>
+                        <lb n="5"/><expan><abbr>l</abbr><ex>egionis</ex></expan> <name nymRef="Leontius" type="cognomen">Leontius</name>
+                        <lb n="6"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>e</abbr><ex>t</ex></expan> <expan><abbr>s</abbr><ex>uorum</ex></expan>
+                        <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    </ab>
+                    
+            </div>
+            <div type="apparatus">
+                <p>Z: 3-6: Kreckel: MAXIMIN(us) V(eteranus?) / L(---) FELICIO V(eteranus?) / L(---) LEONTIVS / D(ecurio ?); so auch Hirte mit Z. 6: d(edicaverunt); AE: M(aximinii) v(eteranus?) / l(egionis?) Felicio v(eteranus?) / l(egionis?) Leontius; Kakoschke: [F]l(avius) Felicio; [F]l(avius) Leontius; für ein [F] ist jedoch nicht genug Platz.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Deutung unsicher. Modern nachgemalte Inschrift. Person 1 und 2 Veteranen, Person 3 ohne Veteranenstatus?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD030201
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11697
+                    </bibl>
+                    <bibl>
+                        AE 1905, 60
+                    </bibl>
+                    <bibl>
+                        AE 2010, 1069
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            58, Nr. 195
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hirte1995"/>
+                        <biblScope>
+                            101. 416-417; Taf. 82
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kreckel2004"/>
+                        <biblScope>
+                            431-433, Nr. 3.2
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

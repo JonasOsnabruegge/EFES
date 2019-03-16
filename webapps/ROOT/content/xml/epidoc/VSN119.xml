@@ -1,0 +1,125 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule Gordians III.</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN119</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType> ohne Sockel</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(164)</height>
+                                            <width>38</width>
+                                            <dim type="circumference" min="125" max="130">130-125</dim>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++~)</p>
+                                <height>5-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph">Heidelberg</placeName>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate when="0238" cert="medium">Kaiser, Regierungsantritt?</origDate>
+                        </origin>
+                        <provenance type="found" when="1883"><placeName ref="ph">Heidelberg, Bergheim, Thibautstraße, römischer Keller </placeName><geo>49.409861 8.686841</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/22557-3.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied>
+                        <lb n="2"/><supplied reason="lost"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Antonius" type="gentilicium">Antonio</name></supplied>
+                        <lb n="3"/><name nymRef="Gordianus" type="cognomen"><supplied reason="lost">Go</supplied>rdia<supplied reason="lost">n</supplied>o</name>
+                        <lb n="4"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
+                    <lb n="5"/><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>tr</abbr><ex>i</ex><abbr>b</abbr><ex>unicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <orgName key="CVSN" type="civitas" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName>
+                    <lb n="6"/><expan><abbr>l</abbr><ex>eugas</ex></expan> <num value="4">IIII</num>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Kriegsverlust. 1944 beim Bombenangriff auf Mannheim im Schloss zerstört.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036479
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9107
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 639
+                    </bibl>
+                    <bibl>
+                        RSO 216
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            293, Nr. 4
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

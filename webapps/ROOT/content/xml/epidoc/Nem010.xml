@@ -1,0 +1,112 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar für Toutenus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem010</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType></p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(25)</height>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Unregelmäßiges, unruhiges Schriftbild; Zeilenführung nicht eingehalten. Inschrift im Blocksatz.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige und ungleichmäßig ausgeführte Buchstaben. Z. 2 V: Schräghasten nicht verbunden, , A ohne Querhaste. N mit schräggestellten Hasten</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CN" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Neustadt an der Weinstraße</placeName>
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0300" cert="medium">deo</origDate>
+                        </origin>
+                        <provenance type="found" when="1970">
+                            <placeName ref="ph">Neustadt an der Weinstraße</placeName>
+                            <geo>49.35018634 8.14868860</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26814.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                   <lb n="1"/><persName type="divine" key="Toutenus?" role="god">Deo
+                       <lb n="2"/>Tou<unclear>t</unclear>en<lb n="3"/>o</persName><note>?</note> <persName type="attested" ref="NemPers.xml#pNem173" role="creator"><name nymRef="Avento" type="cognomen">Avento</name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD049730
+                    </bibl>
+                    <bibl>
+                        AE 1997, 1185.
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift des Eutices Eutychus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri007</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bf 7.13</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Oberer Teil<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit eingeschriebenem Giebel mit Rosettendekor, in mehrere aneinanderpassende Fragmente zerbrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(127)</height>
+                                            <width>78</width>
+                                            <depth>21</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrit befindet sich in einem gerahten Inschriftfeld. Zentrierte Inschrift mit nach unten zusammenlaufendem Schriftbild. Zeilenführung nicht ganz eingehalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige Buchstaben, die L mit leicht schräggestellten Querhasten, z. T. auch bei den unteren Querhasten der E.</p>
+                                <height>5,6-6,9</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="vicus" key="TresTabernae" ref="ph">Tres Tabernae</placeName>
+                                <placeName type="modern">Saverne</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1916"><placeName ref="ph">Zavern/Saverne, Route de Paris, Pfarrgarten/Jardin Public, Fundament des Turms Q der spätantiken Stadtmauer, sekundär verwendet</placeName>
+                        <geo>
+                            48.73970 7.36233
+                        </geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27853-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Eutyches" type="cognomen"><supplied reason="lost" evidence="previouseditor">Eut<choice><corr>y</corr><sic>i</sic></choice></supplied>ci</name> <name nymRef="Eutychus" type="cognomen">Eutych<hi rend="small">o</hi></name></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Eutyches" type="cognomen">Eut<choice><corr>y</corr><sic>i</sic></choice>ches</name> <name nymRef="Felix" type="cognomen">Felix</name></persName>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Eumenes" type="cognomen">Eumenes</name> <name nymRef="Helius" type="cognomen">Helius</name></persName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Carata" type="cognomen">Carata</name></persName>
+                    <lb n="6"/><expan><abbr>fil</abbr><choice><ex>ia</ex><ex>ii</ex></choice></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD027574
+                    </bibl>
+                    <bibl>
+                        AE 1920, 124
+                    </bibl>
+                    <bibl>
+                        AE 2015, 998
+                    </bibl>
+                    <bibl>
+                        Saverne 120
+                    </bibl>
+                    <bibl>
+                        ILTG 443
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 572
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            47, Nr. 144
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            170, Nr. 251
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

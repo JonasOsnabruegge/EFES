@@ -1,0 +1,132 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, Mars Caturix und den Genius loci</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Port016</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmus.</repository>
+                        <idno>RL 404</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Auf der Linken Nebenseite Kanne unf Griffschale, auf der rechten Nebenseite Opfermesser und Beil.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>120</height>
+                                            <width>68</width>
+                                            <depth>40</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften, profilgerahmten Inschriftfeld auf dem Schaft. Geordnetes, leicht ungenau zentriertes Schriftbile, etwas gedrängt mit geringem Zeilenabstand. Dreieckige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, flach und sorgfältig eingehauene, quadratische Buchstaben mit leichten Unsicherheiten bei wenigen Buchstaben, qualitätvolle Arbeit. Zeile 6: BF-Ligatuer mit breit durchgezogener mittlerer Querhaste.</p>
+                                <height min="5.0" max="6.0">6,0-5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph"/>
+                                <placeName type="modern">Heilbronn-Böckingen</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0150"/>
+                        </origin>
+                        <provenance type="found" when="1712">
+                            <placeName ref="ph">
+                               Heilbronn-Böckingen, zwischen Böckingen und Neckargertach.
+                            </placeName><geo>49.151 9.195</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/7376"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><hi rend="ligature">et</hi> <persName type="divine" key="MarsCaturix" role="god">Mar<hi rend="tall">t</hi>i Ca<lb n="3" break="no"/><hi rend="tall">t</hi>urigi</persName> <persName type="divine" key="Geniusloci" role="god">Gen<lb n="4" break="no"/>io loci</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name>
+                    <lb n="5"/><name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Quietus" type="cognomen">Quie<hi rend="tall">t</hi>us</name></persName>
+                    <lb n="6"/><hi rend="ligature"><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan></hi> <expan><abbr>c<hi rend="small">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 6: ILS: b.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036979
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6474
+                    </bibl>
+                    <bibl>
+                        ILS 4553
+                    </bibl>
+                    <bibl>
+                        AE 2006, 918
+                    </bibl>
+                    <bibl>
+                        CBI 110
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1914"/>
+                        <biblScope>
+                            529-531, Nr. 371; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

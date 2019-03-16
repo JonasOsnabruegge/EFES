@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Candida Regina</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis036</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno>214, 215</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit zugehöriger Plinthe.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>99, 115 mit Plinthe</height>
+                                            <width>50</width>
+                                            <depth>25</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf dem Schaft und nimmt etwa drei Viertel des verfügbaren Platzes ein. Linksbündige Inschrift mit geordnetem, überwiegend gleichmäßigem Schriftbild, teilweis eetwas gedrängt. Erste und letzte Zeile deutlich größer. Dreieckige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig, teilweise leicht unsicher ausgeführt. 
+                                </p>
+                                <height min="2.5" max="5.0">5,0-2,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0195">Kontext</origDate>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihbezirk, vor dem Holztempel der Dea Candida; Befund IV/16 u. IV/17, Nr. 214 u. 215.
+                            </placeName><geo>49.43 9.42548</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25515"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Deae <persName type="divine" key="CandidaRegina" role="god">Ca<hi rend="ligature">nd</hi>i<lb n="2"/>dae Reginae</persName> be<lb n="3" break="no"/>ne merenti pro
+                    <lb n="4"/>se et suis <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Paulinius" type="gentilicium">Pau<lb n="5" break="no"/>linius</name> <name nymRef="Iustus" type="cognomen">Iustus</name></persName>
+                    <lb n="6"/><expan><abbr>mil</abbr><ex>es</ex></expan> <orgName type="legio" key="legioXXIIPrimigeniapiafidelis"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="22">XXII</num> <expan><abbr>P</abbr><ex>rimigeniae</ex></expan></orgName> 
+                    <lb n="7"/><expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+                    <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 2/3: ungewöhnliche Formel zur Benennung einer Gottheit.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD002051
+                    </bibl>
+                    <bibl>
+                        AE 1985, 685
+                    </bibl>
+                    <bibl>
+                        CBI 154
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

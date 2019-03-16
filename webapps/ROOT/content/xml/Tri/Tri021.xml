@@ -1,0 +1,125 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschriftfragment</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri021</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Strasbourg, Musée Archéologique</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück einer<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(16)</height>
+                                            <width>(44)</width>
+                                            <depth>6</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Der linke Rand des Inschriftfeldes ist erhalten. Linksbündige Inschrift, gleichmäßiges Schriftbild.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige Buchstaben.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1926">
+                            <geo>48.5830 7.75586</geo>
+                            Strasbourg, Collège S. Étienne
+                        <placeName ref="ph"/>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_ILTG_00428_1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>a</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><choice><unclear>I</unclear><unclear>T</unclear><unclear>F</unclear><unclear>P</unclear></choice> <orig><hi rend="ligature">av</hi></orig> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><orig>p<hi rend="ligature">at</hi>r</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><orig>rom</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><orig>vict<hi rend="small">o</hi></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/><abbr>d</abbr> <orig>mco</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="7"/><orig>n</orig><gap reason="lost" quantity="2" unit="character"/><orig><unclear>t</unclear>e<choice><unclear>r</unclear><unclear>p</unclear><unclear>b</unclear><unclear>d</unclear><unclear>f</unclear><unclear>e</unclear></choice></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: Zu Beginn noch unterer Ansatz einer Haste; Z. 7: Am Ende noch obere Ansatz eines Buchstaben mit oben ansetzender Querhaste oder Bogen.
+                    Z. 3 vielleicht patr[i, -ibus vel sim.], Z. 4/5 Namen?
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD079229
+                    </bibl>
+                    <bibl>
+                        ILTG 428
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 275-276.
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

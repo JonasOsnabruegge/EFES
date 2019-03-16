@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment einer Beneficiarier-Weihinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Port021</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno>RL 173</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Drei aneinanderpassende Fragmente vom Schaft eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>, oben und unten abgebrochen, seitlich ausgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(43)</height>
+                                            <width>(45)</width>
+                                            <depth>25</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Ungleichmäßiges, zum Teil gedrängtes Schriftbild, Zeilenführung nicht eingehalten. Punktförmige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Unregelmäßige, uneinheitlich und flach eingehauene Buchstaben mit Serifen, teils breit, teils schmal ausgeführt. S unsicher.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Stuttgart, Bad Cannstatt</placeName> 
+                            </origPlace>
+                            <origDate when="0182" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1910">
+                            <placeName ref="ph">
+                                Stuttgart, Bad Cannstatt, auf der Cannstätter Steig, gegenüber dem Eingang des Friedhofs.
+                            </placeName><geo>48.8114 9.21</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/7795"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Venidius+" type="gentilicium">Ve<hi rend="ligature">n<supplied reason="lost">i</supplied></hi><hi rend="reversed"><unclear>d</unclear></hi>ius</name>
+                    <lb n="2"/><name nymRef="Germanus+" type="cognomen">Germanu<supplied reason="lost">s</supplied></name></persName>
+                    <lb n="3"/><expan><abbr>mil</abbr><ex>es</ex></expan> <orgName type="legioVIIIAugusta*"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8">VIII</num>
+                    <lb n="4"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan></supplied>
+                    <lb n="5"/>pro se et
+                    <lb n="6"/>su<choice><corr>i</corr><sic>o</sic></choice>s posu<unclear>it</unclear>
+                    <lb n="7"/><date when="0182" type="consulship"><persName type="consul" ref="PIR² P 311"><name nymRef="Mamertinus+" type="cognomen">Mamer<supplied reason="lost">ti</supplied><unclear>no</unclear></name></persName> <supplied reason="lost">et </supplied><persName type="consul" ref="PIR T 169"><name nymRef="Rufus+" type="cognomen"><supplied reason="lost">Rufo</supplied></name></persName><supplied reason="lost"> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036582
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11747a
+                    </bibl>
+                    <bibl>
+                        CBI 204
+                    </bibl>
+                    
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift der Vicani Saliobrigenses auf Viergötterstein</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN001</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Viergötterstein einer Juppitergigantensäule</objectType> mit Darstellungen von Mars, Venus, Amor, Vulcan, Diana, Apollo</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>-102</height>
+                                            <width>-62</width>
+                                            <depth>-62</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Die Inschrift befindet sich auf der Vorderseite über einer Darstellung von Venus und Mars, dazwischen Amor, der einen Schild über dem Kopf hält.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Flach eingehauene, leicht unregelmäßige Inschrift, Querhaste der A nicht sichrbar.
+                                <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" ref="http://www.trismegistos.org/place/28023">Saliobriga</placeName>
+                                <placeName type="modern">Sinsheim</placeName>
+                            </origPlace>
+                            <origDate notBefore="0151" notAfter="0250" cert="medium">Mitte 2. bis Mitte 3. Jh. n. Chr.</origDate>
+                        </origin>
+                        <provenance type="found" when="1935"><placeName ref="http://edh-www.adw.uni-heidelberg.de/edh/geographie/8888">Sinsheim, Stiftskirche, sekundär verwendet.</placeName><geo>49.25568 8.8817</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F012429.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><orgName type="vicani" key="VicaniSaliobrigenses" role="creator"><supplied reason="lost">Vi</supplied>c<hi rend="ligature">an</hi>i 
+                        <placeName nymRef="Saliobriga" type="vicus" ref="https://pleiades.stoa.org/places/118948"><expan>
+                            <abbr>Saliob<supplied reason="lost">r</supplied><lb n="2" break="no"/><supplied reason="lost">ig</supplied>ense</abbr><ex>s</ex>
+                        </expan>
+                        </placeName> 
+                   </orgName>  
+                    <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p>Die Vicani von Saliobriga haben ihr Gelübde eingelöst</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD014351
+                    </bibl>
+                    <bibl>
+                        AE 1968, 320
+                    </bibl>
+                    <bibl xml:id="Duval968">
+                        <ptr target="Duval968"/>
+                        <citedRange>429, Nr. 43, 4.</citedRange>
+                    </bibl>
+                    <bibl xml:id="Schillinger-Haefele1977">
+                        <ptr target="Schillinger-Haefele1977"/>
+                        <citedRange>474-475, Nr. 31.</citedRange>
+                    </bibl>
+                    <bibl xml:id="Bauchhenss1981">
+                        <ptr target="Bauchhenss1981"/>
+                        <citedRange>221, Nr. 474.</citedRange>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            42-43, Nr. 16; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

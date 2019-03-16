@@ -1,0 +1,125 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschirft für Iuppiter, Iuno Regina und den Genius loci</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Port018</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Stuttgart, Bad Cannstatt</placeName> 
+                            </origPlace>
+                            <origDate when="0213" type="consulship"/>
+                        </origin>
+                        <provenance type="found" notAfter="1583">
+                            <placeName ref="ph">
+                                Stuttgart, Bad Cannstatt
+                            </placeName><geo>48.81208 9.21</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>vinae</ex></expan> <persName type="divine" key="Iuppiter" role="god">Iovi</persName>
+                    <lb n="2"/>et <persName type="divine" key="IunoRegina*" role="god">Iunoni <expan><abbr>Reg</abbr><ex>inae</ex></expan></persName>
+                    <lb n="3"/>et <persName type="divine" key="Geniusloci" role="god">Genio loci</persName>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Tigerionius+?" type="gentilicium">T<supplied reason="lost" cert="low">i</supplied>gerioni<supplied reason="lost" cert="low">u</supplied>s</name> <name nymRef="Severus*" type="cognomen">S<supplied reason="omitted">e</supplied><lb n="5" break="no"/>verus</name></persName> <expan><abbr>mil</abbr><ex>es</ex></expan> <orgName type="legio" key="legioXXIIAntoniniana*"><expan><abbr>leg</abbr><ex>ionis</ex></expan>
+                    <lb n="6"/><num value="22">XXII</num> <expan><abbr>Anton<supplied reason="omitted">in</supplied>ian</abbr><ex>ae</ex></expan></orgName>
+                    <lb n="7"/><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro sua
+                    <lb n="8"/>et <expan><abbr>suor</abbr><ex>um</ex></expan> <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan>
+                    <lb n="9"/><date when="0213" type="consulship"><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> </supplied><name nymRef="Antoninus" type="cognomen">Anton<supplied reason="lost">i</supplied><lb n="10" break="no"/><supplied reason="lost">no</supplied></name> </persName><supplied reason="lost"><num value="4">IV</num> et <persName type="consul" ref="PIR T 171"><name nymRef="Balbinus" type="cognomen">Balbino</name></persName> <num value="2">II</num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Vgl. CIL XIII 6440</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036858
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6441
+                    </bibl>
+                    <bibl>
+                        CBI 201
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            176, Nr. 251
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

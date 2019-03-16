@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, den Genius loci und alle Gottheiten</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis047</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno>LDA KA EV 83/3-1103</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, unten abgebrochen, Aufsatz zum Teil abgearbeitet</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(35,5)</height>
+                                            <width>39</width>
+                                            <depth>28,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Linksbündige Inschrift, leicht ungleichmäßiges Schriftbild mit schwankendem Buchstabenabstand. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, sorgfältig gearbeitete, quadratische Buchstaben mit Serifen.</p>
+                                <height min="4.5" max="5.0">5,0-4,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0200" notAfter="0250">Kontext</origDate>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihbezirk
+                            </placeName><geo>49.4300 9.4255</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25690"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="divine" key="Geniusloci*" role="god"><expan><abbr>G</abbr><ex>enio</ex></expan> <expan><abbr>l</abbr><ex>oci</ex></expan></persName> <expan><abbr>d</abbr><ex>is</ex></expan> <expan><abbr>d</abbr><ex>eabusque</ex></expan> <expan><abbr><hi rend="small">o</hi></abbr><ex>mnibus</ex></expan>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aius</ex></expan></name> <name nymRef="Couventinus+" type="gentilicium">Couve<lb n="4" break="no"/><supplied reason="lost">n<hi rend="ligature">ti</hi></supplied>nus</name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 4: CBI: [ni]us; AE 1996: [n]ius.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036897
+                    </bibl>
+                    <bibl>
+                        AE 1996, 1159
+                    </bibl>
+                    <bibl>
+                        CBI 165
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2017a"/> <!-- FERA 2017,32 -->
+                        <biblScope>
+                            22-24, Nr. 11; Abb. 15 u. 16
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

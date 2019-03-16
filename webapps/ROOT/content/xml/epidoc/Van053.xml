@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Sutta</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van053</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Oberer Teil einer rechteckigen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit eingeschriebenem Dreiecksgiebel mit Volutenakroteren, im Giebelfeld Akanthusornament mit Rosette. Unten abgbrochen.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(48)</height>
+                                            <width>61</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Leicht gedrängtes, geordnetes Schriftbild. Das zweite T in Zeile 1 ist unterhalb des vorangehenden T-longa eingerückt; A klein in C eingeschrieben.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regeömäßige, sorgfältig und tief eingehauene, quadratische Buchstaben (capitalis quadrata), qualitätvolle Arbeit.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum?</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Selzen</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0070" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1935">
+                            <placeName ref="ph">
+                               Selzen - Hahnheim, zwischen, bei dem ehemaligen Bahnhof Selzen-Hahnheim
+                            </placeName><geo>49.8633 8.2485</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$OS_Nesselhauf_00088a.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Sutta" type="cognomen">Su<hi rend="tall">t</hi>ta</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Cantilius" type="cognomen">C<hi rend="tall">a</hi><hi rend="ligature">nt</hi>i<lb n="2" break="no"/>lii</name></persName></persName> <expan><abbr>f</abbr><ex>ili-</ex></expan> <date type="age" atLeast="2"><expan><abbr>an</abbr><ex>norum</ex></expan> <choice><unclear>L</unclear><unclear>I</unclear></choice><unclear>I</unclear><gap reason="lost" extent="unknown" unit="character"/></date>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: Nesselhauf: LV; Behrens: Aniu...
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD051707
+                    </bibl>
+                    <bibl>
+                        AE 1994, 1316
+                    </bibl>
+                    <bibl>
+                        CSIR D II/6, Nr. 57
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            78, Nr. 88a
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Behrens1938"/>
+                        <biblScope>
+                            38, Nr. 2; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

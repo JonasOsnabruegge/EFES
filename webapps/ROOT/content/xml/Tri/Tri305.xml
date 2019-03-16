@@ -1,0 +1,115 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmente der Grabinschrift eines Mausoleums</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri305</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brumath, Musée archéologique</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zahlreiche, zum Teil aneinanderpassende Fragmente eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1890.html">Mausoleum</objectType>s mit Schuppendach. In der von kanellierten Pilastern flankierten Nische im oberen Geschoss ganzfigurige Darstellung des Verstorbenen als togatus (22 Fragmente). Auf den Nebenseiten Relief mit Eroten. Qualitätvolle Ausführung des Reliefdekors.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf dem Sockel, flankiert von kanellierten Pilastern, unterhalb einer ornamentierten Girlande. Zwei fragmente mit Inschriftresten erhalten.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Große, regelmäßig konstruierte, tief und sorgfältig eingehauene, quadratische Buchstaben mit Serifen. Qualitätvolle Arbeit.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                         <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph">Brocomagus</placeName>
+                                <placeName type="modern">Brumath</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0014" notAfter="0050" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="2003">
+                            <placeName ref="ph">
+                               Brumath, Rue du Château 13, in Sekundärverwendung in einem Keller des 3. Jhs. n. Chr.
+                            </placeName>
+                            <geo>48.731711 7.710225</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/27375"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="character"/> <expan><abbr><supplied reason="lost" cert="low">I</supplied>ul</abbr><ex cert="low">ius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>vc</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> et <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <ptr target="Blin2015"/>
+                        <biblScope>
+                            214-216
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

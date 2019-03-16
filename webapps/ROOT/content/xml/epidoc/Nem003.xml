@@ -1,0 +1,123 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihung für Apollo Grannus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem003</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Kapitell</objectType> mit Säulenansatz</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>52</height>
+                                            <width>52</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf einer Seite des Abakus und füllt diese komplett aus. Geringer Zeilenabstand, schwankender Buchstabenabstand. 
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßig konstruierte, gleichmäßige Buchstaben.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CN" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="CaputCivitatis" key="Noviomagus" ref="ph">Noviomagus</placeName>
+                                <placeName type="modern">Speyer</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1936">
+                            <placeName ref="ph">Speyer, Tafelsbrunnen</placeName>
+                            <geo>49.303658 8.416039</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26599-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="ApolloGrannus" role="god">Apollini Grann<supplied reason="lost">o</supplied></persName>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem180" role="creator"><name nymRef="Aulius" type="gentilicium">Aulius</name> <name nymRef="Florius" type="gentilicium">Florius</name> <name nymRef="G--tus" type="cognomen">G<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><lb n="3" break="no"/>tus</name></persName> <orgName key="civesTrever" type="cives"><expan><abbr>c</abbr><ex>ivis</ex></expan> Trever</orgName> <expan><abbr>v</abbr><ex>ovit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 2 am Ende noch eine Vertikalhaste zu erkennen. G[ra]/tus?</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD024342
+                    </bibl>
+                    <bibl>
+                        AE 1936, 76
+                    </bibl>
+                    <bibl>
+                        <ptr target="Sprater1936"/>
+                        <biblScope>
+                            60
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            71, Nr. 71
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

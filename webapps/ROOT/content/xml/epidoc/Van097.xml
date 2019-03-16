@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Severius Lupulus und Severius Florentinus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van097</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms im Andreasstift, Kreuzgang</repository>
+                        <idno>R 1631</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit rechteckiger Bildnische, oben an den Seiten und unten abgebrochen. In der Bildnische Halbfiguren zweier Männer in tunica und paenula, beide in der Rechten volumen haltend.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(93)</height>
+                                            <width>67</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Möglicherweise befand sich D(is) M(anibus) oberhalb oder seitlich der Bildnische. Die Inschrift befindet sich unterhalb der Bildnische und füllt den vorhandenen Platz im Blocksatz aus. Gedrängtes, ungleichmäßiges Schriftbild mit zahlreichen Ligaturen und kleiner geschriebenenen Buchstaben. Zeilenführung nicht eingehalten. Das Inschriftfeld ist heute stärker verwittert als noch auf den alten Bildern zu erkennen. Dreieckige, hohle Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige, uneinheitlich und wenig kunstvoll ausgeführte Buchstaben mit kurzen Serifen. Schwankeende Buchstabenhöhe und -breite innerhalb der Zeilen.</p>
+                                <height>4,7-3,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1885">
+                            <placeName ref="ph">
+                               Worms, in der Nähe des ehemaligen Klosters Maria Münster.
+                            </placeName><geo>49.6227 8.3587</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost" cert="low"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
+                    <milestone unit="section" type="relief"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Severius*" type="gentilicium"><expan><abbr>Se<hi rend="ligature">ve</hi></abbr><ex>rio</ex></expan></name> <name nymRef="Lupulus" type="cognomen">Lup<hi rend="small">u</hi>lo</name></persName> i<supplied reason="omitted">u</supplied>veni qui
+                    <lb n="3"/><date type="age" dur="P35Y5M"><expan><abbr>vi</abbr><ex>xi</ex></expan> <expan><abbr><hi rend="ligature">an</hi></abbr><ex>nos</ex></expan> <num value="35">XXXV</num> <expan><abbr>m</abbr><ex>enses</ex></expan> <num value="5">V</num></date> <hi rend="ligature">et</hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Severius" type="gentilicium">Severio</name>
+                    <lb n="4"/><name nymRef="Florentinus" type="cognomen">Flore<hi rend="ligature">nt</hi>ino</name></persName> fr<hi rend="ligature">at<surplus>e</surplus></hi><hi rend="ligature">r<choice><corr>i</corr><sic>e</sic></choice></hi> <expan><abbr>q</abbr><ex>ui</ex></expan> <date type="age" dur="P22Y10M"><expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan>
+                    <lb n="5"/><num value="22">XXII</num> <expan><abbr>m</abbr><ex>enses</ex></expan> <num value="10">X</num></date> <rs type="socecon"><expan><abbr><hi rend="ligature">ne</hi>goti<hi rend="ligature">at</hi></abbr><choice><ex>ori</ex><ex>oribus</ex></choice></expan></rs> <hi rend="ligature">et</hi> <rs type="socecon"><expan><abbr>c<hi rend="ligature">aud</hi></abbr><choice><ex>icario</ex><ex>icaris</ex></choice></expan></rs>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Licontius" type="cognomen">Lic<hi rend="small">o</hi><surplus>i</surplus><hi rend="ligature">nt</hi>ius</name></persName> <hi rend="ligature">ma</hi><hi rend="ligature">te</hi>r i<hi rend="ligature">nfe</hi>lix qu<supplied reason="omitted">a</supplied>e
+                    <lb n="7"/>sibi <hi rend="ligature">a f</hi>ilis <expan><abbr>op<hi rend="ligature">ta</hi><hi rend="ligature">ve</hi></abbr><ex>rat</ex></expan> fieri c<hi rend="small">o</hi><hi rend="ligature">nt</hi><lb n="8" break="no"/>ea votum filis <expan><abbr><hi rend="ligature">me</hi>m</abbr><ex>oriam</ex></expan>
+                    <lb n="8"/><supplied reason="lost" cert="low"><expan><abbr>p</abbr><ex>osuit</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 6: vielleicht auch Licont(ia) Ius(ta) (so Weckerling nach CSIR)? 
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD051698
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6250
+                    </bibl>
+                    <bibl>
+                        AE 1994, 1301
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 61
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            190, Nr. 313
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

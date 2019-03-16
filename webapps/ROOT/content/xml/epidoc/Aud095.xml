@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für die heliopolitanische Trias</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud095</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Nur als Zeichnung überliefert. Mittig vertikal zersägt. Auf der linken Nebenseite Kranz und Axt, auf der rechten Nebenseite Palmzweig.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height>Die Inschrift befindet sich auf dem Schaft.</height>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Stockstadt/Main, aus</placeName>
+                            <origDate when="0249"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1816">
+                            <placeName ref="ph">
+                               Stockstadt/Main, Zellhausen, Fundamente der alten Kirche
+                            </placeName><geo>50.0137 8.9924</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM Hekiopolitanus" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan>
+                        <lb n="2"/>Helio<supplied reason="lost">p</supplied>oli<supplied reason="lost">t</supplied>a<lb break="no" n="3"/>no</persName> <persName type="divine" key="Venus Felix" role="god">V<supplied reason="lost">e</supplied>ner<supplied reason="lost">i F</supplied><lb break="no" n="4"/>elici</persName> <persName type="divine" key="Mercurius" role="god">Merc<lb break="no" n="5"/>urio</persName> <expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usto</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><supplied reason="lost" cert="low"><expan><abbr>M</abbr><ex>arcus</ex></expan></supplied></name>
+                            <lb n="6"/><name nymRef="Iulius" type="gentilicium">Iulius</name> Ma<supplied reason="lost">rci</supplied><lb n="7"/><expan><abbr>fil</abbr><ex>ius</ex></expan> Fa<supplied reason="lost">bi</supplied>a <supplied reason="subaudible">tribu</supplied> <name nymRef="Rufus" type="cognomen">Ru<supplied reason="lost">f</supplied><lb break="no" n="8"/>us</name> <name nymRef="Papinianus" type="cognomen">Papi<supplied reason="lost" cert="low">nianus</supplied></name>
+                            <lb n="9"/><name nymRef="Sentius" type="cognomen">Sentiu<supplied reason="lost">s</supplied></name> <name nymRef="Gemellus" type="cognomen">Gem<supplied reason="lost">el</supplied><lb break="no" n="10"/>lus</name></persName> do<supplied reason="lost">m</supplied>o <placeName type="ancient" nymRef="Berytus" ref="https://pleiades.stoa.org/places/678060">B<supplied reason="lost"><expan><abbr>eryt</abbr><ex>o</ex></expan></supplied></placeName>
+                    <lb n="11"/>prae<supplied reason="lost"><expan><abbr>f</abbr><ex>ectus</ex></expan></supplied> <orgName type="cohors" key="cohors I Aquitanorum">c<supplied reason="lost"><expan><abbr>oh</abbr><ex>ortis</ex></expan> <num value="1">I</num></supplied> Aq<supplied reason="lost"><expan><abbr>uit</abbr><ex>anorum</ex></expan></supplied></orgName>
+                    <lb n="12"/>castris <supplied reason="lost" evidence="previouseditor">E</supplied><gap reason="lost" extent="unknown" unit="character"/>id <date when="0249" datingMethod="#julian" type="consul"><persName type="consul" ref="PIR² F 529"><name nymRef="Aemilianus" type="cognomen">Emi<lb break="no" n="13"/><supplied reason="lost">liano</supplied></name></persName><supplied reason="lost" evidence="previouseditor"> <num value="2">II</num> et <persName type="consul" ref="PIR² N 2"><name nymRef="Aquilinus" type="cognomen">Aquilino</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied></date>
+                    <lb n="14"/><supplied reason="lost" evidence="previouseditor"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan></supplied> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD060352
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6658
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 59
+                    </bibl>
+                    <bibl>
+                        RSOR 15
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

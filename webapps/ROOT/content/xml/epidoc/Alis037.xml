@@ -1,0 +1,125 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, Iuno Regina, alle übrigen Götter und den Genius loci</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis037</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermuseum</repository>
+                        <idno>233, 234</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit zugehöriger Plinthe.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>125, 142 mit Plinthe</height>
+                                            <width>56</width>
+                                            <depth>35</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertieften Feld auf dem Schaft, welches von der Inschrift vollständig ausgefüllt wird. Leicht ungenau zentriertes, überwiegend gleichmäßiges Schriftbild. Im unteren Teil aus Platzmangel in Zeile 12 TO klein zwischen C und R, letzte Zeile kleiner ausgeführt. Zeile 1 gesperrt, aber mit ungleichmäßigem Buchstabenabstand. Dreieckige Worttrenner. Reste vom weißen Kalküberzug des inschriftfeldes noch sichtbar.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmige, sorgfältig ausgeführte Buchstaben mit Serifen. BF-Ligatur mit durchgezogener Querhaste. Apices flacher eingehauen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate when-custom="0183-07-13" datingMethod="#julian" type="consulship"/>
+                        </origin>
+                        <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihbezirk, vor dem Holztempel der Dea Candida; Befund IV/33 u. IV/34, Nr. 233, 234.
+                            </placeName><geo>49.43 9.42548</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25516"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="divine" key="IunoRegina" role="god">I<hi rend="apex">u</hi>n<hi rend="apex">o</hi>n<hi rend="apex">i</hi> Re<lb n="3" break="no"/>g<hi rend="apex">i</hi>na<hi rend="apex">e</hi></persName> d<hi rend="apex">i</hi>s
+                    <lb n="4"/><expan><abbr>d<hi rend="apex">e</hi>abusq</abbr><ex>ue</ex></expan>
+                    <lb n="5"/>omnibus
+                    <lb n="6"/>et <persName type="divine" key="Geniusloci" role="god">Geni<hi rend="apex">o</hi>
+                        <lb n="7"/>loc<hi rend="apex">i</hi></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Puvlius" type="praenomen"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name nymRef="Aelius*" type="gentilicium"><expan><abbr><hi rend="apex">A</hi>e</abbr><ex>lius</ex></expan></name>
+                    <lb n="8"/><name nymRef="Gemellus" type="cognomen">Gemel<hi rend="small">l</hi>us</name></persName>
+                    <lb n="9"/><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>c<hi rend="small">o</hi></abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <date when-custom="0183-07-15" datingMethod="#julian" type="consulship"><persName type="emperor" ref="persons.xml#p"><del rend="erasure"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></del>
+                    <lb n="10"/><name nymRef="Commodo++" type="cognomen"><del rend="erasure">Commodo</del></name>
+                    <lb n="11"/><del rend="erasure"><expan><abbr>Aug</abbr><ex>usto</ex></expan></del></persName><del rend="erasure"> et</del> <persName type="consul" ref="PIR² A 1393"><name nymRef="Victorinus" type="cognomen">Vic<hi rend="small">to</hi>ri<lb n="12"/>no</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>Id</abbr><ex>ibus</ex></expan> <expan><abbr>Iul</abbr><ex>iis</ex></expan></date> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD002060
+                    </bibl>
+                    <bibl>
+                        AE 1985, 687
+                    </bibl>
+                    <bibl>
+                        CBI 155
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

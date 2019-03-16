@@ -1,0 +1,225 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugesäule des Decius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN082</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kriegsverlust</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType> mit Sockel. Erhalten ist noch ein von der Vorderseite abgeplatztes Fragment mit dem Beginn der Zeilen 4-8</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>206</height>
+                                            <width>44</width>
+                                            <depth/>
+                                            <dim type="circumference" min="132" max="137">137-132</dim>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zentrierte Inschrift? Nicht linksbündig.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben.</p>
+                                <height>4,8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg:</placeName> römischer Keller innerhalb der Stadtmauern, nahe des Forums
+                            </origPlace>
+                            <origDate notBefore="0249" notAfter="0250" cert="high">Kaisertitulatur</origDate>
+                        </origin>
+                        <provenance type="found" when="1883"><placeName ref="ph">Ladenburg, Heidelberger Straße 15</placeName><geo>49.470 8.611</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69 .html">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>
+                    <persName type="emperor" ref="persons.xml#p">
+                        <supplied reason="lost" evidence="previouseditor">
+                            <expan>
+                                <abbr>Imp</abbr>
+                                <ex>eratori</ex>
+                            </expan> 
+                            <expan>
+                                <abbr>Caes</abbr>
+                                <ex>ari</ex>
+                            </expan>
+                        <lb n="2"/>
+                            <name nymRef="Caius" type="praenomen">
+                                <expan>
+                                    <abbr>C</abbr><ex>aio</ex>
+                                </expan>
+                            </name> 
+                            <name nymRef="Messius" type="gentilicium">
+                                <expan><abbr>M</abbr><ex>essio</ex></expan>
+                            </name>
+                        <lb n="3"/>
+                            <name nymRef="Quintus" type="cognomen">Quinto</name>
+                        </supplied>
+                    <lb n="4"/>
+                        <name nymRef="Traianus" type="cognomen">Tr<supplied reason="lost" evidence="previouseditor">
+                            <choice>
+                                <corr>a</corr>
+                                <sic>o</sic>
+                            </choice>iano
+                        </supplied>
+                        </name>
+                    <lb n="5"/>
+                        <name nymRef="Decius" type="gentilicium">De<supplied reason="lost" evidence="previouseditor">cio</supplied>
+                        </name> 
+                        <supplied reason="lost" evidence="previouseditor">
+                            <expan>
+                                <abbr>p</abbr>
+                                <ex>io</ex>
+                            </expan> 
+                            <expan>
+                                <abbr>f</abbr>
+                                <ex>elici</ex>
+                            </expan>
+                        </supplied>
+                    <lb n="6"/>
+                        inv<supplied reason="lost" evidence="previouseditor">icto</supplied>
+                    <lb n="7"/>
+                        <expan>
+                            <abbr>Au<supplied reason="lost" evidence="previouseditor">g</supplied>
+                            </abbr>
+                            <ex>usto</ex>
+                        </expan>
+                    </persName> 
+                    <supplied reason="lost" evidence="previouseditor">
+                        <expan>
+                            <abbr>p</abbr>
+                            <ex>ontificii</ex>
+                        </expan> 
+                        <expan>
+                            <abbr>m</abbr>
+                            <ex>aximo</ex>
+                        </expan> 
+                        <expan>
+                            <abbr>t</abbr>
+                            <ex>ribunicia</ex>
+                        </expan> 
+                        <expan>
+                            <abbr>p</abbr>
+                            <ex>otestate</ex>
+                        </expan> 
+                        <expan>
+                            <abbr>p</abbr>
+                            <ex>atri</ex>
+                        </expan> 
+                        <expan>
+                            <abbr>p</abbr>
+                            <ex>atriae</ex>
+                        </expan>
+                    </supplied>
+                    <lb n="9"/>
+                    <expan>
+                        <abbr>pr<supplied reason="lost" evidence="previouseditor">oco</supplied></abbr>
+                        <ex>n</ex>
+                        <abbr><supplied reason="lost" evidence="previouseditor">s</supplied></abbr>
+                        <ex>uli</ex>
+                    </expan> 
+                    <orgName key="CVSN" type="civitas" role="creator">
+                        <expan><abbr><supplied reason="lost" evidence="previouseditor">c</supplied></abbr><ex>ivitas</ex></expan> 
+                        <expan><abbr><supplied reason="lost" evidence="previouseditor">U</supplied></abbr><ex>lpia</ex></expan> 
+                        <expan><abbr><supplied reason="lost" evidence="previouseditor">S</supplied></abbr><ex>ueborum</ex></expan> 
+                        <expan><abbr><supplied reason="lost" evidence="previouseditor">N</supplied></abbr><ex>icrensium</ex></expan>
+                    </orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Der größte Teil der Säule wurde 1944 beim Bombenangriff auf Mannheim im Schloss zerstört.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD035509
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9101
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 633
+                    </bibl>
+                    <bibl>
+                        RSOR 87
+                    </bibl>
+                    <bibl>
+                        <ptr target="Baumann1890"/>
+                        <biblScope>
+                            24, Nr. 36
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            225, Nr. 3
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            75-76, Nr. 34; Abb. 37 a.b
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

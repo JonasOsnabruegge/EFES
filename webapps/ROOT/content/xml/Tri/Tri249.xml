@@ -1,0 +1,137 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschriftfragmente</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri249</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Haguenau, Musée historique de Haguenau</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Drei nicht aneinanderpassende Fragmente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, davon zwei mit Inschrift.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(30)</height>
+                                            <width>(20)</width>
+                                            <depth>10</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height>6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="" ref="ph"/>
+                                <placeName type="modern">Schweighouse-sur-Moder</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0001" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1899">
+                            <placeName ref="ph">
+                                Schweighouse-sur-Moder, protestantische Kirche, Kirchturm, sekundär verwendet, beim Abriss
+                            </placeName><geo>48.8207 7.7409</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term>unbekannt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>tem de</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>renv</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                    <desc>
+                        <dimensions>
+                            <height>(20)</height>
+                            <width>(35)</width>
+                            <depth>10</depth>
+                        </dimensions>
+                    </desc>                
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11678d
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11678e
+                    </bibl>
+                    <bibl>
+                        CAG 67/1
+                    </bibl>
+                    <bibl>
+                        <ptr target="Radtke1914"/>
+                        <biblScope>
+                            26
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

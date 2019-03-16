@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Diana</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem038</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Kultrelief in Rundbogennische. Diana in kurzer, gegürteter tunica bei der Jagd, in der Linken den Bogen, die Rechte zieht einen Pfeil aus dem Köcher. Hinter ihrem rechten Bein ein Hund. Linke Seite bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>54</height>
+                                            <width>27</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich unterhalb der Bildnische und füllt den vorhandenen Platz im Blocksatz nahezu vollständig aus. Weitgehend gleichmäßiges Schirftbild, am Zeilenende zum Teil etwas gedrängt. Geringer Zeilenabstand, Buchstabenhähe nach unten zunehmend. Punktförmige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, überwiegend quadratische Buchstaben von uneinheitlicher Ausführung, schwankende Höhe und Ausrichtung auch innerhalb der Zeilen.
+                                </p>
+                                <height min="2.0" max="2.5">2,0-2,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Ludwigshafen</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1900">
+                            <placeName ref="ph">Ludwigshafen, Maudach</placeName>
+                            <geo>49.4528865 8.3776839</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25537-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Diana" role="god"><unclear>D</unclear>ian<supplied reason="omitted">a</supplied>e</persName> pro salu<hi rend="ligature">te</hi>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem145"><name nymRef="Tucius" type="gentilicium"><expan><abbr><supplied reason="lost">T</supplied>uc</abbr><ex>i</ex></expan></name> <name nymRef="Verus" type="cognomen">Veri</name></persName> <expan><abbr>eq</abbr><ex>uitis</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <hi rend="ligature"><hi rend="reversed">e</hi>t</hi>
+                    <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem146"><name nymRef="Tertia" type="gentilicium"><expan><abbr>Tert</abbr><ex>iae</ex></expan></name> <name nymRef="Romana*" type="cognomen">Roman<supplied reason="omitted">a</supplied>e</name></persName>
+                    <lb n="4"/><persName type="attested" ref="NemPers.xml#pNem147" role="creator"><name nymRef="Amandus" type="cognomen">Amandus</name></persName> <persName type="attested" ref="NemPers.xml#pNem148" role="creator"><name nymRef="Victorina" type="cognomen">Vic<lb n="5" break="no"/>torina</name></persName> <supplied reason="subaudible" cert="low">servi</supplied> <expan><abbr><choice><sic>f</sic><corr>e</corr></choice>or</abbr><ex>u</ex><abbr>m</abbr></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 2: Auch [I]uc(undius) möglich, rechte Kante der senkrechten Haste eines I oder T möglicherweise noch erkennbar.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075681
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11695
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            44, Nr. 127
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Alfoldy1967"/>
+                        <biblScope>
+                            18, Nr. 37
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

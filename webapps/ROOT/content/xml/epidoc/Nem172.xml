@@ -1,0 +1,115 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Relief mit Weihinschrift für Diana</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem172</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Relief mit rechteckiger Bildnische, darin Bildnis der Diana en face in geschürzter Tunica, mit entblößter Brust und kreuzförmig über der Brust zusammenlaufenden Trageriemen(?). In der Linken hält sie den Bogen, mit der Rechten ziwht sie einen Pfeil aus dem Köcher. Rechts hinter Ihr Hirschkuh, neben ihrem linken Fuß Hund.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>54,5</height>
+                                            <width>34</width>
+                                            <depth>13</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf der unteren Leiste. Grob zentriertes, ungleichmäßiges Schriftbild. T am Ende von Zeile 2 mit etwas weiterem Abstand, um eine bereits in der Antike bestehende Verletzung des Steines zu umgehen. Inschriftfeld im unteren Teil mittig ausgebrochen.</p>
+                                   <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, uneinheitlich ausfeführte, quadratische Buchstaben mit kurzen Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="Civtas Nemetum">Civitas Nemetum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"></placeName>
+                                <placeName type="modern">Neustadt an der Weinstraße</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0250"></origDate>
+                        </origin>
+                            <provenance type="found" when="1963">
+                            <placeName ref="ph">
+                                Neustadt an der Weinstraße, Lachen-Speyerdorf, Molkenheimer Hof, römischer Brunnen
+                            </placeName>, in 4 m Tiefe in Versturzlage. Im selben Brunnen noch anepigraphischer Altar sowie 'spätrömische Scherben' (Bernhard).
+                                <geo>49.3186184, 8.223696</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/25538"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex cert="low">eae</ex></expan> <expan><abbr>o</abbr><ex cert="low">ptimae</ex></expan> <expan><abbr>m</abbr><ex cert="low">aximae</ex></expan>
+                    <lb n="2"/><persName type="divine" key="Diana*" role="god">Dian<supplied reason="omitted">a</supplied>e</persName> ex pr<supplied reason="omitted">a</supplied>ecept<lb n="3" break="no"/>is posuit <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secundio+" type="cognomen">Sec<supplied reason="lost">u</supplied>ndio</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>DOM einzigartig, Dianaverehrung am selben Ort weiter belegt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075884
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bernhard1982"/>
+                        <biblScope>
+                            361, Nr. 147; Abb. 34
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

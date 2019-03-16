@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Quintus Veranius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri310</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Strasbourg, Musée Archéologique</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, oben rechts abgebrochen. Gefunden zusammen mit einem Sandsteinsockel, der zur Einlassung der Stele bestimmt war. Insgesamt sechs Fragmente.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>230</height>
+                                            <width>72</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf dem Schaft in einem profilgerahmten Inschriftfeld, welches fast die gesamte Front der Stele einnimmt. Ausgewogenes Schriftbild, weitgehend gut zentriert, in Z. 3 am Ende wohl aus Platzmangel etwas gedrängt mit kleinem S zwischen H und E. Vorgezeichnete Hilfslinien.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, sorgfältig und sauber gearbeitete, schmale Buchstaben mit Serifen.</p>
+                                <height>8,0-6,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0017" notAfter="0043" cert="medium">Truppengeschichte</origDate>
+                        </origin>
+                        <provenance type="found" when="2015">
+                            <placeName ref="ph">
+                                Strasbourg, Königshofen/Koenigshoffen, Route des Romains, Nr. 8-20
+                            </placeName><geo>48.5804 7.72</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://upload.wikimedia.org/wikipedia/commons/c/c7/St%C3%A8le_de_Quintus_Vera..._Seranus_%282%29.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Vera---" type="gentilicium">Vera<gap reason="lost" quantity="4" unit="character"/></name>
+                    <lb n="2"/><expan><abbr>Q</abbr><ex>unti</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> <name nymRef="Seranus+" type="cognomen">Sera<supplied reason="lost">nus</supplied></name></persName>
+                    <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <orgName type="legio" key="legioII"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2">II</num></orgName> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+                    <lb n="4"/><orgName type="heres" role="creator"><expan><abbr>h</abbr><ex>eres?</ex></expan></orgName> <expan><abbr>e</abbr><ex>x</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD077293
+                    </bibl>
+                    <bibl>
+                        <ptr target="Dardaine2017"/>
+                        <biblScope>
+                            180-181
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

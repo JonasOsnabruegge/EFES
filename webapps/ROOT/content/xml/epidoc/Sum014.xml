@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift für das Kaiserhaus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Sum014</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende, vertikal mittig gebrochene Fragmente eines nicht näher identifizierten Monuments.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CSum" ref="ph">Civitas Sumelocennensis</placeName>
+                                <placeName type="ancient" key="Sumelocenna" ref="https://pleiades.stoa.org/places/118985">Sumelocenna</placeName>
+                                <placeName type="modern">Rottenburg/Neckar</placeName> 
+                            <origDate notBefore="0150" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" notAfter="1552">
+                            <placeName ref="ph">
+                                Rottenburg/Neckar, beim Sülcher Tor im Haus des Wolfgang Hofmeister.
+                            </placeName><geo>48.4788 8.9357</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69 .html">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Messius+" type="gentilicium">M<supplied reason="lost">e</supplied>ssius</name>
+                    <lb n="3"/><name nymRef="Fortunatus" type="cognomen">Fortunatus</name>
+                    <lb n="4"/><num value="6">IIIIII</num>vir <expan><abbr>Aug</abbr><ex>ustalis</ex></expan>
+                    <lb n="5"/>negotiator
+                    <lb n="6"/>arti<supplied reason="lost">s</supplied> creta<lb n="7" break="no"/><supplied reason="lost">ri</supplied>ae <expan><abbr>ne<supplied reason="lost">g</supplied></abbr><ex>otiator</ex></expan> <expan><abbr>paenul</abbr><ex>arius</ex></expan></persName>
+                    <lb n="8"/>omni i<supplied reason="lost">m</supplied>pen<lb n="9" break="no"/>dio <supplied reason="lost">s</supplied>uo fecit
+                    <lb n="10"/><date when="0225" type="consulship"><supplied reason="lost"><persName type="consul" ref="PIR² C 261"><name nymRef="Fuscus" type="cognomen">Fusco</name></persName> <num value="2">II</num> et</supplied> <persName type="consul" ref="PIR² M 137"><name nymRef="Dexter" type="cognomen">Dextro</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                    
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036783
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6366
+                    </bibl>
+                    <bibl>
+                        ILS 7857
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1911"/>
+                        <biblScope>
+                            88-90, Nr. 119
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

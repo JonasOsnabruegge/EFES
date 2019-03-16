@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Reitergrabstele des Comnisca</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri257</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Strasbourg, Musée Archéologique</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p/>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0028" notAfter="0043" cert="medium">Truppengeschichte, Dienstjahre</origDate>
+                        </origin>
+                        <provenance type="found" when="2013-02">
+                            <placeName ref="ph">
+                                Strasbourg, Königshofen/Koenigshoffen, Route des Romains, Nr. 8, Parzelle Nr. 118
+                            </placeName><geo>48.5804 7.7206</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://upload.wikimedia.org/wikipedia/commons/c/cd/St%C3%A8le_fun%C3%A9raire_du_soldat_Comnisca_sept_2013_01.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Comnisca" type="cognomen">Comnisca</name>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Vedillus" type="cognomen">Vedilli</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> <orgName type="ethnic" key="Ambiani"><expan><abbr>Ambi<lb n="3" break="no"/>an</abbr><ex>us</ex></expan></orgName></persName> <expan><abbr>eq</abbr><ex>ues</ex></expan> <orgName type="ala" key="alaIndiana">ala 
+                    <lb n="4"/>Indiana</orgName> <orgName type="turma" key="turmaCeltae">tur<lb n="5"/>ma <persName type="attested" ref="persons.xml#p"><name nymRef="Celta" type="cognomen">Celtae</name></persName></orgName> <date type="age" dur="P25Y"><expan><abbr>an</abbr><ex>norum</ex></expan>
+                    <lb n="6"/><num value="25">XXV</num></date> <date type="military-service-span" dur="P7Y"><expan><abbr>stip</abbr><ex>endiorum</ex></expan> <num value="7">VII</num></date> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+                    <lb n="7"/><orgName type="heres" role="creator">her<hi rend="small">e</hi>s</orgName> ex <expan><abbr>t<hi rend="small">e</hi>st</abbr><ex>amento</ex></expan> <expan><abbr>f<hi rend="small">e</hi>c</abbr><ex>it</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076114
+                    </bibl>
+                    <bibl>
+                        AE 2014, 940
+                    </bibl>
+                    <bibl>
+                        <ptr target="BlinDardaineJodry2014"/>
+                        <biblScope>
+                            27-35
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="HartkopfFroederJodry2016"/>
+                        <biblScope>
+                            341-347
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Brelaz2018"/>
+                        <biblScope>
+                            
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

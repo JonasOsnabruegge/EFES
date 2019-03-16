@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius Cimbrianus des Tettius Perpetuius Carus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN006</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Architekturteil</objectType></p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>37</height>
+                                            <width>55</width>
+                                            <depth>15</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Die Inschrift befindet sich auf einem Inschriftfeld mit profiliertem Rahmen. Ausgewogenes Schriftbild mit leichten Stauchungen am rechten Rand, wohl aus Platzmangel.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Regelmäßige, gleichmäßig konstruierte Buchstaben. V in Z. 1 klein in Bogen des C eingeschrieben.
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" ref="CVSN">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" ref="ph"/>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0171" notAfter="0250" cert="medium"/>
+                        </origin>
+                        <provenance type="found" when="1920"><placeName ref="http://edh-www.adw.uni-heidelberg.de/edh/geographie/8462">Heidelberg, Heiligenberg, Westabhang, äußerer Ringwall bei Durchgang A (verschleppt?)</placeName>
+                            <geo>49.4241585 8.70242153</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://www.lupa.at/27120"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>In honorem domus divinae deo <persName type="divine" key="Mercurius Cimbrianus" role="god">M<hi rend="ligature">er</hi>cu<lb n="2" break="no"/>rioCi<hi rend="ligature">mb</hi>riano</persName> <hi rend="ligature">ae</hi><lb n="3" break="no"/>dem cum signo 
+                    <lb n="4"/> <persName ref="persons.xml#p6" type="attested" role="creator"><name nymRef="Tettius" type="gentilicium">Tettius</name> <name nymRef="Perpetuius" type="gentilicium">Perpetu<lb n="5" break="no"/>ius</name> <name nymRef="Carus" type="cognomen">Carus</name></persName> 
+                    <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation"><p>Zu Ehren des göttlichen Kaiserhauses dem Gott Mercurius Cimbrianus (hat) Tettius Perpetuius Carus einen kleinen Tempel mit Standblid (errichtet) und sein Gelübde freiwillig, gerne und verdientermaßen eingelöst.
+                </p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD027718
+                    </bibl>
+                    <bibl>
+                        AE 1921, 52
+                    </bibl>
+                    <bibl>
+                        RSO 146
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            58, Nr. 182
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ludwig2008"/>
+                        <biblScope>
+                            49-50; Abb. 27
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            45, Nr. 18
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule des Decius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem051</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>A 38</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Leugensäule</objectType>, oben und unten abgebrochen, oben Dübelloch.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Regelmäßiges Schrifbild, Inschriftfeld verrieben und bestoßen.
+                                    </p>
+                                   <dimensions>
+                                        <height>(21)</height>
+                                        <width>30</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig ausgeführte quadratische Buchstaben mit Serifen. Q mit waagerechter Querhaste.
+                                </p>
+                                <height min="6.0" max="7.0">
+                                    6,0-7,0
+                                </height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
+                                <placeName type="modern">Altrip</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0249" notAfter="0251" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1835">
+                            <placeName ref="ph">Altrip, Gärten der Witwe Hook - verschleppt aus dem spätantiken Burgus?</placeName>
+                            <geo>49.4328489 8.5019501</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26756-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied> <expan><abbr>C<supplied reason="lost">aes</supplied></abbr><ex>ari</ex></expan> <name nymRef="Messius" type="gentilicium">M<lb n="2" break="no"/>essio</name> <name nymRef="Quintus*" type="cognomen"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name nymRef="Traianus" type="cognomen">Tra<lb n="3" break="no"/>iano</name> <name nymRef="Decius" type="gentilicium">Dec<surplus>c</surplus>io</name>
+                    <lb n="4"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan>
+                    <lb n="6"/><supplied reason="lost" evidence="parallel"><expan><abbr>pot</abbr><ex>estate</ex></expan></supplied><gap reason="lost" extent="1-2"/><supplied reason="lost" evidence="parallel"> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied><supplied reason="lost" evidence="parallel"> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied></persName>
+                    <lb n="7"/><supplied reason="lost" evidence="parallel"><orgName type="civitas" key="civitasNemetum+"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>N</abbr><ex>emetum</ex></expan></orgName>
+                    <lb n="8"/><expan><abbr>l</abbr><ex>eugas</ex></expan></supplied><gap reason="lost" extent="1-5" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Ergänzt nach CIL XVII/2 609.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075677
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9090
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2 617
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            43, Nr. 123
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

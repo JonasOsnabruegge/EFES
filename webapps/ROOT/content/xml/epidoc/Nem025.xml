@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilensäule des Valerianus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem025</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Weissenburg/Wissembourg, Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(40)</height>
+                                            <width min="25" max="40">25-40</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Geordnetes, regelmäßiges Schriftbild. Dreieckige Worttrenner.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig ausgeführt mit kleineren Uneinheitlichkeiten. Später Schriftcharakter.
+                                </p>
+                                <height>5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Saletio" ref="https://pleiades.stoa.org/places/109317">Saletio</placeName>
+                                <placeName type="modern">Selz/Seltz</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0253" notAfter="0260" cert="high"/>
+                        </origin>
+                        <provenance type="found" notAfter="1906">
+                            <placeName ref="ph">Selz/Seltz, beim Haus Ball</placeName>
+                            <geo>48.895064 8.106214</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Im<supplied reason="lost">p</supplied></abbr><supplied reason="lost"><ex>eratori</ex></supplied></expan><supplied reason="lost"> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <name nymRef="Publius+" type="gentilicium">Pu<lb n="2"/>b<supplied reason="lost">lio</supplied></name><name nymRef="Licinius+" type="gentilicium"><supplied reason="lost"> Lici</supplied>nio</name>
+                    <lb n="3"/><name nymRef="Valerianus+" type="cognomen">Val<supplied reason="lost">eria</supplied>no</name>
+                    <lb n="4"/><supplied reason="lost">pio </supplied><expan><abbr><supplied reason="lost">fe</supplied>l</abbr><ex>ici</ex></expan> in<lb n="5" break="no"/>v<supplied reason="lost">icto</supplied><supplied reason="lost"> Augu</supplied>sto</persName>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD079174
+                    </bibl>
+                    <bibl>
+                        CIL XIII 12087
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 598; Abb. 530
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2 601
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

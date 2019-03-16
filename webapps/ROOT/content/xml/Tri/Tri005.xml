@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift des Venixiamus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri005</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
+                        <idno>Bd 06</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Fragmente eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>s, möglicherweise zu einem Relief oder einer Aedicula gehörig.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>18</height>
+                                            <width>124</width>
+                                            <depth>(42)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift verläuft über die gesamte Front des Blocks, erste Zeile zentriert mit großem Buchstabenabstand, letzte Zeile sehr gestaucht fast ohne Abstand unter der zweiten, leicht nach rechts eingerückt mit viel Platz am Ende, Zeilenführung dort nicht eingehalten und Buchstabenabstand unkonstant. Bis auf die letzte Zeile recht ausgewogenes Schriftbild mit leichten Unregelmäßigkeiten, am Ende von Z. 2 leicht gedrängt.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, eher schmale Buchstaben mit Serifen, zum Teil mit Unsicherheiten. In Z. 3 mit stark schwankender Höhe.</p>
+                                <height>5.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="vicus" key="TresTabernae" ref="ph">Tres Tabernae</placeName>
+                                <placeName type="modern">Saverne</placeName> römische Stadtmauer
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1922">
+                            <placeName ref="ph">Saverne, Rue des Murs 12, spätantike Stadtmauer, sekundär verwendet. Beim Neubau der Banque de France</placeName>
+                            <geo>48.73992 7.36238</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27856-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>I</abbr><ex>n</ex></expan> <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><expan><abbr><unclear>D</unclear>e</abbr><ex>ae</ex></expan> <persName type="divine" key="Victoria" role="god"><expan><abbr>Victori</abbr><ex>a</ex><abbr>e</abbr></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Venixamus" type="cognomen">Venixamus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Međđillus" type="cognomen">Međđilli</name></persName>
+                    <lb n="3"/>filius</persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD079027
+                    </bibl>
+                    <bibl>
+                        Saverne 089
+                    </bibl>
+                    <bibl>
+                        ILTG 439
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 568
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            47, Nr. 142
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

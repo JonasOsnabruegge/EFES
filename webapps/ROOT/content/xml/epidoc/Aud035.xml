@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, den Genius loci alle Götter</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud035</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Seligenstadt, Landschaftsmuseum</repository>
+                        <idno>LMS 29/62</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück vom unteren rechten Teil eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>, oben und links abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(82,5)</height>
+                                            <width>(44,5)</width>
+                                            <depth>20,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Das Inschriftfeld ist stark verrieben und verwittert, die Inschrift stellenweise kaum noch lesbar.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Soweit noch erkennbar regelmäßige, quadratische Buhcstaben mit Serifen.</p>
+                                <height>6,0-7,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Seligenstadt</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0222" notAfter="0234"/>
+                        </origin>
+                        <provenance type="found" when="1938">
+                            <placeName ref="ph">
+                                Seligenstadt, in den Fundamenten des romanischen Ausbaus am nördlichen Querhausflügen der Basilika St. Marcellinus und Petrus.
+                            </placeName><geo>50.04304 8.97876</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>I</abbr><ex>n</ex></expan> <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>vinae</ex></expan>
+                        <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <persName type="divine" key="Geniusloci" role="god">Genio lo<lb n="3" break="no"/>ci</persName> dis deabus</supplied><lb n="4" break="no"/><supplied reason="lost">qu</supplied>e omnib<supplied reason="lost">us</supplied>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>co</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---us" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>us</name></persName> <expan><abbr>mil</abbr><ex>es</ex></expan> <orgName type="legio" key="legioXXIIPrimigeniapiafidelis+*"><expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>ionis</ex></expan>
+                    <lb n="7"/><supplied reason="lost"><num value="22">XXII</num></supplied> <expan><abbr>Pr</abbr><ex>imigeniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></orgName> <supplied reason="lost">Sever</supplied><lb n="8" break="no"/><supplied reason="lost">ian</supplied><hi rend="ligature">ae</hi> Al<supplied reason="lost">exand</supplied><lb n="9" break="no"/><supplied reason="lost">ria</supplied>n<hi rend="ligature">ae</hi> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro</supplied>
+                    <lb n="10"/><supplied reason="lost">salu</supplied>te s<hi rend="small">u</hi>a e<supplied reason="lost">t <expan><abbr>suor</abbr><ex>um</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD018252
+                    </bibl>
+                    <bibl>
+                        AE 1989, 572
+                    </bibl>
+                    <bibl>
+                        CBI 177
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/13, Nr. 3
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

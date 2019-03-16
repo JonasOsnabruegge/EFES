@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar zur Erinnerung an den Bau eines Aquaeducts</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmuseum</repository>
+                        <idno>RL 361-11</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit ornamentierter Bekrönung, bestoßen, rechte obere Ecke abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>100</height>
+                                            <width>64</width>
+                                            <depth>36</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die erste Zeile befindet sich auf dem Gesims, der Rest auf der Schaft.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(++)</p>
+                                <height>5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAur" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="vicusAurelianus" ref="https://pleiades.stoa.org/places/119026">Vicus Aurelianus</placeName>
+                                <placeName type="modern">Öhringen</placeName>
+                            <origDate when="0231-07-23" datingMethod="#julian">Konsuln</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1911">
+                            <placeName ref="ph">
+                                Öhringen, Westkastell
+                            </placeName><geo>49.2059 9.4975</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/10346.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">I</supplied>n <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/>aquam <del rend="erasure">Alex</del><lb break="no" n="3"/><del rend="erasure">andrianam</del>
+                    <lb n="4"/><orgName type="cohors" key="cohors I Septimia Belgarum Alexandriana"><expan><abbr>coh</abbr><ex>orti</ex></expan> <num value="1"><hi rend="supraline">I</hi></num> <expan><abbr>Sept</abbr><ex>imiae</ex></expan> Bel<lb break="no" n="5"/><delSpan spanTo="#d1"/><expan><abbr>g</abbr><ex>arum</ex></expan>  Al<choice><corr>e</corr><sic>D</sic></choice><expan><abbr>xa<hi rend="ligature">nd</hi>rian</abbr><ex>ae</ex></expan></orgName><anchor xml:id="d1"/>
+                    <lb n="6"/>sub <expan><abbr>c</abbr><ex>ura</ex></expan> <persName type="consul" ref="PIR² C 564"><name nymRef="Catius" type="gentilicium">Cati</name> <name nymRef="Clementinus" type="cognomen">Cleme<lb break="no" n="7"/>ntini</name> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan></persName> perdux<lb break="no" n="8"/>it <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Valerius" type="gentilicium"><expan><abbr><hi rend="ligature">Va</hi>l</abbr><ex>erius</ex></expan></name> <name nymRef="Optatus" type="cognomen">Optatus</name></persName> 
+                    <lb n="9"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>dedi</abbr><ex>cata</ex></expan> <date when="0231-07-23" datingMethod="#julian" type="consul"><num value="10">X</num> <expan><abbr>Kal</abbr><ex>endas</ex></expan>
+                    <lb n="10"/><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>ustas</ex></expan> <persName type="consul" ref="PIR² C 972"><name nymRef="Pompeianus" type="cognomen">Pompeiano</name></persName> 
+                    <lb n="11"/><supplied reason="lost">e</supplied>t <persName type="consul" ref="PIR² S 630">P<expan><ex>a</ex><abbr>elignian</abbr><ex>o</ex></expan></persName> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054619
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11758
+                    </bibl>
+                    <bibl>
+                        AE 1912, 123
+                    </bibl>
+                    <bibl>
+                        ILS 9179a
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1914"/>
+                        <biblScope>
+                            625-627, Nr. 599
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

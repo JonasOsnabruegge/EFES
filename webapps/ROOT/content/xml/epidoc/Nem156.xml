@@ -1,0 +1,114 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschrift auf Zinnendeckstein</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem0156</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>L 82</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Fragmente von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Zinnendeckstein</objectType>, von der Stadtmauer oder der Umfriedung eines Grabdenkmals? In der Oberseite Hebeloch.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>30</height>
+                                            <width>120</width>
+                                            <depth>60</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf der Oberseite.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßig und roh eingehauen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Noviomagus" ref="https://pleiades.stoa.org/places/109224">Speyer</placeName>
+                                <placeName type="modern">Speyer</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0015" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" notAfter="2017">
+                        	<placeName ref="ph">
+                        		Speyer
+                        	</placeName>
+                            <geo>
+                                49.31743683 8.442565352
+                            </geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <textClass>
+                    <keywords scheme="DISS_JO">
+                        <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift?</term>
+                    </keywords>
+                </textClass>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="www.lupa.at/26710"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>M
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Steinmetzzeichen?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>lupa 26710</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

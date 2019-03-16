@@ -1,0 +1,115 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschrift auf Felswand</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem108</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>in situ; Speyer, Historisches Museum der Pfalz (Abguss)</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Felswand</p>
+                                    <material>Fels</material>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf einer der Felswände des Steinbruches, welche noch Spuren der Abbrucharbeiten zeigt. Linksbündige Inschrift mit gleichmäßigem Schriftbild. Punktförmige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Weitgehend regelmäßige, quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt. Deutlich qualitätvollere Arbeit als bei den meisten anderen Inschriften des Steinbruchs.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Bad Dürkheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0200" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" notBefore="1934-02" notAfter="1935-03">
+                            <placeName ref="ph">Bad Dürkheim, 'Kriemhildenstuhl', römischer Steinbruch, Felswand</placeName>
+                            <geo>49.463958185 8.1586783151</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/115.html">Aufschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><date when-custom="????-02-11"><num value="3">III</num> Idus <expan><abbr>Feb</abbr><ex>ruaria</ex></expan></date>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem49" role="creator"><name nymRef="Nominator" type="cognomen">Nominator</name>
+                    <lb n="3"/><persName type="attested" ref="NemPers.xml#pNem50"><name nymRef="Felicio" type="cognomen">Felicionis</name></persName></persName> <orig>an</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/>scri<choice><corr>b</corr><sic>r</sic></choice>it lapid<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><orig>im</orig><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076085
+                    </bibl>
+                    <bibl>
+                        <ptr target="Sprater1935"/>
+                        <biblScope>
+                            36; Abb. 12
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

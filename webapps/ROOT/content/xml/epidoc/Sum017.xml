@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Matrona</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Sum017</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmuseum (Leihgabe Württembergisches Landesmuseum Stuttgart)</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Muschelnische im eingeschriebenem Giebel, flankiert von Pinienzapfen über Amphoren. Zwischenfries aus sechs Pinienzapfen in Rechtecknischen, flankiert von Kreisornamenten.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>156</height>
+                                            <width>58</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einer aus einfachen Ritzlinien gebildeten tabula ansata unterhalb des Zwischenfrieses. Unausgewogenes, mangelhaft ordiniertes Schriftbild, linksbündig, einige Zeilen laufen nach rechts über den Rahmen des Inschriftfeldes, letzte Zeile zentriert. Zeilenführung nicht ganz eingehalten, schwankender Buchstabenabstand.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Größtenteils regelmäßige, etwas uneinheitlich und teils unsicher ausgeführte, quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CSum" ref="ph">Civitas Sumelocennensis</placeName>
+                                <placeName type="ancient" key="Sumelocenna" ref="https://pleiades.stoa.org/places/118985">Sumelocenna</placeName>
+                                <placeName type="modern">Rottenburg/Neckar</placeName> 
+                            <origDate notBefore="0100" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1852">
+                            <placeName ref="ph">
+                                Rottenburg/Neckar, Jahnstraße 22-40.
+                            </placeName><geo>48.4835 8.9393</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/3920"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Dis <expan><abbr>Mani</abbr><ex>bus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Matrona" type="cognomen">Matrona</name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caratullus" type="cognomen">Caratulli</name></persName>
+                    <lb n="4"/><expan><abbr>f</abbr><ex>ilia</ex></expan> <orgName type="ethnic" key="Helvetii">cives<note>!</note> <expan><abbr>Hel</abbr><ex>vetica</ex></expan></orgName></persName>
+                    <lb n="5"/><date type="age" dur="P40Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="40">XL</num></date> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Balbius" type="gentilicium">Bal<hi rend="ligature">b<hi rend="tall">i</hi></hi><lb n="6" break="no"/>us</name> <name nymRef="Liber" type="cognomen">Liber</name></persName> <expan><abbr>mar<hi rend="ligature">i<hi rend="small">t</hi></hi></abbr><ex>us</ex></expan>
+                    <lb n="7"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036790
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6369
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            94-95, Nr. 127; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            380-381, Nr. 604; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

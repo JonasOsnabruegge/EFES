@@ -1,0 +1,108 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altar für die Matres</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN059</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ladenburg, Lobdengau-Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Vollständig erhaltener <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, schmucklos.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>56</height>
+                                            <width>29</width>
+                                            <depth>19</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Linksbündige Inschrift, gleichmäßiges Schriftbild. Unterhalb der letzten Zeile noch Platz für 1-2 weitere Zeilen.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, flach eingehauene Buchstaben. Z. 5 die O klein (1,5cm).</p>
+                                <height min="2.8" max="3.2">3,2-2,8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1984"><placeName ref="ph">Ladenburg, Realschulstraße 7, Nordseite im Bereich des Gemeindehauses, als Verfüllung in einem römischen Brunnen.</placeName><geo>49.4703 8.6116</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25575-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Matres" role="god"><hi rend="ligature">Mat</hi>ribus</persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Crescentinius" type="gentilicium">Cresc<hi rend="ligature">en</hi>ti<lb n="3" break="no"/>nius</name> <name nymRef="Victorinus" type="cognomen">Vic<lb n="4" break="no"/>torinus</name></persName>
+                    <lb n="5"/>ex voto <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD019231
+                    </bibl>     
+                    <bibl>
+                        AE 2000, 1086
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            53-54, Nr. 11; Abb. 13
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

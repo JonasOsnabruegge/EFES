@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für T. Assonius Sappo</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van047</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>HM 1937/11</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Brucstück von der Abdeckung einer Aschenkiste, oben und hinten abgebrochen. Zwischen den Vorder- und Nebenseite in den Ecken Pinienzapfen auf Sockel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(61)</height>
+                                            <width>(53)</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift vefindet sich in einem oben bogenförmig abschließenden, profilgerahmten Inschriftfeld. Das Inschriftfeld wird von der Inschrift komplett ausgefült. Überwiegend geordnetes Schriftbild, der Buchstabenabstand wird an den Zeilenenden aus Platzmangel geringer, in Zeile 5 steht das letzte S auf dem Rahmen.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen. Leichte Unsicherheiten in der Ausführung der Bögen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Odernheim am Glan</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" notAfter="1937">
+                            <placeName ref="ph">
+                               Odernheim am Glan
+                            </placeName><geo>49.76602 7.705</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26570-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Titus" type="praenomen"><expan><abbr><unclear>T</unclear></abbr><ex>itus</ex></expan></name> <name nymRef="Assonius" type="gentilicium">As<unclear>so</unclear>ni<lb n="3" break="no"/>us</name> <name nymRef="Sappo" type="cognomen">Sappo</name></persName> si<lb n="4" break="no"/>bi <hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Aprilla*" type="cognomen">Aprill<supplied reason="omitted">a</supplied>e</name></persName>
+                    <lb n="5"/><expan><abbr>co<hi rend="ligature">ni</hi>ug</abbr><ex>i</ex></expan> v<hi rend="tall">i</hi>vi<hi rend="small">s</hi>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076466
+                    </bibl>
+                    <bibl>
+                        CSIR D II/9, Nr. 119
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            76, Nr. 82
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

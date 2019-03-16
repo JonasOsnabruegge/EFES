@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van057</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms im Andreasstift</repository>
+                        <idno>R 4898</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwei aneinanderpassende Fragmente eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>, modern ausgebessert. Verwittert.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>102</height>
+                                            <width>(41,5)</width>
+                                            <depth>(32)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="Borbetomagus" ref="https://pleiades.stoa.org/places/108820">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0150" cert="low"/>
+                        </origin>
+                        <provenance type="found" notAfter="1959">
+                            <placeName ref="ph">
+                                Worms oder Umgeburg, aus dem Bereich des Domes?
+                            </placeName><geo>49.6355 8.3597</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/16801-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Sextus" type="praenomen"><expan><abbr>Sex</abbr><ex>tus</ex></expan></name> <name nymRef="Senecianius" type="gentilicium">Sene<lb n="3" break="no"/><unclear>c</unclear>ia<hi rend="ligature">n<hi rend="tall">i</hi></hi>u<unclear>s</unclear></name>
+                    <lb n="4"/><name nymRef="Micio" type="cognomen"><unclear>Mic</unclear>io</name></persName>
+                    <lb n="5"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Pacata" type="cognomen">Pacata</name></persName>
+                    <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 4: Nesselhauf - Lieb: Senecianiu[s]; CSIR: Senecianu(s).
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075815
+                    </bibl>
+                    <bibl>
+                        <ptr target="NesselhaufLieb1959"/>
+                        <biblScope>
+                            166, Nr. 115
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 11
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

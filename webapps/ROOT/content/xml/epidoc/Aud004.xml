@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Hercules</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud004</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dieburg, Museum Schloss Fechenbach</repository>
+                        <idno>3637/52</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Relief. Hercules mit Löwenfell, in der Linken die Äpfel der Hesperiden, mit der Rechten auf die Keule gestützt. Oben und an den Seiten abgebrochen, verwittert.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(44)</height>
+                                            <width>(28)</width>
+                                            <depth>9</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf der Basis, Inschriftfeld stark verwittert. Linksbündige Inschrift. Ungleichmäßiger Buchtstabenabstand auch in der gesperrten ersten und letzten Zeile.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige Buchstaben, nur noch schwer lesbar.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph"/>
+                                <placeName type="modern">Dieburg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1926"><placeName ref="ph">Dieburg, Ecke Friedrich-Ebert-Straße/Forsthausstraße, Mithraeum</placeName><geo>49.901 8.847</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/24770-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">D</supplied>eo <persName type="divine" key="InvictusMithras" role="god"><expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Petronius+" type="gentilicium"><supplied reason="lost">Pet</supplied>ronius</name> <name nymRef="Perpetuus" type="cognomen">Perpet<lb n="3" break="no"/><supplied reason="lost">uu</supplied>s</name></persName> ex iussu <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+                    <lb n="4"/><supplied reason="lost" cert="low"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan></supplied> <expan><abbr><unclear>l</unclear></abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD042505
+                    </bibl>
+                    <bibl>
+                        RSO 148
+                    </bibl>
+                    <bibl>
+                        CIMRM 1252
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 281
+                    </bibl>
+                    <bibl>
+                        IDieburg 6
+                    </bibl>
+                    <bibl>
+                        <ptr target="Finke1927"/>
+                        <biblScope>
+                            60, Nr. 186
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1931"/>
+                        <biblScope>
+                            167, Nr. 246
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

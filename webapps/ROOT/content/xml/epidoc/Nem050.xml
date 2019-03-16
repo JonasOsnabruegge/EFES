@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule des Valerius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Nem050</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
+                        <idno>A 37</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Leugensäule</objectType>, unten abgebrochen, bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(61)</height>
+                                            <width>30</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Das Inschriftfeld ist stark verwittert.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Überweigend regelmäßige, sorgfältig, aber mit leichten Unsicherheiten etwa bei Bögen oder Ligaturen, ausgeführte quadratisch Buchstaben mit Serifen (capitalis quadrata)
+                                </p>
+                                <height>5,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
+                                <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
+                                <placeName type="modern">Altrip</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0308" notAfter="0324" cert="high"/>
+                        </origin>
+                        <provenance type="found" when="1835">
+                            <placeName ref="ph">Altrip, Gärten der Witwe Hook - verschleppt aus dem spätantiken Burgus?</placeName>
+                            <geo>49.4328489 8.5019502</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/26629-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>C<hi rend="ligature">ae</hi>s</abbr><ex>ari</ex></expan>
+                    <lb n="2"/><name nymRef="Valerius*" type="gentilicium"><expan><abbr>Val</abbr><ex>erio</ex></expan></name> <name nymRef="Licinianus*" type="cognomen">Licin<supplied reason="omitted">ian</supplied>o</name>
+                    <lb n="3"/><name nymRef="Licinius+" type="gentilicium"><supplied reason="lost">L</supplied>icinio</name> <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>eli</ex><abbr>c</abbr><ex>i</ex></expan>
+                    <lb n="4"/><expan><abbr><supplied reason="lost">i</supplied>nv</abbr><ex>icto</ex></expan> <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan></persName>
+                    <lb n="5"/><orgName type="civitas" key="civitasNemetum" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>N</abbr><ex>emetum</ex></expan></orgName>
+                    <lb n="6"/><expan><abbr>l</abbr><ex>eugas</ex></expan> <num value="2">II</num>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075676
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9095
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2 612
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            43, Nr. 122
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

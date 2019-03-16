@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule des Elagabalus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aqu071</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType></p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(111)</height>
+                                            <width>48</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height>7-8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Keltern</placeName>
+                            <origDate when="0220" datingMethod="#julian">Kaisertitulatur</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1754">
+                            <placeName ref="ph">
+                                Keltern, Ellmendingen, Friedhof
+                            </placeName><geo>48.901 8.576</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi <persName type="emperor" ref="persons.xml#p"><name nymRef="Severus" type="cognomen">Sev<hi rend="ligature">eri</hi></name></persName>
+                    <lb n="2"/>nepoti divi<persName type="emperor" ref="persons.xml#p"> <name nymRef="Antoninus" type="cognomen">Antoni<lb n="3" break="no"/><delSpan rend="erasure" spanTo="#d1"/>ni</name></persName> <supplied reason="lost"><expan><abbr>Mag</abbr><ex>ni</ex></expan></supplied> <expan><abbr>fil</abbr><ex>io</ex></expan> <name nymRef="Marcus" type="praenomen"><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> </supplied></name> <name nymRef="Aurelius" type="gentilicium"><expan><abbr><supplied reason="lost">Au</supplied>r<anchor xml:id="d1"/>el</abbr><ex>io</ex></expan></name>
+                    <lb n="4"/><delSpan rend="erasure" spanTo="#d2"/><name nymRef="Antoninus" type="cognomen">An<supplied reason="lost">tonino</supplied></name> Pio <supplied reason="lost">Felic</supplied>i
+                    <lb n="5"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <supplied reason="lost"><expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> </supplied><expan><abbr><supplied reason="lost">tr</supplied>ib</abbr><ex>unicia</ex></expan>
+                    <lb n="6"/><supplied reason="lost"><expan><abbr>potest</abbr><ex>ate</ex></expan> <num value="3">III</num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <num value="3">III</num></supplied>
+                    <lb n="7"/><expan><abbr>p</abbr><ex>atri</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> </supplied></persName><orgName type="civitas" key="civitas Aurelia Aquensis" role="creator"><supplied reason="lost"><expan><abbr>civ</abbr><ex>itas</ex></expan> <expan><abbr>Aur</abbr><ex>elia</ex></expan></supplied><anchor xml:id="d2"/>
+                    <lb n="8"/><expan><abbr>Aq</abbr><ex>uensis</ex></expan></orgName>
+                    <lb n="9"/>ab <placeName type="ancient" key="Aquae" ref="https://pleiades.stoa.org/places/108748"><expan><abbr>Aq</abbr><ex>uis</ex></expan></placeName> <expan><abbr>l</abbr><ex>eugas</ex></expan>
+                    <lb n="10"/><num value="17">XVII</num>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036877
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9114
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 652
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            133f.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

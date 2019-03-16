@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bauinschrift für das Bad von Jagsthausen, der cohors I Germanorum</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis117</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Jagsthausen, Schloss</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>46</height>
+                                            <width>65,5</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Das Inschriftfeld ist stellenweise stark verrieben.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Jagsthausen</placeName>
+                            <origDate notBefore="0244" notAfter="0247">Philippus Arabs</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1790">
+                            <placeName ref="ph">
+                               Jagsthausen, bei
+                            </placeName><geo>49.31 9.47</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27427.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <delSpan spanTo="#d1"/><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Philippus" type="cognomen">Philip<lb n="2" break="no"/>pus</name><anchor xml:id="d1"/> <expan><abbr>P</abbr><ex>ius</ex></expan> <expan><abbr>F</abbr><ex>elix</ex></expan> <expan><abbr>Invict</abbr><ex>us</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan></persName> <delSpan spanTo="#d2"/>et <persName type="emperor" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>acrus</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> 
+                    <lb n="3"/><name nymRef="Philippus" type="cognomen">Philippus</name></persName> <expan><abbr>nob</abbr><ex>ilissimus</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan><anchor xml:id="d2"/> balineum
+                    <lb n="4"/><orgName type="corhors" key="cohors I Germanorum Philippiana" role="creator"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="1">I</num> <expan><abbr>Germ</abbr><ex>anorum</ex></expan></orgName> <del rend="erasure"><expan><abbr>Philippian</abbr><ex>ae</ex></expan></del>
+                    <lb n="5"/>vetustate conlabsum<note>!</note> re<lb n="6" break="no"/>stituerunt curante <persName type="attested" ref="PIR C 70"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name>
+                    <lb n="6"/><name nymRef="Caecilius" type="gentilicium"><expan><abbr>Caec</abbr><ex>ilio</ex></expan></name> <name nymRef="Pudens" type="cognomen">Pudente</name></persName> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissmo</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Augg</abbr><ex>ustorum</ex></expan>
+                    <lb n="7"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> insistente <persName type="attested" ref="persons.xml#p"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name nymRef="Mamilius" type="gentilicium"><expan><abbr>Mamil</abbr><ex>io</ex></expan></name>
+                    <lb n="8"/><name nymRef="Honoratus" type="cognomen">Honorato</name></persName> <expan><abbr>trib</abbr><ex>uno</ex></expan> <orgName type="cohors" nymRef="cohors I Germanorum Philipiana"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054536
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6562
+                    </bibl>
+                    <bibl>
+                        AE 1995, 1166
+                    </bibl>
+                    <bibl>
+                        RSO 73
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

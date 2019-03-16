@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Hercules</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, bestoßen, an den Ecken abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>73</height>
+                                            <width>34,5</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Inschriftfeld stellenweise ausgebrochen. Zeile 1 befindet sich auf dem Gesims. Ungleichmäßiges Schriftbild. Gleichmäßiger Buchstabenabstand, aber Zeileführung nicht eingehalten, Buchstaben mit unterschiedlicher Ausrichtung. Dreieckige Worttrenner.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Leicht unregelmäßige, uneinheitlich und zum Teil unsicher ausgeführte, quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurGS" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Vicus Aurelianus</placeName>
+                                <placeName type="modern">Öhringen</placeName>
+                            </origPlace>
+                            <origDate when-custom="0232-12-13"/>
+                        </origin>
+                        <provenance type="found" when="1961">
+                            <placeName ref="ph">
+                               Öhringen, beim Bau einer Tankstelle.
+                            </placeName><geo>49.1996 9.516</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/10343-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="corona"/>
+                    <lb n="1"/><supplied reason="lost">In</supplied> <expan><abbr><unclear>h</unclear></abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr><unclear>d</unclear></abbr><ex>ivinae</ex></expan>
+                    <milestone unit="section" type="corpus"/>
+                    <lb n="2"/>Deo <persName type="divine" key="Hercules" role="god">Her<lb n="3" break="no"/>culi</persName> <orgName type="collegium" key="collegiumconvenarum">col<lb n="4" break="no"/>legium
+                    <lb n="5"/>con<hi rend="ligature">ve</hi>na<lb n="6" break="no"/>rum</orgName> <date when-custom="232-12-13" datingMethod="#julian" type="consulship"><persName type="consul" ref="PIR V 0481"><name nymRef="Lupus" type="cognomen">L<hi rend="ligature">up</hi>o</name></persName>
+                    <lb n="7"/>et <persName type="consul" ref="PIR² M 307"><name nymRef="Maximus" type="cognomen">Max<hi rend="ligature"><hi rend="tall">i</hi>m</hi>o</name></persName>
+                    <lb n="8"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>id</abbr><ex>ibus</ex></expan> <expan><abbr>De<supplied reason="lost">c</supplied></abbr><ex>embribus</ex></expan></date>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD004546
+                    </bibl>
+                    <bibl>
+                        AE 1978, 522
+                    </bibl>
+                    <bibl>
+                        <ptr target="Schillinger-Haefele1977"/>
+                        <biblScope>
+                            479, Nr. 40
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1967"/>
+                        <biblScope>
+                            114f., Nr. 4
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

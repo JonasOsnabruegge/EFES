@@ -1,0 +1,135 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leugensäule des Valerianus und des Gallienus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN084</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Museen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Sich stark verüngende <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType> mit Sockel, horizontaler Bruch mittig; Sockel durch Kriegseinwirkung verloren. Oben Dübelloch.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(126)</height>
+                                            <width min="35" max="42">42-35</width>
+                                            <dim type="circumference" min="97" max="129">129-97</dim>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Ausgewogenes Schriftbild, gleichmäßiger Buchstaben- und Zeilenabstand
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Weitgehend regelmäßige, sorgfältig ausgeführte Buchstaben. Z. 6 I-longa 7,8</p>
+                                <height min="6.5" max="7.3">7,3-6,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg:</placeName> römischer Keller innerhalb der Stadtmauern, nahe des Forums
+                            </origPlace>
+                            <origDate when="0250" cert="medium">Kaisertitulatur</origDate>
+                        </origin>
+                        <provenance type="found" when="1883"><placeName ref="ph">Ladenburg, Heidelberger Straße 15</placeName><geo>49.470 8.611</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69 .html">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25586-1.jpg"/>
+        <graphic url="http://lupa.at/img/25586-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>Imp<am>p</am></abbr><ex>eratoribus</ex></expan> <expan><abbr>Caes<am>s</am></abbr><ex>aribus</ex></expan>
+                    <lb n="2"/><persName type="emperor" ref="persons.xml#p"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name nymRef="Licinius" type="gentilicium">Licinio</name>
+                        <lb n="3"/><name nymRef="Valerianus" type="cognomen">Valeriano</name></persName>
+                    <lb n="4"/>et <persName type="emperor" ref="persons.xml#p"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name nymRef="Licinius" type="gentilicium">Licinio</name>
+                        <lb n="5"/><name nymRef="Gallienus" type="cognomen"><expan><abbr>Gal</abbr><ex>l</ex><abbr>ieno</abbr></expan></name></persName>
+                    <lb n="6"/>p<hi rend="ligature">ii</hi>s felicibus
+                    <lb n="7"/><expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <orgName key="CVSN" type="civitas" role="creator"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>U</abbr><ex>lpia</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036413
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9103
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 635
+                    </bibl>
+                    <bibl>
+                        RSOR 89
+                    </bibl>
+                    <bibl>
+                        <ptr target="Baumann1890"/>
+                        <biblScope>
+                            25, Nr. 38
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            77-78, Nr. 36; Abb. 39 a-d
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

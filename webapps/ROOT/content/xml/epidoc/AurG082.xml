@@ -1,0 +1,117 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Epona des P. Iunius Insidus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType> mit Darstellung einer thronenden Epona, auf ihrem Schoß ein Gefäß mit Früchten haltend; links von ihr ein über einem kleinen Altar opferneder Opferdiener, zu ihrer Rechten Vorderteil eines Pferdes. Die Köpfe abgeschlagen, qualitätvolle Darstellung.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>43</height>
+                                            <width>35,5</width>
+                                            <depth>11,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich unterhalb des Reliefs.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height>2,7-1,85</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurG" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="Vicus Aurelianus" ref="https://pleiades.stoa.org/places/119026">Vicus Aurelianus</placeName>
+                                <placeName type="modern">Öhringen</placeName> 
+                            <origDate notBefore="0200" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1986-06-12">
+                            <placeName ref="ph">
+                                <geo>49.2017 9.5039</geo>
+                               Öhringen, Weygangstraße/Rendelstraße, Ecke
+                            </placeName>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>h</abbr><ex>oc</ex></expan> <persName type="divine" key="Epona" role="god">Eponae</persName>
+                    <lb n="2"/>signum <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name nymRef="Iunius" type="gentilicium">Iunius</name> <name nymRef="Insidus" type="cognomen">Ins<lb n="3" break="no"/>idus</name></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD024702
+                    </bibl>
+                    <bibl>
+                        AE 1990, 764
+                    </bibl>
+                    <bibl>
+                        <ptr target="FellendorfOlshausen1989"/>
+                        <biblScope>
+                            351–358; Abb. 1 u. 2
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Neptunus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aqu048</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Konstanz, Archäologisches Landesmuseum; Kopien: Baden-Baden, Museum; Ettlingen, Rathaus.</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Linker Teil einer  <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, rehcts glatt abgearbeitet. In einem rechteckigen, eingetieften Bildfeld links der Inschrift Neptunus, mit um die Schultern geschlungenem Mantel, in der Linken Dreizack, in der Rechten Fisch, hinter ihm Seeungeheuer. Verwittert und bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>85</height>
+                                            <width>(143,5)</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Inschriftfeld sorgfältig geglättet, an einigen Stellen beschädigt. Die Inschrift ist vollständig erhalten. Linksbündige Inschrift mit zentrierter erster und letzter Zeile. Ausgewogenes, überwiegend gleichmäßiges Schriftbild. Um die Länge der Zeile anzupassen wurde auch auf ungewöhnlihce Ligaturen (NTV in Zeile 3), eng zusmamengeschriebene und klein über andere Buchstaben geschriebene Lettern zurückgegriffen. Dreieckige Worttrenner in Zeile 2, in der letzten Zeile hederae.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, sorgfältig ausgeführte, quadratische Buchstaben mit Serifen. R schmal mit zurückgebogener Schräghaste. Qualitätvolle Inschrift.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAA" ref="ph">Civitas Aurelia Aquensis</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/108748">Aquae</placeName>
+                                <placeName type="modern">Baden-Baden</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0170" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" when="1748">
+                            <placeName ref="ph">
+                                Baden-Baden, Schlossberg.
+                            </placeName><geo>48.78 8.28</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/8297"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><expan><abbr>d</abbr><ex>eo</ex></expan> <persName type="divine" key="Neptunus" role="god">Neptuno</persName>
+                    <lb n="3"/><orgName type="contubernium" key="contuberniumnautarum">co<hi rend="ligature">ntu</hi>b<hi rend="ligature"><hi rend="reversed">e</hi>r</hi>n<hi rend="small"><hi rend="superscript">i</hi></hi>o
+                    <lb n="4"/>n<hi rend="ligature">au</hi>tarum</orgName>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cornelius" type="gentilicium">Cornelius</name>
+                    <lb n="6"/><name nymRef="Aliquandus" type="cognomen">Al<hi rend="small">i</hi>qua<hi rend="ligature">nd</hi>us</name></persName>
+                    <lb n="7"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Eine Kopie aus dem 16. Jh. ist aus Ettlingen bekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036864
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6324
+                    </bibl>
+                    <bibl>
+                        CIL XIII/4, p. 93
+                    </bibl>
+                    <bibl>
+                        ILS 3286
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            22-23; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandiue1931"/>
+                        <biblScope>
+                            295-296, Nr. 452; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

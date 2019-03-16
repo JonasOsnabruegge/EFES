@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmente einer Grabinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri303</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
+                        <idno>2011.1.1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Vier teilweise aneinanderpassende Fragmente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> oder der stelenförmigen Front eines hausförmigen Grabmals, das in unmittelbarer Nähe gefunden wurde (Saverne 322). Dreiecksgiebel mit Rosettendekor.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(88)</height>
+                                            <width>(32)</width>
+                                            <depth>33</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem einfach gerahmten Inschriftfeld.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige, uneinheitlich ausgeführte, quadratische Buchstaben ohne Serifen. Schwankende Buchstabenhöhe.</p>
+                                <height>5,5-6,2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                         <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Saverne</placeName>
+                            </origPlace>
+                            <origDate notBefore="0070" notAfter="0130" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="2005">
+                            <placeName ref="ph">
+                                Saverne, Fosse des Pandours, gallo-römische Siedlung
+                            </placeName>
+                            <geo>48.75506 7.32778</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>Dib<unclear>u</unclear><supplied reason="lost" cert="low">s</supplied>
+                    <lb n="2"/><expan><abbr>M</abbr><ex cert="low">anibus</ex></expan> <orig>s</orig><gap reason="illegible" quantity="1" unit="character"/><orig>o</orig><gap reason="lost" quantity="1" unit="character"/>
+                    <lb n="3"/><orig>csori<unclear>o</unclear></orig>
+                    <lb n="4"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>a</orig><gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="5"/>IV<gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+                <div type="textpart" subtype="fragment">
+                   <ab>
+                      <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>n</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                   </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2015, 999
+                    </bibl>
+                    <bibl>
+                        Saverne 323
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

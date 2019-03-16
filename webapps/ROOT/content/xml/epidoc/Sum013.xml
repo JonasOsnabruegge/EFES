@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift für das Kaiserhaus des ordo saltus Sumelocennensis</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Sum013</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno>RL 373</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, an den Kanten bestoßen, unten und oben ausgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>55</height>
+                                            <width>106</width>
+                                            <depth>17</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich in einem vertieften Inschriftfeld, der Rahmen ist als tabula ansata gestaltet, in der rechten ansa befindet sich eine Mondsichel. Leidlich zentriertes, gleichmäßiges, aber etwas gedrängtes Schriftbild mit gleichmäßigem Buchstaben- und Zeilenabstand.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, leicht uneinheitlich ausgeführte quadratische Buchstaben mit Serifen, Unsicherheiten bei den S.</p>
+                                <height min="3.5" max="7.5">7,5-3,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CSum" ref="ph">Civitas Sumelocennensis</placeName>
+                                <placeName type="ancient" key="Sumelocenna" ref="https://pleiades.stoa.org/places/118985">Sumelocenna</placeName>
+                                <placeName type="modern">Rottenburg/Neckar</placeName> 
+                            <origDate notBefore="0150" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1850-12-23">
+                            <placeName ref="ph">
+                                Rottenburg/Neckar, Graibel, an der Straße nach Weggenthal.
+                            </placeName><geo>48.48217 8.9336</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69 .html">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/7414"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In honorem
+                    <lb n="2"/>domus <expan><abbr>divin</abbr><ex>ae</ex></expan>
+                    <lb n="3"/>ex decreto <orgName type="ordo" key="ordosaltusSumelocennensis" role="creator">ordinis
+                    <lb n="4"/>saltus <placeName type="ancient" nymRef="Sumelocenna" ref="https://pleiades.stoa.org/places/118985">Sumelocennen<lb n="5" break="no"/>sis</placeName></orgName> curam <expan><abbr>agentib</abbr><ex>us</ex></expan>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iulius*" type="gentilicium"><expan><abbr>Iul</abbr><ex>io</ex></expan></name> <name nymRef="Dexter" type="cognomen">Dextro</name></persName> <hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Gaius" type="praenomen"><expan><abbr>G</abbr><ex>aio</ex></expan></name> <name nymRef="Turranius*" type="gentilicium"><expan><abbr>Turran</abbr><ex>io</ex></expan></name>
+                    <lb n="7"/><name nymRef="Marcianus" type="cognomen">Marciano</name></persName> <expan><abbr>i<supplied reason="lost" cert="low">ter</supplied></abbr><ex>um</ex></expan> <expan><abbr><unclear>ma</unclear>g</abbr><ex>istris</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036781
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6365
+                    </bibl>
+                    <bibl>
+                        AE 2010, 1073
+                    </bibl>
+                    <bibl>
+                        ILS 7100
+                    </bibl>
+                    <bibl>
+                        <ptr target="HaugSixt1900"/>
+                        <biblScope>
+                            84-87, Nr. 117
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

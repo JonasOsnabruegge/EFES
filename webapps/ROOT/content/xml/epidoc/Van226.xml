@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugensäule des Maximinus Thrax</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van226</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück vom oberen Teil von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height/>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p/>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Alsheim</placeName>
+                            <origDate notBefore="0236" notAfter="0238"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1822">
+                            <placeName ref="ph">
+                                Alsheim, bei, Straße von Worms nach Guntersblum
+                            </placeName><geo>49.7681 8.3403</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost" evidence="previouseditor"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Iulius" type="gentilicium">Iu<hi rend="ligature">li</hi>o</name></supplied>
+                    <lb n="2"/><supplied reason="lost" evidence="parallel"><name nymRef="Verus" type="cognomen">Vero</name> <name nymRef="Maximinus" type="cognomen">Maximino</name>
+                    <lb n="3"/>Pio Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan>
+                    <lb n="4"/><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan>
+                    <lb n="5"/><expan><abbr>pot</abbr><ex>estate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>
+                    <lb n="6"/><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied></persName><supplied reason="lost" evidence="parallel"> et </supplied><supplied reason="lost" evidence="parallel"><persName type="emperor" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>io</ex></expan></name>
+                    <lb n="7"/><name nymRef="Verus" type="cognomen">Vero</name> <name nymRef="Maximus" type="cognomen">Maximo</name>
+                    <lb n="8"/>nobilissimo <expan><abbr>Caes</abbr><ex>ari</ex></expan></persName></supplied>
+                    <lb n="9"/><supplied reason="lost" evidence="parallel"><orgName type="civitas" key="civitas Vangionum"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>V</abbr><ex>angionum</ex></expan></orgName>
+                    <lb n="10"/><expan><abbr>l</abbr><ex>eugas</ex></expan></supplied><gap reason="lost" bextent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075734
+                    </bibl>
+                    <bibl>
+                        CIL XIII 9085
+                    </bibl>
+                    <bibl>
+                        CIL XVII/2, 622
+                    </bibl>
+                    <bibl>
+                        CIRh 1944
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

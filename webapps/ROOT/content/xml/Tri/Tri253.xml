@@ -1,0 +1,130 @@
+<?xml-model href="http://www.stoa.org   /epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Vosegus Silvester</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri253</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
+                        <idno>884</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Drei aneinanderpassende Fragmente von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25.html">Weihrelief</objectType> mit Kultrelief in Rundbogennische, unten abgebrochen. Im Bildfeld Vosegus, Relief abgemeißelt.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(60)</height>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich oberhalb der Bildnische, Zeile 3 befindet sich links und rechts in den Bogenzwickeln. Linksbündige Inschrift, leicht unregelmäßiges Schriftbild, Zeilenührung nicht eingehalten. Dreieckige Worttrenner. Am Zeilenanfang steht jeweils V direkt untereinander.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Weitgehend regelmäßige, quadratische Buchstaben mit Serifen, Unsicherheiten in der Ausführung, etwa beim Bogen der S.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Zinswiller</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0030" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1868">
+                            <placeName ref="ph">
+                                Zinswiller, Gerstenfeld, mittelalterliche Nekropole, sekundär verwendet
+                            </placeName><geo>48.9198 7.5901</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27328-2.jpg"/>
+        <graphic url="http://lupa.at/img/27328-3.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="VosegusSilvester+" role="god">Vo<supplied reason="lost">seg</supplied>o <expan><abbr>Sil</abbr><ex>vestri</ex></expan></persName> <expan><abbr>s</abbr><ex>acrum</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Adnamus" type="cognomen">Adnam<lb n="2" break="no"/>us</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Nertomarus" type="cognomen">Nertomari</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan></persName>
+                    <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <milestone unit="section" type="relief" break="no"/> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Text 2, Z. 3: vielleicht [L]ibe[ralis]?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6027
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 657; Abb. 585
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            207, Nr. 5611
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            303–304, Nr. 2.83
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift(?) fpr Marcus Marius Apollinaris aus Ascalon</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN032</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Abgearbeitet für die Sekundärverwendung Kapitell (mittelalterlich).</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>(41)</height>
+                                            <width>(41)</width>
+                                            <depth>22</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Die Inschrift befindet sich heute auf der Oberseite des Kapitells. Viereckiger Ausschnitt aus dem Inschriftfeld. Die Inschrift scheint linksbündig gewesen zu sein.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Seitgehend regelmäßige Buchstaben, teilweise leicht gedrängt und aus Platzmangel übereinander geschrieben. Z. 2: L2 klein über L1; A2 klein über rechter Haste des N.</p>
+                                <height>8,4-7,6 (Z. 2: L2 4,5; A2 3,5)</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" ref="CVSN">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" ref="ph"/>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1886-04-20"><placeName ref="ph">Heidelberg, Heiligenberg, Michaelskloster</placeName><geo>49.425775 8.706312</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift?</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27119-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                   <lb n="1"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                   <lb n="2"/><persName type="attested" ref="persons.xml#p43"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name nymRef="Marius" type="gentilicium">Mario</name> 
+                       <lb n="3"/><name nymRef="Apollinaris" type="cognomen">Apoll<hi rend="ligature">in</hi>ar<supplied reason="lost">i</supplied></name> 
+                       <lb n="4"/>domo
+                       <lb n="5"/><placeName nymRef="Ascalon" ref="https://pleiades.stoa.org/places/687839"><expan><abbr>Hascal</abbr><ex>one</ex></expan></placeName></persName>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036495
+                    </bibl>     
+                    <bibl>
+                        CIL XIII 6409
+                    </bibl>
+                    <bibl>
+                        RSO 107
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            283
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Ludwig1999"/>
+                        <biblScope>
+                            44; Abb. 23
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            86, Nr. 48; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

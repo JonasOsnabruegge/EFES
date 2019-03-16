@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Deus Occidens des T. Martialius Candidus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud175</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aschaffenburg, Stiftsmuseum</repository>
+                        <idno>173</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Oberer Teil von einem schlichten <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, in zwei Teile gebrochen, bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(30)</height>
+                                            <width>19</width>
+                                            <depth>12</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(o~)</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Stockstadt/Main</placeName>
+                            <origDate notBefore="0150" notAfter="0200"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1909">
+                            <placeName ref="ph">
+                                Stockstadt/Main, Mithräum II, spelaeum, in der Nähe des n. Podiums
+                            </placeName><geo>49.97889 9.0669</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6906.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>eo</ex></expan> <persName type="divine" key="Occidens" role="god"><expan><abbr>Oc</abbr><ex>cidenti</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Titus" type="praenomen"><supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan></supplied></name> <name nymRef="Martialius" type="gentilicium">Mar<lb n="3" break="no"/><supplied reason="lost">ti</supplied>al<supplied reason="omitted">i</supplied>us</name>
+                    <lb n="4"/><name nymRef="Candidus" type="cognomen">Candi<lb n="5" break="no"/>dus</name></persName>
+                    <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Z. 1: CIMRM: D[e]o C(auti)</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD075136
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11791b
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 126
+                    </bibl>
+                    <bibl>
+                        RSOR 70
+                    </bibl>
+                    <bibl>
+                        CIMRM 1215
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

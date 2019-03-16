@@ -1,0 +1,127 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschriftfragment</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN092</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>zestört? Seit 1936 in Mannheim, Schloßmuseum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Allseitig abgebrochenes Fragment, von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>?</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(30)</height>
+                                            <width>(35)</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Der linke Rand des Inschriftfeldes schien noch erhalten zu sein.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Altlußheim</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0070" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" notBefore="1935-07-01" notAfter="1934-12-31">
+                            <placeName ref="ph">
+                               Altlußheim, am Hochufer. 
+                            </placeName><geo>49.294 8.49</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term>unbekannt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="1"/><gap reason="lost" extent="1" unit="character"/><orig><unclear>i</unclear><choice><unclear>c</unclear><unclear>o</unclear></choice></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="1" unit="character"/><orig><unclear>svs</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><orig>ivnc</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><orig>arc</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><orig><unclear>p</unclear>a</orig><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 3/4: Großengießer: IVN[ONI] / REG[INAE].
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036568
+                    </bibl>
+                    <bibl>
+                        <ptr target="Gropengießer1936"/>
+                        <biblScope>
+                            135
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Nesselhauf1937"/>
+                        <biblScope>
+                            79, Nr. 94
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

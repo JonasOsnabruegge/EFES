@@ -1,0 +1,158 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmente einer Weihinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Alis064</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Badisches Landesmusem</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Vier nicht aneinanderpassende Fragmente vom Inschriftfeld eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(11)</height>
+                                            <width>(6)</width>
+                                            <depth>(2)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Bruchstücke dürften vom Inschriftfeld eines Altars stammen, über das Schriftbild lässt sich nichts mehr sagen.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Regelmäßige, eher flach eingehauene, quadratische Buchstaben mit Serifen.
+                                </p>
+                                <height>4,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Osterburken</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0150" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" when="1982">
+                            <placeName ref="ph">
+                                Osterburken, Beneficiarier-Weihbezirk, im großen Holztempel, Fläche 18, Befund-Nr. 4, Nr. 1103.
+                            </placeName><geo>49.4300 9.4255</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>x</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ii</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>o</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <dimensions unit="cm">
+                            <height>(8)</height>
+                            <width>(6,5)</width>
+                            <depth>(2,5)</depth>
+                        </dimensions>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragmnet" n="c">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>s</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <dimensions unit="cm">
+                            <height>(4)</height>
+                            <width>(4)</width>
+                            <depth>(2)</depth>
+                        </dimensions>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="d">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>b</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>f</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                        <dimensions>
+                            <height>(7)</height>
+                            <width>(4,2)</width>
+                            <depth>(2)</depth>
+                        </dimensions>
+                    </ab>
+                </div>    
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD078428
+                    </bibl>
+                    <bibl>
+                        <ptr target="SchallmayerPreuss1994"/>
+                        <biblScope>
+                            57, Nr. 101; Taf. 12, Kat. 101
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

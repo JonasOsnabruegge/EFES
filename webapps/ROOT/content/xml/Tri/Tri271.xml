@@ -1,0 +1,131 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri271</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mulhouse, Musée Historique de la Ville de Mulhouse</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit rechteckiger Bildnische mit Weihrelief des ercurius im Mantel, Flügelhut, in den Händen Beutel, zu seinen Füßen Hahn.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>60</height>
+                                            <width>29</width>
+                                            <depth>8</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Z. 1 und 2 befinden sich auf der Rahmenleiste oberhalb des Bildfldes, Z. 3 u. 4 auf den Rahmenleisten links und rechts des Bildfeldes. Das Gestaltungsmerkmal, die Weiheformel auf den seitlichen Rahmenleisten zu verteilen, findet sich auch bei den anderen Stelen vom gleichen Heiligtum. Gleichmäßiges Schriftbild.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Weitgehend regelmäßige Buchtaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Gundershoffen</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1832">
+                            <placeName ref="ph">
+                                Gundershoffen, Hardt, Merkurheiligtum, Cella
+                            </placeName><geo>48.9023 7.6474</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$TR_CIL_13_06031_2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <milestone unit="section" type="Rahmenoben"/>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>eo</ex></expan> <persName type="divine" key="Mercurius" role="god"><expan><abbr>M</abbr><ex>ercurio</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lupercianus" type="cognomen">Lupercia<lb n="2" break="no"/>nus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Lutullus" type="cognomen">Lutulli</name></persName></persName> <expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+                    <lb n="3"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <milestone unit="section" type="relief" break="no"/> <expan><abbr>l</abbr><ex>aetus</ex></expan>
+                    <lb n="4"/><expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6031
+                    </bibl>
+                    <bibl>
+                        CIRh 1852
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 310; Abb. 205, 5
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            Nr. 5649
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            302–303, Nr. 2.82
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

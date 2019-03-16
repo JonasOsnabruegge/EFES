@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Viralira Lucer---</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri063</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Strasbourg, Musée Archéologique</repository>
+                        <idno>13888</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, links, rechts und unten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(34)</height>
+                                            <width>(51)</width>
+                                            <depth>16</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Der Zeichnung zufolge zahlreiche Ligaturen, gedrängtes Schriftbild.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Argentorate" ref="https://pleiades.stoa.org/places/108754">Argentorate</placeName>
+                                <placeName type="modern">Strasbourg</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1880">
+                            <placeName ref="ph">
+                                Strasbourg, Rue de Koenigshoffen, nördlich, Lokomotivschuppen, Fundament
+                            </placeName><geo>48.5812 7.7293</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" ref="persons.xml#p"><name nymRef="Viralira" type="cognomen"><supplied reason="lost">V</supplied><hi rend="ligature">ir</hi>a<hi rend="ligature">lir</hi><hi rend="ligature">ae</hi></name> <name nymRef="Lucer---" type="cognomen">Luc<hi rend="ligature"><hi rend="reversed">e</hi>r</hi><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> matrona<supplied reason="lost">e</supplied><supplied reason="lost"/>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <hi rend="ligature">inf</hi>el<supplied reason="lost">icissim</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD079091
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11634
+                    </bibl>
+                    <bibl>
+                        CAG 67/2, 409; Abb. 428b
+                    </bibl>
+                    <bibl>
+                        <ptr target="Domaszewski1906"/>
+                        <biblScope>
+                            368, Nr. 15; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

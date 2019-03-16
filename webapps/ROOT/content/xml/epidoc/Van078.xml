@@ -1,0 +1,122 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Q. Carminius Ingenuus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van078</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Museum der Stadt Worms, Kreuzgang</repository>
+                        <idno>R 1661</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Reitergrabstele</objectType> mit dreieckigem Abschluss. Löwen als Eckakrotere, abgeschlagen. Bildnische mit bogenförmigem Abschluss, Bogen mit Blattdekor. In der Bildnische reiter in tunica und Kettenpanzer, mit umgegürtetem Schwert auf nach rechts sprengendem Pferd mit Zaumzeug und phalerae, in der erhobenen Rechten die stoßbereit nach unten gerichttete Lanze. Hinter dem Kopf des Pferdes signum. Unter dem Pferd zwei liegende Barbaren, der rechte mit halb aufgerichtetem Oberkörper; beide mit abwehrend erhobenem Ovalschild. Qualitätvolle Arbeit.</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>237</height>
+                                            <width>96</width>
+                                            <depth>42</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich in einem vertiefeten, profilgerahmten Inschriftfeld unterhalb der Bildnische. Schräger Bruch auf Höhe von Zeile 2/3, rechts ausgebrochen, Teile der Oberfläche beschädigt. Die linksbündige Inschrift füllt die vorhandene Zeilenbreite bis auf Zeile 5 gut aus, geordnetes, überwiegend gleichmäßiges Schriftbild. Halbbogenförmige Worttrenner, hederae in Zeile 1.
+                                    </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Leicht unregelmäßige, quadratische Buchstaben mit Serifen, sorgfältig ausgeführt. Leichte Unsicherheiten, etwa bei der Ausführung des S. </p>
+                                <height min="7.0" max="7.5">7,0-7,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
+                                <placeName type="modern">Worms</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0014" notAfter="0051" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1666">
+                            <placeName ref="ph">
+                               Worms, an der Martinspforte.
+                            </placeName><geo>49.6343 8.3647</geo>
+                        </provenance>
+                        <provenance type="observed">
+                            Worms, Museum, Autopsie.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/16778-5-2.jpg"/>
+        <graphic url="http://lupa.at/img/16778-10-2.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name nymRef="Carminius" type="gentilicium">Carminio</name> <name nymRef="Ingenuus" type="cognomen">In<lb n="2" break="no"/>genuo</name></persName> <supplied reason="lost">eq</supplied>ui<hi rend="tall">t</hi><unclear>i</unclear><orgName type="ala" key="alaIHispanorum+"><supplied reason="lost"> alae <num value="1">I</num></supplied>
+                    <lb n="3"/>Hispanorum</orgName> <date type="age" atLeast="40"><expan><abbr><unclear>a</unclear><supplied reason="lost">nn</supplied></abbr><ex>orum</ex></expan><gap reason="lost" extent="unknown" unit="character"/></date>
+                    <lb n="4"/><date type="military-service-span" dur="P25Y"><expan><abbr>s<hi rend="tall">t</hi>ip</abbr><ex>endiorum</ex></expan> <num value="25">XXV</num></date> signifero
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Sacer" type="cognomen">Sacer</name> <name nymRef="Iulius" type="gentilicium">Iulius</name></persName> <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>e</abbr><ex>x</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: CIL; CSIR: gen[u]o [eq]uit[i ala I?].
+                    Z. 3: CIL; CSIR: [an(norum).
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD054637
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6233
+                    </bibl>
+                    <bibl>
+                        CSIR D 2/10, Nr. 49
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

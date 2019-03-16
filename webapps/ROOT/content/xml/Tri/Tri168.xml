@@ -1,0 +1,129 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Mercurius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri168</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Niederbronn-les-Bains, Maison de l'Archéologie des Vosges du Nord</repository>
+                        <idno>160</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück, oberer Teil von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25.html">Weihrelief</objectType> mit rechteckiger Bildnische, darin noch der obere Teil des Kopfes des Mercurius mit Flügelhut.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(47)</height>
+                                            <width>60</width>
+                                            <depth>24</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich vollständig auf der oberen Rahmenleiste. Gut zentrierte Inschrift, leicht ungleichmäßiges Schriftbild mit schwankenden Buchstabenabständen in der letzten Zeile. Dreieckige Worttrenner.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen (capitalis quadrata), leicht uneinheitliche Ausführung in der letzten Zeile.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Niederbronn-les-Bains</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0130" cert="low">stilistisch (Hatt - Pétry)</origDate>
+                        </origin>
+                        <provenance type="found" notBefore="1968" notAfter="1969">
+                            <placeName ref="ph">
+                                Niederbronn-les-Bains, Wasenbourg, Anhöhe, Mercurius-Heiligtum
+                            </placeName><geo>48.96024 7.61644</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27331-2.jpg"/>
+        <graphic url="http://lupa.at/img/27331-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Mercurius" role="god"><hi rend="ligature">Me</hi>rcurio</persName> <expan><abbr>s</abbr><ex>acrum</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Totia" type="cognomen">Totia</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="cognomen">Luci</name></persName> <expan><abbr>fil</abbr><ex>ia</ex></expan></persName>
+                    <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>«
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Skulptur stammt von einem aus Langensulzbach bekannten Atelier, davon auch ein Relief aus Oberdorf-Spachbach, vgl. Gallia 1972, 417, FN 24 (= Hatt 1967, CAAAH 11, 1967, 133-140). Gefunden mit zahlreichen weiteren Kultreliefs.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD049727
+                    </bibl>
+                    <bibl>
+                        AE 1997, 1182
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 462; Abb. 361
+                    </bibl>
+                    <bibl>
+                        <ptr target="Petry1972"/>
+                        <biblScope>
+                            416-417; Abb. 43e
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="HattPetry1972"/>
+                        <biblScope>
+                            28-29; Abb. 2
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

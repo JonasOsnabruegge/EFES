@@ -1,0 +1,119 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus des Attius Tertius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Aud133</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aschaffenburg, Stiftsmusuem</repository>
+                        <idno>9045</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, bestoßen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>48,5</height>
+                                            <width>22</width>
+                                            <depth>18,5</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height>2,0-2,2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Stockstadt/Main</placeName>
+                            <origDate notBefore="0131" notAfter="0179"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1962">
+                            <placeName ref="ph">
+                                Stockstadt/Main, südlicher vicus
+                            </placeName><geo>49.97429 9.0712</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/6910.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Attius" type="gentilicium">Attius</name> <name nymRef="Tertius" type="cognomen">Terti<lb n="4" break="no"/><supplied reason="lost">u</supplied>s</name></persName> <expan><am><g type="centurio"/></am><ex>centurio</ex></expan> <orgName type="cohors" key="cohors II Hispanorum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="2">II</num> His<lb n="5" break="no"/><supplied reason="lost">pa</supplied>norum</orgName> p<lb n="6" break="no"/><supplied reason="lost">ro</supplied> salute sua
+                    <lb n="7"/><supplied reason="lost">et</supplied> <persName type="attested" ref="persons.xml#p"><name nymRef="Cisso" type="cognomen">Cissonis</name></persName> coniugis su<lb n="8" break="no"/>ae et filior<lb n="9" break="no"/>um suoru<lb n="10" break="no"/>m <expan><abbr>v</abbr><ex cert="low">otum</ex></expan> <expan><abbr>s</abbr><ex cert="low">usceptum</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+                    <lb n="11"/><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD014794
+                    </bibl>
+                    <bibl>
+                        AE 1967, 335
+                    </bibl>
+                    <bibl>
+                        CSIR D II/13, Nr. 43
+                    </bibl>
+                    <bibl>
+                        RSOR 5
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

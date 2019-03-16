@@ -1,0 +1,134 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Domitius Silvinus und Attiola</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri153</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langensoultzbach, Musée de Langensoultzbach</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Allseitig rechteckig abgearbeitet für die Sekundärverwendung als Bodenplatte. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>?</p>
+                                    <material>Kalkstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(56)</height>
+                                            <width>(69)</width>
+                                            <depth>(10)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Der linke und rechte Rand des Inschriftfeldes sind nicht mehr erhalten, die Inschrift scheint jedoch linksbündig gewesen zu sein. Gleichmäßiges, geordnetes Schriftbild mit eng stehenden Biuchstaben. In der letzten Zeile SVIS stark gesperrt, wohl um die Länge an die der anderen Zeilen anzupassen. Flach vorgezeichnete Hilfslinien, Inschriftfeld stellenweise bestoßen. Dreieckige Worttrenner.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    Überwiegend regelmäßige, sorgfältig gearbeitete Buchstaben (mit leichten Abweichungen bei einigen Buchstaben) mit Serifen, eher schmal.
+                                </p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Langensoultzbach</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0101" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1961">
+                            <placeName ref="ph">
+                                Langensoultzbach, protestantische Kirche, im Plattenboden sekundär verwendet.
+                            </placeName><geo>48.9679 7.7332</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27321.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Domitius+?" type="gentilicium"><supplied reason="lost">Do</supplied><unclear>mit</unclear>io</name> <name nymRef="Silvinus" type="cognomen">Silvino</name></persName> <expan><abbr><hi rend="ligature">ve</hi></abbr><ex>teranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan>
+                            <lb n="2"/><supplied reason="lost" cert="low">VIII</supplied><supplied reason="lost"> e</supplied>t <persName type="attested" ref="persons.xml#p"><name nymRef="Attiola" type="cognomen">Attiol<supplied reason="omitted">a</supplied>e</name></persName> <expan><abbr>coniug</abbr><ex>i</ex></expan> <supplied reason="lost">et</supplied>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Silvestrus+" type="cognomen"><supplied reason="lost">Si</supplied>lvestro</name></persName> <expan><abbr>fil</abbr><ex>io</ex></expan> qui <expan><abbr>vix</abbr><ex>it</ex></expan>
+                    <lb n="4"/><date type="age" dur="P16Y"><supplied reason="lost">an</supplied>nos <num value="16">XVI</num></date> <hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Lea" type="cognomen">Leae</name></persName> nurui
+                    <lb n="5"/><supplied reason="lost">eius</supplied> <expan><abbr>def</abbr><ex>unctae</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Lanus" type="cognomen">Iano</name></persName> nepoti eo<supplied reason="lost">rum</supplied>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---" type="praenomen"><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <name nymRef="Silvinius" type="gentilicium">Silvinius</name> <name nymRef="Victor" type="cognomen">Victor</name></persName>
+                    <lb n="7"/><supplied reason="lost">viv</supplied>us <supplied reason="omitted">s</supplied>ibi et suis
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD
+                    </bibl>
+                    <bibl>
+                        ILTG 436
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 389-390; Abb. 271
+                    </bibl>
+                    <bibl>
+                        <ptr target="Hatt1962"/>
+                        <biblScope>
+                            505; Abb. 47
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2017c"/>
+                        <biblScope>
+                            22-24, Nr. 7
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

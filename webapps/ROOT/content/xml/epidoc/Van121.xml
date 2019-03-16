@@ -1,0 +1,124 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Van121</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Museen</repository>
+                        <idno>H 1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Zwischensockel einer Juppitergigantensäule</objectType>, hinten abgebrochen, verwittert und bestoßen. Auf der linken Nebenseite Luna auf Biga, in der Rechten Peitsche, auf der rechten Nebenseite Sol auf Quadriga, in der Rechten Peitsche.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>48</height>
+                                            <width>58</width>
+                                            <depth>52</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Ausgewogen wirkendes Schriftbild mit zentrierter Inschrift. Um die Zeilenbreite anzupassen mit variiertem Buchstabenabdstand. </p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, leicht uneinheitlich und mit schwankender Höhe ausgeführte, quadratische Buchstaben mit Serifen.</p>
+                                <height min="5.5" max="8">7,2-6,1 (8-5,5)</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Kirchheim/Weinstraße</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0200" notAfter="0250"/>
+                        </origin>
+                            <provenance type="found" when="1764">
+                            <placeName ref="ph">
+                                Kichheim/Weinstraße
+                            </placeName><geo>49.537 8.181</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Septimius" type="gentilicium">Sept<choice><corr>i</corr><sic>u</sic></choice>mius</name>
+                    <lb n="3"/><name nymRef="Florentinus" type="cognomen">Florent<hi rend="ligature"><hi rend="tall">i</hi>n</hi>us</name></persName>
+                    <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036555
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6147
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1922"/>
+                        <biblScope>
+                            67-68, Nr. 5982
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenss1981"/>
+                        <biblScope>
+                            59. 152, Nr. 237; Taf. 28, 1-3
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

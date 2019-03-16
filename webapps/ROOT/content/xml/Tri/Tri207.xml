@@ -1,0 +1,138 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für einen Benefiziarier?</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri207</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Saverne, Musée du Château des Rohan</repository>
+                        <idno>Be 6</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zahlreiche, zum Teil aneinanderpassende Fragmente einer rechteckigen <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit rechteckiger Bildnische. Zahlreiche Fehlstellen, obere linke und untere rechte Ecke fehlen. In der Bildnische Ganzfiguren einer Familie. Links Frau in tunica (und Obergewand?), die Rechte vor der Brust. In der Mitte Kind Mantel (mit Kapuze?). Rechts Vater in tunica und Mantel. Die Eheleute mit verschränkten Händen? Reste von weißer Farbe am Relief.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>159</height>
+                                            <width>103</width>
+                                            <depth>25</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich oberhalb der Bildnische. Zeile 1 zentriert. Teilweise gedränges, unruhiges Schriftbild. Dreieckige Worttrenner. Reste von roter Farbe in den Buchstaben.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige, uneinheitlich ausgeführte Buchstaben ohne Serifen. A ohne Querhaste, M in Zeile 1 mit nicht auf die Grundlinie reichenden mittleren Schräghasten. Unterschiedlich hoch ansetzende Querhasten bei E und F.</p>
+                                <height>4,1-2,7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="TresTabernae" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae</placeName>
+                                <placeName type="modern">Saverne</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1908">
+                            <placeName ref="ph">
+                                Saverne, Rue Poincaré 17, Collège, spätantike Stadtmauer, sekundär verwendet
+                            </placeName>
+                            <geo>48.74060 7.36077</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27883-2-2.jpg"/>
+        <graphic url="http://lupa.at/img/27883-2-1.jpg"/>        
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>aivn</orig><gap reason="lost" extent="unknown" unit="character"/> <orig>bevsefian</orig><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>fil</abbr><ex cert="low">i-</ex></expan><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="---ia?" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>i<supplied reason="omitted">a</supplied>e</name><certainty locus="name"/></persName> c<supplied reason="lost">o</supplied>ni<supplied reason="lost" cert="low">ugi</supplied><gap reason="lost" extent="unknown" unit="character"/><orig>oi<unclear>eri</unclear></orig> <supplied reason="lost">p</supplied>osui<supplied reason="lost">t</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2/3: CAG: [---]AIVN[---] b(ene)f(iciari-) Vitian[-] fil(i-) / h(eres) f(aciendum) c(uravit) NI[---]OIEVT [p]osuit; Faust; CIL: [---] B F V I T I A N (oder M) [---] F I L / H F C N I [---] O [---] T V? [p]osui[t]; Saverne: ...AI...I... B(ou R ou P) I VSIIIA M(ou N)... FIL / ...IF CNI...O...I F(ou E)\I...F`...OSVII.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD076160
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11675a
+                    </bibl>
+                    <bibl>
+                        Saverne 035
+                    </bibl>
+                    <bibl>
+                        AE 2000, 1069
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 571
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            251, Nr. 5707
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Faust1998"/>
+                        <biblScope>
+                            164-165, Nr. 233
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Diana</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">Tri110</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wissembourg, Musée Westercamp</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Weihrelief der Diana als Ganzfigur, in der linken den Bogen, mit der Rechten nach einem Pfeil aus dem Köcher greifend, hinter ihr eine Hündin.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>91</height>
+                                            <width>37</width>
+                                            <depth>14</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Die Inschrift befindet sich auf der oberen Rahmenleiste des Bildfeldes, zentriert.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige Buchstaben mit Serifen.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Betschdorf</placeName> 
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0200" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1912">
+                            <placeName ref="ph">
+                                <geo>48.8841 7.9281</geo>
+                                Betschdorf, Oberbetschdorf, Wald, sog. Ziegelviertel
+                            </placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://db.edcs.eu/epigr/bilder/$CIL_13_11687.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>De</abbr><ex>a</ex><abbr>e</abbr></expan> <persName type="divine" key="Diana" role="god"><expan><abbr>Dian</abbr><ex>a</ex><abbr>e</abbr></expan></persName> <expan><abbr>s</abbr><ex>acrum</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Tatianus" type="cognomen">Ta<lb n="2" break="no"/>tianus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Acceptus+" type="cognomen">Accept<lb n="3" break="no"/><supplied reason="lost">i</supplied></name></persName></persName> ex <expan><abbr>v</abbr><ex>o</ex><abbr>t</abbr><ex>o</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD079025
+                    </bibl>
+                    <bibl>
+                        CIL XIII 11687
+                    </bibl>
+                    <bibl>
+                        CAG 67/1, 186; Abb. 56
+                    </bibl>
+                    <bibl>
+                        <ptr target="Esperandieu1918"/>
+                        <biblScope>
+                            194, Nr. 5582
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

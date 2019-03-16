@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wochengötterstein, gestiftet von Attus Sennaei(?)</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN089</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Historisches Museum der Pfalz</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Wochengötterstein. Auf den Nebenseiten links: Saturn, Sol; rechts: Iuppiter, Venus; hinten: Luna, Mars, Mercurius.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>57,5</height>
+                                            <width>45</width>
+                                            <depth>54</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Zentrierte Inschrift, soweit erkennbar mit ausgewogenem Schriftbild. Inschriftfeld verwittert, Inschrift schwer lesbar, modern mit roter Farbe nachgezogen.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Wegen der modernen Übermalungund dem verwitterten Zustand des Inschriftfeldes lässt sich der ursprüngliche Zustand der Buhcstaben nicht mehr erkennen, diese scheinen jedoch leicht ungleichmäßig ausgefüht zu sein.</p>
+                                <height min="3.5" max="5.0">5,0-3,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum?</placeName>
+                                <placeName type="modern">Ladenburg?</placeName>
+                            </origPlace>
+                            <origDate notBefore="0001" notAfter="0300" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1841"><placeName ref="ph">Altrip, spätantiker Burgus - aus Ladenburg verschleppt?</placeName><geo>49.433 8.502</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/25526-1.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator?"><name nymRef="Atto" type="cognomen">Atto</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Sennaeus+?" type="cognomen">Sennae<supplied reason="lost" cert="low">i</supplied></name></persName> <supplied reason="lost" cert="low"><expan><abbr>fil</abbr><ex>ius</ex></expan></supplied><lb n="3"/></persName> <orig><unclear>iom</unclear></orig>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><persName type="attested" ref="persons.xml#p" role="creator" xml:id="g1"><name nymRef="Sennus+?" type="gentilicium">Senn<supplied reason="lost">i</supplied></name></persName></persName> <persName type="attested" ref="persons.xml#p" role="creator" xml:id="c1"><name nymRef="Primanus" type="cognomen">Primanus</name></persName>
+                        <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ibernus" type="cognomen">Ibernus</name></persName> e<unclear>t</unclear> <persName type="attested" ref="persons.xml#p" role="creator" xml:id="c3"><name nymRef="-ternus+?" type="cognomen"><gap reason="illegible" quantity="1" unit="character"/>rn<unclear>u</unclear><supplied reason="lost" cert="low">s</supplied></name></persName>
+                    <lb n="6"/>de suo po<unclear>sueru</unclear>nt
+                </ab>
+            </div>          
+                <link target="#g1 #c1"/>
+                <link target="#g1 #c2"/>
+                <link target="#g1 #c3"/>
+            <div type="apparatus">
+                <p>Lesung unsicher. Vgl. Lesung im CIL und bei Bauchhenß.</p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036512
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6130
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenß1981"/>
+                        <biblScope>
+                            87, Nr. 7
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

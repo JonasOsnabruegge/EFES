@@ -1,0 +1,137 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zwischensockel einer Iuppitergigangensäule, gestiftet von Mes(---)</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN043</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälzisches Museum</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Zwischensockel einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">Iuppitergigantensäule</objectType>, auf den Nebenseiten Büsten von Sol und Luna, auf der Rückseite Büste mit Helm (Mars oder Minerva?).</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>29</height>
+                                            <width>60</width>
+                                            <depth>50</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Die Inschrift befindet sich auf der Vorderseite. Inschriftfeld ohne Rahmen. Gut Zentrierte Inschrift mit ausgewogenem Schriftbild.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Regelmäßige Buchstaben.</p>
+                                <height>6,5-4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="vicus" key="ph" ref="ph"/>
+                                <placeName type="modern">Heidelberg</placeName>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0150" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="2007"><placeName ref="ph">Heidelberg, Neuenheim, Uferstraße 32</placeName><geo>49.414 8.687</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/27058-1.jpg"/>
+        <graphic url="http://lupa.at/img/27058-2.jpg"/>
+        <graphic url="http://lupa.at/img/27058-3.jpg"/>
+        <graphic url="http://lupa.at/img/27058-4.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p58"><name nymRef="Mes(---)" type="cognomen"><abbr>Mes</abbr></name>  <persName type="attested" ref="persons.xml#p59"><name nymRef="Iblio" type="cognomen">Iblio<hi rend="ligature">ni</hi>s</name> </persName></persName>
+                    <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD058249
+                    </bibl>     
+                    <bibl>
+                        AE 2007, 1050
+                    </bibl>
+                    <bibl>
+                        AE 2009, 956
+                    </bibl>
+                    <bibl>
+                        <ptr target="LudwigNoelkeMayerFeraudiGräf2009"/><!-- noch einpflegen -->
+                        <biblScope>
+                            393-424
+                        </biblScope>
+                        <bibl>
+                            <ptr target="Ludwig2007a"/>
+                            <biblScope>
+                                129-133
+                            </biblScope>
+                        </bibl>
+                        <bibl>
+                            <ptr target="Ludwig2007b"/>
+                            <biblScope>
+                                40-41
+                            </biblScope>
+                        </bibl>
+                        <bibl>
+                            <ptr target="Ludwig2008"/>
+                            <biblScope>
+                                48
+                            </biblScope>
+                        </bibl>
+                        <bibl>
+                            <ptr target="FeraudiLudwig2017"/>
+                            <biblScope>
+                                29-31, Nr. 6
+                            </biblScope>
+                        </bibl>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

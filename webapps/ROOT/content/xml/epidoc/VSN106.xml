@@ -1,0 +1,136 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bruchstück einer Weihinschrift</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN106</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kriegsverlust</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bruchstück mit dem unteren Teil eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altars</objectType> mit dem Sockel, hinten abgebrochen.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(44)</height>
+                                            <width>40</width>
+                                            <depth>(10)</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft, ungleichmäßiges, ungeordnet wirkendes Schriftbild mit verschieden weit eingerückten Zeilen und stark schwankendem Buchstabenabstand.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Überwiegend regelmäßige, leicht uneinheitlich und unsicher ausgeführte quadratische Buchstaben mit Serifen. O und Q eher schmal.</p>
+                                <height min="2.7" max="3.3">2,7-3,3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ancient" key="VicusNediensis" ref="ph">Vicus Nediensis</placeName>
+                                <placeName type="modern">Spechbach</placeName> 
+                            <origDate notBefore="0100" notAfter="0250"/>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1881">
+                            <placeName ref="ph">
+                               Spechbach, Flur 'Neurott' neben der Römerstraße, unter Ziegeltrümmern.
+                            </placeName><geo>49.3464 8.8843</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/efhico/F012671.JPG"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orgName type="vicani" key="vicaniNediesses"><supplied reason="lost">vic</supplied>ani
+                    <lb n="2"/><supplied reason="lost">N</supplied>ediess<choice><corr>e</corr><sic>i</sic></choice>s</orgName>
+                    <lb n="3"/>de suo
+                    <lb n="4"/>fecerunt
+                    <lb n="5"/>cura <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintius" type="gentilicium">Quinti</name>
+                    <lb n="6"/><name nymRef="Daccus" type="cognomen">Dacci</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036509
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6389
+                    </bibl>
+                    <bibl>
+                        AE 2012, 1006
+                    </bibl>
+                    <bibl>
+                        <ptr target="Baumann1890"/>
+                        <biblScope>
+                            14, Nr. 18
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            310-311
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Feraudi2011"/>
+                        <biblScope>
+                            337
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Iuppiter Optimus Maximus des M. Octavius Severus</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmuseum</repository>
+                        <idno>RL 362-12</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit ornamentierter Bekrönung. Aud der linken Nebenseite patera und Krug, auf der rechten Nebenseite stilisiertes Blitzbündel.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>103</height>
+                                            <width>46</width>
+                                            <depth>37</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die Inschrift befindet sich auf dem Schaft, den sie komplett ausfüllte.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>(+)</p>
+                                <height>5-3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CAurG" ref="ph">Civitas Aurelia G...?</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Welzheim</placeName> 
+                            <origDate notBefore="0197" notAfter="0211">dominorum imperatorum</origDate>
+                            </origPlace>
+                        </origin>
+                            <provenance type="found" when="1894">
+                            <placeName ref="ph">
+                               Welzheim, Ost-Kastell, Badegebäude
+                            </placeName><geo>48.8712 9.6427</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/img/10331.jpg"/>
+        <graphic url="http://lupa.at/img/10331-2.jpg"/>
+        <graphic url="http://lupa.at/img/10331-4.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/>pro salute <expan><abbr><hi rend="ligature">d<hi rend="small">o</hi></hi><lb n="3" break="no"/>minor</abbr><ex>um</ex></expan> <expan><abbr>i<hi rend="ligature">mp</hi></abbr><ex>eratorum</ex></expan>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Octavius" type="gentilicium">Octavius</name>
+                    <lb n="5"/><name nymRef="Severus" type="cognomen">Severus</name></persName> <expan><am><g type="centurio"/></am><ex>centurio</ex></expan>
+                    <lb n="6"/><orgName type="legio" key="legio VIII Augusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName>
+                    <lb n="7"/>praeposit<unclear>us</unclear>
+                    <lb n="8"/><orgName type="unit" key="Brittones et exploratores"><expan><abbr>Brit</abbr><ex>tonum</ex></expan> et <expan><abbr>expl</abbr><ex>oratorum</ex></expan></orgName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD019672
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6526
+                    </bibl>
+                    <bibl>
+                        AE 1895, 20
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

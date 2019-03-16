@@ -1,0 +1,126 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift für Mogetius</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN098</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rastatt, zentrales Fundarchiv</repository>
+                        <idno>1882-0002-4891-0001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Simple<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, umgearbeitet?</p>
+                                    <material/>
+                                        <dimensions unit="cm">
+                                            <height>(65)</height>
+                                            <width>(46)</width>
+                                            <depth>18</depth>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Ungeordnetes, ungleichmäßiges Schriftbild. Die Zeilenführung wird nicht eingehalten, die Zeilen verlaufen mit geringem Abstand schief auch zueinander, stark schwankende Buchstabenhöhe.</p>
+                                   <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Unregelmäßige, tief eingehauene, uneinheitlich ausgeführte Buchstaben. M mit schräggestellten seitlichen Hasten.</p>
+                                <height min="4.5" max="7.0">7,0-4,0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="ph" key="ph" ref="ph"/>
+                                <placeName type="modern">Leimen</placeName> 
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1884">
+                            <placeName ref="ph">
+                                Leimen, Lingenthaler Hof
+                            </placeName><geo>49.3543 8.7248</geo>
+                            </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="DISS_JO">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://lupa.at/8531"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Mogetius" type="cognomen">Mogetio</name>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Međđillus*" type="cognomen"><expan><abbr>M<choice><corr>e</corr><sic>i</sic></choice>đđill</abbr><ex>i</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan>
+                    <lb n="4"/><expan><abbr>c</abbr><ex>ivi</ex></expan> <orgName type="ethnic" key="Mediomatrici*"><expan><abbr>Medioma<hi rend="ligature">tr</hi></abbr><ex>ico</ex></expan></orgName></persName>
+                    <lb n="5"/><date type="age" dur="P70Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="70">LXX</num></date>
+                    <lb n="6"/><orgName type="filius" role="creator"><expan><abbr>f</abbr><ex>ilius</ex></expan></orgName> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Die Hausförmige Stele erinnert nicht nur im äußeren Aufbau, sondern auch im Habitus der Inschrift an die Stelen aus dem Gebiet der Triboker und dem angrenzenden mediomatrikischen Gebiet. Hier könnte Kulturtransfer greifbar sein. Die unregelmäßigen Buchstaben, die Form des Grabmonuments, die schrägen Hasten der M, all dies zeigt die Herkunft des Verstorbenen ebenso deutlich an wie der Zusatz 'civis Mediomatrici'.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD036508
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6394
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            304, Nr. 176
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="FeraudiLudwig2017"/>
+                        <biblScope>
+                            97, Nr. 56; m. Abb.
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inschriftfragment</title>
+                <editor>Jonas Osnabrügge</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
+                <idno type="filename">VSN075</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Oben, links und rechts abgebrochenes Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
+                                    <material>Sandstein</material>
+                                        <dimensions unit="cm">
+                                            <height>(12,5)</height>
+                                            <width>(16)</width>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Linksbündig Inschrift, der linke Rand des Inschriftfeldes ist erhalten. Ohne Rahmen.
+                                    </p>
+                                    <dimensions>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Regelmäßige, schlichte Buchstaben.</p>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
+                                <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
+                                <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
+                                <placeName type="modern">Ladenburg:</placeName> innerhalb des antiken Stadtgebiets, an der Römerstraße
+                            </origPlace>
+                            <origDate notBefore="0130" notAfter="0250" cert="low"/>
+                        </origin>
+                        <provenance type="found" when="1873"><placeName ref="ph">Ladenburg, Gewann Lustgärten, östlicher Teil</placeName><geo>49.4691 8.6111</geo>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+           <textClass>
+                <keywords scheme="DISS_JO">
+                    <term>unbekannt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="lat">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="1"/><choice><unclear>C</unclear><unclear>G</unclear></choice><orig>o</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/>et <choice><unclear>I</unclear><unclear>L</unclear><unclear>H</unclear></choice>
+                    <lb n="3"/><choice><uclear>I</uclear><unclear>L</unclear></choice><choice><unclear>E</unclear><unclear>F</unclear></choice>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    Z. 2: Zu Beginn C oder G, Bogen noch erkennbar; Z. 3: I, L oder H; Z. 4: I oder L und E oder F. Haug bei Wagner, RSOR: IOM / ET IVNONI; von Wiegels jedoch begründet abgelehnt.
+                </p>
+            </div>
+            <div type="translation">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Früher in den Reiss-Engelhorn-Museen Mannheim, dort 2015 nicht aufgefunden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        HD006222
+                    </bibl>
+                    <bibl>
+                        CIL XIII 6424
+                    </bibl>
+                    <bibl>
+                        RSOR 63
+                    </bibl>
+                    <bibl>
+                        <ptr target="Baumann1890"/>
+                        <biblScope>
+                            26, Nr. 39
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wagner1911"/>
+                        <biblScope>
+                            224
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels2000"/>
+                        <biblScope>
+                            70, Nr. 27; Abb. 29
+                        </biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
