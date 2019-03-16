@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Allseitig abgebrochenes Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>.</p>
-                                    <material/>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
                                             <width/>
@@ -86,8 +86,7 @@
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="---rus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>ro</name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ioc</orig><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ioc</orig><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">

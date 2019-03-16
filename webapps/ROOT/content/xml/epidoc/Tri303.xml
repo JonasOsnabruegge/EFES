@@ -85,12 +85,17 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/>Dib<supplied reason="lost" cert="low">us</supplied>
+                    <lb n="1"/>Dib<unclear>u</unclear><supplied reason="lost" cert="low">s</supplied>
                     <lb n="2"/><expan><abbr>M</abbr><ex cert="low">anibus</ex></expan> <orig>s</orig><gap reason="illegible" quantity="1" unit="character"/><orig>o</orig><gap reason="lost" quantity="1" unit="character"/>
                     <lb n="3"/><orig>csori<unclear>o</unclear></orig>
-                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>a</orig><gap reason="lost" quantity="2" unit="character"/>
-                    <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="4"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>a</orig><gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="5"/>IV<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
+                <div type="textpart" subtype="fragment">
+                   <ab>
+                      <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>n</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                   </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <p/>
