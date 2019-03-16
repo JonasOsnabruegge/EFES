@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG012</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -88,7 +88,7 @@
                     <lb n="4"/>summersam <orig><unclear>n</unclear></orig>
                     <lb n="5"/>bon<supplied reason="omitted">a</supplied>e salut<supplied reason="lost">i</supplied>
                     <lb n="6"/>sit redditu<supplied reason="lost">s</supplied>
-                    <lb n="7"/>et sui <persName type="attested" ref="persons.xml#p" role="creator">L<hi rend="small">i</hi>ciniu<supplied reason="lost">s</supplied>
+                    <lb n="7"/>et sui <persName type="attested" ref="persAurG.xml#pAurG62" role="creator">L<hi rend="small">i</hi>ciniu<supplied reason="lost">s</supplied>
                     <lb n="8"/>Divixtus</persName>
                     <lb n="9"/>negotiator
                     <lb n="10"/>ex voto posu<supplied reason="lost">it</supplied>

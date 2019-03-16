@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG001</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -87,8 +87,8 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/>Deo <persName type="divine" key="Mercurius" role="god">Mercurio</persName>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Avitius" type="gentilicium"><hi rend="ligature">Av</hi>itius</name> <name nymRef="Maiorinus" type="cognomen">Mai<surplus>i</surplus><hi rend="small">o</hi><hi rend="ligature">r<hi rend="tall">i</hi></hi><hi rend="ligature">nu</hi>s</name></persName>
-                    <lb n="4"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Avitius" type="gentilicium"><hi rend="ligature">Av</hi>itius</name> <name nymRef="Apollinaris" type="cognomen">Ap<hi rend="small">o</hi>llina<lb n="5" break="no"/>ris</name></persName> <expan><abbr>d</abbr><ex>ecuriones</ex></expan> <orgName type="civitas" key="civitasAureliaGS"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr><hi rend="ligature">Au</hi>r</abbr><ex>eliae</ex></expan> <abbr>G</abbr> <abbr>S</abbr></orgName> ex v<hi rend="small">o</hi>t<hi rend="small">o</hi>
+                    <lb n="3"/><persName type="attested" ref="persAurG.xml#pAurG52" role="creator"><name nymRef="Avitius" type="gentilicium"><hi rend="ligature">Av</hi>itius</name> <name nymRef="Maiorinus" type="cognomen">Mai<surplus>i</surplus><hi rend="small">o</hi><hi rend="ligature">r<hi rend="tall">i</hi></hi><hi rend="ligature">nu</hi>s</name></persName>
+                    <lb n="4"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="attested" ref="persAurG.xml#pAurG53" role="creator"><name nymRef="Avitius" type="gentilicium"><hi rend="ligature">Av</hi>itius</name> <name nymRef="Apollinaris" type="cognomen">Ap<hi rend="small">o</hi>llina<lb n="5" break="no"/>ris</name></persName> <expan><abbr>d</abbr><ex>ecuriones</ex></expan> <orgName type="civitas" key="civitasAureliaGS"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr><hi rend="ligature">Au</hi>r</abbr><ex>eliae</ex></expan> <abbr>G</abbr> <abbr>S</abbr></orgName> ex v<hi rend="small">o</hi>t<hi rend="small">o</hi>
                     <lb n="5"/>posuerunt
                 </ab>
             </div>

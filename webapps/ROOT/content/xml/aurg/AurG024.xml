@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG024</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -84,8 +84,8 @@
                 <ab>
                     <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
                     <lb n="2"/><persName type="divine" key="Genius Peregrinorum" role="god">Genio <expan><abbr>Pe<lb n="3" break="no"/>regrinor</abbr><ex>um</ex></expan></persName>
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Severus" type="cognomen">Severus</name>
-                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Meliddatus" type="cognomen"><hi rend="ligature">Me</hi>l<hi rend="ligature">id</hi>dati</name></persName></persName>
+                    <lb n="4"/><persName type="attested" ref="persAurG.xml#pAurG75" role="creator"><name nymRef="Severus" type="cognomen">Severus</name>
+                    <lb n="5"/><persName type="attested" ref="persAurG.xml#pAurG76"><name nymRef="Meliddatus" type="cognomen"><hi rend="ligature">Me</hi>l<hi rend="ligature">id</hi>dati</name></persName></persName>
                     <lb n="6"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
                 </ab>
             </div>

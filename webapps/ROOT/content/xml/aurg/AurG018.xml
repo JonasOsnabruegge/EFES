@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG018</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -87,7 +87,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
-                    <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucilius*" type="gentilicium"><expan><abbr>Luc</abbr><ex>iulius</ex></expan></name>
+                    <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <persName type="attested" ref="persAurG.xml#pAurG63" role="creator"><name nymRef="Lucilius*" type="gentilicium"><expan><abbr>Luc</abbr><ex>iulius</ex></expan></name>
                     <lb n="3"/><name nymRef="Avento" type="cognomen">Avento</name></persName>
                     <lb n="4"/><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> ex
                     <lb n="5"/><expan><abbr>iuss</abbr><ex>u</ex></expan> posu<supplied reason="omitted">i</supplied>t

@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG041</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -86,7 +86,7 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                     <lb n="2"/>pro salute <expan><abbr><hi rend="ligature">d<hi rend="small">o</hi></hi><lb n="3" break="no"/>minor</abbr><ex>um</ex></expan> <expan><abbr>i<hi rend="ligature">mp</hi></abbr><ex>eratorum</ex></expan>
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Octavius" type="gentilicium">Octavius</name>
+                    <lb n="4"/><persName type="attested" ref="persAurG.xml#pAurG5" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Octavius" type="gentilicium">Octavius</name>
                     <lb n="5"/><name nymRef="Severus" type="cognomen">Severus</name></persName> <expan><am><g type="centurio"/></am><ex>centurio</ex></expan>
                     <lb n="6"/><orgName type="legio" key="legio VIII Augusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName>
                     <lb n="7"/>praeposit<unclear>us</unclear>

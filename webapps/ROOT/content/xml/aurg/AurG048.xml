@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG048</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -83,9 +83,9 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Assonius" type="gentilicium"><expan><abbr>Asson</abbr><ex>ius</ex></expan></name> <name nymRef="Iustus" type="cognomen">Iustus</name></persName> <expan><abbr>mil</abbr><ex>es</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persAurG.xml#pAurG2"><name nymRef="Assonius" type="gentilicium"><expan><abbr>Asson</abbr><ex>ius</ex></expan></name> <name nymRef="Iustus" type="cognomen">Iustus</name></persName> <expan><abbr>mil</abbr><ex>es</ex></expan>
                     <lb n="3"/><orgName type="cohors" key="cohors XXIII voluntariorum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="24">XXIIII</num> <expan><abbr>vol</abbr><ex>untariorum</ex></expan></orgName> <date type="age" dur="P50Y"><expan><abbr>vix</abbr><ex>it</ex></expan>
-                    <lb n="4"/><expan><abbr>an</abbr><ex>nos</ex></expan> <num value="40">XL</num></date> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cintusmus" type="cognomen">Cintusmus</name></persName>
+                    <lb n="4"/><expan><abbr>an</abbr><ex>nos</ex></expan> <num value="40">XL</num></date> <persName type="attested" ref="persAurG.xml#pAurG3" role="creator"><name nymRef="Cintusmus" type="cognomen">Cintusmus</name></persName>
                     <lb n="5"/>s<choice><corr>e</corr><sic>i</sic></choice>cundus <expan><abbr>her</abbr><ex>es</ex></expan> sua <expan><abbr>vol</abbr><ex>untate</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
                 </ab>
             </div>

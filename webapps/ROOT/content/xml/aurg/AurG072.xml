@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG072</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -87,7 +87,7 @@
                     <lb n="3"/>aquam Gordianam 
                     <lb n="4"/><orgName type="cohors" key="cohors I Septimia Belgarum Gordiana"><expan><abbr>coh</abbr><ex>orti</ex></expan> <num value="1">I</num> <expan><abbr>Sep</abbr><ex>timiae</ex></expan> <expan><abbr>Belg</abbr><ex>arum</ex></expan> Gordi<lb break="no" n="5"/><supplied reason="lost">a</supplied>nae</orgName> multo <expan><abbr>tempor</abbr><ex>e</ex></expan>
                     <lb n="6"/><supplied reason="lost">interm</supplied>issam sub cu<lb break="no" n="7"/>ra <persName type="consul" ref="persons.xml#p"><name nymRef="---anus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>ani</name> <expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan></persName>
-                        <lb n="8"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Rogatianus" type="cognomen">Roga<supplied reason="lost">tianus</supplied></name></persName><supplied reason="lost"> e</supplied><expan><abbr>q</abbr><ex>ues</ex></expan> <expan><abbr>R</abbr><ex>omanus</ex></expan>
+                        <lb n="8"/><persName type="attested" ref="persAurG.xml#pAurG39" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Rogatianus" type="cognomen">Roga<supplied reason="lost">tianus</supplied></name></persName><supplied reason="lost"> e</supplied><expan><abbr>q</abbr><ex>ues</ex></expan> <expan><abbr>R</abbr><ex>omanus</ex></expan>
                         <lb n="9"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> ei<supplied reason="lost">usdem</supplied>
                         <lb n="10"/><supplied reason="lost">novo aq</supplied>uaed<supplied reason="lost">u</supplied>ctu pe<lb break="no" n="11"/><supplied reason="lost">rd</supplied>uxit <supplied reason="lost">pe</supplied>r <supplied reason="lost">pe</supplied>des <num value="5908"><expan><abbr>V</abbr><ex>quinque milia</ex></expan> D<lb break="no" n="12"/>CC<supplied reason="lost">C</supplied>CVII</num> qu<supplied reason="lost">am s</supplied>alere 
                         <lb n="13"/>in<supplied reason="lost">stit</supplied>uit <gap reason="lost" extent="unknown" unit="character"/>

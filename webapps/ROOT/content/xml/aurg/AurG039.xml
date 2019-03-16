@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG039</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="---olis?" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>o<hi rend="ligature">l<unclear>i</unclear></hi>s</name> domo <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested" ref="persAurG.xml#pAurG1"><name nymRef="---olis?" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>o<hi rend="ligature">l<unclear>i</unclear></hi>s</name> domo <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">n</supplied>eg</abbr><ex>otiatori</ex></expan> <expan><abbr>art</abbr><ex>is</ex></expan> cr<supplied reason="lost">etariae</supplied></persName><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">o</supplied><hi rend="ligature">b<unclear>i</unclear></hi><hi rend="ligature">ti</hi>s <expan><abbr>p<hi rend="small">a</hi><hi rend="ligature">re</hi><hi rend="ligature">nt</hi></abbr><ex>ibus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><hi rend="ligature"><unclear>n</unclear>i</hi> <expan><abbr><hi rend="ligature">in</hi>co<hi rend="ligature">mp</hi></abbr><ex>arabili</ex></expan> q<supplied reason="lost">ui</supplied><gap reason="lost" extent="unknown" unit="character"/>

@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG013</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -84,7 +84,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><supplied reason="lost">A</supplied>ram pro salu<lb n="2" break="no"/><supplied reason="lost">t</supplied>em<note>!</note> <persName type="attested" ref="persons.xml#p"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <name nymRef="Petronius" type="gentilicium">Pet<supplied reason="lost">ro</supplied><lb n="3" break="no"/><supplied reason="lost">n</supplied>ii</name> <name nymRef="Caesius?" type="cognomen">Caesii</name></persName> <orig>r</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><supplied reason="lost">A</supplied>ram pro salu<lb n="2" break="no"/><supplied reason="lost">t</supplied>em<note>!</note> <persName type="attested" ref="persAurG.xml#pAurG61"><name nymRef="Publius" type="praenomen"><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <name nymRef="Petronius" type="gentilicium">Pet<supplied reason="lost">ro</supplied><lb n="3" break="no"/><supplied reason="lost">n</supplied>ii</name> <name nymRef="Caesius?" type="cognomen">Caesii</name></persName> <orig>r</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>io c</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
                     <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><date when-custom="207-12-01" datingMethod="#julian" type="consulship"><persName type="consul" ref="PIR² A 671"><name nymRef="Aoer+" type="cognomen"><supplied reason="lost">Ap</supplied>ro</name></persName> e<supplied reason="lost">t</supplied> <persName type="consul" ref="PIR² S 489"><name nymRef="Maximus+" type="cognomen">Ma<lb n="7" break="no"/><supplied reason="lost">xim</supplied>o</name></persName> <expan><abbr>cons</abbr><ex>ulibus</ex></expan> <expan><abbr>k</abbr><ex>alendis</ex></expan>

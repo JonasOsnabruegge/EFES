@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG076</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Bellius" type="gentilicium"><expan><abbr>Belliu</abbr><ex>s</ex></expan></name>
+                    <lb n="2"/><persName type="attested" ref="persAurG.xml#pAurG43" role="creator"><name nymRef="Bellius" type="gentilicium"><expan><abbr>Belliu</abbr><ex>s</ex></expan></name>
                     <lb n="3"/><name nymRef="Plautus" type="cognomen">Plau<lb n="4" break="no"/>tus</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan>
                     <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>

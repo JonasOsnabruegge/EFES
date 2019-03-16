@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG045</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="Mithras" role="god"><expan><abbr>S</abbr><ex>oli</ex></expan> <expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan></persName>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Sextus" type="praenomen"><expan><abbr>Sex</abbr><ex>tus</ex></expan></name> <name nymRef="Iulius" type="gentilicium">Iulius</name>
+                    <lb n="2"/><persName type="attested" ref="persAurG.xml#pAurG4" role="creator"><name nymRef="Sextus" type="praenomen"><expan><abbr>Sex</abbr><ex>tus</ex></expan></name> <name nymRef="Iulius" type="gentilicium">Iulius</name>
                     <lb n="3"/><expan><abbr>D</abbr><ex>ecimi</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Hor</abbr><ex>atia</ex></expan> <supplied reason="subaudible">tribu</supplied> <name nymRef="Florus" type="cognomen">Flo<lb n="4" break="no"/>rus</name> <name nymRef="Victorinus" type="cognomen">Victori<lb n="5" break="no"/>nus</name></persName> <expan><abbr>trib</abbr><ex>unus</ex></expan> <orgName type="cohors" key="cohors XXIIII voluntariorum c R"><expan><abbr>co<supplied reason="lost">h</supplied></abbr><ex>ortis</ex></expan>
                     <lb n="6"/><num value="24">XXIIII</num> <expan><abbr>v</abbr><ex>oluntariorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan></orgName> <expan><abbr>tem<supplied reason="lost">p</supplied></abbr><ex>lo</ex></expan>
                     <lb n="7"/>a solo restitu<lb n="8" break="no"/><supplied reason="lost">to</supplied> votum pro

@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG003</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -88,7 +88,7 @@
                     <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
                     <milestone unit="section" type="corpus"/>
                     <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cobrunius" type="gentilicium">Cobruni<lb n="4" break="no"/>us</name> D<name nymRef="Divixtus" type="cognomen">ivix<lb n="4" break="no"/>tus</name></persName> <expan><abbr>opt</abbr><ex>io</ex></expan>
+                    <lb n="3"/><persName type="attested" ref="persAurG.xml#pAurG51" role="creator"><name nymRef="Cobrunius" type="gentilicium">Cobruni<lb n="4" break="no"/>us</name> D<name nymRef="Divixtus" type="cognomen">ivix<lb n="4" break="no"/>tus</name></persName> <expan><abbr>opt</abbr><ex>io</ex></expan>
                     <lb n="5"/>ex voto
                     <lb n="6"/><expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
 

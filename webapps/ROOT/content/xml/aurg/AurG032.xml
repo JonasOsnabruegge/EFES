@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG032</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="Genius Martis" role="god">Genio Martis</persName>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Ursus" type="cognomen">Ursus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Condollus" type="cognomen">Condo<lb n="3" break="no"/>lli</name></persName></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persAurG.xml#pAurG77"><name nymRef="Ursus" type="cognomen">Ursus</name> <persName type="attested" ref="persAurG.xml#pAurG78"><name nymRef="Condollus" type="cognomen">Condo<lb n="3" break="no"/>lli</name></persName></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

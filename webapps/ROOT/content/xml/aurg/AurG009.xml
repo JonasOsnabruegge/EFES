@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">AurG009</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -86,8 +86,8 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr><unclear>I</unclear></abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                     <lb n="2"/><orgName type="cohors" key="cohorsIAsturumequitata*" role="creator"><expan><abbr><unclear>c</unclear>oh</abbr><ex>ors</ex></expan> <num value="1"><hi rend="supraline">I</hi></num> <expan><abbr>Astur</abbr><ex>um</ex></expan> <expan><abbr>eq</abbr><ex>uitata</ex></expan></orgName>
-                    <lb n="3"/><expan><abbr>cura</abbr><ex>m</ex></expan> agente <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name>
-                    <lb n="4"/><name nymRef="Mevius" type="gentilicium">Mevio</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Fab</abbr><ex>ia</ex></expan> <supplied reason="subaudible">tribu</supplied>
+                    <lb n="3"/><expan><abbr>cura</abbr><ex>m</ex></expan> agente <persName type="attested" ref="persAurG.xml#pAurG55" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arco</ex></expan></name>
+                    <lb n="4"/><name nymRef="Mevius" type="gentilicium">Mevio</name> <persName type="attested" ref="persAurG.xml#pAurG56"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Fab</abbr><ex>ia</ex></expan> <supplied reason="subaudible">tribu</supplied>
                     <lb n="5"/><name nymRef="Capriolus" type="cognomen"><unclear>C</unclear>apriolo</name></persName> <expan><abbr>pr<hi rend="small">a</hi>ef</abbr><ex>ecto</ex></expan>
                     <lb n="6"/><expan><abbr>fec</abbr><ex>it</ex></expan>
                 </ab>
