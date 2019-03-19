@@ -87,7 +87,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/>Hic quiescot in pace
-                    <lb n="2"/><expan><abbr>cas</abbr><ex cert="low">tus</ex></expan> nom<choice><corr>i</corr><sic>e</sic></choice>ne <persName type="divine" key="Flaolius?" role="god"><unclear>F</unclear>l<unclear>a</unclear>oliu<supplied reason="lost">s</supplied></persName>
+                    <lb n="2"/><expan><abbr>cas</abbr><ex cert="low">tus</ex></expan> nom<choice><corr>i</corr><sic>e</sic></choice>ne <persName type="attested" ref="ph"><name nymRef="Flaolius?" type="cognomen"><unclear>F</unclear>l<unclear>a</unclear>oliu<supplied reason="lost">s</supplied></name></persName>
                     <lb n="3"/><orig>tt</orig><g type="chi-rho"/><orig>pr</orig>
                 </ab>
             </div>

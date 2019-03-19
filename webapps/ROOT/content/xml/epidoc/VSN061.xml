@@ -82,7 +82,7 @@
                     <lb n="1"/><persName type="divine" key="Suleviae" role="god">Sulevis</persName> so<lb n="2" break="no"/>roribus <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name>
                         <lb n="3"/><name nymRef="Gallionius" type="gentilicium">Gallionius</name> <name nymRef="Ianuarius" type="cognomen"><expan><abbr>Ianuar</abbr><ex>ius</ex></expan></name></persName>
                     <lb n="4"/><abbr>d<choice><corr>e<sic>i</sic></corr></choice>c</abbr><ex>urio</ex> <orgName key="alaICan" type="ala"><expan><abbr>al</abbr><ex>ae</ex></expan> <num val="1">I</num> <expan><abbr>Cannanef</abbr><ex>atium</ex></expan></orgName>
-                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr><unclear>l</unclear></abbr><ex>ibens</ex></expan> <expan><abbr><unclear>l</unclear></abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>«
+                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr><unclear>l</unclear></abbr><ex>ibens</ex></expan> <expan><abbr><unclear>l</unclear></abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

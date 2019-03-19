@@ -87,8 +87,8 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Paternus*" type="cognomen"><expan><abbr>Pater<hi rend="ligature">ni</hi></abbr><ex>us</ex></expan></name>
-                    <lb n="3"/><name nymRef="Aprilis" type="cognomen">Aprilis</name>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><persName type="attested" ref="persons.xml#p"><name nymRef="Paternius*" type="gentilicium">Pater<hi rend="ligature">n<unclear>i</unclear></hi></name>
+                    <lb n="3"/><name nymRef="Aprilis" type="cognomen">Aprilis</name></persName>
                     <lb n="4"/><name nymRef="Crescens" type="cognomen">Cresc<hi rend="small">e</hi>ns</name></persName>
                     <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>

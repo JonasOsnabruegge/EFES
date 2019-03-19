@@ -82,9 +82,9 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan>
-                    <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan>
-                    <lb n="3"/>Karus
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name>
+                    <lb n="3"/><name nymRef="Karus" type="cognomen">Karus</name></persName>
                     <lb n="4"/><supplied reason="lost" cert="low"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
                 </ab>
             </div>

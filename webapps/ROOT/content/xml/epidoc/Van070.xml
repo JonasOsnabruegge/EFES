@@ -85,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName> <hi rend="ligature">et</hi> <persName type="divine" key="IunoRegina*" role="god">Iun<hi rend="small">o</hi><lb n="2" break="no"/><hi rend="ligature">n<hi rend="tall">i</hi></hi> <expan><abbr>Reg</abbr><ex>inae</ex></expan></persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Intamelius" type="gentilicium">I<hi rend="ligature">nt</hi><hi rend="ligature">ame</hi><lb n="3" break="no"/><hi rend="ligature">l<hi rend="tall">i</hi></hi>us</name> <name nymRef="Eburo" type="cognomen">Eburo</name></persName> <hi rend="ligature">et</hi>
-                    <lb n="4"/><name nymRef="Firmia" type="gentilicium">F<hi rend="ligature"><hi rend="tall">i</hi>r</hi><hi rend="ligature">m<hi rend="tall">i</hi></hi>a</name> <name nymRef="Lucia" type="cognomen">Lucia</name>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Firmia" type="gentilicium">F<hi rend="ligature"><hi rend="tall">i</hi>r</hi><hi rend="ligature">m<hi rend="tall">i</hi></hi>a</name> <name nymRef="Lucia" type="cognomen">Lucia</name></persName>
                     <lb n="5"/>ex voto <hi rend="ligature"><hi rend="tall">i</hi>n</hi> suo
                     <lb n="6"/><expan><abbr>p</abbr><ex>osuerunt</ex></expan>
                 </ab>

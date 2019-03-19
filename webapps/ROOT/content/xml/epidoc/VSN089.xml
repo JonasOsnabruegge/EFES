@@ -83,7 +83,7 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator?"><name nymRef="Atto" type="cognomen">Atto</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Sennaeus+?" type="cognomen">Sennae<supplied reason="lost" cert="low">i</supplied></name></persName> <supplied reason="lost" cert="low"><expan><abbr>fil</abbr><ex>ius</ex></expan></supplied><lb n="3"/></persName> <orig><unclear>iom</unclear></orig>
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><persName type="attested" ref="persons.xml#p" role="creator" xml:id="g1"><name nymRef="Sennus+?" type="gentilicium">Senn<supplied reason="lost">i</supplied></name></persName></persName> <persName type="attested" ref="persons.xml#p" role="creator" xml:id="c1"><name nymRef="Primanus" type="cognomen">Primanus</name></persName>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator" xml:id="g1"><name nymRef="Sennus+?" type="gentilicium">Senn<supplied reason="lost">i</supplied></name></persName> <persName type="attested" ref="persons.xml#p" role="creator" xml:id="c1"><name nymRef="Primanus" type="cognomen">Primanus</name></persName>
                         <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ibernus" type="cognomen">Ibernus</name></persName> e<unclear>t</unclear> <persName type="attested" ref="persons.xml#p" role="creator" xml:id="c3"><name nymRef="-ternus+?" type="cognomen"><gap reason="illegible" quantity="1" unit="character"/>rn<unclear>u</unclear><supplied reason="lost" cert="low">s</supplied></name></persName>
                     <lb n="6"/>de suo po<unclear>sueru</unclear>nt
                 </ab>
@@ -109,7 +109,7 @@
                         CIL XIII 6130
                     </bibl>
                     <bibl>
-                        <ptr target="Bauchhenß1981"/>
+                        <ptr target="Bauchhenss1981"/>
                         <biblScope>
                             87, Nr. 7
                         </biblScope>

@@ -1,5 +1,5 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -74,7 +74,7 @@
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
-                    <lb n="1"/>In honorem domus divinae deo <persName type="divine" key="Mercurius Cimbrianus" role="god">M<hi rend="ligature">er</hi>cu<lb n="2" break="no"/>rioCi<hi rend="ligature">mb</hi>riano</persName> <hi rend="ligature">ae</hi><lb n="3" break="no"/>dem cum signo 
+                    <lb n="1"/>In honorem domus divinae deo <persName type="divine" key="Mercurius Cimbrianus" role="god">M<hi rend="ligature">er</hi>cu<lb n="2" break="no"/>rio Ci<hi rend="ligature">mb</hi>riano</persName> <hi rend="ligature">ae</hi><lb n="3" break="no"/>dem cum signo 
                     <lb n="4"/> <persName ref="persons.xml#p6" type="attested" role="creator"><name nymRef="Tettius" type="gentilicium">Tettius</name> <name nymRef="Perpetuius" type="gentilicium">Perpetu<lb n="5" break="no"/>ius</name> <name nymRef="Carus" type="cognomen">Carus</name></persName> 
                     <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>

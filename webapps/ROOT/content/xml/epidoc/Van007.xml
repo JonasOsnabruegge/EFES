@@ -83,7 +83,7 @@
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>iai</orig><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><date type="age" dur="P4Y"><expan><abbr><supplied reason="lost">ann</supplied>o</abbr><ex>rum</ex></expan> <num value="4">IIII</num> m<supplied reason="lost">ensium</supplied></date>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><date type="age" dur="P4Y"><expan><abbr><supplied reason="lost"> ann</supplied>o</abbr><ex>rum</ex></expan> <num value="4">IIII</num> m<supplied reason="lost">ensium</supplied></date>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>pie</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>

@@ -85,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Bellius" type="cognomen">Bellius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Suavis" type="cognomen">Su<lb n="2"/>avis</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> viv<supplied reason="omitted">u</supplied>s
-                    <lb n="3"/>sibi et <persName type="attested" ref="persons.xml#p"><name nymRef="Novia" type="cognomen">Novi<lb n="4" break="no"/>ae</name> <name nymRef="Postumus" type="cognomen"><name nymRef="Postumus" type="cognomen">Postumi</name></name></persName>
+                    <lb n="3"/>sibi et <persName type="attested" ref="persons.xml#p"><name nymRef="Novia" type="cognomen">Novi<lb n="4" break="no"/>ae</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Postumus" type="cognomen">Postumi</name></persName></persName>
                     <lb n="5"/>uxsori
                 </ab>
             </div>

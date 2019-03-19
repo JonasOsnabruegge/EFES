@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der obere Teil des Inschriftfeldes ist stark verrieben und die Inschrif tdort nicht mehr lesbar. Im unteren Teil ungleichmäßiges Schriftbild, Zeilenführung nicht eingehalten, schräg stehende Zeilen.</p>
+                                    <p>Der obere Teil des Inschriftfeldes ist stark verrieben und die Inschrift dort nicht mehr lesbar. Im unteren Teil ungleichmäßiges Schriftbild, Zeilenführung nicht eingehalten, schräg stehende Zeilen.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -87,7 +87,7 @@
                 <ab>
                     <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
                     <lb n="2"/><gap reason="lost" quantity="1" unit="line"/>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ius Qua<lb n="4" break="no"/>rtus
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="---ius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>ius</name> <name nymRef="Quartus" type="cognomen">Qua<lb n="4" break="no"/>rtus</name></persName>
                     <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan>
                 </ab>
             </div>

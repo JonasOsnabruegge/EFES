@@ -87,7 +87,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Candidius" type="cognomen">Candi<hi rend="ligature">d<hi rend="tall">i</hi></hi>us</name>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Candidus" type="cognomen">Cand<hi rend="ligature"><hi rend="tall">i</hi>d</hi>us</name>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Vintrio" type="cognomen">Vintrionis</name></persName></persName>
                     <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
@@ -113,7 +113,7 @@
                         </biblScope>
                     </bibl>
                     <bibl>
-                        <ptr target="Bauchhenß1981"/>
+                        <ptr target="Bauchhenss1981"/>
                         <biblScope>
                             104, Nr. 73
                         </biblScope>

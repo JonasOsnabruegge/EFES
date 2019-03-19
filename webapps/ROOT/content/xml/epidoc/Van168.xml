@@ -85,7 +85,7 @@
                     <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
                     <lb n="2"/>deo <persName type="divine" key="Mercurius" role="god">Me<lb n="3" break="no"/>rcurio</persName>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Felicius" type="cognomen">Felici<lb n="5" break="no"/>o</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Seccus" type="cognomen">Secci</name></persName></persName>
-                    <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>«
+                    <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

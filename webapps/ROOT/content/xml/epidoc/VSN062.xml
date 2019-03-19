@@ -81,7 +81,7 @@
                 <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">sa</supplied>crum
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---" type="praenomen"><gap reason="lost" atLeast="1" atMost="3" unit="character" cert="low"/></name><name nymRef="Orbius" type="gentilicium"><supplied reason="lost" cert="low">Orbius</supplied></name><name nymRef="---s" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>s</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name nymRef="Orbius" type="gentilicium">Orbi</name>
-                        <lb n="3"/><name nymRef="---" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>«
+                        <lb n="3"/><name nymRef="---" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

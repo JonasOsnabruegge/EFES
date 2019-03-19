@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="Mercurius?" role="god"><supplied reason="lost" cert="low">Mercu</supplied>rio</persName> et <persName type="divine" key="Rosmerta?" role="god"><supplied reason="lost" cert="low">Rosmert<supplied reason="omitted">a</supplied>e</supplied></persName>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>sioni</abbr><ex>us</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---sionius" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>sioni</abbr><ex>us</ex></expan></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
                     <lb n="3"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
                 </ab>
             </div>

@@ -84,8 +84,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
-                    <lb n="1"/>ustina <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="0"/><persName type="attested" ref="persons.xml#p"><name nymRef="---ustina" type="cognomen"><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1" break="no"/>ustina</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2"/>sib<surplus>b</surplus>i fec<supplied reason="lost">it</supplied><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>

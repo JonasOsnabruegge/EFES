@@ -87,7 +87,7 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="Mercurius" role="god"><hi rend="ligature">Me</hi>rcurio</persName> <expan><abbr>s</abbr><ex>acrum</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Totia" type="cognomen">Totia</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="cognomen">Luci</name></persName> <expan><abbr>fil</abbr><ex>ia</ex></expan></persName>
-                    <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>«
+                    <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

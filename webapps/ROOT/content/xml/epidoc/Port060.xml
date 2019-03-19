@@ -85,7 +85,7 @@
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/>aram <persName type="divine" key="Hercules" role="god"><expan><abbr>Her<lb n="2" break="no"/>cul</abbr><ex>is</ex></expan></persName> <expan><abbr>invi</abbr><ex>cti</ex></expan>
                     <lb n="3"/>dei et
-                    <lb n="4"/><supplied reason="omitted"/>
+                    <lb n="4"/><space quantity="2" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
