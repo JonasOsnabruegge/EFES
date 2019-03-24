@@ -86,7 +86,7 @@
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Augustius+?" type="gentilicium">August<supplied reason="lost" cert="low">ius</supplied></name>
                     <lb n="3"/><name nymRef="Ursulus+" type="cognomen">Ursulu<supplied reason="lost">s</supplied></name></persName> <supplied reason="lost" cert="low">et</supplied>
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Tauganius+?" type="cognomen">Taug<supplied reason="lost" cert="low">anius</supplied></name></persName>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Tauganius+?" type="gentilicium">Taug<supplied reason="lost" cert="low">anius</supplied></name></persName>
                     <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>

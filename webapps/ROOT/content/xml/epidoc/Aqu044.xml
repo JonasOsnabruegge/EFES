@@ -84,7 +84,7 @@
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Florentinia*" type="gentilicium">Florentin<supplied reason="omitted">a</supplied>e</name></persName> fili<supplied reason="omitted">a</supplied>e
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Tiberius" type="praenomen"><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name nymRef="Carrunius" type="cognomen">Carrunii</name></persName> <orig>fif</orig>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Tiberius" type="praenomen"><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name nymRef="Carrunius" type="gentilicium">Carrunii</name></persName> <orig>fif</orig>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>
             </div>

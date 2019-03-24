@@ -86,7 +86,7 @@
                 <ab>
                     <lb n="1"/><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Axsinia" type="gentilicium">Axsinia</name> <name nymRef="Ammula" type="cognomen">Am<lb n="3" break="no"/>mula</name></persName> con<hi rend="ligature">iu</hi>gi
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Mariniano" type="cognomen">Mariniano</name></persName> de
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marinianus" type="cognomen">Mariniano</name></persName> de
                     <lb n="5"/><supplied reason="lost" cert="low"><expan><abbr>s</abbr><ex>uo</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="6"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>

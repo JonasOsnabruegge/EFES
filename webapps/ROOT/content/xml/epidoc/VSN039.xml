@@ -74,7 +74,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p54"><name nymRef="Senecio" type="cognomen">Senecio</name> <persName type="attested" ref="persons.xml#p55"><name nymRef="Ianuari" type="cognomen">Ianu<lb n="3" break="no"/>ari</name> </persName> <expan><abbr>ci</abbr><ex>vis</ex></expan> Nemes</persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p54"><name nymRef="Senecio" type="cognomen">Senecio</name> <persName type="attested" ref="persons.xml#p55"><name nymRef="Ianuarius" type="cognomen">Ianu<lb n="3" break="no"/>ari</name> </persName> <expan><abbr>ci</abbr><ex>vis</ex></expan> Nemes</persName>
                     <lb n="4"/><date type="age" dur="P55Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="55">LV</num></date> et <expan><abbr>comem</abbr><ex>oriae</ex></expan>
                     <lb n="5"/><persName type="attested" ref="persons.xml#p56" role="creator"><name nymRef="Siora" type="cognomen">Siora</name> </persName> <expan><abbr>p</abbr><ex>iissimo</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan>
                     <lb n="6"/><expan><abbr>c</abbr><ex>uravit</ex></expan>

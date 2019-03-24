@@ -86,7 +86,7 @@
                 <ab>
                     <lb n="1"/>Di<supplied reason="lost">s</supplied>
                     <lb n="2"/>Manibus
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Flavius*" type="gentilicium"><expan><abbr>F</abbr><ex>lavio</ex></expan></name> <name nymRef="Sterionis+" type="cognomen">Sterion<supplied reason="lost">i</supplied></name></persName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="Flavius*" type="gentilicium"><expan><abbr>F</abbr><ex>lavio</ex></expan></name> <name nymRef="Sterio" type="cognomen">Sterion<supplied reason="lost">i</supplied></name></persName>
                     <lb n="4"/>veterano
                     <lb n="5"/><date type="age" dur="P100Y"><expan><abbr>an</abbr><ex>n</ex><abbr>orum</abbr></expan> C</date>
                     <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Flavius*" type="gentilicium"><expan><abbr>F</abbr><ex>lavius</ex></expan></name> <name nymRef="Vehemens" type="cognomen">V<hi rend="ligature"><unclear>ehe</unclear></hi>mens</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan>

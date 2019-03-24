@@ -86,7 +86,7 @@
                     <lb n="2"/><expan><abbr><supplied reason="lost">sa</supplied>c</abbr><ex>rum</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Terentius" type="gentilicium">Terentiu<supplied reason="lost">s</supplied></name>
                     <lb n="3"/><name nymRef="Marcellus" type="cognomen"><supplied reason="lost">M</supplied>arcellus</name></persName> pr<supplied reason="lost">o</supplied>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Nigrina" type="cognomen">Nigrina</name></persName> pro
-                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Terentius" type="gentilicium"><supplied reason="lost">T</supplied>erentio</name> <name nymRef="Septiminius" type="cognomen">Sep<lb n="6" break="no"/><supplied reason="lost">t</supplied>iminio</name></persName> fili<supplied reason="lost">o</supplied>
+                    <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Terentius" type="gentilicium"><supplied reason="lost">T</supplied>erentio</name> <name nymRef="Septiminus" type="cognomen">Sep<lb n="6" break="no"/><supplied reason="lost">t</supplied>imino</name></persName> fili<supplied reason="lost">o</supplied>
                     <lb n="7"/>et suis
                     <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>

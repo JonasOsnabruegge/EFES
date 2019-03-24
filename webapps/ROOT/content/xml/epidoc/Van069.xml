@@ -85,7 +85,7 @@
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimus</ex></expan> <expan><abbr>M</abbr><ex>aximus</ex></expan></persName>
                     <lb n="2"/>et <persName type="divine" key="IunoRegina" role="god"><expan><abbr>Iunon</abbr><ex>i</ex></expan>
                         <lb n="3"/>Reginae</persName>
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Victorina" type="gentilicium">Victor<hi rend="ligature"><hi rend="tall">i</hi>n</hi>a</name>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Victorin(i)a" type="gentilicium"><expan><abbr>Victor<hi rend="ligature"><hi rend="tall">i</hi>n</hi></abbr><ex>i</ex><abbr>a</abbr></expan></name>
                     <lb n="5"/><name nymRef="Primitiva" type="cognomen">Primitiva</name></persName>
                     <lb n="6"/>posuit
                 </ab>

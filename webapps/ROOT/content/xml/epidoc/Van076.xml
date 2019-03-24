@@ -90,7 +90,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Argiotalus" type="cognomen">Argiotalus</name>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Smertulianus" type="cognomen">Smertuliani</name></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Smertulitanus" type="cognomen">Smertulitani</name></persName>
                     <lb n="3"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <orgName type="ethnic" key="Namnetes">Namnis</orgName></persName> <expan><abbr>equ</abbr><ex>es</ex></expan>
                     <lb n="4"/><orgName type="ala" key="alaIndiana">ala Indiana</orgName>
                     <lb n="5"/><date type="military-service-span" dur="P10Y"><expan><abbr>stip</abbr><ex>endiorum</ex></expan> <num value="10">X</num></date> <date type="age" dur="P30Y"><expan><abbr>anno</abbr><ex>rum</ex></expan>
