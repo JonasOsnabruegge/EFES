@@ -90,7 +90,7 @@
                         <persName type="divine" key="MercurDefensor" role="god"><lb n="1"/><supplied reason="lost" cert="low">Deo</supplied> Me<supplied reason="lost">rcurio</supplied>
                             <milestone unit="section" type="corpus"/>
                         <lb n="2"/><expan><abbr>Defensor</abbr><ex>i</ex></expan></persName> <expan><abbr>s</abbr><ex>acrum</ex></expan>
-                        <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Maximin---" type="cognomen"><expan><abbr>Maximin</abbr><ex cert="low">us</ex></expan></name></persName> <expan><abbr>v</abbr><ex cert="low">eteranus</ex></expan>
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Maximinus" type="cognomen"><expan><abbr>Maximin</abbr><ex cert="low">us</ex></expan></name></persName> <expan><abbr>v</abbr><ex cert="low">eteranus</ex></expan>
                         <lb n="4"/><expan><abbr>l</abbr><ex cert="low">egionis</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Felicio" type="cognomen">Felicio</name></persName> <expan><abbr>v</abbr><ex>eteranus</ex></expan>
                         <lb n="5"/><expan><abbr>l</abbr><ex>egionis</ex></expan> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Leontius" type="cognomen">Leontius</name></persName>
                         <lb n="6"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>e</abbr><ex>t</ex></expan> <expan><abbr>s</abbr><ex>uorum</ex></expan>

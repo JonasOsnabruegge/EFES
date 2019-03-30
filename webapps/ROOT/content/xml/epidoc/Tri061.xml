@@ -83,7 +83,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Licinius" type="gentilicium">Licinius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Licinius" type="gentilicium">Licinius</name> <name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan>
                     <lb n="2"/><expan><abbr>Claud</abbr><ex>ia</ex></expan> <supplied reason="subaudible">tribu</supplied> <name nymRef="Maximus*" type="cognomen"><expan><abbr>Maxim</abbr><ex>us</ex></expan></name> <placeName nymRef="Aequum" ref="https://pleiades.stoa.org/places/197095">Aequo</placeName></persName>
                     <lb n="3"/><expan><abbr><supplied reason="lost">m</supplied>il</abbr><ex>es</ex></expan> <orgName type="legio" key="legioVIIIAugusta"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="8">V<supplied reason="lost">III</supplied></num><supplied reason="lost"> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied></orgName>
                 </ab>
@@ -107,6 +107,12 @@
                     </bibl>
                     <bibl>
                         CAG 67/2, 408
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            178, Nr. 1.155
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

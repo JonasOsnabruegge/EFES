@@ -84,7 +84,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Sempronius" type="gentilicium">Semproni<lb n="2" break="no"/>us</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> domo
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Sempronius" type="gentilicium">Semproni<lb n="2" break="no"/>us</name> <name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan> domo
                     <lb n="3"/><placeName type="ancient" nymRef="Termes" ref="https://pleiades.stoa.org/places/246688">Terme<supplied reason="lost" evidence="previouseditor">stinus</supplied></placeName></persName>
                     <lb n="4"/><supplied reason="lost" evidence="previouseditor"><date type="age" atLeast="20"><expan><abbr>anno</abbr><ex>rum</ex></expan> <num atLeast="20">XX</num></date></supplied><gap reason="lost" extent="unknown" unit="character"/>
                         <lb n="5"/><supplied reason="lost" evidence="previouseditor"><expan><abbr>dec</abbr><ex>urio</ex></expan> eques <orgName type="ala" key="alaSebosiana">alae

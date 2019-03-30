@@ -85,7 +85,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="DeusInvictusMithras" role="god"><expan><abbr>D</abbr><ex>eo</ex></expan> <expan><abbr>I</abbr><ex>nvicto</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>ithrae</ex></expan></supplied></persName>
-                    <lb n="2"/>Primu<lb n="3" break="no"/><supplied reason="lost" cert="low">s</supplied><gap reason="lost" quantity="2" unit="character"/><orig><unclear>s</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><persName type="divine" key="Primus?" role="god">Primu<lb n="3" break="no"/><supplied reason="lost" cert="low">s</supplied></persName><gap reason="lost" quantity="2" unit="character"/><orig><unclear>s</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></persName>
                     <lb n="4"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
                 </ab>
             </div>

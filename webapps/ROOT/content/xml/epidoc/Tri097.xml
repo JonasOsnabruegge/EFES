@@ -86,7 +86,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <div type="textpart" subtype="section" n="1">
                     <ab>
-                        <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Valerius" type="gentilicium">Valerius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>S<hi rend="tall">t</hi>el</abbr><ex>latina</ex></expan> <supplied reason="subaudible">tribu</supplied> <name nymRef="Rufus" type="cognomen">Rufus</name></persName>
+                        <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Valerius" type="gentilicium">Valerius</name> <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>S<hi rend="tall">t</hi>el</abbr><ex>latina</ex></expan> <supplied reason="subaudible">tribu</supplied> <name nymRef="Rufus" type="cognomen">Rufus</name></persName>
                         <lb n="2"/>ve<hi rend="tall">t</hi>eranus <date type="age" dur="P43Y"><expan><abbr>a<hi rend="ligature">nn</hi></abbr><ex>orum</ex></expan> <num value="43">XLIII</num></date> sib<choice><corr>i</corr><sic>e</sic></choice> e<hi rend="tall">t</hi>
                         <lb n="3"/>fra<hi rend="tall">t</hi>ribus su<hi rend="tall">i</hi>s pro pie<hi rend="tall">t</hi>a<hi rend="tall">t</hi>e
                     </ab>
@@ -94,13 +94,13 @@
                 <div type="textpart" subtype="section" n="2">
                     <div type="textpart" subtype="column" n="i">
                        <ab>
-                           <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name nymRef="Valerius" type="gentilicium">Valerio</name><persName type="attested" ref="persons.xml#p"> <name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan>
+                           <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name nymRef="Valerius" type="gentilicium">Valerio</name> <name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan>
                            <lb n="5"/><expan><abbr>S<hi rend="tall">t</hi>el</abbr><ex>latina</ex></expan> <supplied reason="subaudible">tribu</supplied> <name nymRef="Niger" type="cognomen">Nigro</name></persName>
                        </ab>
                     </div>
                     <div type="textpart" subtype="column" n="ii">
                        <ab>
-                           <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name nymRef="Valerius" type="gentilicium">Valerio</name><persName type="attested" ref="persons.xml#p"> <name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan>
+                           <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name nymRef="Valerius" type="gentilicium">Valerio</name> <name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan>
                            <lb n="5"/><expan><abbr>S<hi rend="tall">t</hi>el</abbr><ex>latina</ex></expan>  <supplied reason="subaudible">tribu</supplied></persName>
                        </ab> 
                     </div>

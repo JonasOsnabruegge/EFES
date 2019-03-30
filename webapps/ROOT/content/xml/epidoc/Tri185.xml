@@ -93,7 +93,7 @@
                     <lb n="2"/>divi<hi rend="ligature">n<supplied reason="omitted">a</supplied>e</hi> deabus
                     <lb n="3"/><persName type="divine" key="Quadriviae" role="god">Quadrubis</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcianius" type="gentilicium">M<lb n="4" break="no"/>arcianius</name> <name nymRef="Avitianus" type="cognomen">Avi<lb n="5" break="no"/>tianus</name></persName> <expan><abbr>m</abbr><ex>iles</ex></expan> <orgName type="legio" key="legioVIIIAugusta*"><expan><abbr>l</abbr><ex>egionis</ex></expan> <num value="8">VIII</num>
                     <lb n="6"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan></orgName> ex <expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>e</ex><abbr>r</abbr><ex>ito</ex></expan>
-                    <lb n="7"/>pro salute <persName type="attested" ref="persons.xml#p"><name nymRef="Iassa" type="cognomen">Ia<hi rend="superscript">s</hi>s<hi rend="ligature">ae</hi></name> <name nymRef="Titiola" type="cognomen">Ti<lb n="8" break="no"/>tiol<supplied reason="omitted">a</supplied>e</name></persName> coniguis
+                    <lb n="7"/>pro salute <persName type="attested" ref="persons.xml#p"><name nymRef="Iassa" type="cognomen">Ia<hi rend="superscript">s</hi>s<hi rend="ligature">ae</hi></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Titiola" type="cognomen">Ti<lb n="8" break="no"/>tiol<supplied reason="omitted">a</supplied>e</name></persName></persName> coniguis
                 </ab>
             </div>
             <div type="apparatus">

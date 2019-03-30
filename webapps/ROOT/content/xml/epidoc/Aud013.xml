@@ -58,7 +58,7 @@
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Obernburg/Neckar</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0150" cert="low">Faust: 2. Hälfte 2. Jh. n. Chr.</origDate>
+                            <origDate notBefore="0100" notAfter="0130" cert="low">Faust: 2. Hälfte 2. Jh. n. Chr. Wegen Totenmahldarstellung und ausgeschriebener Formel eher Anfang 2. Jh.</origDate>
                         </origin>
                         <provenance type="found" when="1928">
                             <placeName ref="ph">
@@ -139,6 +139,18 @@
                         </biblScope>
                     </bibl>
                     <!-- Krier, Treverer außerhalb der civitas -->
+                    <bibl>
+                        <ptr target="Wierschowski2001"/>
+                        <biblScope>
+                            451-452 Nr. 656
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            139-140, Nr. 1.115
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

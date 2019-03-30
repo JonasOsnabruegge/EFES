@@ -84,7 +84,7 @@
                 <ab>
                     <lb n="1"/>Deo <expan><abbr>Mercu</abbr><ex>rio</ex></expan>
                     <lb n="2"/>et <expan><abbr>Rosmer</abbr><ex>tae</ex></expan>
-                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Adiutorius" type="gentilicium">Adiuto<lb n="4" break="no"/>rius</name> <name nymRef="Memor" type="cognomen">Mem<lb n="5" break="no"/><milestone unit="section" type="base"/><surplus>m</surplus>mor</name></persName> <expan><abbr>d</abbr><ex>ecurio</ex></expan> <orgName type="civitas" key="civtasSt(---)"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <abbr>St</abbr></orgName>
+                    <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Adiutorius" type="gentilicium">Adiuto<lb n="4" break="no"/>rius</name> <name nymRef="Memor" type="cognomen">Mem<lb n="5" break="no"/><milestone unit="section" type="base"/><surplus>m</surplus>or</name></persName> <expan><abbr>d</abbr><ex>ecurio</ex></expan> <orgName type="civitas" key="civtasSt(---)"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <abbr>St</abbr></orgName>
                     <lb n="5"/>ex voto
                     <lb n="6"/><expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
@@ -121,6 +121,12 @@
                         <ptr target="Hildenbrand1911"/>
                         <biblScope>
                             58, Nr. 169
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            173-174, Nr. 1.151
                         </biblScope>
                     </bibl>
                 </listBibl>

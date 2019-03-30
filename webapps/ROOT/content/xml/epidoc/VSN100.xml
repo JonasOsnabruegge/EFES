@@ -88,7 +88,7 @@
                     <lb n="2"/>deabus <persName type="divine" key="Quadruves" role="god">Qu<lb n="3" break="no"/>adru<lb n="4" break="no"/><choice><corr>v</corr><sic>b</sic></choice>i<supplied reason="omitted">i</supplied>s</persName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ursinus" type="cognomen">Ursinus</name>
                     <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="Cocceius" type="cognomen">Coccei</name></persName></persName>
                     <lb n="6"/>et <persName type="attested" ref="persons.xml#p"><name nymRef="Cassius" type="gentilicium">Cassi</name>
-                    <lb n="7"/>coniunx <persName type="attested" ref="persons.xml#p" role="creator">Ursi<lb n="8" break="no"/>nia</persName> <name nymRef="Gaianus" type="cognomen">Gaiani</name></persName>
+                    <lb n="7"/>coniunx <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ursinia" type="gentilicium">Ursi<lb n="8" break="no"/>nia</name></persName> <name nymRef="Gaianus" type="cognomen">Gaiani</name></persName>
                     <lb n="9"/>ex voto
                     <lb n="10"/>posuerunt
                 </ab>

@@ -87,7 +87,7 @@
                     <lb n="3"/>percollectae
                     <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Durinius" type="gentilicium">Durin<supplied reason="lost">i</supplied>us</name> <name nymRef="Ursus" type="cognomen">Ursus</name></persName>
                     <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Camigenius" type="gentilicium"><expan><abbr>Camigen</abbr><ex>ius</ex></expan></name> <name nymRef="Antoninus" type="cognomen">Antoninus</name></persName>
-                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ioincius" type="gentilicium">Ioin<supplied reason="lost">c</supplied>ius</name> <persName type="divine" key="Lupio" role="god">Lupio</persName></persName>
+                    <lb n="6"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Ioincius" type="gentilicium">Ioin<supplied reason="lost">c</supplied>ius</name> <name nymRef="Lupio" type="cognomen">Lupio</name></persName>
                     <lb n="7"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secundinius" type="gentilicium"><expan><abbr>Secundin</abbr><ex>ius</ex></expan></name> <name nymRef="Divixtus" type="cognomen">Divixtus</name></persName>
                     <lb n="8"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Senecionius" type="gentilicium">Se<supplied reason="lost">ne</supplied>cionius</name> <name nymRef="Ursinus" type="cognomen">Ursinus</name></persName>
                     <lb n="9"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Senonius" type="gentilicium"><expan><abbr>Senon</abbr><ex>ius</ex></expan></name> <name nymRef="Verecundus" type="cognomen">Verecundus</name></persName>
@@ -124,6 +124,12 @@
                     </bibl>
                     <bibl>
                         RSO 126
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            286-288, Nr. 2.68
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

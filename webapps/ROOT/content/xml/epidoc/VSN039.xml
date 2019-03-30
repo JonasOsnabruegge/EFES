@@ -93,7 +93,13 @@
                 <listBibl>
                     <bibl>
                         HD038670
-                    </bibl>     
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            155-156, Nr. 1.132
+                        </biblScope>
+                    </bibl>
                     <bibl>
                         <ptr target="Feraudi2016a"/>
                         <biblScope>

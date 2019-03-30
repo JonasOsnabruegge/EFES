@@ -103,6 +103,12 @@
                         <biblScope>274</biblScope>
                     </bibl>
                     <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            291-292, Nr. 2.72
+                        </biblScope>
+                    </bibl>
+                    <bibl>
                         <ptr target="FeraudiLudwig2017"/>
                         <biblScope>
                             46, Nr. 19

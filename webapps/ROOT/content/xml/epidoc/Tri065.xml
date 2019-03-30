@@ -84,7 +84,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name nymRef="Flavius" type="gentilicium">Fl<hi rend="ligature">av</hi>ius</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>iti</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name nymRef="Flavius" type="gentilicium">Fl<hi rend="ligature">av</hi>ius</name> <name nymRef="Titus" type="praenomen"><expan><abbr>T</abbr><ex>iti</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan>
                     <lb n="2"/>O<choice><corr>u</corr><sic>f</sic></choice>fentina <supplied reason="subaudible">tribu</supplied>
                     <lb n="3"/><name nymRef="Peregrinus" type="cognomen">Peregrinus</name>
                     <lb n="4"/><placeName nymRef="Mediolanum" ref="https://pleiades.stoa.org/places/383706">Mediola<surplus>n</surplus>ni</placeName></persName>

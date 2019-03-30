@@ -53,7 +53,7 @@
                                 <placeName type="civitas" key="CSum" ref="ph">Civitas Sumelocennensis</placeName>
                                 <placeName type="ancient" key="Sumelocenna" ref="https://pleiades.stoa.org/places/118985">Sumelocenna</placeName>
                                 <placeName type="modern">Rottenburg/Neckar</placeName> 
-                            <origDate notBefore="0200" notAfter="0250">severisch?</origDate>
+                            <origDate notBefore="0170" notAfter="0230">severisch? Vor Caracalla (Haug-Sixt)</origDate>
                             </origPlace>
                         </origin>
                             <provenance type="found" notAfter="1852">
@@ -117,6 +117,12 @@
                         <ptr target="Esperandieu1931"/>
                         <biblScope>
                             382
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            165-166, Nr. 1.143
                         </biblScope>
                     </bibl>
                 </listBibl>

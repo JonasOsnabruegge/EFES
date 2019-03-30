@@ -79,10 +79,10 @@
                 <lb break="no"/><cb/>s <choice><orig>monime<cb/>ntum</orig><reg>monumentum</reg></choice><note>!</note> <expan><abbr>pos</abbr><ex>u</ex><abbr>it </abbr></expan>
                 <lb/><cb/><persName type="attested" ref="persons.xml#p12"><name type="cognomen">Secundo</name> <persName type="attested" ref="persons.xml#p11"><name type="cognomen">B<cb/>ervi</name></persName></persName> et <persName type="attested" ref="persons.xml#p13"><name type="cognomen"><expan><abbr>Mas
                 <lb break="no"/><cb/>uetinc</abbr><ex>a</ex><abbr>e</abbr></expan></name></persName> con<cb/>iugi et <persName type="attested" ref="persons.xml#p14"><name type="cognomen">Mat
-                <lb break="no"/><cb/>tio</name></persName> et <persName><name type="cognomen" ref="persons.xml#p15"><expan><abbr>Placi<cb/>d<hi rend="ligature" xml:id="ie1">i</hi></abbr><ex>a</ex><abbr><hi rend="ligature" xml:id="ie2">e</hi></abbr></expan></name></persName> neptiae  
-                <lb break="no"/><cb/><expan><abbr>fi<choice><sic>i</sic><corr>l</corr></choice>i</abbr><ex>a</ex><abbr>e</abbr></expan> <persName type="attested"><name type="cognomen"><choice><orig>Sicu<cb/>ndi</orig><reg>Secundi</reg></choice><note>!</note></name></persName> 
+                <lb break="no"/><cb/>tio</name></persName> et <persName type="attested"><name nymRef="Placidia" type="cognomen" ref="persons.xml#p15"><expan><abbr>Placi<cb/>d<hi rend="ligature" xml:id="ie1">i</hi></abbr><ex>a</ex><abbr><hi rend="ligature" xml:id="ie2">e</hi></abbr></expan></name> neptiae  
+                <lb break="no"/><cb/><expan><abbr>fi<choice><sic>i</sic><corr>l</corr></choice>i</abbr><ex>a</ex><abbr>e</abbr></expan> <persName type="attested"><name type="cognomen"><choice><orig>Sicu<cb/>ndi</orig><reg>Secundi</reg></choice><note>!</note></name></persName></persName>
                 <lb break="no"/><cb/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <cb/><expan><abbr>p</abbr><ex>ecunia</ex></expan>  
-                <lb/><cb/><persName type="attested" ref="persons.xml#p16"><name type="cognomen">Ungario</name></persName> <cb/>
+                <lb/><cb/><persName type="attested" ref="persons.xml#p16"><name nymRef="Ungario" type="cognomen">Ungario</name></persName> <cb/>
                locum ded
                 <lb break="no"/><cb/>it</ab></div>
                 <join target="#ie1 #ie2" result="hi" rend="ligature" scope="branches"/>

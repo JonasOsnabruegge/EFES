@@ -108,6 +108,12 @@
                     <bibl>
                         CIL XIII 6524
                     </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            142-143, Nr. 1.118
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

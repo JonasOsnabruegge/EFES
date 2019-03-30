@@ -75,7 +75,7 @@
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lb n="1"/> <gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                    <lb/><persName type="attested" ref="persons.xml#p18" role="dedicant"><gap reason="lost" extent="unknown" unit="character"/>anus Secund<gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb/><persName type="attested" ref="persons.xml#p18" role="creator"><name nymRef="---anus" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>anus</name> <name nymRef="Secund---" type="cognomen">Secund<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     <lb/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex cert="low">olvit</ex></expan> <expan><abbr>l</abbr><ex cert="low">aetus</ex></expan> <expan><abbr>l</abbr><ex cert="low">ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>

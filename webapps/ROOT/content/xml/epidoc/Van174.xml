@@ -94,7 +94,7 @@
                 <ab>
                     <lb n="1"/>Memoriae aeternitatis <persName type="attested" ref="persons.xml#p"><name nymRef="Lucania" type="gentilicium">Lucaniae</name>
                     <lb n="2"/><name nymRef="Victorina" type="cognomen">Victorinae</name></persName> coniugi pudicissimae
-                    <lb n="3"/>adque castissimae <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Pervincius" type="gentilicium">Pervincius</name> <name nymRef="Romulus" type="cognomen">Ro<lb n="4" break="no"/>mulus</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> maritus et <persName type="attested" ref="persons.xml#p" role="creator"><persName type="divine" key="Romanus" role="god">Romanus</persName></persName> f<hi rend="ligature"><hi rend="tall">i</hi>l</hi><hi rend="ligature"><hi rend="tall">i</hi>u</hi>s
+                    <lb n="3"/>adque castissimae <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Pervincius" type="gentilicium">Pervincius</name> <name nymRef="Romulus" type="cognomen">Ro<lb n="4" break="no"/>mulus</name></persName> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> maritus et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Romanus" type="cognomen">Romanus</name></persName> f<hi rend="ligature"><hi rend="tall">i</hi>l</hi><hi rend="ligature"><hi rend="tall">i</hi>u</hi>s
                     <lb n="5"/>ob inmensurabilem pietatem eius
                 </ab>
             </div>

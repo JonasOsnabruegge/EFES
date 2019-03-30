@@ -83,7 +83,7 @@
                 <ab>
                     <lb n="1"/>Deo <persName type="divine" key="MercuriusCissonius" role="god">Mercurio
                         <lb n="2"/>Cissonio</persName> <persName type="attested" ref="NemPers.xml#pNem39" role="creator"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Atulius*" type="gentilicium"><expan><abbr>Atul</abbr><ex>ius</ex></expan></name>
-                    <lb n="3"/><name nymRef="Gorgias">Gorgias</name></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+                    <lb n="3"/><name nymRef="Gorgias" type="cognomen">Gorgias</name></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

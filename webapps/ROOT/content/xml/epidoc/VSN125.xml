@@ -82,7 +82,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Claudia" type="gentilicium"><expan><abbr>Cl</abbr><ex>audiae</ex></expan></name> <name nymRef="Quarta" type="cognomen">Qua<lb n="2" break="no"/>rtae</name></persName> <date type="age" dur="P45Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="45">XXXXV</num></date> <expan><abbr>c</abbr><ex cert="low">ivi</ex></expan> <expan><abbr>R</abbr><ex cert="low">omanae</ex></expan>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <persName type="attested" ref="persons.xml#p"><name nymRef="Claudia" type="gentilicium"><expan><abbr>Cl</abbr><ex>audiae</ex></expan></name> <name nymRef="Quarta" type="cognomen">Qua<lb n="2" break="no"/>rtae</name></persName> <date type="age" dur="P45Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="45">XXXXV</num></date> <expan><abbr>c</abbr><ex cert="medium">oniugi</ex></expan> <expan><abbr>r</abbr><ex cert="medium">arissimae</ex></expan>
                     <lb n="3"/>et <persName type="attested" ref="persons.xml#p"><name nymRef="Mirio" type="cognomen">Mirioni</name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan> <date type="age" dur="P4Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="4">IIII</num></date> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex cert="low">ucius</ex></expan></name>
                     <lb n="4"/><gap reason="lost" quantity="1" unit="line"/></persName>
                 </ab>
@@ -110,7 +110,13 @@
                     <bibl>
                         <ptr target="Kakoschke2002"/>
                         <biblScope>
-                            Nr. 1.136
+                            159, Nr. 1.136
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2015"/>
+                        <biblScope>
+                            35-37, Nr. 8
                         </biblScope>
                     </bibl>
                 </listBibl>

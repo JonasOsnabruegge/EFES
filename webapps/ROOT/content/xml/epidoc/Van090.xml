@@ -109,6 +109,12 @@
                     <bibl>
                         CSIR D II/10, Nr. 68
                     </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            380-381, Nr. 4.26
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

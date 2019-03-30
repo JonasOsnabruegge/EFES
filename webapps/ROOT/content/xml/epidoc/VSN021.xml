@@ -105,6 +105,18 @@
                             299, Nr. 2
                         </biblScope>          
                     </bibl>
+                    <bibl>
+                        <ptr target="Wierschowski2001"/>
+                        <biblScope>
+                            414-415, Nr. 590
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            154, Nr. 1.130
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

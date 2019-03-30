@@ -86,7 +86,7 @@
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Tessia" type="gentilicium">Tessiae</name>
-                    <lb n="3"/><name nymRef="Iuvelnilis*" type="cognomen">Iu<supplied reason="omitted">v</supplied>enil<hi rend="small">i</hi></name> <expan><abbr>Hel</abbr><ex>vetiae</ex></expan></persName>
+                    <lb n="3"/><name nymRef="Iuvenilis*" type="cognomen">Iu<supplied reason="omitted">v</supplied>enil<hi rend="small">i</hi></name> <expan><abbr>Hel</abbr><ex>vetiae</ex></expan></persName>
                     <lb n="4"/><date type="age" dur="P37Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="37">XXXVII</num></date>
                     <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Silius" type="gentilicium">Silius</name> <name nymRef="Victor" type="cognomen">Victor</name>
                     <lb n="6"/><orgName type="ethnic" key="Helvetii"><expan><abbr>Hel</abbr><ex>vetius</ex></expan></orgName></persName> coniu<lb n="7" break="no"/>gi et sibi
@@ -122,6 +122,12 @@
                             381-382
                         </biblScope>
                     </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            163-165, Nr. 1.142
+                        </biblScope>
+                    </bibl> 
                 </listBibl>
             </div>
         </body>

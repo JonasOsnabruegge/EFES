@@ -124,6 +124,12 @@
                         </biblScope>
                     </bibl>
                     <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            305-306, Nr. 2.85
+                        </biblScope>
+                    </bibl>
+                    <bibl>
                         <ptr target="Scholz2012"/>
                         <biblScope>
                             2, 226, Nr. 1473

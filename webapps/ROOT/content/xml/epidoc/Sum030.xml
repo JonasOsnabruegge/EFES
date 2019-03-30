@@ -57,7 +57,7 @@
                                 <placeName type="civitas" key="CSum" ref="oh">Civitas Sumelocennensis</placeName>
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/118706">Grinario</placeName>
                                 <placeName type="modern">Köngen</placeName> 
-                            <origDate notBefore="0100" notAfter="0250"/>
+                            <origDate notBefore="0150" notAfter="0250"/>
                             </origPlace>
                         </origin>
                             <provenance type="found" when="1882-07-11">
@@ -121,6 +121,12 @@
                         <ptr target="Esperandieu1931"/>
                         <biblScope>
                             374-375, Nr. 595; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            160-161, Nr. 1.138
                         </biblScope>
                     </bibl>
                 </listBibl>

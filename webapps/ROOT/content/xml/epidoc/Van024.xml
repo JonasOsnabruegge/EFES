@@ -83,8 +83,8 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Oclatius" type="gentilicium">Oclatio</name>
-                    <lb n="3"/><name nymRef="Maritus" type="cognomen">Marito</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr><unclear>L</unclear></abbr><ex cert="low">uci</ex></expan></name> <expan><abbr><unclear>f</unclear></abbr><ex cert="low">ilio</ex></expan></persName></persName>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Oclatius" type="gentilicium">Oclatio</name></persName>
+                    <lb n="3"/>marito <expan><abbr>d</abbr><ex>e</ex><abbr>f</abbr><ex>uncto</ex></expan>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Rundo" type="cognomen">Rundo</name></persName> <expan><abbr>fil</abbr><ex>ius</ex></expan>
                     <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Materna" type="cognomen">Materna</name></persName>
                 </ab>

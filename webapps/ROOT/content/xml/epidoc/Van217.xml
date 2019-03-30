@@ -89,7 +89,7 @@
                     <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="Secundinus" type="cognomen"><supplied reason="lost">S</supplied>ecundinus</name></persName>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="---a" type="gentilicium"><gap reason="lost" extent="unknown" unit="character"/>a</name> <name nymRef="Suarica" type="cognomen">Suarica</name></persName>
                     <lb n="5"/><persName type="attested" ref="persons.xml#p"><name nymRef="---isia" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>isia</name></persName> mater
-                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ex vo</supplied>to posu<supplied reason="lost">it</supplied>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ex vo</supplied>to posu<supplied reason="lost">erunt</supplied>
                 </ab>
             </div>
             <div type="apparatus">

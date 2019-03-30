@@ -107,6 +107,18 @@
                     <bibl>
                         CIL XIII 6460
                     </bibl>
+                    <bibl>
+                        <ptr target="Wierschowski2001"/>
+                        <biblScope>
+                            399 Nr. 564
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            145-146, Nr. 1.122
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

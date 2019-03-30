@@ -108,6 +108,12 @@
                     <bibl>
                         CAG 67/1, 575
                     </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            465, Nr. 9.10
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

@@ -53,7 +53,7 @@
                                 <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Walheim</placeName>
-                            <origDate notBefore="0130" notAfter="0250"/>
+                            <origDate notBefore="0150" notAfter="0250"/>
                             </origPlace>
                         </origin>
                             <provenance type="found" when="1983">
@@ -101,6 +101,12 @@
                 <listBibl>
                     <bibl>
                         HD037204
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            290, Nr. 2.70
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

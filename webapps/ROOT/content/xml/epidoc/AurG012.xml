@@ -88,8 +88,8 @@
                     <lb n="4"/>summersam <orig><unclear>n</unclear></orig>
                     <lb n="5"/>bon<supplied reason="omitted">a</supplied>e salut<supplied reason="lost">i</supplied>
                     <lb n="6"/>sit redditu<supplied reason="lost">s</supplied>
-                    <lb n="7"/>et sui <persName type="attested" ref="persAurG.xml#pAurG62" role="creator">L<hi rend="small">i</hi>ciniu<supplied reason="lost">s</supplied>
-                    <lb n="8"/>Divixtus</persName>
+                    <lb n="7"/>et sui <persName type="attested" ref="persAurG.xml#pAurG62" role="creator"><name nymRef="Licinius" type="gentilicium">L<hi rend="small">i</hi>ciniu<supplied reason="lost">s</supplied></name>
+                    <lb n="8"/><name nymRef="Divixtus" type="cognomen">Divixtus</name></persName>
                     <lb n="9"/>negotiator
                     <lb n="10"/>ex voto posu<supplied reason="lost">it</supplied>
                     <lb n="11"/><date when-custom="0227" datingMethod="#julian" type="consulship"><persName type="consul" ref="PIR N² 235"><name nymRef="Albinus" type="cognomen">A<subst><del rend="corrected">b</del><add place="overstrike">l</add></subst>bino</name></persName>
@@ -124,6 +124,12 @@
                         <ptr target="Schillinger-Haefele1977"/>
                         <biblScope>
                             476-477, Nr. 36
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            146-147, Nr. 1.123
                         </biblScope>
                     </bibl>
                 </listBibl>

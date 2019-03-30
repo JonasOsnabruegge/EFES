@@ -48,7 +48,7 @@
                                 <placeName type="vicus" ref="ph"/>
                                 <placeName type="modern">Heidelberg</placeName>
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
+                            <origDate notBefore="0070" notAfter="0150" cert="low"/>
                         </origin>
                         <provenance type="found" when="1886-04-20"><placeName ref="ph">Heidelberg, Heiligenberg, Michaelskloster</placeName><geo>49.425775 8.706312</geo>
                         </provenance>
@@ -100,6 +100,12 @@
                     </bibl>
                     <bibl>
                         RSO 107
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            156-157, Nr. 1.133
+                        </biblScope>
                     </bibl>
                     <bibl>
                         <ptr target="Wagner1911"/>

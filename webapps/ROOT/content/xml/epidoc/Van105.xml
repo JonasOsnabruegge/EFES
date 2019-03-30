@@ -90,7 +90,7 @@
                     </div>
                     <div type="textpart" subtype="field" n="2">
                         <ab>
-                            <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Candidius" type="gentilicium">Candidio</name> <name nymRef="Martinus" type="cognomen">Martino</name> <expan><abbr><num value="6">IIIIII</num><lb n="2" break="no"/>vir</abbr><ex>o</ex></expan> Augustali <orgName type="ethnic" key="Sentii?"><expan><abbr>c</abbr><ex>ivi</ex></expan> Sen<supplied reason="lost">t</supplied>io</orgName></persName>
+                            <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name nymRef="Candidius" type="gentilicium">Candidio</name> <name nymRef="Martinus" type="cognomen">Martino</name> <expan><abbr><num value="6">IIIIII</num><lb n="2" break="no"/>vir</abbr><ex>o</ex></expan> Augustali <expan><abbr>c</abbr><ex>ivi</ex></expan> <placeName nymRef="Dinia Sentionum" ref="https://pleiades.stoa.org/places/157843" cert="low">Sen<supplied reason="lost">t</supplied>io</placeName></persName>
                             <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Severia" type="gentilicium">Severia</name> <name nymRef="Severa" type="cognomen">Severa</name></persName> coniux
                             <lb n="4"/>et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Candidia" type="gentilicium">Candidia</name> sive <name nymRef="Martinia" type="gentilicium">Marti<lb n="5"/>nia</name> <name nymRef="Dignilla" type="cognomen">Dignilla</name></persName> filia <expan><abbr>fac</abbr><ex>iendum</ex></expan>
                             <lb n="6"/><expan><abbr>cur</abbr><ex>averunt</ex></expan>
@@ -113,6 +113,18 @@
                     </bibl>
                     <bibl>
                         CIL XIII 6243
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wierschowski2001"/>
+                        <biblScope>
+                            397-398, Nr. 562
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            169-171, Nr. 1.148
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

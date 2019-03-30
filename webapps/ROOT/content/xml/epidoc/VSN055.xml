@@ -53,7 +53,7 @@
                                 <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
                                 <placeName type="modern">Ladenburg</placeName>
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0230" cert="medium"/>
+                            <origDate notBefore="0170" notAfter="0250" cert="medium"/>
                         </origin>
                         <provenance type="found" when="1973"><placeName ref="ph">Ladenburg, Trajanstraße 19a als Verfüllung in einem römischen Brunnen</placeName><geo>49.4678 8.6097</geo>
                         </provenance>
@@ -127,6 +127,12 @@
                         <ptr target="Wiegels2000"/>
                         <biblScope>
                             42-48, Nr. 10a; Abb. 10a-o
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            376-378, Nr. 4.23
                         </biblScope>
                     </bibl>
                 </listBibl>

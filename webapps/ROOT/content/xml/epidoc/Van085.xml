@@ -116,6 +116,12 @@
                     <bibl>
                         CSIR D 2/10, Nr. 54
                     </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            171, Nr. 1.149
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

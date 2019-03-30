@@ -100,6 +100,12 @@
                     <bibl>
                         CIL XIII 6453
                     </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            417-418, Nr. 5. 29
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

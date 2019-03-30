@@ -87,7 +87,7 @@
                     <lb n="1"/><persName type="divine" key="Diana Abnoba" role="god">Dianae
                         <lb n="2"/>Abonb<supplied reason="lost">ae</supplied></persName>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Sennius" type="gentilicium">Senn<supplied reason="lost">i</supplied><hi rend="ligature">us</hi></name>
-                    <lb n="4"/><name nymRef="Fronto" type="cognomen"><supplied reason="lost">Fr</supplied>onto</name></persName> <expan><abbr>s</abbr><ex>olvie</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan>
+                    <lb n="4"/><name nymRef="Fronto" type="cognomen"><supplied reason="lost">Fr</supplied>onto</name></persName> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

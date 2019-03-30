@@ -84,7 +84,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Autronius" type="gentilicium">Autronius</name>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> Sergia <supplied reason="subaudible">tribu</supplied> <placeName nymRef="Norba" ref="https://pleiades.stoa.org/places/256327">Norba</placeName>
+                    <lb n="2"/><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan> Sergia <supplied reason="subaudible">tribu</supplied> <placeName nymRef="Norba" ref="https://pleiades.stoa.org/places/256327">Norba</placeName>
                     <lb n="3"/><name nymRef="Silo" type="cognomen">Silo</name></persName> veteranus
                     <lb n="4"/>ex <orgName type="legio" key="legioII"><expan><abbr>leg</abbr><ex>ione</ex></expan> <num value="2">II</num></orgName>
                     <lb n="5"/><orgName type="heredes" role="creator">heredes</orgName> ex

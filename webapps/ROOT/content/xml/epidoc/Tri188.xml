@@ -88,7 +88,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-                    <lb n="2"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> perp<hi rend="ligature"><hi rend="reversed">e</hi>t</hi><hi rend="ligature">uae</hi> secur<hi rend="ligature"><hi rend="tall">i</hi>t</hi><hi rend="small">a</hi><lb n="3" break="no"/><hi rend="ligature">t<hi rend="tall">i</hi></hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Iulia" type="gentilicium">Iuli<hi rend="ligature">ae</hi></name> B<name nymRef="Blandula" type="cognomen">landul<supplied reason="omitted">a</supplied>e</name></persName>
+                    <lb n="2"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> perp<hi rend="ligature"><hi rend="reversed">e</hi>t</hi><hi rend="ligature">uae</hi> secur<hi rend="ligature"><hi rend="tall">i</hi>t</hi><hi rend="small">a</hi><lb n="3" break="no"/><hi rend="ligature">t<hi rend="tall">i</hi></hi> <persName type="attested" ref="persons.xml#p"><name nymRef="Iulia" type="gentilicium">Iuli<hi rend="ligature">ae</hi></name> <name nymRef="Blandula" type="cognomen">Blandul<supplied reason="omitted">a</supplied>e</name></persName>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Cornelius" type="gentilicium">Cornelius</name> <name nymRef="Iuvenilis" type="cognomen">Iuveni<lb n="5" break="no"/>lis</name></persName> mar<hi rend="ligature"><hi rend="tall">i</hi>t</hi>us
                     <lb n="6"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>

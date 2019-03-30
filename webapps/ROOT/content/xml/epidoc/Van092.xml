@@ -83,7 +83,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name nymRef="Vibius" type="gentilicium">Vibius</name>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>ai</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Volt</abbr><ex>inia</ex></expan> <supplied reason="subaudible">tribu</supplied>
+                    <lb n="2"/><name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Volt</abbr><ex>inia</ex></expan> <supplied reason="subaudible">tribu</supplied>
                     <lb n="3"/><name nymRef="Virilio" type="cognomen">Virilio</name></persName>
                     <lb n="4"/><expan><abbr>eq</abbr><ex>ues</ex></expan> <orgName type="legio" key="legioXV"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="15">XV</num></orgName>
                     <lb n="5"/><date type="age" dur="P45Y"><expan><abbr>ann</abbr><ex>orum</ex></expan> <num value="45">XLV</num></date>

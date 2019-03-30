@@ -107,6 +107,12 @@
                     <bibl>
                         CSIR D II/1, Nr. 57
                     </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            421-422, Nr. 5.34
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

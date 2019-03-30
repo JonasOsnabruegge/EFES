@@ -105,6 +105,18 @@
                     <bibl>
                         CIL XIII 6090
                     </bibl>
+                    <bibl>
+                        <ptr target="Hildenbrand1911"/>
+                        <biblScope>
+                            Nr. 135a
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            343-344, Nr. 3.12
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

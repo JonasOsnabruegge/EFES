@@ -110,6 +110,12 @@
                     <bibl>
                         CSIR D II/13, Nr. 318
                     </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            151, Nr. 1.128
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

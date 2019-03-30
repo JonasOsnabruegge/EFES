@@ -90,7 +90,7 @@
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" ref="persons.xml#p"><name nymRef="Rufus?" type="cognomen"> R<unclear>ufo</unclear></name></persName> <unclear>e</unclear><supplied reason="lost" cert="low">t</supplied> <gap reason="lost" extent="unknown" unit="character" cert="low"/>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>iisonis</orig><gap reason="lost" extent="unknown" unit="character" cert="low"/>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p"><name nymRef="---a" type="cognomen?"><gap reason="lost" extent="unknown" unit="character"/>a</name></persName> et <persName type="attested" ref="persons.xml#p"><name nymRef="Aprill---" type="cognomen">April<gap reason="lost" extent="unknown" unit="character"/></name></persName>
-                    <lb n="4"/>defu<supplied reason="omitted">c</supplied>toh <gap reason="lost" extent="unknown" unit="character" cert="low"/>
+                    <lb n="4"/>defu<supplied reason="omitted">n</supplied>cto <gap reason="lost" extent="unknown" unit="character" cert="low"/>
                     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> s</supplied>ibi et suis su<supplied reason="lost">o</supplied><lb n="6" break="no"/><supplied reason="lost">rumque post</supplied>eris
                 </ab>
             </div>

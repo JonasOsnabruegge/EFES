@@ -58,7 +58,7 @@
                         </origin>
                             <provenance type="found" when="1862">
                             <placeName ref="ph">
-                               Calw, Stammheim, westlich vom Dorf.
+                               Calw, Stammheim, westlich vom Dorf, villa rustica.
                             </placeName><geo>48.693 8.757</geo>
                             </provenance>
                         <provenance type="observed">
@@ -109,6 +109,12 @@
                         <ptr target="HaugSixt1900"/>
                         <biblScope>
                             77, Nr. 110; m. Abb.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2002"/>
+                        <biblScope>
+                            161-162, Nr. 1.139
                         </biblScope>
                     </bibl>
                 </listBibl>

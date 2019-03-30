@@ -84,7 +84,7 @@
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Porcius" type="gentilicium">Porcius</name>
-                     <persName type="attested" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arci</ex></expan></name> </persName><expan><abbr>lib</abbr><ex>ertus</ex></expan> <name nymRef="Crescens" type="cognomen">Cres<lb n="3" break="no"/>cens</name></persName> testamento fieri
+                     <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>lib</abbr><ex>ertus</ex></expan> <name nymRef="Crescens" type="cognomen">Cres<lb n="3" break="no"/>cens</name></persName> testamento fieri
                     <lb n="4"/>iussit sibi et <persName type="attested" ref="persons.xml#p"><name nymRef="Porcia" type="gentilicium">Porciae</name> <name nymRef="Mansueta" type="cognomen">Man<lb n="5" break="no"/>suetae</name></persName> coniugi suae <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Porcius" type="gentilicium"><unclear>P</unclear>or<lb n="6"/>cius</name> <name nymRef="Verecundus" type="cognomen">Verecundus</name></persName> <expan><abbr>l<unclear>i</unclear>b</abbr><ex>ertus</ex></expan> et
                     <lb n="7"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>
