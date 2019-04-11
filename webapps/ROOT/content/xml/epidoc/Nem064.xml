@@ -84,9 +84,9 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" extent="1" unit="character"/>
-                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem93"><name nymRef="Ursio?" type="cognomen">Ursio</name></persName><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="3"/><orig>itoni</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested" ref="NemPers.xml#pNem93"><name nymRef="Ursio?" type="cognomen">Ursio</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><orig>itoni</orig><supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/>ex v<unclear>o</unclear><supplied reason="lost">to <expan cert="low"><abbr>p</abbr><ex>osu-</ex></expan></supplied>
                     <lb n="5"/><expan><abbr>l</abbr><ex>aet-</ex></expan> <expan><abbr>l</abbr><ex>iben</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
@@ -115,6 +115,12 @@
                         <ptr target="Hildenbrand1911"/>
                         <biblScope>
                             54, Nr. 174
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Kakoschke2018"/>
+                        <biblScope>
+                            30-33, Nr. 30
                         </biblScope>
                     </bibl>
                 </listBibl>

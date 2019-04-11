@@ -84,10 +84,10 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Attonia" type="gentilicium">At<hi rend="small">t</hi>onia<supplied reason="omitted">e</supplied></name> <name nymRef="Selma" type="cognomen">Se<hi rend="ligature">lma</hi><supplied reason="omitted">e</supplied></name>
+                    <lb n="1"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Attonia" type="gentilicium">At<hi rend="small">t</hi>onia</name> <name nymRef="Selma" type="cognomen">Se<hi rend="ligature">lma</hi></name>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Nicco" type="cognomen">Nicc<hi rend="small">o</hi></name> <persName type="attested" ref="persons.xml#p"><name nymRef="Atto" type="cognomen">At<hi rend="small">t</hi>onis</name></persName></persName> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName>
                     <lb n="3"/>et <persName type="attested" ref="persons.xml#p"><name nymRef="Quintus" type="cognomen">Qui<hi rend="ligature">nt</hi>o</name></persName> et
-                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Saturnina" type="cognomen">Saturnina</name></persName> <persName type="attested" ref="persons.xml#p"><name nymRef="Carantus" type="cognomen">C<hi rend="small">a</hi>r<lb n="5" break="no"/>anti</name></persName> filio et fi<lb n="6" break="no"/>liae <gap reason="illegible" extent="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><persName type="attested" ref="persons.xml#p"><name nymRef="Saturnina" type="cognomen">Saturnina<supplied reason="omitted">e</supplied></name></persName> <persName type="attested" ref="persons.xml#p"><name nymRef="Carantus" type="cognomen">C<hi rend="small">a</hi>r<lb n="5" break="no"/>anti</name></persName> filio et fi<lb n="6" break="no"/>liae <gap reason="illegible" extent="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="7"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>
             </div>

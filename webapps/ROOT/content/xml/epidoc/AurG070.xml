@@ -53,7 +53,7 @@
                                 <placeName type="civitas" key="CAur" ref="ph">Civitas Aurelia G...?</placeName>
                                 <placeName type="ancient" key="vicusAurelianus" ref="https://pleiades.stoa.org/places/119026">Vicus Aurelianus</placeName>
                                 <placeName type="modern">Öhringen</placeName>
-                            <origDate notBefore="0071" notAfter="0250"/>
+                            <origDate notBefore="0160" notAfter="0250"/>
                             </origPlace>
                         </origin>
                             <provenance type="found" when="1911">

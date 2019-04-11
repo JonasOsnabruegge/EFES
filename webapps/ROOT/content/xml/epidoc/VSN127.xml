@@ -53,7 +53,7 @@
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Ladenburg</placeName>
-                            <origDate notBefore="0070" notAfter="0200"/>
+                            <origDate notBefore="0070" notAfter="0150">Truppengeschichte (Feraudi).</origDate>
                             </origPlace>
                         </origin>
                             <provenance type="found" when="2009">

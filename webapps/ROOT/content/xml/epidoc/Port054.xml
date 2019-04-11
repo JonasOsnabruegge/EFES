@@ -82,7 +82,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><orgName type="collegiom" key="collegium Matisonensium">Collegio Matisonensi<lb n="2" break="no"/>um</orgName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Venussimus" type="cognomen">Venussimus</name></persName> <expan><abbr><choice><corr>f</corr><sic>e</sic></choice>il</abbr><ex>ius</ex></expan> <choice><orig>Φt</orig> <expan><abbr>opt</abbr><ex>io</ex></expan></choice>
+                    <lb n="1"/><orgName type="collegiom" key="collegium Matisonensium">Collegio Matisonensi<lb n="2" break="no"/>um</orgName> <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Venussimus" type="cognomen">Venussimus</name></persName> et <choice><orig>Φt</orig> <expan><abbr>opt</abbr><ex>io</ex></expan></choice>
                     <lb n="2"/><expan><abbr>co<supplied reason="lost">l</supplied></abbr><ex>legii</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripto</ex></expan> ei <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
                     
                 </ab>

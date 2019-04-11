@@ -84,8 +84,8 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
-                    <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Sulpicia" type="gentilicium"><supplied reason="lost">Sulp</supplied>icia</name> <name nymRef="Vepa" type="cognomen">Vepa</name></persName> 
-                    <lb n="2"/><supplied reason="lost"><expan><abbr>mat</abbr><ex>er</ex></expan></supplied> et <persName type="attested" ref="persons.xml#p"><name nymRef="Sulpicia" type="gentilicium">Sulpicia</name> 
+                    <lb n="1"/><subst><del><persName type="attested" ref="persons.xml#p"><gap reason="lost" quantity="1" unit="character"/> <name nymRef="Sulpicius" type="gentilicium">Sulpicius</name> <name nymRef="Vepanus?" type="cognomen">Vepa<lb n="2" break="no"/><supplied reason="lost" cert="low">nus</supplied></name></persName></del><add place="overstrike"><persName type="attested" ref="persons.xml#p"><name nymRef="Sulpicia" type="gentilicium"><supplied reason="lost">Sulp</supplied>icia</name> <name nymRef="Vepa" type="cognomen">Vepa</name></persName> 
+                    <lb n="2"/><supplied reason="lost" cert="low">na</supplied></add></subst> et <persName type="attested" ref="persons.xml#p"><name nymRef="Sulpicia" type="gentilicium">Sulpicia</name> 
                     <lb n="3"/><name nymRef="Pervinca" type="cognomen">Pervinca</name></persName> <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan>
                     <lb n="4"/><expan><abbr>tes</abbr><ex>tamento</ex></expan> an<supplied reason="lost">t</supplied>a<supplied reason="lost">s<certainty locus="name" match="preceding-sibling::text()" cert="low"/> i</supplied>n solo 
                     <lb n="5"/>Caesaris posu<lb break="no" n="6"/>erunt <date when="0188-03-30"><persName type="consul" ref="PIR S 243"><name nymRef="Fuscianus" type="cognomen">Fusc<supplied reason="lost">i</supplied>ano</name></persName> 
@@ -113,6 +113,18 @@
                     </bibl>
                     <bibl>
                         AE 1989, 567. 568
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels1989b"/>
+                        <biblScope>
+                            
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Wiegels1989c"/>
+                        <biblScope>
+                           461 
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

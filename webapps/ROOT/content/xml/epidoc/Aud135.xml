@@ -112,11 +112,17 @@
                         AE 1951, 134
                     </bibl>
                     <bibl>
-                    </bibl>
                         CSIR D II/13, Nr. 155
+                    </bibl>
                     <bibl>
                         RSO 133
                     </bibl>
+                        <bibl>
+                            <ptr target="Kakoschke2017b"/>
+                            <biblScope>
+                                27-29, Nr. 3
+                            </biblScope>
+                        </bibl>
                 </listBibl>
             </div>
         </body>
