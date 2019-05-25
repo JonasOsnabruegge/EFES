@@ -118,6 +118,12 @@
                         ILS 9305
                     </bibl>
                     <bibl>
+                        <ptr target="Grunenwald1904"/>
+                        <biblScope>
+                            208f.
+                        </biblScope>
+                    </bibl>
+                    <bibl>
                         <ptr target="Hildenbrand1911"/>
                         <biblScope>
                             58, Nr. 169

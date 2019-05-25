@@ -87,7 +87,7 @@
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Florentinius*" type="gentilicium"><expan><abbr>Flore<hi rend="ligature">n<hi rend="tall">t</hi></hi>ini</abbr><ex>us</ex></expan></name>
                     <lb n="3"/><name nymRef="Quintianus" type="cognomen">Qu<hi rend="ligature"><hi rend="tall">i</hi>n</hi><hi rend="ligature">t<hi rend="tall">i</hi></hi>anus</name></persName>
-                    <lb n="4"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <orgName type="cohors" key="cohorsXXIIIvoluntariorum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="23">XXIII</num>
+                    <lb n="4"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <orgName type="cohors" key="cohorsXXIIIIvoluntariorum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="23">XXIIII</num>
                     <lb n="5"/><expan><abbr>vol</abbr><ex>untariorum</ex></expan></orgName> ex <expan><abbr>cor<hi rend="ligature">n<hi rend="tall">i</hi></hi><lb n="6" break="no"/>cul</abbr><ex>ario</ex></expan> <expan><abbr>pr<supplied reason="omitted"/>ef</abbr><ex>ecti</ex></expan>
                     <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>

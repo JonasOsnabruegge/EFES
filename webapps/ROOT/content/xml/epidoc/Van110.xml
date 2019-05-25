@@ -104,6 +104,12 @@
                         CIL XIII 11699
                     </bibl>
                     <bibl>
+                        <ptr target="Grunenwald1904"/>
+                        <biblScope>
+                            211
+                        </biblScope>
+                    </bibl>
+                    <bibl>
                         <ptr target="Hildenbrand1911"/>
                         <biblScope>
                             57, Nr. 192
