@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>.</p>
+                                    <p><term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilenstein</term>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(135)</height>
@@ -70,7 +70,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilenstein</term>
                 </keywords>
             </textClass>
         </profileDesc>

@@ -84,8 +84,8 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="Mercurius" role="god"><hi rend="ligature">Me</hi>rc<hi rend="ligature">uri</hi>o</persName>
                     <lb n="2"/>ex v<supplied reason="omitted">o</supplied>to <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Masuinnus" type="cognomen">Ma<lb n="3" break="no"/>suinnus</name> <persName type="attested" ref="persons.xml#p"><name nymRef="Irdutus" type="cognomen">Ir<lb n="4" break="no"/>duti</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>c</abbr><ex>ustos</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> ex
-                    <lb n="5"/><orgName type="numerus" key="numerusEROVI---"><expan><abbr>num</abbr><ex>ero</ex></expan> <orig>erovi</orig>
-                    <lb n="6"/><orig>rgin cvm</orig></orgName>
+                    <lb n="5"/><orgName type="numerus" key="numerus VI---"> numero <orig>vi</orig>
+                    <lb n="6"/><orig><unclear>rgin cvm</unclear></orig></orgName>
                     <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
