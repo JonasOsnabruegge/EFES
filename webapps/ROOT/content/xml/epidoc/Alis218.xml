@@ -3,36 +3,35 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Meilensäule des Septimius Severus</title>
+                <title>Weihinschrit für Minerva auf der Basis einer Statuette</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">Nem146</idno>
+                <idno type="filename">Alis218</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
-                        <idno>A 39</idno>
+                        <repository>Stuttgart, Württembergisches Landesmuseum</repository>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>, mittig vertikal sowie oben und unten abgebrochen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/241">Statue</objectType> der Minerva, dreiviertel lebensgroß, in mehreren aneinanderpassenden Fragmenten. Kopf und Arme abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height>(53)</height>
-                                            <width>46</width>
-                                            <depth/>
+                                            <height>(78)</height>
+                                            <width></width>
+                                            <depth></depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>
-                                        Inschriftfeld verwittert.
+                                    <p>Die Inschrift befindet sich auf der Vorderseite der Basis. Rechter Teil des Inschriftfeldes nicht mehr erhalten.
                                     </p>
                                     <dimensions>
                                         <height/>
@@ -43,8 +42,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig ausgeführte quadratische Buchstaben mit Serifen.</p>
-                                <height>7,0</height>
+                                <p>Regelmäßig konstruierte, überwiegend gleichmäßige quadratische Buchstaben mit Serifen. Dreieckige Worttrenner. (++)</p>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -52,15 +51,15 @@
                         <origin>
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
-                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
-                                <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
-                                <placeName type="modern">Altrip</placeName> 
+                                <placeName type="civitas" key="CAlis" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="Caputcivitatis" key="ph" ref="ph">Civitas Alisinensium</placeName>
+                                <placeName type="modern">Bad Wimpfen im Tal</placeName> 
                             </origPlace>
-                            <origDate notBefore="0193" notAfter="0194" cert="low"/>
+                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1842">
-                            <placeName ref="ph">Altrip, Gärten der Witwe Hook - verschleppt aus dem spätantiken Burgus?</placeName>
-                            <geo>49.4328489 8.5019498</geo>
+                        <provenance type="found" when="1985">
+                            <placeName ref="ph">Bad Wimpfen, Wimpfen im Tal, Gewann 'Krautgärten', vicus, sogenanntes Kultgebäude.</placeName>
+                            <geo>49.2298 9.186</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -71,22 +70,21 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilenstein</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
                 </keywords>
             </textClass>
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/img/26628-1.jpg"/>
+        <graphic url="http://lupa.at/img/7776-5.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> </supplied><expan><abbr><supplied reason="lost">C</supplied>aes</abbr><ex>ari</ex></expan>
-                    <lb n="2"/><supplied reason="lost"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> </supplied><supplied reason="lost">Septi</supplied>mio
-                    <lb n="3"/><supplied reason="lost">Seve</supplied>ro <expan><abbr>Per<lb n="4" break="no"/><supplied reason="lost">tin</supplied>ac</abbr><ex>i</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
-                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="0"/><supplied reason="lost">I</supplied>n <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <persName type="divine" key="Minerva" role="god">Mi<hi rend="ligature">ne</hi>r<supplied reason="lost">vae</supplied></persName><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" unit="character" extent="1"/><unclear>i</unclear>l <persName type="attested" ref="persons.xml#p"><name nymRef="Florus" type="cognomen">Florus</name> </persName>et <orig>cot</orig> <orig><unclear>i</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
@@ -101,16 +99,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD075731
+                        HD
                     </bibl>
                     <bibl>
-                        CIL XIII 9088
-                    </bibl>
-                    <bibl>
-                        CIL XVII/2, 619
-                    </bibl>
-                    <bibl>
-                        CIRh 1945
+                        <ptr target="FilgisPietsch1985"/>
+                        <biblScope>
+                            144–145
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule Gordians III.</title>
+                <title>Meilensäule Gordians III.</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType> ohne Sockel</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType> ohne Sockel</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(164)</height>

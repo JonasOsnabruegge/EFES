@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Meilen-/Leugensäule des Caracalla</title>
+                <title>Meilensäule des Caracalla</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, unten abgebrochen, bestoßen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>, unten abgebrochen, bestoßen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(105)</height>

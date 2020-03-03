@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule es Gallienus</title>
+                <title>Meilensäule es Gallienus</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, oben und unten abgearbeitet, oben mittig Dübelloch.</p>
+                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>, oben und unten abgearbeitet, oben mittig Dübelloch.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(24)</height>

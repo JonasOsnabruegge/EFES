@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule des Severus Alexander</title>
+                <title>Meilensäule des Severus Alexander</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType> mit Basis.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType> mit Basis.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>194</height>

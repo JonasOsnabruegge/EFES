@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25.html">Weihrelief</objectType> des Mercurius, in der Linken caduceus, in der Rechten marsupium haltend.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25.html">Votivrelief</objectType> des Mercurius, in der Linken caduceus, in der Rechten marsupium haltend.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>84</height>
@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift befindet sich unterhalb des Weihreliefs.
+                                        Die Inschrift befindet sich unterhalb des Votivreliefs.
                                     </p>
                                     <dimensions>
                                         <height/>

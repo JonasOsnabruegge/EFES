@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule des Carus</title>
+                <title>Meilensäule des Carus</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, unten abgebrochen, vertikal mittig abgearbeitet, linker Teil der Inschrift fehlend.</p>
+                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>, unten abgebrochen, vertikal mittig abgearbeitet, linker Teil der Inschrift fehlend.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(90)</height>

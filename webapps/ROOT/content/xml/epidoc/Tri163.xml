@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Teil einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">Jupitergigantensäule</objectType></p>
+                                    <p>Teil vom<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Zwischensockel einer Jupitergigantensäule</objectType></p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>

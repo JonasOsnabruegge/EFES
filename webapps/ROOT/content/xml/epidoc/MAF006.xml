@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Allseitig abgebrochenes Fragment eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Blocks</objectType> oder einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
+                                    <p>Allseitig abgebrochenes Fragment eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>s oder einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(32)</height>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule des Valerianus und des Gallienus</title>
+                <title>Meilensäule des Valerianus und des Gallienus</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Sich stark verüngende <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType> mit Sockel, horizontaler Bruch mittig; Sockel durch Kriegseinwirkung verloren. Oben Dübelloch.</p>
+                                    <p>Sich stark verüngende <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType> mit Sockel, horizontaler Bruch mittig; Sockel durch Kriegseinwirkung verloren. Oben Dübelloch.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(126)</height>

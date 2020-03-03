@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule des Constantinus</title>
+                <title>Meilensäule des Constantinus</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -21,7 +21,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, bestoßen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>, bestoßen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height></height>
@@ -32,7 +32,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Die Inschrift befindet sich auf dem Schaft der Leugensäule, leicht unausgewogenes Schriftbild.</p>
+                                    <p>Die Inschrift befindet sich auf dem Schaft der Meilensäule, leicht unausgewogenes Schriftbild.</p>
                                    <dimensions>
                                         <height></height>
                                         <width></width>

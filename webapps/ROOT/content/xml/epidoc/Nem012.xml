@@ -20,8 +20,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Sandsteinblock</objectType>, zwischen Basis und Kultrelief eingesetzt. Auf dem Kultrelief Mithras bei der Stiertötung, mit Sol, Luna, Cautes, Cautopates.</p>
-                                    <material/>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Votifrelief</objectType>, zwischen Basis und Relief ein weiterer eingesetzt. Auf dem Kultrelief Mithras bei der Stiertötung, mit Sol, Luna, Cautes, Cautopates.</p>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>37</height>
                                             <width>235</width>
@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift nimmt das mittlere und rechte Drittel des Blocks ein und ist in zwei Kolumnen aufgeteilt. Die erste steht in einer angedeuteten tabula ansata. Beide Kolumnen sind linksbündig, sehr unregelmäßiges Schriftbild. Zeilenführung nicht eingehalten.
+                                        Die Inschrift nimmt das mittlere und rechte Drittel des Blocks zwischen Relief und Sockel ein und ist in zwei Kolumnen aufgeteilt. Die erste steht in einer angedeuteten tabula ansata. Beide Kolumnen sind linksbündig, sehr unregelmäßiges Schriftbild. Zeilenführung nicht eingehalten.
                                     </p>
                                     <dimensions>
                                         <height/>

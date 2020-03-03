@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule des Decius</title>
+                <title>Meilensäule des Decius</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Leugensäule</objectType>, oben und unten abgebrochen, oben Dübelloch.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>, oben und unten abgebrochen, oben Dübelloch.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>

@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule des Diocletian</title>
+                <title>Meilensäule des Diocletian</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -21,7 +21,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>, verwittert.</p>
+                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>, verwittert.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(70)</height>

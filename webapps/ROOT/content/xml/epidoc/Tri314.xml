@@ -3,48 +3,46 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Meilensäule des Septimius Severus</title>
+                <title>Grabinschrift des Atto für seine Eltern</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">Nem146</idno>
+                <idno type="filename">Tri314</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Speyer, Historisches Museum der Pfalz, Depot</repository>
-                        <idno>A 39</idno>
+                        <repository>Unbekannt</repository>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>, mittig vertikal sowie oben und unten abgebrochen.</p>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit rechteckigem Bildfeld. Darin stehende Ganzfiguren eines Mannes und einer Frau.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height>(53)</height>
-                                            <width>46</width>
-                                            <depth/>
+                                            <height>174</height>
+                                            <width>68</width>
+                                            <depth>20</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>
-                                        Inschriftfeld verwittert.
-                                    </p>
-                                    <dimensions>
+                                    <p>Die Inschrift befindet sich unterhalb des Bildfeldes</p>
+                                   <dimensions>
                                         <height/>
-                                        <depth/>
+                                        <width/>
                                     </dimensions>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig ausgeführte quadratische Buchstaben mit Serifen.</p>
-                                <height>7,0</height>
+                                <p>Regelmäßig konstruierte, gleichmäßige Buchstaben. Dreieckige Worttrenner. (+)</p>
+                                <height min="5" max="6">6–5</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -52,15 +50,16 @@
                         <origin>
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
-                                <placeName type="civitas" key="CNem" ref="ph">Civitas Nemetum</placeName>
-                                <placeName type="ancient" key="Alta Ripa" ref="https://pleiades.stoa.org/places/108735">Alta Ripa</placeName>
-                                <placeName type="modern">Altrip</placeName> 
+                                <placeName type="civitas" key="CTri" ref="ph">Civitas Tribocorum</placeName>
+                                <placeName type="ancient" key="Saletio" ref="ph"/>
+                                <placeName type="modern">Wasselonne</placeName> 
                             </origPlace>
-                            <origDate notBefore="0193" notAfter="0194" cert="low"/>
+                            <origDate notBefore="0250" notAfter="0300" cert="low"/>
                         </origin>
-                        <provenance type="found" when="1842">
-                            <placeName ref="ph">Altrip, Gärten der Witwe Hook - verschleppt aus dem spätantiken Burgus?</placeName>
-                            <geo>49.4328489 8.5019498</geo>
+                        <provenance type="found" when="1991-05-18">
+                            <placeName ref="ph">
+                                Wasselonne, Industriegebiet nördlich der RN 4, 'Wiedbiehl'
+                            </placeName><geo>48.646 7.446</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>
@@ -71,22 +70,20 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilenstein</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
                 </keywords>
             </textClass>
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/img/26628-1.jpg"/>
+        <graphic url=""/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> </supplied><expan><abbr><supplied reason="lost">C</supplied>aes</abbr><ex>ari</ex></expan>
-                    <lb n="2"/><supplied reason="lost"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> </supplied><supplied reason="lost">Septi</supplied>mio
-                    <lb n="3"/><supplied reason="lost">Seve</supplied>ro <expan><abbr>Per<lb n="4" break="no"/><supplied reason="lost">tin</supplied>ac</abbr><ex>i</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
-                    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>i</abbr><ex>nferis</ex></expan> <expan><abbr>Ma</abbr><ex>nibus</ex></expan>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p"><name nymRef="Atto" type="cognomen">Atto</name></persName> <expan><abbr>pi</abbr><ex>issimis</ex></expan> patribus
                 </ab>
             </div>
             <div type="apparatus">
@@ -96,21 +93,21 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>commentary</p>
+                <p>Zerstört beim Brand der Straßburger Bibliothek während der Belagerung 1870.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        HD075731
+                        HD055399
                     </bibl>
                     <bibl>
-                        CIL XIII 9088
+                        AE 1991, 1268
                     </bibl>
                     <bibl>
-                        CIL XVII/2, 619
-                    </bibl>
-                    <bibl>
-                        CIRh 1945
+                        <ptr target="DardaineWaton1991"/>
+                        <biblScope>
+                            45–47
+                        </biblScope>
                     </bibl>
                 </listBibl>
             </div>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Meilen-/Leugensäule des Maximinus Thrax</title>
+                <title>Meilensäule des Maximinus Thrax</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück vom oberen Teil von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>.</p>
+                                    <p>Bruchstück vom oberen Teil von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>

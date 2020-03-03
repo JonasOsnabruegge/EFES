@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Leugensäule des Constantinus</title>
+                <title>Meilensäule des Constantinus</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Zwei aneinanderpassende Fragmente von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugensäule</objectType>. Zapfen an der Unterseite.</p>
+                                    <p>Zwei aneinanderpassende Fragmente von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>. Zapfen an der Unterseite.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>160</height>
