@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Weihinschrift für Iuppiter Optimus Maximus und Iuno Regina</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Weinheim</placeName>
-                            <origDate notBefore="0130" notAfter="0250"/>
                             </origPlace>
+                            <origDate notBefore="0130" notAfter="0250"/>
                         </origin>
                             <provenance type="found" when="1910-08">
                             <placeName ref="ph">

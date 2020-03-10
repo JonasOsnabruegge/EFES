@@ -21,10 +21,10 @@
                             <supportDesc>
                                 <support>
                                     <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>.</p>
-                                    <material/>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
-                                            <height/>
-                                            <width/>
+                                            <height>(192)</height>
+                                            <width>35</width>
                                             <depth/>
                                         </dimensions>
                                     </support>
@@ -41,8 +41,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
-                                <height/>
+                                <p>(++)</p>
+                                <height min="4" max="6">4–6</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -53,7 +53,7 @@
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Heidelberg</placeName>
-                            <origDate notBefore="0236" notAfter="0238"/>
+                            <origDate notBefore="0236" notAfter="0238" cert="high"/>
                             </origPlace>
                         </origin>
                             <provenance type="found" when="1878-10-22">

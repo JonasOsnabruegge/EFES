@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Votivrelief mit Genius in um Hüfte und Schulter geschlungenem Mantel, in der Rechten Patera, mit der er über einem Altar opfert, im linken Arm Füllhorn, neben der rechten Schulter geflügelter Erot, neben dem linken Fuß Korb mit Früchten, darauf ein schlafender Erot. Oben auf Höhe der Schultern des Genius abgebrochen, bestoßen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType> mit Genius in um Hüfte und Schulter geschlungenem Mantel, in der Rechten Patera, mit der er über einem Altar opfert, im linken Arm Füllhorn, neben der rechten Schulter geflügelter Erot, neben dem linken Fuß Korb mit Früchten, darauf ein schlafender Erot. Oben auf Höhe der Schultern des Genius abgebrochen, bestoßen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(48)</height>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Weitgehend regelmäßige, aber ungleichmäßig ausgeführte Buchstaben mit unterschiedlicher Hähe und Ausrichtung.</p>
+                                <p>Weitgehend regelmäßige, aber ungleichmäßig ausgeführte Buchstaben mit unterschiedlicher Hähe und Ausrichtung. (o)</p>
                                 <height min="1.0" max="2.0">1-2</height>
                             </handNote>
                         </handDesc>

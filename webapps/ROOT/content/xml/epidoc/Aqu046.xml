@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Relief mit sitzenden Darstellungen der Gottheiten, Köpfe abgeschlagen. Links Herecura in langem, gegürtetem Gewand, auf dem Schoß eine Schale mit Früchten in den Händen haltend; rechts Dis Pater in kurzem, gegürtetem Gewand.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType> mit sitzenden Darstellungen der Gottheiten, Köpfe abgeschlagen. Links Herecura in langem, gegürtetem Gewand, auf dem Schoß eine Schale mit Früchten in den Händen haltend; rechts Dis Pater in kurzem, gegürtetem Gewand.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(79)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Größtenteils regelmäßige, leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen, teilweise auch schmaler. In Z. 1 DD-Ligatur mit klein in dem anderen D eingeschriebenem D; I klein und hochgestellt, T klein am Zeilenende.</p>
+                                <p>Größtenteils regelmäßige, leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen, teilweise auch schmaler. In Z. 1 DD-Ligatur mit klein in dem anderen D eingeschriebenem D; I klein und hochgestellt, T klein am Zeilenende. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/13779"/>
+        <graphic url="http://lupa.at/img/13779-4.jpg"/>
     </facsimile>
     <text>
         <body>

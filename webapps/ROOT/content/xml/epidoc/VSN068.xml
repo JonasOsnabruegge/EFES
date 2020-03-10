@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sitzstufe</objectType> aus dem römischen Amphithater, links und rechts abgebrochen.</p>
+                                    <p>Bruchstück einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sitzstufe</objectType> aus dem römischen Amphitheater, links und rechts abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>31</height>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige Buchstaben.</p>
+                                <p>Regelmäßige Buchstaben. (+)</p>
                                 <height min="10.5" max="11">10,5-11</height>
                             </handNote>
                         </handDesc>

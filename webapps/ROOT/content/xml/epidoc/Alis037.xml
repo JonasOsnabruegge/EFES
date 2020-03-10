@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift befindet sich in einem vertieften Feld auf dem Schaft, welches von der Inschrift vollständig ausgefüllt wird. Leicht ungenau zentriertes, überwiegend gleichmäßiges Schriftbild. Im unteren Teil aus Platzmangel in Zeile 12 TO klein zwischen C und R, letzte Zeile kleiner ausgeführt. Zeile 1 gesperrt, aber mit ungleichmäßigem Buchstabenabstand. Dreieckige Worttrenner. Reste vom weißen Kalküberzug des inschriftfeldes noch sichtbar.
+                                        Die Inschrift befindet sich in einem vertieften Feld auf dem Schaft, welches von der Inschrift vollständig ausgefüllt wird. Leicht ungenau zentriertes, überwiegend gleichmäßiges Schriftbild. Im unteren Teil aus Platzmangel in Zeile 12 TO klein zwischen C und R, letzte Zeile kleiner ausgeführt. Zeile 1 gesperrt, aber mit ungleichmäßigem Buchstabenabstand. Dreieckige Worttrenner. Reste vom weißen Kalküberzug des Inschriftfeldes noch sichtbar.
                                     </p>
                                    <dimensions>
                                         <height/>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmige, sorgfältig ausgeführte Buchstaben mit Serifen. BF-Ligatur mit durchgezogener Querhaste. Apices flacher eingehauen.
+                                    Regelmäßige, sorgfältig ausgeführte Buchstaben mit Serifen. BF-Ligatur mit durchgezogener Querhaste. Apices flacher eingehauen. (++)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25516"/>
+        <graphic url="http://lupa.at/img/25516-1.jpg"/>
     </facsimile>
     <text>
         <body>

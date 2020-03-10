@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Relief, oben, rechts und unten links abgebrochen. Erhalten sind die Füße und der Gewandsaum der dargestellten Figur.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>, oben, rechts und unten links abgebrochen. Erhalten sind die Füße und der Gewandsaum der dargestellten Figur.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(22)</height>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige und leicht uneinheitlich ausgeführte, größtenteils eher schmale bis quadratische Buchstaben mit Serifen, eher flach eingeschlagen.</p>
+                                <p>Leicht unregelmäßige und leicht uneinheitlich ausgeführte, größtenteils eher schmale bis quadratische Buchstaben mit Serifen, eher flach eingeschlagen. (o)</p>
                                 <height>3,0</height>
                             </handNote>
                         </handDesc>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25671"/>
+        <graphic url="http://lupa.at/img/25671-1.jpg"/>
     </facsimile>
     <text>
         <body>

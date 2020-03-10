@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück wohl von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, links und unten abgebrochen, oben abgearbeitet.</p>
+                                    <p>Bruchstück wohl vom <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/103">Zwischensockel einer Juppitergigantensäule</objectType>, links und unten abgebrochen, oben abgearbeitet.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(26,5)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>(++)</p>
                                 <height>5,8-6,2</height>
                             </handNote>
                         </handDesc>
@@ -53,7 +53,7 @@
                                 <placeName type="civitas" key="CRieg" ref="ph">Civitas von Riegel</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Sasbach am Kaiserstuhl</placeName>
-                            <origDate notBefore="0001" notAfter="0100">???</origDate>
+                            <origDate notBefore="0150" notAfter="0250">???</origDate>
                             </origPlace>
                         </origin>
                             <provenance type="found" when="1976">

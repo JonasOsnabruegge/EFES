@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Inschriftfragment</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Allseitig abgebrochenes Fragment eines nicht näher identifizierbaren Monuments.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Allseitig abgebrochenes Fragment eines nicht näher identifizierbaren Monuments.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(37)</height>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, rohe Buchstaben ohne Serifen, L mit schräggestellter Querhaste.</p>
+                                <p>Unregelmäßige, rohe Buchstaben ohne Serifen, L mit schräggestellter Querhaste. (---)</p>
                                 <height min="8.5" max="15.5">8,5-15,5</height>
                             </handNote>
                         </handDesc>

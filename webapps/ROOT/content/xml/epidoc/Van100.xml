@@ -54,7 +54,7 @@
                                 <placeName type="ph" key="Borbetomagus" ref="ph">Borbetomagus</placeName>
                                 <placeName type="modern">Worms</placeName> 
                             </origPlace>
-                            <origDate/>
+                            <origDate notBefore="0130" notAfter="0250"></origDate>
                         </origin>
                         <provenance type="found" notAfter="1535">
                             <placeName ref="ph">

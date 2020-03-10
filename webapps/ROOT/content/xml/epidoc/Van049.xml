@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, tief eingehauene, leicht schmale Buchstaben mit Serifen.
+                                    Regelmäßige, tief eingehauene, leicht schmale Buchstaben mit Serifen. (+)
                                 </p>
                                 <height/>
                             </handNote>
@@ -73,7 +73,6 @@
             <textClass>
                 <keywords scheme="DISS_JO">
                     <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Bauinschrift</term>
                 </keywords>
             </textClass>
         </profileDesc>

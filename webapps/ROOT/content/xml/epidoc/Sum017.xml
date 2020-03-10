@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Größtenteils regelmäßige, etwas uneinheitlich und teils unsicher ausgeführte, quadratische Buchstaben mit Serifen.
+                                    Größtenteils regelmäßige, etwas uneinheitlich und teils unsicher ausgeführte, quadratische Buchstaben mit Serifen. (o+)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/3920"/>
+        <graphic url="http://lupa.at/img/3920-1.jpg"/>
     </facsimile>
     <text>
         <body>

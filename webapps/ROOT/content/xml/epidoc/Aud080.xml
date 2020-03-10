@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>(o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -86,7 +86,7 @@
                     <lb n="2"/><supplied reason="lost">et </supplied><persName type="divine" key="Iuno Regina" role="god"><supplied reason="lost"><expan><abbr>Iun</abbr><ex>oni</ex></expan></supplied> <expan><abbr>Reg<supplied reason="lost">in</supplied></abbr><ex>ae</ex></expan></persName><supplied reason="lost"> et</supplied>
                     <lb n="3"/><persName type="divine" key="Genius loci" role="god"><supplied reason="lost">Genio </supplied>loc<supplied reason="lost">i</supplied></persName>
                     <lb n="4"/><supplied reason="lost">et di</supplied><unclear>s</unclear> <expan><abbr>dea<lb n="5" break="no"/><supplied reason="lost">busq</supplied></abbr><ex>ue</ex></expan><supplied reason="lost"> om</supplied>nibu<supplied reason="lost">s</supplied>
-                    <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">

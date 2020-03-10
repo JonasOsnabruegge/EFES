@@ -102,6 +102,12 @@
                     <bibl>
                         AE 2014, 946
                     </bibl>
+                    <bibl>
+                        <ptr target="NethKortumDuchniewski2014"/>
+                        <biblScope>
+                            49
+                        </biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

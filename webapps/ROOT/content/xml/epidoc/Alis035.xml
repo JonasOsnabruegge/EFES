@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Zeile 1 befindet sich auf dem Gesims der Bekrönung, Zeile 2-4 unterhalb des Isnchriffeldes auf dem Schaft, Zeile 5 auf einer erhabenen Leiste auf dem Sockel. Linksbündige Inschrift mit teilweise sehr gedrängtem Schriftbild, letzte Zeile gesperrt mit ungleichmäßigem Buchstabenabstand. Dreieckige Worttrenner, ungenau gesetzt.</p>
+                                    <p>Zeile 1 befindet sich auf dem Gesims der Bekrönung, Zeile 2-4 unterhalb des Inschriftfeldes auf dem Schaft, Zeile 5 auf einer erhabenen Leiste auf dem Sockel. Linksbündige Inschrift mit teilweise sehr gedrängtem Schriftbild, letzte Zeile gesperrt mit ungleichmäßigem Buchstabenabstand. Dreieckige Worttrenner, ungenau gesetzt.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Überwiegend regelm#ßige, uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen. Einige Buchstaben aus Platzgründen kleiner ausgeführt.
+                                    Überwiegend regelmäßige, uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen. Einige Buchstaben aus Platzgründen kleiner ausgeführt. (+)
                                 </p>
                                 <height>3,0</height>
                             </handNote>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25514"/>
+        <graphic url="http://lupa.at/img/25514-2.jpg"/>
     </facsimile>
     <text>
         <body>

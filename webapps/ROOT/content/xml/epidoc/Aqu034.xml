@@ -1,4 +1,4 @@
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.orgh/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
     <teiHeader>
         <fileDesc>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Brunnen in Form einer Stele mit bogenförmigem Giebel, im Giebelfeld zwei gegenständige Capricornes, die zwischen ihren Vorderläufen einen Globus halten. Im Inschriftfeld Löwenkopf, in dessen Maul Auslassöffnung für das Wasser. Bestoßen, an den Kanten zum Teil abgeschlagen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/40.html">Brunnen</objectType> in Form einer Stele mit bogenförmigem Giebel, im Giebelfeld zwei gegenständige Capricornes, die zwischen ihren Vorderläufen einen Globus halten. Im Inschriftfeld Löwenkopf, in dessen Maul Auslassöffnung für das Wasser. Bestoßen, an den Kanten zum Teil abgeschlagen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>107</height>

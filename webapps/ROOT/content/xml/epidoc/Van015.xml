@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>
-                                        Oberer Teil einer rechteckigen(?) Stele mit eingeschriebenem Bogen. Oben, unten abgebrochen, an den Seiten bestoßen.
+                                        Oberer Teil einer rechteckigen(?) oder mit dreieckigem Giebel abschließeneden <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit eingeschriebenem Bogen. Oben, unten abgebrochen, an den Seiten bestoßen.
                                     </p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
@@ -34,7 +34,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift befindet sich in einem profilgerahmten, oben bogenförmig abschließenden Inschriftfeld. Die Inschrift ist linksbündig, Zeile 1 befindet sich im oberen Teil des Bogens und ist zentriert, überwiegend gleichmäßiges, unausgewogenes Schriftbild, die Zeilen stehen steas schräg.
+                                        Die Inschrift befindet sich in einem profilgerahmten, oben bogenförmig abschließenden Inschriftfeld. Die Inschrift ist linksbündig, Zeile 1 befindet sich im oberen Teil des Bogens und ist zentriert, überwiegend gleichmäßiges, unausgewogenes Schriftbild, die Zeilen stehen etwas schräg.
                                     </p>
                                    <dimensions>
                                         <height/>
@@ -46,7 +46,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Unregelmäßige, eher schmale Buchstaben mit kurzen, teilweise nicht mehr erkennbaren oder nie vorhandenen, Serifen, schräg stehend, uneinheitlich ausgeführt, V in Zeile 3 und 4 mit in den Winkel eingeschriebenen, nach oben gerichteten Winkel.
+                                    Unregelmäßige, eher schmale Buchstaben mit kurzen, teilweise nicht mehr erkennbaren oder nie vorhandenen, Serifen, schräg stehend, uneinheitlich ausgeführt, V in Zeile 3 und 4 mit in den Winkel eingeschriebenen, nach oben gerichteten Winkel. G als C in Z. 4; V in Z. 4 mit gebrochener Querhaste eingeschrieben. (-)
                                 </p>
                                 <height/>
                             </handNote>

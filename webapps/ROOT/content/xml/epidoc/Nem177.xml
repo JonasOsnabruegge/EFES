@@ -9,7 +9,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Dissertationsprojekt Jonas Osnabrügge</authority>
-                <idno type="filename">2</idno>
+                <idno type="filename">Nem177</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -85,7 +85,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eartori</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied><name nymRef="Caius" type="praenomen"><supplied reason="lost"> <expan><abbr>C</abbr><ex>aio</ex></expan> </supplied></name><name nymRef="Messius" type="gentilicium"><supplied reason="lost">Mes</supplied><lb n="2" break="no"/>sio</name> <name nymRef="Quintus" type="cognomen"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name nymRef="Traianus" type="cognomen">T<supplied reason="lost">raiano</supplied></name>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied><name nymRef="Caius" type="praenomen"><supplied reason="lost"> <expan><abbr>C</abbr><ex>aio</ex></expan> </supplied></name><name nymRef="Messius" type="gentilicium"><supplied reason="lost">Mes</supplied><lb n="2" break="no"/>sio</name> <name nymRef="Quintus" type="cognomen"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name nymRef="Traianus" type="cognomen">T<supplied reason="lost">raiano</supplied></name>
                     <lb n="3"/><name nymRef="Decius" type="gentilicium">Decio</name> <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan>
                     <lb n="4"/><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><ex>uli</ex></expan>
                     <lb n="5"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></persName> <orgName type="civitas" key="civitas Nemetum"><expan><abbr>c</abbr><ex>ivitas</ex></expan> <expan><abbr>N</abbr><ex>emetum</ex></expan></orgName> <expan><abbr>l</abbr><ex>eugas</ex></expan> <num value="16">XVI</num>

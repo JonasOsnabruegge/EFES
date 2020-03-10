@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Statue</term> eines Genius mit Mauerkrone, mit der rechten über einem kleinen Altar opfernd.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/241">Statue</objectType> eines Genius mit Mauerkrone, mit der Rechten über einem kleinen Altar opfernd.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height>120</height>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p/>
+                                    <p>Die Inschrift befindet sich auf dem aus einem Stück mit Statuette und Altar gearbeiteten Sockel.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>(++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

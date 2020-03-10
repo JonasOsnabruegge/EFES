@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Überwiegend regelmäßige, tief eingehauene, quadratische Buchstaben mit Serifen, leichte Unsicherheiten in der Ausführung der Rundbuchstaben.</p>
+                                <p>Überwiegend regelmäßige, tief eingehauene, quadratische Buchstaben mit Serifen, leichte Unsicherheiten in der Ausführung der Rundbuchstaben. (+)</p>
                                 <height>4,2-3,5</height>
                             </handNote>
                         </handDesc>
@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="VicusNediensis" ref="ph">Vicus Nediensis</placeName>
                                 <placeName type="modern">Spechbach</placeName> 
-                            <origDate notBefore="0100" notAfter="0250"/>
                             </origPlace>
+                            <origDate notBefore="0100" notAfter="0250"/>
                         </origin>
                             <provenance type="found" when="1883">
                             <placeName ref="ph">

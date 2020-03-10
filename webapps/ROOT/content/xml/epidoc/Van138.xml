@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p/>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -54,7 +54,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Altenkirchen</placeName> 
                             </origPlace>
-                            <origDate notBefore="0001" notAfter="0250"/>
+                            <origDate notBefore="0014" notAfter="0200" cert="low">Heres, tria nomina.</origDate>
                         </origin>
                             <provenance type="found" notAfter="1602">
                             <placeName ref="ph">

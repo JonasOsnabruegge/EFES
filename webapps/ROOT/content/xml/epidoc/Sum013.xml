@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, leicht uneinheitlich ausgeführte quadratische Buchstaben mit Serifen, Unsicherheiten bei den S.</p>
+                                <p>Regelmäßige, leicht uneinheitlich ausgeführte quadratische Buchstaben mit Serifen, Unsicherheiten bei den S. (+)</p>
                                 <height min="3.5" max="7.5">7,5-3,5</height>
                             </handNote>
                         </handDesc>
@@ -76,13 +76,13 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7414"/>
+        <graphic url="http://lupa.at/img/7414.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/>In honorem
+                    <lb n="1"/>In honor<hi rend="ligature">em</hi>
                     <lb n="2"/>domus <expan><abbr>divin</abbr><ex>ae</ex></expan>
                     <lb n="3"/>ex decreto <orgName type="ordo" key="ordosaltusSumelocennensis" role="creator">ordinis
                     <lb n="4"/>saltus <placeName type="ancient" nymRef="Sumelocenna" ref="https://pleiades.stoa.org/places/118985">Sumelocennen<lb n="5" break="no"/>sis</placeName></orgName> curam <expan><abbr>agentib</abbr><ex>us</ex></expan>

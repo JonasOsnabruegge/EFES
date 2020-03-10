@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingemeißelte, quadratische Buchstaben mit Serifen. Qualitätvolle Inschrift.</p>
+                                <p>Regelmäßige, sorgfältig eingemeißelte, quadratische Buchstaben mit Serifen. Qualitätvolle Inschrift. (++~)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -78,13 +78,13 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/8545"/>
+        <graphic url="http://lupa.at/img/8545-1.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="IOM+" role="god"><expan><abbr><supplied reason="lost">I</supplied></abbr><ex>ovi</ex></expan></persName>
+                    <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr><supplied reason="lost">I</supplied></abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                     <lb n="2"/><persName type="divine" key="IunoRegina+" role="god"><supplied reason="lost">I</supplied>unoni Regin<supplied reason="omitted">a</supplied>e</persName>
                     <lb n="3"/>Genio lo<supplied reason="lost">c</supplied>i <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/><gap reason="lost" quantity="1" unit="character"/><orig>ive sa</orig><gap reason="lost" extent="unknown" unit="character"/>

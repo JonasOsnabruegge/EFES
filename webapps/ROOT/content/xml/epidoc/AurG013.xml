@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Zwei aneinanderpassende Bruchstücke eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>s. Durch die Baggerarbeiten stark beschädigt, Gesims abgeschlagen.</p>
-                                    <material>Sandsein</material>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>100</height>
                                             <width>56</width>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, flach und sorgfältig eingehauene, quadratische Buchstaben mit Serifen. Weiter oberer Bogen beim R. In Zeile 1 O klein zwischen R und S; Zeile 7 C klein am Zeilenende. E mit zwei senkrechten Hasten wiedergegeben (sog. 'galiisches' E).</p>
+                                <p>Leicht unregelmäßige, flach und sorgfältig eingehauene, quadratische Buchstaben mit Serifen. Weiter oberer Bogen beim R. In Zeile 1 O klein zwischen R und S; Zeile 7 C klein am Zeilenende. E mit zwei senkrechten Hasten wiedergegeben (sog. 'galiisches' E). (+)</p>
                                 <height min="3.5" max="5.0">3,5-5,0</height>
                             </handNote>
                         </handDesc>

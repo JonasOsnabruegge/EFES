@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Verkleidung von einem <Term>Brunnen</Term>. Dreieckiger Giebel mit Muschelnische und Rosetten im Giebelfeld, das Inschriftfeld flankiert von ornamentierten Peltenhenkeln.</p>
+                                    <p>Verkleidung von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/40.html">Brunnen</objectType>. Dreieckiger Giebel mit Muschelnische und Rosetten im Giebelfeld, das Inschriftfeld flankiert von ornamentierten Peltenhenkeln.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>70</height>

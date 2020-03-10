@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit rechteckigem Bildfeld im oberen Teil,. Darin von Halbsäulen getragene Aedicula, zwei togato in dextrarum iunctio, die linke Figur hält ein volumen in der Linken.</p>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit rechteckigem Bildfeld im oberen Teil,. Darin von Halbsäulen getragene Aedicula, zwei togati in dextrarum iunctio, die linke Figur hält ein volumen in der Linken.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>115</height>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Im oberen Teil ist die Stele stark verrieben, die verlorene erste Zeile dürfte sich oberhalb der Bildnische befunden haben. Unausgewogenes, leicht ungeleichmäßiges Schriftbild, die einzelnen Zeilen sind zum Teil eingerückt.</p>
+                                    <p>Im oberen Teil ist die Stele stark verrieben, die verlorene erste Zeile dürfte sich oberhalb der Bildnische befunden haben. Unausgewogenes, leicht ungleichmäßiges Schriftbild, die einzelnen Zeilen sind zum Teil eingerückt.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt.
+                                    Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt. (+)
                                 </p>
                                 <height/>
                             </handNote>

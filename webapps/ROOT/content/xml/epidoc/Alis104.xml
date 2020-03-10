@@ -82,7 +82,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><orgName type="cohors" key="cohors I ---"><expan><abbr>c</abbr><ex>o</ex><abbr>ho</abbr><ex>rs</ex></expan> <num value="1"><hi rend="supraline">I</hi></num><gap reason="lost" extent="unknown" unit="line"/></orgName>
+                    <lb n="1"/><orgName type="cohors" key="cohors I ---"><expan><abbr>c</abbr><ex>o</ex><abbr>ho</abbr><ex>rs</ex></expan> <num value="1"><hi rend="supraline">I</hi></num> <gap reason="lost" extent="unknown" unit="line"/></orgName>
                 </ab>
             </div>
             <div type="apparatus">

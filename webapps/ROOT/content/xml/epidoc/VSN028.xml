@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment eines unbekannten Monuments</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Fragment eines unbekannten Monuments</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(29)</height>
@@ -35,7 +35,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige Buchstaben.</p>
+                                <p>Regelmäßige Buchstaben. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -60,8 +60,7 @@
         </fileDesc>
         <profileDesc>
             <textClass>
-                <keywords/>
-                
+                <keywords><term>unbekannt</term></keywords>
             </textClass>
         </profileDesc>
     </teiHeader>
@@ -73,7 +72,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                    <lb n="1"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>VAM<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>viam</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>
             </div>

@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt.
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt. (+)
                                 </p>
                                 <height>7,0</height>
                             </handNote>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
                                 <placeName type="modern">Worms</placeName> 
                             </origPlace>
-                            <origDate notBefore="0150" notAfter="0250" cert="low"/>
+                            <origDate notBefore="0130" notAfter="0250" cert="low"/>
                         </origin>
                         <provenance type="found" when="1844">
                             <placeName ref="ph">

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>, allseitig abgebrochenes Fragment vermutlich von einem <term>Mausoleum</term>.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>, allseitig abgebrochenes Fragment vermutlich von einem <term>Mausoleum</term>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -83,7 +83,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/><orig>t</orig>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>t</orig>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>

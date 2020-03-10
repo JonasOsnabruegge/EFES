@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Altarfragment des Lucius? Sextonius Terpnus</title>
+                <title>Weihinschriftfragment, gestiftet von Lucius? Sextonius Terpnus</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -35,7 +35,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige Buchstaben mit Serifen.</p>
+                                <p>Leicht unregelmäßige Buchstaben mit Serifen. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

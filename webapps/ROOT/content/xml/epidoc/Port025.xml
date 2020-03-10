@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig ausgeführte quadratische Buchstaben mit Serifen. Qualitätvolle Inschrift.</p>
+                                <p>Regelmäßige, sorgfältig ausgeführte quadratische Buchstaben mit Serifen. Qualitätvolle Inschrift. (++)</p>
                                 <height>7,0</height>
                             </handNote>
                         </handDesc>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="Portus" ref="https://pleiades.stoa.org/places/118912">Portus</placeName>
                                 <placeName type="modern">Pforzheim</placeName> 
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0250"/>
+                            <origDate notBefore="0170" notAfter="0230"/>
                         </origin>
                             <provenance type="found" when="1894">
                             <placeName ref="ph">
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/26975"/>
+        <graphic url="http://lupa.at/img/26975-01.jpg"/>
     </facsimile>
     <text>
         <body>

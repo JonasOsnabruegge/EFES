@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Einfacher<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, aus einer Säule gearbeiteet. Der Altarsockel geht unten in eine runde Form über.</p>
+                                    <p>Einfacher <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, aus einer Säule gearbeiteet. Der Altarsockel geht unten in eine runde Form über.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>85</height>
@@ -40,7 +40,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige Buchstaben.</p>
+                                <p>Regelmäßig konstruierte, leicht uneinheitlich ausgeführte quadratische Buchstaben mit Serifen. S in Z. 2 klein am Zeilenende. (+)</p>
                                 <height min="3.7" max="5">3,7-5</height>
                             </handNote>
                         </handDesc>
@@ -82,7 +82,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM" role="divine"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Dacius" type="gentilicium">Dacius</name>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Dacius" type="gentilicium">Daciu<hi rend="small">s</hi></name>
                         <lb n="3"/><name nymRef="Privatus" type="cognomen"><expan><abbr>Pri<hi rend="ligature">va</hi>tu</abbr><ex>s</ex></expan></name></persName>
                     <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>

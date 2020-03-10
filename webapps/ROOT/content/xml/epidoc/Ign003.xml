@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Votivrelief, Bildnische mit muchelförmigem Abschluss, im Muschelschloss Rosette. Im Bildfeld zwei sich gegegnüberstehende bärtige Männer in toga und Untergewand, dargestellt in dextrarum iunctio. Der rechte Mann mit volumen in seiner Linken, der linke mit Kästchen in ungeschickt überdimensionierter Hand.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>, Bildnische mit muschelförmigem Abschluss, im Muschelschloss Rosette. Im Bildfeld zwei sich gegegnüberstehende bärtige Männer in toga und Untergewand, dargestellt in dextrarum iunctio. Der rechte Mann mit volumen in seiner Linken, der linke mit Kästchen in ungeschickt überdimensionierter Hand.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>86</height>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7447"/>
+        <graphic url="http://lupa.at/img/7447-1.jpg"/>
     </facsimile>
     <text>
         <body>

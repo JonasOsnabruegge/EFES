@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Grabinschrift für Atrexstus Moxsi und Mato</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>(o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/26748"/>
+        <graphic url="http://lupa.at/img/26748.jpg"/>
     </facsimile>
     <text>
         <body>

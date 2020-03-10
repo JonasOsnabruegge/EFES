@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Einfache, sorgfältig und tief eingehauene Buchstaben.</p>
+                                <p>Regelmäßige, sorgfältig und tief eingehauene Buchstaben. (+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -56,7 +56,7 @@
                                 <placeName type="CaputCivitatis" key="Lopodunum" ref="ph">Lopodunum</placeName>
                                 <placeName type="modern">Ladenburg:</placeName> römisches Theater.
                             </origPlace>
-                            <origDate notBefore="0130" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0130" notAfter="0230" cert="low"/>
                         </origin>
                         <provenance type="found" when="1867"><placeName ref="ph">Ladenburg, Gewann Burgäcker, Grundstück des Fr. Köhler, im Bereich des antiken Theaters</placeName><geo>49.4675 8.615</geo>
                         </provenance>

@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben. Z. 1 irrtümliche TF-Ligatur; Z. 5 zunächst irrig mit N begonnen.</p>
+                                <p>Regelmäßige, sorgfältig eingehauene quadratische Buchstaben mit Serifen. Z. 1 irrtümliche TF-Ligatur; Z. 5 zunächst irrig mit N begonnen. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -75,7 +75,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url=""/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F017899.JPG"/>
     </facsimile>
     <text>
         <body>

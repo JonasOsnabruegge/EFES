@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>R<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Bogennische. Darin Brustbild einer Frau mit Scheitelzopffrisur, in tunica, mit Halskette, einfache Darstellung. Unten abgebrochen.</p>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit Bogennische. Darin Brustbild einer Frau mit Scheitelzopffrisur, in tunica, mit Halskette, einfache Darstellung. Unten abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(96,5)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, eher flach und uneinheitlich eingehauene, quadratische Buchstaben mit grob in einem Zug mit den Querhasten gearbeiteten Serifen.</p>
+                                <p>Leicht unregelmäßige, eher flach und uneinheitlich eingehauene, quadratische Buchstaben mit grob in einem Zug mit den Querhasten gearbeiteten Serifen. (o)</p>
                                 <height min="5.5" max="7.0">7,0-5,5</height>
                             </handNote>
                         </handDesc>
@@ -54,7 +54,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
                                 <placeName type="modern">Worms</placeName> 
                             </origPlace>
-                            <origDate notBefore="0270" notAfter="0430" cert="low">Frisur der Severina und Magna Urbica</origDate>
+                            <origDate notBefore="0270" notAfter="0330" cert="low">Frisur der Severina und Magna Urbica</origDate>
                         </origin>
                         <provenance type="found" when="1885-07-27">
                             <placeName ref="ph">
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/16790"/>
+        <graphic url="http://lupa.at/img/16790-3.jpg"/>
     </facsimile>
     <text>
         <body>

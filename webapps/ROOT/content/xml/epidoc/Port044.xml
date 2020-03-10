@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, zur Kursiven neigende Buchstaben, A ohne Querhaste, Z.1 deutlich unregelmäßiger.</p>
+                                <p>Leicht unregelmäßige, zur Kursiven neigende Buchstaben, A ohne Querhaste, Z.1 deutlich unregelmäßiger. (-)</p>
                                 <height>2-5</height>
                             </handNote>
                         </handDesc>
@@ -53,7 +53,7 @@
                                 <placeName type="civitas" key="CPort" ref="ph">Civitas Port...</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Heilbronn-Böckingen</placeName> 
-                            <origDate notBefore="0130" notAfter="0200"/>
+                            <origDate notBefore="0150" notAfter="0161"/>
                             </origPlace>
                         </origin>
                             <provenance type="found" notAfter="1835">

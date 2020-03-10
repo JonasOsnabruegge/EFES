@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>weihinschrift für Iuppiter Optimus Maximus, das Heil der Augusti, Iuno Regina und den Genius loci</title>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, das Heil der Augusti, Iuno Regina und den Genius loci</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, uneinheitlich und zum Teil unsauber ausgeführte, quadratische Buchstaben mit Serifen und breiten Hasten.</p>
+                                <p>Leicht unregelmäßige, uneinheitlich und zum Teil unsauber ausgeführte, quadratische Buchstaben mit Serifen und breiten Hasten. (o)</p>
                                 <height min="2.0" max="4.0">4,0-2,0</height>
                             </handNote>
                         </handDesc>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25692"/>
+        <graphic url="http://lupa.at/img/25692-1.jpg"/>
     </facsimile>
     <text>
         <body>

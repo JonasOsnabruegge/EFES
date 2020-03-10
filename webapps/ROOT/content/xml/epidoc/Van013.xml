@@ -20,8 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>
-                                        Bruchstück <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> aus einem monumentalen Grabmal. Oben, unten und rechts abgebrochen, links auf Anschluss gearbeitet. Erhalten ist oben der untere Rand der Bildnische, mit einem rechten Fuß links und einem linken Fuß rechts eines Sockels (Ehepaardarstellung).
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> aus einem monumentalen Grabmal. Oben, unten und rechts abgebrochen, links auf Anschluss gearbeitet. Erhalten ist oben der untere Rand der Bildnische, mit einem rechten Fuß links und einem linken Fuß rechts eines Sockels (Ehepaardarstellung). Im hinteren Teil des Blocks Aussparung, nach Ditsch zur Aufnahme einer Aschenurne.
                                     </p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
@@ -45,7 +44,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, quadratische Buchstaben mit Serifen (capitalis quadrata). Sorgfältig und qualitätvoll gearbeitet, leicht uneinheitliche Ausführung.</p>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen (capitalis quadrata). Sorgfältig und qualitätvoll gearbeitet, leicht uneinheitliche Ausführung. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

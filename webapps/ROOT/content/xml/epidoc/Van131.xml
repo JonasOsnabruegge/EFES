@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Grab(?)inschriftfragment</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -70,7 +70,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term>unbekannt</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92.html">Grabinschrift</term>
                 </keywords>
             </textClass>
         </profileDesc>

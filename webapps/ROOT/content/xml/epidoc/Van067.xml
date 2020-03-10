@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType></p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Nur handschriftlich und in einer schematischen Zeichnung überliefert.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -87,7 +87,7 @@
                     <lb n="1"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Octavius" type="gentilicium">Octavi<lb n="3" break="no"/>us</name> <name nymRef="Celer" type="cognomen">Celer</name></persName>
                     <lb n="4"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> <orgName type="cohors" key="cohorsVIIBreucorum"><expan><abbr>coh</abbr><ex>ortis</ex></expan>
-                    <lb n="5"/><num value="7">VII</num> <expan><abbr>Br<choice><corr/><sic>i</sic></choice>u</abbr><ex>corum</ex></expan></orgName> et
+                    <lb n="5"/><num value="7">VII</num> <expan><abbr>Br<choice><corr>e</corr><sic>i</sic></choice>u</abbr><ex>corum</ex></expan></orgName> et
                     <lb n="6"/><orgName type="cohors" key="cohorsIThracum"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="1">I</num> <expan><abbr>Thra</abbr><ex>cum</ex></expan></orgName>
                 </ab>
             </div>

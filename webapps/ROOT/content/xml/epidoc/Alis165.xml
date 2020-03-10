@@ -87,7 +87,7 @@
                     <lb n="2"/><name nymRef="---us" type="cognomen"><gap reason="lost" extent="unknown" unit="character"/>us</name></persName> ex <expan><abbr>pro</abbr><ex>vincia</ex></expan>
                     <lb n="3"/><placeName type="ancient" nymRef="Mauretania Caesariensis" ref="https://pleiades.stoa.org/places/285482"><supplied reason="lost"><expan><abbr>Mauret</abbr><ex>ania</ex></expan> Caesa</supplied>riensi</placeName> <orig>in</orig>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> coloniae
-                    <lb n="5"/><supplied reason="lost"><expan><abbr>splend</abbr><ex>idissimae</ex></expan> </supplied><placeName type="ancient" nymRef="Tipasa" ref="https://pleiades.stoa.org/places/295363"><supplied reason="lost">Tip</supplied>as<supplied reason="omitted">a</supplied>e</placeName> praefec<lb n="6" break="no"/><supplied reason="lost">tus</supplied><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="5"/><supplied reason="lost"><expan><abbr>splend</abbr><ex>idissimae</ex></expan> </supplied><placeName type="ancient" nymRef="Tipasa" ref="https://pleiades.stoa.org/places/295363"><supplied reason="lost">Tip</supplied>as<supplied reason="omitted">a</supplied>e</placeName> praefec<lb n="6" break="no"/><supplied reason="lost">tus</supplied><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">

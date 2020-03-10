@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Schlichter <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, für die Sekundärverwendung oben, unten und hinten abgearbeitet.</p>
-                                    <material/>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(59)</height>
                                             <width>(39)</width>

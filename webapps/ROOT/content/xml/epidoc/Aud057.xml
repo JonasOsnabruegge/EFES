@@ -85,7 +85,7 @@
                     <lb n="1"/><persName type="attested" ref="persons.xml#p"><name nymRef="Quartionia" type="gentilicium">Quartioniae</name> <name nymRef="Florentina" type="cognomen">Florentinae</name></persName>
                     <lb n="2"/>matri dulcissimae
                     <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Urbanius" type="gentilicium">Urbanius</name> <name nymRef="Firmus" type="cognomen">Firmus</name></persName> filius heres
-                    <lb n="4"/>ex volu<choice><corr>n</corr><orig>m</orig></choice>tate testamenti <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                    <lb n="4"/>ex volu<choice><corr>n</corr><sic>m</sic></choice>tate testamenti <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

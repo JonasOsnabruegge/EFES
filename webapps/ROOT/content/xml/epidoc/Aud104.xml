@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>. Allseitig abgebrochenes Fragment</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Allseitig abgebrochenes Fragment</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(15)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>(+)</p>
                                 <height>3,3-3,8</height>
                             </handNote>
                         </handDesc>

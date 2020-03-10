@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Unregelmäßige, uneinheitlich und flach eingehauene Buchstaben mit Serifen, teils breit, teils schmal ausgeführt. S unsicher.
+                                    Unregelmäßige, uneinheitlich und flach eingehauene Buchstaben mit Serifen, teils breit, teils schmal ausgeführt. S unsicher. (-)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7795"/>
+        <graphic url="http://lupa.at/img/7795-2.jpg"/>
     </facsimile>
     <text>
         <body>

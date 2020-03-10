@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Vorderseite: überwiegend gleichmäßige, leicht uneinheitlich, aber sorgfältig ausgeführte Buhstaben mit Serifen. Auf der Rückseite etwas ungenauer ausgeführte Buchstaben. BF nicht ligiert, B mit mittig durchgezogener Horizontalhaste.
+                                    Vorderseite: überwiegend gleichmäßige, leicht uneinheitlich, aber sorgfältig ausgeführte Buchstaben mit Serifen. (+~) Auf der Rückseite etwas ungenauer ausgeführte Buchstaben. BF nicht ligiert, B mit mittig durchgezogener Horizontalhaste. (+)
                                 </p>
                                 <height min="5.0" max="6.5">5,0-6,5</height>
                             </handNote>
@@ -80,7 +80,12 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25517/"/>
+        <graphic url="http://lupa.at/img/25517-1.jpg"/>
+        <graphic url="http://lupa.at/img/25517-2.jpg"/>
+        <graphic url="http://lupa.at/img/25517-3.jpg"/>
+        <graphic url="http://lupa.at/img/25517-4.jpg"/>
+        <graphic url="http://lupa.at/img/25517-5.jpg"/>
+        <graphic url="http://lupa.at/img/25517-6.jpg"/>
     </facsimile>
     <text>
         <body>

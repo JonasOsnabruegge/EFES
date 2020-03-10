@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, uneinheitlich und eher grob ausgeführte, quadratische Buchstaben mit Serifen.
+                                    Leicht unregelmäßige, uneinheitlich und eher grob ausgeführte, quadratische Buchstaben mit Serifen. (-)
                                 </p>
                                 <height min="3.5" max="4.0">4-3,5</height>
                             </handNote>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25512/"/>
+        <graphic url="http://lupa.at/img/25512-1.jpg"/>
     </facsimile>
     <text>
         <body>

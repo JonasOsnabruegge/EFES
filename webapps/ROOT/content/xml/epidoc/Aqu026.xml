@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>s oder einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>, oben und unten abgebrochen, seitlich verbrochen.</p>
+                                    <p>Bruchstück eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>s (oder vielleicht einer Tafel?), oben und unten abgebrochen, seitlich verbrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(61)</height>
@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Inschriftfeld verwittert. Zentriertes und geordentes, ausgewogen wirkendes Schriftbild, soweit noch erkennbar.
+                                        Inschriftfeld verwittert. Zentriertes und geordnetes, ausgewogen wirkendes Schriftbild, soweit noch erkennbar.
                                     </p>
                                    <dimensions>
                                         <height/>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, sorgfältig gearbeitete quadratische Buchstaben mit Serifen.
+                                    Regelmäßige, sorgfältig gearbeitete quadratische Buchstaben mit Serifen. (++)
                                 </p>
                                 <height/>
                             </handNote>

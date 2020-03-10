@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>(o~)</p>
+                                <p>(+)</p>
                                 <height>4-5</height>
                             </handNote>
                         </handDesc>
@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="Borbetomagus" ref="https://pleiades.stoa.org/places/108820">Borbetomagus</placeName>
                                 <placeName type="modern">Worms</placeName>
-                            <origDate notBefore="0293" notAfter="0305"/>
                             </origPlace>
+                            <origDate notBefore="0293" notAfter="0305"/>
                         </origin>
                             <provenance type="found" when="1885-07-24">
                             <placeName ref="ph">

@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Unregelmäßige, quadratische Buchstaben mit Serifen, ungleichmäßig ausgeführt.
+                                    Unregelmäßige, quadratische Buchstaben mit Serifen, ungleichmäßig ausgeführt. (-)
                                 </p>
                                 <height>2,2-3,5</height>
                             </handNote>
@@ -58,7 +58,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Eisenberg</placeName>
                             </origPlace>
-                            <origDate notBefore="0001" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0030" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1904">
                             <placeName ref="ph">

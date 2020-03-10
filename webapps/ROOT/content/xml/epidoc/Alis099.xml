@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Allseitig abgebrochenes Fragment.</p>
+                                    <p>Allseitig abgebrochenes Fragment. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType></p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -92,7 +92,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>Möglicherweise zusammengehörig mit CIL XIII 6506. 6506 = XXX.</p>
+                <p>Möglicherweise zusammengehörig mit CIL XIII 6506. 6506 = Alis098.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

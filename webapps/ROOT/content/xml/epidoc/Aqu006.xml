@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Weihinschrift für Mercurius des Ianuarius</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, quadratische Buchstaben mit Serifen, sorgfältig ausgeführt.
+                                    Leicht unregelmäßige, quadratische Buchstaben mit Serifen, sorgfältig ausgeführt. (+)
                                 </p>
                                 <height min="4.2" max="4.8">4,8-4,3</height>
                             </handNote>

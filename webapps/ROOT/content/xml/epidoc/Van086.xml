@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Reitergrabstele</objectType>. Bildnische mit bogenförmigem Abschluss, darin Reiter in knielangem Panzer(?) und Mantel mit eingelegter Lanze im Rechten Arm, auf seiner linken Seite Schild, auf stehendem Pferd nach rechts. Einfache Darstellung.</p>
+                                    <p>Rechteckige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Reitergrabstele</objectType>. Bildnische mit bogenförmigem Abschluss, darin Reiter in knielangem Panzer(?) und Mantel mit eingelegter Lanze im rechten Arm, auf seiner linken Seite Schild, auf stehendem Pferd nach rechts. Einfache Darstellung.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>142</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Unregelmäßige, sehr uneinheitlich ausgeführte, rohe Buchstaben, zum Teil mit Serifen, eher flach eingehauen. K mit kurzen Schräghasten.
+                                    Unregelmäßige, sehr uneinheitlich ausgeführte, rohe Buchstaben, zum Teil mit Serifen, eher flach eingehauen. K mit kurzen Schräghasten. (--)
                                 </p>
                                 <height min="5.0" max="7.0">5,0-7,0</height>
                             </handNote>
@@ -58,7 +58,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
                                 <placeName type="modern">Worms</placeName> 
                             </origPlace>
-                            <origDate notBefore="0270" notAfter="0350" cert="low"/>
+                            <origDate notBefore="0270" notAfter="0330" cert="low"/>
                         </origin>
                         <provenance type="found" when="1885">
                             <placeName ref="ph">
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/16784"/>
+        <graphic url="http://lupa.at/img/16784-4-2.jpg"/>
     </facsimile>
     <text>
         <body>

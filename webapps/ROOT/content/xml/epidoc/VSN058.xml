@@ -31,15 +31,15 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>Die erhaltenen Zeilen sind rechtsbündig, Z. 2 und 3 leicht nach rechts eingerückt.</layout>
-                                <dimensions>
+                                <!-- dimensions>
                                     <height>(28)</height>
                                     <width>(53)</width>
-                                </dimensions>
+                                </dimensions -->
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben. Teilweise aus Platzmangl die Buchstaben schmaler als üblich, in Z. 2 I klein (4,0cm) in D eingeschrieben, Z. 3 V kleiner.</p>
+                                <p>Leicht unregelmäßig konstruierte, sorgfältig eingehauene Buchstaben. Teilweise aus Platzmangel die Buchstaben schmaler als üblich, in Z. 2 I klein (4,0cm) in D eingeschrieben, Z. 3 V kleiner. (+)</p>
                                 <height min="7.0" max="8.0">8-7</height>
                             </handNote>
                         </handDesc>

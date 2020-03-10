@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift für alle Götter und den Genius loci</title>
+                <title>Weihinschrift für alle Götter und den Genius loci eines Beneficiariers</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Die Inschrift befindet sich auf dem Schaft. Gut zentrierte Zeilen mit weitem Abstand, ausgewogenes, stellenweise etwas gedrängtes Schriftbild. Rasur in der letzten Zeile sorgfältig durchgeführt. Vorgerissene Hilfslinien noch sichtbar. Dreieckige Worttrenner.</p>
+                                    <p>Die Inschrift befindet sich auf dem Schaft. Gut zentrierte Zeilen mit weitem Abstand, ausgewogenes, stellenweise etwas gedrängtes Schriftbild. Rasur in der letzten Zeile sorgfältig durchgeführt. Vorgerissene Hilfslinien noch sichtbar. Dreieckige Worttrenner. (++)</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25689"/>
+        <graphic url="http://lupa.at/img/25689-1.jpg"/>
     </facsimile>
     <text>
         <body>

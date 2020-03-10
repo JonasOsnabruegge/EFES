@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift für C. Iuliuus Aprilis</title>
+                <title>Grabinschrift für C. Iulius Aprilis</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="lupa.at/img/26982-01.jpg"/>
+        <graphic url="http://lupa.at/img/26982-01.jpg"/>
     </facsimile>
     <text>
         <body>

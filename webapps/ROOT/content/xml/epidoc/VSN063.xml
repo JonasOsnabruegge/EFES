@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment wohl von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType> oder einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, oben, rechts und unten abgebrochen.</p>
+                                    <p>Fragment wohl von einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType> oder einem Altar, oben, rechts und unten abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(78)</height>
@@ -31,17 +31,17 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <dimensions>
+                                    <!--dimensions>
                                         <height>(78)</height>
                                         <depth>(45)</depth>
-                                    </dimensions>
+                                    </dimensions-->
                                     Die Inschrift scheint nicht ganz linksbündig gewesen zu sein, Z. 5 eingerückt (zentriert?). Gleichmäßiges Schriftbild.
                                 </layout>                             
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben mit gleichmäßigem Abstand</p>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben mit gleichmäßigem Abstand. (++)</p>
                                 <height min="6.5" max="7.0">6,5-7,0</height>
                             </handNote>
                         </handDesc>
@@ -57,7 +57,7 @@
                             </origPlace>
                             <origDate notBefore="0195" notAfter="0211" cert="high">Titulatur</origDate>
                         </origin>
-                        <provenance type="found" when="1978"><placeName ref="ph">Ladenburg, nahe der Römerstraße, Gewann Kirchfeld, in Sekundärverwendung alsDeckplatte eines fränkischen Plattengrabes</placeName><geo>49.4684 8.6123</geo>
+                        <provenance type="found" when="1978"><placeName ref="ph">Ladenburg, nahe der Römerstraße, Gewann Kirchfeld, in Sekundärverwendung als Deckplatte eines fränkischen Plattengrabes</placeName><geo>49.4684 8.6123</geo>
                         </provenance>
                         <provenance type="observed">
                         </provenance>

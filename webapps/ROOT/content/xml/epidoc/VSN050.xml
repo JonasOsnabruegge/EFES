@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bildnis eines sitzenden Genius, in der Linken Füllhorn, in der Rechten patera.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>, sitzender Genius, in der Linken Füllhorn, in der Rechten patera.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>33</height>
@@ -35,7 +35,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige Bchstaben von schwankender Größe und ungenauer Ausführung. Höhe des eingeschriebenen D in Z. 2: 0,4 cm.</p>
+                                <p>Unregelmäßige Buchstaben von schwankender Größe und ungenauer Ausführung. Höhe des eingeschriebenen D in Z. 2: 0,4 cm. (--)</p>
                                 <height min="0.8" max="2.2">0,8-2,2</height>
                             </handNote>
                         </handDesc>
@@ -73,7 +73,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="Genius" role="god">G<hi rend="ligature">en</hi><figure><figDesc>Genius</figDesc></figure>iu<lb n="2" break="no"/>m</persName><figure><figDesc>Genius</figDesc></figure> <hi rend="ligature"><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan></hi>
+                    <lb n="1"/><persName type="divine" key="Genius" role="god">G<hi rend="ligature">en</hi>iu<lb n="2" break="no"/>m</persName> <hi rend="ligature"><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan></hi>
                     <lb n="3"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Secundinus" type="cognomen">Secundinus</name></persName> et <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Florus" type="cognomen">Fl<lb n="4" break="no"/>orus</name></persName>
                 </ab>
             </div>

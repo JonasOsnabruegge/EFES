@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="VicusNediensis" ref="ph"/>
                                 <placeName type="modern">Heidelberg </placeName> Kastell, bei 
-                            <origDate notBefore="0081" notAfter="0100" precision="medium">Stationierung</origDate>
                             </origPlace>
+                            <origDate notBefore="0081" notAfter="0100" precision="medium">Stationierung</origDate>
                         </origin>
                             <provenance type="found" notAfter="1800">
                             <placeName ref="ph">

@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der obere profilierte Rahmen des Inschriftfeldes hat sich erhalten. Gleichmäßiges Schriftbild.
+                                    <p>Der obere profilierte Rahmen des Inschriftfeldes hat sich erhalten. Gleichmäßiges Schriftbild. Zeile 1/2 stehen auf Rasur.
                                     </p>
                                     <dimensions>
                                         <height/>
@@ -42,7 +42,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben, von guter Qualität.</p>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben, von guter Qualität. (++)</p>
                                 <height>12,0</height>
                             </handNote>
                         </handDesc>
@@ -55,7 +55,7 @@
                                 <placeName type="Caputcivitatis" key="ph" ref="ph">Aquae</placeName>
                                 <placeName type="modern">Baden-Baden</placeName> 
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                            <origDate notBefore="0081" notAfter="0100" cert="low">Trajan.</origDate>
                         </origin>
                         <provenance type="found" when="1809"><placeName ref="ph">Baden-Baden, Anhähe Rettig (südlich der Sophienstraße), römische Gebäudereste</placeName><geo>48.75 8.25</geo>
                         </provenance>
@@ -82,7 +82,7 @@
                 <ab>
                     <lb n="1"/><add place="overstrike"><expan><abbr><supplied reason="lost">I</supplied><supplied reason="lost" evidence="previouseditor">mp</supplied></abbr><ex>eratore</ex></expan><persName type="emperor" ref="persons.xml#p"><name nymRef="Nerva" type="cognomen"><supplied reason="lost" evidence="previouseditor"> Ne</supplied>rva</name> <name nymRef="Traianus+*" type="cognomen"><expan><abbr>Trai<supplied reason="lost">an</supplied></abbr><ex>o</ex></expan></name></persName><supplied reason="lost"> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Germ</abbr><ex>anico</ex></expan></supplied>
                     <lb n="2"/><expan><abbr><supplied reason="lost" evidence="previouseditor">pont</supplied><supplied reason="lost">i</supplied>f</abbr><ex>ice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></add>
-                    <lb n="3"/><orgName type="legio" key="legioIadiutrix"><expan><abbr><supplied reason="lost">le</supplied><supplied reason="lost" evidence="previouseditor">g</supplied></abbr><ex>io</ex></expan><supplied reason="lost" evidence="previouseditor"> <num value="1">I</num> </supplied><expan><abbr><supplied reason="lost" evidence="previouseditor">adi</supplied></abbr><ex>utrix</ex></expan> </orgName><orgName type="legio" key="legioXIClaudia"><expan><abbr>leg</abbr><ex>io</ex></expan> <num value="11">XI</num> <expan><abbr>Clau</abbr><ex>dia</ex></expan></orgName>
+                    <lb n="3"/><orgName type="legio" key="legioIadiutrix"><expan><abbr><supplied reason="lost">le</supplied><supplied reason="lost" evidence="previouseditor">g</supplied></abbr><supplied reason="lost" evidence="previouseditor"><ex>io</ex></supplied></expan><supplied reason="lost" evidence="previouseditor"> <num value="1">I</num> </supplied><expan><abbr><supplied reason="lost" evidence="previouseditor">adi</supplied></abbr><ex>utrix</ex></expan> </orgName><orgName type="legio" key="legioXIClaudia"><expan><abbr>leg</abbr><ex>io</ex></expan> <num value="11">XI</num> <expan><abbr>Clau</abbr><ex>dia</ex></expan></orgName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -92,7 +92,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>Das linke Fragment ist heute verschollen.</p>
+                <p>Das linke Fragment ist heute verschollen. Z. 1/2 stehen auf Rasur, hier war die Titulatur Domitians eingehauen.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

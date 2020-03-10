@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Fragment vom rechten Rand einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
-                                    <material/>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
                                             <width/>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Weitgehend regelmäßige Buchstaben, Q am Ende von Z. 3 aus Platzmangel leicht kleiner.</p>
+                                <p>Weitgehend regelmäßige Buchstaben, Q am Ende von Z. 3 aus Platzmangel leicht kleiner. (+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

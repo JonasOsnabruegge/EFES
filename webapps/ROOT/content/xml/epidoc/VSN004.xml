@@ -34,7 +34,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Modern mit weißer Farbe ausgemalt. Unregelmäßige Buchstaben, schwankende Buchstabenhöhe, die I durchweg kleiner, O kleiner ausgeführt.
+                            <handNote><p>Modern mit weißer Farbe ausgemalt. Unregelmäßige Buchstaben, schwankende Buchstabenhöhe, die I durchweg kleiner, O kleiner ausgeführt. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -67,7 +67,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.lupa.at/27024"/>
+        <graphic url="http://lupa.at/img/27024-3.jpg"/>
     </facsimile>
     <text>
         <body>

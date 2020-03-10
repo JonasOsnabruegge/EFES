@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift befindet sich auf dem Schaft und nimmt etwa drei Viertel des verfügbaren Platzes ein. Linksbündige Inschrift mit geordnetem, überwiegend gleichmäßigem Schriftbild, teilweis eetwas gedrängt. Erste und letzte Zeile deutlich größer. Dreieckige Worttrenner.
+                                        Die Inschrift befindet sich auf dem Schaft und nimmt etwa drei Viertel des verfügbaren Platzes ein. Linksbündige Inschrift mit geordnetem, überwiegend gleichmäßigem Schriftbild, teilweis etwas gedrängt. Erste und letzte Zeile deutlich größer. Dreieckige Worttrenner.
                                     </p>
                                    <dimensions>
                                         <height/>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig, teilweise leicht unsicher ausgeführt. 
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig, teilweise leicht unsicher ausgeführt. (+~) 
                                 </p>
                                 <height min="2.5" max="5.0">5,0-2,5</height>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25515"/>
+        <graphic url="http://lupa.at/img/25515-1.jpg"/>
     </facsimile>
     <text>
         <body>

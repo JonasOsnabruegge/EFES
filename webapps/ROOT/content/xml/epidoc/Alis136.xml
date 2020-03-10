@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fragment einer Weihinschrift mit Konsuldatierung</title>
+                <title>Fragment einer Weihinschrift(?) mit Konsuldatierung</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>. Allseitig abgebrochenes Fragment, von einem Altar?</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Allseitig abgebrochenes Fragment, von einem Altar?</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(7)</height>
@@ -70,7 +70,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
                 </keywords>
             </textClass>
         </profileDesc>

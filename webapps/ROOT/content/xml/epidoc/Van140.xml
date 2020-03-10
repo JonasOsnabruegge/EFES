@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Für die Sekundärverwendnung allseitig abgearbeitetes Fragment eines nicht näher identifizierten Monuments.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Für die Sekundärverwendnung allseitig abgearbeitetes Fragment eines nicht näher identifizierten Monuments.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Soweit noch erkennbar gleichäßiges, geordnetes Schriftbild. Inschriftfeld stark verwittert.</p>
+                                    <p>Soweit noch erkennbar gleichmäßiges, geordnetes Schriftbild. Inschriftfeld stark verwittert.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig und etwas flach ausgeführt.</p>
+                                <p>Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig und etwas flach ausgeführt. (+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -54,7 +54,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Altenkirchen</placeName> 
                             </origPlace>
-                            <origDate notBefore="0001" notAfter="0300"/>
+                            <origDate notBefore="0014" notAfter="0300"/>
                         </origin>
                             <provenance type="found" notAfter="1602">
                             <placeName ref="ph">

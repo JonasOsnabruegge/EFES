@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Sehr unregelmäßige, uneinheitlich und eher roh ausgeführte, quadratische Buchstaben ohne Serifen. M, N und A mit Merkmalen der Kursiven, schräg gestellte seitliche Hasten, die aufsteigenden dabei etwas unterhalb des oberen Endes auf die absteigenden Hasten treffend. A ohne Querhasten, L und F mit schräggestellten Querhasten. E durchweg mit zwei vertikalen Hasten wiedergegeben (sog. 'gallisches' E).
+                                    Sehr unregelmäßige, uneinheitlich und eher roh ausgeführte, quadratische Buchstaben ohne Serifen. M, N und A mit Merkmalen der Kursiven, schräg gestellte seitliche Hasten, die aufsteigenden dabei etwas unterhalb des oberen Endes auf die absteigenden Hasten treffend. A ohne Querhasten, L und F mit schräggestellten Querhasten. E durchweg mit zwei vertikalen Hasten wiedergegeben (sog. 'gallisches' E). (--)
                                 </p>
                                 <height min="4.5" max="9.5">9,5-4,5</height>
                             </handNote>
@@ -54,9 +54,9 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="VicusNediensis" ref="ph"/>
-                                <placeName type="modern">Neckargemünd</placeName> 
+                                <placeName type="modern">Neckargemünd</placeName>
+                            </origPlace> 
                             <origDate notBefore="0150" notAfter="0250"/>
-                            </origPlace>
                         </origin>
                             <provenance type="found" notAfter="1800">
                             <placeName ref="ph">

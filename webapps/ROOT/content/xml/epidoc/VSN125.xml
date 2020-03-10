@@ -13,7 +13,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Wiesenbachm Langenzell, Schloss, vermauert</repository>
+                        <repository>Wiesenbach, Langenzell, Schloss, vermauert</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -31,17 +31,13 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p/>
-                                   <dimensions>
-                                        <height/>
-                                        <width/>
-                                    </dimensions>
+                                    <p>Die Inschrift befindet sich unterhalb des Bildfeldes.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>(o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

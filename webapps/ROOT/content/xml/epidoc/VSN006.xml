@@ -34,7 +34,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Regelmäßige, gleichmäßig konstruierte Buchstaben. V in Z. 1 klein in Bogen des C eingeschrieben.
+                            <handNote><p>Regelmäßige, gleichmäßig konstruierte Buchstaben. V in Z. 1 klein in Bogen des C eingeschrieben. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -68,7 +68,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.lupa.at/27120"/>
+        <graphic url="http://lupa.at/img/27120.jpg"/>
     </facsimile>
     <text>
         <body>

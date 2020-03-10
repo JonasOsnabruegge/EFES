@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige Buchstaben mit Serifen, eher flach eingehauen, zum Teil mit leichten Unsicherheiten. Schwankende Breite. In Zeile 2 I aus Platzgründen am Ende der Zeile hochgestellt.
+                                    Regelmäßige Buchstaben mit Serifen, eher flach eingehauen, zum Teil mit leichten Unsicherheiten. Schwankende Breite. In Zeile 2 I aus Platzgründen am Ende der Zeile hochgestellt. (++)
                                 </p>
                                 <height/>
                             </handNote>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/8542"/>
+        <graphic url="http://lupa.at/img/8542.jpg"/>
     </facsimile>
     <text>
         <body>

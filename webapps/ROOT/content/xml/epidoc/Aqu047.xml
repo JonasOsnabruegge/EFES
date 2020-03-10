@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück vom oberen rechten Teil eines Altars mit Resten der Bekrönung, links und unten abgebrochen, verrieben. Auf der rechten Nebenseite </p>
+                                    <p>Bruchstück mit dem oberen rechten Teil von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit Resten der Bekrönung, links und unten abgebrochen, verrieben. Auf der rechten Nebenseite Diana, in ihren Köcher greifend.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(50)</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, leicht uneinheitlich ausgeführte quadratische Buchstaben mit Serifen.
+                                    Regelmäßige, leicht uneinheitlich ausgeführte quadratische Buchstaben mit Serifen. (+)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,14 +80,14 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/27417"/>
+        <graphic url="http://lupa.at/img/27417-1.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/><persName type="divine" key="IOM+" role="god"><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
-                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><supplied reason="lost" evidence="parallel"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied></name><name nymRef="Cornelius+" type="gentilicium"><supplied reason="lost"> Cor</supplied><hi rend="ligature">ne</hi>l<hi rend="small">i</hi>us</name>
+                    <lb n="2"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><supplied reason="lost" evidence="parallel"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied></name> <name nymRef="Cornelius+" type="gentilicium"><supplied reason="lost">Cor</supplied><hi rend="ligature">ne</hi>l<hi rend="small">i</hi>us</name>
                     <lb n="3"/><name nymRef="Augurinus+" type="cognomen"><supplied reason="lost" evidence="parallel">Augu</supplied>rinus</name></persName>
                     <lb n="4"/><supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan> </supplied><orgName type="civitas" key="civitasAquensis"><expan><abbr><supplied reason="lost">c</supplied>iv</abbr><ex>itatis</ex></expan> <expan><abbr>Aq</abbr><ex>uensis</ex></expan></orgName>
                     <lb n="5"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan></supplied> <expan><abbr>m</abbr><ex>erito</ex></expan>

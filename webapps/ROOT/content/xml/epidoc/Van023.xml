@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Allseitig abgebrochenes Fragment eines nicht näher identifizierten Monuments.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Allseitig abgebrochenes Fragment eines nicht näher identifizierten Monuments.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -70,7 +70,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="DISS_JO">
-                    <term/>
+                    <term>unbekannt</term>
                 </keywords>
             </textClass>
         </profileDesc>

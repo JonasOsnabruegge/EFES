@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Soweit noch erkennbar regelmäßige, sorgfältig eingehauene Buchstaben mit Serifen.
+                                    Soweit noch erkennbar regelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen. (++)
                                 </p>
                                 <height min="3.5" max="5.5">3,5-5,5</height>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25701"/>
+        <graphic url="http://lupa.at/img/25701-3.jpg"/>
     </facsimile>
     <text>
         <body>

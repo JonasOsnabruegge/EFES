@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Ludwigshafen</placeName>
-                            <origDate notBefore="0306-07-25" notAfter="0307-08"/>
                             </origPlace>
+                            <origDate notBefore="0306-07-25" notAfter="0307-08"/>
                         </origin>
                             <provenance type="found" when="2001">
                             <placeName ref="ph">

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Simple<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, umgearbeitet?</p>
+                                    <p>Simple hausförmige <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height>(65)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, tief eingehauene, uneinheitlich ausgeführte Buchstaben. M mit schräggestellten seitlichen Hasten.</p>
+                                <p>Unregelmäßige, tief eingehauene, uneinheitlich ausgeführte Buchstaben. M mit schräggestellten seitlichen Hasten. (--)</p>
                                 <height min="4.5" max="7.0">7,0-4,0</height>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/8531"/>
+        <graphic url="http://lupa.at/img/8531-2.jpg"/>
     </facsimile>
     <text>
         <body>

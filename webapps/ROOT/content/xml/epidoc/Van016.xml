@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>
-                                       Fragment vom unteren Teil einer Stele. Unterhalb der Inschrift zwei asciae (oder ascia und dolabra). Oben abgebrochen.
+                                       Fragment vom unteren Teil einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>. Unterhalb der Inschrift zwei asciae (oder ascia und dolabra). Oben abgebrochen.
                                     </p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
@@ -46,7 +46,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, quadratische Buchstaben mit Serifen, eher quadratisch, sorgfältig und qualitätvoll ausgeführt.
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, eher quadratisch, sorgfältig und qualitätvoll ausgeführt. (++)
                                 </p>
                                 <height/>
                             </handNote>

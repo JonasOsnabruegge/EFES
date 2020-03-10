@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Links und rechts abgebrochenes Fragment einer nicht näher identifizeirten Monuments</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Links und rechts abgebrochenes Fragment einer nicht näher identifizeirten Monuments</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -54,7 +54,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Ohmbach</placeName> 
                             </origPlace>
-                            <origDate notBefore="0001" notAfter="0300"/>
+                            <origDate notBefore="0014" notAfter="0300"/>
                         </origin>
                             <provenance type="found" notAfter="1564">
                             <placeName ref="ph">

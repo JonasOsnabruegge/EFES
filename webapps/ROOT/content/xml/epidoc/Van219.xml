@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> von einem größeren Grabbau, aif der erhaltenen Nebenseite Akanthuskandelaber.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> von einem größeren Grabbau, auf der erhaltenen Nebenseite Akanthuskandelaber.</p>
                                     <material>Ryolith</material>
                                         <dimensions unit="cm">
                                             <height>(48)</height>
@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109427">Cruciniacum</placeName>
                                 <placeName type="modern">Bad Kreuznach</placeName>
-                            <origDate notBefore="0150" notAfter="0200"/>
                             </origPlace>
+                            <origDate notBefore="0150" notAfter="0200"/>
                         </origin>
                             <provenance type="found" notAfter="2000">
                             <placeName ref="ph">

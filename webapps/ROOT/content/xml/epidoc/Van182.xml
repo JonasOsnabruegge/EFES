@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>. Für die Sekundärverwendung an den Seiten und unten abgearbeitet.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Für die Sekundärverwendung an den Seiten und unten abgearbeitet.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(33)</height>

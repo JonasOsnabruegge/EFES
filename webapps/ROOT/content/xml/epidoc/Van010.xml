@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Zwei aneinanderpassende Buchstücke eines nicht näher identifizierten Grabmonuments. Oben abgebrochen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Zwei aneinanderpassende Buchstücke eines nicht näher identifizierten Grabmonuments. Oben abgebrochen. Vielleicht Aschenkiste, Stele oder Abdeckung eines altarförmigen Grabbaus (Ditsch).</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(28)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, eher schmale, gleichmäßige Buchstaben mit Serifen.</p>
+                                <p>Leicht unregelmäßige, eher schmale, gleichmäßige Buchstaben mit Serifen. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

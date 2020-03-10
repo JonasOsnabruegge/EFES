@@ -82,7 +82,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><expan><abbr>Gen</abbr><ex>io</ex></expan> <expan><abbr>loc</abbr><ex/></expan><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><expan><abbr>Gen</abbr><ex>io</ex></expan> <expan><abbr>loc</abbr><ex>i</ex></expan> <gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">

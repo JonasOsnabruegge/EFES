@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment eines unbekannten Monuments</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Fragment.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>

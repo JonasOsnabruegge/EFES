@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>&gt;Aufwändig verzierter <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Rechter Pulvinus und linke untere Ecke abgeschlagen. Auf der Bekrönung dreieckiger Giebel, darin Büste des Iuppiter. Im oberen Teil des Inschriftfeldes Doppelbogennische, darin links Isis, rechts Sarapis.</p>
+                                    <p>Aufwändig verzierter <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Rechter Pulvinus und linke untere Ecke abgeschlagen. Auf der Bekrönung dreieckiger Giebel, darin Büste des Iuppiter. Im oberen Teil des Inschriftfeldes Doppelbogennische, darin links Isis, rechts Sarapis.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>88</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßig und leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen.
+                                    Leicht unregelmäßig und leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen. (o)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/6914"/>
+        <graphic url="http://lupa.at/img/6914-1.jpg"/>
     </facsimile>
     <text>
         <body>

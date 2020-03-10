@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>
-                                        
+                                        <objectType>Sitzstufe</objectType>
                                     </p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
@@ -43,8 +43,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>7,0</p>
-                                <height/>
+                                <p/>
+                                <height>7,0</height>
                             </handNote>
                         </handDesc>
                     </physDesc>

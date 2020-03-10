@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>
-                                       Thronende Statue der Fortuna, qualitätvolle Arbeit. Kopf, Arme, Unterschenkel abgeschlagen, linke vordere und rechte obere Ecke abgebrochen. Neben dem linken Bein Füllhorn.
+                                       <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>. Thronende Statue der Fortuna, qualitätvolle Arbeit. Kopf, Arme, Unterschenkel abgeschlagen, linke vordere und rechte obere Ecke abgebrochen. Neben dem linken Bein Füllhorn.
                                     </p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
@@ -45,7 +45,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, quadratische Buchstaben mit Serifen. P geöffnet.</p>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen. P geöffnet. (++)</p>
                                 <height>3</height>
                             </handNote>
                         </handDesc>

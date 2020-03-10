@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Mehrere Fragmente eines Reliefs mit stehender Darstellung des Silvanus in Mantel und kurzer tunica, in der Rechten Stab, in der linken Messer. Zu seinen Füßen links und rechts je ein liegendes Tier (Hund). Verwittert und bestoßen.</p>
+                                    <p>Mehrere Fragmente von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType> mit stehender Darstellung des Silvanus in Mantel und kurzer tunica, in der Rechten Stab, in der linken Messer. Zu seinen Füßen links und rechts je ein liegendes Tier (Hund). Verwittert und bestoßen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, uneinheitlich mit schwankender Größe ausgeführte, quadratische Buchstaben (ohne Serifen?), eher flach eingehauen.</p>
+                                <p>Unregelmäßige, uneinheitlich mit schwankender Größe ausgeführte, quadratische Buchstaben (ohne Serifen?), eher flach eingehauen. (-)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

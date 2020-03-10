@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, uneinheitlich und mit schwankender Breite ausgeführte Buchstaben mit Serifen. In Zeile 3 A klein unterhalb und teilweise über den unteren Bogen des C eingehauen.
+                                    Leicht unregelmäßige, uneinheitlich und mit schwankender Breite ausgeführte Buchstaben mit Serifen. In Zeile 3 A klein unterhalb und teilweise über den unteren Bogen des C eingehauen. (o)
                                 </p>
                                 <height min="4.5" max="6.5">6,5-4,5</height>
                             </handNote>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7572"/>
+        <graphic url="http://lupa.at/img/7572.jpg"/>
     </facsimile>
     <text>
         <body>

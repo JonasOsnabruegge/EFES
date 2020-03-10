@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück eines nicht näher identifizierten Grabmonuments.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Bruchstück eines nicht näher identifizierten Grabmonuments.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(24)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig gearbeitet.</p>
+                                <p>Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig gearbeitet. (++) </p>
                                 <height/>
                             </handNote>
                         </handDesc>

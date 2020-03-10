@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Zwei aneinanderpasende Bruchstücke der Abdeckung einer Aschenkiste, horizontal gebrochen, vom Oberteil noch die vordere Hälfte. Auf den Nebenseiten Reliefdekor: Krater und Akanthusornamente.</p>
+                                    <p>Zwei aneinanderpasende Bruchstücke der Abdeckung einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/79.html">Aschenkiste</objectType>, horizontal gebrochen, vom Oberteil noch die vordere Hälfte. Auf den Nebenseiten Reliefdekor: Krater und Akanthusornamente.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(68)</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, sorgfältig und tief eingehauene, qualitätvolle quadratische Buchstaben mit Serifen.
+                                    Regelmäßige, sorgfältig und tief eingehauene, qualitätvolle quadratische Buchstaben mit Serifen. (++)
                                 </p>
                                 <height/>
                             </handNote>
@@ -58,7 +58,7 @@
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Sankt Julian</placeName> 
                             </origPlace>
-                            <origDate notBefore="0100" notAfter="0200">Ditsch: typologisch nach Mitte 2. Jh.</origDate>
+                            <origDate notBefore="0150" notAfter="0200">Ditsch: typologisch nach Mitte 2. Jh.</origDate>
                         </origin>
                         <provenance type="found" when="1879">
                             <placeName ref="ph">

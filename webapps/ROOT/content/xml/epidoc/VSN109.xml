@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> oder <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType> für ein Bildnis des Mercurius.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType> für ein Bildnis des Mercurius.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>60</height>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Die Inschrift befindet sich auf dem Schaft, den sie in ganzer Höhe einnimmt. Erste Zeile zentriert, Zeile 2 und 3 linksbündig und etwas eingerückt mit unterschiedlicher Länge. Gleichmäßiges, aber etwas unausgewogenes Schrifbtild.</p>
+                                    <p>Die Inschrift befindet sich auf dem Schaft, den sie in ganzer Höhe einnimmt. Erste Zeile zentriert, Zeile 2 und 3 linksbündig und etwas eingerückt mit unterschiedlicher Länge. Gleichmäßiges, aber etwas unausgewogenes Schriftbild.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -55,8 +55,8 @@
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Heidelberg </placeName>
-                            <origDate notBefore="0070" notAfter="0250"/>
                             </origPlace>
+                            <origDate notBefore="0070" notAfter="0250"/>
                         </origin>
                             <provenance type="found" notAfter="1613">
                             <placeName ref="ph">

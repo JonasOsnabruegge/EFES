@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Umgearbeiteter <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> oder <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>? Auf der Oberseite befindet sich eine sekundär anbgebrachte Darstellung eines geflügelten Eros (Trauergenius) mit umgedrehter Fackel, Rosettendekor.</p>
+                                    <p>Umgearbeiteter <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Ursprünglich wohl Grabaltar: Auf der Oberseite befindet sich eine sekundär anbgebrachte Darstellung eines geflügelten Eros (Trauergenius) mit umgedrehter Fackel, welcher wohl aus dieser Nutzungsphase stammt. Rosettendekor.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>73</height>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Die Inschrift befindet sich in einem gerahmten Inschriftfeld, links ausgebrochen. Oberer, rechter und linker Rand erhalten. Inschrift im Blocksatz`? Regelmä0iges, geordnetes Schriftbild. mit gleichmäßigem Zeilenabstand und leicht uneinheitlichem Buchstabenabstand.</p>
+                                    <p>Die Inschrift befindet sich in einem gerahmten Inschriftfeld, links ausgebrochen. Oberer, rechter und linker Rand erhalten. Inschrift im Blocksatz? Regelmäßiges, geordnetes Schriftbild. mit gleichmäßigem Zeilenabstand und leicht uneinheitlichem Buchstabenabstand.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig aber leicht uneinheitlich gearbeitete quadratische Buchstaben mit Serifen</p>
+                                <p>Regelmäßige, sorgfältig aber leicht uneinheitlich gearbeitete quadratische Buchstaben mit Serifen. (+)</p>
                                 <height min="4.4" max="4.6">4,6-4,4</height>
                             </handNote>
                         </handDesc>
@@ -51,10 +51,10 @@
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
-                                <placeName type="ancient" key="VicusNediensis" ref="ph">Vicus Nediensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Mannheim</placeName>
-                            <origDate notBefore="0100" notAfter="0250"/>
                             </origPlace>
+                            <origDate notBefore="0170" notAfter="0230"/>
                         </origin>
                             <provenance type="found" when="1882">
                             <placeName ref="ph">
@@ -96,7 +96,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>Vgl. CIL XIII 11221.</p>
+                <p>Vgl. CIL XIII 11221. Erstnutzung wohl als Grabaltar, danach Umarbeitung zu einem Votivdenkmal. In dritter Phase Spoliierung für den Bau des valentinianischen Burgus.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

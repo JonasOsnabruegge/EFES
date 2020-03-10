@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Altar für das Heil Severus' Alexanders</title>
+                <title>Altar für das Heil Severus Alexanders</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>(o+)</p>
+                                <p>(o)</p>
                                 <height>2,8-3,8</height>
                             </handNote>
                         </handDesc>

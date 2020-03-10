@@ -35,7 +35,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig ausgeführte und zentrierte Schrift mit ausgewogenem Schriftbild. O in Z. 2 etwas kleiner.</p>
+                                <p>Regelmäßige, sorgfältig ausgeführte und zentrierte Schrift mit ausgewogenem Schriftbild. O in Z. 2 etwas kleiner. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -68,7 +68,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.lupa.at/27099"/>
+        <graphic url="http://lupa.at/img/27099.jpg"/>
     </facsimile>
     <text>
         <body>

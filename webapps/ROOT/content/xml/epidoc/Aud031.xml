@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment vom oberen Teil eines Altars, Bekrönung verbrochen, links, rechts und unten abgebrochen.</p>
+                                    <p>Fragment mit dem oberen Teil von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Bekrönung verbrochen, links, rechts und unten abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(39)</height>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, eher schmale Buchstaben mit Serifen.
+                                    Regelmäßige, eher schmale Buchstaben mit Serifen. (++)
                                 </p>
                                 <height/>
                             </handNote>

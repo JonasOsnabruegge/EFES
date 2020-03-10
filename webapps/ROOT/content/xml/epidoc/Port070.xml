@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Mehrere aneinanderpassende Fragmente von einem Altar, bestoßen.</p>
+                                    <p>Mehrere aneinanderpassende Fragmente von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, bestoßen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(68)</height>

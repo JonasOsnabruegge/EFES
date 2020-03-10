@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Stelenförmiges Monument mit rechteckiger Bildnische, darin stehendes Götterpaar, links Rosmerta in Mantel und tunica, in der Rechten patera im Opfergestus ausleerend, in der Linken Gefäß; rechts Mercurius mit Flügelhut, nackt, Mantel über der linken Schulter. in der Linken Caduceus, in der Rechten marsupium.</p>
+                                    <p>Stelenförmiges <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType> mit rechteckiger Bildnische, darin stehendes Götterpaar, links Rosmerta in Mantel und tunica, in der Rechten patera im Opfergestus ausleerend, in der Linken Gefäß; rechts Mercurius mit Flügelhut, nackt, Mantel über der linken Schulter. in der Linken Caduceus, in der Rechten marsupium.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>88</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, ungleichmäßig ausgeführte, quadratische Buchstaben mit Serifen, Unsicherheiten besonders bei M, R, S. Einige verbesserte Schreibfehler.</p>
+                                <p>Leicht unregelmäßige, ungleichmäßig ausgeführte, quadratische Buchstaben mit Serifen, Unsicherheiten besonders bei M, R, S. Einige verbesserte Schreibfehler. (o)</p>
                                 <height min="3.5" max="4.0">3,5-4,0</height>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25536"/>
+        <graphic url="http://lupa.at/img/25536-1.jpg"/>
     </facsimile>
     <text>
         <body>

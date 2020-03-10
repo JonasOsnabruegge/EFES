@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Relief, noch Reste einer Darstellung von Apollo mit Greif und Dreifuß, an dem sich eine Schlange emporringelt. Oben, etwa auf Höhe des Halses des hinter Apollo liegenden Greifen, abgebrochen.</p>
+                                    <p>t<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>, noch Reste einer Darstellung von Apollo mit Greif und Dreifuß, an dem sich eine Schlange emporringelt. Oben, etwa auf Höhe des Halses des hinter Apollo liegenden Greifen, abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(37)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßig, sorgfältig eingehauene quadratische Buchstaben mit Serifen.</p>
+                                <p>Regelmäßig, sorgfältig eingehauene quadratische Buchstaben mit Serifen. (++)</p>
                                 <height>6,5</height>
                             </handNote>
                         </handDesc>
@@ -52,9 +52,9 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
-                                <placeName type="modern">Mannheim</placeName> 
+                                <placeName type="modern">Mannheim</placeName>
+                            </origPlace> 
                             <origDate notBefore="0100" notAfter="0250"/>
-                            </origPlace>
                         </origin>
                             <provenance type="found" when="1880">
                             <placeName ref="ph">
@@ -82,7 +82,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><expan><abbr>In</abbr><ex>h</ex></expan>onorem
+                    <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan>
                      <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>

@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift befindet sich auf dem Schaft und nimmt diessen fast auf der gesamten Fläche ein. Linksbündige Inschrift mit gedrängtem Schriftbild, enger Zeilenabstand. Erste Zeile höher.
+                                        Die Inschrift befindet sich auf dem Schaft und nimmt diesen fast auf der gesamten Fläche ein. Linksbündige Inschrift mit gedrängtem Schriftbild, enger Zeilenabstand. Erste Zeile höher.
                                     </p>
                                    <dimensions>
                                         <height/>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, uneinheitlich ausgeführte Buchstaben von schwankender Breite, mit Serifen, teilweise sehr eng und gedrängt stehend, wo dies aus Platzgründen erforderlich war (so etwa in Zeile 6 und 7).
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte Buchstaben von schwankender Breite, mit Serifen, teilweise sehr eng und gedrängt stehend, wo dies aus Platzgründen erforderlich war (so etwa in Zeile 6 und 7). (o)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25700"/>
+        <graphic url="http://lupa.at/img/25700.jpg"/>
     </facsimile>
     <text>
         <body>

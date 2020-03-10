@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregemäßige, uneinheitlich ausgeführte, quadratsich bis schmale Buchstaben mit Serifen.</p>
+                                <p>Leicht unregemäßige, uneinheitlich ausgeführte, quadratsich bis schmale Buchstaben mit Serifen. (o)</p>
                                 <height min="4.5" max="6.5"> </height>
                             </handNote>
                         </handDesc>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7413"/>
+        <graphic url="http://lupa.at/img/7413.jpg"/>
     </facsimile>
     <text>
         <body>

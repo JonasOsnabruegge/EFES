@@ -54,7 +54,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Rockenhausen</placeName> 
                             </origPlace>
-                            <origDate notBefore="0200" notAfter="0300"/>
+                            <origDate notBefore="0100" notAfter="0250"/>
                         </origin>
                             <provenance type="found" notAfter="1905">
                             <placeName ref="ph">

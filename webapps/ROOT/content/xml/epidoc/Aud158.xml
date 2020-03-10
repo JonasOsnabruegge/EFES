@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift für die Kapitolinische Trias, Mars, den Genius loci und die Genii p</title>
+                <title>Weihinschrift für die Kapitolinische Trias, Mars, den Genius loci und die Genii praesidium</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,8 +20,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p/>
-                                    <material/>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
+                                    <material>Sandstein?</material>
                                         <dimensions unit="cm">
                                             <height/>
                                             <width/>

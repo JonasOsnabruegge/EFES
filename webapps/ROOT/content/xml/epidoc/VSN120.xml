@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term ref="https://www.eagle-network.eu/voc/typeins/lod/102">Meilenstein</term>.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">Meilensäule</objectType>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(135)</height>
@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Heidelberg</placeName>
-                            <origDate when="0245">Kaiser</origDate>
                             </origPlace>
+                            <origDate when="0245">Kaiser</origDate>
                         </origin>
                             <provenance type="found" when="1877-08">
                             <placeName ref="ph">

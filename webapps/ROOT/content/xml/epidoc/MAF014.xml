@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Ehreninschrift für einen Kaiser</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -13,19 +13,19 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository/>
+                        <repository>Rottweil, Dominikanermuseum</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p/>
-                                    <material/>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>. Bronzene Verkleidung einer Statuenbasis.</p>
+                                    <material>Bronze</material>
                                         <dimensions unit="cm">
-                                            <height/>
-                                            <width/>
-                                            <depth/>
+                                            <height>(9,3)</height>
+                                            <width>(9,3)</width>
+                                            <depth>0,3</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>(+++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

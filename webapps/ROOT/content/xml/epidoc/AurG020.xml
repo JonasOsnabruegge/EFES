@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Sonnenuhr, mehrere Fragmente</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/134.html">Sonnenuhr</objectType>, mehrere Fragmente</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height>(9)</height>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Die Inschrift befindet sich auf der Außenseite</p>
+                                    <p>Die Inschrift befindet sich auf der Außenseite.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>

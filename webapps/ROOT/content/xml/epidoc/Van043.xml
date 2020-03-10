@@ -14,13 +14,13 @@
                 <msDesc>
                     <msIdentifier>
                         <repository>Mannheim, Reiss-Engelhorn-Museen</repository>
-                        <idno>Haug 55</idno>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> eines größeren Grabmonuments. Unte abgebrochen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> eines größeren Grabmonuments, vielleicht Aediculagrabmal. Unten abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Linksbündige Inschrift mit leicht unregelmäßigem Schriftbild, Buchstaben teilweise recht gedrängt stehend. Dabei ist die Kombination TT in Zeile 1 und 2 so ausgeführt, dass das zwite T kleiner mit seiner Vertikalhaste direkt unter dem rechten Abschluss der Querhaste des ersten T steht. Am Ende von Zeile 1 ist das M nachträglich als Ligatur mit dem linken A eingefügt worden, wobei das M nach links fortgeführt wurde und dem Winkel des L entspringt. In Zeile 2 O klein in C. Dreieckige Worttrenner. Die zahlreichen Ligaturen und Buchstabenverschachtelungne erwecken eher den Eindruck, als seien sie überwiegend dem künstlerischen Gestaltungswillen des Steinmetzen bei der ordinatio als einem konkreten Platzmangel entsprungen.</p>
+                                    <p>Linksbündige Inschrift mit leicht unregelmäßigem Schriftbild, Buchstaben teilweise recht gedrängt stehend. Dabei ist die Kombination TT in Zeile 1 und 2 so ausgeführt, dass das zweite T kleiner mit seiner Vertikalhaste direkt unter dem rechten Abschluss der Querhaste des ersten T steht. Am Ende von Zeile 1 ist das M nachträglich als Ligatur mit dem linken A eingefügt worden, wobei das M nach links fortgeführt wurde und dem Winkel des L entspringt. In Zeile 2 O klein in C. Dreieckige Worttrenner. Die zahlreichen Ligaturen und Buchstabenverschachtelungen erwecken eher den Eindruck, als seien sie überwiegend dem künstlerischen Gestaltungswillen des Steinmetzen bei der ordinatio als einem konkreten Platzmangel entsprungen.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, eher schmale, leicht unregelmäßig, aber sorgfältig ausgeführte Buchstaben mit Serifen.
+                                    Regelmäßige, eher schmale, leicht unregelmäßig, aber sorgfältig ausgeführte Buchstaben mit Serifen. (+)
                                 </p>
                                 <height/>
                             </handNote>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Wolfstein</placeName> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0200" cert="low"/>
+                            <origDate notBefore="0170" notAfter="0230" cert="medium">Typologie.</origDate>
                         </origin>
                         <provenance type="found" when="1765">
                             <placeName ref="ph">

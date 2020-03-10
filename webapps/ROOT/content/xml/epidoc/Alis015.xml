@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift für Mars?</title>
+                <title>Weihinschrift auf Viergötterstein</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, schmale Buchstaben mit Serifen, sorgfältig, aber teilweise leicht unsicher ausgeführt.
+                                    Regelmäßige, schmale Buchstaben mit Serifen, sorgfältig, aber teilweise leicht unsicher ausgeführt. (+)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,14 +80,14 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7334"/>
+        <graphic url="http://lupa.at/img/7334-6.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/>In <supplied reason="lost"><expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan></supplied>
-                    <lb n="2"/>Ma<supplied reason="lost" cert="low">rti</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><orig>ma</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><orig><choice><unclear>c</unclear><unclear>g</unclear></choice></orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4"/>et <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="5"/><orig>ri</orig><gap reason="lost" extent="unknown" unit="character"/>
@@ -117,6 +117,12 @@
                         <ptr target="NesselhaufLieb1959"/>
                         <biblScope>
                             173, Nr. 132
+                        </biblScope>
+                    </bibl>
+                    <bibl>
+                        <ptr target="Bauchhenss1981"/>
+                        <biblScope>
+                            102, Nr. 64
                         </biblScope>
                     </bibl>
                 </listBibl>

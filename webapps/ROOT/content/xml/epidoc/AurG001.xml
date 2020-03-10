@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift nimmt im Blocksatz nahezu die gesamte noch erhaltene Fläche ein, letzte Zeile eingerückt, aber nicht zentriert. Gleichmäßiger Buchstabenabstand, das Schrifbtild wirkt durch die teils unterschiedliche Buchstabenhöhe (O in Zeile 2, 3 und 4 jeweils kleiner zwischen anderen Buchstaben) etwas ungleichmäßig. Dreieckige Worttrenner.
+                                        Die Inschrift nimmt im Blocksatz nahezu die gesamte noch erhaltene Fläche ein, letzte Zeile eingerückt, aber nicht zentriert. Gleichmäßiger Buchstabenabstand, das Schriftbild wirkt durch die teils unterschiedliche Buchstabenhöhe (O in Zeile 2, 3 und 4 jeweils kleiner zwischen anderen Buchstaben) etwas ungleichmäßig. Dreieckige Worttrenner.
                                     </p>
                                    <dimensions>
                                         <height/>
@@ -88,7 +88,7 @@
                 <ab>
                     <lb n="1"/>Deo <persName type="divine" key="Mercurius" role="god">Mercurio</persName>
                     <lb n="3"/><persName type="attested" ref="persAurG.xml#pAurG52" role="creator"><name nymRef="Avitius" type="gentilicium"><hi rend="ligature">Av</hi>itius</name> <name nymRef="Maiorinus" type="cognomen">Mai<surplus>i</surplus><hi rend="small">o</hi><hi rend="ligature">r<hi rend="tall">i</hi></hi><hi rend="ligature">nu</hi>s</name></persName>
-                    <lb n="4"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="attested" ref="persAurG.xml#pAurG53" role="creator"><name nymRef="Avitius" type="gentilicium"><hi rend="ligature">Av</hi>itius</name> <name nymRef="Apollinaris" type="cognomen">Ap<hi rend="small">o</hi>llina<lb n="5" break="no"/>ris</name></persName> <expan><abbr>d</abbr><ex>ecuriones</ex></expan> <orgName type="civitas" key="civitasAureliaGS"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr><hi rend="ligature">Au</hi>r</abbr><ex>eliae</ex></expan> <abbr>G</abbr> <abbr>S</abbr></orgName> ex v<hi rend="small">o</hi>t<hi rend="small">o</hi>
+                    <lb n="4"/><hi rend="ligature"><hi rend="reversed">e</hi>t</hi> <persName type="attested" ref="persAurG.xml#pAurG53" role="creator"><name nymRef="Avitius" type="gentilicium"><hi rend="ligature">Av</hi>itius</name> <name nymRef="Apollinaris" type="cognomen">Ap<hi rend="small">o</hi>llina<lb n="4" break="no"/>ris</name></persName> <expan><abbr>d</abbr><ex>ecuriones</ex></expan> <orgName type="civitas" key="civitasAureliaGS"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr><hi rend="ligature">Au</hi>r</abbr><ex>eliae</ex></expan> <abbr>G</abbr> <abbr>S</abbr></orgName> ex v<hi rend="small">o</hi>t<hi rend="small">o</hi>
                     <lb n="5"/>posuerunt
                 </ab>
             </div>

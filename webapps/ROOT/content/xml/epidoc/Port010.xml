@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment, oben und an den Seiten abgeschnitten, unten abgebrochen, von einem nicht näher identifizierbaren Monument.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Fragment, oben und an den Seiten abgeschnitten, unten abgebrochen, von einem nicht näher identifizierbaren Monument.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(18)</height>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Unregelmäßige Buchstaben mit Serifen, leicht uneinheitlich ausgeführt, schwankende Breite. M breit, D im Vergleich dazu sehr schmal. C ebenfalls schmal.
+                                    Unregelmäßige Buchstaben mit Serifen, leicht uneinheitlich ausgeführt, schwankende Breite. M breit, D im Vergleich dazu sehr schmal. C ebenfalls schmal. (o)
                                 </p>
                                 <height/>
                             </handNote>

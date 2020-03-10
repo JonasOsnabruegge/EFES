@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Aschenkiste</p>, rechte Seite und hinten abgebrochen. Unten auf der rechten Nebenseite Axt und Ascia.
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/79.html">Aschenkiste</objectType>, rechte Seite und hinten abgebrochen. Unten auf der rechten Nebenseite Axt und Ascia.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>71</height>
@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inschrift befindet sich in einem gerahmten Inschriftfeld und füllt dieses im Blocksatz komplett aus. Z. 5 leicht eingerückt. Enger Buchstabenabstand. Deutliche, vorgezeichnete Hilfslinien, die jedoch nicht ganz gerade sind, diese wurden nicht immer eingehalten.
+                                        Die Inschrift befindet sich in einem gerahmten Inschriftfeld und füllt dieses im Blocksatz komplett aus. Z. 5 leicht eingerückt. Enger Buchstabenabstand. Deutliche, vorgezeichnete Hilfslinien, die jedoch nicht ganz gerade sind, diese wurden nicht immer eingehalten. Auf der rechten Nebenseite Axt und ascia.
                                     </p>
                                     <dimensions>
                                         <height/>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, ungleichmäßig ausgeführte Buchstaben, schmal und hoch, ohne Serifen.</p>
+                                <p>Unregelmäßige, ungleichmäßig ausgeführte Buchstaben, schmal und hoch, ohne Serifen. (-)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

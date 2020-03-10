@@ -35,7 +35,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Größtenteils Regelmäßige Buchstaben, zum Teil mit schwankender Höhe.</p>
+                                <p>Größtenteils Regelmäßige Buchstaben, zum Teil mit schwankender Höhe. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -68,7 +68,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url=""/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F030439.JPG"/>
     </facsimile>
     <text>
         <body>

@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, eher roh eingehauene Buchstaben ohne Serifen.</p>
+                                <p>Leicht unregelmäßige, eher roh eingehauene Buchstaben ohne Serifen. (-)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/26800"/>
+        <graphic url="http://lupa.at/img/26800.jpg"/>
     </facsimile>
     <text>
         <body>

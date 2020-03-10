@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Überwiegend regelmäßige, sorgfältig und flach eingehauene Buchstaben mit Serifen.</p>
+                                <p>Überwiegend regelmäßige, sorgfältig und flach eingehauene Buchstaben mit Serifen. (+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -55,8 +55,8 @@
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
                                 <placeName type="ancient" key="VicusNediensis" ref="ph"/>
                                 <placeName type="modern">Mannheim</placeName> 
-                            <origDate notBefore="0070" notAfter="0250"/>
                             </origPlace>
+                            <origDate notBefore="0100" notAfter="0250"/>
                         </origin>
                             <provenance type="found" when="1844-02">
                             <placeName ref="ph">

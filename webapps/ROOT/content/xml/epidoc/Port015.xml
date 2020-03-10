@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, quadratische Buchstaben mit Serifen (capitalis quadrata), leicht uneinheitlich und etwas schmaler ausgeführt am Ende von Zeile 3. Qualitätvolle Arbeit.
+                                    Regelmäßige, quadratische Buchstaben mit Serifen (capitalis quadrata), leicht uneinheitlich und etwas schmaler ausgeführt am Ende von Zeile 3. Qualitätvolle Arbeit. (++)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,7 +80,8 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/13781"/>
+        <graphic url="http://lupa.at/img/13781-08.jpg"/>
+        <graphic url="http://lupa.at/img/13781-07.jpg"/>
     </facsimile>
     <text>
         <body>

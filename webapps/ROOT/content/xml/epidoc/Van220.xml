@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109427">Cruciniacum</placeName>
                                 <placeName type="modern">Bad Kreuznach</placeName>
-                            <origDate notBefore="0070" notAfter="0150"/>
                             </origPlace>
+                            <origDate notBefore="0070" notAfter="0130"/>
                         </origin>
                             <provenance type="found" when="1916">
                             <placeName ref="ph">

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, bestoßen, verwittert. Bekrönung und Sockel abgearbeitet. Auf der linken Nebenseite Hirschkuh, ein Kitz s#ugend, auf der rechten Nebenseite  Hirsch und Baum.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, bestoßen, verwittert. Bekrönung und Sockel abgearbeitet. Auf der linken Nebenseite Hirschkuh, ein Kitz säugend, auf der rechten Nebenseite  Hirsch und Baum.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>106</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p/>
+                                <p>(+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

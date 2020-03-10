@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück eines nicht näher identifizierten Monuments.</p>
+                                    <p>Bruchstück eines nicht näher identifizierten Monuments. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2.html">Unbekannt</objectType>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(26)</height>

@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, etwas uneinheitlich und eher flach ausgeführte quadratische Buchstaben mit Serifen.</p>
+                                <p>Leicht unregelmäßige, etwas uneinheitlich und eher flach ausgeführte quadratische Buchstaben mit Serifen. (o)</p>
                                 <height min="3.3" max="3.6">3,6-3,3</height>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/8543"/>
+        <graphic url="http://lupa.at/img/8543.jpg"/>
     </facsimile>
     <text>
         <body>

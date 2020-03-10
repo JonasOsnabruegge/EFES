@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift(?) fpr Marcus Marius Apollinaris aus Ascalon</title>
+                <title>Grabinschrift(?) für Marcus Marius Apollinaris aus Ascalon</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Abgearbeitet für die Sekundärverwendung Kapitell (mittelalterlich).</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Abgearbeitet für die Sekundärverwendung als Kapitell (mittelalterlich).</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height>(41)</height>
@@ -35,7 +35,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Seitgehend regelmäßige Buchstaben, teilweise leicht gedrängt und aus Platzmangel übereinander geschrieben. Z. 2: L2 klein über L1; A2 klein über rechter Haste des N.</p>
+                                <p>Seitgehend regelmäßige Buchstaben, teilweise leicht gedrängt und aus Platzmangel übereinander geschrieben. Z. 2: L2 klein über L1; A2 klein über rechter Haste des N. (+)</p>
                                 <height>8,4-7,6 (Z. 2: L2 4,5; A2 3,5)</height>
                             </handNote>
                         </handDesc>

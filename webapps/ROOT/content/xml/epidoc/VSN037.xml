@@ -34,7 +34,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Regelmäßige, sorgfältig eingehauene Buchstaben, in Z. 1 das S mit leicht verkürzem oberen Bogen, M mit etwas schrägeren Hasten und gedrängter. Z. 3 I klein in C stehend.</p>
+                            <handNote><p>Regelmäßige, sorgfältig eingehauene quadratische Buchstaben mit Serifen, in Z. 1 das S mit leicht verkürzem oberen Bogen, M mit etwas schrägeren Hasten und gedrängter. Z. 3 I klein in C stehend. (++)</p>
                                 <height>9,0-6,0</height>
                             </handNote>
                         </handDesc>
@@ -75,7 +75,7 @@
                 <ab>
                     <lb n="1"/>Dis <expan><abbr>Man</abbr><ex>ibus</ex></expan>
                     <lb n="2"/><persName type="attested" ref="persons.xml#p50"><name nymRef="Accepta" type="cognomen">Acceptae</name> 
-                        <lb n="3"/><persName type="attested" ref="persons.xml#p51"><name nymRef="Sabinus" type="cognomen">Sabini</name> </persName> <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>c<hi rend="stacked">i</hi>v</abbr><ex>i</ex></expan> <expan><abbr>Me</abbr><ex>diomatricae</ex></expan></persName>
+                        <lb n="3"/><persName type="attested" ref="persons.xml#p51"><name nymRef="Sabinus" type="cognomen">Sabini</name> </persName> <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>c<hi rend="small">i</hi>v</abbr><ex>i</ex></expan> <expan><abbr>Me</abbr><ex>diomatricae</ex></expan></persName>
                     <lb n="4"/><date type="age" dur="P25Y"><expan><abbr>an</abbr><ex>norum</ex></expan> <num value="25">XXV</num> </date><persName type="attested" ref="persons.xml#p52" role="creator"><name nymRef="Ammonius" type="gentilicium">Ammon<supplied reason="lost">ius</supplied></name> 
                         <lb n="5"/><name nymRef="Mogetius" type="cognomen">Mogetius</name> </persName> coniu<supplied reason="lost">x</supplied>
                 </ab>

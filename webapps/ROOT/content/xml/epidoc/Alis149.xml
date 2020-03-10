@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>. Fragment, anscheindend mit dem linken Rand des Inschriftfeldes.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Fragment, anscheindend mit dem linken Rand des Inschriftfeldes.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(60)</height>

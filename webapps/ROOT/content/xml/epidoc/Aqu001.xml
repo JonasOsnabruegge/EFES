@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bauinschrift</title>
+                <title>Bauinschrift des Caracalla</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der obere und untere Rand des Inschriftfeldes sind erhalten. Gleichmäßiges Schriftbeld. Erste und letzte Zeile je 4,5 cm hoch, die dazwischenliegenden 3,2-3,0.
+                                    <p>Der obere und untere Rand des Inschriftfeldes sind erhalten. Gleichmäßiges Schriftbild. Erste und letzte Zeile je 4,5 cm hoch, die dazwischenliegenden 3,2-3,0.
                                     </p>
                                     <dimensions>
                                         <height/>
@@ -55,7 +55,7 @@
                                 <placeName type="Caputcivitatis" key="ph" ref="ph">Aquae</placeName>
                                 <placeName type="modern">Baden-Baden</placeName> 
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0250" cert="low"/>
+                            <origDate when="0213" cert="high">Caracalla</origDate>
                         </origin>
                         <provenance type="found" when="1848"><placeName ref="ph">Baden-Baden, römische Thermen, Nordwestseite</placeName><geo>48.763 8.242</geo>
                         </provenance>
@@ -74,7 +74,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url=""/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F037973.JPG"/>
     </facsimile>
     <text>
         <body>

@@ -54,7 +54,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
                                 <placeName type="modern">Worms</placeName> 
                             </origPlace>
-                            <origDate notBefore="0150" notAfter="0200" cert="low"/>
+                            <origDate notBefore="0100" notAfter="0200" cert="low"/>
                         </origin>
                         <provenance type="found" when="1844">
                             <placeName ref="ph">

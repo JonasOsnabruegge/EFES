@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Mehrere, zum Teil aneinanderpassende Fragmente eines Altars mit großen Fehlstellen. Erhalten ist die untere linke Ecke mit dem mit vegetabilen Ornamenten verziertel Sockel sowie vom rechten Rand des Inschriftfeldes. Auf der linken Nebenseite Griffschale, auf der rechten Nebenseite Futteral mit zwei Opfermessern und Axt.</p>
+                                    <p>Mehrere, zum Teil aneinanderpassende Fragmente von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType> mit großen Fehlstellen. Erhalten ist die untere linke Ecke mit dem mit vegetabilen Ornamenten verzierten Sockel sowie vom rechten Rand des Inschriftfeldes. Auf der linken Nebenseite Griffschale, auf der rechten Nebenseite Futteral mit zwei Opfermessern und Axt.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(67)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, uneinheitlich ausgeführte, überwiegend quadratische Buchstaben mit Serifen, schwwankende Breite. BF-Ligatur mit gemeinsamer, durchgezogener Querhaste.</p>
+                                <p>Leicht unregelmäßige, uneinheitlich ausgeführte, überwiegend quadratische Buchstaben mit Serifen, schwwankende Breite. BF-Ligatur mit gemeinsamer, durchgezogener Querhaste. (-)</p>
                                 <height>4,0</height>
                             </handNote>
                         </handDesc>

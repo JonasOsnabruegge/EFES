@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift für Cacir</title>
+                <title>Grabinschrift</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, uneinheitlich ausgeführte, eher quadratische Buchstaben mit Serifen.
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte, eher quadratische Buchstaben mit Serifen. (o)
                                 </p>
                                 <height/>
                             </handNote>

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Mehrere nicht aneinanderpassende Bruchstücke eines nicht identifizierten Monuments.</p>
+                                    <p>Mehrere nicht aneinanderpassende Bruchstücke eines nicht identifizierten Monuments. <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2.html">Unbekannt</objectType>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>

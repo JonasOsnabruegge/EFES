@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Alsheim</placeName>
-                            <origDate notBefore="0236" notAfter="0238"/>
                             </origPlace>
+                            <origDate notBefore="0236" notAfter="0238"/>
                         </origin>
                             <provenance type="found" when="1822">
                             <placeName ref="ph">

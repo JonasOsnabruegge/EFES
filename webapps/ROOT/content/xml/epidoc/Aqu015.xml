@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, flach und deutlich uneinheitlich ausgeführte Buchstaben, schwankende Höhe.</p>
+                                <p>Unregelmäßige, flach und deutlich uneinheitlich ausgeführte Buchstaben, schwankende Höhe. (--)</p>
                                 <height>7,0-8,2</height>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/8549"/>
+        <graphic url="http://lupa.at/img/8549.jpg"/>
     </facsimile>
     <text>
         <body>

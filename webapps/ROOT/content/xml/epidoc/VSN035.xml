@@ -21,7 +21,7 @@
                             <supportDesc>
                                 <support>
                                     <p>Vier aneinanderpassende Fragmente einer<objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType></p>
-                                    <material/>
+                                    <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(32)</height>
                                             <width>(30)</width>
@@ -34,7 +34,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Regelmäßig konstruierte Buchstaben.</p>
+                            <handNote><p>Regelmäßig konstruierte, quadratische Buchstaben mit Serifen. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> eines monumentalen Grabmales. Vertikal gebrochen in drei Teile. Inschriftfeld gerahmt von Peltenhenkeln (Ditsch: gespannte Tierhaut), gehalten von geflügelten Eroten. An den Nebenseiten Akanthusornamente.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> eines monumentalen Grabbaus. Vertikal gebrochen in drei Teile. Inschriftfeld gerahmt von Peltenhenkeln (Ditsch: gespannte Tierhaut), gehalten von geflügelten Eroten. An den Nebenseiten Akanthusornamente.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>42</height>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Rechtsbündige Inschrift, Zeile 1 dagegen größer und weiter nach links eingerückt - der Zeilenanfang ist so in jeder Zeile etwas weiter rechts als in der vorherigen. Leicht ungeleichmäßiges, gedrängtes Schriftbild, Zeilenführung nicht immer eingehalten. Große, dreieckige Worttrenner.</p>
+                                    <p>Rechtsbündige Inschrift, Zeile 1 dagegen größer und weiter nach links eingerückt - der Zeilenanfang ist so in jeder Zeile etwas weiter rechts als in der vorherigen. Leicht ungleichmäßiges, gedrängtes Schriftbild, Zeilenführung nicht immer eingehalten. Große, dreieckige Worttrenner.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Sorgfältig eingehauene, leicht unregelmäßige une uneinheitlich ausgeführte, eher schmale Buchstaben.
+                                    Sorgfältig eingehauene, leicht unregelmäßige und uneinheitlich ausgeführte, eher schmale Buchstaben. (o)
                                 </p>
                                 <height/>
                             </handNote>
@@ -96,7 +96,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>commentary</p>
+                <p>Vgl. Van039.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

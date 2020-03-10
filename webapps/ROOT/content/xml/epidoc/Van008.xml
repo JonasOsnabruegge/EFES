@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment eines nicht mehr sicher identifizierbaren Monuments. Oben abgespitzt, auf Anschluss gearbeitet (Ditsch), rechts abgebrochen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Fragment eines nicht mehr sicher identifizierbaren Monuments. Oben abgespitzt, auf Anschluss gearbeitet (Ditsch), daher vielleicht Teil eines größeren Grabbaus. Rechts abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(25)</height>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Z. 1: regelmäßige, quadratische Buchstaben mit Serifen; in Z. 2 deutlich schmaler und höher.</p>
+                                <p>Z. 1: regelmäßige, quadratische Buchstaben mit Serifen; in Z. 2 deutlich schmaler und höher. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

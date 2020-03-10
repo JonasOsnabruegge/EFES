@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, flach und sorgfältig eingehauene, quadratische Buchstaben mit leichten Unsicherheiten bei wenigen Buchstaben, qualitätvolle Arbeit. Zeile 6: BF-Ligatuer mit breit durchgezogener mittlerer Querhaste.</p>
+                                <p>Regelmäßige, flach und sorgfältig eingehauene, quadratische Buchstaben mit leichten Unsicherheiten bei wenigen Buchstaben, qualitätvolle Arbeit. Zeile 6: BF-Ligatur mit breit durchgezogener mittlerer Querhaste. (++)</p>
                                 <height min="5.0" max="6.0">6,0-5,0</height>
                             </handNote>
                         </handDesc>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7376"/>
+        <graphic url="http://lupa.at/img/7376.jpg"/>
     </facsimile>
     <text>
         <body>

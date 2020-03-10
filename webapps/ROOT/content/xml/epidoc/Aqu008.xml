@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Votivrelief mit Mercurius. Oberhalb der Schultern abgebrochen, rechter Arm fehlt. Den Mantel über der linken Schulter, Widder im Arm.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType> mit Mercurius. Oberhalb der Schultern abgebrochen, rechter Arm fehlt. Den Mantel über der linken Schulter, Widder im Arm.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(73)</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Große, leicht unregelmäßige Buchstaben mit schmalen, flach eingehauenen Hasten und Serifen.
+                                    Große, leicht unregelmäßige Buchstaben mit schmalen, flach eingehauenen Hasten und Serifen. (+)
                                 </p>
                                 <height/>
                             </handNote>

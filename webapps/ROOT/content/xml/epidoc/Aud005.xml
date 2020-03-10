@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Wehinschrift für Mithras</title>
+                <title>Weihinschrift für Mithras</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Nahezu quadratisches, zweiseitiges Votivrelief mit mythologischen Szenen. Vorderseite: Im Kreisförmigen Bildfeld mittig thronender Gott vor Tempelfassade, zwischen mythischen Figuren. Unten gelagerter Flussgott, auftauchender, bärtiger Gott. In den Ecken Windgötter als Büsten (oben rechts ausgebrochen). Rückseite: rechteckiges Bildfeld in der Mitte, mit je vier kleineren Bildfeldern an den Seiten, einem weiteren Bildfeld oben und zweien unten. Im Hauptbildfeld jagender Mithras zu Pferd mit Hunden, Cautes und Cautopates in den oberen Ecken. Die umgebenden Bildfelder zeigen Szenen aus dem Mythos des Mithras. Im Uhrzeigersinn links vom Hauptinschriftfeld: Zwei Pferde übereinander als Sinnbild der Schöpfung; Saturn mit Schwert auf einem Felsen sitzend; Felsgeburt des Mithras; Mithras mit Schwert (Wasser aus dem Felsen schlagend?) Mithras auf einen Baum steigens; Erdstier in einem Tempel liegend, in dessen Giebel der Rabe flankiert von Luna und Sol, links vom Tempel Mithras, rechts stiertragender Mithras; Mithras fängt den fliehenden Stier; stiertragender Mithras; Baumkrone mit den Köpfen von Mithras, Cautes, Cautopates; Mithras und Sol mit Trinkhörnern beim Kultmahl über der Haut des Stieres; Sol auf Quadriga und Mithras.</p>
+                                    <p>Nahezu quadratisches, zweiseitiges <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType> mit mythologischen Szenen. Vorderseite: Im Kreisförmigen Bildfeld mittig thronender Gott vor Tempelfassade, zwischen mythischen Figuren. Unten gelagerter Flussgott, auftauchender, bärtiger Gott. In den Ecken Windgötter als Büsten (oben rechts ausgebrochen). Rückseite: rechteckiges Bildfeld in der Mitte, mit je vier kleineren Bildfeldern an den Seiten, einem weiteren Bildfeld oben und zweien unten. Im Hauptbildfeld jagender Mithras zu Pferd mit Hunden, Cautes und Cautopates in den oberen Ecken. Die umgebenden Bildfelder zeigen Szenen aus dem Mythos des Mithras. Im Uhrzeigersinn links vom Hauptinschriftfeld: Zwei Pferde übereinander als Sinnbild der Schöpfung; Saturn mit Schwert auf einem Felsen sitzend; Felsgeburt des Mithras; Mithras mit Schwert (Wasser aus dem Felsen schlagend?) Mithras auf einen Baum steigend; Erdstier in einem Tempel liegend, in dessen Giebel der Rabe flankiert von Luna und Sol, links vom Tempel Mithras, rechts stiertragender Mithras; Mithras fängt den fliehenden Stier; stiertragender Mithras; Baumkrone mit den Köpfen von Mithras, Cautes, Cautopates; Mithras und Sol mit Trinkhörnern beim Kultmahl über der Haut des Stieres; Sol auf Quadriga und Mithras.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>90</height>
@@ -43,8 +43,8 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Text 1: regelmäßige, sorgfältig eingehauene Buchstaben. Leicht ungleichmäßige Ausführung, besonders bei den auf dem Kopf stehenden Buchstaben.
-                                Text 2 mit größeren Schwankungen in Z. 1 und ab Z. 6; Text 3 mit deutlich unregelmäßigeren Buchstaben.</p>
+                                <p>Text 1: regelmäßige, sorgfältig eingehauene Buchstaben. Leicht ungleichmäßige Ausführung, besonders bei den auf dem Kopf stehenden Buchstaben. (++)
+                                Text 2 mit größeren Schwankungen in Z. 1 und ab Z. 6 (+) ; Text 3 mit deutlich unregelmäßigeren Buchstaben. (o) </p> 
                                 <height/>
                             </handNote>
                         </handDesc>

@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Kreimbach-Kaulbach</placeName>
-                            <origDate notBefore="0001" notAfter="0300"/>
                             </origPlace>
+                            <origDate notBefore="0030" notAfter="0300"/>
                         </origin>
                             <provenance type="found" when="1894">
                             <placeName ref="ph">

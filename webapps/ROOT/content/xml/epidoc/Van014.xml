@@ -20,12 +20,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück vom oberen Teil einer rechteckigen(?) <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit eingeschriebenem Bogen, oben und unten abgebrochen, an den Seiten und Kanten bestoßen.</p>
+                                    <p>Bruchstück vom oberen Teil einer rechteckigen(?) <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> (oder Deckel einer Aschenkiste?) mit eingeschriebenem Bogen, oben und unten abgebrochen, an den Seiten und Kanten bestoßen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(37)</height>
-                                            <width>75</width>
-                                            <depth>33</depth>
+                                            <width>(75)</width>
+                                            <depth>(33)</depth>
                                         </dimensions>
                                     </support>
                             </supportDesc>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, eher schmale und hohe Buchstaben mit Serifen, uneinheitlich ausgeführt. X mit deutlicher Linksneigung, S mit überdimensioniertem oberen Bogen.
+                                    Leicht unregelmäßige, eher schmale und hohe Buchstaben mit Serifen, uneinheitlich ausgeführt. X mit deutlicher Linksneigung, S mit überdimensioniertem oberen Bogen. (o)
                                 </p>
                                 <height/>
                             </handNote>

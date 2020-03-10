@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen. O etwas schmaler.</p>
+                                <p>Regelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen. O etwas schmaler. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -51,10 +51,10 @@
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
-                                <placeName type="ancient" key="VicusNediensis" ref="ph">Vicus Nediensis</placeName>
+                                <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Mannheim</placeName> 
-                            <origDate notBefore="0100" notAfter="0250"/>
                             </origPlace>
+                            <origDate notBefore="0100" notAfter="0250"/>
                         </origin>
                             <provenance type="found" when="1880-04">
                             <placeName ref="ph">

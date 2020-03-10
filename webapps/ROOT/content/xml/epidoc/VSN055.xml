@@ -31,16 +31,16 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <dimensions>
+                                    <!-- dimensions>
                                         <height>32</height>
                                         <width>32</width>
-                                    </dimensions>
+                                    </dimensions -->
                                     Die Inschrift befindet sich auf dem Zwischensockel, die erste Zeile auf der darauf befindlichen Säulenbasis. Das Inschriftfeld ist für die Zweitbeschriftung sorgfältig etwa 1 cm tief abgearbeitet worden.</layout>                               
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Die Inschrift ist, wohl nach der ersten Zerstörung der Säule durch einen Brand, mit einer zweiten Textversion erneut eingehauen worden, dabei war Z. 1 Bestandteil sowohl der alten wie der neuen Inschrift. Spuren der Alten Inschrift sind noch in der letzten Zeile erkennbar. Leicht unregelmäßige Buchstaben mit schwankender Höhe, Zeilenführung ungenau. Z. 4 deutlich kleiner mit geringem Abstand nach oben und unten. Zu Beginn von Z. 3 großer Abstand zwischen RE und G. Die S mit größer dimensioniertem oberen Bogen und dadurch leichter Rechtsneigung, E mit weit nach links ausgezogenen Querhasten.</p>
+                                <p>Die Inschrift ist, wohl nach der ersten Zerstörung der Säule durch einen Brand, mit einer zweiten Textversion erneut eingehauen worden, dabei war Z. 1 Bestandteil sowohl der alten wie der neuen Inschrift. Spuren der Alten Inschrift sind vor allem noch in der letzten Zeile und zwischen Z. 6 u. 7 erkennbar. Leicht unregelmäßige Buchstaben mit schwankender Höhe, Zeilenführung ungenau. Z. 4 deutlich kleiner mit geringem Abstand nach oben und unten. Zu Beginn von Z. 3 großer Abstand zwischen RE und G. Die S mit größer dimensioniertem oberen Bogen und dadurch leichter Rechtsneigung, E mit weit nach links ausgezogenen Querhasten. (+)</p>
                                 <height min="2.5" max="3.8">2,8-3,8</height>
                             </handNote>
                         </handDesc>
@@ -80,7 +80,8 @@
                 <div type="textpart" subtype="later" n="1">
                     <ab>
                         <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
-                        <lb n="2"/><supplied reason="lost"><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName></supplied>
+                        <milestone unit="section" type="Zwischensockel"/>
+                        <lb n="2"/><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName>
                         <lb n="3"/>et <persName type="divine" key="IunoRegina" role="god">Iunoni
                             <lb n="4"/><expan><abbr><hi rend="ligature">Re</hi>gin</abbr><ex>a</ex><abbr>e</abbr></expan></persName>
                         <lb n="5"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Novanius" type="gentilicium">Novanius</name>
@@ -91,12 +92,13 @@
                 <div type="textpart" subtype="earlier" n="2">
                     <ab>
                         <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                        <milestone unit="section" type="Zwischensockel"/>
                         <lb n="2"/><supplied reason="lost"><persName type="divine" key="IOM" role="god"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></persName></supplied>
                         <lb n="3"/><supplied reason="lost" cert="low">Iunoni</supplied>
                         <lb n="4"/><supplied reason="lost"><hi rend="ligature">Re</hi>ginae</supplied>
                         <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
                         <lb n="6"/><gap reason="lost" quantity="1" unit="line"/>
-                        <lb n="7"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                        <lb n="7"/><expan><abbr><unclear>v</unclear></abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                     </ab>
                 </div>
             </div>

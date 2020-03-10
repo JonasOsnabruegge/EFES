@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inschriftfragment</title>
+                <title>Sitzinschrift eines Augustalen(?)</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, uneinheitlich und roh ausgeführte Buchstaben ohne Serifen, schwnakende Breite. Die A mit senkrechter, mittig unten ansetzender mittlerer Haste.</p>
+                                <p>Unregelmäßige, uneinheitlich und roh ausgeführte Buchstaben ohne Serifen, schwnakende Breite. Die A mit senkrechter, mittig unten ansetzender mittlerer Haste. (---)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/19612"/>
+        <graphic url="http://lupa.at/img/19612.jpg"/>
     </facsimile>
     <text>
         <body>

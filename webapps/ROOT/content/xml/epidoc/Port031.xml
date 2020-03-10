@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Überwiegend regelmäßige, leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen. W mit horizontaler Querhaste und recht schmal.</p>
+                                <p>Überwiegend regelmäßige, leicht uneinheitlich ausgeführte, quadratische Buchstaben mit Serifen. W mit horizontaler Querhaste und recht schmal. (+)</p>
                                 <height>5,0</height>
                             </handNote>
                         </handDesc>
@@ -77,7 +77,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7404"/>
+        <graphic url="http://lupa.at/img/7404-2.jpg"/>
     </facsimile>
     <text>
         <body>

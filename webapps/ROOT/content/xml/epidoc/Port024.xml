@@ -60,7 +60,7 @@
                         </origin>
                             <provenance type="found" notAfter="1755">
                             <placeName ref="ph">
-                                Brötzingen, in der Mauer der ehemaligen Pfarrkirche eingemauert.
+                                Brötzingen, in der Mauer der ehemaligen Pfarrkirche eingemauert. Vermutlich aus der villa rustica 'Mittelsberg'.
                             </placeName><geo>48.891 8.673</geo>
                             </provenance>
                         <provenance type="observed">
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/22504"/>
+        <graphic url="http://lupa.at/img/22504-06.jpg"/>
     </facsimile>
     <text>
         <body>

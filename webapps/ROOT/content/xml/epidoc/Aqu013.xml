@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Drei aneinanderpassende Fragmente eines Altars, Bekrönung abgeschlagen, mittig unten ausgebrochen.</p>
+                                    <p>Drei aneinanderpassende Fragmente von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Bekrönung abgeschlagen, mittig unten ausgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>69</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, sorgfältig und tief eingehauene quadratische Buchstaben mit Serifen. O leicht uneinheitlich. Qualitätvolle Inschrift.
+                                    Regelmäßige, sorgfältig und tief eingehauene quadratische Buchstaben mit Serifen. O leicht uneinheitlich. Qualitätvolle Inschrift. (+++)
                                 </p>
                                 <height/>
                             </handNote>
@@ -58,7 +58,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Kraichtal</placeName> 
                             </origPlace>
-                            <origDate/>
+                            <origDate notBefore="0100" notAfter="0250"/>
                         </origin>
                         <provenance type="found" when="1853">
                             <placeName ref="ph">

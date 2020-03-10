@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Untersatz für einen Krug.</p>
+                                    <p><objectType>Untersatz für einen Krug</objectType>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige Buchstaben.</p>
+                                <p>Leicht unregelmäßige Buchstaben. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -82,12 +82,12 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="lat">
+                <div type="textpart" n="1">
                     <ab>
                         <lb n="1"/><orig>pr sa</orig>
                     </ab>
                 </div>
-                <div type="textpart" n="2" xml:lang="grc">
+                <div type="textpart" n="2">
                     <ab>
                         <lb n="1"/><orig>θκ κκ</orig>
                     </ab>

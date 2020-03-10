@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit dreieckigem Abschluss. Im Giebelfeld Roettendekor.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType> mit dreieckigem Abschluss. Im Giebelfeld Rosettendekor.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>169</height>
@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Das Inschriftfeld wird von zwei Halbsäulen gerahmt. Die Inschrift erstreckt sich über etwas mehr als zwei Drittel des Inschriftfeldes, der untere Teil der Stele blieb frei. Linksbündig. Gleichmäßiges, geordnetes Schriftbild. Zeile 1 zentriert und größer als der REst der Inschrift.
+                                        Das Inschriftfeld wird von zwei Halbsäulen gerahmt. Die Inschrift erstreckt sich über etwas mehr als zwei Drittel des Inschriftfeldes, der untere Teil der Stele blieb frei. Linksbündig. Gleichmäßiges, geordnetes Schriftbild. Zeile 1 zentriert und größer als der Rest der Inschrift.
                                     </p>
                                    <dimensions>
                                         <height/>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig gearbeitet.
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, sorgfältig gearbeitet. (++)
                                 </p>
                                 <height/>
                             </handNote>

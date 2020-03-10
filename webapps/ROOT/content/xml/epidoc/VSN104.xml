@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, grob und eher tief eingehauene, uneinheitlich ausgeführte, größtenteils eher schmale und hohe Buchstaben mit Serifen. M quadratisch mit schräggestelten seitlichen Hasten, Querhaste des L schräg nach unten geborgen.</p>
+                                <p>Unregelmäßige, grob und eher tief eingehauene, uneinheitlich ausgeführte, größtenteils eher schmale und hohe Buchstaben mit Serifen. M quadratisch mit schräggestelten seitlichen Hasten, Querhaste des L schräg nach unten geborgen. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -51,10 +51,10 @@
                             <origPlace>
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CVSN" ref="ph">Civitas Ulpia Sueborum Nicrensium</placeName>
-                                <placeName type="ancient" key="VicusNediensis" ref="ph">Vicus Nediensis</placeName>
-                                <placeName type="modern">Spechbach</placeName> 
+                                <placeName type="ancient" key="ph" ref="ph"/>
+                                <placeName type="modern">Neidenstein</placeName>
+                            </origPlace> 
                             <origDate notBefore="0100" notAfter="0250"/>
-                            </origPlace>
                         </origin>
                             <provenance type="found" notAfter="1881">
                             <placeName ref="ph">

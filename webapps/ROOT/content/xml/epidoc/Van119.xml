@@ -54,7 +54,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Unbekannt</placeName> 
                             </origPlace>
-                            <origDate notBefore="0001" notAfter="0300"/>
+                            <origDate notBefore="0030" notAfter="0300"/>
                         </origin>
                             <provenance type="found" notAfter="1905">
                              <placeName ref="ph">

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109427">Cruciniacum</placeName>
                                 <placeName type="modern">Bad Kreuznach</placeName>
-                            <origDate notBefore="0001" notAfter="0300"/>
                             </origPlace>
+                            <origDate notBefore="0030" notAfter="0300"/>
                         </origin>
                             <provenance type="found" notAfter="1887">
                             <placeName ref="ph">

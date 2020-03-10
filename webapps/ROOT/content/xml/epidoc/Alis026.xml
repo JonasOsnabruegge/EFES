@@ -32,7 +32,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        Die Inchrift befindet sich in einem vertieften, von einem Rankenfries gerahmten Inschriftfeld auf dem Schaft. Geordnetes Schriftbild, Zeile 1 und 5 zentriert und gesperrt. Der zweite Teil der Inschrift befindet sich auf der linken Nebenseite im Bildfeld, auf und neben dem Stamm des Baumes.
+                                        Die Inschrift befindet sich in einem vertieften, von einem Rankenfries gerahmten Inschriftfeld auf dem Schaft. Geordnetes Schriftbild, Zeile 1 und 5 zentriert und gesperrt. Der zweite Teil der Inschrift befindet sich auf der linken Nebenseite im Bildfeld, auf und neben dem Stamm des Baumes.
                                     </p>
                                    <dimensions>
                                         <height/>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßíge, flach und sorgfältig eingehauene Buchstaben mit Serifen.
+                                    Regelmäßíge, flach und sorgfältig eingehauene, quadratische Buchstaben mit Serifen. (++)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,7 +80,8 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7506"/>
+        <graphic url="http://lupa.at/img/7506-1.jpg"/>
+        <graphic url="http://lupa.at/img/7506-2.jpg"/>
     </facsimile>
     <text>
         <body>

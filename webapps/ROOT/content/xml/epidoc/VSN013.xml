@@ -35,6 +35,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
+                                <p>(+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -67,7 +68,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.lupa.at/25495"/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F030371.JPG"/>
     </facsimile>
     <text>
         <body>

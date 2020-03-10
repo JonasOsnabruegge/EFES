@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Frafment einer Beneficiarier-Weihinschrift</title>
+                <title>Fragment einer Beneficiarier-Weihinschrift</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment von der linken Seite wohl eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>.</p>
+                                    <p>Fragment von der linken Seite wohl eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>s.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(12)</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßiger Buchstabe mit Serifen. BF-Ligatur mit durchgezogener mittlerer Querhaste.
+                                    Regelmäßiger Buchstabe mit Serifen. BF-Ligatur mit durchgezogener mittlerer Querhaste. (+~)
                                 </p>
                                 <height>5,5</height>
                             </handNote>

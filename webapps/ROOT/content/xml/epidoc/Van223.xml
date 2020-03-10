@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Selzen</placeName>
-                            <origDate notBefore="0030" notAfter="0100"/>
                             </origPlace>
+                            <origDate notBefore="0030" notAfter="0100"/>
                         </origin>
                             <provenance type="found" when="1935">
                             <placeName ref="ph">

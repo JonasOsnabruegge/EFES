@@ -82,7 +82,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>eartor</ex></expan> <expan><abbr>C</abbr><ex>aesar</ex></expan> <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Aurelius" type="gentilicium">Aurelius</name> <name nymRef="Severus" type="cognomen">Severus</name>
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>C</abbr><ex>aesar</ex></expan> <name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Aurelius" type="gentilicium">Aurelius</name> <name nymRef="Severus" type="cognomen">Severus</name>
                     <lb n="2"/><name nymRef="Alexander" type="cognomen"><expan><abbr>Alex</abbr><ex>ander</ex></expan></name> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan>
                     <lb n="3"/><expan><abbr>p</abbr><ex>otestate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> pater patriae</persName>
                 </ab>

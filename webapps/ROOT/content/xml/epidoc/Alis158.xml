@@ -86,7 +86,7 @@
                     <milestone unit="section" type="corpus"/><lb n="2"/><persName type="divine" key="Mercurius Cimbrianus" role="god">Mercurio
                         <lb n="3"/>Ci<supplied reason="lost">mbri</supplied>ano</persName>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><gap reason="lost" extent="unknown" unit="character"/></persName><expan><am><g type="centurio"/></am><ex>centurio</ex></expan> 
-                    <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> p<supplied reason="lost">raeposi</supplied><lb n="6" break="no"/>tus <expan><abbr>n</abbr><ex>umeri</ex></expan> <expan><abbr>expl</abbr><ex>oratorum</ex></expan> <expan><abbr><supplied reason="lost">Sei</supplied><lb n="7" break="no"/>open<supplied reason="lost">s</supplied></abbr><ex>ium</ex></expan><supplied reason="lost"> <expan><abbr>pos</abbr><ex>uit</ex></expan></supplied>
+                    <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> p<supplied reason="lost">raeposi</supplied><lb n="6" break="no"/>tus <expan><abbr>n</abbr><ex>umeri</ex></expan> <expan><abbr>expl</abbr><ex>oratorum</ex></expan> <expan><abbr><supplied reason="lost">Sei</supplied><lb n="7" break="no"/>open<supplied reason="lost">s</supplied></abbr><ex>ium</ex></expan> <supplied reason="lost"><expan><abbr>pos</abbr><ex>uit</ex></expan></supplied>
                     <lb n="8"/>duobus <supplied reason="lost" cert="low"><persName type="consul" ref="PIR² I 182"><persName type="attested" ref="PIR² I 334"><name nymRef="Asper" type="cognomen">Aspris</name></persName></persName></supplied><supplied reason="lost" cert="high"> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
                 </ab>
             </div>

@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Unregelmäßige Buchstaben, uneinheitlich und zum Teil unsicher ausgeführt, ohne Serifen.
+                                    Unregelmäßige Buchstaben, uneinheitlich und zum Teil unsicher ausgeführt, ohne Serifen. (o)
                                 </p>
                                 <height/>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://edh-www.adw.uni-heidelberg.de/digilib/Scaler/IIIF/f004122.tif"/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F028398.JPG"/>
     </facsimile>
     <text>
         <body>

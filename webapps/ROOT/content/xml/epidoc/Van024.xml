@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Zwei aneinanderpassende Fragmente eine snicht näher identifizierten Grabmals, vielleicht die oben bogenförmig abgeschlossene Abdeckung einer Aschenkiste (nach Ditsch). Bestoßen.</p>
+                                    <p>Zwei aneinanderpassende Fragmente eine snicht näher identifizierten Grabmals, vielleicht die oben bogenförmig abgeschlossene Abdeckung einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/79.html">Aschenkiste</objectType> (nach Ditsch). Bestoßen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>90</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, nahezu quadratische Buchstaben mit Serifen (capitalis quadrata), sorgfältig und flach eingehauen.</p>
+                                <p>Regelmäßige, nahezu quadratische Buchstaben mit Serifen (capitalis quadrata), sorgfältig und eher flach eingehauen. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

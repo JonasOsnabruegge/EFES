@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt.</p>
+                                <p>Überwiegend regelmäßige, quadratische Buchstaben mit Serifen, leicht uneinheitlich ausgeführt. (o)</p>
                                 <height>4,5</height>
                             </handNote>
                         </handDesc>
@@ -54,7 +54,7 @@
                                 <placeName type="ph" key="ph" ref="ph"/>
                                 <placeName type="modern">Stuttgart, Bad Cannstatt</placeName> 
                             </origPlace>
-                            <origDate when-custom="0223-01-13" datingMethod="#julian" type="consulship"/>
+                            <origDate when="0223-01-13" datingMethod="#julian" type="consulship"/>
                         </origin>
                         <provenance type="found" notBefore="1595">
                             <placeName ref="ph">
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7798"/>
+        <graphic url="http://lupa.at/img/7798.jpg"/>
     </facsimile>
     <text>
         <body>

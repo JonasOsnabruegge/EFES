@@ -34,7 +34,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Unregelmäßige Buchstaben, Z. 1 I, Z. 2 V aus Platzmangel klein in andere Buchstaben eingeschriebeben, in Z. 1 C klein am Zeilenende.</p>
+                            <handNote><p>Unregelmäßige Buchstaben, Z. 1 I, Z. 2 V aus Platzmangel klein in andere Buchstaben eingeschriebeben, in Z. 1 C klein am Zeilenende. (-)</p>
                                 <height>4</height>
                             </handNote>
                         </handDesc>
@@ -66,14 +66,14 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/img/27022"/>
+        <graphic url="https://edh-www.adw.uni-heidelberg.de/fotos/F012371.JPG"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                   <lb n="1"/><persName type="divine" key="Mithras" role="divine">Deo Inv<hi rend="stacked">i</hi>c<lb n="2" break="no"/>to</persName> <persName type="attested" ref="persons.xml#p44" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Viturius" type="gentilicium"><expan><abbr>Vitur</abbr><ex>ius</ex></expan></name> 
-                       <lb n="3"/><name nymRef="Quintus" type="cognomen">Q<hi rend="stacked">u</hi>intus</name> </persName>
+                   <lb n="1"/><persName type="divine" key="Mithras" role="divine">Deo Inv<hi rend="small">i</hi>c<lb n="2" break="no"/>to</persName> <persName type="attested" ref="persons.xml#p44" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name nymRef="Viturius" type="gentilicium"><expan><abbr>Vitur</abbr><ex>ius</ex></expan></name> 
+                       <lb n="3"/><name nymRef="Quintus" type="cognomen">Q<hi rend="small">u</hi>intus</name> </persName>
                     <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>

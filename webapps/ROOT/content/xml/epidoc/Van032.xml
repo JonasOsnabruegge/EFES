@@ -1,4 +1,4 @@
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org   /epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
     <teiHeader>
         <fileDesc>
@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Aschenkiste, oben und unten abgebrochen, Kanten bestoßen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/79.html">Aschenkiste</objectType>, oben und unten abgebrochen, Kanten bestoßen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(76)</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Überwiegendd regelmäßige, quadratische Buchstaben von leicht uneinheitlicher Ausführung.
+                                    Überwiegend regelmäßige, quadratische Buchstaben von leicht uneinheitlicher Ausführung. (+)
                                 </p>
                                 <height/>
                             </handNote>

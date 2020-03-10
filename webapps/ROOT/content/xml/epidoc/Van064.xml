@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, eher schmale, flach und unsorgfältig ausgeführte Buchstaben
+                                    Leicht unregelmäßige, eher schmale, flach und unsorgfältig ausgeführte Buchstaben. (o)
                                 </p>
                                 <height min="2.8" max="5.0">5,0-2,8</height>
                             </handNote>
@@ -80,7 +80,8 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/16819"/>
+        <graphic url="
+        <graphic url="http://lupa.at/img/16819-5-2.jpg"/>"/>
     </facsimile>
     <text>
         <body>

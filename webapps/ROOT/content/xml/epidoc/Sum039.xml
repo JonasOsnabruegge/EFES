@@ -53,7 +53,7 @@
                                 <placeName type="civitas" key="CSum" ref="ph">Civitas Sumelocennensis</placeName>
                                 <placeName type="ancient" key="Grinario" ref="https://pleiades.stoa.org/places/118706">Grinario</placeName>
                                 <placeName type="modern">Köngen</placeName>
-                            <origDate when="0129" datingMethod="#julian">Kaisertitulatur</origDate>
+                            <origDate when="0129" datingMethod="#julian" type="Titulatur">Kaisertitulatur</origDate>
                             </origPlace>
                         </origin>
                             <provenance type="found" when="1900-01">

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinchrift mit Votivrelief</title>
+                <title>Weihinschrift mit Votivrelief</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben</p>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

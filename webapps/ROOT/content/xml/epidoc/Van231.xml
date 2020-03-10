@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Platte</term>, Grababdeckung?</p>
+                                    <p><objectType>Platte</objectType>, Grababdeckung?</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(93)</height>

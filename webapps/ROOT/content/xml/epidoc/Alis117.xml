@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bauinschrift für das Bad von Jagsthausen, der cohors I Germanorum</title>
+                <title>Bauinschrift für das Bad von Jagsthausen der cohors I Germanorum</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -82,8 +82,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <delSpan spanTo="#d1"/><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Philippus" type="cognomen">Philip<lb n="2" break="no"/>pus</name><anchor xml:id="d1"/> <expan><abbr>P</abbr><ex>ius</ex></expan> <expan><abbr>F</abbr><ex>elix</ex></expan> <expan><abbr>Invict</abbr><ex>us</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan></persName> <delSpan spanTo="#d2"/>et <persName type="emperor" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>acrus</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> 
-                    <lb n="3"/><name nymRef="Philippus" type="cognomen">Philippus</name></persName> <expan><abbr>nob</abbr><ex>ilissimus</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan><anchor xml:id="d2"/> balineum
+                    <lb n="1"/><persName type="emperor" ref="persons.xml#p"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <del rend="erased"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <name nymRef="Philippus" type="cognomen">Philip<lb n="2" break="no"/>pus</name></del> <expan><abbr>P</abbr><ex>ius</ex></expan> <expan><abbr>F</abbr><ex>elix</ex></expan> <expan><abbr><hi rend="ligature">In</hi>vict</abbr><ex>us</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan></persName> <del rend="erasure">et <persName type="emperor" ref="persons.xml#p"><name nymRef="Marcus" type="praenomen"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name nymRef="Iulius" type="gentilicium"><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> 
+                    <lb n="3"/><name nymRef="Philippus" type="cognomen">Philippus</name></persName> <expan><abbr>nob</abbr><ex>ilissimus</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan></del> balineum
                     <lb n="4"/><orgName type="corhors" key="cohors I Germanorum Philippiana" role="creator"><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="1">I</num> <expan><abbr>Germ</abbr><ex>anorum</ex></expan></orgName> <del rend="erasure"><expan><abbr>Philippian</abbr><ex>ae</ex></expan></del>
                     <lb n="5"/>vetustate conlabsum<note>!</note> re<lb n="6" break="no"/>stituerunt curante <persName type="attested" ref="PIR C 70"><name nymRef="Quintus" type="praenomen"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name>
                     <lb n="6"/><name nymRef="Caecilius" type="gentilicium"><expan><abbr>Caec</abbr><ex>ilio</ex></expan></name> <name nymRef="Pudens" type="cognomen">Pudente</name></persName> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissmo</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Augg</abbr><ex>ustorum</ex></expan>

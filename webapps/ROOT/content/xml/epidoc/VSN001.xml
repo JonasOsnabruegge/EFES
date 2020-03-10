@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift der Vicani Saliobrigenses auf Viergötterstein</title>
+                <title>Weihinschrift der Vicani Saliobrigenses</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +34,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Flach eingehauene, leicht unregelmäßige Inschrift, Querhaste der A nicht sichrbar.
+                            <handNote><p>Flach eingehauene, leicht unregelmäßige Inschrift, Querhaste der A nicht sichrbar. (o)</p>
                                 <height>letter-heights</height>
                             </handNote>
                         </handDesc>

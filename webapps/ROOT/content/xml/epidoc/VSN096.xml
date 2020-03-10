@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift fpr Mercurius Cissonius?</title>
+                <title>Weihinschrift für Mercurius Cissonius?</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, quadratische Buchstaben mit Serifen, S leicht unsicher.</p>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen, S leicht unsicher. (+)</p>
                                 <height min="3.0" max="3.3">3,3-3,0</height>
                             </handNote>
                         </handDesc>

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück mit dem oberen Teil eines Altars, Profil der Bekrönung vorne abgeschlagen.</p>
+                                    <p>Bruchstück mit dem oberen Teil von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Profil der Bekrönung vorne abgeschlagen.</p>
                                     <material>Marmor, weiß</material>
                                         <dimensions unit="cm">
                                             <height>(47)</height>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der erhaltene Rest der Inschrift befindet sich auf dem Schaft, eine oder mehr Zeilen dürften sich auf dem abgeschlagenen Teil der Bekrönung befunden haben. Leicht ungleich,äßiges, w
+                                    <p>Der erhaltene Rest der Inschrift befindet sich auf dem Schaft, eine oder mehr Zeilen dürften sich auf dem abgeschlagenen Teil der Bekrönung befunden haben. Leicht ungleichmäßiges, 
                                     etwas ungeordnet wirkendes Schriftbild. Linksbündige Inschrift?</p>
                                    <dimensions>
                                         <height/>
@@ -42,7 +42,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Unregelmäßige, leicht uneinheitlich ausgeführte Buchstaben mit Serifen, schwankende Breite. N mit schräggestellten seitlichen Hasten.</p>
+                                <p>Unregelmäßige, leicht uneinheitlich ausgeführte Buchstaben mit Serifen, schwankende Breite. N mit schräggestellten seitlichen Hasten. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

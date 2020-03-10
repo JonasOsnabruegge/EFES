@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Soweit noch erkennbar, regelmäßige, quadratische Buchstaben mit Serifen.
+                                    Soweit noch erkennbar, regelmäßige, quadratische Buchstaben mit Serifen. (+)
                                 </p>
                                 <height/>
                             </handNote>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Udenheim</placeName> 
                             </origPlace>
-                            <origDate notBefore="0130" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0070" notAfter="0130" cert="low"/>
                         </origin>
                         <provenance type="found" when="1933">
                             <placeName ref="ph">
@@ -94,7 +94,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>commentary</p>
+                <p>Datierung nochmal überprüfen.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

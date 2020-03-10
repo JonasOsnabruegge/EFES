@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, sorgfältig ausgeführte, quadratische Buchstaben mit Serifen und schmalen Hasten. Qualitätvolle Inschrift. 
+                                    Regelmäßige, sorgfältig ausgeführte, quadratische Buchstaben mit Serifen und schmalen Hasten. Qualitätvolle Inschrift. (++)
                                 </p>
                                 <height min="7.0" max="8.5">8,5-7,0</height>
                             </handNote>
@@ -80,7 +80,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7120"/>
+        <graphic url="http://lupa.at/img/7120-4.jpg"/>
     </facsimile>
     <text>
         <body>

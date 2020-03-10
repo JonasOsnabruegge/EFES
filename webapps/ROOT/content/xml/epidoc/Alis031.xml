@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Auf der linen Nebenseite stilisiertes Blitzbündel in eingetieftem Feld, darunter Opfermesser, Beil und Kanne. Auf der rechten Nebenseite Baum, in der Krone Nest mit Vögeln, um den Baumstamm sich windende Schlange. Aufsatz mit gegenständigen Capricornes, Pulvini mit Gesichtern, links männlich, rechts weiblich.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>. Auf der linken Nebenseite stilisiertes Blitzbündel in eingetieftem Feld, darunter Opfermesser, Beil und Kanne. Auf der rechten Nebenseite Baum, in der Krone Nest mit Vögeln, um den Baumstamm sich windende Schlange. Aufsatz mit gegenständigen Capricornes, Pulvini mit Gesichtern, links männlich, rechts weiblich.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, leict uneinheitlich ausgeführte, überwiegend quadratische Buchstaben mit Serifen. Schwankende Breite.
+                                    Regelmäßige, leicht uneinheitlich ausgeführte, überwiegend quadratische Buchstaben mit Serifen. Schwankende Breite. (+)
                                 </p>
                                 <height/>
                             </handNote>
@@ -79,7 +79,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/25510"/>
+        <graphic url="http://lupa.at/img/25510-2.jpg"/>
     </facsimile>
     <text>
         <body>

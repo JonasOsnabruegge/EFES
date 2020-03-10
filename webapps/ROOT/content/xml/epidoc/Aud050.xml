@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>weihinschrift für Iuppiter Optimus Maximus, Iuno Regina, Mercurius und den Genius loci</title>
+                <title>Weihinschrift für Iuppiter Optimus Maximus, Iuno Regina, Mercurius und den Genius loci</title>
                 <editor>Jonas Osnabrügge</editor>
             </titleStmt>
             <publicationStmt>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, uneinheitlich ausgeführte, überwiegend quadratische Buchstaben mit Serifen. In den letzten beiden Zeilen aus Platzgründen sehr schmal, aber hoch ausgeführt. O klein am Ende von Zeile 1 und in Zeile 5 zwischen C und S; BF-Ligatur durch lang durchgezogene Querhaste symbolisiert.</p>
+                                <p>Regelmäßige, uneinheitlich ausgeführte, überwiegend quadratische Buchstaben mit Serifen. In den letzten beiden Zeilen aus Platzgründen sehr schmal, aber hoch ausgeführt. O klein am Ende von Zeile 1 und in Zeile 5 zwischen C und S; BF-Ligatur durch lang durchgezogene Querhaste symbolisiert. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/7125"/>
+        <graphic url="http://lupa.at/img/7125-1.jpg"/>
     </facsimile>
     <text>
         <body>

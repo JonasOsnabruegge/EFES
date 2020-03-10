@@ -35,7 +35,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                Inschrift mit uregelmäßigen, ungelichmäßig konstruierten Buchstaben. S mit starker Rechtsneigung, P und R geschlossen. M und N dreieckförmig konstruiert. In Z. 3 N über S eingehauen. Linksbündige, nicht zentrierte Inschrift, unausgewogenes Schriftbild mit ungleichmäßigem Zeilen- und Buchstabenabstand.
+                               <p>Inschrift mit uregelmäßigen, ungelichmäßig konstruierten Buchstaben. S mit starker Rechtsneigung, P und R geschlossen. M und N dreieckförmig konstruiert. In Z. 3 N über S eingehauen. Linksbündige, nicht zentrierte Inschrift, unausgewogenes Schriftbild mit ungleichmäßigem Zeilen- und Buchstabenabstand. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -68,14 +68,14 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://www.lupa.at/27117"/>
+        <graphic url="http://lupa.at/img/27117-1.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve">
                 <ab>
                     <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> 
-                    <lb n="2"/> <persName ref="persons.xml#p7" type="attested"><name nymRef="Respectus" type="cognomen">Respecto</name> <persName ref="persons.xml#p8"><name nymRef="Berus" type="cognomen">Be<lb break="no"/>ri</name></persName></persName> <expan><abbr>an</abbr><ex>norum</ex></expan> <date type="age" dur="P23Y">XXIII</date> <expan><abbr>c</abbr><ex>ivi</ex></expan> <expan><abbr>S</abbr><ex>uebo</ex></expan> <hi rend="stacked"><expan><abbr>N</abbr><ex>icrensi</ex></expan></hi> exp<lb break="no"/>loratori <persName ref="persons.xml#p9" type="attested" role="creator"><name nymRef="Candidus" type="cognomen">Can<lb break="no"/>didus</name> <persName ref="persons.xml#p8" type="attested"><name nymRef="Berus" type="cognomen">Beri</name></persName></persName> <expan><abbr>f</abbr><ex>rater</ex></expan> <expan><abbr>proc</abbr><ex>uravit</ex></expan>
+                    <lb n="2"/> <persName ref="persons.xml#p7" type="attested"><name nymRef="Respectus" type="cognomen">Respecto</name> <persName ref="persons.xml#p8"><name nymRef="Berus" type="cognomen">Be<lb break="no"/>ri</name></persName></persName> <expan><abbr>an</abbr><ex>norum</ex></expan> <date type="age" dur="P23Y">XXIII</date> <expan><abbr>c</abbr><ex>ivi</ex></expan> <expan><abbr>S</abbr><ex>uebo</ex></expan> <hi rend="superscript"><expan><abbr>N</abbr><ex>icrensi</ex></expan></hi> exp<lb break="no"/>loratori <persName ref="persons.xml#p9" type="attested" role="creator"><name nymRef="Candidus" type="cognomen">Can<lb break="no"/>didus</name> <persName ref="persons.xml#p8" type="attested"><name nymRef="Berus" type="cognomen">Beri</name></persName></persName> <expan><abbr>f</abbr><ex>rater</ex></expan> <expan><abbr>proc</abbr><ex>uravit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

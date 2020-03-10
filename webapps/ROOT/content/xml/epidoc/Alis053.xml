@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Zwei aneinanderpassende Fragmente einer Tafel.</p>
+                                    <p>Zwei aneinanderpassende Fragmente einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(41)</height>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, sorgfältig gearbeitete, quadratische Buchstaben mit fein gearbeiteten Serifen (Capitalis quadrata). Qualitätvolle Inschrift.
+                                    Regelmäßige, sorgfältig gearbeitete, quadratische Buchstaben mit fein gearbeiteten Serifen (Capitalis quadrata). Qualitätvolle Inschrift. (+++)
                                 </p>
                                 <height/>
                             </handNote>

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Architekturteil</objectType>, vielleicht Sockel eines größeren Standbildes. Auf der Vorderseite drei horizontal unterteilte Bildfelder. Im mittleren Feld schlangenfüßiger Gigant, mit seinen Händen die obere Rahmenleiste stützend. Im linken Bildfeld Victoria, im rechten Mars; auf den Nebenseiten Reliegs mit Darstellung von Genien oder Eroten.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Architekturteil</objectType>, vielleicht Sockel eines größeren Standbildes. Auf der Vorderseite drei horizontal unterteilte Bildfelder. Im mittleren Feld schlangenfüßiger Gigant, mit seinen Händen die obere Rahmenleiste stützend. Im linken Bildfeld Victoria, im rechten Mars; auf den Nebenseiten Reliefs mit Darstellung von Genien oder Eroten.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(60)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, quadratische Buchstaben mit Serifen.</p>
+                                <p>Regelmäßige, quadratische Buchstaben mit Serifen. (+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

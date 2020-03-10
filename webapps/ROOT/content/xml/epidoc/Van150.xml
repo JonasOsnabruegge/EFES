@@ -54,7 +54,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
                                 <placeName type="modern">Worms</placeName> 
                             </origPlace>
-                            <origDate notBefore="0001" notAfter="0070" cert="low">In Flavischer Zeit als Cohors II Raetorum.</origDate>
+                            <origDate notBefore="0014" notAfter="0070" cert="low">In Flavischer Zeit als Cohors II Raetorum.</origDate>
                         </origin>
                         <provenance type="found" notAfter="1671">
                             <placeName ref="ph">

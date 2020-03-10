@@ -20,8 +20,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Allseitig abgebrochenes Fragment eines nicht näher identifizierten Monuments.</p>
-                                    <material>Melaphyr</material>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Allseitig abgebrochenes Fragment eines nicht näher identifizierten Monuments.</p>
+                                    <material>Melaphyr (Basalt)</material>
                                         <dimensions unit="cm">
                                             <height>(57)</height>
                                             <width>(20)</width>

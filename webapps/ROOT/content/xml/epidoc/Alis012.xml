@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Rechte untere Ecke eines Reliefs.</p>
+                                    <p>Rechte untere Ecke von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(32,5)</height>

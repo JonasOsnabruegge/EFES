@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Vorderwand einer Aschenkiste. Vermutlich war unterhalb noch ein weiterer Block angefügt.</p>
+                                    <p>Vorderwand einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/79.html">Aschenkiste</objectType>. Vermutlich war unterhalb noch ein weiterer Block angefügt.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige Buchstaben mit kaum ausgeprägten Serifen, bei dem P Z. 3 allerdings unten deutlich nach rechts ausgezogene Serife oder fehlerhaft eingehauene Haste.</p>
+                                <p>Regelmäßige Buchstaben mit kaum ausgeprägten Serifen, bei dem P Z. 3 allerdings unten deutlich nach rechts ausgezogene Serife oder fehlerhaft eingehauene Haste. (+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

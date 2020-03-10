@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Allseitig abgearbeitetes Fragment eines nicht näher identifizierbaren Monuments.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Allseitig abgearbeitetes Fragment eines nicht näher identifizierbaren Monuments.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height>(22)</height>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige Buchstaben, tief und sorgfältig eingehauen.</p>
+                                <p>Regelmäßige Buchstaben, tief und sorgfältig eingehauen. (++)</p>
                                 <height>15,0</height>
                             </handNote>
                         </handDesc>

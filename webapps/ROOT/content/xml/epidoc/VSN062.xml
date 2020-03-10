@@ -31,17 +31,17 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <dimensions>
+                                    <!--dimensions>
                                         <height>51</height>
                                         <depth>(47)</depth>
-                                    </dimensions>
+                                    </dimensions-->
                                     Die Inschrift befindet sich auf einem erhabenen Inschriftfeld, das als tabula ansata ausgeführt ist. Rechter Rand und rechte Ansa erhalten. Die Inschrift scheint zentriert gewesen zu sein, so dass sich das Schrifbild gut an die tabula ansata anpasst.
                                 </layout>                             
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben. Dreieckige Worttrenner.</p>
+                                <p>Regelmäßige, sorgfältig eingehauene Buchstaben. Dreieckige Worttrenner. (++)</p>
                                 <height min="6.2" max="7.0">6,2-7,0</height>
                             </handNote>
                         </handDesc>

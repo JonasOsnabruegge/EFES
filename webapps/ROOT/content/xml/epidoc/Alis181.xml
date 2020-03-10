@@ -13,14 +13,14 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Karlsrue, Badisches Landesmuseum</repository>
+                        <repository>Karlsruhe, Badisches Landesmuseum</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>, rechts abgebrochen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>, rechts abgebrochen.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -84,7 +84,7 @@
                 <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/><orgName type="cohors" key="cohors III Aquitanorum equitata"><supplied reason="lost"><expan><abbr>coh</abbr><ex>ors</ex></expan></supplied>
                     <lb n="2"/><num value="3">II<supplied reason="lost">I </supplied></num><supplied reason="lost"><expan><abbr>Aquit</abbr><ex>anorum</ex></expan></supplied>
-                    <lb n="3"/>eq<supplied reason="lost">uitata </supplied></orgName><supplied reason="lost">re</supplied><lb n="4" break="no"/>st<supplied reason="lost">it</supplied>u<supplied reason="lost">it</supplied><supplied reason="omitted"/> 
+                    <lb n="3"/>eq<supplied reason="lost">uitata </supplied></orgName><supplied reason="lost">re</supplied><lb n="4" break="no"/>st<supplied reason="lost">it</supplied>u<supplied reason="lost">it</supplied><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
             <div type="apparatus">

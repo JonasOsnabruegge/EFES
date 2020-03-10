@@ -31,17 +31,17 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <dimensions>
+                                    <!--dimensions>
                                         <height>(17)</height>
                                         <depth>(60)</depth>
-                                    </dimensions>
+                                    </dimensions-->
                                     Linksbündige Inschrift, Inschriftfeld beschädigt. Inschrift in Z. 4 und 5 stark gedrängt, ungleichmäßiges Schriftbild, Z. 5 mit stark schwankendem Abstand.
                                 </layout>                             
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Schmale, hohe Buchstaben, teilweise der scriptura actuaria ähnelnd. Ungleichmäßige Ausführung. Z. 5 V mit senkrechter rechter Haste; die L mit nur schwach angdeuteter Querhaste.</p>
+                                <p>Schmale, hohe Buchstaben, teilweise der scriptura actuaria ähnelnd. Ungleichmäßige Ausführung. Z. 5 V mit senkrechter rechter Haste; die L mit nur schwach angdeuteter Querhaste. (o)</p>
                                 <height min="3.0" max="5.5">5,5-3,0</height>
                             </handNote>
                         </handDesc>
@@ -81,7 +81,7 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="Suleviae" role="god">Sulevis</persName> so<lb n="2" break="no"/>roribus <persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Lucius" type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name>
                         <lb n="3"/><name nymRef="Gallionius" type="gentilicium">Gallionius</name> <name nymRef="Ianuarius" type="cognomen"><expan><abbr>Ianuar</abbr><ex>ius</ex></expan></name></persName>
-                    <lb n="4"/><abbr>d<choice><corr>e<sic>i</sic></corr></choice>c</abbr><ex>urio</ex> <orgName key="alaICan" type="ala"><expan><abbr>al</abbr><ex>ae</ex></expan> <num val="1">I</num> <expan><abbr>Cannanef</abbr><ex>atium</ex></expan></orgName>
+                    <lb n="4"/><expan><abbr>d<choice><corr>e</corr><sic>i</sic></choice>c</abbr><ex>urio</ex></expan> <orgName key="alaICan" type="ala"><expan><abbr>al</abbr><ex>ae</ex></expan> <num value="1">I</num> <expan><abbr>Cannanef</abbr><ex>atium</ex></expan></orgName>
                     <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr><unclear>l</unclear></abbr><ex>ibens</ex></expan> <expan><abbr><unclear>l</unclear></abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>

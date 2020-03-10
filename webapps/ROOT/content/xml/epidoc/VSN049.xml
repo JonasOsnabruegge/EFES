@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige Buchstaben, in Z. 1 O aus Platzgründen kleiner ausgeführt.</p>
+                                <p>Regelmäßige Buchstaben, in Z. 1 O aus Platzgründen kleiner ausgeführt. (+)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -80,10 +80,9 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <div type="textpart" subtype="section" n="1">
                     <ab>
-                        <lb n="1"/><persName type="divine" key="GeniusCVSN" role="god">Genio <figure><figDesc>Genius</figDesc></figure> <orgName type="civitas" key="CVSN"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>U</abbr><ex>lpia</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName></persName>
-                        <lb n="2"/><supplied reason="lost">Dis</supplied> <expan><abbr><supplied reason="lost">Dea</supplied><figure><figDesc>Genius</figDesc></figure><supplied reason="lost">bu</supplied><unclear>sq</unclear>u</abbr><ex>e</ex></expan><certainty match=".." locus="name"/>
-                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><figure><figDesc>Genius</figDesc></figure><gap reason="lost" extent="unknown" unit="character"/>
-                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><figure><figDesc>Genius</figDesc></figure>
+                        <lb n="1"/><persName type="divine" key="GeniusCVSN" role="god">Genio <orgName type="civitas" key="CVSN"><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>U</abbr><ex>lpia</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan></orgName></persName>
+                        <lb n="2"/><supplied reason="lost">Dis</supplied> <expan><abbr><supplied reason="lost">Deabu</supplied><unclear>sq</unclear>u</abbr><ex>e</ex></expan><certainty match=".." locus="name"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
                     </ab>
                 </div>
                 <div type="textpart" subtype="section" n="2">

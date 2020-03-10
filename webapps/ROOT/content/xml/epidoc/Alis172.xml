@@ -82,7 +82,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
-                    <lb n="1"/><orgName type="cohors" key="cohors III Aquitanorum equitata c R" role="creator"><expan><abbr>coh</abbr><ex>ors</ex></expan> <num value="3"><hi rend="supraline">III</hi></num>
+                    <lb n="1"/><orgName type="cohors" key="cohors III Aquitanorum equitata c R" role="creator"><expan><abbr>Coh</abbr><ex>ors</ex></expan> <num value="3"><hi rend="supraline">III</hi></num>
                     <lb n="2"/><expan><abbr>Aqu</abbr><ex>itanorum</ex></expan> <expan><abbr>eq</abbr><ex>uitata</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr><hi rend="small">R</hi></abbr><ex>omarum</ex></expan></orgName>
                 </ab>
             </div>

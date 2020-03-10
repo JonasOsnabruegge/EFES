@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Allseitig abgebrochenes Fragment, nach Ditsch zu einem Aediculagrabmal gehörig. Erhalten ist rechts der Rest eines Eroten, welcher den rechten Rand der Inschrifttafel hält.</p>
+                                    <p>Allseitig abgebrochenes Fragment, nach Ditsch <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> von einem Aediculagrabmal. Erhalten ist rechts der Rest eines Eroten, welcher den rechten Rand der Inschrifttafel hält.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(47)</height>
@@ -58,7 +58,7 @@
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Oberstaufenbach</placeName> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0050" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1886">
                             <placeName ref="ph">
@@ -100,7 +100,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>commentary</p>
+                <p>Vgl. Van019.</p>
             </div>
             <div type="bibliography">
                 <listBibl>

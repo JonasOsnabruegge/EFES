@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Bekrönung</objectType> von einenmm monumentalen Grabbau, bestehend aus zwei gekreuzten Tonnengewölben. Innen hohl. Auf den Nebenseiten Blattmotiv mit Rosette, auf der Rückseite vegetabiles Ornament mit rautenförmigem Rahmen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Bekrönung</objectType> von einenm monumentalen Grabbau, bestehend aus zwei gekreuzten Tonnengewölben. Innen hohl. Auf den Nebenseiten Blattmotiv mit Rosette, auf der Rückseite vegetabiles Ornament mit rautenförmigem Rahmen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>60</height>
@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109427">Cruciniacum</placeName>
                                 <placeName type="modern">Bad Kreuznach</placeName>
-                            <origDate notBefore="0100" notAfter="0300"/>
                             </origPlace>
+                            <origDate notBefore="0100" notAfter="0300"/>
                         </origin>
                             <provenance type="found" when="1834">
                             <placeName ref="ph">

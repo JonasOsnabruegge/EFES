@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>. Fragment von einem nicht näher identifizierten Monument, für die Sekundäverwendung abgearbeitet. Maßangaben aus alten Maßen (2,5 Fuß hoch, 2 Fuß breit, 4 Zoll tief, CIL) umgerechnet.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Fragment von einem nicht näher identifizierten Monument, für die Sekundäverwendung abgearbeitet. Maßangaben aus alten Maßen (2,5 Fuß hoch, 2 Fuß breit, 4 Zoll tief, CIL) umgerechnet.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height>(75)</height>

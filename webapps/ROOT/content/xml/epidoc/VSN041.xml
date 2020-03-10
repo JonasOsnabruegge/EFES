@@ -20,8 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>
-                                        <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>? Bildfeld mit stehender Rosmerta, rechts neben ihren Füßen Hahn. Oben rechts und unten rechts abgebrochen.
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>. Bildfeld mit stehender Rosmerta, rechts neben ihren Füßen Hahn. Oben rechts und unten rechts abgebrochen.
                                     </p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
@@ -37,7 +36,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige Buchstaben, in Z. 2 L mit kurzer Querhaste.</p>
+                                <p>Regelmäßige quadratische Buchstaben mit Serifen, in Z. 2 L mit kurzer Querhaste. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

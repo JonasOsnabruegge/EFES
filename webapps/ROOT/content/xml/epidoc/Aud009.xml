@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Bruchstück mit dem unteren Teil eines Votivreliefs, linker Teil des Sockels modern ergänzt. Stiertragender Mithras, auf Brusthöhe abgebrochen.</p>
+                                    <p>Bruchstück mit dem unteren Teil von einem <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/25">Votivrelief</objectType>, linker Teil des Sockels modern ergänzt. Stiertragender Mithras, auf Brusthöhe abgebrochen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(43)</height>
@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, flach eingehauene uchstaben</p>
+                                <p>Regelmäßige, flach eingehauene Buchstaben. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

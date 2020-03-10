@@ -31,15 +31,15 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>Inschriftfeld stark beschädigt. Die Buchstaben stehen recht gedrängt.</layout>
-                                <dimensions>
+                                <!--dimensions>
                                     <height>(17)</height>
                                     <depth>(60)</depth>
-                                </dimensions>
+                                </dimensions-->
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Weitgehend regelmäßige Buchstaben.</p>
+                                <p>Weitgehend regelmäßige, leicht uneinheitlich ausgeführte quadratische Buchstaben mit Serifen. (+)</p>
                                 <height min="3.8" max="4.2">4,2-3,8</height>
                             </handNote>
                         </handDesc>

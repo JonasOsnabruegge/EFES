@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment eines <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>s, nach Ditsch zu einem altarförmigen Grabbau gehörend, links und rechts abgebrochen. Über dem Inschriftfeld Relief, das jedoch modern rekonstruiert wurde.</p>
+                                    <p>Fragment eines Blocks, nach Ditsch zu einem <objectType>Grabaltar</objectType> gehörend, links und rechts abgebrochen. Über dem Inschriftfeld Relief, das jedoch modern rekonstruiert wurde.</p>
                                     <material>Sandstein?</material>
                                         <dimensions unit="cm">
                                             <height/>
@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig und tief eingehauene Buchstaben von guter Qualität, soweit noch erkennbar.</p>
+                                <p>Regelmäßige, sorgfältig und tief eingehauene Buchstaben von guter Qualität, soweit noch erkennbar. (+++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>

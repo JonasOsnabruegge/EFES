@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Sockel unten abgeschlagen, verrieben.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>, Sockel unten abgeschlagen, verrieben. Auf den Nebenseiten Opfergeräte.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>51,5</height>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, quadratische Buchstaben mit prominenten Serifen. Querhaste des T nicht mit Vertikalhaste verbunden.
+                                    Leicht unregelmäßige, quadratische Buchstaben mit prominenten Serifen. Querhaste des T nicht mit Vertikalhaste verbunden. (o)
                                 </p>
                                 <height min="3.3" max="4.5">4,5-3,3</height>
                             </handNote>
@@ -56,7 +56,7 @@
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/119026">Borbetomagus</placeName>
                                 <placeName type="modern">Worms</placeName> 
                             </origPlace>
-                            <origDate notBefore="0200" notAfter="0300" cert="low"/>
+                            <origDate notBefore="0201" notAfter="0300" cert="low"/>
                         </origin>
                         <provenance type="found" when="1844">
                             <placeName ref="ph">

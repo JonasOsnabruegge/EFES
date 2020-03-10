@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Unbekannt</term>. Allseitig abgebrochenes Fragment eine snicht näher identifizierten Monuments.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Allseitig abgebrochenes Fragment eines nicht näher identifizierten Monuments.</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -31,12 +31,6 @@
                             </supportDesc>
                             <layoutDesc>
                                     <p/>
-                                <layout>
-                                   <dimensions>
-                                        <height/>
-                                        <width/>
-                                    </dimensions>
-                                </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -53,8 +47,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Kreimbach-Kaulbach</placeName>
-                            <origDate notBefore="0001" notAfter="0300"/>
                             </origPlace>
+                            <origDate notBefore="0030" notAfter="0300"/>
                         </origin>
                             <provenance type="found" notAfter="1889">
                             <placeName ref="ph">

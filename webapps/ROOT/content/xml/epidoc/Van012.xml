@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment, oben, links, hinten und unten abgebrochen, bestoßen. An der rechten Nebenseite Reste eines Ornamentes mit Peltenschilden und Akanthusblättern. Nach Ditsch handelt es sich um ein Bruchstück aus der Vorderseite eines Aedicula- oder Altargrabbaus.</p>
+                                    <p>Fragment, oben, links, hinten und unten abgebrochen, bestoßen. An der rechten Nebenseite Reste eines Ornamentes mit Peltenschilden und Akanthusblättern. Nach Ditsch handelt es sich um ein Bruchstück aus der Vorderseite <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType> eines Aedicula- oder Altargrabbaus.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(32)</height>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, quadratische Buchstaben mit Serifen und breiten Hasten, tief und sorgfältig eingehauen. 
+                                    Regelmäßige, quadratische Buchstaben mit Serifen und breiten Hasten, tief und sorgfältig eingehauen. (++)
                                 </p>
                                 <height/>
                             </handNote>

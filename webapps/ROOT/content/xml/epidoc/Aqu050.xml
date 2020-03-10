@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, Statuette der Abnoba in kurzm Gewand, mit der Rechten einen Pfeil aus dem Köcher ziehend, die Linke auf einem Altar abgelegt, davor liegen Hund und Hase. Kopf der Abnoba abgeschlagen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>, Statuette der Abnoba in kurzem Gewand, mit der Rechten einen Pfeil aus dem Köcher ziehend, die Linke auf einem Altar abgelegt, davor liegen Hund und Hase. Kopf der Abnoba abgeschlagen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(76)</height>
@@ -31,7 +31,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Die Inschrift befindet sich auf der Basis, Zeile 1 links und rechts des linken Fußes der Göttin auf der Ober-, Zeile 2 auf der Vorderseite. Leicht ungeleichmäßiges, gedrängtes Schriftbild, Zeilenführung nicht eingehalten.</p>
+                                    <p>Die Inschrift befindet sich auf der Basis, Zeile 1 links und rechts des linken Fußes der Göttin auf der Ober-, Zeile 2 auf der Vorderseite. Leicht ungleichmäßiges, gedrängtes Schriftbild, Zeilenführung nicht eingehalten.</p>
                                    <dimensions>
                                         <height/>
                                         <width/>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Leicht unregelmäßige, uneinheitlich ausgeführte Buchstaben mit Serifen, teilweise breit, überwiegend schmal.
+                                    Leicht unregelmäßige, uneinheitlich ausgeführte Buchstaben mit Serifen, teilweise breit, überwiegend schmal. (-)
                                 </p>
                                 <height/>
                             </handNote>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/8314"/>
+        <graphic url="http://lupa.at/img/8314-3.jpg"/>
     </facsimile>
     <text>
         <body>

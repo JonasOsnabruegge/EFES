@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Fragment, oben, rechts und unten abgebrochen, verrieben.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Fragment, oben, rechts und unten abgebrochen, verrieben.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(64)</height>
@@ -42,7 +42,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, quadratische Buchstaben mit Serifen, flach eingehauen.
+                                    Regelmäßige, quadratische Buchstaben mit Serifen, flach eingehauen. (++)
                                 </p>
                                 <height/>
                             </handNote>

@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Brucstück von der Abdeckung einer Aschenkiste, oben und hinten abgebrochen. Zwischen den Vorder- und Nebenseite in den Ecken Pinienzapfen auf Sockel.</p>
+                                    <p>Bruchstück von der Abdeckung einer <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/79.html">Aschenkiste</objectType>, oben und hinten abgebrochen. Zwischen den Vorder- und Nebenseite in den Ecken Pinienzapfen auf Sockel.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(61)</height>
@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen. Leichte Unsicherheiten in der Ausführung der Bögen.
+                                    Regelmäßige, sorgfältig eingehauene, quadratische Buchstaben mit Serifen. Leichte Unsicherheiten in der Ausführung der Bögen. (++)
                                 </p>
                                 <height/>
                             </handNote>

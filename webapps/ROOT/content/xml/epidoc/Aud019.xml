@@ -44,7 +44,7 @@
                         <handDesc>
                             <handNote>
                                 <p>
-                                    Regelmäßige, sorgfältig gearbeitete quadratische Buchstaben mit Serifen (capitalis Quadrata). E und F mit gleich langen Querhasten.
+                                    Regelmäßige, sorgfältig gearbeitete quadratische Buchstaben mit Serifen (capitalis Quadrata). E und F mit gleich langen Querhasten. (++)
                                 </p>
                                 <height/>
                             </handNote>
@@ -56,13 +56,13 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CAud" ref="ph">Civitas Auderiensium</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
-                                <placeName type="modern">Obernburg/Main:</placeName> Kastell, porta principalis dextra, bei 
+                                <placeName type="modern">Obernburg/Main</placeName>
                             </origPlace>
                             <origDate notBefore="0170" notAfter="0250"/>
                         </origin>
                         <provenance type="found" when="1954">
                             <placeName ref="ph">
-                               Obernburg/Main, südlich der Stadt; 110 m von der porta principalis dextra an einer römischen Straße
+                               Obernburg/Main, südlich der Stadt; 110 m von der porta principalis dextra des Kastells an einer römischen Straße
                             </placeName><geo>49.8412 9.1466</geo>
                         </provenance>
                         <provenance type="observed">

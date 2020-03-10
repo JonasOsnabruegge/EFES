@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, oben abgebrochen bestoßen, bei der Bergung beschädigt. Unterhalb der Inschrift einfaches Bildfeld, Krater mit zwei Pfauen.</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>, oben abgebrochen, bestoßen, bei der Bergung beschädigt. Unterhalb der Inschrift einfaches Bildfeld, Krater mit zwei Pfauen.</p>
                                     <material>Sandstein</material>
                                         <dimensions unit="cm">
                                             <height>(169)</height>
@@ -78,7 +78,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/26007"/>
+        <graphic url="http://lupa.at/img/26007-4.jpg"/>
     </facsimile>
     <text>
         <body>
