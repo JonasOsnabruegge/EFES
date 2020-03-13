@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Leicht unregelmäßige, uneinheitlich ausgeführte, quadratische Buchstaben mit kurzen oder keinen Serifen. Schwankende Höhe.</p>
+                                <p>Leicht unregelmäßige, uneinheitlich ausgeführte, quadratische Buchstaben mit kurzen oder keinen Serifen. Schwankende Höhe. (o)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -54,7 +54,7 @@
                                 <placeName type="vicus" key="Altiaium" ref="https://pleiades.stoa.org/places/108736">Altiaium</placeName>
                                 <placeName type="modern">Alzey</placeName> 
                             </origPlace>
-                            <origDate when-custom="0223-11-22" datingMethod="#julian" type="consulship"/>
+                            <origDate when="0223-11-22" datingMethod="#julian" type="consulship"/>
                         </origin>
                             <provenance type="found" when="1783">
                             <placeName ref="ph">
@@ -76,7 +76,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://lupa.at/15483"/>
+        <graphic url="http://lupa.at/img/15483-1-2.jpg"/>
     </facsimile>
     <text>
         <body>

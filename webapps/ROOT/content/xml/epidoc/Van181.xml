@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Wiesweiler, bei</placeName>
-                            <origDate notBefore="0100" notAfter="0250"/>
                             </origPlace>
+                            <origDate notBefore="0100" notAfter="0250"/>
                         </origin>
                             <provenance type="found" notBefore="1850" notAfter="1859">
                             <placeName ref="ph">

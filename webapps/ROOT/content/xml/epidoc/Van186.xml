@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="Altiaia" ref="https://pleiades.stoa.org/places/108736">Altiaia</placeName>
                                 <placeName type="modern">Alzey</placeName>
-                            <origDate when="0237-11-11" datingMethod="#julian">Konsuln</origDate>
                             </origPlace>
+                            <origDate when="0237-11-11" datingMethod="#julian">Konsuln</origDate>
                         </origin>
                             <provenance type="found" when="2004">
                             <placeName ref="ph">

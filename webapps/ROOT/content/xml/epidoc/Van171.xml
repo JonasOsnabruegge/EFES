@@ -54,7 +54,7 @@
                                 <placeName type="vicus" key="Buconica" ref="https://pleiades.stoa.org/places/108835">Buconica</placeName>
                                 <placeName type="modern">Nierstein</placeName> 
                             </origPlace>
-                            <origDate notBefore="0030" notAfter="0300"/>
+                            <origDate notBefore="0100" notAfter="0300"/>
                         </origin>
                             <provenance type="found" when="1803">
                             <placeName ref="ph">

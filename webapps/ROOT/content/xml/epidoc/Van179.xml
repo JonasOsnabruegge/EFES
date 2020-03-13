@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Landstuhl</placeName>
-                            <origDate notBefore="0100" notAfter="0300"/>
                             </origPlace>
+                            <origDate notBefore="0100" notAfter="0300"/>
                         </origin>
                             <provenance type="found" notAfter="1905">
                             <placeName ref="ph">

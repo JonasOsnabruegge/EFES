@@ -43,7 +43,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig und qualitätvoll ausgeführte, eher schmale Buchstaben mit ausgeprägten Serifen. M mit mittig endenden Schräghasten. AE-Ligatur sehr schmal.</p>
+                                <p>Regelmäßige, sorgfältig und qualitätvoll ausgeführte, eher schmale Buchstaben mit ausgeprägten Serifen. M mit mittig endenden Schräghasten. AE-Ligatur sehr schmal. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -88,7 +88,7 @@
                     <lb n="2"/><persName type="divine" key="Apollo" role="god">Apollini</persName>
                     <lb n="3"/>et <persName type="divine" key="Sirona" role="god">Siron<hi rend="ligature">ae</hi></persName>
                     <lb n="4"/><persName type="attested" ref="persons.xml#p" role="creator"><name nymRef="Iulia" type="gentilicium">Iulia</name> <name nymRef="Frontina" type="cognomen">Fron<lb n="5" break="no"/>tina</name></persName>
-                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aeta</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                    <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aeta</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

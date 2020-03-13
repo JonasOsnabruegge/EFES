@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, eher flach und sorgfältig eingehauene quadratische Buchstaben mit Serifen, M mit schräggestellten seitlichen Hasten.</p>
+                                <p>Regelmäßige, eher flach und sorgfältig eingehauene quadratische Buchstaben mit Serifen, M mit schräggestellten seitlichen Hasten. (++)</p>
                                 <height>2,4-2,2</height>
                             </handNote>
                         </handDesc>
@@ -84,7 +84,7 @@
             <div type="edition" xml:space="preserve" xml:lang="lat">
                 <ab>
                     <lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <persName type="divine" key="Mercurius+" role="god"><supplied reason="lost">Mercur</supplied>io</persName> d<supplied reason="lost">eo</supplied>
-                    <lb n="2"/><hi rend="inverted"><supplied reason="lost">a</supplied>edem</hi> c<hi rend="ligature">um</hi> <milestone unit="section" type="relief" break="no"/>sign<hi rend="small">o</hi>
+                    <lb n="2"/><supplied reason="lost">a</supplied>edem c<hi rend="ligature">um</hi> <milestone unit="section" type="relief" break="no"/>sign<hi rend="small">o</hi>
                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
                 </ab>
             </div>

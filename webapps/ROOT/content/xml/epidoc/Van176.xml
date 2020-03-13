@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Nicht näher identifiziertes Monument, Grabinschrift? Nach der Auffindung bald zerschlagen (oder identisch mit CIL XIII 6282?).</p>
+                                    <p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">Unbekannt</objectType>. Nicht näher identifiziertes Monument, Grabmonument? Nach der Auffindung bald zerschlagen (oder identisch mit CIL XIII 6282?).</p>
                                     <material/>
                                         <dimensions unit="cm">
                                             <height/>
@@ -54,7 +54,7 @@
                                 <placeName type="vicus" key="Buconica" ref="https://pleiades.stoa.org/places/108835">Buconica</placeName>
                                 <placeName type="modern">Nierstein</placeName> 
                             </origPlace>
-                            <origDate notBefore="0001" notAfter="0300"/>
+                            <origDate notBefore="0030" notAfter="0300"/>
                         </origin>
                             <provenance type="found" notAfter="1744">
                             <placeName ref="ph">
@@ -94,7 +94,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>commentary</p>
+                <p>Grabinschnrift?</p>
             </div>
             <div type="bibliography">
                 <listBibl>

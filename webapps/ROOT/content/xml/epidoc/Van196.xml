@@ -52,9 +52,9 @@
                                 <placeName type="provinz" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName>
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="https://pleiades.stoa.org/places/109427">Cruciniacum</placeName>
-                                <placeName type="modern">Bad Kreuznach</placeName>
+                                <placeName type="modern">Bad Kreuznach</placeName>                                                              </origPlace>
                             <origDate notBefore="0100" notAfter="0300">CSIR 1/2-III</origDate>
-                            </origPlace>
+
                         </origin>
                             <provenance type="found" notBefore="1858" notAfter="1859">
                             <placeName ref="ph">

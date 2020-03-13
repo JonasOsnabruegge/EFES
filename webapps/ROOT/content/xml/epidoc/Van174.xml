@@ -41,7 +41,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Regelmäßige, sorgfältig eingehauene quadratische Buchstaben mit Serifen.</p>
+                                <p>Regelmäßige, sorgfältig eingehauene quadratische Buchstaben mit Serifen. (++)</p>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -54,7 +54,7 @@
                                 <placeName type="vicus" key="Buconica" ref="https://pleiades.stoa.org/places/108835">Buconica</placeName>
                                 <placeName type="modern">Nierstein</placeName> 
                             </origPlace>
-                            <origDate notBefore="0170" notAfter="0250"/>
+                            <origDate notBefore="0170" notAfter="0300"/>
                         </origin>
                             <provenance type="found" when="1767">
                             <placeName ref="ph">

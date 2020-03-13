@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><term>Fels</term>. Auf dem Felsen sechs Figuren im Relief.</p>
+                                    <p><objectType>Fels</objectType>. Auf dem Felsen sechs Figuren im Relief.</p>
                                     <material>Fels</material>
                                         <dimensions unit="cm">
                                             <height>145</height>
@@ -53,8 +53,8 @@
                                 <placeName type="civitas" key="CVan" ref="ph">Civitas Vangionum</placeName>
                                 <placeName type="ancient" key="ph" ref="ph"/>
                                 <placeName type="modern">Landstuhl, bei</placeName>
-                            <origDate notBefore="0100" notAfter="0250"/>
                             </origPlace>
+                            <origDate notBefore="0100" notAfter="0250"/>
                         </origin>
                             <provenance type="found" notAfter="1831">
                             <placeName ref="ph">
